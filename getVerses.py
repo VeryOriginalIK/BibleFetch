@@ -83,48 +83,213 @@ def format_for_bible_api_com(full_ref: str) -> str:
     
     # URL-encode the book name (replace spaces with '+')
     book_name_url = book_name.replace(' ', '')
-    return f"{book_name_url}{reference}"
+    return f"{book_name_url}{reference}".strip().replace('.', '')
 
 # The complete list of verses you provided
 VERSE_LIST_RAW = """
-Gen 20:17; Exod 15:26; 21:19; Lev 13:18; 13:37; 14:3; 14:48; 2 Sam 12:15; 1 Kgs 18:30; 2 Kgs 2:21; 2 Kgs 8:29; 2 Kgs 9:15; 2 Kgs 20:5; 20:8; 2 Chr 7:14; 22:6; 30:20; Job 5:18; Ps 6:2; 30:2; 41:4; 60:2; 103:3; 107:20; 147:3; Prov 3:8; 12:18; 13:17; 16:24; Eccl 3:3; Isa 6:10; 19:22; 30:26; 53:5; 57:18; 57:19; Jer 3:22; 6:14; 8:11; 8:22; 11:19; 14:19; 15:18; 17:14; 19:11; 30:17; 33:6; Lam 2:13; Ezek 34:4; 34:16; Hos 5:13; 6:1; 7:1; Nah 3:19; Zech 11:16.
-2 Chr 36:16; Prov 4:22; 12:18; 13:17; 14:30; 15:4; 16:24; 29:1; Isa 58:8; Jer 8:15; 14:19; 30:13; 33:6; Ezek 30:21; 30:22; Mal 4:2.
-Prov 12:18; Prov 15:4; Prov 29:1.
-Jer 30:13; Jer 46:11.
-Ezek 47:12.
-2 Kgs 8:29; 2 Chr 22:6; Job 5:18; Ps 147:3; Isa 1:6; 30:26; 61:1; Jer 30:17; Ezek 34:4; 34:16; Hos 6:1; Nah 3:19.
-Job 5:18; Isa 19:22.
-Matt 8:8; 13:15; Mark 5:29; Luke 4:18; 5:17; 6:18; 7:7; 8:47; 9:2; 9:11; 17:15; John 4:47; 5:13; 12:40; Acts 4:14; 9:34; 10:38; 28:8; Heb 12:13; Jas 5:16; 1 Pet 2:24;
-Matt 4:23; 4:24; 8:7; 9:35; 10:1; 10:8; 12:10; 12:15; 14:14; 15:30; 17:16; Mark 1:34; 3:2; 3:10; 6:13; Luke 4:23; 4:40; 5:15; 6:7; 6:18; 7:21; 9:1; 9:6; 10:9; 13:14; 14:3; John 5:10; Acts 4:14; 5:16; 8:7; 9:34; 10:38; Rev 13:3; 13:12.
-Matt 9:21; 9:22; Mark 5:23; 5:28; 5:34; 6:56; 10:52; Luke 7:50; 8:36; 8:48; 17:19; 18:42; Acts 14:9; Jas 5:15.
-Matt 12:13; Mark 5:34; John 5:6; 5:9; 7:23; Acts 3:16; 4:10; Tit 1:9; 1:13; 2:2; 2:8.
-Luke 5:31; 7:10; 15:27; 3 John 2.
-Luke 13:32; Acts 4:22.
-Matt 8:2, 8:3; 10:8; 11:5
-Mark 1:40, 1:41, 1:42
-Luke 4:27; 5:12, 5:13; 7:22; 17:14, 17:17
-Acts 10:15; 11:9
-Matt 9:25; 10:8; 11:5
-Mark 1:31; 5:41; 9:27
-Luke 7:14; 8:54
-John 5:8; 5:21
-Acts 3:7; 9:40
-1 Cor 15:15-16
-Matt 11:5; 20:34
-Mark 10:51; 10:52
-Luke 7:22; 18:41; 18:43
-John 9:11, 9:15, 9:18, 9:25, 9:39
-Mark 7:34-35
-Luke 24:31
-John 9:10, 9:14, 9:17, 9:21, 9:26, 9:30-32
+Gen 20:17
+Exod 15:26
+Exod 21:19
+Lev 13:18
+Lev 13:37
+Lev 14:3
+Lev 14:48
+2 Sam 12:15
+1 Kgs 18:30
+2 Kgs 2:21
+2 Kgs 8:29
+2 Kgs 9:15
+2 Kgs 20:5
+2 Kgs 20:8
+2 Chr 7:14
+2 Chr 22:6
+2 Chr 30:20
+2 Chr 36:16
+Job 5:18
+Ps 6:2
+Ps 30:2
+Ps 41:4
+Ps 60:2
+Ps 103:3
+Ps 107:20
+Ps 147:3
+Prov 3:8
+Prov 4:22
+Prov 12:18
+Prov 13:17
+Prov 14:30
+Prov 15:4
+Prov 16:24
+Prov 29:1
+Eccl 3:3
+Isa 1:6
+Isa 6:10
+Isa 19:22
+Isa 30:26
+Isa 53:5
+Isa 57:18
+Isa 57:19
+Isa 58:8
+Isa 61:1
+Jer 3:22
+Jer 6:14
+Jer 8:11
+Jer 8:15
+Jer 8:22
+Jer 11:19
+Jer 14:19
+Jer 15:18
+Jer 17:14
+Jer 19:11
+Jer 30:13
+Jer 30:17
+Jer 33:6
+Jer 46:11
+Lam 2:13
+Ezek 30:21
+Ezek 30:22
+Ezek 34:4
+Ezek 34:16
+Ezek 47:12
+Hos 5:13
+Hos 6:1
+Hos 7:1
+Nah 3:19
+Zech 11:16
+Mal 4:2
+Matt 4:23
+Matt 4:24
+Matt 8:2
+Matt 8:3
+Matt 8:7
+Matt 8:8
+Matt 9:18
+Matt 9:21
+Matt 9:22
+Matt 9:25
+Matt 9:35
+Matt 10:1
+Matt 10:8
+Matt 11:5
+Matt 12:10
 Matt 12:13
+Matt 12:15
+Matt 14:14
+Matt 14:30
+Matt 15:30
+Matt 17:16
+Matt 20:34
+Mark 1:31
+Mark 1:34
+Mark 1:40
+Mark 1:41
+Mark 1:42
+Mark 3:2
 Mark 3:5
+Mark 3:10
+Mark 5:23
+Mark 5:28
+Mark 5:34
+Mark 5:41
+Mark 6:13
+Mark 6:56
+Mark 7:32
+Mark 7:34-35
+Mark 8:23
 Mark 8:25
-Matt 14:30; Luke 8:50; Acts 27:20; Acts 27:34.
-Luke 13:13
 Mark 9:12
+Mark 9:27
+Mark 10:51
+Mark 10:52
+
+Luke 4:18
+Luke 4:23
+Luke 4:27
+Luke 4:40
+Luke 5:12
+Luke 5:13
+Luke 5:15
+Luke 5:17
+Luke 5:18
+Luke 5:31
+Luke 7:7
+Luke 7:10
+Luke 7:14
+Luke 7:21
+Luke 7:22
+Luke 7:50
+Luke 8:36
+Luke 8:47
+Luke 8:48
+Luke 8:50
+Luke 8:54
+Luke 9:1
+Luke 9:2
+Luke 9:6
+Luke 9:11
+Luke 10:9
 Luke 13:12
-Matt 9:18; Mark 5:23; 6:5; 7:32; 8:23, 8:25; Luke 4:40; 13:13; Acts 9:12, 9:17; 28:8.
+Luke 13:13
+Luke 13:14
+Luke 13:32
+Luke 15:27
+Luke 17:14
+Luke 17:15
+Luke 17:17
+Luke 17:19
+Luke 18:41
+Luke 18:42
+Luke 18:43
+Luke 24:31
+John 4:47
+John 5:6
+John 5:8
+John 5:9
+John 5:10
+John 5:13
+John 5:21
+John 7:23
+John 9:10
+John 9:11
+John 9:14
+John 9:15
+John 9:17
+John 9:18
+John 9:21
+John 9:25
+John 9:26
+John 9:30-32
+John 9:39
+John 12:40
+Acts 3:7
+Acts 3:16
+Acts 4:10
+Acts 4:14
+Acts 4:22
+Acts 5:16
+Acts 8:7
+Acts 9:12
+Acts 9:17
+Acts 9:34
+Acts 10:15
+Acts 10:38
+Acts 11:9
+Acts 14:9
+Acts 27:20
+Acts 27:34
+Acts 28:8
+1 Cor 15:15-16
+Tit 1:9
+Tit 1:13
+Tit 2:2
+Tit 2:8
+Heb 12:13
+Jas 5:15
+Jas 5:16
+1 Pet 2:24
+3 John 2
+Rev 13:3
+Rev 13:12
 """
 
 # ---------------------------------------------------------------------------
@@ -135,11 +300,12 @@ Matt 9:18; Mark 5:23; 6:5; 7:32; 8:23, 8:25; Luke 4:40; 13:13; Acts 9:12, 9:17; 
 def get_verse_text_bible_api(url):
     """Fetches a single verse from bible-api.com."""
     
-    
     try:
         response = requests.get(url)
         # Check for 404 or other errors
         if response.status_code != 200:
+            if ('ylt' in url):
+                return "Verse not found in YLT translation."
             print(f"  -> HTTP Error for {url}: error={response.status_code}")
             if response.status_code == 429:
                 print("Retrying..")
@@ -148,32 +314,17 @@ def get_verse_text_bible_api(url):
             return f"HTTP Error: {response.status_code}"
             
         data = response.json()
-        print(f"Success: {data['text']}")
         # Check for API-specific errors
         if 'error' in data:
             print(f"  -> API Error for {url}: {data['error']}")
             return f"API Error: {data['error']}"
 
         # The text is in the 'text' field
-        return data['text'].strip()
+        return data
         
     except Exception as e:
         print(f"  -> Error fetching {url}: {e}")
         return "Error"
-
-
-def parse_verse_ref_for_bible_api(verse_ref: str) -> Optional[Tuple[str, str, str]]:
-    """Parses 'Book Chapter:Verse' into parts. e.g., '2 Kgs 8:29'"""
-    match = re.match(r'^(.*?)\s+(\d+):(\d+)$', verse_ref.strip())
-    if not match:
-        print(f"Warning: Could not parse reference: {verse_ref}")
-        return None
-        
-    book_name = match.group(1).strip()
-    chapter = match.group(2)
-    verse = match.group(3)
-    
-    return (book_name, chapter, verse)
 
 def main():
     """Main function to fetch verses and save them to files."""
@@ -183,29 +334,30 @@ def main():
     print(f"Found {len(verses_to_fetch)} unique verses to fetch.")
     
     data_rows = []
-    
+    translations = ["bbe","web","ylt"]
+
     for i, ref in enumerate(verses_to_fetch):
-        print(f"Fetching verse {i+1}/{len(verses_to_fetch)}: {ref}")
-        
-        parsed_ref = parse_verse_ref_for_bible_api(ref)
-        print(parsed_ref)
+        data_row = {}
+        parsed_ref = format_for_bible_api_com(ref)
         if not parsed_ref:
             continue
-            
-        book_name, chapter, verse = parsed_ref
-        
-        # 1. Create the Bible Gateway link
-        bg_link = f"https://bible-api.com/{book_name}{chapter}:{verse}"
-        
-        # 3. Fetch verse text (KJV only)
-        time.sleep(2) # Be polite to the API
-        kjv_text = get_verse_text_bible_api(bg_link)
-        
+        for translation in translations:            
+            # 1. Create the Bible Gateway link
+            bg_link = f"https://bible-api.com/{parsed_ref}?translation={translation}"
+
+            # 3. Fetch verse text
+            time.sleep(1.7) # Be polite to the API
+            verse_data = get_verse_text_bible_api(bg_link)
+            if('Verse not found' in verse_data) or ('Error' in verse_data):
+                data_row[translation] = ""
+            else:
+                data_row[translation] = verse_data['text'].strip()
+
         # 4. Add data to our list
         data_rows.append({
             "Verse Reference": ref,
-            "Bible Gateway Link (Chapter)": bg_link.split(':')[0]+bg_link.split(':')[1],
-            "English (KJV)": kjv_text, # Added KJV
+            "Bible Gateway Link (Chapter)": parsed_ref,
+            **data_row
         })
 
     print("\nAll verses fetched. Creating output files...")
@@ -216,9 +368,11 @@ def main():
     # Define column order
     columns = [
         "Verse Reference",
-        "Bible Gateway Link (Chapter)",
-        "English (KJV)"
+        "Bible Gateway Link (Chapter)"
     ]
+    for translation in translations:
+        columns.append(translation)
+
     df = df[columns]
     
     # Save to Excel
@@ -231,7 +385,7 @@ def main():
     df.to_csv(csv_file, index=False, encoding='utf-8-sig')
     print(f"✅ Successfully created CSV file: {csv_file}")
     
-    print("\nDone. Note that only English KJV text was fetched.")
+    print("\nDone.")
 
 
 if __name__ == "__main__":
