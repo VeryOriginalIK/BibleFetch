@@ -1,0 +1,40 @@
+[
+  {
+    "id": "hope",
+    "title": {
+      "en": "Hope",
+      "hu": "Reménység",
+      "es": "Esperanza"
+    },
+    "icon": "anchor",  // Lucide icon name
+    "theme": {
+      "gradient_start": "#4facfe", // For the Share Image generator
+      "gradient_end": "#00f2fe",
+      "text_color": "#ffffff"
+    },
+    "verse_ids": [
+      "jer-29-11",
+      "rom-8-28",
+      "isa-40-31",
+      "lam-3-24"
+    ]
+  },
+  {
+    "id": "love",
+    "title": {
+      "en": "Love",
+      "hu": "Szeretet"
+    },
+    "icon": "heart",
+    "theme": {
+      "gradient_start": "#ff9a9e",
+      "gradient_end": "#fecfef",
+      "text_color": "#000000"
+    },
+    "verse_ids": [
+      "jn-3-16",
+      "1cor-13-4",
+      "1jn-4-8"
+    ]
+  }
+]
