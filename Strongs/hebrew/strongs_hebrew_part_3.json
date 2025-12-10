@@ -1,0 +1,4002 @@
+{
+  "sw-ishshh": {
+    "strongs": 801,
+    "original_word": "אִשָּׁה",
+    "transliteration": "ʼishshâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, a burnt-offering; but occasionally of any sacrifice",
+      "hu": ""
+    }
+  },
+  "sw-ishshh-802": {
+    "strongs": 802,
+    "original_word": "אִשָּׁה",
+    "transliteration": "ʼishshâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a woman",
+      "hu": ""
+    }
+  },
+  "sw-shwyh": {
+    "strongs": 803,
+    "original_word": "אֲשׁוּיָה",
+    "transliteration": "ʼăshûwyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "foundation",
+      "hu": ""
+    }
+  },
+  "sw-ashshwr": {
+    "strongs": 804,
+    "original_word": "אַשּׁוּר",
+    "transliteration": "ʼAshshûwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ashshur, the second son of Shem; also his descendants and the country occupied by them (i.e. Assyria), its region and its empire",
+      "hu": ""
+    }
+  },
+  "sw-shwry": {
+    "strongs": 805,
+    "original_word": "אֲשׁוּרִי",
+    "transliteration": "ʼĂshûwrîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an Ashurite (collectively) or inhabitant of Ashur, a district in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-ashchwr": {
+    "strongs": 806,
+    "original_word": "אַשְׁחוּר",
+    "transliteration": "ʼAshchûwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ashchur, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-ashym": {
+    "strongs": 807,
+    "original_word": "אַשִׁימָא",
+    "transliteration": "ʼAshîymâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ashima, a deity of Hamath",
+      "hu": ""
+    }
+  },
+  "sw-shysh": {
+    "strongs": 808,
+    "original_word": "אָשִׁישׁ",
+    "transliteration": "ʼâshîysh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a (ruined) foundation",
+      "hu": ""
+    }
+  },
+  "sw-shyshh": {
+    "strongs": 809,
+    "original_word": "אֲשִׁישָׁה",
+    "transliteration": "ʼăshîyshâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something closely pressed together, i.e. a cake of raisins or other comfits",
+      "hu": ""
+    }
+  },
+  "sw-eshek": {
+    "strongs": 810,
+    "original_word": "אֶשֶׁךְ",
+    "transliteration": "ʼeshek",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a testicle (as a lump)",
+      "hu": ""
+    }
+  },
+  "sw-eshkwl": {
+    "strongs": 811,
+    "original_word": "אֶשְׁכּוֹל",
+    "transliteration": "ʼeshkôwl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a bunch of grapes or other fruit",
+      "hu": ""
+    }
+  },
+  "sw-eshkl": {
+    "strongs": 812,
+    "original_word": "אֶשְׁכֹּל",
+    "transliteration": "ʼEshkôl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Eshcol, the name of an Amorite, also of a valley in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-ashknaz": {
+    "strongs": 813,
+    "original_word": "אַשְׁכְּנַז",
+    "transliteration": "ʼAshkᵉnaz",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ashkenaz, a Japhethite, also his descendants",
+      "hu": ""
+    }
+  },
+  "sw-eshkr": {
+    "strongs": 814,
+    "original_word": "אֶשְׁכָּר",
+    "transliteration": "ʼeshkâr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a gratuity",
+      "hu": ""
+    }
+  },
+  "sw-shel": {
+    "strongs": 815,
+    "original_word": "אֵשֶׁל",
+    "transliteration": "ʼêshel",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a tamarisk tree; by extension, a grove of any kind",
+      "hu": ""
+    }
+  },
+  "sw-sham": {
+    "strongs": 816,
+    "original_word": "אָשַׁם",
+    "transliteration": "ʼâsham",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to be guilty; by implication to be punished or perish",
+      "hu": ""
+    }
+  },
+  "sw-shm": {
+    "strongs": 817,
+    "original_word": "אָשָׁם",
+    "transliteration": "ʼâshâm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "guilt; by implication, a fault; also a sin-offering",
+      "hu": ""
+    }
+  },
+  "sw-shm-818": {
+    "strongs": 818,
+    "original_word": "אָשֵׁם",
+    "transliteration": "ʼâshêm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "guilty; hence, presenting asin-offering",
+      "hu": ""
+    }
+  },
+  "sw-ashmh": {
+    "strongs": 819,
+    "original_word": "אַשְׁמָה",
+    "transliteration": "ʼashmâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "guiltiness, a fault, the presentation of asin-offering",
+      "hu": ""
+    }
+  },
+  "sw-ashmn": {
+    "strongs": 820,
+    "original_word": "אַשְׁמָן",
+    "transliteration": "ʼashmân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a fat-field",
+      "hu": ""
+    }
+  },
+  "sw-ashmurh": {
+    "strongs": 821,
+    "original_word": "אַשְׁמֻרָה",
+    "transliteration": "ʼashmurâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a night watch",
+      "hu": ""
+    }
+  },
+  "sw-eshnb": {
+    "strongs": 822,
+    "original_word": "אֶשְׁנָב",
+    "transliteration": "ʼeshnâb",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a latticed window",
+      "hu": ""
+    }
+  },
+  "sw-ashnh": {
+    "strongs": 823,
+    "original_word": "אַשְׁנָה",
+    "transliteration": "ʼAshnâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ashnah, the name of two places in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-eshn": {
+    "strongs": 824,
+    "original_word": "אֶשְׁעָן",
+    "transliteration": "ʼEshʻân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Eshan, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-ashshph": {
+    "strongs": 825,
+    "original_word": "אַשָּׁף",
+    "transliteration": "ʼashshâph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a conjurer",
+      "hu": ""
+    }
+  },
+  "sw-ashshph-826": {
+    "strongs": 826,
+    "original_word": "אַשָּׁף",
+    "transliteration": "ʼashshâph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{a conjurer}",
+      "hu": ""
+    }
+  },
+  "sw-ashph": {
+    "strongs": 827,
+    "original_word": "אַשְׁפָּה",
+    "transliteration": "ʼashpâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a quiver or arrow-case",
+      "hu": ""
+    }
+  },
+  "sw-ashpnaz": {
+    "strongs": 828,
+    "original_word": "אַשְׁפְּנַז",
+    "transliteration": "ʼAshpᵉnaz",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ashpenaz, a Babylonian eunuch",
+      "hu": ""
+    }
+  },
+  "sw-eshpr": {
+    "strongs": 829,
+    "original_word": "אֶשְׁפָּר",
+    "transliteration": "ʼeshpâr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a measured portion",
+      "hu": ""
+    }
+  },
+  "sw-ashpth": {
+    "strongs": 830,
+    "original_word": "אַשְׁפֹּת",
+    "transliteration": "ʼashpôth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a heap of rubbish or filth",
+      "hu": ""
+    }
+  },
+  "sw-ashqlwn": {
+    "strongs": 831,
+    "original_word": "אַשְׁקְלוֹן",
+    "transliteration": "ʼAshqᵉlôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ashkelon, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-eshqlwny": {
+    "strongs": 832,
+    "original_word": "אֶשְׁקְלוֹנִי",
+    "transliteration": "ʼEshqᵉlôwnîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ashkelonite (collectively) or inhabitant of Ashkelon",
+      "hu": ""
+    }
+  },
+  "sw-shar": {
+    "strongs": 833,
+    "original_word": "אָשַׁר",
+    "transliteration": "ʼâshar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to be straight (used in the widest sense, especially to be level, right, happy); figuratively, to go forward, be honest, proper",
+      "hu": ""
+    }
+  },
+  "sw-sher": {
+    "strongs": 834,
+    "original_word": "אֲשֶׁר",
+    "transliteration": "ʼăsher",
+    "language": "Hebrew",
+    "definition": {
+      "en": "who, which, what, that; also (as an adverb and a conjunction) when, where, how, because, in order that, etc.",
+      "hu": ""
+    }
+  },
+  "sw-esher": {
+    "strongs": 835,
+    "original_word": "אֶשֶׁר",
+    "transliteration": "ʼesher",
+    "language": "Hebrew",
+    "definition": {
+      "en": "happiness; only in masculine plural construction as interjection, how happy!",
+      "hu": ""
+    }
+  },
+  "sw-shr": {
+    "strongs": 836,
+    "original_word": "אָשֵׁר",
+    "transliteration": "ʼÂshêr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "happy; Asher, a son of Jacob, and the tribe descended from him, with its territory; also a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-sher-837": {
+    "strongs": 837,
+    "original_word": "אֹשֶׁר",
+    "transliteration": "ʼôsher",
+    "language": "Hebrew",
+    "definition": {
+      "en": "happiness",
+      "hu": ""
+    }
+  },
+  "sw-shur": {
+    "strongs": 838,
+    "original_word": "אָשֻׁר",
+    "transliteration": "ʼâshur",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a step",
+      "hu": ""
+    }
+  },
+  "sw-shur-839": {
+    "strongs": 839,
+    "original_word": "אֲשֻׁר",
+    "transliteration": "ʼăshur",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the cedar tree or some other light elastic wood",
+      "hu": ""
+    }
+  },
+  "sw-sarl": {
+    "strongs": 840,
+    "original_word": "אֲשַׂרְאֵל",
+    "transliteration": "ʼĂsarʼêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Asarel, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-sarlh": {
+    "strongs": 841,
+    "original_word": "אֲשַׂרְאֵלָה",
+    "transliteration": "ʼĂsarʼêlâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Asarelah, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-shrh": {
+    "strongs": 842,
+    "original_word": "אֲשֵׁרָה",
+    "transliteration": "ʼăshêrâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Asherah (or Astarte) a Phoenician goddess; also an image of the same",
+      "hu": ""
+    }
+  },
+  "sw-shry": {
+    "strongs": 843,
+    "original_word": "אָשֵׁרִי",
+    "transliteration": "ʼÂshêrîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an Asherite (collectively) or descendant of Asher",
+      "hu": ""
+    }
+  },
+  "sw-asryl": {
+    "strongs": 844,
+    "original_word": "אַשְׂרִיאֵל",
+    "transliteration": "ʼAsrîyʼêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Asriel, the name of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-asrily": {
+    "strongs": 845,
+    "original_word": "אַשְׂרִאֵלִי",
+    "transliteration": "ʼAsriʼêlîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an Asrielite (collectively) or descendant of Asriel",
+      "hu": ""
+    }
+  },
+  "sw-ushsharn": {
+    "strongs": 846,
+    "original_word": "אֻשַּׁרְנָא",
+    "transliteration": "ʼushsharnâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a wall (from its uprightness)",
+      "hu": ""
+    }
+  },
+  "sw-eshtl": {
+    "strongs": 847,
+    "original_word": "אֶשְׁתָּאֹל",
+    "transliteration": "ʼEshtâʼôl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Eshtaol, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-eshtuly": {
+    "strongs": 848,
+    "original_word": "אֶשְׁתָּאֻלִי",
+    "transliteration": "ʼEshtâʼulîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an Eshtaolite (collectively) or inhabitant of Eshtaol",
+      "hu": ""
+    }
+  },
+  "sw-eshtaddwr": {
+    "strongs": 849,
+    "original_word": "אֶשְׁתַּדּוּר",
+    "transliteration": "ʼeshtaddûwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "rebellion",
+      "hu": ""
+    }
+  },
+  "sw-eshtwn": {
+    "strongs": 850,
+    "original_word": "אֶשְׁתּוֹן",
+    "transliteration": "ʼEshtôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Eshton, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-eshtma": {
+    "strongs": 851,
+    "original_word": "אֶשְׁתְּמֹעַ",
+    "transliteration": "ʼEshtᵉmôaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Eshtemoa or Eshtemoh, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-th": {
+    "strongs": 852,
+    "original_word": "אָת",
+    "transliteration": "ʼâth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a portent",
+      "hu": ""
+    }
+  },
+  "sw-th-853": {
+    "strongs": 853,
+    "original_word": "אֵת",
+    "transliteration": "ʼêth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, self (but generally used to point out more definitely the object of a verb or preposition, even or namely)",
+      "hu": ""
+    }
+  },
+  "sw-th-854": {
+    "strongs": 854,
+    "original_word": "אֵת",
+    "transliteration": "ʼêth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, nearness (used only as a preposition or an adverb), near; hence, generally, with, by, at, among, etc.",
+      "hu": ""
+    }
+  },
+  "sw-th-855": {
+    "strongs": 855,
+    "original_word": "אֵת",
+    "transliteration": "ʼêth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a hoe or other digging implement",
+      "hu": ""
+    }
+  },
+  "sw-ethbaal": {
+    "strongs": 856,
+    "original_word": "אֶתְבַּעַל",
+    "transliteration": "ʼEthbaʻal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ethbaal, a Phoenician king",
+      "hu": ""
+    }
+  },
+  "sw-thh": {
+    "strongs": 857,
+    "original_word": "אָתָה",
+    "transliteration": "ʼâthâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to arrive",
+      "hu": ""
+    }
+  },
+  "sw-thh-858": {
+    "strongs": 858,
+    "original_word": "אָתָה",
+    "transliteration": "ʼâthâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{to arrive}",
+      "hu": ""
+    }
+  },
+  "sw-atth": {
+    "strongs": 859,
+    "original_word": "אַתָּה",
+    "transliteration": "ʼattâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "thou and thee, or (plural) ye and you",
+      "hu": ""
+    }
+  },
+  "sw-thwn": {
+    "strongs": 860,
+    "original_word": "אָתוֹן",
+    "transliteration": "ʼâthôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a female donkey (from its docility)",
+      "hu": ""
+    }
+  },
+  "sw-attwn": {
+    "strongs": 861,
+    "original_word": "אַתּוּן",
+    "transliteration": "ʼattûwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "probably a fire-place, i.e. furnace",
+      "hu": ""
+    }
+  },
+  "sw-attwq": {
+    "strongs": 862,
+    "original_word": "אַתּוּק",
+    "transliteration": "ʼattûwq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a ledge or offset in abuilding",
+      "hu": ""
+    }
+  },
+  "sw-ittay": {
+    "strongs": 863,
+    "original_word": "אִתַּי",
+    "transliteration": "ʼIttay",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ittai or Ithai, the name of a Gittite and of an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-thm": {
+    "strongs": 864,
+    "original_word": "אֵתָם",
+    "transliteration": "ʼÊthâm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Etham, a place in the Desert",
+      "hu": ""
+    }
+  },
+  "sw-ethmwl": {
+    "strongs": 865,
+    "original_word": "אֶתְמוֹל",
+    "transliteration": "ʼethmôwl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "heretofore; definitely yesterday",
+      "hu": ""
+    }
+  },
+  "sw-ethnh": {
+    "strongs": 866,
+    "original_word": "אֶתְנָה",
+    "transliteration": "ʼethnâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a present (as the price of harlotry)",
+      "hu": ""
+    }
+  },
+  "sw-ethny": {
+    "strongs": 867,
+    "original_word": "אֶתְנִי",
+    "transliteration": "ʼEthnîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ethni, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-ethnan": {
+    "strongs": 868,
+    "original_word": "אֶתְנַן",
+    "transliteration": "ʼethnan",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a gift (as the price of harlotry or idolatry)",
+      "hu": ""
+    }
+  },
+  "sw-ethnan-869": {
+    "strongs": 869,
+    "original_word": "אֶתְנַן",
+    "transliteration": "ʼEthnan",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ethnan, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-thar": {
+    "strongs": 870,
+    "original_word": "אֲתַר",
+    "transliteration": "ʼăthar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a place; (adverb) after",
+      "hu": ""
+    }
+  },
+  "sw-thrym": {
+    "strongs": 871,
+    "original_word": "אֲתָרִים",
+    "transliteration": "ʼĂthârîym",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Atharim, a place near Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bh-872": {
+    "strongs": 872,
+    "original_word": "בְּאָה",
+    "transliteration": "bᵉʼâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an entrance to a building",
+      "hu": ""
+    }
+  },
+  "sw-biwsh": {
+    "strongs": 873,
+    "original_word": "בִּאוּשׁ",
+    "transliteration": "biʼûwsh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "wicked",
+      "hu": ""
+    }
+  },
+  "sw-bar-874": {
+    "strongs": 874,
+    "original_word": "בָּאַר",
+    "transliteration": "bâʼar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to dig; by analogy, to engrave; figuratively, to explain",
+      "hu": ""
+    }
+  },
+  "sw-br": {
+    "strongs": 875,
+    "original_word": "בְּאֵר",
+    "transliteration": "bᵉʼêr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a pit; especially a well",
+      "hu": ""
+    }
+  },
+  "sw-br-876": {
+    "strongs": 876,
+    "original_word": "בְּאֵר",
+    "transliteration": "Bᵉʼêr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beer, a place in the Desert, also one in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-br-877": {
+    "strongs": 877,
+    "original_word": "בֹּאר",
+    "transliteration": "bôʼr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a cistern",
+      "hu": ""
+    }
+  },
+  "sw-br-878": {
+    "strongs": 878,
+    "original_word": "בְּאֵרָא",
+    "transliteration": "Bᵉʼêrâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beera, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-brlym": {
+    "strongs": 879,
+    "original_word": "בְּאֵר אֵלִים",
+    "transliteration": "Bᵉʼêr ʼÊlîym",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beer-Elim, a place in the Desert",
+      "hu": ""
+    }
+  },
+  "sw-brh": {
+    "strongs": 880,
+    "original_word": "בְּאֵרָה",
+    "transliteration": "Bᵉʼêrâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beerah, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-brwth": {
+    "strongs": 881,
+    "original_word": "בְּאֵרוֹת",
+    "transliteration": "Bᵉʼêrôwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beeroth, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bry": {
+    "strongs": 882,
+    "original_word": "בְּאֵרִי",
+    "transliteration": "Bᵉʼêrîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beeri, the name of a Hittite and of an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-brlachayry": {
+    "strongs": 883,
+    "original_word": "בְּאֵר לַחַי רֹאִי",
+    "transliteration": "Bᵉʼêr la-Chay Rôʼîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beer-Lachai-Roi, a place in the Desert",
+      "hu": ""
+    }
+  },
+  "sw-brsheba": {
+    "strongs": 884,
+    "original_word": "בְּאֵר שֶׁבַע",
+    "transliteration": "Bᵉʼêr Shebaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beer-Sheba, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-brthbnyyaqan": {
+    "strongs": 885,
+    "original_word": "בְּאֵרֹת בְּנֵי־יַעֲקַן",
+    "transliteration": "Bᵉʼêrôth Bᵉnêy-Yaʻăqan",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beeroth-Bene-Jaakan, a place in the Desert",
+      "hu": ""
+    }
+  },
+  "sw-brthy": {
+    "strongs": 886,
+    "original_word": "בְּאֵרֹתִי",
+    "transliteration": "Bᵉʼêrôthîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Beerothite or inhabitant of Beeroth",
+      "hu": ""
+    }
+  },
+  "sw-bash": {
+    "strongs": 887,
+    "original_word": "בָּאַשׁ",
+    "transliteration": "bâʼash",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to smell bad; figuratively, to be offensive morally",
+      "hu": ""
+    }
+  },
+  "sw-bsh": {
+    "strongs": 888,
+    "original_word": "בְּאֵשׁ",
+    "transliteration": "bᵉʼêsh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{to smell bad; figuratively, to be offensive morally}",
+      "hu": ""
+    }
+  },
+  "sw-bsh-889": {
+    "strongs": 889,
+    "original_word": "בְּאֹשׁ",
+    "transliteration": "bᵉʼôsh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a stench",
+      "hu": ""
+    }
+  },
+  "sw-boshh": {
+    "strongs": 890,
+    "original_word": "בׇּאְשָׁה",
+    "transliteration": "boʼshâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "stink-weed or any other noxious or useless plant",
+      "hu": ""
+    }
+  },
+  "sw-bushym": {
+    "strongs": 891,
+    "original_word": "בְּאֻשִׁים",
+    "transliteration": "bᵉʼushîym",
+    "language": "Hebrew",
+    "definition": {
+      "en": "poison-berries",
+      "hu": ""
+    }
+  },
+  "sw-bbh": {
+    "strongs": 892,
+    "original_word": "בָּבָה",
+    "transliteration": "bâbâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something hollowed (as a gate), i.e. pupil of the eye",
+      "hu": ""
+    }
+  },
+  "sw-bbay": {
+    "strongs": 893,
+    "original_word": "בֵּבַי",
+    "transliteration": "Bêbay",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bebai, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-bbel": {
+    "strongs": 894,
+    "original_word": "בָּבֶל",
+    "transliteration": "Bâbel",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Babel (i.e. Babylon), including Babylonia and the Babylonian empire",
+      "hu": ""
+    }
+  },
+  "sw-babel": {
+    "strongs": 895,
+    "original_word": "בַּבֶל",
+    "transliteration": "Babel",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{Babel (i.e. Babylon), including Babylonia and the Babylonian empire}",
+      "hu": ""
+    }
+  },
+  "sw-bably": {
+    "strongs": 896,
+    "original_word": "בַּבְלִי",
+    "transliteration": "Bablîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Babylonian",
+      "hu": ""
+    }
+  },
+  "sw-bag": {
+    "strongs": 897,
+    "original_word": "בַּג",
+    "transliteration": "bag",
+    "language": "Hebrew",
+    "definition": {
+      "en": "food",
+      "hu": ""
+    }
+  },
+  "sw-bgad": {
+    "strongs": 898,
+    "original_word": "בָּגַד",
+    "transliteration": "bâgad",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to cover (with a garment); figuratively, to act covertly; by implication, to pillage",
+      "hu": ""
+    }
+  },
+  "sw-beged": {
+    "strongs": 899,
+    "original_word": "בֶּגֶד",
+    "transliteration": "beged",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a covering, i.e. clothing; also treachery or pillage",
+      "hu": ""
+    }
+  },
+  "sw-bgdwth": {
+    "strongs": 900,
+    "original_word": "בֹּגְדוֹת",
+    "transliteration": "bôgᵉdôwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "treacheries",
+      "hu": ""
+    }
+  },
+  "sw-bgwd": {
+    "strongs": 901,
+    "original_word": "בָּגוֹד",
+    "transliteration": "bâgôwd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "treacherous",
+      "hu": ""
+    }
+  },
+  "sw-bigvay": {
+    "strongs": 902,
+    "original_word": "בִּגְוַי",
+    "transliteration": "Bigvay",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bigvai, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-bigth": {
+    "strongs": 903,
+    "original_word": "בִּגְתָא",
+    "transliteration": "Bigthâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bigtha, a eunuch of Xerxes",
+      "hu": ""
+    }
+  },
+  "sw-bigthn": {
+    "strongs": 904,
+    "original_word": "בִּגְתָן",
+    "transliteration": "Bigthân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bigthan or Bigthana, a eunuch of Xerxes",
+      "hu": ""
+    }
+  },
+  "sw-bad-905": {
+    "strongs": 905,
+    "original_word": "בַּד",
+    "transliteration": "bad",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, separation; by implication, a part of the body, branch of atree, bar forcarrying; figuratively, chief of a city; especially (with prepositional prefix) as an adverb, apart, only, besides",
+      "hu": ""
+    }
+  },
+  "sw-bad-906": {
+    "strongs": 906,
+    "original_word": "בַּד",
+    "transliteration": "bad",
+    "language": "Hebrew",
+    "definition": {
+      "en": "flaxen thread or yarn; hence, a linen garment",
+      "hu": ""
+    }
+  },
+  "sw-bad-907": {
+    "strongs": 907,
+    "original_word": "בַּד",
+    "transliteration": "bad",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a brag or lie; also a liar",
+      "hu": ""
+    }
+  },
+  "sw-bd-908": {
+    "strongs": 908,
+    "original_word": "בָּדָא",
+    "transliteration": "bâdâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "(figuratively) to invent",
+      "hu": ""
+    }
+  },
+  "sw-bdad": {
+    "strongs": 909,
+    "original_word": "בָּדַד",
+    "transliteration": "bâdad",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to divide, i.e. (reflex.) be solitary",
+      "hu": ""
+    }
+  },
+  "sw-bdd": {
+    "strongs": 910,
+    "original_word": "בָּדָד",
+    "transliteration": "bâdâd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "separate; adverb, separately",
+      "hu": ""
+    }
+  },
+  "sw-bdad-911": {
+    "strongs": 911,
+    "original_word": "בְּדַד",
+    "transliteration": "Bᵉdad",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bedad, an Edomite",
+      "hu": ""
+    }
+  },
+  "sw-bdyh": {
+    "strongs": 912,
+    "original_word": "בֵּדְיָה",
+    "transliteration": "Bêdᵉyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bedejah, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-bdyl": {
+    "strongs": 913,
+    "original_word": "בְּדִיל",
+    "transliteration": "bᵉdîyl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "alloy (because removed by smelting); by analogy, tin",
+      "hu": ""
+    }
+  },
+  "sw-bdal": {
+    "strongs": 914,
+    "original_word": "בָּדַל",
+    "transliteration": "bâdal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to divide (in variation senses literally or figuratively, separate, distinguish, differ, select, etc.)",
+      "hu": ""
+    }
+  },
+  "sw-bdl": {
+    "strongs": 915,
+    "original_word": "בָּדָל",
+    "transliteration": "bâdâl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a part",
+      "hu": ""
+    }
+  },
+  "sw-bdlach": {
+    "strongs": 916,
+    "original_word": "בְּדֹלַח",
+    "transliteration": "bᵉdôlach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something in pieces, i.e. bdellium, a (fragrant) gum (perhaps amber); others a pearl",
+      "hu": ""
+    }
+  },
+  "sw-bdn": {
+    "strongs": 917,
+    "original_word": "בְּדָן",
+    "transliteration": "Bᵉdân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bedan, the name of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-bdaq": {
+    "strongs": 918,
+    "original_word": "בָּדַק",
+    "transliteration": "bâdaq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to mend a breach",
+      "hu": ""
+    }
+  },
+  "sw-bedeq": {
+    "strongs": 919,
+    "original_word": "בֶּדֶק",
+    "transliteration": "bedeq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a gap or leak (in a building or a ship)",
+      "hu": ""
+    }
+  },
+  "sw-bidqar": {
+    "strongs": 920,
+    "original_word": "בִּדְקַר",
+    "transliteration": "Bidqar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bidkar, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-bdar": {
+    "strongs": 921,
+    "original_word": "בְּדַר",
+    "transliteration": "bᵉdar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to scatter",
+      "hu": ""
+    }
+  },
+  "sw-bhw": {
+    "strongs": 922,
+    "original_word": "בֹּהוּ",
+    "transliteration": "bôhûw",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a vacuity, i.e. (superficially) an undistinguishable ruin",
+      "hu": ""
+    }
+  },
+  "sw-baha": {
+    "strongs": 923,
+    "original_word": "בַּהַט",
+    "transliteration": "bahaṭ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "white marble or perhaps alabaster",
+      "hu": ""
+    }
+  },
+  "sw-bhylw": {
+    "strongs": 924,
+    "original_word": "בְּהִילוּ",
+    "transliteration": "bᵉhîylûw",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a hurry; only adverb, hastily",
+      "hu": ""
+    }
+  },
+  "sw-bhyr": {
+    "strongs": 925,
+    "original_word": "בָּהִיר",
+    "transliteration": "bâhîyr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "shining",
+      "hu": ""
+    }
+  },
+  "sw-bhal": {
+    "strongs": 926,
+    "original_word": "בָּהַל",
+    "transliteration": "bâhal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to tremble inwardly (or palpitate), i.e. (figuratively) be (causative, make) (suddenly) alarmed or agitated; by implication to hasten anxiously",
+      "hu": ""
+    }
+  },
+  "sw-bhal-927": {
+    "strongs": 927,
+    "original_word": "בְּהַל",
+    "transliteration": "bᵉhal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to terrify, hasten",
+      "hu": ""
+    }
+  },
+  "sw-behlh": {
+    "strongs": 928,
+    "original_word": "בֶּהָלָה",
+    "transliteration": "behâlâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "panic, destruction",
+      "hu": ""
+    }
+  },
+  "sw-bhmh": {
+    "strongs": 929,
+    "original_word": "בְּהֵמָה",
+    "transliteration": "bᵉhêmâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, a dumb beast; especially any large quadruped or animal (often collective)",
+      "hu": ""
+    }
+  },
+  "sw-bhmwth": {
+    "strongs": 930,
+    "original_word": "בְּהֵמוֹת",
+    "transliteration": "bᵉhêmôwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a water-ox, i.e. the hippopotamus or Nile-horse",
+      "hu": ""
+    }
+  },
+  "sw-bhen": {
+    "strongs": 931,
+    "original_word": "בֹּהֶן",
+    "transliteration": "bôhen",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the thumb of the hand or great toe of the foot",
+      "hu": ""
+    }
+  },
+  "sw-bhan": {
+    "strongs": 932,
+    "original_word": "בֹּהַן",
+    "transliteration": "Bôhan",
+    "language": "Hebrew",
+    "definition": {
+      "en": "thumb, Bohan, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-bhaq": {
+    "strongs": 933,
+    "original_word": "בֹּהַק",
+    "transliteration": "bôhaq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "white scurf",
+      "hu": ""
+    }
+  },
+  "sw-bhereth": {
+    "strongs": 934,
+    "original_word": "בֹּהֶרֶת",
+    "transliteration": "bôhereth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a whitish spot on the skin",
+      "hu": ""
+    }
+  },
+  "sw-bw-935": {
+    "strongs": 935,
+    "original_word": "בּוֹא",
+    "transliteration": "bôwʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to go or come (in a wide variety of applications)",
+      "hu": ""
+    }
+  },
+  "sw-bwz": {
+    "strongs": 936,
+    "original_word": "בּוּז",
+    "transliteration": "bûwz",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to disrespect",
+      "hu": ""
+    }
+  },
+  "sw-bwz-937": {
+    "strongs": 937,
+    "original_word": "בּוּז",
+    "transliteration": "bûwz",
+    "language": "Hebrew",
+    "definition": {
+      "en": "disrespect",
+      "hu": ""
+    }
+  },
+  "sw-bwz-938": {
+    "strongs": 938,
+    "original_word": "בּוּז",
+    "transliteration": "Bûwz",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Buz, the name of a son of Nahor, and of an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-bwzh": {
+    "strongs": 939,
+    "original_word": "בּוּזָה",
+    "transliteration": "bûwzâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something scorned; an object of contempt",
+      "hu": ""
+    }
+  },
+  "sw-bwzy": {
+    "strongs": 940,
+    "original_word": "בּוּזִי",
+    "transliteration": "Bûwzîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Buzite or descendant of Buz",
+      "hu": ""
+    }
+  },
+  "sw-bwzy-941": {
+    "strongs": 941,
+    "original_word": "בּוּזִי",
+    "transliteration": "Bûwzîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Buzi, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-bavvay": {
+    "strongs": 942,
+    "original_word": "בַּוַּי",
+    "transliteration": "Bavvay",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bavvai, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-bwk": {
+    "strongs": 943,
+    "original_word": "בּוּךְ",
+    "transliteration": "bûwk",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to involve (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-bwl": {
+    "strongs": 944,
+    "original_word": "בּוּל",
+    "transliteration": "bûwl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "produce (of the earth, etc.)",
+      "hu": ""
+    }
+  },
+  "sw-bwl-945": {
+    "strongs": 945,
+    "original_word": "בּוּל",
+    "transliteration": "Bûwl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bul, the eighth Hebrew month",
+      "hu": ""
+    }
+  },
+  "sw-bwnh": {
+    "strongs": 946,
+    "original_word": "בּוּנָה",
+    "transliteration": "Bûwnâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bunah, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-bw-947": {
+    "strongs": 947,
+    "original_word": "בּוּס",
+    "transliteration": "bûwç",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to trample (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-bwts": {
+    "strongs": 948,
+    "original_word": "בּוּץ",
+    "transliteration": "bûwts",
+    "language": "Hebrew",
+    "definition": {
+      "en": "probably cotton (of some sort)",
+      "hu": ""
+    }
+  },
+  "sw-bwtsts": {
+    "strongs": 949,
+    "original_word": "בּוֹצֵץ",
+    "transliteration": "Bôwtsêts",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Botsets, a rock near Michmash",
+      "hu": ""
+    }
+  },
+  "sw-bwqh": {
+    "strongs": 950,
+    "original_word": "בּוּקָה",
+    "transliteration": "bûwqâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "emptiness (as adjective)",
+      "hu": ""
+    }
+  },
+  "sw-bwqr": {
+    "strongs": 951,
+    "original_word": "בּוֹקֵר",
+    "transliteration": "bôwqêr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a cattle-tender",
+      "hu": ""
+    }
+  },
+  "sw-bwr": {
+    "strongs": 952,
+    "original_word": "בּוּר",
+    "transliteration": "bûwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to bore, i.e. (figuratively) examine",
+      "hu": ""
+    }
+  },
+  "sw-bwr-953": {
+    "strongs": 953,
+    "original_word": "בּוֹר",
+    "transliteration": "bôwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a pit hole (especially one used as a cistern or a prison)",
+      "hu": ""
+    }
+  },
+  "sw-bwsh": {
+    "strongs": 954,
+    "original_word": "בּוּשׁ",
+    "transliteration": "bûwsh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, to pale, i.e. by implication to be ashamed; also (by implication) to be disappointed or delayed",
+      "hu": ""
+    }
+  },
+  "sw-bwshh": {
+    "strongs": 955,
+    "original_word": "בּוּשָׁה",
+    "transliteration": "bûwshâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "shame",
+      "hu": ""
+    }
+  },
+  "sw-bwth": {
+    "strongs": 956,
+    "original_word": "בּוּת",
+    "transliteration": "bûwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to lodge over night",
+      "hu": ""
+    }
+  },
+  "sw-baz": {
+    "strongs": 957,
+    "original_word": "בַּז",
+    "transliteration": "baz",
+    "language": "Hebrew",
+    "definition": {
+      "en": "plunder",
+      "hu": ""
+    }
+  },
+  "sw-bz": {
+    "strongs": 958,
+    "original_word": "בָּזָא",
+    "transliteration": "bâzâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "probably to cleave",
+      "hu": ""
+    }
+  },
+  "sw-bzh": {
+    "strongs": 959,
+    "original_word": "בָּזָה",
+    "transliteration": "bâzâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to disesteem",
+      "hu": ""
+    }
+  },
+  "sw-bzh-960": {
+    "strongs": 960,
+    "original_word": "בָּזֹה",
+    "transliteration": "bâzôh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "scorned",
+      "hu": ""
+    }
+  },
+  "sw-bizzh": {
+    "strongs": 961,
+    "original_word": "בִּזָּה",
+    "transliteration": "bizzâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "booty",
+      "hu": ""
+    }
+  },
+  "sw-bzaz": {
+    "strongs": 962,
+    "original_word": "בָּזַז",
+    "transliteration": "bâzaz",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to plunder",
+      "hu": ""
+    }
+  },
+  "sw-bizzywn": {
+    "strongs": 963,
+    "original_word": "בִּזָּיוֹן",
+    "transliteration": "bizzâyôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "disesteem",
+      "hu": ""
+    }
+  },
+  "sw-bizywthyh": {
+    "strongs": 964,
+    "original_word": "בִּזְיוֹתְיָה",
+    "transliteration": "bizyôwthᵉyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bizjothjah, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bzq": {
+    "strongs": 965,
+    "original_word": "בָּזָק",
+    "transliteration": "bâzâq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a flash of lightning",
+      "hu": ""
+    }
+  },
+  "sw-bezeq": {
+    "strongs": 966,
+    "original_word": "בֶּזֶק",
+    "transliteration": "Bezeq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bezek, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bzar": {
+    "strongs": 967,
+    "original_word": "בָּזַר",
+    "transliteration": "bâzar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to disperse",
+      "hu": ""
+    }
+  },
+  "sw-bizth": {
+    "strongs": 968,
+    "original_word": "בִּזְתָא",
+    "transliteration": "Bizthâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Biztha, a eunuch of Xerxes",
+      "hu": ""
+    }
+  },
+  "sw-bchwn": {
+    "strongs": 969,
+    "original_word": "בָּחוֹן",
+    "transliteration": "bâchôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an assayer or metals",
+      "hu": ""
+    }
+  },
+  "sw-bchwr": {
+    "strongs": 970,
+    "original_word": "בָּחוּר",
+    "transliteration": "bâchûwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, selected, i.e. a youth (often collective)",
+      "hu": ""
+    }
+  },
+  "sw-bachyn": {
+    "strongs": 971,
+    "original_word": "בַּחִין",
+    "transliteration": "bachîyn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a watch-tower of besiegers",
+      "hu": ""
+    }
+  },
+  "sw-bchyr": {
+    "strongs": 972,
+    "original_word": "בָּחִיר",
+    "transliteration": "bâchîyr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "select",
+      "hu": ""
+    }
+  },
+  "sw-bchal": {
+    "strongs": 973,
+    "original_word": "בָּחַל",
+    "transliteration": "bâchal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to loath",
+      "hu": ""
+    }
+  },
+  "sw-bchan": {
+    "strongs": 974,
+    "original_word": "בָּחַן",
+    "transliteration": "bâchan",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to test (especially metals); generally and figuratively, to investigate",
+      "hu": ""
+    }
+  },
+  "sw-bachan": {
+    "strongs": 975,
+    "original_word": "בַּחַן",
+    "transliteration": "bachan",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a watch-tower",
+      "hu": ""
+    }
+  },
+  "sw-bchan-976": {
+    "strongs": 976,
+    "original_word": "בֹּחַן",
+    "transliteration": "bôchan",
+    "language": "Hebrew",
+    "definition": {
+      "en": "trial",
+      "hu": ""
+    }
+  },
+  "sw-bchar": {
+    "strongs": 977,
+    "original_word": "בָּחַר",
+    "transliteration": "bâchar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, to try, i.e. (by implication) select",
+      "hu": ""
+    }
+  },
+  "sw-bachrwmy": {
+    "strongs": 978,
+    "original_word": "בַּחֲרוּמִי",
+    "transliteration": "Bachărûwmîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Bacharumite or inhabitant of Bachurim",
+      "hu": ""
+    }
+  },
+  "sw-bchurwth": {
+    "strongs": 979,
+    "original_word": "בְּחֻרוֹת",
+    "transliteration": "bᵉchurôwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "youth (collectively and abstractly)",
+      "hu": ""
+    }
+  },
+  "sw-bachurym": {
+    "strongs": 980,
+    "original_word": "בַּחֻרִים",
+    "transliteration": "Bachurîym",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bachurim, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-b-981": {
+    "strongs": 981,
+    "original_word": "בָּטָא",
+    "transliteration": "bâṭâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to babble; hence, to vociferate angrily",
+      "hu": ""
+    }
+  },
+  "sw-bach": {
+    "strongs": 982,
+    "original_word": "בָּטַח",
+    "transliteration": "bâṭach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "figuratively, to trust, be confident or sure",
+      "hu": ""
+    }
+  },
+  "sw-beach": {
+    "strongs": 983,
+    "original_word": "בֶּטַח",
+    "transliteration": "beṭach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, a place of refuge; abstract, safety, both the fact (security) and the feeling (trust); often (adverb with or without preposition) safely",
+      "hu": ""
+    }
+  },
+  "sw-beach-984": {
+    "strongs": 984,
+    "original_word": "בֶּטַח",
+    "transliteration": "Beṭach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Betach, a place in Syria",
+      "hu": ""
+    }
+  },
+  "sw-bichh": {
+    "strongs": 985,
+    "original_word": "בִּטְחָה",
+    "transliteration": "biṭchâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "trust",
+      "hu": ""
+    }
+  },
+  "sw-bichwn": {
+    "strongs": 986,
+    "original_word": "בִּטָּחוֹן",
+    "transliteration": "biṭṭâchôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "trust",
+      "hu": ""
+    }
+  },
+  "sw-bauchwth": {
+    "strongs": 987,
+    "original_word": "בַּטֻּחוֹת",
+    "transliteration": "baṭṭuchôwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "security",
+      "hu": ""
+    }
+  },
+  "sw-bl-988": {
+    "strongs": 988,
+    "original_word": "בָּטֵל",
+    "transliteration": "bâṭêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to desist from labor",
+      "hu": ""
+    }
+  },
+  "sw-bl-989": {
+    "strongs": 989,
+    "original_word": "בְּטֵל",
+    "transliteration": "bᵉṭêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to stop",
+      "hu": ""
+    }
+  },
+  "sw-been": {
+    "strongs": 990,
+    "original_word": "בֶּטֶן",
+    "transliteration": "beṭen",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the belly, especially the womb; also the bosom or body of anything",
+      "hu": ""
+    }
+  },
+  "sw-been-991": {
+    "strongs": 991,
+    "original_word": "בֶּטֶן",
+    "transliteration": "Beṭen",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beten. a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-ben-992": {
+    "strongs": 992,
+    "original_word": "בֹּטֶן",
+    "transliteration": "bôṭen",
+    "language": "Hebrew",
+    "definition": {
+      "en": "(only in plural) a pistachio-nut (from its form)",
+      "hu": ""
+    }
+  },
+  "sw-bnym": {
+    "strongs": 993,
+    "original_word": "בְּטֹנִים",
+    "transliteration": "Bᵉṭônîym",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Betonim, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-by-994": {
+    "strongs": 994,
+    "original_word": "בִּי",
+    "transliteration": "bîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "oh that!; with leave, or if it please",
+      "hu": ""
+    }
+  },
+  "sw-byn": {
+    "strongs": 995,
+    "original_word": "בִּין",
+    "transliteration": "bîyn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to separate mentally (or distinguish), i.e.(generally) understand",
+      "hu": ""
+    }
+  },
+  "sw-byn-996": {
+    "strongs": 996,
+    "original_word": "בֵּין",
+    "transliteration": "bêyn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "between (repeated before each noun, often with other particles); also as a conjunction, either...or",
+      "hu": ""
+    }
+  },
+  "sw-byn-997": {
+    "strongs": 997,
+    "original_word": "בֵּין",
+    "transliteration": "bêyn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{between (repeated before each noun, often with other particles); also as a conjunction, either...or}",
+      "hu": ""
+    }
+  },
+  "sw-bynh": {
+    "strongs": 998,
+    "original_word": "בִּינָה",
+    "transliteration": "bîynâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "understanding",
+      "hu": ""
+    }
+  },
+  "sw-bynh-999": {
+    "strongs": 999,
+    "original_word": "בִּינָה",
+    "transliteration": "bîynâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{understanding}",
+      "hu": ""
+    }
+  },
+  "sw-bytsh": {
+    "strongs": 1000,
+    "original_word": "בֵּיצָה",
+    "transliteration": "bêytsâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an egg (from its whiteness)",
+      "hu": ""
+    }
+  },
+  "sw-byr-1001": {
+    "strongs": 1001,
+    "original_word": "בִּירָא",
+    "transliteration": "bîyrâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a palace",
+      "hu": ""
+    }
+  },
+  "sw-byrh": {
+    "strongs": 1002,
+    "original_word": "בִּירָה",
+    "transliteration": "bîyrâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a castle or palace",
+      "hu": ""
+    }
+  },
+  "sw-byrnyth": {
+    "strongs": 1003,
+    "original_word": "בִּירָנִית",
+    "transliteration": "bîyrânîyth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a fortress",
+      "hu": ""
+    }
+  },
+  "sw-bayith": {
+    "strongs": 1004,
+    "original_word": "בַּיִת",
+    "transliteration": "bayith",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a house (in the greatest variation of applications, especially family, etc.)",
+      "hu": ""
+    }
+  },
+  "sw-bayith-1005": {
+    "strongs": 1005,
+    "original_word": "בַּיִת",
+    "transliteration": "bayith",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{a house (in the greatest variation of applications, especially family, etc.)}",
+      "hu": ""
+    }
+  },
+  "sw-bayith-1006": {
+    "strongs": 1006,
+    "original_word": "בַּיִת",
+    "transliteration": "Bayith",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bajith, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythven": {
+    "strongs": 1007,
+    "original_word": "בֵּית אָוֶן",
+    "transliteration": "Bêyth ʼÂven",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-Aven, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythl": {
+    "strongs": 1008,
+    "original_word": "בֵּית־אֵל",
+    "transliteration": "Bêyth-ʼÊl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-El, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bytharbl": {
+    "strongs": 1009,
+    "original_word": "בֵּית אַרְבֵּאל",
+    "transliteration": "Bêyth ʼArbêʼl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-Arbel, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythbaalmwn": {
+    "strongs": 1010,
+    "original_word": "בֵּית בַּעַל מְעוֹן",
+    "transliteration": "Bêyth Baʻal Mᵉʻôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-Baal-Meon, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythbiry": {
+    "strongs": 1011,
+    "original_word": "בֵּית בִּרְאִי",
+    "transliteration": "Bêyth Birʼîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-Biri, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythbrh": {
+    "strongs": 1012,
+    "original_word": "בֵּית בָּרָה",
+    "transliteration": "Bêyth Bârâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-Barah, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythgdr": {
+    "strongs": 1013,
+    "original_word": "בֵּית־גָּדֵר",
+    "transliteration": "Bêyth-Gâdêr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-Gader, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythgmwl": {
+    "strongs": 1014,
+    "original_word": "בֵּית גָּמוּל",
+    "transliteration": "Bêyth Gâmûwl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-Gamul, a place East of the Jordan",
+      "hu": ""
+    }
+  },
+  "sw-bythdiblthayim": {
+    "strongs": 1015,
+    "original_word": "בֵּית דִּבְלָתַיִם",
+    "transliteration": "Bêyth Diblâthayim",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-Diblathajim, a place East of the Jordan",
+      "hu": ""
+    }
+  },
+  "sw-bythdgwn": {
+    "strongs": 1016,
+    "original_word": "בֵּית־דָּגוֹן",
+    "transliteration": "Bêyth-Dâgôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-Dagon, the name of two places in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythhly": {
+    "strongs": 1017,
+    "original_word": "בֵּית הָאֱלִי",
+    "transliteration": "Bêyth hâ-ʼĔlîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Beth-elite, or inhabitant of Bethel",
+      "hu": ""
+    }
+  },
+  "sw-bythhtsel": {
+    "strongs": 1018,
+    "original_word": "בֵּית הָאֵצֶל",
+    "transliteration": "Bêyth hâʼêtsel",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-ha-Etsel, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythhaggilgl": {
+    "strongs": 1019,
+    "original_word": "בֵּית הַגִּלְגָּל",
+    "transliteration": "Bêyth hag-Gilgâl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-hag-Gilgal, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythhayshymwth": {
+    "strongs": 1020,
+    "original_word": "בֵּית הַיְשִׁימוֹת",
+    "transliteration": "Bêyth ha-Yshîy-môwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-ha-Jeshimoth, a town East of the Jordan",
+      "hu": ""
+    }
+  },
+  "sw-bythhakkerem": {
+    "strongs": 1021,
+    "original_word": "בֵּית הַכֶּרֶם",
+    "transliteration": "Bêyth hak-Kerem",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-hak-Kerem, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythhallachmy": {
+    "strongs": 1022,
+    "original_word": "בֵּית הַלַּחְמִי",
+    "transliteration": "Bêyth hal-Lachmîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Beth-lechemite, or native of Bethlechem",
+      "hu": ""
+    }
+  },
+  "sw-bythhammerchq": {
+    "strongs": 1023,
+    "original_word": "בֵּית הַמֶּרְחָק",
+    "transliteration": "Bêyth ham-Merchâq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-ham-Merchak, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythhammarkbwth": {
+    "strongs": 1024,
+    "original_word": "בֵּית הַמַּרְכָּבוֹת",
+    "transliteration": "Bêyth ham-Markâbôwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-ham-Markaboth or Beth-Markaboth, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythhmeq": {
+    "strongs": 1025,
+    "original_word": "בֵּית הָעֵמֶק",
+    "transliteration": "Bêyth hâ-ʻÊmeq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-ha-Emek, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythhrbh": {
+    "strongs": 1026,
+    "original_word": "בֵּית הָעֲרָבָה",
+    "transliteration": "Bêyth hâ-ʻĂrâbâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-ha-Arabah, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythhrm": {
+    "strongs": 1027,
+    "original_word": "בֵּית הָרָם",
+    "transliteration": "Bêyth hâ-Râm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-ha-Ram, a place East of the Jordan",
+      "hu": ""
+    }
+  },
+  "sw-bythhrn": {
+    "strongs": 1028,
+    "original_word": "בֵּית הָרָן",
+    "transliteration": "Bêyth hâ-Rân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-ha-Ram, a place East of the Jordan",
+      "hu": ""
+    }
+  },
+  "sw-bythhashshih": {
+    "strongs": 1029,
+    "original_word": "בֵּית הַשִּׁטָּה",
+    "transliteration": "Bêyth hash-Shiṭṭâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-hash-Shittah, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythhashshimshy": {
+    "strongs": 1030,
+    "original_word": "בֵּית הַשִּׁמְשִׁי",
+    "transliteration": "Bêyth hash-Shimshîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Beth-shimshite, or inhabitant of Bethshemesh",
+      "hu": ""
+    }
+  },
+  "sw-bythchoglh": {
+    "strongs": 1031,
+    "original_word": "בֵּית חׇגְלָה",
+    "transliteration": "Bêyth Choglâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-Choglah, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythchwrwn": {
+    "strongs": 1032,
+    "original_word": "בֵּית חוֹרוֹן",
+    "transliteration": "Bêyth Chôwrôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-Choron, the name of two adjoining places in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythkar": {
+    "strongs": 1033,
+    "original_word": "בֵּית כַּר",
+    "transliteration": "Bêyth Kar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-Car, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythlbwth": {
+    "strongs": 1034,
+    "original_word": "בֵּית לְבָאוֹת",
+    "transliteration": "Bêyth Lᵉbâʼôwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-Lebaoth, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythlechem": {
+    "strongs": 1035,
+    "original_word": "בֵּית לֶחֶם",
+    "transliteration": "Bêyth Lechem",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-Lechem, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythlaphrh": {
+    "strongs": 1036,
+    "original_word": "בֵּית לְעַפְרָה",
+    "transliteration": "Bêyth lᵉ-ʻAphrâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-le-Aphrah, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythmillw": {
+    "strongs": 1037,
+    "original_word": "בֵּית מִלּוֹא",
+    "transliteration": "Bêyth Millôwʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-Millo, the name of two citadels",
+      "hu": ""
+    }
+  },
+  "sw-bythmakh": {
+    "strongs": 1038,
+    "original_word": "בֵּית מַעֲכָה",
+    "transliteration": "Bêyth Maʻăkâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-Maakah, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythnimrh": {
+    "strongs": 1039,
+    "original_word": "בֵּית נִמְרָה",
+    "transliteration": "Bêyth Nimrâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-Nimrah, a place east of the Jordan",
+      "hu": ""
+    }
+  },
+  "sw-bythden": {
+    "strongs": 1040,
+    "original_word": "בֵּית עֵדֶן",
+    "transliteration": "Bêyth ʻÊden",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-Eden, a place in Syria",
+      "hu": ""
+    }
+  },
+  "sw-bythazmveth": {
+    "strongs": 1041,
+    "original_word": "בֵּית עַזְמָוֶת",
+    "transliteration": "Bêyth ʻAzmâveth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "house of Azmaveth, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythnwth": {
+    "strongs": 1042,
+    "original_word": "בֵּית עֲנוֹת",
+    "transliteration": "Bêyth ʻĂnôwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-Anoth, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythnth": {
+    "strongs": 1043,
+    "original_word": "בֵּית עֲנָת",
+    "transliteration": "Bêyth ʻĂnâth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-Anath, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythqed": {
+    "strongs": 1044,
+    "original_word": "בֵּית עֵקֶד",
+    "transliteration": "Bêyth ʻÊqed",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-Eked, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythashtrwth": {
+    "strongs": 1045,
+    "original_word": "בֵּית עַשְׁתָּרוֹת",
+    "transliteration": "Bêyth ʻAshtârôwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-Ashtaroth, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythpele": {
+    "strongs": 1046,
+    "original_word": "בֵּית פֶּלֶט",
+    "transliteration": "Bêyth Peleṭ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-Palet, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythpwr": {
+    "strongs": 1047,
+    "original_word": "בֵּית פְּעוֹר",
+    "transliteration": "Bêyth Pᵉʻôwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-Peor, a place East of the Jordan",
+      "hu": ""
+    }
+  },
+  "sw-bythpatststs": {
+    "strongs": 1048,
+    "original_word": "בֵּית פַּצֵּץ",
+    "transliteration": "Bêyth Patstsêts",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-Patstsets, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythtswr": {
+    "strongs": 1049,
+    "original_word": "בֵּית צוּר",
+    "transliteration": "Bêyth Tsûwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-Tsur, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythrchwb": {
+    "strongs": 1050,
+    "original_word": "בֵּית רְחוֹב",
+    "transliteration": "Bêyth Rᵉchôwb",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-Rechob, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythrph": {
+    "strongs": 1051,
+    "original_word": "בֵּית רָפָא",
+    "transliteration": "Bêyth Râphâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-Rapha, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-bythshn": {
+    "strongs": 1052,
+    "original_word": "בֵּית שְׁאָן",
+    "transliteration": "Bêyth Shᵉʼân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-Shean or Beth-Shan, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythshemesh": {
+    "strongs": 1053,
+    "original_word": "בֵּית שֶׁמֶשׁ",
+    "transliteration": "Bêyth Shemesh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-Shemesh, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythtappwach": {
+    "strongs": 1054,
+    "original_word": "בֵּית תַּפּוּחַ",
+    "transliteration": "Bêyth Tappûwach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beth-Tappuach, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bythn": {
+    "strongs": 1055,
+    "original_word": "בִּיתָן",
+    "transliteration": "bîythân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a palace (i.e. large house)",
+      "hu": ""
+    }
+  },
+  "sw-bk": {
+    "strongs": 1056,
+    "original_word": "בָּכָא",
+    "transliteration": "Bâkâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Baca, a valley in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bk-1057": {
+    "strongs": 1057,
+    "original_word": "בָּכָא",
+    "transliteration": "bâkâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the weeping tree (some gum-distilling tree, perhaps the balsam)",
+      "hu": ""
+    }
+  },
+  "sw-bkh": {
+    "strongs": 1058,
+    "original_word": "בָּכָה",
+    "transliteration": "bâkâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to weep; generally to bemoan",
+      "hu": ""
+    }
+  },
+  "sw-bekeh": {
+    "strongs": 1059,
+    "original_word": "בֶּכֶה",
+    "transliteration": "bekeh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a weeping",
+      "hu": ""
+    }
+  },
+  "sw-bkwr": {
+    "strongs": 1060,
+    "original_word": "בְּכוֹר",
+    "transliteration": "bᵉkôwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "firstborn; hence, chief",
+      "hu": ""
+    }
+  },
+  "sw-bikkwr": {
+    "strongs": 1061,
+    "original_word": "בִּכּוּר",
+    "transliteration": "bikkûwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the first-fruits of the crop",
+      "hu": ""
+    }
+  },
+  "sw-bkwrh": {
+    "strongs": 1062,
+    "original_word": "בְּכוֹרָה",
+    "transliteration": "bᵉkôwrâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the firstling of man or beast; abstractly primogeniture",
+      "hu": ""
+    }
+  },
+  "sw-bikkwrh": {
+    "strongs": 1063,
+    "original_word": "בִּכּוּרָה",
+    "transliteration": "bikkûwrâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the early fig",
+      "hu": ""
+    }
+  },
+  "sw-bkwrath": {
+    "strongs": 1064,
+    "original_word": "בְּכוֹרַת",
+    "transliteration": "Bᵉkôwrath",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bekorath, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-bky": {
+    "strongs": 1065,
+    "original_word": "בְּכִי",
+    "transliteration": "Bᵉkîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a weeping; by analogy, a dripping",
+      "hu": ""
+    }
+  },
+  "sw-bkym": {
+    "strongs": 1066,
+    "original_word": "בֹּכִים",
+    "transliteration": "Bôkîym",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bo-kim, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bkyrh": {
+    "strongs": 1067,
+    "original_word": "בְּכִירָה",
+    "transliteration": "bᵉkîyrâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the eldest daughter",
+      "hu": ""
+    }
+  },
+  "sw-bkyth": {
+    "strongs": 1068,
+    "original_word": "בְּכִית",
+    "transliteration": "bᵉkîyth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a weeping",
+      "hu": ""
+    }
+  },
+  "sw-bkar": {
+    "strongs": 1069,
+    "original_word": "בָּכַר",
+    "transliteration": "bâkar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to give the birthright",
+      "hu": ""
+    }
+  },
+  "sw-beker": {
+    "strongs": 1070,
+    "original_word": "בֶּכֶר",
+    "transliteration": "beker",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a young camel",
+      "hu": ""
+    }
+  },
+  "sw-beker-1071": {
+    "strongs": 1071,
+    "original_word": "בֶכֶר",
+    "transliteration": "Beker",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beker, the name of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-bikrh": {
+    "strongs": 1072,
+    "original_word": "בִּכְרָה",
+    "transliteration": "bikrâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a young she-camel",
+      "hu": ""
+    }
+  },
+  "sw-bakkurh": {
+    "strongs": 1073,
+    "original_word": "בַּכֻּרָה",
+    "transliteration": "bakkurâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a first-ripe fig",
+      "hu": ""
+    }
+  },
+  "sw-bkrw": {
+    "strongs": 1074,
+    "original_word": "בֹּכְרוּ",
+    "transliteration": "Bôkᵉrûw",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bokeru, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-bikry": {
+    "strongs": 1075,
+    "original_word": "בִּכְרִי",
+    "transliteration": "Bikrîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bikri, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-bakry": {
+    "strongs": 1076,
+    "original_word": "בַּכְרִי",
+    "transliteration": "Bakrîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Bakrite (collectively) or descendants of Beker",
+      "hu": ""
+    }
+  },
+  "sw-bal-1077": {
+    "strongs": 1077,
+    "original_word": "בַּל",
+    "transliteration": "bal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, a failure; by implication nothing; usually (adverb) not at all; also lest",
+      "hu": ""
+    }
+  },
+  "sw-bl-1078": {
+    "strongs": 1078,
+    "original_word": "בֵּל",
+    "transliteration": "Bêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bel, the Baal of the Babylonians",
+      "hu": ""
+    }
+  },
+  "sw-bl-1079": {
+    "strongs": 1079,
+    "original_word": "בָּל",
+    "transliteration": "bâl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, anxiety, i.e. (by implication) the heart (as its seat)",
+      "hu": ""
+    }
+  },
+  "sw-bl-1080": {
+    "strongs": 1080,
+    "original_word": "בְּלָא",
+    "transliteration": "bᵉlâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to afflict",
+      "hu": ""
+    }
+  },
+  "sw-baldn": {
+    "strongs": 1081,
+    "original_word": "בַּלְאֲדָן",
+    "transliteration": "Balʼădân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Baladan, the name of a Babylonian prince",
+      "hu": ""
+    }
+  },
+  "sw-blag": {
+    "strongs": 1082,
+    "original_word": "בָּלַג",
+    "transliteration": "bâlag",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to break off or loose (in a favorable or unfavorable sense), i.e. desist (from grief) or invade (with destruction)",
+      "hu": ""
+    }
+  },
+  "sw-bilgah": {
+    "strongs": 1083,
+    "original_word": "בִּלְגַה",
+    "transliteration": "Bilgah",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bilgah, the name of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-bilgay": {
+    "strongs": 1084,
+    "original_word": "בִּלְגַּי",
+    "transliteration": "Bilgay",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bilgai, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-bildad": {
+    "strongs": 1085,
+    "original_word": "בִּלְדַּד",
+    "transliteration": "Bildad",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bildad, one of Job's friends",
+      "hu": ""
+    }
+  },
+  "sw-blh": {
+    "strongs": 1086,
+    "original_word": "בָּלָה",
+    "transliteration": "bâlâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to fail; by implication to wear out, decay (causatively, consume, spend)",
+      "hu": ""
+    }
+  },
+  "sw-bleh": {
+    "strongs": 1087,
+    "original_word": "בָּלֶה",
+    "transliteration": "bâleh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "worn out",
+      "hu": ""
+    }
+  },
+  "sw-blh-1088": {
+    "strongs": 1088,
+    "original_word": "בָּלָה",
+    "transliteration": "Bâlâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Balah, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-blahh": {
+    "strongs": 1089,
+    "original_word": "בָּלַהּ",
+    "transliteration": "bâlahh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to palpitate; hence, (causatively) to terrify",
+      "hu": ""
+    }
+  },
+  "sw-bilhh": {
+    "strongs": 1090,
+    "original_word": "בִּלְהָה",
+    "transliteration": "Bilhâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bilhah, the name of one of Jacob's concubines; also of a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-ballhh": {
+    "strongs": 1091,
+    "original_word": "בַּלָּהָה",
+    "transliteration": "ballâhâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "alarm; hence, destruction",
+      "hu": ""
+    }
+  },
+  "sw-bilhn": {
+    "strongs": 1092,
+    "original_word": "בִּלְהָן",
+    "transliteration": "Bilhân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bilhan, the name of an Edomite and of an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-blw": {
+    "strongs": 1093,
+    "original_word": "בְּלוֹ",
+    "transliteration": "bᵉlôw",
+    "language": "Hebrew",
+    "definition": {
+      "en": "excise (on articles consumed)",
+      "hu": ""
+    }
+  },
+  "sw-blw-1094": {
+    "strongs": 1094,
+    "original_word": "בְּלוֹא",
+    "transliteration": "bᵉlôwʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "(only in plural construction) rags",
+      "hu": ""
+    }
+  },
+  "sw-blshatstsar": {
+    "strongs": 1095,
+    "original_word": "בֵּלְטְשַׁאצַּר",
+    "transliteration": "Bêlṭᵉshaʼtstsar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Belteshatstsar, the Babylonian name of Daniel",
+      "hu": ""
+    }
+  },
+  "sw-blshatstsar-1096": {
+    "strongs": 1096,
+    "original_word": "בֵּלְטְשַׁאצַּר",
+    "transliteration": "Bêlṭᵉshaʼtstsar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{Belteshatstsar, the Babylonian name of Daniel}",
+      "hu": ""
+    }
+  },
+  "sw-bly": {
+    "strongs": 1097,
+    "original_word": "בְּלִי",
+    "transliteration": "bᵉlîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, failure, i.e. nothing or destruction; usually (with preposition) without, not yet, because not, as long as, etc.",
+      "hu": ""
+    }
+  },
+  "sw-blyl": {
+    "strongs": 1098,
+    "original_word": "בְּלִיל",
+    "transliteration": "bᵉlîyl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "mixed, i.e. (specifically) feed (for cattle)",
+      "hu": ""
+    }
+  },
+  "sw-blymh": {
+    "strongs": 1099,
+    "original_word": "בְּלִימָה",
+    "transliteration": "bᵉlîymâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "(as indefinitely) nothing whatever",
+      "hu": ""
+    }
+  },
+  "sw-blyaal": {
+    "strongs": 1100,
+    "original_word": "בְּלִיַּעַל",
+    "transliteration": "bᵉlîyaʻal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "without profit, worthlessness; by extension, destruction, wickedness",
+      "hu": ""
+    }
+  },
+  "sw-blal": {
+    "strongs": 1101,
+    "original_word": "בָּלַל",
+    "transliteration": "bâlal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to overflow (specifically with oil.); by implication, to mix; to fodder",
+      "hu": ""
+    }
+  },
+  "sw-blam": {
+    "strongs": 1102,
+    "original_word": "בָּלַם",
+    "transliteration": "bâlam",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to muzzle",
+      "hu": ""
+    }
+  },
+  "sw-bla": {
+    "strongs": 1103,
+    "original_word": "בָּלַס",
+    "transliteration": "bâlaç",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to pinch sycamore figs (a process necessary to ripen them)",
+      "hu": ""
+    }
+  },
+  "sw-bla-1104": {
+    "strongs": 1104,
+    "original_word": "בָּלַע",
+    "transliteration": "bâlaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to make away with (specifically by swallowing); generally, to destroy",
+      "hu": ""
+    }
+  },
+  "sw-bela": {
+    "strongs": 1105,
+    "original_word": "בֶּלַע",
+    "transliteration": "belaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a gulp; figuratively, destruction",
+      "hu": ""
+    }
+  },
+  "sw-bela-1106": {
+    "strongs": 1106,
+    "original_word": "בֶּלַע",
+    "transliteration": "Belaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bela, the name of a place, also of an Edomite and of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-bildy": {
+    "strongs": 1107,
+    "original_word": "בִּלְעֲדֵי",
+    "transliteration": "bilʻădêy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "except, without, besides",
+      "hu": ""
+    }
+  },
+  "sw-baly": {
+    "strongs": 1108,
+    "original_word": "בַּלְעִי",
+    "transliteration": "Balʻîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Belaite (collectively) or descendants of Bela",
+      "hu": ""
+    }
+  },
+  "sw-bilm": {
+    "strongs": 1109,
+    "original_word": "בִּלְעָם",
+    "transliteration": "Bilʻâm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bilam, a Mesopotamian prophet; also a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-blaq": {
+    "strongs": 1110,
+    "original_word": "בָּלַק",
+    "transliteration": "bâlaq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to annihilate",
+      "hu": ""
+    }
+  },
+  "sw-blq": {
+    "strongs": 1111,
+    "original_word": "בָּלָק",
+    "transliteration": "Bâlâq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Balak, a Moabitish king",
+      "hu": ""
+    }
+  },
+  "sw-blshatstsar-1112": {
+    "strongs": 1112,
+    "original_word": "בֵּלְשַׁאצַּר",
+    "transliteration": "Bêlshaʼtstsar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Belshatstsar, a Babylonian king",
+      "hu": ""
+    }
+  },
+  "sw-blshatstsar-1113": {
+    "strongs": 1113,
+    "original_word": "בֵּלְשַׁאצַּר",
+    "transliteration": "Bêlshaʼtstsar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{Belshatstsar, a Babylonian king}",
+      "hu": ""
+    }
+  },
+  "sw-bilshn": {
+    "strongs": 1114,
+    "original_word": "בִּלְשָׁן",
+    "transliteration": "Bilshân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bilshan, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-bilty": {
+    "strongs": 1115,
+    "original_word": "בִּלְתִּי",
+    "transliteration": "biltîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, a failure of, i.e. (used only as a negative particle, usually with a prepositional prefix) not, except, without, unless, besides, because not, until, etc.",
+      "hu": ""
+    }
+  },
+  "sw-bmh": {
+    "strongs": 1116,
+    "original_word": "בָּמָה",
+    "transliteration": "bâmâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an elevation",
+      "hu": ""
+    }
+  },
+  "sw-bmh-1117": {
+    "strongs": 1117,
+    "original_word": "בָּמָה",
+    "transliteration": "Bâmâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bamah, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bimhl": {
+    "strongs": 1118,
+    "original_word": "בִּמְהָל",
+    "transliteration": "Bimhâl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bimhal, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-bmw": {
+    "strongs": 1119,
+    "original_word": "בְּמוֹ",
+    "transliteration": "bᵉmôw",
+    "language": "Hebrew",
+    "definition": {
+      "en": "in, with, by, etc.",
+      "hu": ""
+    }
+  },
+  "sw-bmwth": {
+    "strongs": 1120,
+    "original_word": "בָּמוֹת",
+    "transliteration": "Bâmôwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bamoth or Bamoth-Baal, a place East of the Jordan",
+      "hu": ""
+    }
+  },
+  "sw-bn": {
+    "strongs": 1121,
+    "original_word": "בֵּן",
+    "transliteration": "bên",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)",
+      "hu": ""
+    }
+  },
+  "sw-bn-1122": {
+    "strongs": 1122,
+    "original_word": "בֵּן",
+    "transliteration": "Bên",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ben, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-bn-1123": {
+    "strongs": 1123,
+    "original_word": "בֵּן",
+    "transliteration": "bên",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{a son (as a builder of the family name), in the widest sense}",
+      "hu": ""
+    }
+  },
+  "sw-bn-1124": {
+    "strongs": 1124,
+    "original_word": "בְּנָא",
+    "transliteration": "bᵉnâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to build",
+      "hu": ""
+    }
+  },
+  "sw-benbyndb": {
+    "strongs": 1125,
+    "original_word": "בֶּן־אֲבִינָדָב",
+    "transliteration": "Ben-ʼĂbîynâdâb",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ben-Abinadab, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-benwny": {
+    "strongs": 1126,
+    "original_word": "בֶּן־אוֹנִי",
+    "transliteration": "Ben-ʼÔwnîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ben-Oni, the original name of Benjamin",
+      "hu": ""
+    }
+  },
+  "sw-bengeber": {
+    "strongs": 1127,
+    "original_word": "בֶּן־גֶּבֶר",
+    "transliteration": "Ben-Geber",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ben-Geber, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-bendeqer": {
+    "strongs": 1128,
+    "original_word": "בֶּן־דֶּקֶר",
+    "transliteration": "Ben-Deqer",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ben-Deker, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-bnh-1129": {
+    "strongs": 1129,
+    "original_word": "בָּנָה",
+    "transliteration": "bânâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to build (literally and figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-benhdad": {
+    "strongs": 1130,
+    "original_word": "בֶּן־הֲדַד",
+    "transliteration": "Ben-Hădad",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ben-Hadad, the name of several Syrian kings",
+      "hu": ""
+    }
+  },
+  "sw-binnwy": {
+    "strongs": 1131,
+    "original_word": "בִּנּוּי",
+    "transliteration": "Binnûwy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Binnui, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-benzwchth": {
+    "strongs": 1132,
+    "original_word": "בֶּן־זוֹחֵת",
+    "transliteration": "Ben-Zôwchêth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ben-Zocheth, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-benchwr": {
+    "strongs": 1133,
+    "original_word": "בֶּן־חוּר",
+    "transliteration": "Ben-Chûwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ben-Chur, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-benchayil": {
+    "strongs": 1134,
+    "original_word": "בֶּן־חַיִל",
+    "transliteration": "Ben-Chayil",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ben-Chail, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-benchnn": {
+    "strongs": 1135,
+    "original_word": "בֶּן־חָנָן",
+    "transliteration": "Ben-Chânân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ben-Chanan, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-bencheed": {
+    "strongs": 1136,
+    "original_word": "בֶּן־חֶסֶד",
+    "transliteration": "Ben-Cheçed",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ben-Chesed, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-bny": {
+    "strongs": 1137,
+    "original_word": "בָּנִי",
+    "transliteration": "Bânîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bani, the name of five Israelites",
+      "hu": ""
+    }
+  },
+  "sw-bunny": {
+    "strongs": 1138,
+    "original_word": "בֻּנִּי",
+    "transliteration": "Bunnîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bunni or Buni, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-bnybraq": {
+    "strongs": 1139,
+    "original_word": "בְּנֵי־בְּרַק",
+    "transliteration": "Bᵉnêy-Bᵉraq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "sons of lightning, Bene-berak, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-binyh": {
+    "strongs": 1140,
+    "original_word": "בִּנְיָה",
+    "transliteration": "binyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a structure",
+      "hu": ""
+    }
+  },
+  "sw-bnyh": {
+    "strongs": 1141,
+    "original_word": "בְּנָיָה",
+    "transliteration": "Bᵉnâyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Benajah, the name of twelve Israelites",
+      "hu": ""
+    }
+  },
+  "sw-bnyyaqn": {
+    "strongs": 1142,
+    "original_word": "בְּנֵי יַעֲקָן",
+    "transliteration": "Bᵉnêy Yaʻăqân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bene-Jaakan, a place in the Desert",
+      "hu": ""
+    }
+  },
+  "sw-bnayim": {
+    "strongs": 1143,
+    "original_word": "בֵּנַיִם",
+    "transliteration": "bênayim",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a double interval, i.e. the space between two armies",
+      "hu": ""
+    }
+  },
+  "sw-binymyn": {
+    "strongs": 1144,
+    "original_word": "בִּנְיָמִין",
+    "transliteration": "Binyâmîyn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Binjamin, youngest son of Jacob; also the tribe descended from him, and its territory",
+      "hu": ""
+    }
+  },
+  "sw-benymyny": {
+    "strongs": 1145,
+    "original_word": "בֶּן־יְמִינִי",
+    "transliteration": "Ben-yᵉmîynîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Benjaminite, or descendent of Benjamin",
+      "hu": ""
+    }
+  },
+  "sw-binyn": {
+    "strongs": 1146,
+    "original_word": "בִּנְיָן",
+    "transliteration": "binyân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an edifice",
+      "hu": ""
+    }
+  },
+  "sw-binyn-1147": {
+    "strongs": 1147,
+    "original_word": "בִּנְיָן",
+    "transliteration": "binyân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{an edifice}",
+      "hu": ""
+    }
+  },
+  "sw-bnynw": {
+    "strongs": 1148,
+    "original_word": "בְּנִינוּ",
+    "transliteration": "Bᵉnîynûw",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beninu, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-bna": {
+    "strongs": 1149,
+    "original_word": "בְּנַס",
+    "transliteration": "bᵉnaç",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to be enraged",
+      "hu": ""
+    }
+  },
+  "sw-bin": {
+    "strongs": 1150,
+    "original_word": "בִּנְעָא",
+    "transliteration": "Binʻâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bina or Binah, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-benammy": {
+    "strongs": 1151,
+    "original_word": "בֶּן־עַמִּי",
+    "transliteration": "Ben-ʻAmmîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ben-Ammi, a son of Lot",
+      "hu": ""
+    }
+  },
+  "sw-bwdyh": {
+    "strongs": 1152,
+    "original_word": "בְּסוֹדְיָה",
+    "transliteration": "Bᵉçôwdᵉyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Besodejah, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-bay": {
+    "strongs": 1153,
+    "original_word": "בְּסַי",
+    "transliteration": "Bᵉçay",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Besai, one of the Nethinim",
+      "hu": ""
+    }
+  },
+  "sw-beer": {
+    "strongs": 1154,
+    "original_word": "בֶּסֶר",
+    "transliteration": "beçer",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an immature grape",
+      "hu": ""
+    }
+  },
+  "sw-ber-1155": {
+    "strongs": 1155,
+    "original_word": "בֹּסֶר",
+    "transliteration": "bôçer",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{an immature grape}",
+      "hu": ""
+    }
+  },
+  "sw-b-1156": {
+    "strongs": 1156,
+    "original_word": "בְּעָא",
+    "transliteration": "bᵉʻâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to seek or ask",
+      "hu": ""
+    }
+  },
+  "sw-bad-1157": {
+    "strongs": 1157,
+    "original_word": "בְּעַד",
+    "transliteration": "bᵉʻad",
+    "language": "Hebrew",
+    "definition": {
+      "en": "in up to or over against; generally at, beside, among, behind, for, etc.",
+      "hu": ""
+    }
+  },
+  "sw-bh-1158": {
+    "strongs": 1158,
+    "original_word": "בָּעָה",
+    "transliteration": "bâʻâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to gush over, i.e. to swell; (figuratively) to desire earnestly; by implication to ask",
+      "hu": ""
+    }
+  },
+  "sw-bw-1159": {
+    "strongs": 1159,
+    "original_word": "בָּעוּ",
+    "transliteration": "bâʻûw",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a request",
+      "hu": ""
+    }
+  },
+  "sw-bwr-1160": {
+    "strongs": 1160,
+    "original_word": "בְּעוֹר",
+    "transliteration": "Bᵉʻôwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beor, the name of the father of an Edomitish king; also of that of Balaam",
+      "hu": ""
+    }
+  },
+  "sw-biwthym": {
+    "strongs": 1161,
+    "original_word": "בִּעוּתִים",
+    "transliteration": "biʻûwthîym",
+    "language": "Hebrew",
+    "definition": {
+      "en": "alarms",
+      "hu": ""
+    }
+  },
+  "sw-baz-1162": {
+    "strongs": 1162,
+    "original_word": "בֹּעַז",
+    "transliteration": "Bôʻaz",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Boaz, the ancestor of David; also the name of a pillar in front of the temple",
+      "hu": ""
+    }
+  },
+  "sw-ba-1163": {
+    "strongs": 1163,
+    "original_word": "בָּעַט",
+    "transliteration": "bâʻaṭ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to trample down, i.e. (figuratively) despise",
+      "hu": ""
+    }
+  },
+  "sw-by-1164": {
+    "strongs": 1164,
+    "original_word": "בְּעִי",
+    "transliteration": "bᵉʻîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a prayer",
+      "hu": ""
+    }
+  },
+  "sw-byr-1165": {
+    "strongs": 1165,
+    "original_word": "בְּעִיר",
+    "transliteration": "bᵉʻîyr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "cattle",
+      "hu": ""
+    }
+  },
+  "sw-bal-1166": {
+    "strongs": 1166,
+    "original_word": "בָּעַל",
+    "transliteration": "bâʻal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to be master; hence, to marry",
+      "hu": ""
+    }
+  },
+  "sw-baal": {
+    "strongs": 1167,
+    "original_word": "בַּעַל",
+    "transliteration": "baʻal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a master; hence, a husband, or (figuratively) owner (often used with another noun in modifications of this latter sense)",
+      "hu": ""
+    }
+  },
+  "sw-baal-1168": {
+    "strongs": 1168,
+    "original_word": "בַּעַל",
+    "transliteration": "Baʻal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Baal, a Phoenician deity",
+      "hu": ""
+    }
+  },
+  "sw-bl-1169": {
+    "strongs": 1169,
+    "original_word": "בְּעֵל",
+    "transliteration": "bᵉʻêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{a master; hence, a husband,}",
+      "hu": ""
+    }
+  },
+  "sw-baalbryth": {
+    "strongs": 1170,
+    "original_word": "בַּעַל בְּרִית",
+    "transliteration": "Baʻal Bᵉrîyth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Baal-Berith, a special deity of the Shechemites",
+      "hu": ""
+    }
+  },
+  "sw-baalgd": {
+    "strongs": 1171,
+    "original_word": "בַּעַל גָּד",
+    "transliteration": "Baʻal Gâd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Baal-Gad, a place in Syria",
+      "hu": ""
+    }
+  },
+  "sw-balh": {
+    "strongs": 1172,
+    "original_word": "בַּעֲלָה",
+    "transliteration": "baʻălâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a mistress",
+      "hu": ""
+    }
+  },
+  "sw-balh-1173": {
+    "strongs": 1173,
+    "original_word": "בַּעֲלָה",
+    "transliteration": "Baʻălâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Baalah, the name of three places in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-baalhmwn": {
+    "strongs": 1174,
+    "original_word": "בַּעַל הָמוֹן",
+    "transliteration": "Baʻal Hâmôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Baal-Hamon, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-blwth": {
+    "strongs": 1175,
+    "original_word": "בְּעָלוֹת",
+    "transliteration": "Bᵉʻâlôwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bealoth, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-baalzbwb": {
+    "strongs": 1176,
+    "original_word": "בַּעַל זְבוּב",
+    "transliteration": "Baʻal Zᵉbûwb",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Baal-Zebub, a special deity of the Ekronites",
+      "hu": ""
+    }
+  },
+  "sw-baalchnn": {
+    "strongs": 1177,
+    "original_word": "בַּעַל חָנָן",
+    "transliteration": "Baʻal Chânân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Baal-Chanan, the name of an Edomite, also of an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-baalchtswr": {
+    "strongs": 1178,
+    "original_word": "בַּעַל חָצוֹר",
+    "transliteration": "Baʻal Châtsôwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Baal-Chatsor, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-baalchermwn": {
+    "strongs": 1179,
+    "original_word": "בַּעַל חֶרְמוֹן",
+    "transliteration": "Baʻal Chermôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Baal-Chermon, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-baly-1180": {
+    "strongs": 1180,
+    "original_word": "בַּעֲלִי",
+    "transliteration": "Baʻălîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Baali, a symbolical name for Jehovah",
+      "hu": ""
+    }
+  },
+  "sw-balybmwth": {
+    "strongs": 1181,
+    "original_word": "בַּעֲלֵי בָּמוֹת",
+    "transliteration": "Baʻălêy Bâmôwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Baale-Bamoth, a place East of the Jordan",
+      "hu": ""
+    }
+  },
+  "sw-belyd": {
+    "strongs": 1182,
+    "original_word": "בְּעֶלְיָדָע",
+    "transliteration": "Bᵉʻelyâdâʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beeljada, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-balyh": {
+    "strongs": 1183,
+    "original_word": "בְּעַלְיָה",
+    "transliteration": "Bᵉʻalyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bealjah, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-balyyhwdh": {
+    "strongs": 1184,
+    "original_word": "בַּעֲלֵי יְהוּדָה",
+    "transliteration": "Baʻălêy Yᵉhûwdâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Baale-Jehudah, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-baly-1185": {
+    "strongs": 1185,
+    "original_word": "בַּעֲלִיס",
+    "transliteration": "Baʻălîyç",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Baalis, an Ammonitish king",
+      "hu": ""
+    }
+  },
+  "sw-baalmwn": {
+    "strongs": 1186,
+    "original_word": "בַּעַל מְעוֹן",
+    "transliteration": "Baʻal Mᵉʻôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Baal-Meon, a place East of the Jordan",
+      "hu": ""
+    }
+  },
+  "sw-baalpwr": {
+    "strongs": 1187,
+    "original_word": "בַּעַל פְּעוֹר",
+    "transliteration": "Baʻal Pᵉʻôwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Baal-Peor, a Moabitish deity",
+      "hu": ""
+    }
+  },
+  "sw-baalprtsym": {
+    "strongs": 1188,
+    "original_word": "בַּעַל פְּרָצִים",
+    "transliteration": "Baʻal Pᵉrâtsîym",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Baal-Peratsim, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-baaltsphwn": {
+    "strongs": 1189,
+    "original_word": "בַּעַל צְפוֹן",
+    "transliteration": "Baʻal Tsᵉphôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Baal-Tsephon, a place in Eqypt",
+      "hu": ""
+    }
+  },
+  "sw-baalshlishh": {
+    "strongs": 1190,
+    "original_word": "בַּעַל שָׁלִשָׁה",
+    "transliteration": "Baʻal Shâlishâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Baal of Shalishah, Baal-Shalishah, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-balth": {
+    "strongs": 1191,
+    "original_word": "בַּעֲלָת",
+    "transliteration": "Baʻălâth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Baalath, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-balathbr": {
+    "strongs": 1192,
+    "original_word": "בַּעֲלַת בְּאֵר",
+    "transliteration": "Baʻălath Bᵉʼêr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Baalath-Beer, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-baaltmr": {
+    "strongs": 1193,
+    "original_word": "בַּעַל תָּמָר",
+    "transliteration": "Baʻal Tâmâr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Baal-Tamar, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bn-1194": {
+    "strongs": 1194,
+    "original_word": "בְּעֹן",
+    "transliteration": "Bᵉʻôn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beon, a place East of the Jordan",
+      "hu": ""
+    }
+  },
+  "sw-ban": {
+    "strongs": 1195,
+    "original_word": "בַּעֲנָא",
+    "transliteration": "Baʻănâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Banana, the name of four Israelite",
+      "hu": ""
+    }
+  },
+  "sw-banh": {
+    "strongs": 1196,
+    "original_word": "בַּעֲנָה",
+    "transliteration": "Baʻănâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Baanah, the name of four Israelites",
+      "hu": ""
+    }
+  },
+  "sw-bar-1197": {
+    "strongs": 1197,
+    "original_word": "בָּעַר",
+    "transliteration": "bâʻar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to kindle, i.e. consume (by fire or by eating);  to be(-come) brutish",
+      "hu": ""
+    }
+  },
+  "sw-baar": {
+    "strongs": 1198,
+    "original_word": "בַּעַר",
+    "transliteration": "baʻar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, foot (as consumed); i.e. (by exten.) of cattle brutishness; (concretely) stupid",
+      "hu": ""
+    }
+  },
+  "sw-br-1199": {
+    "strongs": 1199,
+    "original_word": "בָּעֲרָא",
+    "transliteration": "Bâʻărâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Baara, an Israelitish woman",
+      "hu": ""
+    }
+  },
+  "sw-brh-1200": {
+    "strongs": 1200,
+    "original_word": "בְּעֵרָה",
+    "transliteration": "bᵉʻêrâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a burning",
+      "hu": ""
+    }
+  }
+}

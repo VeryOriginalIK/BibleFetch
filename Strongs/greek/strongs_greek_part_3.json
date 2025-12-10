@@ -1,0 +1,4002 @@
+{
+  "sw-g801": {
+    "strongs": 801,
+    "original_word": "ἀσύνετος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " unintelligent; by implication, wicked",
+      "hu": ""
+    }
+  },
+  "sw-g802": {
+    "strongs": 802,
+    "original_word": "ἀσύνθετος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " properly, not agreed, i.e. treacherous to compacts",
+      "hu": ""
+    }
+  },
+  "sw-g803": {
+    "strongs": 803,
+    "original_word": "ἀσφάλεια",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " security (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-g804": {
+    "strongs": 804,
+    "original_word": "ἀσφαλής",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " secure (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-g805": {
+    "strongs": 805,
+    "original_word": "ἀσφαλίζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to render secure",
+      "hu": ""
+    }
+  },
+  "sw-g806": {
+    "strongs": 806,
+    "original_word": "ἀσφαλῶς",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " securely (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-g807": {
+    "strongs": 807,
+    "original_word": "ἀσχημονέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to be (i.e. act) unbecoming",
+      "hu": ""
+    }
+  },
+  "sw-g808": {
+    "strongs": 808,
+    "original_word": "ἀσχημοσύνη",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " an indecency; by implication, the pudenda",
+      "hu": ""
+    }
+  },
+  "sw-g809": {
+    "strongs": 809,
+    "original_word": "ἀσχήμων",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " properly, shapeless, i.e. (figuratively) inelegant",
+      "hu": ""
+    }
+  },
+  "sw-g810": {
+    "strongs": 810,
+    "original_word": "ἀσωτία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " properly, unsavedness, i.e. (by implication) profligacy",
+      "hu": ""
+    }
+  },
+  "sw-g811": {
+    "strongs": 811,
+    "original_word": "ἀσώτως",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " dissolutely",
+      "hu": ""
+    }
+  },
+  "sw-g812": {
+    "strongs": 812,
+    "original_word": "ἀτακτέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to be (i.e. act) irregular",
+      "hu": ""
+    }
+  },
+  "sw-g813": {
+    "strongs": 813,
+    "original_word": "ἄτακτος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " unarranged, i.e. (by implication) insubordinate (religiously)",
+      "hu": ""
+    }
+  },
+  "sw-g814": {
+    "strongs": 814,
+    "original_word": "ἀτάκτως",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": "",
+      "hu": ""
+    }
+  },
+  "sw-g815": {
+    "strongs": 815,
+    "original_word": "ἄτεκνος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " childless",
+      "hu": ""
+    }
+  },
+  "sw-g816": {
+    "strongs": 816,
+    "original_word": "ἀτενίζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to gaze intently",
+      "hu": ""
+    }
+  },
+  "sw-g817": {
+    "strongs": 817,
+    "original_word": "ἄτερ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " aloof, i.e. apart from (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-g818": {
+    "strongs": 818,
+    "original_word": "ἀτιμάζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to render infamous, i.e. (by implication) contemn or maltreat",
+      "hu": ""
+    }
+  },
+  "sw-g819": {
+    "strongs": 819,
+    "original_word": "ἀτιμία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " infamy, i.e. (subjectively) comparative indignity, (objectively) disgrace",
+      "hu": ""
+    }
+  },
+  "sw-g820": {
+    "strongs": 820,
+    "original_word": "ἄτιμος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " (negatively) unhonoured or (positively) dishonoured",
+      "hu": ""
+    }
+  },
+  "sw-g821": {
+    "strongs": 821,
+    "original_word": "ἀτιμόω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " used like G818 (ἀτιμάζω), to maltreat",
+      "hu": ""
+    }
+  },
+  "sw-g822": {
+    "strongs": 822,
+    "original_word": "ἀτμίς",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " mist",
+      "hu": ""
+    }
+  },
+  "sw-g823": {
+    "strongs": 823,
+    "original_word": "ἄτομος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " uncut, i.e. (by implication) indivisible (an \"atom\" of time)",
+      "hu": ""
+    }
+  },
+  "sw-g824": {
+    "strongs": 824,
+    "original_word": "ἄτοπος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " out of place, i.e. (figuratively) improper, injurious, wicked",
+      "hu": ""
+    }
+  },
+  "sw-g825": {
+    "strongs": 825,
+    "original_word": "Ἀττάλεια",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Attaleia, a place in Pamphylia",
+      "hu": ""
+    }
+  },
+  "sw-g826": {
+    "strongs": 826,
+    "original_word": "αὐγάζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to beam forth (figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-g827": {
+    "strongs": 827,
+    "original_word": "αὐγή",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a ray of light, i.e. (by implication) radiance, dawn",
+      "hu": ""
+    }
+  },
+  "sw-g828": {
+    "strongs": 828,
+    "original_word": "Αὐγοῦστος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Augustus, a title of the Roman emperor",
+      "hu": ""
+    }
+  },
+  "sw-g829": {
+    "strongs": 829,
+    "original_word": "αὐθάδης",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " self-pleasing, i.e. arrogant",
+      "hu": ""
+    }
+  },
+  "sw-g830": {
+    "strongs": 830,
+    "original_word": "αὐθαίρετος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " self-chosen, i.e. (by implication) voluntary",
+      "hu": ""
+    }
+  },
+  "sw-g831": {
+    "strongs": 831,
+    "original_word": "αὐθεντέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to act of oneself, i.e. (figuratively) dominate",
+      "hu": ""
+    }
+  },
+  "sw-g832": {
+    "strongs": 832,
+    "original_word": "αὐλέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to play the flute",
+      "hu": ""
+    }
+  },
+  "sw-g833": {
+    "strongs": 833,
+    "original_word": "αὐλή",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a yard (as open to the wind); by implication, a mansion",
+      "hu": ""
+    }
+  },
+  "sw-g834": {
+    "strongs": 834,
+    "original_word": "αὐλητής",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a flute-player",
+      "hu": ""
+    }
+  },
+  "sw-g835": {
+    "strongs": 835,
+    "original_word": "αὐλίζομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to pass the night (properly, in the open air)",
+      "hu": ""
+    }
+  },
+  "sw-g836": {
+    "strongs": 836,
+    "original_word": "αὐλός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a flute (as blown)",
+      "hu": ""
+    }
+  },
+  "sw-g837": {
+    "strongs": 837,
+    "original_word": "αὐξάνω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to grow (\"wax\"), i.e. enlarge (literal or figurative, active or passive)",
+      "hu": ""
+    }
+  },
+  "sw-g838": {
+    "strongs": 838,
+    "original_word": "αὔξησις",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " growth",
+      "hu": ""
+    }
+  },
+  "sw-g839": {
+    "strongs": 839,
+    "original_word": "αὔριον",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " properly, fresh, i.e. (adverb with ellipsis of G2250 (ἡμέρα)) to-morrow",
+      "hu": ""
+    }
+  },
+  "sw-g840": {
+    "strongs": 840,
+    "original_word": "αὐστηρός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " rough (properly as a gale), i.e. (figuratively) severe",
+      "hu": ""
+    }
+  },
+  "sw-g841": {
+    "strongs": 841,
+    "original_word": "αὐτάρκεια",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " self-satisfaction, i.e. (abstractly) contentedness, or (concretely) a competence",
+      "hu": ""
+    }
+  },
+  "sw-g842": {
+    "strongs": 842,
+    "original_word": "αὐτάρκης",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " self-complacent, i.e. contented",
+      "hu": ""
+    }
+  },
+  "sw-g843": {
+    "strongs": 843,
+    "original_word": "αὐτοκατάκριτος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " self-condemned",
+      "hu": ""
+    }
+  },
+  "sw-g844": {
+    "strongs": 844,
+    "original_word": "αὐτόματος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " self-moved (\"automatic\"), i.e. spontaneous",
+      "hu": ""
+    }
+  },
+  "sw-g845": {
+    "strongs": 845,
+    "original_word": "αὐτόπτης",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " self-seeing, i.e. an eye-witness",
+      "hu": ""
+    }
+  },
+  "sw-g846": {
+    "strongs": 846,
+    "original_word": "αὐτός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " the reflexive pronoun self, used (alone or in the comparative G1438 (ἑαυτοῦ)) of the third person , and (with the proper personal pronoun) of the other persons",
+      "hu": ""
+    }
+  },
+  "sw-g847": {
+    "strongs": 847,
+    "original_word": "αὐτοῦ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " properly, belonging to the same spot, i.e. in this (or that) place",
+      "hu": ""
+    }
+  },
+  "sw-g848": {
+    "strongs": 848,
+    "original_word": "αὑτοῦ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " self (in some oblique case or reflexively, relation)",
+      "hu": ""
+    }
+  },
+  "sw-g849": {
+    "strongs": 849,
+    "original_word": "αὐτόχειρ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " self-handed, i.e. doing personally",
+      "hu": ""
+    }
+  },
+  "sw-g850": {
+    "strongs": 850,
+    "original_word": "αὐχμηρός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " properly, dirty, i.e. (by implication) obscure",
+      "hu": ""
+    }
+  },
+  "sw-g851": {
+    "strongs": 851,
+    "original_word": "ἀφαιρέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to remove (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-g852": {
+    "strongs": 852,
+    "original_word": "ἀφανής",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " non-apparent)",
+      "hu": ""
+    }
+  },
+  "sw-g853": {
+    "strongs": 853,
+    "original_word": "ἀφανίζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to render unapparent, i.e. (actively) consume (becloud), or (passively) disappear (be destroyed)",
+      "hu": ""
+    }
+  },
+  "sw-g854": {
+    "strongs": 854,
+    "original_word": "ἀφανισμός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " disappearance, i.e. (figuratively) abrogation",
+      "hu": ""
+    }
+  },
+  "sw-g855": {
+    "strongs": 855,
+    "original_word": "ἄφαντος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " non-manifested, i.e. invisible",
+      "hu": ""
+    }
+  },
+  "sw-g856": {
+    "strongs": 856,
+    "original_word": "ἀφεδρών",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a place of sitting apart, i.e. a privy",
+      "hu": ""
+    }
+  },
+  "sw-g857": {
+    "strongs": 857,
+    "original_word": "ἀφειδία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " unsparingness, i.e. austerity (asceticism)",
+      "hu": ""
+    }
+  },
+  "sw-g858": {
+    "strongs": 858,
+    "original_word": "ἀφελότης",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " smoothness, i.e. (figuratively) simplicity",
+      "hu": ""
+    }
+  },
+  "sw-g859": {
+    "strongs": 859,
+    "original_word": "ἄφεσις",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " freedom; (figuratively) pardon",
+      "hu": ""
+    }
+  },
+  "sw-g860": {
+    "strongs": 860,
+    "original_word": "ἁφή",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " probably a ligament (as fastening)",
+      "hu": ""
+    }
+  },
+  "sw-g861": {
+    "strongs": 861,
+    "original_word": "ἀφθαρσία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " incorruptibility; genitive, unending existence; (figuratively) genuineness",
+      "hu": ""
+    }
+  },
+  "sw-g862": {
+    "strongs": 862,
+    "original_word": "ἄφθαρτος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " undecaying (in essence or continuance)",
+      "hu": ""
+    }
+  },
+  "sw-g863": {
+    "strongs": 863,
+    "original_word": "ἀφίημι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " an intensive form of , to go); to send forth, in various applications (as follow)",
+      "hu": ""
+    }
+  },
+  "sw-g864": {
+    "strongs": 864,
+    "original_word": "ἀφικνέομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to go (i.e. spread) forth (by rumor)",
+      "hu": ""
+    }
+  },
+  "sw-g865": {
+    "strongs": 865,
+    "original_word": "ἀφιλάγαθος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " hostile to virtue",
+      "hu": ""
+    }
+  },
+  "sw-g866": {
+    "strongs": 866,
+    "original_word": "ἀφιλάργυρος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " unavaricious",
+      "hu": ""
+    }
+  },
+  "sw-g867": {
+    "strongs": 867,
+    "original_word": "ἄφιξις",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " properly, arrival, i.e. (by implication) departure",
+      "hu": ""
+    }
+  },
+  "sw-g868": {
+    "strongs": 868,
+    "original_word": "ἀφίστημι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to remove, i.e. (actively) instigate to revolt; usually (reflexively) to desist, desert, etc.",
+      "hu": ""
+    }
+  },
+  "sw-g869": {
+    "strongs": 869,
+    "original_word": "ἄφνω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " unawares, i.e. unexpectedly",
+      "hu": ""
+    }
+  },
+  "sw-g870": {
+    "strongs": 870,
+    "original_word": "ἀφόβως",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " fearlessly",
+      "hu": ""
+    }
+  },
+  "sw-g871": {
+    "strongs": 871,
+    "original_word": "ἀφομοιόω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to assimilate closely",
+      "hu": ""
+    }
+  },
+  "sw-g872": {
+    "strongs": 872,
+    "original_word": "ἀφοράω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to consider attentively",
+      "hu": ""
+    }
+  },
+  "sw-g873": {
+    "strongs": 873,
+    "original_word": "ἀφορίζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to set off by boundary, i.e. (figuratively) limit, exclude, appoint, etc.",
+      "hu": ""
+    }
+  },
+  "sw-g874": {
+    "strongs": 874,
+    "original_word": "ἀφορμή",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a starting-point, i.e. (figuratively) an opportunity",
+      "hu": ""
+    }
+  },
+  "sw-g875": {
+    "strongs": 875,
+    "original_word": "ἀφρίζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to froth at the mouth (in epilepsy)",
+      "hu": ""
+    }
+  },
+  "sw-g876": {
+    "strongs": 876,
+    "original_word": "ἀφρός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " froth, i.e. slaver",
+      "hu": ""
+    }
+  },
+  "sw-g877": {
+    "strongs": 877,
+    "original_word": "ἀφροσύνη",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " senselessness, i.e. (euphemistically) egotism; (morally) recklessness",
+      "hu": ""
+    }
+  },
+  "sw-g878": {
+    "strongs": 878,
+    "original_word": "ἄφρων",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " properly, mindless, i.e. stupid, (by implication) ignorant, (specially) egotistic, (practically) rash, or (morally) unbelieving",
+      "hu": ""
+    }
+  },
+  "sw-g879": {
+    "strongs": 879,
+    "original_word": "ἀφυπνόω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " properly, to become awake, i.e. (by implication) to drop (off) in slumber",
+      "hu": ""
+    }
+  },
+  "sw-g880": {
+    "strongs": 880,
+    "original_word": "ἄφωνος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " voiceless, i.e. mute (by nature or choice); figuratively, unmeaning",
+      "hu": ""
+    }
+  },
+  "sw-g881": {
+    "strongs": 881,
+    "original_word": "Ἀχάζ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Achaz, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-g882": {
+    "strongs": 882,
+    "original_word": "Ἀχαΐα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Achaia (i.e. Greece), a country of Europe",
+      "hu": ""
+    }
+  },
+  "sw-g883": {
+    "strongs": 883,
+    "original_word": "Ἀχαϊκός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " an Achaian; Achaicus, a Christian",
+      "hu": ""
+    }
+  },
+  "sw-g884": {
+    "strongs": 884,
+    "original_word": "ἀχάριστος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " thankless, i.e. ungrateful",
+      "hu": ""
+    }
+  },
+  "sw-g885": {
+    "strongs": 885,
+    "original_word": "Ἀχείμ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Achim, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-g886": {
+    "strongs": 886,
+    "original_word": "ἀχειροποίητος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " unmanufactured, i.e. inartificial",
+      "hu": ""
+    }
+  },
+  "sw-g887": {
+    "strongs": 887,
+    "original_word": "ἀχλύς",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " dimness of sight, i.e. (probably) a cataract",
+      "hu": ""
+    }
+  },
+  "sw-g888": {
+    "strongs": 888,
+    "original_word": "ἀχρεῖος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " useless, i.e. (euphemistically) unmeritorious",
+      "hu": ""
+    }
+  },
+  "sw-g889": {
+    "strongs": 889,
+    "original_word": "ἀχρειόω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to render useless, i.e. spoil",
+      "hu": ""
+    }
+  },
+  "sw-g890": {
+    "strongs": 890,
+    "original_word": "ἄχρηστος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " inefficient, i.e. (by implication) detrimental",
+      "hu": ""
+    }
+  },
+  "sw-g891": {
+    "strongs": 891,
+    "original_word": "ἄχρι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " (of time) until or (of place) up to",
+      "hu": ""
+    }
+  },
+  "sw-g892": {
+    "strongs": 892,
+    "original_word": "ἄχυρον",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " chaff (as diffusive)",
+      "hu": ""
+    }
+  },
+  "sw-g893": {
+    "strongs": 893,
+    "original_word": "ἀψευδής",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " veracious",
+      "hu": ""
+    }
+  },
+  "sw-g894": {
+    "strongs": 894,
+    "original_word": "ἄψινθος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " wormwood (as a type of bitterness, i.e. (figuratively) calamity)",
+      "hu": ""
+    }
+  },
+  "sw-g895": {
+    "strongs": 895,
+    "original_word": "ἄψυχος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " lifeless, i.e. inanimate (mechanical)",
+      "hu": ""
+    }
+  },
+  "sw-g896": {
+    "strongs": 896,
+    "original_word": "Βάαλ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Baal, a Phœnician deity (used as a symbol of idolatry)",
+      "hu": ""
+    }
+  },
+  "sw-g897": {
+    "strongs": 897,
+    "original_word": "Βαβυλών",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Babylon, the capitol of Chaldæa (literally or figuratively (as a type of tyranny))",
+      "hu": ""
+    }
+  },
+  "sw-g898": {
+    "strongs": 898,
+    "original_word": "βαθμός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a step, i.e. (figuratively) grade (of dignity)",
+      "hu": ""
+    }
+  },
+  "sw-g899": {
+    "strongs": 899,
+    "original_word": "βάθος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " profundity, i.e. (by implication) extent; (figuratively) mystery",
+      "hu": ""
+    }
+  },
+  "sw-g900": {
+    "strongs": 900,
+    "original_word": "βαθύνω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to deepen",
+      "hu": ""
+    }
+  },
+  "sw-g901": {
+    "strongs": 901,
+    "original_word": "βαθύς",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " profound (as going down), literally or figuratively",
+      "hu": ""
+    }
+  },
+  "sw-g902": {
+    "strongs": 902,
+    "original_word": "βαΐον",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a palm twig (as going out far)",
+      "hu": ""
+    }
+  },
+  "sw-g903": {
+    "strongs": 903,
+    "original_word": "Βαλαάμ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Balaam, a Mesopotamian (symbolic of a false teacher)",
+      "hu": ""
+    }
+  },
+  "sw-g904": {
+    "strongs": 904,
+    "original_word": "Βαλάκ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Balak, a Moabite",
+      "hu": ""
+    }
+  },
+  "sw-g905": {
+    "strongs": 905,
+    "original_word": "βαλάντιον",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a pouch (for money)",
+      "hu": ""
+    }
+  },
+  "sw-g906": {
+    "strongs": 906,
+    "original_word": "βάλλω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to throw (in various applications, more or less violent or intense)",
+      "hu": ""
+    }
+  },
+  "sw-g907": {
+    "strongs": 907,
+    "original_word": "βαπτίζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to immerse, submerge; to make whelmed (i.e. fully wet); used only (in the New Testament) of ceremonial ablution, especially (technically) of the ordinance of Christian baptism",
+      "hu": ""
+    }
+  },
+  "sw-g908": {
+    "strongs": 908,
+    "original_word": "βάπτισμα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " baptism (technically or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-g909": {
+    "strongs": 909,
+    "original_word": "βαπτισμός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " ablution (ceremonial or Christian)",
+      "hu": ""
+    }
+  },
+  "sw-g910": {
+    "strongs": 910,
+    "original_word": "Βαπτιστής",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a baptizer, as an epithet of Christ's forerunner",
+      "hu": ""
+    }
+  },
+  "sw-g911": {
+    "strongs": 911,
+    "original_word": "βάπτω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to whelm, i.e. cover wholly with a fluid; in the New Testament only in a qualified or special sense, i.e. (literally) to moisten (a part of one's person), or (by implication) to stain (as with dye)",
+      "hu": ""
+    }
+  },
+  "sw-g912": {
+    "strongs": 912,
+    "original_word": "Βαραββᾶς",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " son of Abba; Bar-abbas, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-g913": {
+    "strongs": 913,
+    "original_word": "Βαράκ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Barak, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-g914": {
+    "strongs": 914,
+    "original_word": "Βαραχίας",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Barachias (i.e. Berechijah), an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-g915": {
+    "strongs": 915,
+    "original_word": "βάρβαρος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a foreigner (i.e. non-Greek)",
+      "hu": ""
+    }
+  },
+  "sw-g916": {
+    "strongs": 916,
+    "original_word": "βαρέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to weigh down (figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-g917": {
+    "strongs": 917,
+    "original_word": "βαρέως",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " heavily (figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-g918": {
+    "strongs": 918,
+    "original_word": "Βαρθολομαῖος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " son of Tolmai; Bar-tholomæus, a Christian apostle",
+      "hu": ""
+    }
+  },
+  "sw-g919": {
+    "strongs": 919,
+    "original_word": "Βαριησοῦς",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " son of Jesus (or Joshua); Bar-jesus, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-g920": {
+    "strongs": 920,
+    "original_word": "Βαριωνᾶς",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " son of Jonas (or Jonah); Bar-jonas, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-g921": {
+    "strongs": 921,
+    "original_word": "Βαρνάβας",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " son of Nabas (i.e. prophecy); Barnabas, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-g922": {
+    "strongs": 922,
+    "original_word": "βάρος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " compare G899 (βάθος)); weight; in the New Testament only, figuratively, a load, abundance, authority",
+      "hu": ""
+    }
+  },
+  "sw-g923": {
+    "strongs": 923,
+    "original_word": "Βαρσαβᾶς",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " son of Sabas (or Tsaba); Bar-sabas, the name of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-g924": {
+    "strongs": 924,
+    "original_word": "Βαρτιμαῖος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " son of Timæus (or the unclean); Bar-timæus, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-g925": {
+    "strongs": 925,
+    "original_word": "βαρύνω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to burden (figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-g926": {
+    "strongs": 926,
+    "original_word": "βαρύς",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " weighty, i.e. (fig) burdensome, grave",
+      "hu": ""
+    }
+  },
+  "sw-g927": {
+    "strongs": 927,
+    "original_word": "βαρύτιμος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " highly valuable",
+      "hu": ""
+    }
+  },
+  "sw-g928": {
+    "strongs": 928,
+    "original_word": "βασανίζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to torture",
+      "hu": ""
+    }
+  },
+  "sw-g929": {
+    "strongs": 929,
+    "original_word": "βασανισμός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " torture",
+      "hu": ""
+    }
+  },
+  "sw-g930": {
+    "strongs": 930,
+    "original_word": "βασανιστής",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a torturer",
+      "hu": ""
+    }
+  },
+  "sw-g931": {
+    "strongs": 931,
+    "original_word": "βάσανος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a touch-stone, i.e. (by analogy) torture",
+      "hu": ""
+    }
+  },
+  "sw-g932": {
+    "strongs": 932,
+    "original_word": "βασιλεία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " properly, royalty, i.e. (abstractly) rule, or (concretely) a realm (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-g933": {
+    "strongs": 933,
+    "original_word": "βασίλειον",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a palace",
+      "hu": ""
+    }
+  },
+  "sw-g934": {
+    "strongs": 934,
+    "original_word": "βασίλειος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " kingly (in nature)",
+      "hu": ""
+    }
+  },
+  "sw-g935": {
+    "strongs": 935,
+    "original_word": "βασιλεύς",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a sovereign (abstractly, relatively, or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-g936": {
+    "strongs": 936,
+    "original_word": "βασιλεύω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to rule (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-g937": {
+    "strongs": 937,
+    "original_word": "βασιλικός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " regal (in relation), i.e. (literally) belonging to (or befitting) the sovereign (as land, dress, or a courtier), or (figuratively) preeminent",
+      "hu": ""
+    }
+  },
+  "sw-g938": {
+    "strongs": 938,
+    "original_word": "βασίλισσα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a queen",
+      "hu": ""
+    }
+  },
+  "sw-g939": {
+    "strongs": 939,
+    "original_word": "βάσις",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a pace (\"base\"), i.e. (by implication) the foot",
+      "hu": ""
+    }
+  },
+  "sw-g940": {
+    "strongs": 940,
+    "original_word": "βασκαίνω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to malign, i.e. (by extension) to fascinate (by false representations)",
+      "hu": ""
+    }
+  },
+  "sw-g941": {
+    "strongs": 941,
+    "original_word": "βαστάζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to lift, literally or figuratively (endure, declare, sustain, receive, etc.)",
+      "hu": ""
+    }
+  },
+  "sw-g942": {
+    "strongs": 942,
+    "original_word": "βάτος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a brier shrub",
+      "hu": ""
+    }
+  },
+  "sw-g943": {
+    "strongs": 943,
+    "original_word": "βάτος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a bath, or measure for liquids",
+      "hu": ""
+    }
+  },
+  "sw-g944": {
+    "strongs": 944,
+    "original_word": "βάτραχος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a frog",
+      "hu": ""
+    }
+  },
+  "sw-g945": {
+    "strongs": 945,
+    "original_word": "βαττολογέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to stutter, i.e. (by implication) to prate tediously",
+      "hu": ""
+    }
+  },
+  "sw-g946": {
+    "strongs": 946,
+    "original_word": "βδέλυγμα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a detestation, i.e. (specially) idolatry",
+      "hu": ""
+    }
+  },
+  "sw-g947": {
+    "strongs": 947,
+    "original_word": "βδελυκτός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " detestable, i.e. (specially) idolatrous",
+      "hu": ""
+    }
+  },
+  "sw-g948": {
+    "strongs": 948,
+    "original_word": "βδελύσσω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to be disgusted, i.e. (by implication) detest (especially of idolatry)",
+      "hu": ""
+    }
+  },
+  "sw-g949": {
+    "strongs": 949,
+    "original_word": "βέβαιος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " stable (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-g950": {
+    "strongs": 950,
+    "original_word": "βεβαιόω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to stabilitate (figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-g951": {
+    "strongs": 951,
+    "original_word": "βεβαίωσις",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " stabiliment",
+      "hu": ""
+    }
+  },
+  "sw-g952": {
+    "strongs": 952,
+    "original_word": "βέβηλος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " accessible (as by crossing the door-way), i.e. (by implication, of Jewish notions) heathenish, wicked",
+      "hu": ""
+    }
+  },
+  "sw-g953": {
+    "strongs": 953,
+    "original_word": "βεβηλόω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to desecrate",
+      "hu": ""
+    }
+  },
+  "sw-g954": {
+    "strongs": 954,
+    "original_word": "Βεελζεβούλ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " dung-god; Beelzebul, a name of Satan",
+      "hu": ""
+    }
+  },
+  "sw-g955": {
+    "strongs": 955,
+    "original_word": "Βελίαλ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " worthlessness; Belial, as an epithet of Satan",
+      "hu": ""
+    }
+  },
+  "sw-g956": {
+    "strongs": 956,
+    "original_word": "βέλος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a missile, i.e. spear or arrow",
+      "hu": ""
+    }
+  },
+  "sw-g957": {
+    "strongs": 957,
+    "original_word": "βελτίον",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " better",
+      "hu": ""
+    }
+  },
+  "sw-g958": {
+    "strongs": 958,
+    "original_word": "Βενιαμίν",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Benjamin, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-g959": {
+    "strongs": 959,
+    "original_word": "Βερνίκη",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " victorious; Bernice, a member of the Herodian family",
+      "hu": ""
+    }
+  },
+  "sw-g960": {
+    "strongs": 960,
+    "original_word": "Βέροια",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Berœa, a place in Macedonia",
+      "hu": ""
+    }
+  },
+  "sw-g961": {
+    "strongs": 961,
+    "original_word": "Βεροιαῖος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a Berœoean or native of Berœa",
+      "hu": ""
+    }
+  },
+  "sw-g962": {
+    "strongs": 962,
+    "original_word": "Βηθαβαρά",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " ferry-house; Bethabara (i.e. Bethabarah), a place on the Jordan",
+      "hu": ""
+    }
+  },
+  "sw-g963": {
+    "strongs": 963,
+    "original_word": "Βηθανία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " date-house; Beth-any, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-g964": {
+    "strongs": 964,
+    "original_word": "Βηθεσδά",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " house of kindness; Beth-esda, a pool in Jerusalem",
+      "hu": ""
+    }
+  },
+  "sw-g965": {
+    "strongs": 965,
+    "original_word": "Βηθλεέμ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Bethleem (i.e. Beth-lechem), a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-g966": {
+    "strongs": 966,
+    "original_word": "Βηθσαϊδά",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " fishing-house; Bethsaida, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-g967": {
+    "strongs": 967,
+    "original_word": "Βηθφαγή",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " fig-house; Beth-phage, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-g968": {
+    "strongs": 968,
+    "original_word": "βῆμα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a step, i.e. foot-breath; by implication, a rostrum, i.e. a tribunal",
+      "hu": ""
+    }
+  },
+  "sw-g969": {
+    "strongs": 969,
+    "original_word": "βήρυλλος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a \"beryl\"",
+      "hu": ""
+    }
+  },
+  "sw-g970": {
+    "strongs": 970,
+    "original_word": "βία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " force",
+      "hu": ""
+    }
+  },
+  "sw-g971": {
+    "strongs": 971,
+    "original_word": "βιάζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to force, i.e. (reflexively) to crowd oneself (into), or (passively) to be seized",
+      "hu": ""
+    }
+  },
+  "sw-g972": {
+    "strongs": 972,
+    "original_word": "βίαιος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " violent",
+      "hu": ""
+    }
+  },
+  "sw-g973": {
+    "strongs": 973,
+    "original_word": "βιαστής",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a forcer, i.e. (figuratively) energetic",
+      "hu": ""
+    }
+  },
+  "sw-g974": {
+    "strongs": 974,
+    "original_word": "βιβλιαρίδιον",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a booklet",
+      "hu": ""
+    }
+  },
+  "sw-g975": {
+    "strongs": 975,
+    "original_word": "βιβλίον",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a roll",
+      "hu": ""
+    }
+  },
+  "sw-g976": {
+    "strongs": 976,
+    "original_word": "βίβλος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": "",
+      "hu": ""
+    }
+  },
+  "sw-g977": {
+    "strongs": 977,
+    "original_word": "βιβρώσκω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to eat",
+      "hu": ""
+    }
+  },
+  "sw-g978": {
+    "strongs": 978,
+    "original_word": "Βιθυνία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Bithynia, a region of Asia",
+      "hu": ""
+    }
+  },
+  "sw-g979": {
+    "strongs": 979,
+    "original_word": "βίος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " life, i.e. (literally) the present state of existence; by implication, the means of livelihood",
+      "hu": ""
+    }
+  },
+  "sw-g980": {
+    "strongs": 980,
+    "original_word": "βιόω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to spend existence",
+      "hu": ""
+    }
+  },
+  "sw-g981": {
+    "strongs": 981,
+    "original_word": "βίωσις",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " living (properly, the act, by implication, the mode)",
+      "hu": ""
+    }
+  },
+  "sw-g982": {
+    "strongs": 982,
+    "original_word": "βιωτικός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " relating to the present existence",
+      "hu": ""
+    }
+  },
+  "sw-g983": {
+    "strongs": 983,
+    "original_word": "βλαβερός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " injurious",
+      "hu": ""
+    }
+  },
+  "sw-g984": {
+    "strongs": 984,
+    "original_word": "βλάπτω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " properly, to hinder, i.e. (by implication) to injure",
+      "hu": ""
+    }
+  },
+  "sw-g985": {
+    "strongs": 985,
+    "original_word": "βλαστάνω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to germinate; by implication, to yield fruit",
+      "hu": ""
+    }
+  },
+  "sw-g986": {
+    "strongs": 986,
+    "original_word": "Βλάστος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Blastus, an officer of Herod Agrippa",
+      "hu": ""
+    }
+  },
+  "sw-g987": {
+    "strongs": 987,
+    "original_word": "βλασφημέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to vilify; specially, to speak impiously",
+      "hu": ""
+    }
+  },
+  "sw-g988": {
+    "strongs": 988,
+    "original_word": "βλασφημία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " vilification (especially against God)",
+      "hu": ""
+    }
+  },
+  "sw-g989": {
+    "strongs": 989,
+    "original_word": "βλάσφημος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " scurrilious, i.e. calumnious (against men), or (specially) impious (against God)",
+      "hu": ""
+    }
+  },
+  "sw-g990": {
+    "strongs": 990,
+    "original_word": "βλέμμα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " vision (properly concrete; by implication, abstract)",
+      "hu": ""
+    }
+  },
+  "sw-g991": {
+    "strongs": 991,
+    "original_word": "βλέπω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to look at (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-g992": {
+    "strongs": 992,
+    "original_word": "βλητέος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " fit to be cast (i.e. applied)",
+      "hu": ""
+    }
+  },
+  "sw-g993": {
+    "strongs": 993,
+    "original_word": "Βοανεργές",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " sons of commotion; Boanerges, an epithet of two of the apostles",
+      "hu": ""
+    }
+  },
+  "sw-g994": {
+    "strongs": 994,
+    "original_word": "βοάω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to halloo, i.e. shout (for help or in a tumultuous way)",
+      "hu": ""
+    }
+  },
+  "sw-g995": {
+    "strongs": 995,
+    "original_word": "βοή",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a halloo, i.e. call (for aid, etc.)",
+      "hu": ""
+    }
+  },
+  "sw-g996": {
+    "strongs": 996,
+    "original_word": "βοήθεια",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " aid; specially, a rope or chain for frapping a vessel",
+      "hu": ""
+    }
+  },
+  "sw-g997": {
+    "strongs": 997,
+    "original_word": "βοηθέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to aid or relieve",
+      "hu": ""
+    }
+  },
+  "sw-g998": {
+    "strongs": 998,
+    "original_word": "βοηθός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a succorer",
+      "hu": ""
+    }
+  },
+  "sw-g999": {
+    "strongs": 999,
+    "original_word": "βόθυνος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a hole (in the ground); specially, a cistern",
+      "hu": ""
+    }
+  },
+  "sw-g1000": {
+    "strongs": 1000,
+    "original_word": "βολή",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a throw (as a measure of distance)",
+      "hu": ""
+    }
+  },
+  "sw-g1001": {
+    "strongs": 1001,
+    "original_word": "βολίζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to heave the lead",
+      "hu": ""
+    }
+  },
+  "sw-g1002": {
+    "strongs": 1002,
+    "original_word": "βολίς",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a missile, i.e. javelin",
+      "hu": ""
+    }
+  },
+  "sw-g1003": {
+    "strongs": 1003,
+    "original_word": "Βοόζ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Booz, (i.e. Boaz), an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-g1004": {
+    "strongs": 1004,
+    "original_word": "βόρβορος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " mud",
+      "hu": ""
+    }
+  },
+  "sw-g1005": {
+    "strongs": 1005,
+    "original_word": "βοῤῥᾶς",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " the north (properly, wind)",
+      "hu": ""
+    }
+  },
+  "sw-g1006": {
+    "strongs": 1006,
+    "original_word": "βόσκω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to pasture; by extension to, fodder; reflexively, to graze",
+      "hu": ""
+    }
+  },
+  "sw-g1007": {
+    "strongs": 1007,
+    "original_word": "Βοσόρ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Bosor (i.e. Beor), a Moabite",
+      "hu": ""
+    }
+  },
+  "sw-g1008": {
+    "strongs": 1008,
+    "original_word": "βοτάνη",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " herbage (as if for grazing)",
+      "hu": ""
+    }
+  },
+  "sw-g1009": {
+    "strongs": 1009,
+    "original_word": "βότρυς",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a bunch (of grapes)",
+      "hu": ""
+    }
+  },
+  "sw-g1010": {
+    "strongs": 1010,
+    "original_word": "βουλευτής",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " an adviser, i.e. (specially) a councillor or member of the Jewish Sanhedrin",
+      "hu": ""
+    }
+  },
+  "sw-g1011": {
+    "strongs": 1011,
+    "original_word": "βουλεύω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to advise, i.e. (reflexively) deliberate, or (by implication) resolve",
+      "hu": ""
+    }
+  },
+  "sw-g1012": {
+    "strongs": 1012,
+    "original_word": "βουλή",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " volition, i.e. (objectively) advice, or (by implication) purpose",
+      "hu": ""
+    }
+  },
+  "sw-g1013": {
+    "strongs": 1013,
+    "original_word": "βούλημα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a resolve",
+      "hu": ""
+    }
+  },
+  "sw-g1014": {
+    "strongs": 1014,
+    "original_word": "βούλομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to \"will,\" i.e. (reflexively) be willing",
+      "hu": ""
+    }
+  },
+  "sw-g1015": {
+    "strongs": 1015,
+    "original_word": "βουνός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a hillock",
+      "hu": ""
+    }
+  },
+  "sw-g1016": {
+    "strongs": 1016,
+    "original_word": "βοῦς",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " an ox (as grazing), i.e. an animal of that species (\"beef\")",
+      "hu": ""
+    }
+  },
+  "sw-g1017": {
+    "strongs": 1017,
+    "original_word": "βραβεῖον",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " an award (of arbitration), i.e. (specially) a prize in the public games",
+      "hu": ""
+    }
+  },
+  "sw-g1018": {
+    "strongs": 1018,
+    "original_word": "βραβεύω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to arbitrate, i.e. (genitive case) to govern (figuratively, prevail)",
+      "hu": ""
+    }
+  },
+  "sw-g1019": {
+    "strongs": 1019,
+    "original_word": "βραδύνω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to delay",
+      "hu": ""
+    }
+  },
+  "sw-g1020": {
+    "strongs": 1020,
+    "original_word": "βραδυπλοέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to sail slowly",
+      "hu": ""
+    }
+  },
+  "sw-g1021": {
+    "strongs": 1021,
+    "original_word": "βραδύς",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " slow; figuratively, dull",
+      "hu": ""
+    }
+  },
+  "sw-g1022": {
+    "strongs": 1022,
+    "original_word": "βραδύτης",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " tardiness",
+      "hu": ""
+    }
+  },
+  "sw-g1023": {
+    "strongs": 1023,
+    "original_word": "βραχίων",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " the arm, i.e. (figuratively) strength",
+      "hu": ""
+    }
+  },
+  "sw-g1024": {
+    "strongs": 1024,
+    "original_word": "βραχύς",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " short (of time, place, quantity, or number)",
+      "hu": ""
+    }
+  },
+  "sw-g1025": {
+    "strongs": 1025,
+    "original_word": "βρέφος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " an infant (properly, unborn) literally or figuratively",
+      "hu": ""
+    }
+  },
+  "sw-g1026": {
+    "strongs": 1026,
+    "original_word": "βρέχω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to moisten (especially by a shower)",
+      "hu": ""
+    }
+  },
+  "sw-g1027": {
+    "strongs": 1027,
+    "original_word": "βροντή",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " thunder",
+      "hu": ""
+    }
+  },
+  "sw-g1028": {
+    "strongs": 1028,
+    "original_word": "βροχή",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " rain",
+      "hu": ""
+    }
+  },
+  "sw-g1029": {
+    "strongs": 1029,
+    "original_word": "βρόχος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a noose",
+      "hu": ""
+    }
+  },
+  "sw-g1030": {
+    "strongs": 1030,
+    "original_word": "βρυγμός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a grating (of the teeth)",
+      "hu": ""
+    }
+  },
+  "sw-g1031": {
+    "strongs": 1031,
+    "original_word": "βρύχω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to grate the teeth (in pain or rage)",
+      "hu": ""
+    }
+  },
+  "sw-g1032": {
+    "strongs": 1032,
+    "original_word": "βρύω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to swell out, i.e. (by implication) to gush",
+      "hu": ""
+    }
+  },
+  "sw-g1033": {
+    "strongs": 1033,
+    "original_word": "βρῶμα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " food (literally or figuratively), especially (ceremonially) articles allowed or forbidden by the Jewish law",
+      "hu": ""
+    }
+  },
+  "sw-g1034": {
+    "strongs": 1034,
+    "original_word": "βρώσιμος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " eatable",
+      "hu": ""
+    }
+  },
+  "sw-g1035": {
+    "strongs": 1035,
+    "original_word": "βρῶσις",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " (abstractly) eating (literally or figuratively); by extension (concretely) food (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-g1036": {
+    "strongs": 1036,
+    "original_word": "βυθίζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to sink; by implication, to drown",
+      "hu": ""
+    }
+  },
+  "sw-g1037": {
+    "strongs": 1037,
+    "original_word": "βυθός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " depth, i.e. (by implication) the sea",
+      "hu": ""
+    }
+  },
+  "sw-g1038": {
+    "strongs": 1038,
+    "original_word": "βυρσεύς",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a tanner",
+      "hu": ""
+    }
+  },
+  "sw-g1039": {
+    "strongs": 1039,
+    "original_word": "βύσσινος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " made of linen (neuter a linen cloth)",
+      "hu": ""
+    }
+  },
+  "sw-g1040": {
+    "strongs": 1040,
+    "original_word": "βύσσος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " white linen",
+      "hu": ""
+    }
+  },
+  "sw-g1041": {
+    "strongs": 1041,
+    "original_word": "βωμός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " properly, a stand, i.e. (specially) an altar",
+      "hu": ""
+    }
+  },
+  "sw-g1042": {
+    "strongs": 1042,
+    "original_word": "γαββαθά",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " the knoll; gabbatha, a vernacular term for the Roman tribunal in Jerusalem",
+      "hu": ""
+    }
+  },
+  "sw-g1043": {
+    "strongs": 1043,
+    "original_word": "Γαβριήλ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Gabriel, an archangel",
+      "hu": ""
+    }
+  },
+  "sw-g1044": {
+    "strongs": 1044,
+    "original_word": "γάγγραινα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " an ulcer (\"gangrene\")",
+      "hu": ""
+    }
+  },
+  "sw-g1045": {
+    "strongs": 1045,
+    "original_word": "Γάδ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Gad, a tribe of Israelites",
+      "hu": ""
+    }
+  },
+  "sw-g1046": {
+    "strongs": 1046,
+    "original_word": "Γαδαρηνός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a Gadarene or inhabitant of Gadara",
+      "hu": ""
+    }
+  },
+  "sw-g1047": {
+    "strongs": 1047,
+    "original_word": "γάζα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a treasure",
+      "hu": ""
+    }
+  },
+  "sw-g1048": {
+    "strongs": 1048,
+    "original_word": "Γάζα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Gazah (i.e. Azzah), a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-g1049": {
+    "strongs": 1049,
+    "original_word": "γαζοφυλάκιον",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a treasure-house, i.e. a court in the temple for the collection-boxes",
+      "hu": ""
+    }
+  },
+  "sw-g1050": {
+    "strongs": 1050,
+    "original_word": "Γάϊος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Gaius (i.e. Caius), a Christian",
+      "hu": ""
+    }
+  },
+  "sw-g1051": {
+    "strongs": 1051,
+    "original_word": "γάλα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " milk (figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-g1052": {
+    "strongs": 1052,
+    "original_word": "Γαλάτης",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a Galatian or inhabitant of Galatia",
+      "hu": ""
+    }
+  },
+  "sw-g1053": {
+    "strongs": 1053,
+    "original_word": "Γαλατία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Galatia, a region of Asia",
+      "hu": ""
+    }
+  },
+  "sw-g1054": {
+    "strongs": 1054,
+    "original_word": "Γαλατικός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Galatic or relating to Galatia",
+      "hu": ""
+    }
+  },
+  "sw-g1055": {
+    "strongs": 1055,
+    "original_word": "γαλήνη",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " tranquillity",
+      "hu": ""
+    }
+  },
+  "sw-g1056": {
+    "strongs": 1056,
+    "original_word": "Γαλιλαία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Galilæa (i.e. the heathen circle), a region of Palestine",
+      "hu": ""
+    }
+  },
+  "sw-g1057": {
+    "strongs": 1057,
+    "original_word": "Γαλιλαῖος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Galilean or belonging to Galilea",
+      "hu": ""
+    }
+  },
+  "sw-g1058": {
+    "strongs": 1058,
+    "original_word": "Γαλλίων",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Gallion (i.e. Gallio), a Roman officer",
+      "hu": ""
+    }
+  },
+  "sw-g1059": {
+    "strongs": 1059,
+    "original_word": "Γαμαλιήλ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Gamaliel (i.e. Gamliel), an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-g1060": {
+    "strongs": 1060,
+    "original_word": "γαμέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to wed (of either sex)",
+      "hu": ""
+    }
+  },
+  "sw-g1061": {
+    "strongs": 1061,
+    "original_word": "γαμίσκω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to espouse (a daughter to a husband)",
+      "hu": ""
+    }
+  },
+  "sw-g1062": {
+    "strongs": 1062,
+    "original_word": "γάμος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " nuptials",
+      "hu": ""
+    }
+  },
+  "sw-g1063": {
+    "strongs": 1063,
+    "original_word": "γάρ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " properly, assigning a reason (used in argument, explanation or intensification; often with other particles)",
+      "hu": ""
+    }
+  },
+  "sw-g1064": {
+    "strongs": 1064,
+    "original_word": "γαστήρ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " the stomach; by analogy, the matrix; figuratively, a gourmand",
+      "hu": ""
+    }
+  },
+  "sw-g1065": {
+    "strongs": 1065,
+    "original_word": "γέ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": "",
+      "hu": ""
+    }
+  },
+  "sw-g1066": {
+    "strongs": 1066,
+    "original_word": "Γεδεών",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Gedeon (i.e. Gid(e)on), an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-g1067": {
+    "strongs": 1067,
+    "original_word": "γέεννα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " valley of (the son of) Hinnom; ge-henna (or Ge-Hinnom), a valley of Jerusalem, used (figuratively) as a name for the place (or state) of everlasting punishment",
+      "hu": ""
+    }
+  },
+  "sw-g1068": {
+    "strongs": 1068,
+    "original_word": "Γεθσημανῆ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " oil-press; Gethsemane, a garden near Jerusalem",
+      "hu": ""
+    }
+  },
+  "sw-g1069": {
+    "strongs": 1069,
+    "original_word": "γείτων",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a neighbour (as adjoining one's ground); by implication, a friend",
+      "hu": ""
+    }
+  },
+  "sw-g1070": {
+    "strongs": 1070,
+    "original_word": "γελάω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to laugh (as a sign of joy or satisfaction)",
+      "hu": ""
+    }
+  },
+  "sw-g1071": {
+    "strongs": 1071,
+    "original_word": "γέλως",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " laughter (as a mark of gratification)",
+      "hu": ""
+    }
+  },
+  "sw-g1072": {
+    "strongs": 1072,
+    "original_word": "γεμίζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to fill entirely",
+      "hu": ""
+    }
+  },
+  "sw-g1073": {
+    "strongs": 1073,
+    "original_word": "γέμω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to swell out, i.e. be full",
+      "hu": ""
+    }
+  },
+  "sw-g1074": {
+    "strongs": 1074,
+    "original_word": "γενεά",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a generation; by implication, an age (the period or the persons)",
+      "hu": ""
+    }
+  },
+  "sw-g1075": {
+    "strongs": 1075,
+    "original_word": "γενεαλογέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to reckon by generations, i.e. trace in genealogy",
+      "hu": ""
+    }
+  },
+  "sw-g1076": {
+    "strongs": 1076,
+    "original_word": "γενεαλογία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " tracing by generations, i.e. \"genealogy\"",
+      "hu": ""
+    }
+  },
+  "sw-g1077": {
+    "strongs": 1077,
+    "original_word": "γενέσια",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " birthday ceremonies",
+      "hu": ""
+    }
+  },
+  "sw-g1078": {
+    "strongs": 1078,
+    "original_word": "γένεσις",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " nativity; figuratively, nature",
+      "hu": ""
+    }
+  },
+  "sw-g1079": {
+    "strongs": 1079,
+    "original_word": "γενετή",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " birth",
+      "hu": ""
+    }
+  },
+  "sw-g1080": {
+    "strongs": 1080,
+    "original_word": "γεννάω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to procreate (properly, of the father, but by extension of the mother); figuratively, to regenerate",
+      "hu": ""
+    }
+  },
+  "sw-g1081": {
+    "strongs": 1081,
+    "original_word": "γέννημα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " offspring; by analogy, produce (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-g1082": {
+    "strongs": 1082,
+    "original_word": "Γεννησαρέτ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Gennesaret (i.e. Kinnereth), a lake and plain in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-g1083": {
+    "strongs": 1083,
+    "original_word": "γέννησις",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " nativity",
+      "hu": ""
+    }
+  },
+  "sw-g1084": {
+    "strongs": 1084,
+    "original_word": "γεννητός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " born",
+      "hu": ""
+    }
+  },
+  "sw-g1085": {
+    "strongs": 1085,
+    "original_word": "γένος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " \"kin\" (abstract or concrete, literal or figurative, individual or collective)",
+      "hu": ""
+    }
+  },
+  "sw-g1086": {
+    "strongs": 1086,
+    "original_word": "Γεργεσηνός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a Gergesene (i.e. Girgashite) or one of the aborigines of Palestine",
+      "hu": ""
+    }
+  },
+  "sw-g1087": {
+    "strongs": 1087,
+    "original_word": "γερουσία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " the eldership, i.e. (collectively) the Jewish Sanhedrin",
+      "hu": ""
+    }
+  },
+  "sw-g1088": {
+    "strongs": 1088,
+    "original_word": "γέρων",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " aged",
+      "hu": ""
+    }
+  },
+  "sw-g1089": {
+    "strongs": 1089,
+    "original_word": "γεύομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to taste; by implication, to eat; figuratively, to experience (good or ill)",
+      "hu": ""
+    }
+  },
+  "sw-g1090": {
+    "strongs": 1090,
+    "original_word": "γεωργέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to till (the soil)",
+      "hu": ""
+    }
+  },
+  "sw-g1091": {
+    "strongs": 1091,
+    "original_word": "γεώργιον",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " cultivable, i.e. a farm",
+      "hu": ""
+    }
+  },
+  "sw-g1092": {
+    "strongs": 1092,
+    "original_word": "γεωργός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a land-worker, i.e. farmer",
+      "hu": ""
+    }
+  },
+  "sw-g1093": {
+    "strongs": 1093,
+    "original_word": "γῆ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " soil; by extension a region, or the solid part or the whole of the terrene globe (including the occupants in each application)",
+      "hu": ""
+    }
+  },
+  "sw-g1094": {
+    "strongs": 1094,
+    "original_word": "γῆρας",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " senility",
+      "hu": ""
+    }
+  },
+  "sw-g1095": {
+    "strongs": 1095,
+    "original_word": "γηράσκω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to be senescent",
+      "hu": ""
+    }
+  },
+  "sw-g1096": {
+    "strongs": 1096,
+    "original_word": "γίνομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to cause to be (\"gen\"-erate), i.e. (reflexively) to become (come into being), used with great latitude (literal, figurative, intensive, etc.)",
+      "hu": ""
+    }
+  },
+  "sw-g1097": {
+    "strongs": 1097,
+    "original_word": "γινώσκω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to \"know\" (absolutely) in a great variety of applications and with many implications (as follow, with others not thus clearly expressed)",
+      "hu": ""
+    }
+  },
+  "sw-g1098": {
+    "strongs": 1098,
+    "original_word": "γλεῦκος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " sweet wine, i.e. (properly) must (fresh juice), but used of the more saccharine (and therefore highly inebriating) fermented wine",
+      "hu": ""
+    }
+  },
+  "sw-g1099": {
+    "strongs": 1099,
+    "original_word": "γλυκύς",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " sweet (i.e. not bitter nor salt)",
+      "hu": ""
+    }
+  },
+  "sw-g1100": {
+    "strongs": 1100,
+    "original_word": "γλῶσσα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " the tongue; by implication, a language (specially, one naturally unacquired)",
+      "hu": ""
+    }
+  },
+  "sw-g1101": {
+    "strongs": 1101,
+    "original_word": "γλωσσόκομον",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " properly, a case (to keep mouthpieces of wind-instruments in) i.e. (by extension) a casket or (specially) purse",
+      "hu": ""
+    }
+  },
+  "sw-g1102": {
+    "strongs": 1102,
+    "original_word": "γναφεύς",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a cloth-dresser",
+      "hu": ""
+    }
+  },
+  "sw-g1103": {
+    "strongs": 1103,
+    "original_word": "γνήσιος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " legitimate (of birth), i.e. genuine",
+      "hu": ""
+    }
+  },
+  "sw-g1104": {
+    "strongs": 1104,
+    "original_word": "γνησίως",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " genuinely, i.e. really",
+      "hu": ""
+    }
+  },
+  "sw-g1105": {
+    "strongs": 1105,
+    "original_word": "γνόφος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " gloom (as of a storm)",
+      "hu": ""
+    }
+  },
+  "sw-g1106": {
+    "strongs": 1106,
+    "original_word": "γνώμη",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " cognition, i.e. (subjectively) opinion, or (objectively) resolve (counsel, consent, etc.)",
+      "hu": ""
+    }
+  },
+  "sw-g1107": {
+    "strongs": 1107,
+    "original_word": "γνωρίζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to make known; subjectively, to know",
+      "hu": ""
+    }
+  },
+  "sw-g1108": {
+    "strongs": 1108,
+    "original_word": "γνῶσις",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " knowing (the act), i.e. (by implication) knowledge",
+      "hu": ""
+    }
+  },
+  "sw-g1109": {
+    "strongs": 1109,
+    "original_word": "γνώστης",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a knower",
+      "hu": ""
+    }
+  },
+  "sw-g1110": {
+    "strongs": 1110,
+    "original_word": "γνωστός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " well-known",
+      "hu": ""
+    }
+  },
+  "sw-g1111": {
+    "strongs": 1111,
+    "original_word": "γογγύζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to grumble",
+      "hu": ""
+    }
+  },
+  "sw-g1112": {
+    "strongs": 1112,
+    "original_word": "γογγυσμός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a grumbling",
+      "hu": ""
+    }
+  },
+  "sw-g1113": {
+    "strongs": 1113,
+    "original_word": "γογγυστής",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a grumbler",
+      "hu": ""
+    }
+  },
+  "sw-g1114": {
+    "strongs": 1114,
+    "original_word": "γόης",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " properly, a wizard (as muttering spells), i.e. (by implication) an imposter",
+      "hu": ""
+    }
+  },
+  "sw-g1115": {
+    "strongs": 1115,
+    "original_word": "Γολγοθᾶ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " the skull; Golgotha, a knoll near Jerusalem",
+      "hu": ""
+    }
+  },
+  "sw-g1116": {
+    "strongs": 1116,
+    "original_word": "Γόμοῤῥα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Gomorrha (i.e. Amorah), a place near the Dead Sea",
+      "hu": ""
+    }
+  },
+  "sw-g1117": {
+    "strongs": 1117,
+    "original_word": "γόμος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a load (as filling), i.e. (specially) a cargo, or (by extension) wares",
+      "hu": ""
+    }
+  },
+  "sw-g1118": {
+    "strongs": 1118,
+    "original_word": "γονεύς",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a parent",
+      "hu": ""
+    }
+  },
+  "sw-g1119": {
+    "strongs": 1119,
+    "original_word": "γόνυ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " the \"knee\"",
+      "hu": ""
+    }
+  },
+  "sw-g1120": {
+    "strongs": 1120,
+    "original_word": "γονυπετέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to fall on the knee",
+      "hu": ""
+    }
+  },
+  "sw-g1121": {
+    "strongs": 1121,
+    "original_word": "γράμμα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a writing, i.e. a letter, note, epistle, book, etc.; plural learning",
+      "hu": ""
+    }
+  },
+  "sw-g1122": {
+    "strongs": 1122,
+    "original_word": "γραμματεύς",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": "",
+      "hu": ""
+    }
+  },
+  "sw-g1123": {
+    "strongs": 1123,
+    "original_word": "γραπτός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " inscribed (figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-g1124": {
+    "strongs": 1124,
+    "original_word": "γραφή",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a document, i.e. holy Writ (or its contents or a statement in it)",
+      "hu": ""
+    }
+  },
+  "sw-g1125": {
+    "strongs": 1125,
+    "original_word": "γράφω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to \"grave\", especially to write; figuratively, to describe",
+      "hu": ""
+    }
+  },
+  "sw-g1126": {
+    "strongs": 1126,
+    "original_word": "γραώδης",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " crone-like, i.e. silly",
+      "hu": ""
+    }
+  },
+  "sw-g1127": {
+    "strongs": 1127,
+    "original_word": "γρηγορεύω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to keep awake, i.e. watch (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-g1128": {
+    "strongs": 1128,
+    "original_word": "γυμνάζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to practise naked (in the games), i.e. train (figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-g1129": {
+    "strongs": 1129,
+    "original_word": "γυμνασία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " training, i.e. (figuratively) asceticism",
+      "hu": ""
+    }
+  },
+  "sw-g1130": {
+    "strongs": 1130,
+    "original_word": "γυμνητεύω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to strip, i.e. (reflexively) go poorly clad",
+      "hu": ""
+    }
+  },
+  "sw-g1131": {
+    "strongs": 1131,
+    "original_word": "γυμνός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " nude (absolute or relative, literal or figurative)",
+      "hu": ""
+    }
+  },
+  "sw-g1132": {
+    "strongs": 1132,
+    "original_word": "γυμνότης",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " nudity (absolute or comparative)",
+      "hu": ""
+    }
+  },
+  "sw-g1133": {
+    "strongs": 1133,
+    "original_word": "γυναικάριον",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a little (i.e. foolish) woman",
+      "hu": ""
+    }
+  },
+  "sw-g1134": {
+    "strongs": 1134,
+    "original_word": "γυναικεῖος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " feminine",
+      "hu": ""
+    }
+  },
+  "sw-g1135": {
+    "strongs": 1135,
+    "original_word": "γυνή",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a woman; specially, a wife",
+      "hu": ""
+    }
+  },
+  "sw-g1136": {
+    "strongs": 1136,
+    "original_word": "Γώγ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Gog, a symbolic name for some future Antichrist",
+      "hu": ""
+    }
+  },
+  "sw-g1137": {
+    "strongs": 1137,
+    "original_word": "γωνία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " an angle",
+      "hu": ""
+    }
+  },
+  "sw-g1138": {
+    "strongs": 1138,
+    "original_word": "Δαβίδ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Dabid (i.e. David), the Israelite king",
+      "hu": ""
+    }
+  },
+  "sw-g1139": {
+    "strongs": 1139,
+    "original_word": "δαιμονίζομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to be exercised by a dæmon",
+      "hu": ""
+    }
+  },
+  "sw-g1140": {
+    "strongs": 1140,
+    "original_word": "δαιμόνιον",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a dæmonic being; by extension a deity",
+      "hu": ""
+    }
+  },
+  "sw-g1141": {
+    "strongs": 1141,
+    "original_word": "δαιμονιώδης",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " dæmon-like",
+      "hu": ""
+    }
+  },
+  "sw-g1142": {
+    "strongs": 1142,
+    "original_word": "δαίμων",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a dæmon or supernatural spirit (of a bad nature)",
+      "hu": ""
+    }
+  },
+  "sw-g1143": {
+    "strongs": 1143,
+    "original_word": "δάκνω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to bite, i.e. (figuratively) thwart",
+      "hu": ""
+    }
+  },
+  "sw-g1144": {
+    "strongs": 1144,
+    "original_word": "δάκρυ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a tear",
+      "hu": ""
+    }
+  },
+  "sw-g1145": {
+    "strongs": 1145,
+    "original_word": "δακρύω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to shed tears",
+      "hu": ""
+    }
+  },
+  "sw-g1146": {
+    "strongs": 1146,
+    "original_word": "δακτύλιος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a finger-ring",
+      "hu": ""
+    }
+  },
+  "sw-g1147": {
+    "strongs": 1147,
+    "original_word": "δάκτυλος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a finger",
+      "hu": ""
+    }
+  },
+  "sw-g1148": {
+    "strongs": 1148,
+    "original_word": "Δαλμανουθά",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Dalmanutha, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-g1149": {
+    "strongs": 1149,
+    "original_word": "Δαλματία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Dalmatia, a region of Europe",
+      "hu": ""
+    }
+  },
+  "sw-g1150": {
+    "strongs": 1150,
+    "original_word": "δαμάζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to tame",
+      "hu": ""
+    }
+  },
+  "sw-g1151": {
+    "strongs": 1151,
+    "original_word": "δάμαλις",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a heifer (as tame)",
+      "hu": ""
+    }
+  },
+  "sw-g1152": {
+    "strongs": 1152,
+    "original_word": "Δάμαρις",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " perhaps gentle; Damaris, an Athenian woman",
+      "hu": ""
+    }
+  },
+  "sw-g1153": {
+    "strongs": 1153,
+    "original_word": "Δαμασκηνός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a Damascene or inhabitant of Damascus",
+      "hu": ""
+    }
+  },
+  "sw-g1154": {
+    "strongs": 1154,
+    "original_word": "Δαμασκός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Damascus, a city of Syria",
+      "hu": ""
+    }
+  },
+  "sw-g1155": {
+    "strongs": 1155,
+    "original_word": "δανείζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to loan on interest; reflexively, to borrow",
+      "hu": ""
+    }
+  },
+  "sw-g1156": {
+    "strongs": 1156,
+    "original_word": "δάνειον",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " probably akin to the base of G1325 (δίδωμι); a loan",
+      "hu": ""
+    }
+  },
+  "sw-g1157": {
+    "strongs": 1157,
+    "original_word": "δανειστής",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a lender",
+      "hu": ""
+    }
+  },
+  "sw-g1158": {
+    "strongs": 1158,
+    "original_word": "Δανιήλ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Daniel, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-g1159": {
+    "strongs": 1159,
+    "original_word": "δαπανάω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to expend, i.e. (in a good sense) to incur cost, or (in a bad one) to waste",
+      "hu": ""
+    }
+  },
+  "sw-g1160": {
+    "strongs": 1160,
+    "original_word": "δαπάνη",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " expense (as consuming)",
+      "hu": ""
+    }
+  },
+  "sw-g1161": {
+    "strongs": 1161,
+    "original_word": "δέ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " but, and, etc.",
+      "hu": ""
+    }
+  },
+  "sw-g1162": {
+    "strongs": 1162,
+    "original_word": "δέησις",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a petition",
+      "hu": ""
+    }
+  },
+  "sw-g1163": {
+    "strongs": 1163,
+    "original_word": "δεῖ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " also deon deh-on'; neuter active participle of the same; both used impersonally; it is (was, etc.) necessary (as binding)",
+      "hu": ""
+    }
+  },
+  "sw-g1164": {
+    "strongs": 1164,
+    "original_word": "δεῖγμα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a specimen (as shown)",
+      "hu": ""
+    }
+  },
+  "sw-g1165": {
+    "strongs": 1165,
+    "original_word": "δειγματίζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to exhibit",
+      "hu": ""
+    }
+  },
+  "sw-g1166": {
+    "strongs": 1166,
+    "original_word": "δεικνύω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to show (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-g1167": {
+    "strongs": 1167,
+    "original_word": "δειλία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " timidity",
+      "hu": ""
+    }
+  },
+  "sw-g1168": {
+    "strongs": 1168,
+    "original_word": "δειλιάω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to be timid",
+      "hu": ""
+    }
+  },
+  "sw-g1169": {
+    "strongs": 1169,
+    "original_word": "δειλός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " timid, i.e. (by implication) faithless",
+      "hu": ""
+    }
+  },
+  "sw-g1170": {
+    "strongs": 1170,
+    "original_word": "δεῖνα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " so and so (when the person is not specified)",
+      "hu": ""
+    }
+  },
+  "sw-g1171": {
+    "strongs": 1171,
+    "original_word": "δεινῶς",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " terribly, i.e. excessively",
+      "hu": ""
+    }
+  },
+  "sw-g1172": {
+    "strongs": 1172,
+    "original_word": "δειπνέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to dine, i.e. take the principle (or evening) meal",
+      "hu": ""
+    }
+  },
+  "sw-g1173": {
+    "strongs": 1173,
+    "original_word": "δεῖπνον",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " dinner, i.e. the chief meal (usually in the evening)",
+      "hu": ""
+    }
+  },
+  "sw-g1174": {
+    "strongs": 1174,
+    "original_word": "δεισιδαιμονέστερος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " more religious than others",
+      "hu": ""
+    }
+  },
+  "sw-g1175": {
+    "strongs": 1175,
+    "original_word": "δεισιδαιμονία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " religion",
+      "hu": ""
+    }
+  },
+  "sw-g1176": {
+    "strongs": 1176,
+    "original_word": "δέκα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " ten",
+      "hu": ""
+    }
+  },
+  "sw-g1177": {
+    "strongs": 1177,
+    "original_word": "δεκαδύο",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " two and ten, i.e. twelve",
+      "hu": ""
+    }
+  },
+  "sw-g1178": {
+    "strongs": 1178,
+    "original_word": "δεκαπέντε",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " ten and five, i.e. fifteen",
+      "hu": ""
+    }
+  },
+  "sw-g1179": {
+    "strongs": 1179,
+    "original_word": "Δεκάπολις",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " the ten-city region; the Decapolis, a district in Syria",
+      "hu": ""
+    }
+  },
+  "sw-g1180": {
+    "strongs": 1180,
+    "original_word": "δεκατέσσαρες",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " ten and four, i.e. fourteen",
+      "hu": ""
+    }
+  },
+  "sw-g1181": {
+    "strongs": 1181,
+    "original_word": "δεκάτη",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a tenth, i.e. as a percentage or (technically) tithe",
+      "hu": ""
+    }
+  },
+  "sw-g1182": {
+    "strongs": 1182,
+    "original_word": "δέκατος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " tenth",
+      "hu": ""
+    }
+  },
+  "sw-g1183": {
+    "strongs": 1183,
+    "original_word": "δεκατόω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to tithe, i.e. to give or take a tenth",
+      "hu": ""
+    }
+  },
+  "sw-g1184": {
+    "strongs": 1184,
+    "original_word": "δεκτός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " approved; (figuratively) propitious",
+      "hu": ""
+    }
+  },
+  "sw-g1185": {
+    "strongs": 1185,
+    "original_word": "δελεάζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to entrap, i.e. (figuratively) delude",
+      "hu": ""
+    }
+  },
+  "sw-g1186": {
+    "strongs": 1186,
+    "original_word": "δένδρον",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a tree",
+      "hu": ""
+    }
+  },
+  "sw-g1187": {
+    "strongs": 1187,
+    "original_word": "δεξιολάβος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a guardsman (as if taking the right) or light-armed soldier",
+      "hu": ""
+    }
+  },
+  "sw-g1188": {
+    "strongs": 1188,
+    "original_word": "δεξιός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " the right side or (feminine) hand (as that which usually takes)",
+      "hu": ""
+    }
+  },
+  "sw-g1189": {
+    "strongs": 1189,
+    "original_word": "δέομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to beg (as binding oneself), i.e. petition",
+      "hu": ""
+    }
+  },
+  "sw-g1190": {
+    "strongs": 1190,
+    "original_word": "Δερβαῖος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a Derbæan or inhabitant of Derbe",
+      "hu": ""
+    }
+  },
+  "sw-g1191": {
+    "strongs": 1191,
+    "original_word": "Δέρβη",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Derbe, a place in Asia Minor",
+      "hu": ""
+    }
+  },
+  "sw-g1192": {
+    "strongs": 1192,
+    "original_word": "δέρμα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a hide",
+      "hu": ""
+    }
+  },
+  "sw-g1193": {
+    "strongs": 1193,
+    "original_word": "δερμάτινος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " made of hide",
+      "hu": ""
+    }
+  },
+  "sw-g1194": {
+    "strongs": 1194,
+    "original_word": "δέρω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " properly, to flay, i.e. (by implication) to scourge, or (by analogy) to thrash",
+      "hu": ""
+    }
+  },
+  "sw-g1195": {
+    "strongs": 1195,
+    "original_word": "δεσμεύω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to be a binder (captor), i.e. to enchain (a prisoner), to tie on (a load)",
+      "hu": ""
+    }
+  },
+  "sw-g1196": {
+    "strongs": 1196,
+    "original_word": "δεσμέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to tie, i.e. shackle",
+      "hu": ""
+    }
+  },
+  "sw-g1197": {
+    "strongs": 1197,
+    "original_word": "δέσμη",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a bundle",
+      "hu": ""
+    }
+  },
+  "sw-g1198": {
+    "strongs": 1198,
+    "original_word": "δέσμιος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a captive (as bound)",
+      "hu": ""
+    }
+  },
+  "sw-g1199": {
+    "strongs": 1199,
+    "original_word": "δεσμόν",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a band, i.e. ligament (of the body) or shackle (of a prisoner); figuratively, an impediment or disability",
+      "hu": ""
+    }
+  },
+  "sw-g1200": {
+    "strongs": 1200,
+    "original_word": "δεσμοφύλαξ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a jailer (as guarding the prisoners)",
+      "hu": ""
+    }
+  }
+}

@@ -1,0 +1,4002 @@
+{
+  "sw-ukl": {
+    "strongs": 401,
+    "original_word": "אֻכָל",
+    "transliteration": "ʼUkâl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ucal, a fancy name",
+      "hu": ""
+    }
+  },
+  "sw-oklh": {
+    "strongs": 402,
+    "original_word": "אׇכְלָה",
+    "transliteration": "ʼoklâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "food",
+      "hu": ""
+    }
+  },
+  "sw-kn": {
+    "strongs": 403,
+    "original_word": "אָכֵן",
+    "transliteration": "ʼâkên",
+    "language": "Hebrew",
+    "definition": {
+      "en": "firmly; figuratively, surely; also (advers.) but",
+      "hu": ""
+    }
+  },
+  "sw-kaph": {
+    "strongs": 404,
+    "original_word": "אָכַף",
+    "transliteration": "ʼâkaph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to urge",
+      "hu": ""
+    }
+  },
+  "sw-ekeph": {
+    "strongs": 405,
+    "original_word": "אֶכֶף",
+    "transliteration": "ʼekeph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a load; by implication, a stroke (others dignity)",
+      "hu": ""
+    }
+  },
+  "sw-ikkr": {
+    "strongs": 406,
+    "original_word": "אִכָּר",
+    "transliteration": "ʼikkâr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a farmer",
+      "hu": ""
+    }
+  },
+  "sw-akshph": {
+    "strongs": 407,
+    "original_word": "אַכְשָׁף",
+    "transliteration": "ʼAkshâph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Acshaph, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-al": {
+    "strongs": 408,
+    "original_word": "אַל",
+    "transliteration": "ʼal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "not (the qualified negation, used as a deprecative); once (Job 24:25) as a noun, nothing",
+      "hu": ""
+    }
+  },
+  "sw-al-409": {
+    "strongs": 409,
+    "original_word": "אַל",
+    "transliteration": "ʼal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{not (the qualified negation, used as a deprecative); once (Job 24:25) as a noun, nothing}",
+      "hu": ""
+    }
+  },
+  "sw-l": {
+    "strongs": 410,
+    "original_word": "אֵל",
+    "transliteration": "ʼêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "strength; as adjective, mighty; especially the Almighty (but used also of any deity)",
+      "hu": ""
+    }
+  },
+  "sw-l-411": {
+    "strongs": 411,
+    "original_word": "אֵל",
+    "transliteration": "ʼêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "these or those",
+      "hu": ""
+    }
+  },
+  "sw-l-412": {
+    "strongs": 412,
+    "original_word": "אֵל",
+    "transliteration": "ʼêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{these or those}",
+      "hu": ""
+    }
+  },
+  "sw-l-413": {
+    "strongs": 413,
+    "original_word": "אֵל",
+    "transliteration": "ʼêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "near, with or among; often in general, to",
+      "hu": ""
+    }
+  },
+  "sw-l-414": {
+    "strongs": 414,
+    "original_word": "אֵלָא",
+    "transliteration": "ʼÊlâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ela, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-llhyyisrl": {
+    "strongs": 415,
+    "original_word": "אֵל אֱלֹהֵי יִשְׂרָאֵל",
+    "transliteration": "ʼÊl ʼĕlôhêy Yisrâʼêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "El-Elohi-Jisrael, the title given to a consecrated spot by Jacob",
+      "hu": ""
+    }
+  },
+  "sw-lbythl": {
+    "strongs": 416,
+    "original_word": "אֵל בֵּית־אֵל",
+    "transliteration": "ʼÊl Bêyth-ʼÊl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "El-Bethel, the title given to a consecrated spot by Jacob",
+      "hu": ""
+    }
+  },
+  "sw-elgbysh": {
+    "strongs": 417,
+    "original_word": "אֶלְגָּבִישׁ",
+    "transliteration": "ʼelgâbîysh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "hail (as if a great pearl)",
+      "hu": ""
+    }
+  },
+  "sw-algwmmym": {
+    "strongs": 418,
+    "original_word": "אַלְגּוּמִּים",
+    "transliteration": "ʼalgûwmmîym",
+    "language": "Hebrew",
+    "definition": {
+      "en": "sticks of algum wood",
+      "hu": ""
+    }
+  },
+  "sw-eldd": {
+    "strongs": 419,
+    "original_word": "אֶלְדָּד",
+    "transliteration": "ʼEldâd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Eldad, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-eldh": {
+    "strongs": 420,
+    "original_word": "אֶלְדָּעָה",
+    "transliteration": "ʼEldâʻâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Eldaah, a son of Midian",
+      "hu": ""
+    }
+  },
+  "sw-lh": {
+    "strongs": 421,
+    "original_word": "אָלָה",
+    "transliteration": "ʼâlâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to bewail",
+      "hu": ""
+    }
+  },
+  "sw-lh-422": {
+    "strongs": 422,
+    "original_word": "אָלָה",
+    "transliteration": "ʼâlâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, to adjure, i.e. (usually in a bad sense) imprecate",
+      "hu": ""
+    }
+  },
+  "sw-lh-423": {
+    "strongs": 423,
+    "original_word": "אָלָה",
+    "transliteration": "ʼâlâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an imprecation",
+      "hu": ""
+    }
+  },
+  "sw-lh-424": {
+    "strongs": 424,
+    "original_word": "אֵלָה",
+    "transliteration": "ʼêlâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an oak or other strong tree",
+      "hu": ""
+    }
+  },
+  "sw-lh-425": {
+    "strongs": 425,
+    "original_word": "אֵלָה",
+    "transliteration": "ʼÊlâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Elah, the name of an Edomite, of four Israelites, and also of a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-lhh": {
+    "strongs": 426,
+    "original_word": "אֱלָהּ",
+    "transliteration": "ʼĕlâhh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "God",
+      "hu": ""
+    }
+  },
+  "sw-allh": {
+    "strongs": 427,
+    "original_word": "אַלָּה",
+    "transliteration": "ʼallâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{an oak or other strong tree}",
+      "hu": ""
+    }
+  },
+  "sw-lleh": {
+    "strongs": 428,
+    "original_word": "אֵלֶּה",
+    "transliteration": "ʼêl-leh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "these or those",
+      "hu": ""
+    }
+  },
+  "sw-lleh-429": {
+    "strongs": 429,
+    "original_word": "אֵלֶּה",
+    "transliteration": "ʼêlleh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{these or those}",
+      "hu": ""
+    }
+  },
+  "sw-lhym": {
+    "strongs": 430,
+    "original_word": "אֱלֹהִים",
+    "transliteration": "ʼĕlôhîym",
+    "language": "Hebrew",
+    "definition": {
+      "en": "gods in the ordinary sense; but specifically used (in the plural thus, especially with the article) of the supreme God; occasionally applied by way of deference to magistrates; and sometimes as a superlative",
+      "hu": ""
+    }
+  },
+  "sw-lw": {
+    "strongs": 431,
+    "original_word": "אֲלוּ",
+    "transliteration": "ʼălûw",
+    "language": "Hebrew",
+    "definition": {
+      "en": "lo!",
+      "hu": ""
+    }
+  },
+  "sw-illw": {
+    "strongs": 432,
+    "original_word": "אִלּוּ",
+    "transliteration": "ʼillûw",
+    "language": "Hebrew",
+    "definition": {
+      "en": "nay, i.e. (softened) if",
+      "hu": ""
+    }
+  },
+  "sw-lwahh": {
+    "strongs": 433,
+    "original_word": "אֱלוֹהַּ",
+    "transliteration": "ʼĕlôwahh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a deity or the Deity",
+      "hu": ""
+    }
+  },
+  "sw-lwl": {
+    "strongs": 434,
+    "original_word": "אֱלוּל",
+    "transliteration": "ʼĕlûwl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "good for nothing",
+      "hu": ""
+    }
+  },
+  "sw-lwl-435": {
+    "strongs": 435,
+    "original_word": "אֱלוּל",
+    "transliteration": "ʼĔlûwl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Elul, the sixth Jewish month",
+      "hu": ""
+    }
+  },
+  "sw-lwn": {
+    "strongs": 436,
+    "original_word": "אֵלוֹן",
+    "transliteration": "ʼêlôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an oak or other strong tree",
+      "hu": ""
+    }
+  },
+  "sw-allwn": {
+    "strongs": 437,
+    "original_word": "אַלּוֹן",
+    "transliteration": "ʼallôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{an oak or other strong tree}",
+      "hu": ""
+    }
+  },
+  "sw-allwn-438": {
+    "strongs": 438,
+    "original_word": "אַלּוֹן",
+    "transliteration": "ʼAllôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Allon, an Israelite, also a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-allwnbkwth": {
+    "strongs": 439,
+    "original_word": "אַלּוֹן בָּכוּת",
+    "transliteration": "ʼAllôwn Bâkûwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Allon-Bakuth, a monumental tree",
+      "hu": ""
+    }
+  },
+  "sw-lwny": {
+    "strongs": 440,
+    "original_word": "אֵלוֹנִי",
+    "transliteration": "ʼÊlôwnîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an Elonite or descendant (collectively) of Elon",
+      "hu": ""
+    }
+  },
+  "sw-allwph": {
+    "strongs": 441,
+    "original_word": "אַלּוּף",
+    "transliteration": "ʼallûwph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "familiar; a friend, also gentle; hence, a bullock (as being tame; applied, although masculine, to a cow); and so, a chieftain (as notable, like neat cattle)",
+      "hu": ""
+    }
+  },
+  "sw-lwsh": {
+    "strongs": 442,
+    "original_word": "אָלוּשׁ",
+    "transliteration": "ʼÂlûwsh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Alush, a place in the Desert",
+      "hu": ""
+    }
+  },
+  "sw-elzbd": {
+    "strongs": 443,
+    "original_word": "אֶלְזָבָד",
+    "transliteration": "ʼElzâbâd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Elzabad, the name of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-lach": {
+    "strongs": 444,
+    "original_word": "אָלַח",
+    "transliteration": "ʼâlach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to muddle, i.e. (figuratively and intransitive) to turn (morally) corrupt",
+      "hu": ""
+    }
+  },
+  "sw-elchnn": {
+    "strongs": 445,
+    "original_word": "אֶלְחָנָן",
+    "transliteration": "ʼElchânân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Elchanan, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-lyb": {
+    "strongs": 446,
+    "original_word": "אֱלִיאָב",
+    "transliteration": "ʼĔlîyʼâb",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Eliab, the name of six Israelites",
+      "hu": ""
+    }
+  },
+  "sw-lyl": {
+    "strongs": 447,
+    "original_word": "אֱלִיאֵל",
+    "transliteration": "ʼĔlîyʼêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Eliel, the name of nine Israelites",
+      "hu": ""
+    }
+  },
+  "sw-lythh": {
+    "strongs": 448,
+    "original_word": "אֱלִיאָתָה",
+    "transliteration": "ʼĔlîyʼâthâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Eliathah, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-lydd": {
+    "strongs": 449,
+    "original_word": "אֱלִידָד",
+    "transliteration": "ʼĔlîydâd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Elidad, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-elyd": {
+    "strongs": 450,
+    "original_word": "אֶלְיָדָע",
+    "transliteration": "ʼElyâdâʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Eljada, the name of two Israelites and of an Aramaean leader",
+      "hu": ""
+    }
+  },
+  "sw-alyh": {
+    "strongs": 451,
+    "original_word": "אַלְיָה",
+    "transliteration": "ʼalyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the stout part, i.e. the fat tail of the Oriental sheep",
+      "hu": ""
+    }
+  },
+  "sw-lyh": {
+    "strongs": 452,
+    "original_word": "אֵלִיָּה",
+    "transliteration": "ʼÊlîyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Elijah, the name of the famous prophet and of two other Israelites",
+      "hu": ""
+    }
+  },
+  "sw-lyhw": {
+    "strongs": 453,
+    "original_word": "אֱלִיהוּ",
+    "transliteration": "ʼĔlîyhûw",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Elihu, the name of one of Job's friends, and of three Israelites",
+      "hu": ""
+    }
+  },
+  "sw-elyhwynay": {
+    "strongs": 454,
+    "original_word": "אֶלְיְהוֹעֵינַי",
+    "transliteration": "ʼElyᵉhôwʻêynay",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Eljehoenai or Eljoenai, the name of seven Israelites",
+      "hu": ""
+    }
+  },
+  "sw-elyachb": {
+    "strongs": 455,
+    "original_word": "אֶלְיַחְבָּא",
+    "transliteration": "ʼElyachbâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Eljachba, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-lychreph": {
+    "strongs": 456,
+    "original_word": "אֱלִיחֹרֶף",
+    "transliteration": "ʼĔlîychôreph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Elichoreph, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-lyl-457": {
+    "strongs": 457,
+    "original_word": "אֱלִיל",
+    "transliteration": "ʼĕlîyl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "good for nothing, by anal. vain or vanity; specifically an idol",
+      "hu": ""
+    }
+  },
+  "sw-lymelek": {
+    "strongs": 458,
+    "original_word": "אֱלִימֶלֶךְ",
+    "transliteration": "ʼĔlîymelek",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Elimelek, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-illyn": {
+    "strongs": 459,
+    "original_word": "אִלֵּין",
+    "transliteration": "ʼillêyn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "these",
+      "hu": ""
+    }
+  },
+  "sw-elyph": {
+    "strongs": 460,
+    "original_word": "אֶלְיָסָף",
+    "transliteration": "ʼElyâçâph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Eljasaph, the name of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-lyezer": {
+    "strongs": 461,
+    "original_word": "אֱלִיעֶזֶר",
+    "transliteration": "ʼĔlîyʻezer",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Eliezer, the name of a Damascene and of ten Israelites",
+      "hu": ""
+    }
+  },
+  "sw-lyynay": {
+    "strongs": 462,
+    "original_word": "אֱלִיעֵינַי",
+    "transliteration": "ʼĔlîyʻêynay",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Elienai, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-lym": {
+    "strongs": 463,
+    "original_word": "אֱלִיעָם",
+    "transliteration": "ʼĔlîyʻâm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Eliam, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-lyphaz": {
+    "strongs": 464,
+    "original_word": "אֱלִיפַז",
+    "transliteration": "ʼĔlîyphaz",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Eliphaz, the name of one of Job's friends, and of a son of Esau",
+      "hu": ""
+    }
+  },
+  "sw-lyphl": {
+    "strongs": 465,
+    "original_word": "אֱלִיפָל",
+    "transliteration": "ʼĔlîyphâl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Eliphal, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-lyphlhw": {
+    "strongs": 466,
+    "original_word": "אֱלִיפְלֵהוּ",
+    "transliteration": "ʼĔlîyphᵉlêhûw",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Eliphelehu, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-lyphele": {
+    "strongs": 467,
+    "original_word": "אֱלִיפֶלֶט",
+    "transliteration": "ʼĔlîypheleṭ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Eliphelet or Elpelet, the name of six Israelites",
+      "hu": ""
+    }
+  },
+  "sw-lytswr": {
+    "strongs": 468,
+    "original_word": "אֱלִיצוּר",
+    "transliteration": "ʼĔlîytsûwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Elitsur, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-lytsphn": {
+    "strongs": 469,
+    "original_word": "אֱלִיצָפָן",
+    "transliteration": "ʼĔlîytsâphân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Elitsaphan or Eltsaphan, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-lyq": {
+    "strongs": 470,
+    "original_word": "אֱלִיקָא",
+    "transliteration": "ʼĔlîyqâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Elika, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-elyqym": {
+    "strongs": 471,
+    "original_word": "אֶלְיָקִים",
+    "transliteration": "ʼElyâqîym",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Eljakim, the name of four Israelites",
+      "hu": ""
+    }
+  },
+  "sw-lysheba": {
+    "strongs": 472,
+    "original_word": "אֱלִישֶׁבַע",
+    "transliteration": "ʼĔlîyshebaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Elisheba, the wife of Aaron",
+      "hu": ""
+    }
+  },
+  "sw-lyshh": {
+    "strongs": 473,
+    "original_word": "אֱלִישָׁה",
+    "transliteration": "ʼĔlîyshâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Elishah, a son of Javan",
+      "hu": ""
+    }
+  },
+  "sw-lyshwa": {
+    "strongs": 474,
+    "original_word": "אֱלִישׁוּעַ",
+    "transliteration": "ʼĔlîyshûwaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Elishua, the son of King David",
+      "hu": ""
+    }
+  },
+  "sw-elyshyb": {
+    "strongs": 475,
+    "original_word": "אֶלְיָשִׁיב",
+    "transliteration": "ʼElyâshîyb",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Eljashib, the name of six Israelites",
+      "hu": ""
+    }
+  },
+  "sw-lyshm": {
+    "strongs": 476,
+    "original_word": "אֱלִישָׁמָע",
+    "transliteration": "ʼĔlîyshâmâʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Elishama, the name of seven Israelites",
+      "hu": ""
+    }
+  },
+  "sw-lysh": {
+    "strongs": 477,
+    "original_word": "אֱלִישָׁע",
+    "transliteration": "ʼĔlîyshâʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Elisha, the famous prophet",
+      "hu": ""
+    }
+  },
+  "sw-lyshph": {
+    "strongs": 478,
+    "original_word": "אֱלִישָׁפָט",
+    "transliteration": "ʼĔlîyshâphâṭ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Elishaphat, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-illk": {
+    "strongs": 479,
+    "original_word": "אִלֵּךְ",
+    "transliteration": "ʼillêk",
+    "language": "Hebrew",
+    "definition": {
+      "en": "these",
+      "hu": ""
+    }
+  },
+  "sw-allay": {
+    "strongs": 480,
+    "original_word": "אַלְלַי",
+    "transliteration": "ʼalᵉlay",
+    "language": "Hebrew",
+    "definition": {
+      "en": "alas!",
+      "hu": ""
+    }
+  },
+  "sw-lam": {
+    "strongs": 481,
+    "original_word": "אָלַם",
+    "transliteration": "ʼâlam",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to tie fast; hence (of the mouth) to be tongue-tied",
+      "hu": ""
+    }
+  },
+  "sw-lem": {
+    "strongs": 482,
+    "original_word": "אֵלֶם",
+    "transliteration": "ʼêlem",
+    "language": "Hebrew",
+    "definition": {
+      "en": "silence (i.e. mute justice)",
+      "hu": ""
+    }
+  },
+  "sw-illm": {
+    "strongs": 483,
+    "original_word": "אִלֵּם",
+    "transliteration": "ʼillêm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "speechless",
+      "hu": ""
+    }
+  },
+  "sw-almuggym": {
+    "strongs": 484,
+    "original_word": "אַלְמֻגִּים",
+    "transliteration": "ʼalmuggîym",
+    "language": "Hebrew",
+    "definition": {
+      "en": "almug (i.e. probably sandle-wood) sticks",
+      "hu": ""
+    }
+  },
+  "sw-lummh": {
+    "strongs": 485,
+    "original_word": "אֲלֻמָּה",
+    "transliteration": "ʼălummâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something bound; a sheaf",
+      "hu": ""
+    }
+  },
+  "sw-almwdd": {
+    "strongs": 486,
+    "original_word": "אַלְמוֹדָד",
+    "transliteration": "ʼAlmôwdâd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Almodad, a son of Joktan",
+      "hu": ""
+    }
+  },
+  "sw-allammelek": {
+    "strongs": 487,
+    "original_word": "אַלַּמֶּלֶךְ",
+    "transliteration": "ʼAllammelek",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Allammelek, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-almn": {
+    "strongs": 488,
+    "original_word": "אַלְמָן",
+    "transliteration": "ʼalmân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "discarded (as a divorced person)",
+      "hu": ""
+    }
+  },
+  "sw-almn-489": {
+    "strongs": 489,
+    "original_word": "אַלְמֹן",
+    "transliteration": "ʼalmôn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "bereavement",
+      "hu": ""
+    }
+  },
+  "sw-almnh": {
+    "strongs": 490,
+    "original_word": "אַלְמָנָה",
+    "transliteration": "ʼalmânâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a widow; also a desolate place",
+      "hu": ""
+    }
+  },
+  "sw-almnwth": {
+    "strongs": 491,
+    "original_word": "אַלְמָנוּת",
+    "transliteration": "ʼalmânûwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "concrete, a widow; abstract, widowhood",
+      "hu": ""
+    }
+  },
+  "sw-almny": {
+    "strongs": 492,
+    "original_word": "אַלְמֹנִי",
+    "transliteration": "ʼalmônîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "some one (i.e. so and so, without giving the name of the person or place)",
+      "hu": ""
+    }
+  },
+  "sw-elnaam": {
+    "strongs": 493,
+    "original_word": "אֶלְנַעַם",
+    "transliteration": "ʼElnaʻam",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Elnaam, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-elnthn": {
+    "strongs": 494,
+    "original_word": "אֶלְנָתָן",
+    "transliteration": "ʼElnâthân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Elnathan, the name of four Israelites",
+      "hu": ""
+    }
+  },
+  "sw-ellr": {
+    "strongs": 495,
+    "original_word": "אֶלָּסָר",
+    "transliteration": "ʼEllâçâr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ellasar, an early country of Asia",
+      "hu": ""
+    }
+  },
+  "sw-eld": {
+    "strongs": 496,
+    "original_word": "אֶלְעָד",
+    "transliteration": "ʼElʻâd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Elad, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-eldh-497": {
+    "strongs": 497,
+    "original_word": "אֶלְעָדָה",
+    "transliteration": "ʼElʻâdâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Eladah, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-elwzay": {
+    "strongs": 498,
+    "original_word": "אֶלְעוּזַי",
+    "transliteration": "ʼElʻûwzay",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Eluzai, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-elzr": {
+    "strongs": 499,
+    "original_word": "אֶלְעָזָר",
+    "transliteration": "ʼElʻâzâr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Elazar, the name of seven Israelites",
+      "hu": ""
+    }
+  },
+  "sw-ell": {
+    "strongs": 500,
+    "original_word": "אֶלְעָלֵא",
+    "transliteration": "ʼElʻâlêʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Elale or Elaleh, a place east of the Jordan",
+      "hu": ""
+    }
+  },
+  "sw-elsh": {
+    "strongs": 501,
+    "original_word": "אֶלְעָשָׂה",
+    "transliteration": "ʼElʻâsâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Elasah, the name of four Israelites",
+      "hu": ""
+    }
+  },
+  "sw-laph": {
+    "strongs": 502,
+    "original_word": "אָלַף",
+    "transliteration": "ʼâlaph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "hence, to learn (and causatively to teach)",
+      "hu": ""
+    }
+  },
+  "sw-laph-503": {
+    "strongs": 503,
+    "original_word": "אָלַף",
+    "transliteration": "ʼâlaph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "causative, to make athousandfold",
+      "hu": ""
+    }
+  },
+  "sw-eleph": {
+    "strongs": 504,
+    "original_word": "אֶלֶף",
+    "transliteration": "ʼeleph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a family; also (from the sense of yoking or taming) an ox or cow",
+      "hu": ""
+    }
+  },
+  "sw-eleph-505": {
+    "strongs": 505,
+    "original_word": "אֶלֶף",
+    "transliteration": "ʼeleph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "hence (the ox's head being the first letter of the alphabet, and this eventually used as a numeral) a thousand",
+      "hu": ""
+    }
+  },
+  "sw-laph-506": {
+    "strongs": 506,
+    "original_word": "אֲלַף",
+    "transliteration": "ʼălaph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{hence (the ox's head being the first letter of the alphabet, and this eventually used as a numeral) a thousand}",
+      "hu": ""
+    }
+  },
+  "sw-eleph-507": {
+    "strongs": 507,
+    "original_word": "אֶלֶף",
+    "transliteration": "ʼEleph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Eleph, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-elpaal": {
+    "strongs": 508,
+    "original_word": "אֶלְפַּעַל",
+    "transliteration": "ʼElpaʻal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Elpaal, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-lats": {
+    "strongs": 509,
+    "original_word": "אָלַץ",
+    "transliteration": "ʼâlats",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to press",
+      "hu": ""
+    }
+  },
+  "sw-alqwm": {
+    "strongs": 510,
+    "original_word": "אַלְקוּם",
+    "transliteration": "ʼalqûwm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a non-rising (i.e. resistlessness)",
+      "hu": ""
+    }
+  },
+  "sw-elqnh": {
+    "strongs": 511,
+    "original_word": "אֶלְקָנָה",
+    "transliteration": "ʼElqânâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Elkanah, the name of several Israelites",
+      "hu": ""
+    }
+  },
+  "sw-elqshy": {
+    "strongs": 512,
+    "original_word": "אֶלְקֹשִׁי",
+    "transliteration": "ʼElqôshîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an Elkoshite or native of Elkosh",
+      "hu": ""
+    }
+  },
+  "sw-eltwlad": {
+    "strongs": 513,
+    "original_word": "אֶלְתּוֹלַד",
+    "transliteration": "ʼEltôwlad",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Eltolad, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-eltq": {
+    "strongs": 514,
+    "original_word": "אֶלְתְּקֵא",
+    "transliteration": "ʼEltᵉqêʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Eltekeh or Elteke, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-eltqn": {
+    "strongs": 515,
+    "original_word": "אֶלְתְּקֹן",
+    "transliteration": "ʼEltᵉqôn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Eltekon, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-altashchth": {
+    "strongs": 516,
+    "original_word": "אַל תַּשְׁחֵת",
+    "transliteration": "ʼAl tashchêth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "'Thou must not destroy'; probably the opening words to a popular song",
+      "hu": ""
+    }
+  },
+  "sw-m": {
+    "strongs": 517,
+    "original_word": "אֵם",
+    "transliteration": "ʼêm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a mother (as the bond of the family); in a wide sense (both literally and figuratively (like father))",
+      "hu": ""
+    }
+  },
+  "sw-im": {
+    "strongs": 518,
+    "original_word": "אִם",
+    "transliteration": "ʼim",
+    "language": "Hebrew",
+    "definition": {
+      "en": "used very widely as demonstrative, lo!; interrogative, whether?; or conditional, if, although; also Oh that!, when; hence, as a negative, not",
+      "hu": ""
+    }
+  },
+  "sw-mh": {
+    "strongs": 519,
+    "original_word": "אָמָה",
+    "transliteration": "ʼâmâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a maidservant or female slave",
+      "hu": ""
+    }
+  },
+  "sw-ammh": {
+    "strongs": 520,
+    "original_word": "אַמָּה",
+    "transliteration": "ʼammâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, a mother (i.e. unit of measure, or the fore-arm (below the elbow), i.e. a cubit; also a door-base (as a bond of the entrance)",
+      "hu": ""
+    }
+  },
+  "sw-ammh-521": {
+    "strongs": 521,
+    "original_word": "אַמָּה",
+    "transliteration": "ʼammâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{properly, a mother (i.e. unit of measure, or the fore-arm (below the elbow), i.e. a cubit; also a door-base (as a bond of the entrance)}",
+      "hu": ""
+    }
+  },
+  "sw-ammh-522": {
+    "strongs": 522,
+    "original_word": "אַמָּה",
+    "transliteration": "ʼAmmâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ammah, a hill in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-ummah": {
+    "strongs": 523,
+    "original_word": "אֻמַּה",
+    "transliteration": "ʼummah",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a collection, i.e. community of persons",
+      "hu": ""
+    }
+  },
+  "sw-ummh": {
+    "strongs": 524,
+    "original_word": "אֻמָּה",
+    "transliteration": "ʼummâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{a collection, i.e. community of persons}",
+      "hu": ""
+    }
+  },
+  "sw-mwn": {
+    "strongs": 525,
+    "original_word": "אָמוֹן",
+    "transliteration": "ʼâmôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "skilled, i.e. an architect",
+      "hu": ""
+    }
+  },
+  "sw-mwn-526": {
+    "strongs": 526,
+    "original_word": "אָמוֹן",
+    "transliteration": "ʼÂmôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Amon, the name of three Israelites",
+      "hu": ""
+    }
+  },
+  "sw-mwn-527": {
+    "strongs": 527,
+    "original_word": "אָמוֹן",
+    "transliteration": "ʼâmôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a throng of people",
+      "hu": ""
+    }
+  },
+  "sw-mwn-528": {
+    "strongs": 528,
+    "original_word": "אָמוֹן",
+    "transliteration": "ʼÂmôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Amon (i.e. Ammon or Amn), a deity of Egypt",
+      "hu": ""
+    }
+  },
+  "sw-mwn-529": {
+    "strongs": 529,
+    "original_word": "אֵמוּן",
+    "transliteration": "ʼêmûwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "established, i.e. (figuratively) trusty; also (abstractly) trustworthiness",
+      "hu": ""
+    }
+  },
+  "sw-mwnh": {
+    "strongs": 530,
+    "original_word": "אֱמוּנָה",
+    "transliteration": "ʼĕmûwnâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "literally firmness; figuratively security; morally fidelity",
+      "hu": ""
+    }
+  },
+  "sw-mwts": {
+    "strongs": 531,
+    "original_word": "אָמוֹץ",
+    "transliteration": "ʼÂmôwts",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Amots, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-my": {
+    "strongs": 532,
+    "original_word": "אָמִי",
+    "transliteration": "ʼÂmîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ami, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-ammyts": {
+    "strongs": 533,
+    "original_word": "אַמִּיץ",
+    "transliteration": "ʼammîyts",
+    "language": "Hebrew",
+    "definition": {
+      "en": "strong or (abstractly) strength",
+      "hu": ""
+    }
+  },
+  "sw-myr": {
+    "strongs": 534,
+    "original_word": "אָמִיר",
+    "transliteration": "ʼâmîyr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a summit (of a tree or mountain",
+      "hu": ""
+    }
+  },
+  "sw-mal": {
+    "strongs": 535,
+    "original_word": "אָמַל",
+    "transliteration": "ʼâmal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to droop; by implication to be sick, to mourn",
+      "hu": ""
+    }
+  },
+  "sw-umlal": {
+    "strongs": 536,
+    "original_word": "אֻמְלַל",
+    "transliteration": "ʼumlal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "sick",
+      "hu": ""
+    }
+  },
+  "sw-mll": {
+    "strongs": 537,
+    "original_word": "אֲמֵלָל",
+    "transliteration": "ʼămêlâl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "languid",
+      "hu": ""
+    }
+  },
+  "sw-mm": {
+    "strongs": 538,
+    "original_word": "אֲמָם",
+    "transliteration": "ʼĂmâm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Amam, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-man": {
+    "strongs": 539,
+    "original_word": "אָמַן",
+    "transliteration": "ʼâman",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, to build up or support; to foster as a parent or nurse; figuratively to render (or be) firm or faithful, to trust or believe, to be permanent or quiet; morally to be true or certain;",
+      "hu": ""
+    }
+  },
+  "sw-man-540": {
+    "strongs": 540,
+    "original_word": "אֲמַן",
+    "transliteration": "ʼăman",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{properly, to build up or support; to foster as a parent or nurse; figuratively to render (or be) firm or faithful, to trust or believe, to be permanent or quiet; morally to be true or certain};",
+      "hu": ""
+    }
+  },
+  "sw-man-541": {
+    "strongs": 541,
+    "original_word": "אָמַן",
+    "transliteration": "ʼâman",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to take the right hand road",
+      "hu": ""
+    }
+  },
+  "sw-mn": {
+    "strongs": 542,
+    "original_word": "אָמָן",
+    "transliteration": "ʼâmân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an expert",
+      "hu": ""
+    }
+  },
+  "sw-mn-543": {
+    "strongs": 543,
+    "original_word": "אָמֵן",
+    "transliteration": "ʼâmên",
+    "language": "Hebrew",
+    "definition": {
+      "en": "sure; abstract, faithfulness; adverb, truly",
+      "hu": ""
+    }
+  },
+  "sw-men": {
+    "strongs": 544,
+    "original_word": "אֹמֶן",
+    "transliteration": "ʼômen",
+    "language": "Hebrew",
+    "definition": {
+      "en": "verity",
+      "hu": ""
+    }
+  },
+  "sw-omnh": {
+    "strongs": 545,
+    "original_word": "אׇמְנָה",
+    "transliteration": "ʼomnâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "tutelage",
+      "hu": ""
+    }
+  },
+  "sw-omnh-546": {
+    "strongs": 546,
+    "original_word": "אׇמְנָה",
+    "transliteration": "ʼomnâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "adverb, surely",
+      "hu": ""
+    }
+  },
+  "sw-mnh": {
+    "strongs": 547,
+    "original_word": "אֹמְנָה",
+    "transliteration": "ʼômᵉnâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a column",
+      "hu": ""
+    }
+  },
+  "sw-mnh-548": {
+    "strongs": 548,
+    "original_word": "אֲמָנָה",
+    "transliteration": "ʼămânâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something fixed, i.e. a covenant. an allowance",
+      "hu": ""
+    }
+  },
+  "sw-mnh-549": {
+    "strongs": 549,
+    "original_word": "אֲמָנָה",
+    "transliteration": "ʼĂmânâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Amanah, a mountain near Damascus",
+      "hu": ""
+    }
+  },
+  "sw-amnwn": {
+    "strongs": 550,
+    "original_word": "אַמְנוֹן",
+    "transliteration": "ʼAmnôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Amnon (or Aminon), a son of David",
+      "hu": ""
+    }
+  },
+  "sw-omnm": {
+    "strongs": 551,
+    "original_word": "אׇמְנָם",
+    "transliteration": "ʼomnâm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "verily",
+      "hu": ""
+    }
+  },
+  "sw-umnm": {
+    "strongs": 552,
+    "original_word": "אֻמְנָם",
+    "transliteration": "ʼumnâm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{verily}",
+      "hu": ""
+    }
+  },
+  "sw-mats": {
+    "strongs": 553,
+    "original_word": "אָמַץ",
+    "transliteration": "ʼâmats",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to be alert, physically (on foot) or mentally (in courage)",
+      "hu": ""
+    }
+  },
+  "sw-mts": {
+    "strongs": 554,
+    "original_word": "אָמֹץ",
+    "transliteration": "ʼâmôts",
+    "language": "Hebrew",
+    "definition": {
+      "en": "of a strong color, i.e. red (others fleet)",
+      "hu": ""
+    }
+  },
+  "sw-mets": {
+    "strongs": 555,
+    "original_word": "אֹמֶץ",
+    "transliteration": "ʼômets",
+    "language": "Hebrew",
+    "definition": {
+      "en": "strength",
+      "hu": ""
+    }
+  },
+  "sw-amtsh": {
+    "strongs": 556,
+    "original_word": "אַמְצָה",
+    "transliteration": "ʼamtsâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "force",
+      "hu": ""
+    }
+  },
+  "sw-amtsy": {
+    "strongs": 557,
+    "original_word": "אַמְצִי",
+    "transliteration": "ʼAmtsîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Amtsi, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-matsyh": {
+    "strongs": 558,
+    "original_word": "אֲמַצְיָה",
+    "transliteration": "ʼĂmatsyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Amatsjah, the name of four Israelites",
+      "hu": ""
+    }
+  },
+  "sw-mar": {
+    "strongs": 559,
+    "original_word": "אָמַר",
+    "transliteration": "ʼâmar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to say (used with great latitude)",
+      "hu": ""
+    }
+  },
+  "sw-mar-560": {
+    "strongs": 560,
+    "original_word": "אֲמַר",
+    "transliteration": "ʼămar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{to say (used with great latitude)}",
+      "hu": ""
+    }
+  },
+  "sw-mer": {
+    "strongs": 561,
+    "original_word": "אֵמֶר",
+    "transliteration": "ʼêmer",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something said",
+      "hu": ""
+    }
+  },
+  "sw-mer-562": {
+    "strongs": 562,
+    "original_word": "אֹמֶר",
+    "transliteration": "ʼômer",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{something said}",
+      "hu": ""
+    }
+  },
+  "sw-immar": {
+    "strongs": 563,
+    "original_word": "אִמַּר",
+    "transliteration": "ʼimmar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a lamb",
+      "hu": ""
+    }
+  },
+  "sw-immr": {
+    "strongs": 564,
+    "original_word": "אִמֵּר",
+    "transliteration": "ʼImmêr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Immer, the name of five Israelites",
+      "hu": ""
+    }
+  },
+  "sw-imrh": {
+    "strongs": 565,
+    "original_word": "אִמְרָה",
+    "transliteration": "ʼimrâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{something said}",
+      "hu": ""
+    }
+  },
+  "sw-imry": {
+    "strongs": 566,
+    "original_word": "אִמְרִי",
+    "transliteration": "ʼImrîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Imri, the name of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-mry": {
+    "strongs": 567,
+    "original_word": "אֱמֹרִי",
+    "transliteration": "ʼĔmôrîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an Emorite, one of the Canaanitish tribes",
+      "hu": ""
+    }
+  },
+  "sw-maryh": {
+    "strongs": 568,
+    "original_word": "אֲמַרְיָה",
+    "transliteration": "ʼĂmaryâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Amarjah, the name of nine Israelites",
+      "hu": ""
+    }
+  },
+  "sw-amrphel": {
+    "strongs": 569,
+    "original_word": "אַמְרָפֶל",
+    "transliteration": "ʼAmrâphel",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Amraphel, a king of Shinar",
+      "hu": ""
+    }
+  },
+  "sw-emesh": {
+    "strongs": 570,
+    "original_word": "אֶמֶשׁ",
+    "transliteration": "ʼemesh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "yesterday or last night",
+      "hu": ""
+    }
+  },
+  "sw-emeth": {
+    "strongs": 571,
+    "original_word": "אֶמֶת",
+    "transliteration": "ʼemeth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "stability; (figuratively) certainty, truth, trustworthiness",
+      "hu": ""
+    }
+  },
+  "sw-amtachath": {
+    "strongs": 572,
+    "original_word": "אַמְתַּחַת",
+    "transliteration": "ʼamtachath",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, something expansive, i.e. a bag",
+      "hu": ""
+    }
+  },
+  "sw-mittay": {
+    "strongs": 573,
+    "original_word": "אֲמִתַּי",
+    "transliteration": "ʼĂmittay",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Amittai, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-mtny": {
+    "strongs": 574,
+    "original_word": "אֵמְתָּנִי",
+    "transliteration": "ʼêmᵉtânîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "well-loined (i.e. burly) or mighty",
+      "hu": ""
+    }
+  },
+  "sw-n": {
+    "strongs": 575,
+    "original_word": "אָן",
+    "transliteration": "ʼân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "where?; hence, whither?, when?; also hither and thither",
+      "hu": ""
+    }
+  },
+  "sw-n-576": {
+    "strongs": 576,
+    "original_word": "אֲנָא",
+    "transliteration": "ʼănâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "I",
+      "hu": ""
+    }
+  },
+  "sw-nn": {
+    "strongs": 577,
+    "original_word": "אָנָּא",
+    "transliteration": "ʼânnâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "oh now!",
+      "hu": ""
+    }
+  },
+  "sw-nh": {
+    "strongs": 578,
+    "original_word": "אָנָה",
+    "transliteration": "ʼânâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to groan",
+      "hu": ""
+    }
+  },
+  "sw-nh-579": {
+    "strongs": 579,
+    "original_word": "אָנָה",
+    "transliteration": "ʼânâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to approach; hence, to meet in various senses",
+      "hu": ""
+    }
+  },
+  "sw-nw": {
+    "strongs": 580,
+    "original_word": "אֲנוּ",
+    "transliteration": "ʼănûw",
+    "language": "Hebrew",
+    "definition": {
+      "en": "we",
+      "hu": ""
+    }
+  },
+  "sw-innwn": {
+    "strongs": 581,
+    "original_word": "אִנּוּן",
+    "transliteration": "ʼinnûwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "they",
+      "hu": ""
+    }
+  },
+  "sw-nwsh": {
+    "strongs": 582,
+    "original_word": "אֱנוֹשׁ",
+    "transliteration": "ʼĕnôwsh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a man in general (singly or collectively)",
+      "hu": ""
+    }
+  },
+  "sw-nwsh-583": {
+    "strongs": 583,
+    "original_word": "אֱנוֹשׁ",
+    "transliteration": "ʼĔnôwsh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Enosh, a son of Seth",
+      "hu": ""
+    }
+  },
+  "sw-nach": {
+    "strongs": 584,
+    "original_word": "אָנַח",
+    "transliteration": "ʼânach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to sigh",
+      "hu": ""
+    }
+  },
+  "sw-nchh": {
+    "strongs": 585,
+    "original_word": "אֲנָחָה",
+    "transliteration": "ʼănâchâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "sighing",
+      "hu": ""
+    }
+  },
+  "sw-nachn": {
+    "strongs": 586,
+    "original_word": "אֲנַחְנָא",
+    "transliteration": "ʼănachnâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "we",
+      "hu": ""
+    }
+  },
+  "sw-nachnw": {
+    "strongs": 587,
+    "original_word": "אֲנַחְנוּ",
+    "transliteration": "ʼănachnûw",
+    "language": "Hebrew",
+    "definition": {
+      "en": "we",
+      "hu": ""
+    }
+  },
+  "sw-nchrth": {
+    "strongs": 588,
+    "original_word": "אֲנָחֲרָת",
+    "transliteration": "ʼĂnâchărâth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Anacharath, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-ny": {
+    "strongs": 589,
+    "original_word": "אֲנִי",
+    "transliteration": "ʼănîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "I",
+      "hu": ""
+    }
+  },
+  "sw-ny-590": {
+    "strongs": 590,
+    "original_word": "אֳנִי",
+    "transliteration": "ʼŏnîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "-a ship or (collectively) a fleet",
+      "hu": ""
+    }
+  },
+  "sw-nyh": {
+    "strongs": 591,
+    "original_word": "אֳנִיָּה",
+    "transliteration": "ʼŏnîyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a ship",
+      "hu": ""
+    }
+  },
+  "sw-nyh-592": {
+    "strongs": 592,
+    "original_word": "אֲנִיָּה",
+    "transliteration": "ʼănîyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "groaning",
+      "hu": ""
+    }
+  },
+  "sw-nym": {
+    "strongs": 593,
+    "original_word": "אֲנִיעָם",
+    "transliteration": "ʼĂnîyʻâm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Aniam, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-nk": {
+    "strongs": 594,
+    "original_word": "אֲנָךְ",
+    "transliteration": "ʼănâk",
+    "language": "Hebrew",
+    "definition": {
+      "en": "according to most a plumb-line, and to others a hook",
+      "hu": ""
+    }
+  },
+  "sw-nky": {
+    "strongs": 595,
+    "original_word": "אָנֹכִי",
+    "transliteration": "ʼânôkîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "I",
+      "hu": ""
+    }
+  },
+  "sw-nan": {
+    "strongs": 596,
+    "original_word": "אָנַן",
+    "transliteration": "ʼânan",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to mourn, i.e. complain",
+      "hu": ""
+    }
+  },
+  "sw-na": {
+    "strongs": 597,
+    "original_word": "אָנַס",
+    "transliteration": "ʼânaç",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to insist",
+      "hu": ""
+    }
+  },
+  "sw-na-598": {
+    "strongs": 598,
+    "original_word": "אֲנַס",
+    "transliteration": "ʼănaç",
+    "language": "Hebrew",
+    "definition": {
+      "en": "figuratively, to distress",
+      "hu": ""
+    }
+  },
+  "sw-naph": {
+    "strongs": 599,
+    "original_word": "אָנַף",
+    "transliteration": "ʼânaph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to breathe hard, i.e. be enraged",
+      "hu": ""
+    }
+  },
+  "sw-naph-600": {
+    "strongs": 600,
+    "original_word": "אֲנַף",
+    "transliteration": "ʼănaph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the face",
+      "hu": ""
+    }
+  },
+  "sw-nphh": {
+    "strongs": 601,
+    "original_word": "אֲנָפָה",
+    "transliteration": "ʼănâphâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an unclean bird, perhaps the parrot (from its irascibility)",
+      "hu": ""
+    }
+  },
+  "sw-naq": {
+    "strongs": 602,
+    "original_word": "אָנַק",
+    "transliteration": "ʼânaq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to shriek",
+      "hu": ""
+    }
+  },
+  "sw-nqh": {
+    "strongs": 603,
+    "original_word": "אֲנָקָה",
+    "transliteration": "ʼănâqâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "shrieking",
+      "hu": ""
+    }
+  },
+  "sw-nqh-604": {
+    "strongs": 604,
+    "original_word": "אֲנָקָה",
+    "transliteration": "ʼănâqâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "some kind of lizard, probably the gecko (from its wail)",
+      "hu": ""
+    }
+  },
+  "sw-nash": {
+    "strongs": 605,
+    "original_word": "אָנַשׁ",
+    "transliteration": "ʼânash",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to be frail, feeble, or (figuratively) melancholy",
+      "hu": ""
+    }
+  },
+  "sw-nsh": {
+    "strongs": 606,
+    "original_word": "אֱנָשׁ",
+    "transliteration": "ʼĕnâsh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a man",
+      "hu": ""
+    }
+  },
+  "sw-anth": {
+    "strongs": 607,
+    "original_word": "אַנְתָּה",
+    "transliteration": "ʼantâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "thou",
+      "hu": ""
+    }
+  },
+  "sw-antwn": {
+    "strongs": 608,
+    "original_word": "אַנְתּוּן",
+    "transliteration": "ʼantûwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "ye",
+      "hu": ""
+    }
+  },
+  "sw-h609": {
+    "strongs": 609,
+    "original_word": "אָסָא",
+    "transliteration": "ʼÂçâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Asa, the name of a king and of a Levite",
+      "hu": ""
+    }
+  },
+  "sw-wk": {
+    "strongs": 610,
+    "original_word": "אָסוּךְ",
+    "transliteration": "ʼâçûwk",
+    "language": "Hebrew",
+    "definition": {
+      "en": "anointed, i.e. an oil-flask",
+      "hu": ""
+    }
+  },
+  "sw-wn-611": {
+    "strongs": 611,
+    "original_word": "אָסוֹן",
+    "transliteration": "ʼâçôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "hurt",
+      "hu": ""
+    }
+  },
+  "sw-wr-612": {
+    "strongs": 612,
+    "original_word": "אֵסוּר",
+    "transliteration": "ʼêçûwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a bond (especially manacles of a prisoner)",
+      "hu": ""
+    }
+  },
+  "sw-wr-613": {
+    "strongs": 613,
+    "original_word": "אֱסוּר",
+    "transliteration": "ʼĕçûwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{a bond (especially manacles of a prisoner)}",
+      "hu": ""
+    }
+  },
+  "sw-yph": {
+    "strongs": 614,
+    "original_word": "אָסִיף",
+    "transliteration": "ʼâçîyph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "gathered, i.e. (abstractly) a gathering in of crops",
+      "hu": ""
+    }
+  },
+  "sw-yr": {
+    "strongs": 615,
+    "original_word": "אָסִיר",
+    "transliteration": "ʼâçîyr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "bound, i.e. a captive",
+      "hu": ""
+    }
+  },
+  "sw-ayr": {
+    "strongs": 616,
+    "original_word": "אַסִּיר",
+    "transliteration": "ʼaççîyr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{bound, i.e. a captive}",
+      "hu": ""
+    }
+  },
+  "sw-ayr-617": {
+    "strongs": 617,
+    "original_word": "אַסִּיר",
+    "transliteration": "ʼAççîyr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Assir, the name of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-m-618": {
+    "strongs": 618,
+    "original_word": "אָסָם",
+    "transliteration": "ʼâçâm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a storehouse (only in the plural)",
+      "hu": ""
+    }
+  },
+  "sw-anh": {
+    "strongs": 619,
+    "original_word": "אַסְנָה",
+    "transliteration": "ʼAçnâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Asnah, one of the Nethinim",
+      "hu": ""
+    }
+  },
+  "sw-onappar": {
+    "strongs": 620,
+    "original_word": "אׇסְנַפַּר",
+    "transliteration": "ʼOçnappar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Osnappar, an Assyrian king",
+      "hu": ""
+    }
+  },
+  "sw-nath": {
+    "strongs": 621,
+    "original_word": "אָסְנַת",
+    "transliteration": "ʼÂçᵉnath",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Asenath, the wife of Joseph",
+      "hu": ""
+    }
+  },
+  "sw-aph": {
+    "strongs": 622,
+    "original_word": "אָסַף",
+    "transliteration": "ʼâçaph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to gather for any purpose; hence, to receive, take away, i.e. remove (destroy, leave behind, put up, restore, etc.)",
+      "hu": ""
+    }
+  },
+  "sw-ph": {
+    "strongs": 623,
+    "original_word": "אָסָף",
+    "transliteration": "ʼÂçâph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Asaph, the name of three Israelites, and of the family of the first",
+      "hu": ""
+    }
+  },
+  "sw-uph": {
+    "strongs": 624,
+    "original_word": "אָסֻף",
+    "transliteration": "ʼâçuph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "collected (only in the plural), i.e. a collection of offerings)",
+      "hu": ""
+    }
+  },
+  "sw-eph": {
+    "strongs": 625,
+    "original_word": "אֹסֶף",
+    "transliteration": "ʼôçeph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a collection (of fruits)",
+      "hu": ""
+    }
+  },
+  "sw-phh": {
+    "strongs": 626,
+    "original_word": "אֲסֵפָה",
+    "transliteration": "ʼăçêphâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a collection of people (only adverbial)",
+      "hu": ""
+    }
+  },
+  "sw-upph": {
+    "strongs": 627,
+    "original_word": "אֲסֻפָּה",
+    "transliteration": "ʼăçuppâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a collection of (learned) men (only in the plural)",
+      "hu": ""
+    }
+  },
+  "sw-puph": {
+    "strongs": 628,
+    "original_word": "אֲסְפְּסֻף",
+    "transliteration": "ʼăçpᵉçuph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "gathered up together, i.e. a promiscuous assemblage (of people)",
+      "hu": ""
+    }
+  },
+  "sw-oparn": {
+    "strongs": 629,
+    "original_word": "אׇסְפַּרְנָא",
+    "transliteration": "ʼoçparnâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "diligently",
+      "hu": ""
+    }
+  },
+  "sw-apth": {
+    "strongs": 630,
+    "original_word": "אַסְפָּתָא",
+    "transliteration": "ʼAçpâthâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Aspatha, a son of Haman",
+      "hu": ""
+    }
+  },
+  "sw-ar-631": {
+    "strongs": 631,
+    "original_word": "אָסַר",
+    "transliteration": "ʼâçar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to yoke or hitch; by analogy, to fasten in any sense, to join battle",
+      "hu": ""
+    }
+  },
+  "sw-r-632": {
+    "strongs": 632,
+    "original_word": "אֱסָר",
+    "transliteration": "ʼĕçâr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an obligation or vow (of abstinence)",
+      "hu": ""
+    }
+  },
+  "sw-r-633": {
+    "strongs": 633,
+    "original_word": "אֱסָר",
+    "transliteration": "ʼĕçâr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an interdict",
+      "hu": ""
+    }
+  },
+  "sw-archaddwn": {
+    "strongs": 634,
+    "original_word": "אֵסַר־חַדּוֹן",
+    "transliteration": "ʼÊçar-Chaddôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Esar-chaddon, an Assyrian king",
+      "hu": ""
+    }
+  },
+  "sw-etr": {
+    "strongs": 635,
+    "original_word": "אֶסְתֵּר",
+    "transliteration": "ʼEçtêr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ester, the Jewish heroine",
+      "hu": ""
+    }
+  },
+  "sw-h636": {
+    "strongs": 636,
+    "original_word": "אָע",
+    "transliteration": "ʼâʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a tree or wood",
+      "hu": ""
+    }
+  },
+  "sw-aph-637": {
+    "strongs": 637,
+    "original_word": "אַף",
+    "transliteration": "ʼaph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "meaning accession (used as an adverb or conjunction); also or yea; adversatively though",
+      "hu": ""
+    }
+  },
+  "sw-aph-638": {
+    "strongs": 638,
+    "original_word": "אַף",
+    "transliteration": "ʼaph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{meaning accession (used as an adverb or conjunction); also or yea; adversatively though}",
+      "hu": ""
+    }
+  },
+  "sw-aph-639": {
+    "strongs": 639,
+    "original_word": "אַף",
+    "transliteration": "ʼaph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, the nose or nostril; hence, the face, and occasionally a person; also (from the rapid breathing in passion) ire",
+      "hu": ""
+    }
+  },
+  "sw-phad": {
+    "strongs": 640,
+    "original_word": "אָפַד",
+    "transliteration": "ʼâphad",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to gird on (the ephod)",
+      "hu": ""
+    }
+  },
+  "sw-phd": {
+    "strongs": 641,
+    "original_word": "אֵפֹד",
+    "transliteration": "ʼÊphôd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ephod, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-phuddh": {
+    "strongs": 642,
+    "original_word": "אֵפֻדָּה",
+    "transliteration": "ʼêphuddâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a girding on (of the ephod); hence, generally, a plating (of metal)",
+      "hu": ""
+    }
+  },
+  "sw-appeden": {
+    "strongs": 643,
+    "original_word": "אַפֶּדֶן",
+    "transliteration": "ʼappeden",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a pavilion or palace-tent",
+      "hu": ""
+    }
+  },
+  "sw-phh-644": {
+    "strongs": 644,
+    "original_word": "אָפָה",
+    "transliteration": "ʼâphâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to cook, especially to bake",
+      "hu": ""
+    }
+  },
+  "sw-phw": {
+    "strongs": 645,
+    "original_word": "אֵפוֹ",
+    "transliteration": "ʼêphôw",
+    "language": "Hebrew",
+    "definition": {
+      "en": "strictly a demonstrative particle, here; but used of time, now or then",
+      "hu": ""
+    }
+  },
+  "sw-phwd": {
+    "strongs": 646,
+    "original_word": "אֵפוֹד",
+    "transliteration": "ʼêphôwd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a girdle; specifically the ephod or highpriest's shoulder-piece; also generally, an image",
+      "hu": ""
+    }
+  },
+  "sw-phyach": {
+    "strongs": 647,
+    "original_word": "אֲפִיחַ",
+    "transliteration": "ʼĂphîyach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Aphiach, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-phyl": {
+    "strongs": 648,
+    "original_word": "אָפִיל",
+    "transliteration": "ʼâphîyl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "unripe",
+      "hu": ""
+    }
+  },
+  "sw-appayim": {
+    "strongs": 649,
+    "original_word": "אַפַּיִם",
+    "transliteration": "ʼAppayim",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Appajim, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-phyq": {
+    "strongs": 650,
+    "original_word": "אָפִיק",
+    "transliteration": "ʼâphîyq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, containing, i.e. a tube; also a bed or valley of astream; also a strong thing or a hero",
+      "hu": ""
+    }
+  },
+  "sw-phl": {
+    "strongs": 651,
+    "original_word": "אָפֵל",
+    "transliteration": "ʼâphêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "dusky",
+      "hu": ""
+    }
+  },
+  "sw-phel": {
+    "strongs": 652,
+    "original_word": "אֹפֶל",
+    "transliteration": "ʼôphel",
+    "language": "Hebrew",
+    "definition": {
+      "en": "dusk",
+      "hu": ""
+    }
+  },
+  "sw-phlh": {
+    "strongs": 653,
+    "original_word": "אֲפֵלָה",
+    "transliteration": "ʼăphêlâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "duskiness, figuratively, misfortune; concrete, concealment",
+      "hu": ""
+    }
+  },
+  "sw-ephll": {
+    "strongs": 654,
+    "original_word": "אֶפְלָל",
+    "transliteration": "ʼEphlâl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ephlal, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-phen": {
+    "strongs": 655,
+    "original_word": "אֹפֶן",
+    "transliteration": "ʼôphen",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a turn, i.e. a season",
+      "hu": ""
+    }
+  },
+  "sw-ph-656": {
+    "strongs": 656,
+    "original_word": "אָפֵס",
+    "transliteration": "ʼâphêç",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to disappear, i.e. cease",
+      "hu": ""
+    }
+  },
+  "sw-ephe": {
+    "strongs": 657,
+    "original_word": "אֶפֶס",
+    "transliteration": "ʼepheç",
+    "language": "Hebrew",
+    "definition": {
+      "en": "cessation, i.e. an end (especially of the earth); often used adverb, no further; also the ankle (in the dual), as being the extremity of the leg or foot",
+      "hu": ""
+    }
+  },
+  "sw-ephedammym": {
+    "strongs": 658,
+    "original_word": "אֶפֶס דַּמִּים",
+    "transliteration": "ʼEpheç Dammîym",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ephes-Dammim, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-pha": {
+    "strongs": 659,
+    "original_word": "אֵפַע",
+    "transliteration": "ʼêphaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, a breath, i.e. nothing",
+      "hu": ""
+    }
+  },
+  "sw-epheh": {
+    "strongs": 660,
+    "original_word": "אֶפְעֶה",
+    "transliteration": "ʼephʻeh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an asp or other venomous serpent",
+      "hu": ""
+    }
+  },
+  "sw-phaph": {
+    "strongs": 661,
+    "original_word": "אָפַף",
+    "transliteration": "ʼâphaph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to surround",
+      "hu": ""
+    }
+  },
+  "sw-phaq": {
+    "strongs": 662,
+    "original_word": "אָפַק",
+    "transliteration": "ʼâphaq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to contain, i.e. (reflex.) abstain",
+      "hu": ""
+    }
+  },
+  "sw-phq": {
+    "strongs": 663,
+    "original_word": "אֲפֵק",
+    "transliteration": "ʼĂphêq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Aphek (or Aphik), the name of three places in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-phqh": {
+    "strongs": 664,
+    "original_word": "אֲפֵקָה",
+    "transliteration": "ʼĂphêqâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Aphekah, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-pher": {
+    "strongs": 665,
+    "original_word": "אֵפֶר",
+    "transliteration": "ʼêpher",
+    "language": "Hebrew",
+    "definition": {
+      "en": "ashes",
+      "hu": ""
+    }
+  },
+  "sw-phr": {
+    "strongs": 666,
+    "original_word": "אֲפֵר",
+    "transliteration": "ʼăphêr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a turban",
+      "hu": ""
+    }
+  },
+  "sw-ephrach": {
+    "strongs": 667,
+    "original_word": "אֶפְרֹחַ",
+    "transliteration": "ʼephrôach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the brood of a bird",
+      "hu": ""
+    }
+  },
+  "sw-appirywn": {
+    "strongs": 668,
+    "original_word": "אַפִּרְיוֹן",
+    "transliteration": "ʼappiryôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a palanquin",
+      "hu": ""
+    }
+  },
+  "sw-ephrayim": {
+    "strongs": 669,
+    "original_word": "אֶפְרַיִם",
+    "transliteration": "ʼEphrayim",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ephrajim, a son of Joseph; also the tribe descended from him, and its territory",
+      "hu": ""
+    }
+  },
+  "sw-phray": {
+    "strongs": 670,
+    "original_word": "אֲפָרְסַי",
+    "transliteration": "ʼĂphârᵉçay",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an Apherasite or inhabitant of an unknown region of Assyria",
+      "hu": ""
+    }
+  },
+  "sw-pharkay": {
+    "strongs": 671,
+    "original_word": "אֲפַרְסְכַי",
+    "transliteration": "ʼĂpharçᵉkay",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an Apharsekite or Apharsathkite, an unknown Assyrian tribe",
+      "hu": ""
+    }
+  },
+  "sw-ephrth": {
+    "strongs": 672,
+    "original_word": "אֶפְרָת",
+    "transliteration": "ʼEphrâth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ephrath, another name for Bethlehem;",
+      "hu": ""
+    }
+  },
+  "sw-ephrthy": {
+    "strongs": 673,
+    "original_word": "אֶפְרָתִי",
+    "transliteration": "ʼEphrâthîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an Ephrathite or an Ephraimite",
+      "hu": ""
+    }
+  },
+  "sw-appthm": {
+    "strongs": 674,
+    "original_word": "אַפְּתֹם",
+    "transliteration": "ʼappᵉthôm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "revenue; others at the last",
+      "hu": ""
+    }
+  },
+  "sw-etsbwn": {
+    "strongs": 675,
+    "original_word": "אֶצְבּוֹן",
+    "transliteration": "ʼEtsbôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Etsbon, the name of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-etsba": {
+    "strongs": 676,
+    "original_word": "אֶצְבַּע",
+    "transliteration": "ʼetsbaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something to sieze with, i.e. a finger; by analogy, a toe",
+      "hu": ""
+    }
+  },
+  "sw-etsba-677": {
+    "strongs": 677,
+    "original_word": "אֶצְבַּע",
+    "transliteration": "ʼetsbaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{something to sieze with, i.e. a finger; by analogy, a toe}",
+      "hu": ""
+    }
+  },
+  "sw-tsyl": {
+    "strongs": 678,
+    "original_word": "אָצִיל",
+    "transliteration": "ʼâtsîyl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an extremity (Isaiah 41:9), also a noble",
+      "hu": ""
+    }
+  },
+  "sw-atstsyl": {
+    "strongs": 679,
+    "original_word": "אַצִּיל",
+    "transliteration": "ʼatstsîyl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a joint of the hand (i.e. knuckle); also (according to some) a party-wall (Ezekiel 41:8)",
+      "hu": ""
+    }
+  },
+  "sw-tsal": {
+    "strongs": 680,
+    "original_word": "אָצַל",
+    "transliteration": "ʼâtsal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to separate; hence, to select, refuse, contract",
+      "hu": ""
+    }
+  },
+  "sw-tsel": {
+    "strongs": 681,
+    "original_word": "אֵצֶל",
+    "transliteration": "ʼêtsel",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a side; (as a preposition) near",
+      "hu": ""
+    }
+  },
+  "sw-tsl": {
+    "strongs": 682,
+    "original_word": "אָצֵל",
+    "transliteration": "ʼÂtsêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Atsel, the name of an Israelite, and of a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-tsalyhw": {
+    "strongs": 683,
+    "original_word": "אֲצַלְיָהוּ",
+    "transliteration": "ʼĂtsalyâhûw",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Atsaljah, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-tsem": {
+    "strongs": 684,
+    "original_word": "אֹצֶם",
+    "transliteration": "ʼÔtsem",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Otsem, the name of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-etsdh": {
+    "strongs": 685,
+    "original_word": "אֶצְעָדָה",
+    "transliteration": "ʼetsʻâdâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, a step-chain; by analogy, a bracelet",
+      "hu": ""
+    }
+  },
+  "sw-tsar": {
+    "strongs": 686,
+    "original_word": "אָצַר",
+    "transliteration": "ʼâtsar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to store up",
+      "hu": ""
+    }
+  },
+  "sw-etser": {
+    "strongs": 687,
+    "original_word": "אֶצֶר",
+    "transliteration": "ʼEtser",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Etser, an Idumaean",
+      "hu": ""
+    }
+  },
+  "sw-eqdch": {
+    "strongs": 688,
+    "original_word": "אֶקְדָּח",
+    "transliteration": "ʼeqdâch",
+    "language": "Hebrew",
+    "definition": {
+      "en": "burning, i.e. a carbuncle or other fiery gem",
+      "hu": ""
+    }
+  },
+  "sw-aqqw": {
+    "strongs": 689,
+    "original_word": "אַקּוֹ",
+    "transliteration": "ʼaqqôw",
+    "language": "Hebrew",
+    "definition": {
+      "en": "slender, i.e. the ibex",
+      "hu": ""
+    }
+  },
+  "sw-r-690": {
+    "strongs": 690,
+    "original_word": "אֲרָא",
+    "transliteration": "ʼărâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ara, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-erl": {
+    "strongs": 691,
+    "original_word": "אֶרְאֵל",
+    "transliteration": "ʼerʼêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a hero (collectively)",
+      "hu": ""
+    }
+  },
+  "sw-arly": {
+    "strongs": 692,
+    "original_word": "אַרְאֵלִי",
+    "transliteration": "ʼArʼêlîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Areli (or an Arelite, collectively), an Israelite and his descendants",
+      "hu": ""
+    }
+  },
+  "sw-rab": {
+    "strongs": 693,
+    "original_word": "אָרַב",
+    "transliteration": "ʼârab",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to lurk",
+      "hu": ""
+    }
+  },
+  "sw-rb": {
+    "strongs": 694,
+    "original_word": "אֲרָב",
+    "transliteration": "ʼĂrâb",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Arab, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-ereb": {
+    "strongs": 695,
+    "original_word": "אֶרֶב",
+    "transliteration": "ʼereb",
+    "language": "Hebrew",
+    "definition": {
+      "en": "ambuscade",
+      "hu": ""
+    }
+  },
+  "sw-reb": {
+    "strongs": 696,
+    "original_word": "אֹרֶב",
+    "transliteration": "ʼôreb",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{ambuscade}",
+      "hu": ""
+    }
+  },
+  "sw-arbeh": {
+    "strongs": 697,
+    "original_word": "אַרְבֶּה",
+    "transliteration": "ʼarbeh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a locust (from its rapid increase)",
+      "hu": ""
+    }
+  },
+  "sw-orbh": {
+    "strongs": 698,
+    "original_word": "אׇרֳבָה",
+    "transliteration": "ʼorŏbâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "ambuscades",
+      "hu": ""
+    }
+  },
+  "sw-rubbh": {
+    "strongs": 699,
+    "original_word": "אֲרֻבָּה",
+    "transliteration": "ʼărubbâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a lattice; (by implication) a window, dovecot (because of the pigeon-holes), chimney (with its apertures for smoke), sluice (with openings for water)",
+      "hu": ""
+    }
+  },
+  "sw-rubbwth": {
+    "strongs": 700,
+    "original_word": "אֲרֻבּוֹת",
+    "transliteration": "ʼĂrubbôwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Arubboth, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-arby": {
+    "strongs": 701,
+    "original_word": "אַרְבִּי",
+    "transliteration": "ʼArbîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an Arbite or native of Arab",
+      "hu": ""
+    }
+  },
+  "sw-arba": {
+    "strongs": 702,
+    "original_word": "אַרְבַּע",
+    "transliteration": "ʼarbaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "four",
+      "hu": ""
+    }
+  },
+  "sw-arba-703": {
+    "strongs": 703,
+    "original_word": "אַרְבַּע",
+    "transliteration": "ʼarbaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{four}",
+      "hu": ""
+    }
+  },
+  "sw-arba-704": {
+    "strongs": 704,
+    "original_word": "אַרְבַּע",
+    "transliteration": "ʼArbaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Arba, one of the Anakim",
+      "hu": ""
+    }
+  },
+  "sw-arbym": {
+    "strongs": 705,
+    "original_word": "אַרְבָּעִים",
+    "transliteration": "ʼarbâʻîym",
+    "language": "Hebrew",
+    "definition": {
+      "en": "forty",
+      "hu": ""
+    }
+  },
+  "sw-arbatayim": {
+    "strongs": 706,
+    "original_word": "אַרְבַּעְתַּיִם",
+    "transliteration": "ʼarbaʻtayim",
+    "language": "Hebrew",
+    "definition": {
+      "en": "fourfold",
+      "hu": ""
+    }
+  },
+  "sw-rag": {
+    "strongs": 707,
+    "original_word": "אָרַג",
+    "transliteration": "ʼârag",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to plait or weave",
+      "hu": ""
+    }
+  },
+  "sw-ereg": {
+    "strongs": 708,
+    "original_word": "אֶרֶג",
+    "transliteration": "ʼereg",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a weaving; a braid; also a shuttle",
+      "hu": ""
+    }
+  },
+  "sw-argb": {
+    "strongs": 709,
+    "original_word": "אַרְגֹּב",
+    "transliteration": "ʼArgôb",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Argob, a district of Palestine",
+      "hu": ""
+    }
+  },
+  "sw-argvn": {
+    "strongs": 710,
+    "original_word": "אַרְגְּוָן",
+    "transliteration": "ʼargᵉvân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "purple",
+      "hu": ""
+    }
+  },
+  "sw-argvn-711": {
+    "strongs": 711,
+    "original_word": "אַרְגְּוָן",
+    "transliteration": "ʼargᵉvân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{purple}",
+      "hu": ""
+    }
+  },
+  "sw-argz": {
+    "strongs": 712,
+    "original_word": "אַרְגָּז",
+    "transliteration": "ʼargâz",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a box (as a pannier)",
+      "hu": ""
+    }
+  },
+  "sw-argmn": {
+    "strongs": 713,
+    "original_word": "אַרְגָּמָן",
+    "transliteration": "ʼargâmân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "purple (the color or the dyed stuff)",
+      "hu": ""
+    }
+  },
+  "sw-ard": {
+    "strongs": 714,
+    "original_word": "אַרְדְּ",
+    "transliteration": "ʼArd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ard, the name of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-ardwn": {
+    "strongs": 715,
+    "original_word": "אַרְדּוֹן",
+    "transliteration": "ʼArdôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ardon, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-ardy": {
+    "strongs": 716,
+    "original_word": "אַרְדִּי",
+    "transliteration": "ʼArdîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an Ardite (collectively) or descendant of Ard",
+      "hu": ""
+    }
+  },
+  "sw-rh": {
+    "strongs": 717,
+    "original_word": "אָרָה",
+    "transliteration": "ʼârâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to pluck",
+      "hu": ""
+    }
+  },
+  "sw-rw": {
+    "strongs": 718,
+    "original_word": "אֲרוּ",
+    "transliteration": "ʼărûw",
+    "language": "Hebrew",
+    "definition": {
+      "en": "lo!",
+      "hu": ""
+    }
+  },
+  "sw-arvad": {
+    "strongs": 719,
+    "original_word": "אַרְוַד",
+    "transliteration": "ʼArvad",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Arvad, an island-city of Palestine",
+      "hu": ""
+    }
+  },
+  "sw-rwd": {
+    "strongs": 720,
+    "original_word": "אֲרוֹד",
+    "transliteration": "ʼĂrôwd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Arod, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-arvdy": {
+    "strongs": 721,
+    "original_word": "אַרְוָדִי",
+    "transliteration": "ʼArvâdîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an Arvadite or citizen of Arvad",
+      "hu": ""
+    }
+  },
+  "sw-rwdy": {
+    "strongs": 722,
+    "original_word": "אֲרוֹדִי",
+    "transliteration": "ʼĂrôwdîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an Arodite or descendant of Arod",
+      "hu": ""
+    }
+  },
+  "sw-urvh": {
+    "strongs": 723,
+    "original_word": "אֻרְוָה",
+    "transliteration": "ʼurvâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a herding-place for an animal",
+      "hu": ""
+    }
+  },
+  "sw-rwkh": {
+    "strongs": 724,
+    "original_word": "אֲרוּכָה",
+    "transliteration": "ʼărûwkâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "wholeness (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-rwmh": {
+    "strongs": 725,
+    "original_word": "אֲרוּמָה",
+    "transliteration": "ʼĂrûwmâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Arumah, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-rwmy": {
+    "strongs": 726,
+    "original_word": "אֲרוֹמִי",
+    "transliteration": "ʼĂrôwmîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an Edomite (as in the margin)",
+      "hu": ""
+    }
+  },
+  "sw-rwn": {
+    "strongs": 727,
+    "original_word": "אָרוֹן",
+    "transliteration": "ʼârôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a box",
+      "hu": ""
+    }
+  },
+  "sw-ravnh": {
+    "strongs": 728,
+    "original_word": "אֲרַוְנָה",
+    "transliteration": "ʼĂravnâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Aravnah (or Arnijah or Ornah), a Jebusite",
+      "hu": ""
+    }
+  },
+  "sw-raz": {
+    "strongs": 729,
+    "original_word": "אָרַז",
+    "transliteration": "ʼâraz",
+    "language": "Hebrew",
+    "definition": {
+      "en": "of cedar",
+      "hu": ""
+    }
+  },
+  "sw-erez": {
+    "strongs": 730,
+    "original_word": "אֶרֶז",
+    "transliteration": "ʼerez",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a cedar tree (from the tenacity of its roots)",
+      "hu": ""
+    }
+  },
+  "sw-arzh": {
+    "strongs": 731,
+    "original_word": "אַרְזָה",
+    "transliteration": "ʼarzâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "cedar wainscoating",
+      "hu": ""
+    }
+  },
+  "sw-rach": {
+    "strongs": 732,
+    "original_word": "אָרַח",
+    "transliteration": "ʼârach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to travel",
+      "hu": ""
+    }
+  },
+  "sw-rach-733": {
+    "strongs": 733,
+    "original_word": "אָרַח",
+    "transliteration": "ʼÂrach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Arach, the name of three Israelites",
+      "hu": ""
+    }
+  },
+  "sw-rach-734": {
+    "strongs": 734,
+    "original_word": "אֹרַח",
+    "transliteration": "ʼôrach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a well-trodden road (literally or figuratively); also a caravan",
+      "hu": ""
+    }
+  },
+  "sw-rach-735": {
+    "strongs": 735,
+    "original_word": "אֹרַח",
+    "transliteration": "ʼôrach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a road",
+      "hu": ""
+    }
+  },
+  "sw-rchh": {
+    "strongs": 736,
+    "original_word": "אֹרְחָה",
+    "transliteration": "ʼôrᵉchâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a caravan",
+      "hu": ""
+    }
+  },
+  "sw-ruchh": {
+    "strongs": 737,
+    "original_word": "אֲרֻחָה",
+    "transliteration": "ʼăruchâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a ration of food",
+      "hu": ""
+    }
+  },
+  "sw-ry": {
+    "strongs": 738,
+    "original_word": "אֲרִי",
+    "transliteration": "ʼărîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a lion",
+      "hu": ""
+    }
+  },
+  "sw-ryl": {
+    "strongs": 739,
+    "original_word": "אֲרִיאֵל",
+    "transliteration": "ʼărîyʼêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "lion of God; i.e. heroic",
+      "hu": ""
+    }
+  },
+  "sw-ryl-740": {
+    "strongs": 740,
+    "original_word": "אֲרִיאֵל",
+    "transliteration": "ʼĂrîyʼêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ariel, a symbolical name for Jerusalem, also the name of an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-riyl": {
+    "strongs": 741,
+    "original_word": "אֲרִאֵיל",
+    "transliteration": "ʼăriʼêyl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the altar of the temple",
+      "hu": ""
+    }
+  },
+  "sw-ryday": {
+    "strongs": 742,
+    "original_word": "אֲרִידַי",
+    "transliteration": "ʼĂrîyday",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Aridai, a son of Haman",
+      "hu": ""
+    }
+  },
+  "sw-rydth": {
+    "strongs": 743,
+    "original_word": "אֲרִידָתָא",
+    "transliteration": "ʼĂrîydâthâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Aridatha, a son of Haman",
+      "hu": ""
+    }
+  },
+  "sw-aryh": {
+    "strongs": 744,
+    "original_word": "אַרְיֵה",
+    "transliteration": "ʼaryêh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{a lion}",
+      "hu": ""
+    }
+  },
+  "sw-aryh-745": {
+    "strongs": 745,
+    "original_word": "אַרְיֵה",
+    "transliteration": "ʼAryêh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Arjeh, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-rywk": {
+    "strongs": 746,
+    "original_word": "אֲרְיוֹךְ",
+    "transliteration": "ʼĂryôwk",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Arjok, the name of two Babylonians",
+      "hu": ""
+    }
+  },
+  "sw-ryay": {
+    "strongs": 747,
+    "original_word": "אֲרִיסַי",
+    "transliteration": "ʼĂrîyçay",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Arisai, a son of Haman",
+      "hu": ""
+    }
+  },
+  "sw-rak": {
+    "strongs": 748,
+    "original_word": "אָרַךְ",
+    "transliteration": "ʼârak",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to be (causative, make) long (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-rak-749": {
+    "strongs": 749,
+    "original_word": "אֲרַךְ",
+    "transliteration": "ʼărak",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to suit",
+      "hu": ""
+    }
+  },
+  "sw-rk": {
+    "strongs": 750,
+    "original_word": "אָרֵךְ",
+    "transliteration": "ʼârêk",
+    "language": "Hebrew",
+    "definition": {
+      "en": "long",
+      "hu": ""
+    }
+  },
+  "sw-erek": {
+    "strongs": 751,
+    "original_word": "אֶרֶךְ",
+    "transliteration": "ʼErek",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Erek, a place in Babylon",
+      "hu": ""
+    }
+  },
+  "sw-rk-752": {
+    "strongs": 752,
+    "original_word": "אָרֹךְ",
+    "transliteration": "ʼârôk",
+    "language": "Hebrew",
+    "definition": {
+      "en": "long",
+      "hu": ""
+    }
+  },
+  "sw-rek": {
+    "strongs": 753,
+    "original_word": "אֹרֶךְ",
+    "transliteration": "ʼôrek",
+    "language": "Hebrew",
+    "definition": {
+      "en": "length",
+      "hu": ""
+    }
+  },
+  "sw-ark": {
+    "strongs": 754,
+    "original_word": "אַרְכָּא",
+    "transliteration": "ʼarkâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "length",
+      "hu": ""
+    }
+  },
+  "sw-arkubh": {
+    "strongs": 755,
+    "original_word": "אַרְכֻבָה",
+    "transliteration": "ʼarkubâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the knee",
+      "hu": ""
+    }
+  },
+  "sw-arkvay": {
+    "strongs": 756,
+    "original_word": "אַרְכְּוַי",
+    "transliteration": "ʼArkᵉvay",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an Arkevite (collectively) or native of Erek",
+      "hu": ""
+    }
+  },
+  "sw-arky": {
+    "strongs": 757,
+    "original_word": "אַרְכִּי",
+    "transliteration": "ʼArkîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an Arkite or native of Erek",
+      "hu": ""
+    }
+  },
+  "sw-rm": {
+    "strongs": 758,
+    "original_word": "אֲרָם",
+    "transliteration": "ʼĂrâm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Aram or Syria, and its inhabitants; also the name of the son of Shem, a grandson of Nahor, and of an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-armwn": {
+    "strongs": 759,
+    "original_word": "אַרְמוֹן",
+    "transliteration": "ʼarmôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a citadel (from its height)",
+      "hu": ""
+    }
+  },
+  "sw-ramtswbh": {
+    "strongs": 760,
+    "original_word": "אֲרַם צוֹבָה",
+    "transliteration": "ʼĂram Tsôwbâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Aram of Tsoba (or Coele-Syria)",
+      "hu": ""
+    }
+  },
+  "sw-rammy": {
+    "strongs": 761,
+    "original_word": "אֲרַמִּי",
+    "transliteration": "ʼĂrammîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an Aramite or Aramaean",
+      "hu": ""
+    }
+  },
+  "sw-rmyth": {
+    "strongs": 762,
+    "original_word": "אֲרָמִית",
+    "transliteration": "ʼĂrâmîyth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "(only adverbial) in Aramean",
+      "hu": ""
+    }
+  },
+  "sw-ramnahrayim": {
+    "strongs": 763,
+    "original_word": "אֲרַם נַהֲרַיִם",
+    "transliteration": "ʼĂram Nahărayim",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Aram of (the) two rivers (Euphrates and Tigris) or Mesopotamia",
+      "hu": ""
+    }
+  },
+  "sw-armny": {
+    "strongs": 764,
+    "original_word": "אַרְמֹנִי",
+    "transliteration": "ʼArmônîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Armoni, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-rn": {
+    "strongs": 765,
+    "original_word": "אֲרָן",
+    "transliteration": "ʼĂrân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Aran, an Edomite",
+      "hu": ""
+    }
+  },
+  "sw-ren": {
+    "strongs": 766,
+    "original_word": "אֹרֶן",
+    "transliteration": "ʼôren",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the ash tree (from its toughness)",
+      "hu": ""
+    }
+  },
+  "sw-ren-767": {
+    "strongs": 767,
+    "original_word": "אֹרֶן",
+    "transliteration": "ʼÔren",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Oren, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-arnebeth": {
+    "strongs": 768,
+    "original_word": "אַרְנֶבֶת",
+    "transliteration": "ʼarnebeth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the hare",
+      "hu": ""
+    }
+  },
+  "sw-arnwn": {
+    "strongs": 769,
+    "original_word": "אַרְנוֹן",
+    "transliteration": "ʼArnôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the Arnon, a river east of the Jordan, also its territory",
+      "hu": ""
+    }
+  },
+  "sw-arnn": {
+    "strongs": 770,
+    "original_word": "אַרְנָן",
+    "transliteration": "ʼArnân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Arnan, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-ornn": {
+    "strongs": 771,
+    "original_word": "אׇרְנָן",
+    "transliteration": "ʼOrnân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ornan, a Jebusite",
+      "hu": ""
+    }
+  },
+  "sw-ra": {
+    "strongs": 772,
+    "original_word": "אֲרַע",
+    "transliteration": "ʼăraʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the earth; by implication (figuratively) low",
+      "hu": ""
+    }
+  },
+  "sw-aryth": {
+    "strongs": 773,
+    "original_word": "אַרְעִית",
+    "transliteration": "ʼarʻîyth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the bottom",
+      "hu": ""
+    }
+  },
+  "sw-arpd": {
+    "strongs": 774,
+    "original_word": "אַרְפָּד",
+    "transliteration": "ʼArpâd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Arpad, a place in Syria",
+      "hu": ""
+    }
+  },
+  "sw-arpakshad": {
+    "strongs": 775,
+    "original_word": "אַרְפַּכְשַׁד",
+    "transliteration": "ʼArpakshad",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Arpakshad, a son of Noah; also the region settled by him",
+      "hu": ""
+    }
+  },
+  "sw-erets": {
+    "strongs": 776,
+    "original_word": "אֶרֶץ",
+    "transliteration": "ʼerets",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the earth (at large, or partitively a land)",
+      "hu": ""
+    }
+  },
+  "sw-arts": {
+    "strongs": 777,
+    "original_word": "אַרְצָא",
+    "transliteration": "ʼartsâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Artsa, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-raq": {
+    "strongs": 778,
+    "original_word": "אֲרַק",
+    "transliteration": "ʼăraq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the earth",
+      "hu": ""
+    }
+  },
+  "sw-rar": {
+    "strongs": 779,
+    "original_word": "אָרַר",
+    "transliteration": "ʼârar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to execrate",
+      "hu": ""
+    }
+  },
+  "sw-rra": {
+    "strongs": 780,
+    "original_word": "אֲרָרַט",
+    "transliteration": "ʼĂrâraṭ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ararat (or rather Armenia)",
+      "hu": ""
+    }
+  },
+  "sw-ras": {
+    "strongs": 781,
+    "original_word": "אָרַשׂ",
+    "transliteration": "ʼâras",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to engage for matrimony",
+      "hu": ""
+    }
+  },
+  "sw-resheth": {
+    "strongs": 782,
+    "original_word": "אֲרֶשֶׁת",
+    "transliteration": "ʼăresheth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a longing for",
+      "hu": ""
+    }
+  },
+  "sw-artachshasht": {
+    "strongs": 783,
+    "original_word": "אַרְתַּחְשַׁשְׁתָּא",
+    "transliteration": "ʼArtachshashtâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Artachshasta (or Artaxerxes), a title (rather than name) of several Persian kings",
+      "hu": ""
+    }
+  },
+  "sw-sh": {
+    "strongs": 784,
+    "original_word": "אֵשׁ",
+    "transliteration": "ʼêsh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "fire (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-sh-785": {
+    "strongs": 785,
+    "original_word": "אֵשׁ",
+    "transliteration": "ʼêsh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{fire (literally or figuratively)}",
+      "hu": ""
+    }
+  },
+  "sw-ish": {
+    "strongs": 786,
+    "original_word": "אִשׁ",
+    "transliteration": "ʼish",
+    "language": "Hebrew",
+    "definition": {
+      "en": "entity, used only adverbially, there is or are",
+      "hu": ""
+    }
+  },
+  "sw-sh-787": {
+    "strongs": 787,
+    "original_word": "אֹשׁ",
+    "transliteration": "ʼôsh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a foundation",
+      "hu": ""
+    }
+  },
+  "sw-ashbl": {
+    "strongs": 788,
+    "original_word": "אַשְׁבֵּל",
+    "transliteration": "ʼAshbêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ashbel, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-ashbly": {
+    "strongs": 789,
+    "original_word": "אַשְׁבֵּלִי",
+    "transliteration": "ʼAshbêlîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an Ashbelite (collectively) or descendant of Ashbel",
+      "hu": ""
+    }
+  },
+  "sw-eshbn": {
+    "strongs": 790,
+    "original_word": "אֶשְׁבָּן",
+    "transliteration": "ʼEshbân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Eshban, an Idumaean",
+      "hu": ""
+    }
+  },
+  "sw-ashba": {
+    "strongs": 791,
+    "original_word": "אַשְׁבֵּעַ",
+    "transliteration": "ʼAshbêaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Asbea, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-eshbaal": {
+    "strongs": 792,
+    "original_word": "אֶשְׁבַּעַל",
+    "transliteration": "ʼEshbaʻal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Eshbaal (or Ishbosheth), a son of Saul",
+      "hu": ""
+    }
+  },
+  "sw-eshed": {
+    "strongs": 793,
+    "original_word": "אֶשֶׁד",
+    "transliteration": "ʼeshed",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an outpouring",
+      "hu": ""
+    }
+  },
+  "sw-shdh": {
+    "strongs": 794,
+    "original_word": "אֲשֵׁדָה",
+    "transliteration": "ʼăshêdâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a ravine",
+      "hu": ""
+    }
+  },
+  "sw-ashdwd": {
+    "strongs": 795,
+    "original_word": "אַשְׁדּוֹד",
+    "transliteration": "ʼAshdôwd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ashdod, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-ashdwdy": {
+    "strongs": 796,
+    "original_word": "אַשְׁדּוֹדִי",
+    "transliteration": "ʼAshdôwdîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an Ashdodite (often collectively) or inhabitant of Asdod",
+      "hu": ""
+    }
+  },
+  "sw-ashdwdyth": {
+    "strongs": 797,
+    "original_word": "אַשְׁדּוֹדִית",
+    "transliteration": "ʼAshdôwdîyth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "(only adverb) in the language of Ashdod",
+      "hu": ""
+    }
+  },
+  "sw-ashdwthhappigh": {
+    "strongs": 798,
+    "original_word": "אַשְׁדּוֹת הַפִּסְגָּה",
+    "transliteration": "ʼAshdôwth hap-Piçgâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ashdoth-Pisgah, a place east of the Jordan",
+      "hu": ""
+    }
+  },
+  "sw-eshdth": {
+    "strongs": 799,
+    "original_word": "אֶשְׁדָּת",
+    "transliteration": "ʼeshdâth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a fire-law",
+      "hu": ""
+    }
+  },
+  "sw-eshshh": {
+    "strongs": 800,
+    "original_word": "אֶשָּׁה",
+    "transliteration": "ʼeshshâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "fire",
+      "hu": ""
+    }
+  }
+}

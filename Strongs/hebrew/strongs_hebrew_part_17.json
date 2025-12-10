@@ -1,0 +1,4002 @@
+{
+  "sw-pilch": {
+    "strongs": 6401,
+    "original_word": "פִּלְחָא",
+    "transliteration": "Pilchâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Pilcha, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-polchn": {
+    "strongs": 6402,
+    "original_word": "פׇּלְחָן",
+    "transliteration": "polchân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "worship",
+      "hu": ""
+    }
+  },
+  "sw-pla": {
+    "strongs": 6403,
+    "original_word": "פָּלַט",
+    "transliteration": "pâlaṭ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to slip out, i.e. escape; causatively, to deliver",
+      "hu": ""
+    }
+  },
+  "sw-pele-6404": {
+    "strongs": 6404,
+    "original_word": "פֶּלֶט",
+    "transliteration": "Peleṭ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Pelet, the name of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-pall": {
+    "strongs": 6405,
+    "original_word": "פַּלֵּט",
+    "transliteration": "pallêṭ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "escape",
+      "hu": ""
+    }
+  },
+  "sw-paly": {
+    "strongs": 6406,
+    "original_word": "פַּלְטִי",
+    "transliteration": "Palṭîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Palti, the name of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-paly-6407": {
+    "strongs": 6407,
+    "original_word": "פַּלְטִי",
+    "transliteration": "Palṭîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Paltite or descendant of Palti",
+      "hu": ""
+    }
+  },
+  "sw-pilay": {
+    "strongs": 6408,
+    "original_word": "פִּלְטַי",
+    "transliteration": "Pilṭay",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Piltai, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-palyl": {
+    "strongs": 6409,
+    "original_word": "פַּלְטִיאֵל",
+    "transliteration": "Palṭîyʼêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Paltiel, the name of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-playh": {
+    "strongs": 6410,
+    "original_word": "פְּלַטְיָה",
+    "transliteration": "Pᵉlaṭyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Pelatjah, the name of four Israelites",
+      "hu": ""
+    }
+  },
+  "sw-plyh": {
+    "strongs": 6411,
+    "original_word": "פְּלָיָה",
+    "transliteration": "Pᵉlâyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Pelajah, the name of three Israelites",
+      "hu": ""
+    }
+  },
+  "sw-ply": {
+    "strongs": 6412,
+    "original_word": "פָּלִיט",
+    "transliteration": "pâlîyṭ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a refugee",
+      "hu": ""
+    }
+  },
+  "sw-plyh-6413": {
+    "strongs": 6413,
+    "original_word": "פְּלֵיטָה",
+    "transliteration": "pᵉlêyṭâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "deliverance; concretely, an escaped portion",
+      "hu": ""
+    }
+  },
+  "sw-plyl": {
+    "strongs": 6414,
+    "original_word": "פָּלִיל",
+    "transliteration": "pâlîyl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a magistrate",
+      "hu": ""
+    }
+  },
+  "sw-plylh": {
+    "strongs": 6415,
+    "original_word": "פְּלִילָה",
+    "transliteration": "pᵉlîylâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "justice",
+      "hu": ""
+    }
+  },
+  "sw-plyly": {
+    "strongs": 6416,
+    "original_word": "פְּלִילִי",
+    "transliteration": "pᵉlîylîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "judicial",
+      "hu": ""
+    }
+  },
+  "sw-plylyh": {
+    "strongs": 6417,
+    "original_word": "פְּלִילִיָּה",
+    "transliteration": "pᵉlîylîyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "judicature",
+      "hu": ""
+    }
+  },
+  "sw-pelek": {
+    "strongs": 6418,
+    "original_word": "פֶּלֶךְ",
+    "transliteration": "pelek",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a circuit (i.e. district); also a spindle (as whirled); hence, a crutch",
+      "hu": ""
+    }
+  },
+  "sw-plal": {
+    "strongs": 6419,
+    "original_word": "פָּלַל",
+    "transliteration": "pâlal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to judge (officially or mentally); by extension, to intercede, pray",
+      "hu": ""
+    }
+  },
+  "sw-pll": {
+    "strongs": 6420,
+    "original_word": "פָּלָל",
+    "transliteration": "Pâlâl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Palal, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-plalyh": {
+    "strongs": 6421,
+    "original_word": "פְּלַלְיָה",
+    "transliteration": "Pᵉlalyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Pelaljah, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-palmwny": {
+    "strongs": 6422,
+    "original_word": "פַּלְמוֹנִי",
+    "transliteration": "palmôwnîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a certain one, i.e. so-and-so",
+      "hu": ""
+    }
+  },
+  "sw-plny": {
+    "strongs": 6423,
+    "original_word": "פְּלֹנִי",
+    "transliteration": "pᵉlônîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "such a one, i.e. a specified person",
+      "hu": ""
+    }
+  },
+  "sw-pla-6424": {
+    "strongs": 6424,
+    "original_word": "פָּלַס",
+    "transliteration": "pâlaç",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, to roll flat, i.e. prepare (a road); also to revolve, i.e. weigh (mentally)",
+      "hu": ""
+    }
+  },
+  "sw-pele-6425": {
+    "strongs": 6425,
+    "original_word": "פֶּלֶס",
+    "transliteration": "peleç",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a balance",
+      "hu": ""
+    }
+  },
+  "sw-plats": {
+    "strongs": 6426,
+    "original_word": "פָּלַץ",
+    "transliteration": "pâlats",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, perhaps to rend, i.e. (by implication) to quiver",
+      "hu": ""
+    }
+  },
+  "sw-palltswth": {
+    "strongs": 6427,
+    "original_word": "פַּלָּצוּת",
+    "transliteration": "pallâtsûwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "affright",
+      "hu": ""
+    }
+  },
+  "sw-plash": {
+    "strongs": 6428,
+    "original_word": "פָּלַשׁ",
+    "transliteration": "pâlash",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to roll (in dust)",
+      "hu": ""
+    }
+  },
+  "sw-plesheth": {
+    "strongs": 6429,
+    "original_word": "פְּלֶשֶׁת",
+    "transliteration": "Pᵉlesheth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Pelesheth, a region of Syria",
+      "hu": ""
+    }
+  },
+  "sw-plishty": {
+    "strongs": 6430,
+    "original_word": "פְּלִשְׁתִּי",
+    "transliteration": "Pᵉlishtîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Pelishtite or inhabitant of Pelesheth",
+      "hu": ""
+    }
+  },
+  "sw-peleth": {
+    "strongs": 6431,
+    "original_word": "פֶּלֶת",
+    "transliteration": "Peleth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Peleth, the name of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-plthy": {
+    "strongs": 6432,
+    "original_word": "פְּלֵתִי",
+    "transliteration": "Pᵉlêthîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a courier (collectively) or official messenger",
+      "hu": ""
+    }
+  },
+  "sw-pum": {
+    "strongs": 6433,
+    "original_word": "פֻּם",
+    "transliteration": "pum",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the mouth (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-pn": {
+    "strongs": 6434,
+    "original_word": "פֵּן",
+    "transliteration": "pên",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an angle (of a street or wall)",
+      "hu": ""
+    }
+  },
+  "sw-pn-6435": {
+    "strongs": 6435,
+    "original_word": "פֵּן",
+    "transliteration": "pên",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, removal; used only (in the construction) adverb as conjunction, lest",
+      "hu": ""
+    }
+  },
+  "sw-pannag": {
+    "strongs": 6436,
+    "original_word": "פַּנַּג",
+    "transliteration": "pannag",
+    "language": "Hebrew",
+    "definition": {
+      "en": "probably pastry",
+      "hu": ""
+    }
+  },
+  "sw-pnh": {
+    "strongs": 6437,
+    "original_word": "פָּנָה",
+    "transliteration": "pânâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to turn; by implication, to face, i.e. appear, look, etc.",
+      "hu": ""
+    }
+  },
+  "sw-pinnh": {
+    "strongs": 6438,
+    "original_word": "פִּנָּה",
+    "transliteration": "pinnâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an angle; by implication, a pinnacle; figuratively, a chieftain",
+      "hu": ""
+    }
+  },
+  "sw-pnwl": {
+    "strongs": 6439,
+    "original_word": "פְּנוּאֵל",
+    "transliteration": "Pᵉnûwʼêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Penuel or Peniel, a place East of Jordan; also (as Penuel) the name of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-pnym": {
+    "strongs": 6440,
+    "original_word": "פָּנִים",
+    "transliteration": "pânîym",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the face (as the part that turns); used in a great variety of applications (literally and figuratively); also (with prepositional prefix) as a preposition (before, etc.)",
+      "hu": ""
+    }
+  },
+  "sw-pnymh": {
+    "strongs": 6441,
+    "original_word": "פְּנִימָה",
+    "transliteration": "pᵉnîymâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "faceward, i.e. indoors",
+      "hu": ""
+    }
+  },
+  "sw-pnymy": {
+    "strongs": 6442,
+    "original_word": "פְּנִימִי",
+    "transliteration": "pᵉnîymîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "interior",
+      "hu": ""
+    }
+  },
+  "sw-pnyn": {
+    "strongs": 6443,
+    "original_word": "פָּנִין",
+    "transliteration": "pânîyn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "probably a pearl (as round)",
+      "hu": ""
+    }
+  },
+  "sw-pninnh": {
+    "strongs": 6444,
+    "original_word": "פְּנִנָּה",
+    "transliteration": "Pᵉninnâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Peninnah, an Israelitess",
+      "hu": ""
+    }
+  },
+  "sw-pnaq": {
+    "strongs": 6445,
+    "original_word": "פָּנַק",
+    "transliteration": "pânaq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to enervate",
+      "hu": ""
+    }
+  },
+  "sw-pa": {
+    "strongs": 6446,
+    "original_word": "פַּס",
+    "transliteration": "paç",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a long and sleeved tunic (perhaps simply a wide one; from the original sense of the root, i.e. of many breadths)",
+      "hu": ""
+    }
+  },
+  "sw-pa-6447": {
+    "strongs": 6447,
+    "original_word": "פַּס",
+    "transliteration": "paç",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the palm (of the hand, as being spread out)",
+      "hu": ""
+    }
+  },
+  "sw-pag-6448": {
+    "strongs": 6448,
+    "original_word": "פָּסַג",
+    "transliteration": "pâçag",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to cut up, i.e. (figuratively) contemplate",
+      "hu": ""
+    }
+  },
+  "sw-pigh": {
+    "strongs": 6449,
+    "original_word": "פִּסְגָּה",
+    "transliteration": "Piçgâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Pisgah, a Mountain East of Jordan",
+      "hu": ""
+    }
+  },
+  "sw-padammym": {
+    "strongs": 6450,
+    "original_word": "פַּס דַּמִּים",
+    "transliteration": "Paç Dammîym",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Pas-Dammim, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-pih": {
+    "strongs": 6451,
+    "original_word": "פִּסָּה",
+    "transliteration": "piççâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "expansion, i.e. abundance",
+      "hu": ""
+    }
+  },
+  "sw-pach-6452": {
+    "strongs": 6452,
+    "original_word": "פָּסַח",
+    "transliteration": "pâçach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to hop, i.e. (figuratively) skip over (or spare); by implication, to hesitate; also (literally) to limp, to dance",
+      "hu": ""
+    }
+  },
+  "sw-peach": {
+    "strongs": 6453,
+    "original_word": "פֶּסַח",
+    "transliteration": "peçach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a pretermission, i.e. exemption; used only techically of the Jewish Passover (the festival or the victim)",
+      "hu": ""
+    }
+  },
+  "sw-pach-6454": {
+    "strongs": 6454,
+    "original_word": "פָּסֵחַ",
+    "transliteration": "Pâçêach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Paseach, the name of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-piach": {
+    "strongs": 6455,
+    "original_word": "פִּסֵּחַ",
+    "transliteration": "piççêach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "lame",
+      "hu": ""
+    }
+  },
+  "sw-pyl": {
+    "strongs": 6456,
+    "original_word": "פְּסִיל",
+    "transliteration": "pᵉçîyl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an idol",
+      "hu": ""
+    }
+  },
+  "sw-pak-6457": {
+    "strongs": 6457,
+    "original_word": "פָּסַךְ",
+    "transliteration": "Pâçak",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Pasak, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-pal": {
+    "strongs": 6458,
+    "original_word": "פָּסַל",
+    "transliteration": "pâçal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to carve, whether wood or stone",
+      "hu": ""
+    }
+  },
+  "sw-peel": {
+    "strongs": 6459,
+    "original_word": "פֶּסֶל",
+    "transliteration": "peçel",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an idol",
+      "hu": ""
+    }
+  },
+  "sw-panryn": {
+    "strongs": 6460,
+    "original_word": "פְּסַנְטֵרִין",
+    "transliteration": "pᵉçanṭêrîyn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "psalterion; a lyre",
+      "hu": ""
+    }
+  },
+  "sw-pa-6461": {
+    "strongs": 6461,
+    "original_word": "פָּסַס",
+    "transliteration": "pâçaç",
+    "language": "Hebrew",
+    "definition": {
+      "en": "probably to disperse, i.e. (intransitive) disappear",
+      "hu": ""
+    }
+  },
+  "sw-piph": {
+    "strongs": 6462,
+    "original_word": "פִּסְפָּה",
+    "transliteration": "Piçpâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Pispah, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-ph-6463": {
+    "strongs": 6463,
+    "original_word": "פָּעָה",
+    "transliteration": "pâʻâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to scream",
+      "hu": ""
+    }
+  },
+  "sw-pw-6464": {
+    "strongs": 6464,
+    "original_word": "פָּעוּ",
+    "transliteration": "Pâʻûw",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Pau or Pai, a place in Edom",
+      "hu": ""
+    }
+  },
+  "sw-pwr-6465": {
+    "strongs": 6465,
+    "original_word": "פְּעוֹר",
+    "transliteration": "Pᵉʻôwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Peor, a mountain East of Jordan; Baal Peor,  (for a deity worshipped there",
+      "hu": ""
+    }
+  },
+  "sw-pal-6466": {
+    "strongs": 6466,
+    "original_word": "פָּעַל",
+    "transliteration": "pâʻal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to do or make (systematically and habitually), especially to practise",
+      "hu": ""
+    }
+  },
+  "sw-pal-6467": {
+    "strongs": 6467,
+    "original_word": "פֹּעַל",
+    "transliteration": "pôʻal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an act or work (concretely)",
+      "hu": ""
+    }
+  },
+  "sw-pullh": {
+    "strongs": 6468,
+    "original_word": "פְּעֻלָּה",
+    "transliteration": "pᵉʻullâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "(abstractly) work",
+      "hu": ""
+    }
+  },
+  "sw-pullthay": {
+    "strongs": 6469,
+    "original_word": "פְּעֻלְּתַי",
+    "transliteration": "Pᵉʻullᵉthay",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Peullethai, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-pam": {
+    "strongs": 6470,
+    "original_word": "פָּעַם",
+    "transliteration": "pâʻam",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to tap, i.e. beat regularly; hence (generally) to impel or agitate",
+      "hu": ""
+    }
+  },
+  "sw-paam": {
+    "strongs": 6471,
+    "original_word": "פַּעַם",
+    "transliteration": "paʻam",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a stroke, literally or figuratively (in various applications, as follow)",
+      "hu": ""
+    }
+  },
+  "sw-pamn": {
+    "strongs": 6472,
+    "original_word": "פַּעֲמֹן",
+    "transliteration": "paʻămôn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a bell (as struck)",
+      "hu": ""
+    }
+  },
+  "sw-par-6473": {
+    "strongs": 6473,
+    "original_word": "פָּעַר",
+    "transliteration": "pâʻar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to yawn, i.e. open wide (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-paray": {
+    "strongs": 6474,
+    "original_word": "פַּעֲרַי",
+    "transliteration": "Paʻăray",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Paarai, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-ptsh": {
+    "strongs": 6475,
+    "original_word": "פָּצָה",
+    "transliteration": "pâtsâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to rend, i.e. open (especially the mouth)",
+      "hu": ""
+    }
+  },
+  "sw-ptsach": {
+    "strongs": 6476,
+    "original_word": "פָּצַח",
+    "transliteration": "pâtsach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to break out (in joyful sound)",
+      "hu": ""
+    }
+  },
+  "sw-ptsyrh": {
+    "strongs": 6477,
+    "original_word": "פְּצִירָה",
+    "transliteration": "pᵉtsîyrâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "bluntness",
+      "hu": ""
+    }
+  },
+  "sw-ptsal": {
+    "strongs": 6478,
+    "original_word": "פָּצַל",
+    "transliteration": "pâtsal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to peel",
+      "hu": ""
+    }
+  },
+  "sw-ptslh": {
+    "strongs": 6479,
+    "original_word": "פְּצָלָה",
+    "transliteration": "pᵉtsâlâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a peeling",
+      "hu": ""
+    }
+  },
+  "sw-ptsam": {
+    "strongs": 6480,
+    "original_word": "פָּצַם",
+    "transliteration": "pâtsam",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to rend (by earthquake)",
+      "hu": ""
+    }
+  },
+  "sw-ptsa": {
+    "strongs": 6481,
+    "original_word": "פָּצַע",
+    "transliteration": "pâtsaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to split, i.e. wound",
+      "hu": ""
+    }
+  },
+  "sw-petsa": {
+    "strongs": 6482,
+    "original_word": "פֶּצַע",
+    "transliteration": "petsaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a wound",
+      "hu": ""
+    }
+  },
+  "sw-pitststs": {
+    "strongs": 6483,
+    "original_word": "פִּצֵּץ",
+    "transliteration": "Pitstsêts",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Pitstsets, a priest",
+      "hu": ""
+    }
+  },
+  "sw-ptsar": {
+    "strongs": 6484,
+    "original_word": "פָּצַר",
+    "transliteration": "pâtsar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to peck at, i.e. (figuratively) stun or dull",
+      "hu": ""
+    }
+  },
+  "sw-pqad": {
+    "strongs": 6485,
+    "original_word": "פָּקַד",
+    "transliteration": "pâqad",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to visit (with friendly or hostile intent); by analogy, to oversee, muster, charge, care for, miss, deposit, etc.",
+      "hu": ""
+    }
+  },
+  "sw-pquddh": {
+    "strongs": 6486,
+    "original_word": "פְּקֻדָּה",
+    "transliteration": "pᵉquddâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "visitation (in many senses, chiefly official)",
+      "hu": ""
+    }
+  },
+  "sw-piqqdwn": {
+    "strongs": 6487,
+    "original_word": "פִּקָּדוֹן",
+    "transliteration": "piqqâdôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a deposit",
+      "hu": ""
+    }
+  },
+  "sw-pqiduth": {
+    "strongs": 6488,
+    "original_word": "פְּקִדֻת",
+    "transliteration": "pᵉqiduth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "supervision",
+      "hu": ""
+    }
+  },
+  "sw-pqwd": {
+    "strongs": 6489,
+    "original_word": "פְּקוֹד",
+    "transliteration": "Pᵉqôwd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Pekod, a symbolic name for Babylon",
+      "hu": ""
+    }
+  },
+  "sw-piqqwd": {
+    "strongs": 6490,
+    "original_word": "פִּקּוּד",
+    "transliteration": "piqqûwd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, appointed, i.e. a mandate (of God; plural only, collectively, for the Law)",
+      "hu": ""
+    }
+  },
+  "sw-pqach": {
+    "strongs": 6491,
+    "original_word": "פָּקַח",
+    "transliteration": "pâqach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to open (the senses, especially the eyes); figuratively, to be observant",
+      "hu": ""
+    }
+  },
+  "sw-peqach": {
+    "strongs": 6492,
+    "original_word": "פֶּקַח",
+    "transliteration": "Peqach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Pekach, an Israelite king",
+      "hu": ""
+    }
+  },
+  "sw-piqqach": {
+    "strongs": 6493,
+    "original_word": "פִּקֵּחַ",
+    "transliteration": "piqqêach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "clear-sighted; figuratively, intelligent",
+      "hu": ""
+    }
+  },
+  "sw-pqachyh": {
+    "strongs": 6494,
+    "original_word": "פְּקַחְיָה",
+    "transliteration": "Pᵉqachyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Pekachjah, an Israelite king",
+      "hu": ""
+    }
+  },
+  "sw-pqachqwach": {
+    "strongs": 6495,
+    "original_word": "פְּקַח־קוֹחַ",
+    "transliteration": "pᵉqach-qôwach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "opening (of a dungeon), i.e. jail-delivery (figuratively, salvation for sin)",
+      "hu": ""
+    }
+  },
+  "sw-pqyd": {
+    "strongs": 6496,
+    "original_word": "פָּקִיד",
+    "transliteration": "pâqîyd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a superintendent (civil, military or religious)",
+      "hu": ""
+    }
+  },
+  "sw-peqa": {
+    "strongs": 6497,
+    "original_word": "פֶּקַע",
+    "transliteration": "peqaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a semi-globe",
+      "hu": ""
+    }
+  },
+  "sw-paqquh": {
+    "strongs": 6498,
+    "original_word": "פַּקֻּעָה",
+    "transliteration": "paqquʻâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the wild cucumber (from splitting open to shed its seeds)",
+      "hu": ""
+    }
+  },
+  "sw-par-6499": {
+    "strongs": 6499,
+    "original_word": "פַּר",
+    "transliteration": "par",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a bullock (apparently as breaking forth in wild strength, or perhaps as dividing the hoof)",
+      "hu": ""
+    }
+  },
+  "sw-pr-6500": {
+    "strongs": 6500,
+    "original_word": "פָּרָא",
+    "transliteration": "pârâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to bear fruit",
+      "hu": ""
+    }
+  },
+  "sw-pere": {
+    "strongs": 6501,
+    "original_word": "פֶּרֶא",
+    "transliteration": "pereʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the onager",
+      "hu": ""
+    }
+  },
+  "sw-pirm": {
+    "strongs": 6502,
+    "original_word": "פִּרְאָם",
+    "transliteration": "Pirʼâm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Piram, a Canaanite",
+      "hu": ""
+    }
+  },
+  "sw-parbr": {
+    "strongs": 6503,
+    "original_word": "פַּרְבָּר",
+    "transliteration": "Parbâr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Parbar or Parvar, a quarter of Jerusalem",
+      "hu": ""
+    }
+  },
+  "sw-prad": {
+    "strongs": 6504,
+    "original_word": "פָּרַד",
+    "transliteration": "pârad",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to break through, i.e. spread or separate (oneself)",
+      "hu": ""
+    }
+  },
+  "sw-pered": {
+    "strongs": 6505,
+    "original_word": "פֶּרֶד",
+    "transliteration": "pered",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a mule (perhaps from his lonely habits)",
+      "hu": ""
+    }
+  },
+  "sw-pirdh": {
+    "strongs": 6506,
+    "original_word": "פִּרְדָּה",
+    "transliteration": "pirdâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a she-mule",
+      "hu": ""
+    }
+  },
+  "sw-prudh": {
+    "strongs": 6507,
+    "original_word": "פְּרֻדָה",
+    "transliteration": "pᵉrudâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something separated, i.e. a kernel",
+      "hu": ""
+    }
+  },
+  "sw-pard": {
+    "strongs": 6508,
+    "original_word": "פַּרְדֵּס",
+    "transliteration": "pardêç",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a park",
+      "hu": ""
+    }
+  },
+  "sw-prh-6509": {
+    "strongs": 6509,
+    "original_word": "פָּרָה",
+    "transliteration": "pârâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to bear fruit (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-prh-6510": {
+    "strongs": 6510,
+    "original_word": "פָּרָה",
+    "transliteration": "pârâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a heifer",
+      "hu": ""
+    }
+  },
+  "sw-prh-6511": {
+    "strongs": 6511,
+    "original_word": "פָּרָה",
+    "transliteration": "Pârâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Parah, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-prh-6512": {
+    "strongs": 6512,
+    "original_word": "פֵּרָה",
+    "transliteration": "pêrâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a hole (as broken, i.e. dug)",
+      "hu": ""
+    }
+  },
+  "sw-purh": {
+    "strongs": 6513,
+    "original_word": "פֻּרָה",
+    "transliteration": "Purâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Purah, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-prwd": {
+    "strongs": 6514,
+    "original_word": "פְּרוּדָא",
+    "transliteration": "Pᵉrûwdâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Peruda or Perida, one of 'Solomon's servants'",
+      "hu": ""
+    }
+  },
+  "sw-prwach": {
+    "strongs": 6515,
+    "original_word": "פָּרוּחַ",
+    "transliteration": "Pârûwach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Paruach, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-parvayim": {
+    "strongs": 6516,
+    "original_word": "פַּרְוַיִם",
+    "transliteration": "Parvayim",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Parvajim, an Oriental region",
+      "hu": ""
+    }
+  },
+  "sw-prwr-6517": {
+    "strongs": 6517,
+    "original_word": "פָּרוּר",
+    "transliteration": "pârûwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a skillet (as flat or deep)",
+      "hu": ""
+    }
+  },
+  "sw-prz": {
+    "strongs": 6518,
+    "original_word": "פָּרָז",
+    "transliteration": "pârâz",
+    "language": "Hebrew",
+    "definition": {
+      "en": "decide; a chieftain",
+      "hu": ""
+    }
+  },
+  "sw-przh": {
+    "strongs": 6519,
+    "original_word": "פְּרָזָה",
+    "transliteration": "pᵉrâzâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an open country",
+      "hu": ""
+    }
+  },
+  "sw-przwn": {
+    "strongs": 6520,
+    "original_word": "פְּרָזוֹן",
+    "transliteration": "pᵉrâzôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "magistracy, i.e. leadership (also concretely, chieftains)",
+      "hu": ""
+    }
+  },
+  "sw-przy": {
+    "strongs": 6521,
+    "original_word": "פְּרָזִי",
+    "transliteration": "pᵉrâzîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a rustic",
+      "hu": ""
+    }
+  },
+  "sw-prizzy": {
+    "strongs": 6522,
+    "original_word": "פְּרִזִּי",
+    "transliteration": "Pᵉrizzîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Perizzite, one of the Canaanitish tribes",
+      "hu": ""
+    }
+  },
+  "sw-parzel": {
+    "strongs": 6523,
+    "original_word": "פַּרְזֶל",
+    "transliteration": "parzel",
+    "language": "Hebrew",
+    "definition": {
+      "en": "iron",
+      "hu": ""
+    }
+  },
+  "sw-prach": {
+    "strongs": 6524,
+    "original_word": "פָּרַח",
+    "transliteration": "pârach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to break forth as a bud, i.e. bloom; generally, to spread; specifically, to fly (as extending the wings); figuratively, to flourish",
+      "hu": ""
+    }
+  },
+  "sw-perach": {
+    "strongs": 6525,
+    "original_word": "פֶּרַח",
+    "transliteration": "perach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a calyx (natural or artificial); generally, bloom",
+      "hu": ""
+    }
+  },
+  "sw-pirchach": {
+    "strongs": 6526,
+    "original_word": "פִּרְחַח",
+    "transliteration": "pirchach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "progeny, i.e. a brood",
+      "hu": ""
+    }
+  },
+  "sw-pra": {
+    "strongs": 6527,
+    "original_word": "פָּרַט",
+    "transliteration": "pâraṭ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to scatter words, i.e. prate (or hum)",
+      "hu": ""
+    }
+  },
+  "sw-pere-6528": {
+    "strongs": 6528,
+    "original_word": "פֶּרֶט",
+    "transliteration": "pereṭ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a stray or single berry",
+      "hu": ""
+    }
+  },
+  "sw-pry": {
+    "strongs": 6529,
+    "original_word": "פְּרִי",
+    "transliteration": "pᵉrîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "fruit (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-pryts": {
+    "strongs": 6530,
+    "original_word": "פְּרִיץ",
+    "transliteration": "pᵉrîyts",
+    "language": "Hebrew",
+    "definition": {
+      "en": "violent, i.e. a tyrant",
+      "hu": ""
+    }
+  },
+  "sw-perek": {
+    "strongs": 6531,
+    "original_word": "פֶּרֶךְ",
+    "transliteration": "perek",
+    "language": "Hebrew",
+    "definition": {
+      "en": "fracture, i.e. severity",
+      "hu": ""
+    }
+  },
+  "sw-preketh": {
+    "strongs": 6532,
+    "original_word": "פֹּרֶכֶת",
+    "transliteration": "pôreketh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a separatrix, i.e. (the sacred) screen",
+      "hu": ""
+    }
+  },
+  "sw-pram": {
+    "strongs": 6533,
+    "original_word": "פָּרַם",
+    "transliteration": "pâram",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to tear",
+      "hu": ""
+    }
+  },
+  "sw-parmasht": {
+    "strongs": 6534,
+    "original_word": "פַּרְמַשְׁתָּא",
+    "transliteration": "Parmashtâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Parmashta, a son of Haman",
+      "hu": ""
+    }
+  },
+  "sw-parnak": {
+    "strongs": 6535,
+    "original_word": "פַּרְנַךְ",
+    "transliteration": "Parnak",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Parnak, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-pra-6536": {
+    "strongs": 6536,
+    "original_word": "פָּרַס",
+    "transliteration": "pâraç",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to break in pieces, i.e. (usually without violence) to split, distribute",
+      "hu": ""
+    }
+  },
+  "sw-pra-6537": {
+    "strongs": 6537,
+    "original_word": "פְּרַס",
+    "transliteration": "pᵉraç",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to split up",
+      "hu": ""
+    }
+  },
+  "sw-pere-6538": {
+    "strongs": 6538,
+    "original_word": "פֶּרֶס",
+    "transliteration": "pereç",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a claw; also a kind of eagle",
+      "hu": ""
+    }
+  },
+  "sw-pra-6539": {
+    "strongs": 6539,
+    "original_word": "פָּרַס",
+    "transliteration": "Pâraç",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Paras (i.e. Persia), an Eastern country, including its inhabitants",
+      "hu": ""
+    }
+  },
+  "sw-pra-6540": {
+    "strongs": 6540,
+    "original_word": "פָּרַס",
+    "transliteration": "Pâraç",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{Paras (i.e. Persia), an Eastern country, including its inhabitants}",
+      "hu": ""
+    }
+  },
+  "sw-parh": {
+    "strongs": 6541,
+    "original_word": "פַּרְסָה",
+    "transliteration": "parçâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a claw or split hoof",
+      "hu": ""
+    }
+  },
+  "sw-pary": {
+    "strongs": 6542,
+    "original_word": "פַּרְסִי",
+    "transliteration": "Parçîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Parsite (i.e. Persian), or inhabitant of Peres",
+      "hu": ""
+    }
+  },
+  "sw-pary-6543": {
+    "strongs": 6543,
+    "original_word": "פַּרְסִי",
+    "transliteration": "Parçîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{a Parsite (i.e. Persian), or inhabitant of Peres}",
+      "hu": ""
+    }
+  },
+  "sw-pra-6544": {
+    "strongs": 6544,
+    "original_word": "פָּרַע",
+    "transliteration": "pâraʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to loosen; by implication, to expose, dismiss; figuratively, absolve, begin",
+      "hu": ""
+    }
+  },
+  "sw-pera": {
+    "strongs": 6545,
+    "original_word": "פֶּרַע",
+    "transliteration": "peraʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the hair (as dishevelled)",
+      "hu": ""
+    }
+  },
+  "sw-parh-6546": {
+    "strongs": 6546,
+    "original_word": "פַּרְעָה",
+    "transliteration": "parʻâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "leadership (plural concretely, leaders)",
+      "hu": ""
+    }
+  },
+  "sw-parh-6547": {
+    "strongs": 6547,
+    "original_word": "פַּרְעֹה",
+    "transliteration": "Parʻôh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Paroh, a general title of Egyptian kings",
+      "hu": ""
+    }
+  },
+  "sw-parhchophra": {
+    "strongs": 6548,
+    "original_word": "פַּרְעֹה חׇפְרַע",
+    "transliteration": "Parʻôh Chophraʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Paroh-Chophra, an Egyptian king",
+      "hu": ""
+    }
+  },
+  "sw-parhnkh": {
+    "strongs": 6549,
+    "original_word": "פַּרְעֹה נְכֹה",
+    "transliteration": "Parʻôh Nᵉkôh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Paroh-Nekoh (or -Neko), an Egyptian king",
+      "hu": ""
+    }
+  },
+  "sw-parsh": {
+    "strongs": 6550,
+    "original_word": "פַּרְעֹשׁ",
+    "transliteration": "parʻôsh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a flea (as the isolated insect)",
+      "hu": ""
+    }
+  },
+  "sw-parsh-6551": {
+    "strongs": 6551,
+    "original_word": "פַּרְעֹשׁ",
+    "transliteration": "Parʻôsh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Parosh, the name of our Israelite",
+      "hu": ""
+    }
+  },
+  "sw-pirthwn": {
+    "strongs": 6552,
+    "original_word": "פִּרְעָתוֹן",
+    "transliteration": "Pirʻâthôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Pirathon, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-pirthwny": {
+    "strongs": 6553,
+    "original_word": "פִּרְעָתוֹנִי",
+    "transliteration": "Pirʻâthôwnîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Pirathonite or inhabitant of Pirathon",
+      "hu": ""
+    }
+  },
+  "sw-parpar": {
+    "strongs": 6554,
+    "original_word": "פַּרְפַּר",
+    "transliteration": "Parpar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Parpar, a river of Syria",
+      "hu": ""
+    }
+  },
+  "sw-prats": {
+    "strongs": 6555,
+    "original_word": "פָּרַץ",
+    "transliteration": "pârats",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to break out (in many applications, direct and indirect, literal and figurative)",
+      "hu": ""
+    }
+  },
+  "sw-perets": {
+    "strongs": 6556,
+    "original_word": "פֶּרֶץ",
+    "transliteration": "perets",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a break (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-perets-6557": {
+    "strongs": 6557,
+    "original_word": "פֶּרֶץ",
+    "transliteration": "Perets",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Perets, the name of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-partsy": {
+    "strongs": 6558,
+    "original_word": "פַּרְצִי",
+    "transliteration": "Partsîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Partsite (collectively) or descendants of Perets",
+      "hu": ""
+    }
+  },
+  "sw-prtsym": {
+    "strongs": 6559,
+    "original_word": "פְּרָצִים",
+    "transliteration": "pᵉrâtsîym",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Peratsim, a mountain in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-peretsuzz": {
+    "strongs": 6560,
+    "original_word": "פֶּרֶץ עֻזָּא",
+    "transliteration": "Perets ʻUzzâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Perets-Uzza, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-praq": {
+    "strongs": 6561,
+    "original_word": "פָּרַק",
+    "transliteration": "pâraq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to break off or crunch; figuratively, to deliver",
+      "hu": ""
+    }
+  },
+  "sw-praq-6562": {
+    "strongs": 6562,
+    "original_word": "פְּרַק",
+    "transliteration": "pᵉraq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to discontinue",
+      "hu": ""
+    }
+  },
+  "sw-pereq": {
+    "strongs": 6563,
+    "original_word": "פֶּרֶק",
+    "transliteration": "pereq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "rapine; also a fork (in roads)",
+      "hu": ""
+    }
+  },
+  "sw-prq": {
+    "strongs": 6564,
+    "original_word": "פָּרָק",
+    "transliteration": "pârâq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "soup (as full of crumbed meat)",
+      "hu": ""
+    }
+  },
+  "sw-prar": {
+    "strongs": 6565,
+    "original_word": "פָּרַר",
+    "transliteration": "pârar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to break up (usually figuratively), i.e. to violate, frustrate",
+      "hu": ""
+    }
+  },
+  "sw-pras": {
+    "strongs": 6566,
+    "original_word": "פָּרַשׂ",
+    "transliteration": "pâras",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to break apart, disperse, etc.",
+      "hu": ""
+    }
+  },
+  "sw-prsh": {
+    "strongs": 6567,
+    "original_word": "פָּרָשׁ",
+    "transliteration": "pârâsh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to separate, literally (to disperse) or figuratively (to specify); also (by implication) to wound",
+      "hu": ""
+    }
+  },
+  "sw-prash": {
+    "strongs": 6568,
+    "original_word": "פְּרַשׁ",
+    "transliteration": "pᵉrash",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to specify",
+      "hu": ""
+    }
+  },
+  "sw-peresh": {
+    "strongs": 6569,
+    "original_word": "פֶּרֶשׁ",
+    "transliteration": "peresh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "excrement (as eliminated)",
+      "hu": ""
+    }
+  },
+  "sw-peresh-6570": {
+    "strongs": 6570,
+    "original_word": "פֶּרֶשׁ",
+    "transliteration": "Peresh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Peresh, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-prsh-6571": {
+    "strongs": 6571,
+    "original_word": "פָּרָשׁ",
+    "transliteration": "pârâsh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a steed (as stretched out to a vehicle, not single nor for mounting ); also (by implication) a driver (in a chariot), i.e. (collectively) cavalry",
+      "hu": ""
+    }
+  },
+  "sw-parshegen": {
+    "strongs": 6572,
+    "original_word": "פַּרְשֶׁגֶן",
+    "transliteration": "parshegen",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a transcript",
+      "hu": ""
+    }
+  },
+  "sw-parshegen-6573": {
+    "strongs": 6573,
+    "original_word": "פַּרְשֶׁגֶן",
+    "transliteration": "parshegen",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{a transcript}",
+      "hu": ""
+    }
+  },
+  "sw-parshdn": {
+    "strongs": 6574,
+    "original_word": "פַּרְשְׁדֹן",
+    "transliteration": "parshᵉdôn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the crotch (or anus)",
+      "hu": ""
+    }
+  },
+  "sw-prshh": {
+    "strongs": 6575,
+    "original_word": "פָּרָשָׁה",
+    "transliteration": "pârâshâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "exposition",
+      "hu": ""
+    }
+  },
+  "sw-parshz": {
+    "strongs": 6576,
+    "original_word": "פַּרְשֵׁז",
+    "transliteration": "parshêz",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to expand",
+      "hu": ""
+    }
+  },
+  "sw-parshandth": {
+    "strongs": 6577,
+    "original_word": "פַּרְשַׁנְדָּתָא",
+    "transliteration": "Parshandâthâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Parshandatha, a son of Haman",
+      "hu": ""
+    }
+  },
+  "sw-prth": {
+    "strongs": 6578,
+    "original_word": "פְּרָת",
+    "transliteration": "Pᵉrâth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Perath (i.e. Euphrates), a river of the East",
+      "hu": ""
+    }
+  },
+  "sw-partam": {
+    "strongs": 6579,
+    "original_word": "פַּרְתַּם",
+    "transliteration": "partam",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a grandee",
+      "hu": ""
+    }
+  },
+  "sw-pash": {
+    "strongs": 6580,
+    "original_word": "פַּשׁ",
+    "transliteration": "pash",
+    "language": "Hebrew",
+    "definition": {
+      "en": "stupidity (as a result of grossness or of degeneracy)",
+      "hu": ""
+    }
+  },
+  "sw-psh": {
+    "strongs": 6581,
+    "original_word": "פָּשָׂה",
+    "transliteration": "pâsâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to spread",
+      "hu": ""
+    }
+  },
+  "sw-pshach": {
+    "strongs": 6582,
+    "original_word": "פָּשַׁח",
+    "transliteration": "pâshach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to tear in pieces",
+      "hu": ""
+    }
+  },
+  "sw-pashchwr": {
+    "strongs": 6583,
+    "original_word": "פַּשְׁחוּר",
+    "transliteration": "Pashchûwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Pashchur, the name of four Israelites",
+      "hu": ""
+    }
+  },
+  "sw-psha": {
+    "strongs": 6584,
+    "original_word": "פָּשַׁט",
+    "transliteration": "pâshaṭ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to spread out (i.e. deploy in hostile array); by analogy, to strip (i.e. unclothe, plunder, flay, etc.)",
+      "hu": ""
+    }
+  },
+  "sw-psa": {
+    "strongs": 6585,
+    "original_word": "פָּשַׂע",
+    "transliteration": "pâsaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to stride (from spreading the legs), i.e. rush upon",
+      "hu": ""
+    }
+  },
+  "sw-psha-6586": {
+    "strongs": 6586,
+    "original_word": "פָּשַׁע",
+    "transliteration": "pâshaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to break away (from just authority), i.e. trespass, apostatize, quarrel",
+      "hu": ""
+    }
+  },
+  "sw-pesa": {
+    "strongs": 6587,
+    "original_word": "פֶּשַׂע",
+    "transliteration": "pesaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a stride",
+      "hu": ""
+    }
+  },
+  "sw-pesha": {
+    "strongs": 6588,
+    "original_word": "פֶּשַׁע",
+    "transliteration": "peshaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a revolt (national, moral or religious)",
+      "hu": ""
+    }
+  },
+  "sw-psaq": {
+    "strongs": 6589,
+    "original_word": "פָּשַׂק",
+    "transliteration": "pâsaq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to dispart (the feet or lips), i.e. become licentious",
+      "hu": ""
+    }
+  },
+  "sw-pshar": {
+    "strongs": 6590,
+    "original_word": "פְּשַׁר",
+    "transliteration": "pᵉshar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to interpret",
+      "hu": ""
+    }
+  },
+  "sw-pshar-6591": {
+    "strongs": 6591,
+    "original_word": "פְּשַׁר",
+    "transliteration": "pᵉshar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an interpretation",
+      "hu": ""
+    }
+  },
+  "sw-psher": {
+    "strongs": 6592,
+    "original_word": "פֵּשֶׁר",
+    "transliteration": "pêsher",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{an interpretation}",
+      "hu": ""
+    }
+  },
+  "sw-pishteh": {
+    "strongs": 6593,
+    "original_word": "פִּשְׁתֶּה",
+    "transliteration": "pishteh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "linen (i.e. the thread, as carded)",
+      "hu": ""
+    }
+  },
+  "sw-pishth": {
+    "strongs": 6594,
+    "original_word": "פִּשְׁתָּה",
+    "transliteration": "pishtâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "flax; by implication, a wick",
+      "hu": ""
+    }
+  },
+  "sw-path": {
+    "strongs": 6595,
+    "original_word": "פַּת",
+    "transliteration": "path",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a bit",
+      "hu": ""
+    }
+  },
+  "sw-pth": {
+    "strongs": 6596,
+    "original_word": "פֹּת",
+    "transliteration": "pôth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a hole, i.e. hinge or the female pudenda",
+      "hu": ""
+    }
+  },
+  "sw-pithwm": {
+    "strongs": 6597,
+    "original_word": "פִּתְאוֹם",
+    "transliteration": "pithʼôwm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "instantly",
+      "hu": ""
+    }
+  },
+  "sw-pathbag": {
+    "strongs": 6598,
+    "original_word": "פַּתְבַּג",
+    "transliteration": "pathbag",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a dainty",
+      "hu": ""
+    }
+  },
+  "sw-pithgm": {
+    "strongs": 6599,
+    "original_word": "פִּתְגָּם",
+    "transliteration": "pithgâm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a (judicial) sentence",
+      "hu": ""
+    }
+  },
+  "sw-pithgm-6600": {
+    "strongs": 6600,
+    "original_word": "פִּתְגָּם",
+    "transliteration": "pithgâm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a word, answer, letter or decree",
+      "hu": ""
+    }
+  },
+  "sw-pthh": {
+    "strongs": 6601,
+    "original_word": "פָּתָה",
+    "transliteration": "pâthâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to open, i.e. be (causatively, make) roomy; usually figuratively (in a mental or moral sense) to be (causatively, make) simple or (in a sinister way) delude",
+      "hu": ""
+    }
+  },
+  "sw-pthwl": {
+    "strongs": 6602,
+    "original_word": "פְּתוּאֵל",
+    "transliteration": "Pᵉthûwʼêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Pethuel, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-pittwach": {
+    "strongs": 6603,
+    "original_word": "פִּתּוּחַ",
+    "transliteration": "pittûwach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "sculpture (in low or high relief or even intaglio)",
+      "hu": ""
+    }
+  },
+  "sw-pthwr": {
+    "strongs": 6604,
+    "original_word": "פְּתוֹר",
+    "transliteration": "Pᵉthôwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Pethor, a place in Mesopotamia",
+      "hu": ""
+    }
+  },
+  "sw-pthach": {
+    "strongs": 6605,
+    "original_word": "פָּתַח",
+    "transliteration": "pâthach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to open wide (literally or figuratively); specifically, to loosen, begin, plough, carve",
+      "hu": ""
+    }
+  },
+  "sw-pthach-6606": {
+    "strongs": 6606,
+    "original_word": "פְּתַח",
+    "transliteration": "pᵉthach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to open",
+      "hu": ""
+    }
+  },
+  "sw-pethach": {
+    "strongs": 6607,
+    "original_word": "פֶּתַח",
+    "transliteration": "pethach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an opening (literally), i.e. door (gate) or entrance way",
+      "hu": ""
+    }
+  },
+  "sw-pthach-6608": {
+    "strongs": 6608,
+    "original_word": "פֵּתַח",
+    "transliteration": "pêthach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "opening (figuratively) i.e. disclosure",
+      "hu": ""
+    }
+  },
+  "sw-pthichh": {
+    "strongs": 6609,
+    "original_word": "פְּתִחָה",
+    "transliteration": "pᵉthichâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something opened, i.e. a drawn sword",
+      "hu": ""
+    }
+  },
+  "sw-pithchwn": {
+    "strongs": 6610,
+    "original_word": "פִּתְחוֹן",
+    "transliteration": "pithchôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "opening (the act)",
+      "hu": ""
+    }
+  },
+  "sw-pthachyh": {
+    "strongs": 6611,
+    "original_word": "פְּתַחְיָה",
+    "transliteration": "Pᵉthachyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Pethachjah, the name of four Israelites",
+      "hu": ""
+    }
+  },
+  "sw-pthy": {
+    "strongs": 6612,
+    "original_word": "פְּתִי",
+    "transliteration": "pᵉthîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "silly (i.e. seducible)",
+      "hu": ""
+    }
+  },
+  "sw-pthay": {
+    "strongs": 6613,
+    "original_word": "פְּתַי",
+    "transliteration": "pᵉthay",
+    "language": "Hebrew",
+    "definition": {
+      "en": "open, i.e. (as noun) width",
+      "hu": ""
+    }
+  },
+  "sw-pthygyl": {
+    "strongs": 6614,
+    "original_word": "פְּתִיגִיל",
+    "transliteration": "pᵉthîygîyl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "probably a figured mantle forholidays",
+      "hu": ""
+    }
+  },
+  "sw-pthaywth": {
+    "strongs": 6615,
+    "original_word": "פְּתַיּוּת",
+    "transliteration": "pᵉthayûwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "silliness (i.e. seducibility)",
+      "hu": ""
+    }
+  },
+  "sw-pthyl": {
+    "strongs": 6616,
+    "original_word": "פָּתִיל",
+    "transliteration": "pâthîyl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "twine",
+      "hu": ""
+    }
+  },
+  "sw-pthal": {
+    "strongs": 6617,
+    "original_word": "פָּתַל",
+    "transliteration": "pâthal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to twine, i.e. (literally) to struggle or (figuratively) be (morally) tortuous",
+      "hu": ""
+    }
+  },
+  "sw-pthaltl": {
+    "strongs": 6618,
+    "original_word": "פְּתַלְתֹּל",
+    "transliteration": "pᵉthaltôl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "tortuous (i.e. crafty)",
+      "hu": ""
+    }
+  },
+  "sw-pithm": {
+    "strongs": 6619,
+    "original_word": "פִּתֹם",
+    "transliteration": "Pithôm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Pithom, a place in Egypt",
+      "hu": ""
+    }
+  },
+  "sw-pethen": {
+    "strongs": 6620,
+    "original_word": "פֶּתֶן",
+    "transliteration": "pethen",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an asp (from its contortions)",
+      "hu": ""
+    }
+  },
+  "sw-petha": {
+    "strongs": 6621,
+    "original_word": "פֶּתַע",
+    "transliteration": "pethaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a wink, i.e. moment(used only (with or without preposition) adverbially, quickly or unexpectedly",
+      "hu": ""
+    }
+  },
+  "sw-pthar": {
+    "strongs": 6622,
+    "original_word": "פָּתַר",
+    "transliteration": "pâthar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to open up, i.e. (figuratively) interpret (a dream)",
+      "hu": ""
+    }
+  },
+  "sw-pithrwn": {
+    "strongs": 6623,
+    "original_word": "פִּתְרוֹן",
+    "transliteration": "pithrôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "interpretation (of a dream)",
+      "hu": ""
+    }
+  },
+  "sw-pathrw": {
+    "strongs": 6624,
+    "original_word": "פַּתְרוֹס",
+    "transliteration": "Pathrôwç",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Pathros, a part of Egypt",
+      "hu": ""
+    }
+  },
+  "sw-pathruy": {
+    "strongs": 6625,
+    "original_word": "פַּתְרֻסִי",
+    "transliteration": "Pathruçîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Pathrusite, or inhabitant of Pathros",
+      "hu": ""
+    }
+  },
+  "sw-pthath": {
+    "strongs": 6626,
+    "original_word": "פָּתַת",
+    "transliteration": "pâthath",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to open, i.e. break",
+      "hu": ""
+    }
+  },
+  "sw-tsh-6627": {
+    "strongs": 6627,
+    "original_word": "צָאָה",
+    "transliteration": "tsâʼâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "issue, i.e. (human) excrement",
+      "hu": ""
+    }
+  },
+  "sw-tseel": {
+    "strongs": 6628,
+    "original_word": "צֶאֶל",
+    "transliteration": "tseʼel",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the lotus tree",
+      "hu": ""
+    }
+  },
+  "sw-tsn": {
+    "strongs": 6629,
+    "original_word": "צֹאן",
+    "transliteration": "tsôʼn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a collective name for a flock (of sheep or goats); also figuratively (of men)",
+      "hu": ""
+    }
+  },
+  "sw-tsann": {
+    "strongs": 6630,
+    "original_word": "צַאֲנָן",
+    "transliteration": "Tsaʼănân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Zaanan, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-tsets": {
+    "strongs": 6631,
+    "original_word": "צֶאֱצָא",
+    "transliteration": "tseʼĕtsâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "issue, i.e. produce, children",
+      "hu": ""
+    }
+  },
+  "sw-tsb-6632": {
+    "strongs": 6632,
+    "original_word": "צָב",
+    "transliteration": "tsâb",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a palanquin or canopy (as a fixture); also a species of lizard (probably as clinging fast)",
+      "hu": ""
+    }
+  },
+  "sw-tsb-6633": {
+    "strongs": 6633,
+    "original_word": "צָבָא",
+    "transliteration": "tsâbâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to mass (an army or servants)",
+      "hu": ""
+    }
+  },
+  "sw-tsb-6634": {
+    "strongs": 6634,
+    "original_word": "צְבָא",
+    "transliteration": "tsᵉbâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to please",
+      "hu": ""
+    }
+  },
+  "sw-tsb-6635": {
+    "strongs": 6635,
+    "original_word": "צָבָא",
+    "transliteration": "tsâbâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a mass of persons (or figuratively, things), especially reg. organized forwar (an army); by implication, a campaign, literally or figuratively (specifically, hardship, worship)",
+      "hu": ""
+    }
+  },
+  "sw-tsbym": {
+    "strongs": 6636,
+    "original_word": "צְבֹאִים",
+    "transliteration": "Tsᵉbôʼîym",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tseboim or Tsebijim, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-tsbbh": {
+    "strongs": 6637,
+    "original_word": "צֹבֵבָה",
+    "transliteration": "Tsôbêbâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tsobebah, an Israelitess",
+      "hu": ""
+    }
+  },
+  "sw-tsbh": {
+    "strongs": 6638,
+    "original_word": "צָבָה",
+    "transliteration": "tsâbâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to amass, i.e. grow turgid; specifically, to array an army against",
+      "hu": ""
+    }
+  },
+  "sw-tsbeh": {
+    "strongs": 6639,
+    "original_word": "צָבֶה",
+    "transliteration": "tsâbeh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "turgid",
+      "hu": ""
+    }
+  },
+  "sw-tsbw": {
+    "strongs": 6640,
+    "original_word": "צְבוּ",
+    "transliteration": "tsᵉbûw",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, will; concretely, an affair (as a matter of determination)",
+      "hu": ""
+    }
+  },
+  "sw-tsbwa": {
+    "strongs": 6641,
+    "original_word": "צָבוּעַ",
+    "transliteration": "tsâbûwaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "dyed (in stripes), i.e. the hyena",
+      "hu": ""
+    }
+  },
+  "sw-tsba": {
+    "strongs": 6642,
+    "original_word": "צָבַט",
+    "transliteration": "tsâbaṭ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to grasp, i.e. hand out",
+      "hu": ""
+    }
+  },
+  "sw-tsby": {
+    "strongs": 6643,
+    "original_word": "צְבִי",
+    "transliteration": "tsᵉbîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "splendor (as conspicuous); also a gazelle (as beautiful)",
+      "hu": ""
+    }
+  },
+  "sw-tsiby": {
+    "strongs": 6644,
+    "original_word": "צִבְיָא",
+    "transliteration": "Tsibyâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tsibja, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-tsibyh": {
+    "strongs": 6645,
+    "original_word": "צִבְיָּה",
+    "transliteration": "Tsibyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tsibjah, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-tsbyh": {
+    "strongs": 6646,
+    "original_word": "צְבִיָּה",
+    "transliteration": "tsᵉbîyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a female gazelle",
+      "hu": ""
+    }
+  },
+  "sw-tsba-6647": {
+    "strongs": 6647,
+    "original_word": "צְבַע",
+    "transliteration": "tsᵉbaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to dip",
+      "hu": ""
+    }
+  },
+  "sw-tseba": {
+    "strongs": 6648,
+    "original_word": "צֶבַע",
+    "transliteration": "tsebaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a dye",
+      "hu": ""
+    }
+  },
+  "sw-tsibwn": {
+    "strongs": 6649,
+    "original_word": "צִבְעוֹן",
+    "transliteration": "Tsibʻôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tsibon, an Idumaean",
+      "hu": ""
+    }
+  },
+  "sw-tsbym-6650": {
+    "strongs": 6650,
+    "original_word": "צְבֹעִים",
+    "transliteration": "Tsᵉbôʻîym",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tseboim, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-tsbar": {
+    "strongs": 6651,
+    "original_word": "צָבַר",
+    "transliteration": "tsâbar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to aggregate",
+      "hu": ""
+    }
+  },
+  "sw-tsibbur": {
+    "strongs": 6652,
+    "original_word": "צִבֻּר",
+    "transliteration": "tsibbur",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a pile",
+      "hu": ""
+    }
+  },
+  "sw-tsebeth": {
+    "strongs": 6653,
+    "original_word": "צֶבֶת",
+    "transliteration": "tsebeth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a lock of stalks",
+      "hu": ""
+    }
+  },
+  "sw-tsad": {
+    "strongs": 6654,
+    "original_word": "צַד",
+    "transliteration": "tsad",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a side; figuratively, an adversary",
+      "hu": ""
+    }
+  },
+  "sw-tsad-6655": {
+    "strongs": 6655,
+    "original_word": "צַד",
+    "transliteration": "tsad",
+    "language": "Hebrew",
+    "definition": {
+      "en": "used adverbially (with preposition) at or upon the side of",
+      "hu": ""
+    }
+  },
+  "sw-tsd": {
+    "strongs": 6656,
+    "original_word": "צְדָא",
+    "transliteration": "tsᵉdâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a (sinister) design",
+      "hu": ""
+    }
+  },
+  "sw-tsdd": {
+    "strongs": 6657,
+    "original_word": "צְדָד",
+    "transliteration": "Tsᵉdâd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tsedad, a place near Palestine",
+      "hu": ""
+    }
+  },
+  "sw-tsdh": {
+    "strongs": 6658,
+    "original_word": "צָדָה",
+    "transliteration": "tsâdâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to chase; by implication, to desolate",
+      "hu": ""
+    }
+  },
+  "sw-tsdwq": {
+    "strongs": 6659,
+    "original_word": "צָדוֹק",
+    "transliteration": "Tsâdôwq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tsadok, the name of eight or nine Israelites",
+      "hu": ""
+    }
+  },
+  "sw-tsdyh": {
+    "strongs": 6660,
+    "original_word": "צְדִיָּה",
+    "transliteration": "tsᵉdîyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "design",
+      "hu": ""
+    }
+  },
+  "sw-tsiddym": {
+    "strongs": 6661,
+    "original_word": "צִדִּים",
+    "transliteration": "Tsiddîym",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tsiddim (with the article), a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-tsaddyq": {
+    "strongs": 6662,
+    "original_word": "צַדִּיק",
+    "transliteration": "tsaddîyq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "just",
+      "hu": ""
+    }
+  },
+  "sw-tsdaq": {
+    "strongs": 6663,
+    "original_word": "צָדַק",
+    "transliteration": "tsâdaq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to be (causatively, make) right (in a moral or forensic sense)",
+      "hu": ""
+    }
+  },
+  "sw-tsedeq": {
+    "strongs": 6664,
+    "original_word": "צֶדֶק",
+    "transliteration": "tsedeq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the right (natural, moral or legal); also (abstractly) equity or (figuratively) prosperity",
+      "hu": ""
+    }
+  },
+  "sw-tsidqh": {
+    "strongs": 6665,
+    "original_word": "צִדְקָה",
+    "transliteration": "tsidqâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "beneficence",
+      "hu": ""
+    }
+  },
+  "sw-tsdqh": {
+    "strongs": 6666,
+    "original_word": "צְדָקָה",
+    "transliteration": "tsᵉdâqâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "rightness (abstractly), subjectively (rectitude), objectively (justice), morally (virtue) or figuratively (prosperity)",
+      "hu": ""
+    }
+  },
+  "sw-tsidqyh": {
+    "strongs": 6667,
+    "original_word": "צִדְקִיָּה",
+    "transliteration": "Tsidqîyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tsidkijah, the name of six Israelites",
+      "hu": ""
+    }
+  },
+  "sw-tshab": {
+    "strongs": 6668,
+    "original_word": "צָהַב",
+    "transliteration": "tsâhab",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to glitter, i.e. be golden in color",
+      "hu": ""
+    }
+  },
+  "sw-tshb": {
+    "strongs": 6669,
+    "original_word": "צָהֹב",
+    "transliteration": "tsâhôb",
+    "language": "Hebrew",
+    "definition": {
+      "en": "golden in color",
+      "hu": ""
+    }
+  },
+  "sw-tshal": {
+    "strongs": 6670,
+    "original_word": "צָהַל",
+    "transliteration": "tsâhal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to gleam, i.e. (figuratively) be cheerful; by transference to sound clear (of various animal or human expressions)",
+      "hu": ""
+    }
+  },
+  "sw-tshar": {
+    "strongs": 6671,
+    "original_word": "צָהַר",
+    "transliteration": "tsâhar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to press out oil",
+      "hu": ""
+    }
+  },
+  "sw-tshar-6672": {
+    "strongs": 6672,
+    "original_word": "צֹהַר",
+    "transliteration": "tsôhar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a light (i.e. window); dual double light, i.e. noon",
+      "hu": ""
+    }
+  },
+  "sw-tsav": {
+    "strongs": 6673,
+    "original_word": "צַו",
+    "transliteration": "tsav",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an injunction",
+      "hu": ""
+    }
+  },
+  "sw-tsw": {
+    "strongs": 6674,
+    "original_word": "צוֹא",
+    "transliteration": "tsôwʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "soiled (as if excrementitious)",
+      "hu": ""
+    }
+  },
+  "sw-tswh": {
+    "strongs": 6675,
+    "original_word": "צוֹאָה",
+    "transliteration": "tsôwʼâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "excrement; generally, dirt; figuratively, pollution",
+      "hu": ""
+    }
+  },
+  "sw-tsavvar": {
+    "strongs": 6676,
+    "original_word": "צַוַּאר",
+    "transliteration": "tsavvaʼr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{the back of the neck (as that on which burdens are bound)}",
+      "hu": ""
+    }
+  },
+  "sw-tsavvr": {
+    "strongs": 6677,
+    "original_word": "צַוָּאר",
+    "transliteration": "tsavvâʼr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the back of the neck (as that on which burdens are bound)",
+      "hu": ""
+    }
+  },
+  "sw-tswb": {
+    "strongs": 6678,
+    "original_word": "צוֹבָא",
+    "transliteration": "Tsôwbâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Zoba or Zobah, a region of Syria",
+      "hu": ""
+    }
+  },
+  "sw-tswd": {
+    "strongs": 6679,
+    "original_word": "צוּד",
+    "transliteration": "tsûwd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to lie alongside (i.e. in wait); by implication, to catch an animal (figuratively, men); to victual (for a journey)",
+      "hu": ""
+    }
+  },
+  "sw-tsvh": {
+    "strongs": 6680,
+    "original_word": "צָוָה",
+    "transliteration": "tsâvâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "(intensively) to constitute, enjoin",
+      "hu": ""
+    }
+  },
+  "sw-tsvach": {
+    "strongs": 6681,
+    "original_word": "צָוַח",
+    "transliteration": "tsâvach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to screech (exultingly)",
+      "hu": ""
+    }
+  },
+  "sw-tsvchh": {
+    "strongs": 6682,
+    "original_word": "צְוָחָה",
+    "transliteration": "tsᵉvâchâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a screech (of anguish)",
+      "hu": ""
+    }
+  },
+  "sw-tswlh": {
+    "strongs": 6683,
+    "original_word": "צוּלָה",
+    "transliteration": "tsûwlâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an abyss (of the sea)",
+      "hu": ""
+    }
+  },
+  "sw-tswm-6684": {
+    "strongs": 6684,
+    "original_word": "צוּם",
+    "transliteration": "tsûwm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to cover over (the mouth), i.e. to fast",
+      "hu": ""
+    }
+  },
+  "sw-tswm-6685": {
+    "strongs": 6685,
+    "original_word": "צוֹם",
+    "transliteration": "tsôwm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a fast",
+      "hu": ""
+    }
+  },
+  "sw-tswr": {
+    "strongs": 6686,
+    "original_word": "צוּעָר",
+    "transliteration": "Tsûwʻâr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tsuar, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-tswph": {
+    "strongs": 6687,
+    "original_word": "צוּף",
+    "transliteration": "tsûwph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to overflow",
+      "hu": ""
+    }
+  },
+  "sw-tswph-6688": {
+    "strongs": 6688,
+    "original_word": "צוּף",
+    "transliteration": "tsûwph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "comb of honey (from dripping)",
+      "hu": ""
+    }
+  },
+  "sw-tswph-6689": {
+    "strongs": 6689,
+    "original_word": "צוּף",
+    "transliteration": "Tsûwph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tsuph or Tsophai or Tsiph, the name of an Israelite and of a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-tswphach": {
+    "strongs": 6690,
+    "original_word": "צוֹפַח",
+    "transliteration": "Tsôwphach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tsophach, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-tswphar": {
+    "strongs": 6691,
+    "original_word": "צוֹפַר",
+    "transliteration": "Tsôwphar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tsophar, a friend of Job",
+      "hu": ""
+    }
+  },
+  "sw-tswts": {
+    "strongs": 6692,
+    "original_word": "צוּץ",
+    "transliteration": "tsûwts",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to twinkle, i.e. glance; by analogy, to blossom (figuratively, flourish)",
+      "hu": ""
+    }
+  },
+  "sw-tswq": {
+    "strongs": 6693,
+    "original_word": "צוּק",
+    "transliteration": "tsûwq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to compress, i.e. (figuratively) oppress, distress",
+      "hu": ""
+    }
+  },
+  "sw-tswq-6694": {
+    "strongs": 6694,
+    "original_word": "צוּק",
+    "transliteration": "tsûwq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to pour out, i.e. (figuratively) smelt, utter",
+      "hu": ""
+    }
+  },
+  "sw-tswq-6695": {
+    "strongs": 6695,
+    "original_word": "צוֹק",
+    "transliteration": "tsôwq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a strait, i.e. (figuratively) distress",
+      "hu": ""
+    }
+  },
+  "sw-tswr-6696": {
+    "strongs": 6696,
+    "original_word": "צוּר",
+    "transliteration": "tsûwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to cramp, i.e. confine (in many applications, literally and figuratively, formative or hostile)",
+      "hu": ""
+    }
+  },
+  "sw-tswr-6697": {
+    "strongs": 6697,
+    "original_word": "צוּר",
+    "transliteration": "tsûwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, a cliff (or sharp rock, as compressed); generally, a rock or boulder; figuratively, a refuge; also an edge (as precipitous)",
+      "hu": ""
+    }
+  },
+  "sw-tswr-6698": {
+    "strongs": 6698,
+    "original_word": "צוּר",
+    "transliteration": "Tsûwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tsur, the name of a Midianite and of an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-tswrh": {
+    "strongs": 6699,
+    "original_word": "צוּרָה",
+    "transliteration": "tsûwrâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a rock (Job 28:10); also a form (as if pressed out)",
+      "hu": ""
+    }
+  },
+  "sw-tswryl": {
+    "strongs": 6700,
+    "original_word": "צוּרִיאֵל",
+    "transliteration": "Tsûwrîyʼêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tsuriel, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-tswryshadday": {
+    "strongs": 6701,
+    "original_word": "צוּרִישַׁדַּי",
+    "transliteration": "Tsûwrîyshadday",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tsurishaddai, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-tswth": {
+    "strongs": 6702,
+    "original_word": "צוּת",
+    "transliteration": "tsûwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to blaze",
+      "hu": ""
+    }
+  },
+  "sw-tsach": {
+    "strongs": 6703,
+    "original_word": "צַח",
+    "transliteration": "tsach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "dazzling, i.e. sunny, bright, (figuratively) evident",
+      "hu": ""
+    }
+  },
+  "sw-tsicheh": {
+    "strongs": 6704,
+    "original_word": "צִחֶה",
+    "transliteration": "tsicheh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "parched",
+      "hu": ""
+    }
+  },
+  "sw-tschach": {
+    "strongs": 6705,
+    "original_word": "צָחַח",
+    "transliteration": "tsâchach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to glare, i.e. be dazzling white",
+      "hu": ""
+    }
+  },
+  "sw-tschyach": {
+    "strongs": 6706,
+    "original_word": "צְחִיחַ",
+    "transliteration": "tsᵉchîyach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "glaring, i.e. exposed to the bright sun",
+      "hu": ""
+    }
+  },
+  "sw-tschychh": {
+    "strongs": 6707,
+    "original_word": "צְחִיחָה",
+    "transliteration": "tsᵉchîychâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a parched region, i.e. the desert",
+      "hu": ""
+    }
+  },
+  "sw-tschychy": {
+    "strongs": 6708,
+    "original_word": "צְחִיחִי",
+    "transliteration": "tsᵉchîychîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "bare spot, i.e. in the glaring sun",
+      "hu": ""
+    }
+  },
+  "sw-tsachnh": {
+    "strongs": 6709,
+    "original_word": "צַחֲנָה",
+    "transliteration": "tsachănâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "stench",
+      "hu": ""
+    }
+  },
+  "sw-tsachtschh": {
+    "strongs": 6710,
+    "original_word": "צַחְצָחָה",
+    "transliteration": "tsachtsâchâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a dry place, i.e. desert",
+      "hu": ""
+    }
+  },
+  "sw-tschaq": {
+    "strongs": 6711,
+    "original_word": "צָחַק",
+    "transliteration": "tsâchaq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to laugh outright (in merriment or scorn); by implication, to sport",
+      "hu": ""
+    }
+  },
+  "sw-tschq": {
+    "strongs": 6712,
+    "original_word": "צְחֹק",
+    "transliteration": "tsᵉchôq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "laughter (in pleasure or derision)",
+      "hu": ""
+    }
+  },
+  "sw-tsachar": {
+    "strongs": 6713,
+    "original_word": "צַחַר",
+    "transliteration": "tsachar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "sheen, i.e. whiteness",
+      "hu": ""
+    }
+  },
+  "sw-tschar": {
+    "strongs": 6714,
+    "original_word": "צֹחַר",
+    "transliteration": "Tsôchar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tsochar, the name of a Hittite and of an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-tschr": {
+    "strongs": 6715,
+    "original_word": "צָחֹר",
+    "transliteration": "tsâchôr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "white",
+      "hu": ""
+    }
+  },
+  "sw-tsy": {
+    "strongs": 6716,
+    "original_word": "צִי",
+    "transliteration": "tsîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a ship (as a fixture)",
+      "hu": ""
+    }
+  },
+  "sw-tsyb": {
+    "strongs": 6717,
+    "original_word": "צִיבָא",
+    "transliteration": "Tsîybâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tsiba, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-tsayid": {
+    "strongs": 6718,
+    "original_word": "צַיִד",
+    "transliteration": "tsayid",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the chase; also game (thus taken); (generally) lunch (especially for a journey)",
+      "hu": ""
+    }
+  },
+  "sw-tsayd": {
+    "strongs": 6719,
+    "original_word": "צַיָּד",
+    "transliteration": "tsayâd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a huntsman",
+      "hu": ""
+    }
+  },
+  "sw-tsydh": {
+    "strongs": 6720,
+    "original_word": "צֵידָה",
+    "transliteration": "tsêydâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "food",
+      "hu": ""
+    }
+  },
+  "sw-tsydwn": {
+    "strongs": 6721,
+    "original_word": "צִידוֹן",
+    "transliteration": "Tsîydôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tsidon, the name of a son of Canaan, and of a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-tsydny": {
+    "strongs": 6722,
+    "original_word": "צִידֹנִי",
+    "transliteration": "Tsîydônîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Tsidonian or inhabitant of Tsidon",
+      "hu": ""
+    }
+  },
+  "sw-tsyh": {
+    "strongs": 6723,
+    "original_word": "צִיָּה",
+    "transliteration": "tsîyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "aridity; concretely, a desert",
+      "hu": ""
+    }
+  },
+  "sw-tsywn": {
+    "strongs": 6724,
+    "original_word": "צִיוֹן",
+    "transliteration": "tsîyôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a desert",
+      "hu": ""
+    }
+  },
+  "sw-tsywn-6725": {
+    "strongs": 6725,
+    "original_word": "צִיּוּן",
+    "transliteration": "tsîyûwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a monumental or guiding pillar",
+      "hu": ""
+    }
+  },
+  "sw-tsywn-6726": {
+    "strongs": 6726,
+    "original_word": "צִיּוֹן",
+    "transliteration": "Tsîyôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tsijon (as a permanent capital), a mountain of Jerusalem",
+      "hu": ""
+    }
+  },
+  "sw-tsych": {
+    "strongs": 6727,
+    "original_word": "צִיחָא",
+    "transliteration": "Tsîychâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tsicha, the name of two Nethinim",
+      "hu": ""
+    }
+  },
+  "sw-tsyy": {
+    "strongs": 6728,
+    "original_word": "צִיִּי",
+    "transliteration": "tsîyîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a desert-dweller, i.e. nomad or wild beast",
+      "hu": ""
+    }
+  },
+  "sw-tsynq": {
+    "strongs": 6729,
+    "original_word": "צִינֹק",
+    "transliteration": "tsîynôq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the pillory",
+      "hu": ""
+    }
+  },
+  "sw-tsyr": {
+    "strongs": 6730,
+    "original_word": "צִיעֹר",
+    "transliteration": "Tsîyʻôr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tsior, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-tsyts": {
+    "strongs": 6731,
+    "original_word": "צִיץ",
+    "transliteration": "tsîyts",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, glistening, i.e. a burnished plate; also a flower (as bright-colored); a wing (as gleaming in the air)",
+      "hu": ""
+    }
+  },
+  "sw-tsyts-6732": {
+    "strongs": 6732,
+    "original_word": "צִיץ",
+    "transliteration": "Tsîyts",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tsits, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-tsytsh": {
+    "strongs": 6733,
+    "original_word": "צִיצָה",
+    "transliteration": "tsîytsâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a flower",
+      "hu": ""
+    }
+  },
+  "sw-tsytsith": {
+    "strongs": 6734,
+    "original_word": "צִיצִת",
+    "transliteration": "tsîytsith",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a floral or wing-like projection, i.e. a forelock of hair, a tassel",
+      "hu": ""
+    }
+  },
+  "sw-tsyr-6735": {
+    "strongs": 6735,
+    "original_word": "צִיר",
+    "transliteration": "tsîyr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a hinge (as pressed in turning); also a throe (as a phys. or mental pressure); also a herald or erranddoer (as constrained by the principal)",
+      "hu": ""
+    }
+  },
+  "sw-tsyr-6736": {
+    "strongs": 6736,
+    "original_word": "צִיר",
+    "transliteration": "tsîyr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a form (of beauty; as if pressed out, i.e. carved); hence, an (idolatrous) image",
+      "hu": ""
+    }
+  },
+  "sw-tsyar": {
+    "strongs": 6737,
+    "original_word": "צָיַר",
+    "transliteration": "tsâyar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to make an errand, i.e. betake oneself",
+      "hu": ""
+    }
+  },
+  "sw-tsl-6738": {
+    "strongs": 6738,
+    "original_word": "צֵל",
+    "transliteration": "tsêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "shade, whether literal or figurative",
+      "hu": ""
+    }
+  },
+  "sw-tsl-6739": {
+    "strongs": 6739,
+    "original_word": "צְלָא",
+    "transliteration": "tsᵉlâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "pray",
+      "hu": ""
+    }
+  },
+  "sw-tslh": {
+    "strongs": 6740,
+    "original_word": "צָלָה",
+    "transliteration": "tsâlâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to roast",
+      "hu": ""
+    }
+  },
+  "sw-tsillh": {
+    "strongs": 6741,
+    "original_word": "צִלָּה",
+    "transliteration": "Tsillâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tsillah, an antediluvian woman",
+      "hu": ""
+    }
+  },
+  "sw-tslwl": {
+    "strongs": 6742,
+    "original_word": "צְלוּל",
+    "transliteration": "tsᵉlûwl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a (round or flattened) cake",
+      "hu": ""
+    }
+  },
+  "sw-tslach": {
+    "strongs": 6743,
+    "original_word": "צָלַח",
+    "transliteration": "tsâlach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to push forward, in various senses (literal or figurative, transitive or intransitive)",
+      "hu": ""
+    }
+  },
+  "sw-tslach-6744": {
+    "strongs": 6744,
+    "original_word": "צְלַח",
+    "transliteration": "tsᵉlach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to advance (transitive or intransitive)",
+      "hu": ""
+    }
+  },
+  "sw-tslchh": {
+    "strongs": 6745,
+    "original_word": "צֵלָחָה",
+    "transliteration": "tsêlâchâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something protracted or flattened out, i.e. a platter",
+      "hu": ""
+    }
+  },
+  "sw-tslchyth": {
+    "strongs": 6746,
+    "original_word": "צְלֹחִית",
+    "transliteration": "tsᵉlôchîyth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something prolonged or tall, i.e. a vial or salt-cellar",
+      "hu": ""
+    }
+  },
+  "sw-tsallachath": {
+    "strongs": 6747,
+    "original_word": "צַלַּחַת",
+    "transliteration": "tsallachath",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something advanced or deep, i.e. a bowl; figuratively, the bosom",
+      "hu": ""
+    }
+  },
+  "sw-tsly": {
+    "strongs": 6748,
+    "original_word": "צָלִי",
+    "transliteration": "tsâlîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "roasted",
+      "hu": ""
+    }
+  },
+  "sw-tslal": {
+    "strongs": 6749,
+    "original_word": "צָלַל",
+    "transliteration": "tsâlal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, to tumble down, i.e. settle by awaving motion",
+      "hu": ""
+    }
+  },
+  "sw-tslal-6750": {
+    "strongs": 6750,
+    "original_word": "צָלַל",
+    "transliteration": "tsâlal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to tinkle, i.e. rattle together (as the ears in reddening with shame, or the teeth in chattering with fear)",
+      "hu": ""
+    }
+  },
+  "sw-tslal-6751": {
+    "strongs": 6751,
+    "original_word": "צָלַל",
+    "transliteration": "tsâlal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to shade, as twilight or an opaque object",
+      "hu": ""
+    }
+  },
+  "sw-tslel": {
+    "strongs": 6752,
+    "original_word": "צֵלֶל",
+    "transliteration": "tsêlel",
+    "language": "Hebrew",
+    "definition": {
+      "en": "shade",
+      "hu": ""
+    }
+  },
+  "sw-tslelpwny": {
+    "strongs": 6753,
+    "original_word": "צְלֶלְפּוֹנִי",
+    "transliteration": "Tsᵉlelpôwnîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tselelponi, an Israelitess",
+      "hu": ""
+    }
+  },
+  "sw-tselem": {
+    "strongs": 6754,
+    "original_word": "צֶלֶם",
+    "transliteration": "tselem",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a phantom, i.e. (figuratively) illusion, resemblance; hence, a representative figure, especially an idol",
+      "hu": ""
+    }
+  },
+  "sw-tselem-6755": {
+    "strongs": 6755,
+    "original_word": "צֶלֶם",
+    "transliteration": "tselem",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an idolatrous figure",
+      "hu": ""
+    }
+  },
+  "sw-tsalmwn": {
+    "strongs": 6756,
+    "original_word": "צַלְמוֹן",
+    "transliteration": "Tsalmôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tsalmon, the name of a place in Palestine and of an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-tsalmveth": {
+    "strongs": 6757,
+    "original_word": "צַלְמָוֶת",
+    "transliteration": "tsalmâveth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "shade of death, i.e. the grave (figuratively, calamity)",
+      "hu": ""
+    }
+  },
+  "sw-tsalmnh": {
+    "strongs": 6758,
+    "original_word": "צַלְמֹנָה",
+    "transliteration": "Tsalmônâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tsalmonah, a place in the Desert",
+      "hu": ""
+    }
+  },
+  "sw-tsalmunn": {
+    "strongs": 6759,
+    "original_word": "צַלְמֻנָּע",
+    "transliteration": "Tsalmunnâʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tsalmunna, a Midianite",
+      "hu": ""
+    }
+  },
+  "sw-tsla": {
+    "strongs": 6760,
+    "original_word": "צָלַע",
+    "transliteration": "tsâlaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to limp (as if one-sided)",
+      "hu": ""
+    }
+  },
+  "sw-tsela": {
+    "strongs": 6761,
+    "original_word": "צֶלַע",
+    "transliteration": "tselaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a limping or full (figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-tsela-6762": {
+    "strongs": 6762,
+    "original_word": "צֶלַע",
+    "transliteration": "Tselaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tsela, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-tsl-6763": {
+    "strongs": 6763,
+    "original_word": "צֵלָע",
+    "transliteration": "tsêlâʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a rib (as curved), literally (of the body) or figuratively (of a door, i.e. leaf); hence, a side, literally (of a person) or figuratively (of an object or the sky, i.e. quarter); architecturally, a (especially floor or ceiling) timber or plank (single or collective, i.e. a flooring)",
+      "hu": ""
+    }
+  },
+  "sw-tslph": {
+    "strongs": 6764,
+    "original_word": "צָלָף",
+    "transliteration": "Tsâlâph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tsalaph, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-tslophchd": {
+    "strongs": 6765,
+    "original_word": "צְלׇפְחָד",
+    "transliteration": "Tsᵉlophchâd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tselophchad, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-tseltsach": {
+    "strongs": 6766,
+    "original_word": "צֶלְצַח",
+    "transliteration": "Tseltsach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tseltsach, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-tsltsal": {
+    "strongs": 6767,
+    "original_word": "צְלָצַל",
+    "transliteration": "tsᵉlâtsal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a clatter, i.e. (abstractly) whirring (of wings); (concretely) a cricket; also a harpoon (as rattling), a cymbal (as clanging)",
+      "hu": ""
+    }
+  },
+  "sw-tseleq": {
+    "strongs": 6768,
+    "original_word": "צֶלֶק",
+    "transliteration": "Tseleq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tselek, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-tsillthay": {
+    "strongs": 6769,
+    "original_word": "צִלְּתַי",
+    "transliteration": "Tsillᵉthay",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tsillethai, the name of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-tsm": {
+    "strongs": 6770,
+    "original_word": "צָמֵא",
+    "transliteration": "tsâmêʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to thirst (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-tsm-6771": {
+    "strongs": 6771,
+    "original_word": "צָמֵא",
+    "transliteration": "tsâmêʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "thirsty (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-tsm-6772": {
+    "strongs": 6772,
+    "original_word": "צָמָא",
+    "transliteration": "tsâmâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "thirst (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-tsimh": {
+    "strongs": 6773,
+    "original_word": "צִמְאָה",
+    "transliteration": "tsimʼâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "thirst (figuratively, of libidinousnes)",
+      "hu": ""
+    }
+  },
+  "sw-tsimmwn": {
+    "strongs": 6774,
+    "original_word": "צִמָּאוֹן",
+    "transliteration": "tsimmâʼôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a thirsty place, i.e. desert",
+      "hu": ""
+    }
+  },
+  "sw-tsmad": {
+    "strongs": 6775,
+    "original_word": "צָמַד",
+    "transliteration": "tsâmad",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to link, i.e. gird; figuratively, to serve, (mentally) contrive",
+      "hu": ""
+    }
+  },
+  "sw-tsemed": {
+    "strongs": 6776,
+    "original_word": "צֶמֶד",
+    "transliteration": "tsemed",
+    "language": "Hebrew",
+    "definition": {
+      "en": "hence, an acre (i.e. day's task for a yoke of cattle to plough)",
+      "hu": ""
+    }
+  },
+  "sw-tsammh": {
+    "strongs": 6777,
+    "original_word": "צַמָּה",
+    "transliteration": "tsammâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a veil",
+      "hu": ""
+    }
+  },
+  "sw-tsammwq": {
+    "strongs": 6778,
+    "original_word": "צַמּוּק",
+    "transliteration": "tsammûwq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a cake of dried grapes",
+      "hu": ""
+    }
+  },
+  "sw-tsmach": {
+    "strongs": 6779,
+    "original_word": "צָמַח",
+    "transliteration": "tsâmach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to sprout (transitive or intransitive, literal or figurative)",
+      "hu": ""
+    }
+  },
+  "sw-tsemach": {
+    "strongs": 6780,
+    "original_word": "צֶמַח",
+    "transliteration": "tsemach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a sprout (usually concrete), literal or figurative",
+      "hu": ""
+    }
+  },
+  "sw-tsmyd": {
+    "strongs": 6781,
+    "original_word": "צָמִיד",
+    "transliteration": "tsâmîyd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a bracelet or arm-clasp; generally, a lid",
+      "hu": ""
+    }
+  },
+  "sw-tsammym": {
+    "strongs": 6782,
+    "original_word": "צַמִּים",
+    "transliteration": "tsammîym",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a noose (as fastening); figuratively, destruction",
+      "hu": ""
+    }
+  },
+  "sw-tsmythuth": {
+    "strongs": 6783,
+    "original_word": "צְמִיתֻת",
+    "transliteration": "tsᵉmîythuth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "excision, i.e. destruction; used only (adverbially) with prepositional prefix to extinction, i.e. perpetually",
+      "hu": ""
+    }
+  },
+  "sw-tsmaq": {
+    "strongs": 6784,
+    "original_word": "צָמַק",
+    "transliteration": "tsâmaq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to dry up",
+      "hu": ""
+    }
+  },
+  "sw-tsemer": {
+    "strongs": 6785,
+    "original_word": "צֶמֶר",
+    "transliteration": "tsemer",
+    "language": "Hebrew",
+    "definition": {
+      "en": "wool",
+      "hu": ""
+    }
+  },
+  "sw-tsmry": {
+    "strongs": 6786,
+    "original_word": "צְמָרִי",
+    "transliteration": "Tsᵉmârîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Tsemarite or branch of the Canaanites",
+      "hu": ""
+    }
+  },
+  "sw-tsmrayim": {
+    "strongs": 6787,
+    "original_word": "צְמָרַיִם",
+    "transliteration": "Tsᵉmârayim",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tsemarajim, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-tsammereth": {
+    "strongs": 6788,
+    "original_word": "צַמֶּרֶת",
+    "transliteration": "tsammereth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "fleeciness, i.e. foliage",
+      "hu": ""
+    }
+  },
+  "sw-tsmath": {
+    "strongs": 6789,
+    "original_word": "צָמַת",
+    "transliteration": "tsâmath",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to extirpate (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-tsin": {
+    "strongs": 6790,
+    "original_word": "צִן",
+    "transliteration": "Tsin",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tsin, a part of the Desert",
+      "hu": ""
+    }
+  },
+  "sw-tsn-6791": {
+    "strongs": 6791,
+    "original_word": "צֵן",
+    "transliteration": "tsên",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a thorn; hence, a cactus-hedge",
+      "hu": ""
+    }
+  },
+  "sw-tsn-6792": {
+    "strongs": 6792,
+    "original_word": "צֹנֵא",
+    "transliteration": "tsônêʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a flock",
+      "hu": ""
+    }
+  },
+  "sw-tsinnh": {
+    "strongs": 6793,
+    "original_word": "צִנָּה",
+    "transliteration": "tsinnâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a hook (as pointed); also a (large) shield (as if guarding by prickliness); also cold (as piercing)",
+      "hu": ""
+    }
+  },
+  "sw-tsinnwr": {
+    "strongs": 6794,
+    "original_word": "צִנּוּר",
+    "transliteration": "tsinnûwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a culvert",
+      "hu": ""
+    }
+  },
+  "sw-tsnach": {
+    "strongs": 6795,
+    "original_word": "צָנַח",
+    "transliteration": "tsânach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to alight; (transitive) to cause to descend, i.e. drive down",
+      "hu": ""
+    }
+  },
+  "sw-tsnyn": {
+    "strongs": 6796,
+    "original_word": "צָנִין",
+    "transliteration": "tsânîyn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a thorn",
+      "hu": ""
+    }
+  },
+  "sw-tsnyph": {
+    "strongs": 6797,
+    "original_word": "צָנִיף",
+    "transliteration": "tsânîyph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a head-dress (i.e. piece of cloth wrapped around)",
+      "hu": ""
+    }
+  },
+  "sw-tsnam": {
+    "strongs": 6798,
+    "original_word": "צָנַם",
+    "transliteration": "tsânam",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to blast or shrink",
+      "hu": ""
+    }
+  },
+  "sw-tsnn": {
+    "strongs": 6799,
+    "original_word": "צְנָן",
+    "transliteration": "Tsᵉnân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Tsenan, a place near Palestine",
+      "hu": ""
+    }
+  },
+  "sw-tsna": {
+    "strongs": 6800,
+    "original_word": "צָנַע",
+    "transliteration": "tsânaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to humiliate",
+      "hu": ""
+    }
+  }
+}

@@ -1,0 +1,4002 @@
+{
+  "sw-malky": {
+    "strongs": 4401,
+    "original_word": "מַלְאָכִי",
+    "transliteration": "Malʼâkîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Malaki, a prophet",
+      "hu": ""
+    }
+  },
+  "sw-millth": {
+    "strongs": 4402,
+    "original_word": "מִלֵּאת",
+    "transliteration": "millêʼth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "fulness, i.e. (concretely) a plump socket (of the eye)",
+      "hu": ""
+    }
+  },
+  "sw-malbwsh": {
+    "strongs": 4403,
+    "original_word": "מַלְבּוּשׁ",
+    "transliteration": "malbûwsh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a garment, or (collectively) clothing",
+      "hu": ""
+    }
+  },
+  "sw-malbn": {
+    "strongs": 4404,
+    "original_word": "מַלְבֵּן",
+    "transliteration": "malbên",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a brickkiln",
+      "hu": ""
+    }
+  },
+  "sw-millh": {
+    "strongs": 4405,
+    "original_word": "מִלָּה",
+    "transliteration": "millâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a word; collectively, a discourse; figuratively, a topic",
+      "hu": ""
+    }
+  },
+  "sw-millh-4406": {
+    "strongs": 4406,
+    "original_word": "מִלָּה",
+    "transliteration": "millâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a word, command, discourse, or subject",
+      "hu": ""
+    }
+  },
+  "sw-millw": {
+    "strongs": 4407,
+    "original_word": "מִלּוֹא",
+    "transliteration": "millôwʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a rampart (as filled in), i.e. the citadel",
+      "hu": ""
+    }
+  },
+  "sw-mallwach": {
+    "strongs": 4408,
+    "original_word": "מַלּוּחַ",
+    "transliteration": "mallûwach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "sea-purslain (from its saltness)",
+      "hu": ""
+    }
+  },
+  "sw-mallwk": {
+    "strongs": 4409,
+    "original_word": "מַלּוּךְ",
+    "transliteration": "Mallûwk",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Malluk, the name of five Israelites",
+      "hu": ""
+    }
+  },
+  "sw-mlwkh": {
+    "strongs": 4410,
+    "original_word": "מְלוּכָה",
+    "transliteration": "mᵉlûwkâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something ruled, i.e. a realm",
+      "hu": ""
+    }
+  },
+  "sw-mlwn": {
+    "strongs": 4411,
+    "original_word": "מָלוֹן",
+    "transliteration": "mâlôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a lodgment, i.e. caravanserai or encampment",
+      "hu": ""
+    }
+  },
+  "sw-mlwnh": {
+    "strongs": 4412,
+    "original_word": "מְלוּנָה",
+    "transliteration": "mᵉlûwnâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a hut, a hammock",
+      "hu": ""
+    }
+  },
+  "sw-mallwthy": {
+    "strongs": 4413,
+    "original_word": "מַלּוֹתִי",
+    "transliteration": "Mallôwthîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Mallothi, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-mlach": {
+    "strongs": 4414,
+    "original_word": "מָלַח",
+    "transliteration": "mâlach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, to rub to pieces or pulverize; intransitively, to disappear as dust; to salt whether internally (to season with salt) or externally (to rub with salt)",
+      "hu": ""
+    }
+  },
+  "sw-mlach-4415": {
+    "strongs": 4415,
+    "original_word": "מְלַח",
+    "transliteration": "mᵉlach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to eat salt, i.e. (generally) subsist",
+      "hu": ""
+    }
+  },
+  "sw-mlach-4416": {
+    "strongs": 4416,
+    "original_word": "מְלַח",
+    "transliteration": "mᵉlach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "salt",
+      "hu": ""
+    }
+  },
+  "sw-melach": {
+    "strongs": 4417,
+    "original_word": "מֶלַח",
+    "transliteration": "melach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, powder, i.e. (specifically) salt (as easily pulverized and dissolved)",
+      "hu": ""
+    }
+  },
+  "sw-mlch": {
+    "strongs": 4418,
+    "original_word": "מָלָח",
+    "transliteration": "mâlâch",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a rag or old garment",
+      "hu": ""
+    }
+  },
+  "sw-mallch": {
+    "strongs": 4419,
+    "original_word": "מַלָּח",
+    "transliteration": "mallâch",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a sailor (as following 'the salt')",
+      "hu": ""
+    }
+  },
+  "sw-mlchh": {
+    "strongs": 4420,
+    "original_word": "מְלֵחָה",
+    "transliteration": "mᵉlêchâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, salted (i.e. land), i.e. a desert",
+      "hu": ""
+    }
+  },
+  "sw-milchmh": {
+    "strongs": 4421,
+    "original_word": "מִלְחָמָה",
+    "transliteration": "milchâmâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a battle (i.e. the engagement); generally, war (i.e. warfare)",
+      "hu": ""
+    }
+  },
+  "sw-mla": {
+    "strongs": 4422,
+    "original_word": "מָלַט",
+    "transliteration": "mâlaṭ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, to be smooth, i.e. (by implication) to escape (as if by slipperiness); causatively, to release or rescue; specifically, to bring forth young, emit sparks",
+      "hu": ""
+    }
+  },
+  "sw-mele": {
+    "strongs": 4423,
+    "original_word": "מֶלֶט",
+    "transliteration": "meleṭ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "cement (from its plastic smoothness)",
+      "hu": ""
+    }
+  },
+  "sw-mlayh": {
+    "strongs": 4424,
+    "original_word": "מְלַטְיָה",
+    "transliteration": "Mᵉlaṭyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Melatjah, a Gibeonite",
+      "hu": ""
+    }
+  },
+  "sw-mlylh": {
+    "strongs": 4425,
+    "original_word": "מְלִילָה",
+    "transliteration": "mᵉlîylâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a head of grain (as cut off)",
+      "hu": ""
+    }
+  },
+  "sw-mlytsh": {
+    "strongs": 4426,
+    "original_word": "מְלִיצָה",
+    "transliteration": "mᵉlîytsâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an aphorism; also a satire",
+      "hu": ""
+    }
+  },
+  "sw-mlak": {
+    "strongs": 4427,
+    "original_word": "מָלַךְ",
+    "transliteration": "mâlak",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to reign; inceptively, to ascend the throne; causatively, to induct into royalty; hence (by implication) to take counsel",
+      "hu": ""
+    }
+  },
+  "sw-melek": {
+    "strongs": 4428,
+    "original_word": "מֶלֶךְ",
+    "transliteration": "melek",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a king",
+      "hu": ""
+    }
+  },
+  "sw-melek-4429": {
+    "strongs": 4429,
+    "original_word": "מֶלֶךְ",
+    "transliteration": "Melek",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Melek, the name of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-melek-4430": {
+    "strongs": 4430,
+    "original_word": "מֶלֶךְ",
+    "transliteration": "melek",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a king",
+      "hu": ""
+    }
+  },
+  "sw-mlak-4431": {
+    "strongs": 4431,
+    "original_word": "מְלַךְ",
+    "transliteration": "mᵉlak",
+    "language": "Hebrew",
+    "definition": {
+      "en": "advice",
+      "hu": ""
+    }
+  },
+  "sw-mlek": {
+    "strongs": 4432,
+    "original_word": "מֹלֶךְ",
+    "transliteration": "Môlek",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Molek (i.e. king), the chief deity of the Ammonites",
+      "hu": ""
+    }
+  },
+  "sw-malk": {
+    "strongs": 4433,
+    "original_word": "מַלְכָּא",
+    "transliteration": "malkâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a queen",
+      "hu": ""
+    }
+  },
+  "sw-malkdeth": {
+    "strongs": 4434,
+    "original_word": "מַלְכֹּדֶת",
+    "transliteration": "malkôdeth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a snare",
+      "hu": ""
+    }
+  },
+  "sw-milkh": {
+    "strongs": 4435,
+    "original_word": "מִלְכָּה",
+    "transliteration": "Milkâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Milcah, the name of a Hebrewess and of an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-malkh": {
+    "strongs": 4436,
+    "original_word": "מַלְכָּה",
+    "transliteration": "malkâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a queen",
+      "hu": ""
+    }
+  },
+  "sw-malkw": {
+    "strongs": 4437,
+    "original_word": "מַלְכוּ",
+    "transliteration": "malkûw",
+    "language": "Hebrew",
+    "definition": {
+      "en": "dominion (abstractly or concretely)",
+      "hu": ""
+    }
+  },
+  "sw-malkwth-4438": {
+    "strongs": 4438,
+    "original_word": "מַלְכוּת",
+    "transliteration": "malkûwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a rule; concretely, a dominion",
+      "hu": ""
+    }
+  },
+  "sw-malkyl": {
+    "strongs": 4439,
+    "original_word": "מַלְכִּיאֵל",
+    "transliteration": "Malkîyʼêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Malkiel, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-malkyly": {
+    "strongs": 4440,
+    "original_word": "מַלְכִּיאֵלִי",
+    "transliteration": "Malkîyʼêlîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Malkielite or descendant of Malkiel",
+      "hu": ""
+    }
+  },
+  "sw-malkyh": {
+    "strongs": 4441,
+    "original_word": "מַלְכִּיָּה",
+    "transliteration": "Malkîyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Malkijah, the name of ten Israelites",
+      "hu": ""
+    }
+  },
+  "sw-malkytsedeq": {
+    "strongs": 4442,
+    "original_word": "מַלְכִּי־צֶדֶק",
+    "transliteration": "Malkîy-Tsedeq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Malki-Tsedek, an early king in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-malkyrm": {
+    "strongs": 4443,
+    "original_word": "מַלְכִּירָם",
+    "transliteration": "Malkîyrâm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Malkiram, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-malkyshwa": {
+    "strongs": 4444,
+    "original_word": "מַלְכִּישׁוּעַ",
+    "transliteration": "Malkîyshûwaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Malkishua, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-malkm": {
+    "strongs": 4445,
+    "original_word": "מַלְכָּם",
+    "transliteration": "Malkâm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Malcam or Milcom, the national idol of the Ammonites",
+      "hu": ""
+    }
+  },
+  "sw-mleketh": {
+    "strongs": 4446,
+    "original_word": "מְלֶכֶת",
+    "transliteration": "mᵉleketh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a queen",
+      "hu": ""
+    }
+  },
+  "sw-mleketh-4447": {
+    "strongs": 4447,
+    "original_word": "מֹלֶכֶת",
+    "transliteration": "Môleketh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Moleketh, an Israelitess",
+      "hu": ""
+    }
+  },
+  "sw-mlal": {
+    "strongs": 4448,
+    "original_word": "מָלַל",
+    "transliteration": "mâlal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to speak (mostly poetical) or say",
+      "hu": ""
+    }
+  },
+  "sw-mlal-4449": {
+    "strongs": 4449,
+    "original_word": "מְלַל",
+    "transliteration": "mᵉlal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to speak",
+      "hu": ""
+    }
+  },
+  "sw-millay": {
+    "strongs": 4450,
+    "original_word": "מִלֲלַי",
+    "transliteration": "Milălay",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Milalai, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-malmd": {
+    "strongs": 4451,
+    "original_word": "מַלְמָד",
+    "transliteration": "malmâd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a goad for oxen",
+      "hu": ""
+    }
+  },
+  "sw-mlats": {
+    "strongs": 4452,
+    "original_word": "מָלַץ",
+    "transliteration": "mâlats",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to be smooth, i.e. (figuratively) pleasant",
+      "hu": ""
+    }
+  },
+  "sw-meltsr": {
+    "strongs": 4453,
+    "original_word": "מֶלְצָר",
+    "transliteration": "meltsâr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the butler or other officer in the Babylonian court",
+      "hu": ""
+    }
+  },
+  "sw-mlaq": {
+    "strongs": 4454,
+    "original_word": "מָלַק",
+    "transliteration": "mâlaq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to crack a joint; by implication, to wring the neck of afowl (without separating it)",
+      "hu": ""
+    }
+  },
+  "sw-malqwach": {
+    "strongs": 4455,
+    "original_word": "מַלְקוֹחַ",
+    "transliteration": "malqôwach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "transitively (in dual) the jaws (as taking food); intransitively, spoil (and captives) (as taken)",
+      "hu": ""
+    }
+  },
+  "sw-malqwsh": {
+    "strongs": 4456,
+    "original_word": "מַלְקוֹשׁ",
+    "transliteration": "malqôwsh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the spring rain; figuratively, eloquence",
+      "hu": ""
+    }
+  },
+  "sw-melqch": {
+    "strongs": 4457,
+    "original_word": "מֶלְקָח",
+    "transliteration": "melqâch",
+    "language": "Hebrew",
+    "definition": {
+      "en": "(only in dual) tweezers",
+      "hu": ""
+    }
+  },
+  "sw-meltchh": {
+    "strongs": 4458,
+    "original_word": "מֶלְתָּחָה",
+    "transliteration": "meltâchâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a wardrobe (i.e. room where clothing is spread)",
+      "hu": ""
+    }
+  },
+  "sw-malth": {
+    "strongs": 4459,
+    "original_word": "מַלְתָּעָה",
+    "transliteration": "maltâʻâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a grinder, i.e. back tooth",
+      "hu": ""
+    }
+  },
+  "sw-mammgurh": {
+    "strongs": 4460,
+    "original_word": "מַמְּגֻרָה",
+    "transliteration": "mammᵉgurâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a granary",
+      "hu": ""
+    }
+  },
+  "sw-mmad": {
+    "strongs": 4461,
+    "original_word": "מֵמַד",
+    "transliteration": "mêmad",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a measure",
+      "hu": ""
+    }
+  },
+  "sw-mmwkn": {
+    "strongs": 4462,
+    "original_word": "מְמוּכָן",
+    "transliteration": "Mᵉmûwkân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Memucan or Momucan, a Persian satrap",
+      "hu": ""
+    }
+  },
+  "sw-mmwth": {
+    "strongs": 4463,
+    "original_word": "מָמוֹת",
+    "transliteration": "mâmôwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a mortal disease; concretely, a corpse",
+      "hu": ""
+    }
+  },
+  "sw-mamzr": {
+    "strongs": 4464,
+    "original_word": "מַמְזֵר",
+    "transliteration": "mamzêr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a mongrel, i.e. born of aJewish father and aheathen mother",
+      "hu": ""
+    }
+  },
+  "sw-mimkr": {
+    "strongs": 4465,
+    "original_word": "מִמְכָּר",
+    "transliteration": "mimkâr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "merchandise; abstractly, a selling",
+      "hu": ""
+    }
+  },
+  "sw-mimkereth": {
+    "strongs": 4466,
+    "original_word": "מִמְכֶּרֶת",
+    "transliteration": "mimkereth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a sale",
+      "hu": ""
+    }
+  },
+  "sw-mamlkh": {
+    "strongs": 4467,
+    "original_word": "מַמְלָכָה",
+    "transliteration": "mamlâkâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "dominion, i.e. (abstractly) the estate (rule) or (concretely) the country (realm)",
+      "hu": ""
+    }
+  },
+  "sw-mamlkwth": {
+    "strongs": 4468,
+    "original_word": "מַמְלָכוּת",
+    "transliteration": "mamlâkûwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{dominion, i.e. (abstractly) the estate (rule) or (concretely) the country (realm)}",
+      "hu": ""
+    }
+  },
+  "sw-mamk": {
+    "strongs": 4469,
+    "original_word": "מַמְסָךְ",
+    "transliteration": "mamçâk",
+    "language": "Hebrew",
+    "definition": {
+      "en": "mixture, i.e. (specifically) wine mixed (with water or spices)",
+      "hu": ""
+    }
+  },
+  "sw-memer": {
+    "strongs": 4470,
+    "original_word": "מֶמֶר",
+    "transliteration": "memer",
+    "language": "Hebrew",
+    "definition": {
+      "en": "sorrow",
+      "hu": ""
+    }
+  },
+  "sw-mamr": {
+    "strongs": 4471,
+    "original_word": "מַמְרֵא",
+    "transliteration": "Mamrêʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Mamre, an Amorite",
+      "hu": ""
+    }
+  },
+  "sw-mamrr": {
+    "strongs": 4472,
+    "original_word": "מַמְרֹר",
+    "transliteration": "mamrôr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a bitterness, i.e. (figuratively) calamity",
+      "hu": ""
+    }
+  },
+  "sw-mimshach": {
+    "strongs": 4473,
+    "original_word": "מִמְשַׁח",
+    "transliteration": "mimshach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "outspread (i.e. with outstretched wings)",
+      "hu": ""
+    }
+  },
+  "sw-mimshl": {
+    "strongs": 4474,
+    "original_word": "מִמְשָׁל",
+    "transliteration": "mimshâl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a ruler or (abstractly) rule",
+      "hu": ""
+    }
+  },
+  "sw-memshlh": {
+    "strongs": 4475,
+    "original_word": "מֶמְשָׁלָה",
+    "transliteration": "memshâlâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "rule; also (concretely in plural) a realm or a ruler",
+      "hu": ""
+    }
+  },
+  "sw-mimshq": {
+    "strongs": 4476,
+    "original_word": "מִמְשָׁק",
+    "transliteration": "mimshâq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a possession",
+      "hu": ""
+    }
+  },
+  "sw-mamtaq": {
+    "strongs": 4477,
+    "original_word": "מַמְתַּק",
+    "transliteration": "mamtaq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something sweet (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-mn-4478": {
+    "strongs": 4478,
+    "original_word": "מָן",
+    "transliteration": "mân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "literally a whatness (so to speak), i.e. manna (so called from the question about it)",
+      "hu": ""
+    }
+  },
+  "sw-mn-4479": {
+    "strongs": 4479,
+    "original_word": "מָן",
+    "transliteration": "mân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "who or what (properly, interrogatively, hence, also indefinitely and relatively)",
+      "hu": ""
+    }
+  },
+  "sw-min": {
+    "strongs": 4480,
+    "original_word": "מִן",
+    "transliteration": "min",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, a part of; hence (prepositionally), from or out of in many senses",
+      "hu": ""
+    }
+  },
+  "sw-min-4481": {
+    "strongs": 4481,
+    "original_word": "מִן",
+    "transliteration": "min",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{properly, a part of; hence (prepositionally), from or out of}",
+      "hu": ""
+    }
+  },
+  "sw-mn-4482": {
+    "strongs": 4482,
+    "original_word": "מֵן",
+    "transliteration": "mên",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a musical chord (as parted into strings)",
+      "hu": ""
+    }
+  },
+  "sw-mn-4483": {
+    "strongs": 4483,
+    "original_word": "מְנָא",
+    "transliteration": "mᵉnâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to count, appoint",
+      "hu": ""
+    }
+  },
+  "sw-mn-4484": {
+    "strongs": 4484,
+    "original_word": "מְנֵא",
+    "transliteration": "mᵉnêʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "numbered",
+      "hu": ""
+    }
+  },
+  "sw-mangynh": {
+    "strongs": 4485,
+    "original_word": "מַנְגִּינָה",
+    "transliteration": "mangîynâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a satire",
+      "hu": ""
+    }
+  },
+  "sw-manda": {
+    "strongs": 4486,
+    "original_word": "מַנְדַּע",
+    "transliteration": "mandaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "wisdom or intelligence",
+      "hu": ""
+    }
+  },
+  "sw-mnh-4487": {
+    "strongs": 4487,
+    "original_word": "מָנָה",
+    "transliteration": "mânâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, to weigh out; by implication, to allot or constitute officially; also to enumerate or enroll",
+      "hu": ""
+    }
+  },
+  "sw-mneh": {
+    "strongs": 4488,
+    "original_word": "מָנֶה",
+    "transliteration": "mâneh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, a fixed weight or measured amount, i.e. (techn.) a maneh or mina",
+      "hu": ""
+    }
+  },
+  "sw-mneh-4489": {
+    "strongs": 4489,
+    "original_word": "מֹנֶה",
+    "transliteration": "môneh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, something weighed out, i.e. (figuratively) a portion of time, i.e. an instance",
+      "hu": ""
+    }
+  },
+  "sw-mnh-4490": {
+    "strongs": 4490,
+    "original_word": "מָנָה",
+    "transliteration": "mânâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, something weighed out, i.e. (generally) a division; specifically (of food) a ration; also a lot",
+      "hu": ""
+    }
+  },
+  "sw-minhg": {
+    "strongs": 4491,
+    "original_word": "מִנְהָג",
+    "transliteration": "minhâg",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the driving (of a chariot)",
+      "hu": ""
+    }
+  },
+  "sw-minhrh": {
+    "strongs": 4492,
+    "original_word": "מִנְהָרָה",
+    "transliteration": "minhârâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, a channel or fissure, i.e. (by implication) a cavern",
+      "hu": ""
+    }
+  },
+  "sw-mnwd": {
+    "strongs": 4493,
+    "original_word": "מָנוֹד",
+    "transliteration": "mânôwd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a nodding or toss (of the head in derision)",
+      "hu": ""
+    }
+  },
+  "sw-mnwach": {
+    "strongs": 4494,
+    "original_word": "מָנוֹחַ",
+    "transliteration": "mânôwach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "quiet, i.e. (concretely) a settled spot, or (figuratively) a home",
+      "hu": ""
+    }
+  },
+  "sw-mnwach-4495": {
+    "strongs": 4495,
+    "original_word": "מָנוֹחַ",
+    "transliteration": "Mânôwach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Manoach, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-mnwchh": {
+    "strongs": 4496,
+    "original_word": "מְנוּחָה",
+    "transliteration": "mᵉnûwchâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "repose or (adverbially) peacefully; figuratively, consolation (specifically, matrimony); hence (concretely) an abode",
+      "hu": ""
+    }
+  },
+  "sw-mnwn": {
+    "strongs": 4497,
+    "original_word": "מָנוֹן",
+    "transliteration": "mânôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a continuator, i.e. heir",
+      "hu": ""
+    }
+  },
+  "sw-mnw": {
+    "strongs": 4498,
+    "original_word": "מָנוֹס",
+    "transliteration": "mânôwç",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a retreat (literally or figuratively); abstractly, a fleeing",
+      "hu": ""
+    }
+  },
+  "sw-mnwh": {
+    "strongs": 4499,
+    "original_word": "מְנוּסָה",
+    "transliteration": "mᵉnûwçâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "retreat",
+      "hu": ""
+    }
+  },
+  "sw-mnwr": {
+    "strongs": 4500,
+    "original_word": "מָנוֹר",
+    "transliteration": "mânôwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a yoke (properly, for plowing), i.e. the frame of aloom",
+      "hu": ""
+    }
+  },
+  "sw-mnwrh": {
+    "strongs": 4501,
+    "original_word": "מְנוֹרָה",
+    "transliteration": "mᵉnôwrâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a chandelier",
+      "hu": ""
+    }
+  },
+  "sw-minnzr": {
+    "strongs": 4502,
+    "original_word": "מִנְּזָר",
+    "transliteration": "minnᵉzâr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a prince",
+      "hu": ""
+    }
+  },
+  "sw-minchh": {
+    "strongs": 4503,
+    "original_word": "מִנְחָה",
+    "transliteration": "minchâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a donation; euphemistically, tribute; specifically a sacrificial offering (usually bloodless and voluntary)",
+      "hu": ""
+    }
+  },
+  "sw-minchh-4504": {
+    "strongs": 4504,
+    "original_word": "מִנְחָה",
+    "transliteration": "minchâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a sacrificial offering",
+      "hu": ""
+    }
+  },
+  "sw-mnachm": {
+    "strongs": 4505,
+    "original_word": "מְנַחֵם",
+    "transliteration": "Mᵉnachêm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Menachem, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-mnachath": {
+    "strongs": 4506,
+    "original_word": "מָנַחַת",
+    "transliteration": "Mânachath",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Manachath, the name of an Edomite and of a place in Moab",
+      "hu": ""
+    }
+  },
+  "sw-mny": {
+    "strongs": 4507,
+    "original_word": "מְנִי",
+    "transliteration": "Mᵉnîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the Apportioner, i.e. Fate (as an idol)",
+      "hu": ""
+    }
+  },
+  "sw-minny": {
+    "strongs": 4508,
+    "original_word": "מִנִּי",
+    "transliteration": "Minnîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Minni, an Armenian province",
+      "hu": ""
+    }
+  },
+  "sw-minymyn": {
+    "strongs": 4509,
+    "original_word": "מִנְיָמִין",
+    "transliteration": "Minyâmîyn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Minjamin, the name of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-minyn": {
+    "strongs": 4510,
+    "original_word": "מִנְיָן",
+    "transliteration": "minyân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "enumeration",
+      "hu": ""
+    }
+  },
+  "sw-minnyth": {
+    "strongs": 4511,
+    "original_word": "מִנִּית",
+    "transliteration": "Minnîyth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Minnith, a place East of the Jordan",
+      "hu": ""
+    }
+  },
+  "sw-minleh": {
+    "strongs": 4512,
+    "original_word": "מִנְלֶה",
+    "transliteration": "minleh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "completion, i.e. (in produce) wealth",
+      "hu": ""
+    }
+  },
+  "sw-mna": {
+    "strongs": 4513,
+    "original_word": "מָנַע",
+    "transliteration": "mânaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to debar (negatively or positively) from benefit or injury",
+      "hu": ""
+    }
+  },
+  "sw-manwl": {
+    "strongs": 4514,
+    "original_word": "מַנְעוּל",
+    "transliteration": "manʻûwl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a bolt",
+      "hu": ""
+    }
+  },
+  "sw-minl": {
+    "strongs": 4515,
+    "original_word": "מִנְעָל",
+    "transliteration": "minʻâl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a bolt",
+      "hu": ""
+    }
+  },
+  "sw-manam": {
+    "strongs": 4516,
+    "original_word": "מַנְעַם",
+    "transliteration": "manʻam",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a delicacy",
+      "hu": ""
+    }
+  },
+  "sw-mnana": {
+    "strongs": 4517,
+    "original_word": "מְנַעְנַע",
+    "transliteration": "mᵉnaʻnaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a sistrum (so called from its rattling sound)",
+      "hu": ""
+    }
+  },
+  "sw-mnaqqyth": {
+    "strongs": 4518,
+    "original_word": "מְנַקִּית",
+    "transliteration": "mᵉnaqqîyth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a sacrificial basin (for holding blood)",
+      "hu": ""
+    }
+  },
+  "sw-mnashsheh": {
+    "strongs": 4519,
+    "original_word": "מְנַשֶּׁה",
+    "transliteration": "Mᵉnashsheh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Menashsheh, a grandson of Jacob, also the tribe descended from him, and its territory",
+      "hu": ""
+    }
+  },
+  "sw-mnashshy": {
+    "strongs": 4520,
+    "original_word": "מְנַשִּׁי",
+    "transliteration": "Mᵉnashshîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Menashshite or descendant of Menashsheh",
+      "hu": ""
+    }
+  },
+  "sw-mnth": {
+    "strongs": 4521,
+    "original_word": "מְנָת",
+    "transliteration": "mᵉnâth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an allotment (by courtesy, law or providence)",
+      "hu": ""
+    }
+  },
+  "sw-ma-4522": {
+    "strongs": 4522,
+    "original_word": "מַס",
+    "transliteration": "maç",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, a burden (as causing to faint), i.e. a tax in the form of forced labor",
+      "hu": ""
+    }
+  },
+  "sw-m-4523": {
+    "strongs": 4523,
+    "original_word": "מָס",
+    "transliteration": "mâç",
+    "language": "Hebrew",
+    "definition": {
+      "en": "fainting, i.e. (figuratively) disconsolate",
+      "hu": ""
+    }
+  },
+  "sw-mab": {
+    "strongs": 4524,
+    "original_word": "מֵסַב",
+    "transliteration": "mêçab",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a divan (as enclosing the room); abstractly (adverbial) around",
+      "hu": ""
+    }
+  },
+  "sw-magr": {
+    "strongs": 4525,
+    "original_word": "מַסְגֵּר",
+    "transliteration": "maçgêr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a fastener, i.e. (of a person) a smith, (of a thing) a prison",
+      "hu": ""
+    }
+  },
+  "sw-migereth-4526": {
+    "strongs": 4526,
+    "original_word": "מִסְגֶּרֶת",
+    "transliteration": "miçgereth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something enclosing, i.e. a margin (of a region, of a panel); concretely, a stronghold",
+      "hu": ""
+    }
+  },
+  "sw-maad": {
+    "strongs": 4527,
+    "original_word": "מַסַּד",
+    "transliteration": "maççad",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a foundation",
+      "hu": ""
+    }
+  },
+  "sw-midrwn": {
+    "strongs": 4528,
+    "original_word": "מִסְדְּרוֹן",
+    "transliteration": "miçdᵉrôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a colonnade or internal portico (from its rows of pillars)",
+      "hu": ""
+    }
+  },
+  "sw-mh-4529": {
+    "strongs": 4529,
+    "original_word": "מָסָה",
+    "transliteration": "mâçâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to dissolve",
+      "hu": ""
+    }
+  },
+  "sw-mih-4530": {
+    "strongs": 4530,
+    "original_word": "מִסָּה",
+    "transliteration": "miççâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "abundance, i.e. (adverbially) liberally",
+      "hu": ""
+    }
+  },
+  "sw-mah-4531": {
+    "strongs": 4531,
+    "original_word": "מַסָּה",
+    "transliteration": "maççâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a testing, of men (judicial) or of God (querulous)",
+      "hu": ""
+    }
+  },
+  "sw-mah-4532": {
+    "strongs": 4532,
+    "original_word": "מַסָּה",
+    "transliteration": "Maççâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Massah, a place in the Desert",
+      "hu": ""
+    }
+  },
+  "sw-maveh-4533": {
+    "strongs": 4533,
+    "original_word": "מַסְוֶה",
+    "transliteration": "maçveh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a veil",
+      "hu": ""
+    }
+  },
+  "sw-mwkh": {
+    "strongs": 4534,
+    "original_word": "מְסוּכָה",
+    "transliteration": "mᵉçûwkâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a hedge",
+      "hu": ""
+    }
+  },
+  "sw-mach-4535": {
+    "strongs": 4535,
+    "original_word": "מַסָּח",
+    "transliteration": "maççâch",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a cordon, (adverbially) or (as a) military barrier",
+      "hu": ""
+    }
+  },
+  "sw-michr": {
+    "strongs": 4536,
+    "original_word": "מִסְחָר",
+    "transliteration": "miçchâr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "trade",
+      "hu": ""
+    }
+  },
+  "sw-mak": {
+    "strongs": 4537,
+    "original_word": "מָסַךְ",
+    "transliteration": "mâçak",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to mix, especially wine (with spices)",
+      "hu": ""
+    }
+  },
+  "sw-meek": {
+    "strongs": 4538,
+    "original_word": "מֶסֶךְ",
+    "transliteration": "meçek",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a mixture, i.e. of wine with spices",
+      "hu": ""
+    }
+  },
+  "sw-mk": {
+    "strongs": 4539,
+    "original_word": "מָסָךְ",
+    "transliteration": "mâçâk",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a cover, i.e. veil",
+      "hu": ""
+    }
+  },
+  "sw-mukkh": {
+    "strongs": 4540,
+    "original_word": "מְסֻכָּה",
+    "transliteration": "mᵉçukkâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a covering, i.e. garniture",
+      "hu": ""
+    }
+  },
+  "sw-makh": {
+    "strongs": 4541,
+    "original_word": "מַסֵּכָה",
+    "transliteration": "maççêkâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, a pouring over, i.e. fusion of metal (especially a cast image); by implication, a libation, i.e. league; concretely a coverlet (as if poured out)",
+      "hu": ""
+    }
+  },
+  "sw-mikn-4542": {
+    "strongs": 4542,
+    "original_word": "מִסְכֵּן",
+    "transliteration": "miçkên",
+    "language": "Hebrew",
+    "definition": {
+      "en": "indigent",
+      "hu": ""
+    }
+  },
+  "sw-miknh": {
+    "strongs": 4543,
+    "original_word": "מִסְכְּנָה",
+    "transliteration": "miçkᵉnâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a magazine",
+      "hu": ""
+    }
+  },
+  "sw-miknuth": {
+    "strongs": 4544,
+    "original_word": "מִסְכֵּנֻת",
+    "transliteration": "miçkênuth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "indigence",
+      "hu": ""
+    }
+  },
+  "sw-maeketh": {
+    "strongs": 4545,
+    "original_word": "מַסֶּכֶת",
+    "transliteration": "maççeketh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something expanded, i.e. the warp in aloom (as stretched out to receive the woof)",
+      "hu": ""
+    }
+  },
+  "sw-millh-4546": {
+    "strongs": 4546,
+    "original_word": "מְסִלָּה",
+    "transliteration": "mᵉçillâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a thoroughfare (as turnpiked), literally or figuratively; specifically a viaduct, a staircase",
+      "hu": ""
+    }
+  },
+  "sw-malwl": {
+    "strongs": 4547,
+    "original_word": "מַסְלוּל",
+    "transliteration": "maçlûwl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a thoroughfare (as turnpiked)",
+      "hu": ""
+    }
+  },
+  "sw-mamr-4548": {
+    "strongs": 4548,
+    "original_word": "מַסְמֵר",
+    "transliteration": "maçmêr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a peg (as bristling from the surface)",
+      "hu": ""
+    }
+  },
+  "sw-ma-4549": {
+    "strongs": 4549,
+    "original_word": "מָסַס",
+    "transliteration": "mâçaç",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to liquefy; figuratively, to waste (with disease), to faint (with fatigue, fear or grief)",
+      "hu": ""
+    }
+  },
+  "sw-maa": {
+    "strongs": 4550,
+    "original_word": "מַסַּע",
+    "transliteration": "maççaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a departure (from striking the tents), i.e. march (not necessarily a single day's travel); by implication, a station (or point of departure)",
+      "hu": ""
+    }
+  },
+  "sw-ma-4551": {
+    "strongs": 4551,
+    "original_word": "מַסָּע",
+    "transliteration": "maççâʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a missile (spear or arrow); also a quarry (whence stones are, as it were, ejected)",
+      "hu": ""
+    }
+  },
+  "sw-mid": {
+    "strongs": 4552,
+    "original_word": "מִסְעָד",
+    "transliteration": "miçʻâd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a balustrade (for stairs)",
+      "hu": ""
+    }
+  },
+  "sw-mipd": {
+    "strongs": 4553,
+    "original_word": "מִסְפֵּד",
+    "transliteration": "miçpêd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a lamentation",
+      "hu": ""
+    }
+  },
+  "sw-mipw": {
+    "strongs": 4554,
+    "original_word": "מִסְפּוֹא",
+    "transliteration": "miçpôwʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "fodder",
+      "hu": ""
+    }
+  },
+  "sw-mipchh": {
+    "strongs": 4555,
+    "original_word": "מִסְפָּחָה",
+    "transliteration": "miçpâchâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a veil (as spread out)",
+      "hu": ""
+    }
+  },
+  "sw-mipachath-4556": {
+    "strongs": 4556,
+    "original_word": "מִסְפַּחַת",
+    "transliteration": "miçpachath",
+    "language": "Hebrew",
+    "definition": {
+      "en": "scruf (as spreading over the surface)",
+      "hu": ""
+    }
+  },
+  "sw-mipr": {
+    "strongs": 4557,
+    "original_word": "מִסְפָּר",
+    "transliteration": "miçpâr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a number, definite (arithmetical) or indefinite (large, innumerable; small, a few); also (abstractly) narration",
+      "hu": ""
+    }
+  },
+  "sw-mipr-4558": {
+    "strongs": 4558,
+    "original_word": "מִסְפָּר",
+    "transliteration": "Miçpâr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Mispar, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-mipereth": {
+    "strongs": 4559,
+    "original_word": "מִסְפֶּרֶת",
+    "transliteration": "Miçpereth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Mispereth, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-mar-4560": {
+    "strongs": 4560,
+    "original_word": "מָסַר",
+    "transliteration": "mâçar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to sunder, i.e. (transitively) set apart, or (reflex.) apostatize",
+      "hu": ""
+    }
+  },
+  "sw-mr": {
+    "strongs": 4561,
+    "original_word": "מֹסָר",
+    "transliteration": "môçâr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "admonition",
+      "hu": ""
+    }
+  },
+  "sw-mreth": {
+    "strongs": 4562,
+    "original_word": "מָסֹרֶת",
+    "transliteration": "mâçôreth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a band",
+      "hu": ""
+    }
+  },
+  "sw-mitwr": {
+    "strongs": 4563,
+    "original_word": "מִסְתּוֹר",
+    "transliteration": "miçtôwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a refuge",
+      "hu": ""
+    }
+  },
+  "sw-matr": {
+    "strongs": 4564,
+    "original_word": "מַסְתֵּר",
+    "transliteration": "maçtêr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, a hider, i.e. (abstractly) a hiding, i.e. aversion",
+      "hu": ""
+    }
+  },
+  "sw-mitr": {
+    "strongs": 4565,
+    "original_word": "מִסְתָּר",
+    "transliteration": "miçtâr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, a concealer, i.e. a covert",
+      "hu": ""
+    }
+  },
+  "sw-mabd": {
+    "strongs": 4566,
+    "original_word": "מַעְבָּד",
+    "transliteration": "maʻbâd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an act",
+      "hu": ""
+    }
+  },
+  "sw-mabd-4567": {
+    "strongs": 4567,
+    "original_word": "מַעְבָד",
+    "transliteration": "maʻbâd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an act",
+      "hu": ""
+    }
+  },
+  "sw-mabeh": {
+    "strongs": 4568,
+    "original_word": "מַעֲבֶה",
+    "transliteration": "maʻăbeh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, compact (part of soil), i.e. loam",
+      "hu": ""
+    }
+  },
+  "sw-mabr": {
+    "strongs": 4569,
+    "original_word": "מַעֲבָר",
+    "transliteration": "maʻăbâr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a crossing-place (of a river, a ford; of a mountain, a pass); abstractly, a transit, i.e. (figuratively) overwhelming",
+      "hu": ""
+    }
+  },
+  "sw-magl": {
+    "strongs": 4570,
+    "original_word": "מַעְגָּל",
+    "transliteration": "maʻgâl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a track (literally or figuratively); also a rampart (as circular)",
+      "hu": ""
+    }
+  },
+  "sw-mad-4571": {
+    "strongs": 4571,
+    "original_word": "מָעַד",
+    "transliteration": "mâʻad",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to waver",
+      "hu": ""
+    }
+  },
+  "sw-maday": {
+    "strongs": 4572,
+    "original_word": "מַעֲדַי",
+    "transliteration": "Maʻăday",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Maadai, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-madyh": {
+    "strongs": 4573,
+    "original_word": "מַעֲדְיָה",
+    "transliteration": "Maʻădyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Maadjah, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-madn": {
+    "strongs": 4574,
+    "original_word": "מַעֲדָן",
+    "transliteration": "maʻădân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a delicacy or (abstractly) pleasure (adverbially, cheerfully)",
+      "hu": ""
+    }
+  },
+  "sw-madannh": {
+    "strongs": 4575,
+    "original_word": "מַעֲדַנָּה",
+    "transliteration": "maʻădannâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a bond, i.e. group",
+      "hu": ""
+    }
+  },
+  "sw-madr": {
+    "strongs": 4576,
+    "original_word": "מַעְדֵּר",
+    "transliteration": "maʻdêr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a (weeding) hoe",
+      "hu": ""
+    }
+  },
+  "sw-mh-4577": {
+    "strongs": 4577,
+    "original_word": "מְעָה",
+    "transliteration": "mᵉʻâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "only in plural the bowels",
+      "hu": ""
+    }
+  },
+  "sw-meh": {
+    "strongs": 4578,
+    "original_word": "מֵעֶה",
+    "transliteration": "mêʻeh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "used only in plural the intestines, or (collectively) the abdomen, figuratively, sympathy; by implication, a vest; by extension the stomach, the uterus (or of men, the seat of generation), the heart (figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-mh-4579": {
+    "strongs": 4579,
+    "original_word": "מֵעָה",
+    "transliteration": "mêʻâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the belly, i.e. (figuratively) interior",
+      "hu": ""
+    }
+  },
+  "sw-mwg-4580": {
+    "strongs": 4580,
+    "original_word": "מָעוֹג",
+    "transliteration": "mâʻôwg",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a cake of bread; parasite",
+      "hu": ""
+    }
+  },
+  "sw-mwz": {
+    "strongs": 4581,
+    "original_word": "מָעוֹז",
+    "transliteration": "mâʻôwz",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a fortified place; figuratively, a defence",
+      "hu": ""
+    }
+  },
+  "sw-mwk-4582": {
+    "strongs": 4582,
+    "original_word": "מָעוֹךְ",
+    "transliteration": "Mâʻôwk",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Maok, a Philistine",
+      "hu": ""
+    }
+  },
+  "sw-mwn-4583": {
+    "strongs": 4583,
+    "original_word": "מָעוֹן",
+    "transliteration": "mâʻôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an abode, of God (the Tabernacle or the Temple), men (their home) or animals (their lair); hence, a retreat (asylum)",
+      "hu": ""
+    }
+  },
+  "sw-mwn-4584": {
+    "strongs": 4584,
+    "original_word": "מָעוֹן",
+    "transliteration": "Mâʻôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Maon, the name of an Israelite and of a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-mwnh-4585": {
+    "strongs": 4585,
+    "original_word": "מְעוֹנָה",
+    "transliteration": "mᵉʻôwnâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{an abode, of God (the Tabernacle or the Temple), men (their home) or animals (their lair); hence, a retreat (asylum)}",
+      "hu": ""
+    }
+  },
+  "sw-mwny": {
+    "strongs": 4586,
+    "original_word": "מְעוּנִי",
+    "transliteration": "Mᵉʻûwnîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Meunite, or inhabitant of Maon (only in plural)",
+      "hu": ""
+    }
+  },
+  "sw-mwnthay": {
+    "strongs": 4587,
+    "original_word": "מְעוֹנֹתַי",
+    "transliteration": "Mᵉʻôwnôthay",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Meonothai, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-mwph-4588": {
+    "strongs": 4588,
+    "original_word": "מָעוּף",
+    "transliteration": "mâʻûwph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "darkness",
+      "hu": ""
+    }
+  },
+  "sw-mwr-4589": {
+    "strongs": 4589,
+    "original_word": "מָעוֹר",
+    "transliteration": "mâʻôwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "nakedness, i.e. (in plural) the pudenda",
+      "hu": ""
+    }
+  },
+  "sw-maazyh": {
+    "strongs": 4590,
+    "original_word": "מַעַזְיָה",
+    "transliteration": "Maʻazyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Maazjah, the name of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-ma-4591": {
+    "strongs": 4591,
+    "original_word": "מָעַט",
+    "transliteration": "mâʻaṭ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, to pare off, i.e. lessen; intransitively, to be (or causatively, to make) small or few (or figuratively, ineffective)",
+      "hu": ""
+    }
+  },
+  "sw-ma-4592": {
+    "strongs": 4592,
+    "original_word": "מְעַט",
+    "transliteration": "mᵉʻaṭ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a little or few (often adverbial or compar.)",
+      "hu": ""
+    }
+  },
+  "sw-m-4593": {
+    "strongs": 4593,
+    "original_word": "מָעֹט",
+    "transliteration": "mâʻôṭ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "thinned (as to the edge), i.e. sharp",
+      "hu": ""
+    }
+  },
+  "sw-maeh-4594": {
+    "strongs": 4594,
+    "original_word": "מַעֲטֶה",
+    "transliteration": "maʻăṭeh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a vestment",
+      "hu": ""
+    }
+  },
+  "sw-maphh": {
+    "strongs": 4595,
+    "original_word": "מַעֲטָפָה",
+    "transliteration": "maʻăṭâphâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a cloak",
+      "hu": ""
+    }
+  },
+  "sw-my-4596": {
+    "strongs": 4596,
+    "original_word": "מְעִי",
+    "transliteration": "mᵉʻîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a pile of rubbish (as contorted), i.e. a ruin",
+      "hu": ""
+    }
+  },
+  "sw-may": {
+    "strongs": 4597,
+    "original_word": "מָעַי",
+    "transliteration": "Mâʻay",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Maai, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-myl-4598": {
+    "strongs": 4598,
+    "original_word": "מְעִיל",
+    "transliteration": "mᵉʻîyl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a robe (i.e. upper and outer garment)",
+      "hu": ""
+    }
+  },
+  "sw-mayn": {
+    "strongs": 4599,
+    "original_word": "מַעְיָן",
+    "transliteration": "maʻyân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a fountain (also collectively), figuratively, a source (of satisfaction)",
+      "hu": ""
+    }
+  },
+  "sw-mak-4600": {
+    "strongs": 4600,
+    "original_word": "מָעַךְ",
+    "transliteration": "mâʻak",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to press, i.e. to pierce, emasculate, handle",
+      "hu": ""
+    }
+  },
+  "sw-makh-4601": {
+    "strongs": 4601,
+    "original_word": "מַעֲכָה",
+    "transliteration": "Maʻăkâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Maakah (or Maakath), the name of a place in Syria, also of a Mesopotamian, of three Israelites, and of four Israelitesses and one Syrian woman",
+      "hu": ""
+    }
+  },
+  "sw-makthy": {
+    "strongs": 4602,
+    "original_word": "מַעֲכָתִי",
+    "transliteration": "Maʻăkâthîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Maakathite, or inhabitant of Maakah",
+      "hu": ""
+    }
+  },
+  "sw-mal-4603": {
+    "strongs": 4603,
+    "original_word": "מָעַל",
+    "transliteration": "mâʻal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, to cover up; used only figuratively, to act covertly, i.e. treacherously",
+      "hu": ""
+    }
+  },
+  "sw-maal": {
+    "strongs": 4604,
+    "original_word": "מַעַל",
+    "transliteration": "maʻal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "treachery, i.e. sin",
+      "hu": ""
+    }
+  },
+  "sw-maal-4605": {
+    "strongs": 4605,
+    "original_word": "מַעַל",
+    "transliteration": "maʻal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, the upper part, used only adverbially with prefix upward, above, overhead, from the top, etc.",
+      "hu": ""
+    }
+  },
+  "sw-ml-4606": {
+    "strongs": 4606,
+    "original_word": "מֵעָל",
+    "transliteration": "mêʻâl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "(only in plural as singular) the setting (of the sun)",
+      "hu": ""
+    }
+  },
+  "sw-mal-4607": {
+    "strongs": 4607,
+    "original_word": "מֹעַל",
+    "transliteration": "môʻal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a raising (of the hands)",
+      "hu": ""
+    }
+  },
+  "sw-maleh": {
+    "strongs": 4608,
+    "original_word": "מַעֲלֶה",
+    "transliteration": "maʻăleh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an elevation, i.e. (concretely) acclivity or platform; abstractly (the relation or state) a rise or (figuratively) priority",
+      "hu": ""
+    }
+  },
+  "sw-malh": {
+    "strongs": 4609,
+    "original_word": "מַעֲלָה",
+    "transliteration": "maʻălâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "elevation, i.e. the act (literally, a journey to a higher place, figuratively, a thought arising), or (concretely) the condition (literally, a step or grademark, figuratively, a superiority of station); specifically a climactic progression (in certain Psalms)",
+      "hu": ""
+    }
+  },
+  "sw-malhaqrabbym": {
+    "strongs": 4610,
+    "original_word": "מַעֲלֵה עַקְרַבִּים",
+    "transliteration": "Maʻălêh ʻAqrabbîym",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Steep of Scorpions, a place in the Desert",
+      "hu": ""
+    }
+  },
+  "sw-mall": {
+    "strongs": 4611,
+    "original_word": "מַעֲלָל",
+    "transliteration": "maʻălâl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an act (good or bad)",
+      "hu": ""
+    }
+  },
+  "sw-mamd": {
+    "strongs": 4612,
+    "original_word": "מַעֲמָד",
+    "transliteration": "maʻămâd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "(figuratively) a position",
+      "hu": ""
+    }
+  },
+  "sw-momd": {
+    "strongs": 4613,
+    "original_word": "מׇעֳמָד",
+    "transliteration": "moʻŏmâd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "literally a foothold",
+      "hu": ""
+    }
+  },
+  "sw-mamh": {
+    "strongs": 4614,
+    "original_word": "מַעֲמָסָה",
+    "transliteration": "maʻămâçâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "burdensomeness",
+      "hu": ""
+    }
+  },
+  "sw-mamq": {
+    "strongs": 4615,
+    "original_word": "מַעֲמָק",
+    "transliteration": "maʻămâq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a deep",
+      "hu": ""
+    }
+  },
+  "sw-maan": {
+    "strongs": 4616,
+    "original_word": "מַעַן",
+    "transliteration": "maʻan",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, heed, i.e. purpose; used only adverbially, on account of (as a motive or an aim), teleologically, in order that",
+      "hu": ""
+    }
+  },
+  "sw-maneh": {
+    "strongs": 4617,
+    "original_word": "מַעֲנֶה",
+    "transliteration": "maʻăneh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a reply (favorable or contradictory)",
+      "hu": ""
+    }
+  },
+  "sw-manh": {
+    "strongs": 4618,
+    "original_word": "מַעֲנָה",
+    "transliteration": "maʻănâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a furrow",
+      "hu": ""
+    }
+  },
+  "sw-maats": {
+    "strongs": 4619,
+    "original_word": "מַעַץ",
+    "transliteration": "Maʻats",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Maats, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-matsbh": {
+    "strongs": 4620,
+    "original_word": "מַעֲצֵבָה",
+    "transliteration": "maʻătsêbâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "anguish",
+      "hu": ""
+    }
+  },
+  "sw-matsd": {
+    "strongs": 4621,
+    "original_word": "מַעֲצָד",
+    "transliteration": "maʻătsâd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an axe",
+      "hu": ""
+    }
+  },
+  "sw-matswr": {
+    "strongs": 4622,
+    "original_word": "מַעְצוֹר",
+    "transliteration": "maʻtsôwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "objectively, a hindrance",
+      "hu": ""
+    }
+  },
+  "sw-matsr": {
+    "strongs": 4623,
+    "original_word": "מַעְצָר",
+    "transliteration": "maʻtsâr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "subjectively, control",
+      "hu": ""
+    }
+  },
+  "sw-maqeh": {
+    "strongs": 4624,
+    "original_word": "מַעֲקֶה",
+    "transliteration": "maʻăqeh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a parapet",
+      "hu": ""
+    }
+  },
+  "sw-maqsh": {
+    "strongs": 4625,
+    "original_word": "מַעֲקָשׁ",
+    "transliteration": "maʻăqâsh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a crook (in a road)",
+      "hu": ""
+    }
+  },
+  "sw-maar": {
+    "strongs": 4626,
+    "original_word": "מַעַר",
+    "transliteration": "maʻar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a nude place, i.e. (literally) the pudenda, or (figuratively) a vacant space",
+      "hu": ""
+    }
+  },
+  "sw-marb-4627": {
+    "strongs": 4627,
+    "original_word": "מַעֲרָב",
+    "transliteration": "maʻărâb",
+    "language": "Hebrew",
+    "definition": {
+      "en": "traffic; by implication, mercantile goods",
+      "hu": ""
+    }
+  },
+  "sw-marb-4628": {
+    "strongs": 4628,
+    "original_word": "מַעֲרָב",
+    "transliteration": "maʻărâb",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the west (as a region of the evening sun)",
+      "hu": ""
+    }
+  },
+  "sw-mareh": {
+    "strongs": 4629,
+    "original_word": "מַעֲרֶה",
+    "transliteration": "maʻăreh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a nude place, i.e. a common",
+      "hu": ""
+    }
+  },
+  "sw-marh": {
+    "strongs": 4630,
+    "original_word": "מַעֲרָה",
+    "transliteration": "maʻărâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an open spot",
+      "hu": ""
+    }
+  },
+  "sw-mrh-4631": {
+    "strongs": 4631,
+    "original_word": "מְעָרָה",
+    "transliteration": "mᵉʻârâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a cavern (as dark)",
+      "hu": ""
+    }
+  },
+  "sw-mrh-4632": {
+    "strongs": 4632,
+    "original_word": "מְעָרָה",
+    "transliteration": "Mᵉʻârâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Mearah, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-mark": {
+    "strongs": 4633,
+    "original_word": "מַעֲרָךְ",
+    "transliteration": "maʻărâk",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an arrangement, i.e. (figuratively) mental disposition",
+      "hu": ""
+    }
+  },
+  "sw-markh": {
+    "strongs": 4634,
+    "original_word": "מַעֲרָכָה",
+    "transliteration": "maʻărâkâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an arrangement; concretely, a pile; specifically a military array",
+      "hu": ""
+    }
+  },
+  "sw-mareketh": {
+    "strongs": 4635,
+    "original_word": "מַעֲרֶכֶת",
+    "transliteration": "maʻăreketh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an arrangement, i.e. (concretely) a pile (of loaves)",
+      "hu": ""
+    }
+  },
+  "sw-marm": {
+    "strongs": 4636,
+    "original_word": "מַעֲרֹם",
+    "transliteration": "maʻărôm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "bare",
+      "hu": ""
+    }
+  },
+  "sw-martsh": {
+    "strongs": 4637,
+    "original_word": "מַעֲרָצָה",
+    "transliteration": "maʻărâtsâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "violence",
+      "hu": ""
+    }
+  },
+  "sw-marth": {
+    "strongs": 4638,
+    "original_word": "מַעֲרָת",
+    "transliteration": "Maʻărâth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Maarath, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-maseh": {
+    "strongs": 4639,
+    "original_word": "מַעֲשֶׂה",
+    "transliteration": "maʻăseh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an action (good or bad); generally, a transaction; abstractly, activity; by implication, a product (specifically, a poem) or (generally) property",
+      "hu": ""
+    }
+  },
+  "sw-masay": {
+    "strongs": 4640,
+    "original_word": "מַעֲשַׂי",
+    "transliteration": "Maʻăsay",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Maasai, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-masyh": {
+    "strongs": 4641,
+    "original_word": "מַעֲשֵׂיָה",
+    "transliteration": "Maʻăsêyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Maasejah, the name of sixteen Israelites",
+      "hu": ""
+    }
+  },
+  "sw-mashaqqh": {
+    "strongs": 4642,
+    "original_word": "מַעֲשַׁקָּה",
+    "transliteration": "maʻăshaqqâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "oppression",
+      "hu": ""
+    }
+  },
+  "sw-masr": {
+    "strongs": 4643,
+    "original_word": "מַעֲשֵׂר",
+    "transliteration": "maʻăsêr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a tenth; especially a tithe",
+      "hu": ""
+    }
+  },
+  "sw-mph": {
+    "strongs": 4644,
+    "original_word": "מֹף",
+    "transliteration": "Môph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Moph, the capital of Lower Egypt",
+      "hu": ""
+    }
+  },
+  "sw-miphg": {
+    "strongs": 4645,
+    "original_word": "מִפְגָּע",
+    "transliteration": "miphgâʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an object of attack",
+      "hu": ""
+    }
+  },
+  "sw-mappch": {
+    "strongs": 4646,
+    "original_word": "מַפָּח",
+    "transliteration": "mappâch",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a breathing out (of life), i.e. expiring",
+      "hu": ""
+    }
+  },
+  "sw-mappuach": {
+    "strongs": 4647,
+    "original_word": "מַפֻּחַ",
+    "transliteration": "mappuach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the bellows (i.e. blower) of aforge",
+      "hu": ""
+    }
+  },
+  "sw-mphybsheth": {
+    "strongs": 4648,
+    "original_word": "מְפִיבֹשֶׁת",
+    "transliteration": "Mᵉphîybôsheth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Mephibosheth, the name of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-muppym": {
+    "strongs": 4649,
+    "original_word": "מֻפִּים",
+    "transliteration": "Muppîym",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Muppim, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-mphyts": {
+    "strongs": 4650,
+    "original_word": "מֵפִיץ",
+    "transliteration": "mêphîyts",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a breaker, i.e. mallet",
+      "hu": ""
+    }
+  },
+  "sw-mappl": {
+    "strongs": 4651,
+    "original_word": "מַפָּל",
+    "transliteration": "mappâl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a falling off, i.e. chaff; also something pendulous, i.e. a flap",
+      "hu": ""
+    }
+  },
+  "sw-miphlh": {
+    "strongs": 4652,
+    "original_word": "מִפְלָאָה",
+    "transliteration": "miphlâʼâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a miracle",
+      "hu": ""
+    }
+  },
+  "sw-miphlaggh": {
+    "strongs": 4653,
+    "original_word": "מִפְלַגָּה",
+    "transliteration": "miphlaggâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a classification",
+      "hu": ""
+    }
+  },
+  "sw-mapplh": {
+    "strongs": 4654,
+    "original_word": "מַפָּלָה",
+    "transliteration": "mappâlâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something fallen, i.e. a ruin",
+      "hu": ""
+    }
+  },
+  "sw-miphl": {
+    "strongs": 4655,
+    "original_word": "מִפְלָט",
+    "transliteration": "miphlâṭ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an escape",
+      "hu": ""
+    }
+  },
+  "sw-miphletseth": {
+    "strongs": 4656,
+    "original_word": "מִפְלֶצֶת",
+    "transliteration": "miphletseth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a terror, i.e. an idol",
+      "hu": ""
+    }
+  },
+  "sw-miphls": {
+    "strongs": 4657,
+    "original_word": "מִפְלָשׂ",
+    "transliteration": "miphlâs",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a poising",
+      "hu": ""
+    }
+  },
+  "sw-mappeleth": {
+    "strongs": 4658,
+    "original_word": "מַפֶּלֶת",
+    "transliteration": "mappeleth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "fall, i.e. decadence; concretely, a ruin; specifically a carcase",
+      "hu": ""
+    }
+  },
+  "sw-miphl-4659": {
+    "strongs": 4659,
+    "original_word": "מִפְעָל",
+    "transliteration": "miphʻâl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a performance",
+      "hu": ""
+    }
+  },
+  "sw-mappts": {
+    "strongs": 4660,
+    "original_word": "מַפָּץ",
+    "transliteration": "mappâts",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a smiting to pieces",
+      "hu": ""
+    }
+  },
+  "sw-mappts-4661": {
+    "strongs": 4661,
+    "original_word": "מַפֵּץ",
+    "transliteration": "mappêts",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a smiter, i.e. a war club",
+      "hu": ""
+    }
+  },
+  "sw-miphqd": {
+    "strongs": 4662,
+    "original_word": "מִפְקָד",
+    "transliteration": "miphqâd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an appointment, i.e. mandate; concretely, a designated spot; specifically, a census",
+      "hu": ""
+    }
+  },
+  "sw-miphqd-4663": {
+    "strongs": 4663,
+    "original_word": "מִפְקָד",
+    "transliteration": "Miphqâd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Miphkad, the name of a gate in Jerusalem",
+      "hu": ""
+    }
+  },
+  "sw-miphrts": {
+    "strongs": 4664,
+    "original_word": "מִפְרָץ",
+    "transliteration": "miphrâts",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a break (in the shore), i.e. a haven",
+      "hu": ""
+    }
+  },
+  "sw-miphreqeth": {
+    "strongs": 4665,
+    "original_word": "מִפְרֶקֶת",
+    "transliteration": "miphreqeth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, a fracture, i.e. joint (vertebrae) of the neck",
+      "hu": ""
+    }
+  },
+  "sw-miphrs": {
+    "strongs": 4666,
+    "original_word": "מִפְרָשׂ",
+    "transliteration": "miphrâs",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an expansion",
+      "hu": ""
+    }
+  },
+  "sw-miphsh": {
+    "strongs": 4667,
+    "original_word": "מִפְשָׂעָה",
+    "transliteration": "miphsâʻâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a stride, i.e. (by euphemism) the crotch",
+      "hu": ""
+    }
+  },
+  "sw-maphtach": {
+    "strongs": 4668,
+    "original_word": "מַפְתֵּחַ",
+    "transliteration": "maphtêach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an opener, i.e. a key",
+      "hu": ""
+    }
+  },
+  "sw-miphtch": {
+    "strongs": 4669,
+    "original_word": "מִפְתָּח",
+    "transliteration": "miphtâch",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an aperture, i.e. (figuratively) utterance",
+      "hu": ""
+    }
+  },
+  "sw-miphtn": {
+    "strongs": 4670,
+    "original_word": "מִפְתָּן",
+    "transliteration": "miphtân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a stretcher, i.e. a sill",
+      "hu": ""
+    }
+  },
+  "sw-mts-4671": {
+    "strongs": 4671,
+    "original_word": "מֹץ",
+    "transliteration": "môts",
+    "language": "Hebrew",
+    "definition": {
+      "en": "chaff (as pressed out, i.e. winnowed or (rather) threshed loose)",
+      "hu": ""
+    }
+  },
+  "sw-mts-4672": {
+    "strongs": 4672,
+    "original_word": "מָצָא",
+    "transliteration": "mâtsâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, to come forth to, i.e. appear or exist; transitively, to attain, i.e. find or acquire; figuratively, to occur, meet or be present",
+      "hu": ""
+    }
+  },
+  "sw-matstsb": {
+    "strongs": 4673,
+    "original_word": "מַצָּב",
+    "transliteration": "matstsâb",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a fixed spot; figuratively, an office, a military post",
+      "hu": ""
+    }
+  },
+  "sw-mutstsb": {
+    "strongs": 4674,
+    "original_word": "מֻצָּב",
+    "transliteration": "mutstsâb",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a station, i.e. military post",
+      "hu": ""
+    }
+  },
+  "sw-matstsbh": {
+    "strongs": 4675,
+    "original_word": "מַצָּבָה",
+    "transliteration": "matstsâbâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a military guard",
+      "hu": ""
+    }
+  },
+  "sw-matstsbh-4676": {
+    "strongs": 4676,
+    "original_word": "מַצֵּבָה",
+    "transliteration": "matstsêbâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something stationed, i.e. a column or (memorial stone); by analogy, an idol",
+      "hu": ""
+    }
+  },
+  "sw-mtsbyh": {
+    "strongs": 4677,
+    "original_word": "מְצֹבָיָה",
+    "transliteration": "Mᵉtsôbâyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Metsobajah, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-matstsebeth": {
+    "strongs": 4678,
+    "original_word": "מַצֶּבֶת",
+    "transliteration": "matstsebeth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something stationary, i.e. a monumental stone; also the stock of atree",
+      "hu": ""
+    }
+  },
+  "sw-mtsad": {
+    "strongs": 4679,
+    "original_word": "מְצַד",
+    "transliteration": "mᵉtsad",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a fastness (as a covert of ambush)",
+      "hu": ""
+    }
+  },
+  "sw-mtsh": {
+    "strongs": 4680,
+    "original_word": "מָצָה",
+    "transliteration": "mâtsâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to suck out; by implication, to drain, to squeeze out",
+      "hu": ""
+    }
+  },
+  "sw-mtsh-4681": {
+    "strongs": 4681,
+    "original_word": "מֹצָה",
+    "transliteration": "Môtsâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Motsah, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-matstsh": {
+    "strongs": 4682,
+    "original_word": "מַצָּה",
+    "transliteration": "matstsâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, sweetness; concretely, sweet (i.e. not soured or bittered with yeast); specifically, an unfermented cake or loaf, or (elliptically) the festival of Passover (because no leaven was then used)",
+      "hu": ""
+    }
+  },
+  "sw-matstsh-4683": {
+    "strongs": 4683,
+    "original_word": "מַצָּה",
+    "transliteration": "matstsâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a quarrel",
+      "hu": ""
+    }
+  },
+  "sw-matshlh": {
+    "strongs": 4684,
+    "original_word": "מַצְהָלָה",
+    "transliteration": "matshâlâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a whinnying (through impatience for battle or lust)",
+      "hu": ""
+    }
+  },
+  "sw-mtswd": {
+    "strongs": 4685,
+    "original_word": "מָצוֹד",
+    "transliteration": "mâtsôwd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a net (for capturing animals or fishes);  afastness or (beseiging) tower",
+      "hu": ""
+    }
+  },
+  "sw-mtswd-4686": {
+    "strongs": 4686,
+    "original_word": "מָצוּד",
+    "transliteration": "mâtsûwd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a net, or (abstractly) capture; also a fastness",
+      "hu": ""
+    }
+  },
+  "sw-mitsvh": {
+    "strongs": 4687,
+    "original_word": "מִצְוָה",
+    "transliteration": "mitsvâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a command, whether human or divine (collectively, the Law)",
+      "hu": ""
+    }
+  },
+  "sw-mtswlh": {
+    "strongs": 4688,
+    "original_word": "מְצוֹלָה",
+    "transliteration": "mᵉtsôwlâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a deep place (of water or mud)",
+      "hu": ""
+    }
+  },
+  "sw-mtswq": {
+    "strongs": 4689,
+    "original_word": "מָצוֹק",
+    "transliteration": "mâtsôwq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a narrow place, i.e. (abstractly and figuratively) confinement or disability",
+      "hu": ""
+    }
+  },
+  "sw-mtswq-4690": {
+    "strongs": 4690,
+    "original_word": "מָצוּק",
+    "transliteration": "mâtsûwq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something narrow, i.e. a column or hilltop",
+      "hu": ""
+    }
+  },
+  "sw-mtswqh": {
+    "strongs": 4691,
+    "original_word": "מְצוּקָה",
+    "transliteration": "mᵉtsûwqâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "narrowness, i.e. (figuratively) trouble",
+      "hu": ""
+    }
+  },
+  "sw-mtswr": {
+    "strongs": 4692,
+    "original_word": "מָצוֹר",
+    "transliteration": "mâtsôwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something hemming in, i.e. (objectively) a mound (of besiegers), (abstractly) a siege, (figuratively) distress; or (subjectively) a fastness",
+      "hu": ""
+    }
+  },
+  "sw-mtswr-4693": {
+    "strongs": 4693,
+    "original_word": "מָצוֹר",
+    "transliteration": "mâtsôwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Egypt (as the border of Palestine)",
+      "hu": ""
+    }
+  },
+  "sw-mtswrh": {
+    "strongs": 4694,
+    "original_word": "מְצוּרָה",
+    "transliteration": "mᵉtsûwrâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a hemming in, i.e. (objectively) a mound (of siege), or (subjectively) a rampart (of protection), (abstractly) fortification",
+      "hu": ""
+    }
+  },
+  "sw-matstswth": {
+    "strongs": 4695,
+    "original_word": "מַצּוּת",
+    "transliteration": "matstsûwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a quarrel",
+      "hu": ""
+    }
+  },
+  "sw-mtsach": {
+    "strongs": 4696,
+    "original_word": "מֵצַח",
+    "transliteration": "mêtsach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the forehead (as open and prominent)",
+      "hu": ""
+    }
+  },
+  "sw-mitschh": {
+    "strongs": 4697,
+    "original_word": "מִצְחָה",
+    "transliteration": "mitschâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a shinpiece of armor (as prominent), only plural",
+      "hu": ""
+    }
+  },
+  "sw-mtsillh": {
+    "strongs": 4698,
+    "original_word": "מְצִלָּה",
+    "transliteration": "mᵉtsillâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a tinkler, i.e. a bell",
+      "hu": ""
+    }
+  },
+  "sw-mtsullh": {
+    "strongs": 4699,
+    "original_word": "מְצֻלָּה",
+    "transliteration": "mᵉtsullâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "shade",
+      "hu": ""
+    }
+  },
+  "sw-mtsleth": {
+    "strongs": 4700,
+    "original_word": "מְצֵלֶת",
+    "transliteration": "mᵉtsêleth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "(only dual) double tinklers, i.e. cymbals",
+      "hu": ""
+    }
+  },
+  "sw-mitsnepheth": {
+    "strongs": 4701,
+    "original_word": "מִצְנֶפֶת",
+    "transliteration": "mitsnepheth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a tiara, i.e. official turban (of a king or high priest)",
+      "hu": ""
+    }
+  },
+  "sw-matsts": {
+    "strongs": 4702,
+    "original_word": "מַצָּע",
+    "transliteration": "matstsâʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a couch",
+      "hu": ""
+    }
+  },
+  "sw-mitsd": {
+    "strongs": 4703,
+    "original_word": "מִצְעָד",
+    "transliteration": "mitsʻâd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a step; figuratively, companionship",
+      "hu": ""
+    }
+  },
+  "sw-mitstsyrh": {
+    "strongs": 4704,
+    "original_word": "מִצְּעִירָה",
+    "transliteration": "mitstsᵉʻîyrâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, littleness; concretely, diminutive",
+      "hu": ""
+    }
+  },
+  "sw-mitsr": {
+    "strongs": 4705,
+    "original_word": "מִצְעָר",
+    "transliteration": "mitsʻâr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "petty (in size or number); adverbially, a short (time)",
+      "hu": ""
+    }
+  },
+  "sw-mitsr-4706": {
+    "strongs": 4706,
+    "original_word": "מִצְעָר",
+    "transliteration": "Mitsʻâr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Mitsar, a peak of Lebanon",
+      "hu": ""
+    }
+  },
+  "sw-mitspeh": {
+    "strongs": 4707,
+    "original_word": "מִצְפֶּה",
+    "transliteration": "mitspeh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an observatory, especially formilitary purposes",
+      "hu": ""
+    }
+  },
+  "sw-mitspeh-4708": {
+    "strongs": 4708,
+    "original_word": "מִצְפֶּה",
+    "transliteration": "Mitspeh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Mitspeh, the name of five places in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-mitsph": {
+    "strongs": 4709,
+    "original_word": "מִצְפָּה",
+    "transliteration": "Mitspâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Mitspah, the name of two places in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-mitspun": {
+    "strongs": 4710,
+    "original_word": "מִצְפֻּן",
+    "transliteration": "mitspun",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a secret (place or thing, perhaps, treasure)",
+      "hu": ""
+    }
+  },
+  "sw-mtsats": {
+    "strongs": 4711,
+    "original_word": "מָצַץ",
+    "transliteration": "mâtsats",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to suck",
+      "hu": ""
+    }
+  },
+  "sw-mtsar": {
+    "strongs": 4712,
+    "original_word": "מֵצַר",
+    "transliteration": "mêtsar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something tight, i.e. (figuratively) trouble",
+      "hu": ""
+    }
+  },
+  "sw-mitsry": {
+    "strongs": 4713,
+    "original_word": "מִצְרִי",
+    "transliteration": "Mitsrîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Mitsrite, or inhabitant of Mitsrajim",
+      "hu": ""
+    }
+  },
+  "sw-mitsrayim": {
+    "strongs": 4714,
+    "original_word": "מִצְרַיִם",
+    "transliteration": "Mitsrayim",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Mitsrajim, i.e. Upper and Lower Egypt",
+      "hu": ""
+    }
+  },
+  "sw-mitsrph": {
+    "strongs": 4715,
+    "original_word": "מִצְרֵף",
+    "transliteration": "mitsrêph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a crucible",
+      "hu": ""
+    }
+  },
+  "sw-maq": {
+    "strongs": 4716,
+    "original_word": "מַק",
+    "transliteration": "maq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, a melting, i.e. putridity",
+      "hu": ""
+    }
+  },
+  "sw-maqqbh": {
+    "strongs": 4717,
+    "original_word": "מַקָּבָה",
+    "transliteration": "maqqâbâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, a perforatrix, i.e. a hammer (as piercing)",
+      "hu": ""
+    }
+  },
+  "sw-maqqebeth": {
+    "strongs": 4718,
+    "original_word": "מַקֶּבֶת",
+    "transliteration": "maqqebeth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, a perforator, i.e. a hammer (as piercing); also (intransitively) a perforation, i.e. a quarry",
+      "hu": ""
+    }
+  },
+  "sw-maqqdh": {
+    "strongs": 4719,
+    "original_word": "מַקֵּדָה",
+    "transliteration": "Maqqêdâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Makkedah, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-miqdsh": {
+    "strongs": 4720,
+    "original_word": "מִקְדָּשׁ",
+    "transliteration": "miqdâsh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a consecrated thing or place, especially, a palace, sanctuary (whether of Jehovah or of idols) or asylum",
+      "hu": ""
+    }
+  },
+  "sw-maqhl": {
+    "strongs": 4721,
+    "original_word": "מַקְהֵל",
+    "transliteration": "maqhêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an assembly",
+      "hu": ""
+    }
+  },
+  "sw-maqhlth": {
+    "strongs": 4722,
+    "original_word": "מַקְהֵלֹת",
+    "transliteration": "Maqhêlôth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Makheloth, a place in the Desert",
+      "hu": ""
+    }
+  },
+  "sw-miqveh": {
+    "strongs": 4723,
+    "original_word": "מִקְוֶה",
+    "transliteration": "miqveh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something waited for, i.e. confidence (objective or subjective); also a collection, i.e. (of water) a pond, or (of men and horses) a caravan or drove",
+      "hu": ""
+    }
+  },
+  "sw-miqvh": {
+    "strongs": 4724,
+    "original_word": "מִקְוָה",
+    "transliteration": "miqvâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a collection, i.e. (of water) a reservoir",
+      "hu": ""
+    }
+  },
+  "sw-mqwm": {
+    "strongs": 4725,
+    "original_word": "מָקוֹם",
+    "transliteration": "mâqôwm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, a standing, i.e. a spot; but used widely of a locality (general or specific); also (figuratively) of a condition (of body or mind)",
+      "hu": ""
+    }
+  },
+  "sw-mqwr": {
+    "strongs": 4726,
+    "original_word": "מָקוֹר",
+    "transliteration": "mâqôwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, something dug, i.e. a (general) source (of water, even when naturally flowing; also of tears, blood (by euphemism, of the female pudenda); figuratively, of happiness, wisdom, progeny)",
+      "hu": ""
+    }
+  },
+  "sw-miqqch": {
+    "strongs": 4727,
+    "original_word": "מִקָּח",
+    "transliteration": "miqqâch",
+    "language": "Hebrew",
+    "definition": {
+      "en": "reception",
+      "hu": ""
+    }
+  },
+  "sw-maqqchh": {
+    "strongs": 4728,
+    "original_word": "מַקָּחָה",
+    "transliteration": "maqqâchâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something received, i.e. merchandise (purchased)",
+      "hu": ""
+    }
+  },
+  "sw-miqr": {
+    "strongs": 4729,
+    "original_word": "מִקְטָר",
+    "transliteration": "miqṭâr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something to fume (incense) on i.e. a hearth place",
+      "hu": ""
+    }
+  },
+  "sw-miqereth": {
+    "strongs": 4730,
+    "original_word": "מִקְטֶרֶת",
+    "transliteration": "miqṭereth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something to fume (incense) in, i.e. a coal-pan",
+      "hu": ""
+    }
+  },
+  "sw-maqql": {
+    "strongs": 4731,
+    "original_word": "מַקֵּל",
+    "transliteration": "maqqêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a shoot, i.e. stick (with leaves on, or for walking, striking, guiding, divining)",
+      "hu": ""
+    }
+  },
+  "sw-miqlwth": {
+    "strongs": 4732,
+    "original_word": "מִקְלוֹת",
+    "transliteration": "Miqlôwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Mikloth, a place in the Desert",
+      "hu": ""
+    }
+  },
+  "sw-miql": {
+    "strongs": 4733,
+    "original_word": "מִקְלָט",
+    "transliteration": "miqlâṭ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an asylum (as a receptacle)",
+      "hu": ""
+    }
+  },
+  "sw-miqlaath": {
+    "strongs": 4734,
+    "original_word": "מִקְלַעַת",
+    "transliteration": "miqlaʻath",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a sculpture (probably in bas-relief)",
+      "hu": ""
+    }
+  },
+  "sw-miqneh": {
+    "strongs": 4735,
+    "original_word": "מִקְנֶה",
+    "transliteration": "miqneh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something bought, i.e. property, but only livestock; abstractly, acquisition",
+      "hu": ""
+    }
+  },
+  "sw-miqnh": {
+    "strongs": 4736,
+    "original_word": "מִקְנָה",
+    "transliteration": "miqnâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, a buying, i.e. acquisition; concretely, a piece of property (land or living); also the sum paid",
+      "hu": ""
+    }
+  },
+  "sw-miqnyhw": {
+    "strongs": 4737,
+    "original_word": "מִקְנֵיָהוּ",
+    "transliteration": "Miqnêyâhûw",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Miknejah, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-miqm": {
+    "strongs": 4738,
+    "original_word": "מִקְסָם",
+    "transliteration": "miqçâm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an augury",
+      "hu": ""
+    }
+  },
+  "sw-mqats": {
+    "strongs": 4739,
+    "original_word": "מָקַץ",
+    "transliteration": "Mâqats",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Makats, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-maqtswa": {
+    "strongs": 4740,
+    "original_word": "מַקְצוֹעַ",
+    "transliteration": "maqtsôwaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an angle or recess",
+      "hu": ""
+    }
+  },
+  "sw-maqtsuh": {
+    "strongs": 4741,
+    "original_word": "מַקְצֻעָה",
+    "transliteration": "maqtsuʻâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a scraper, i.e. a carving chisel",
+      "hu": ""
+    }
+  },
+  "sw-mqutsh": {
+    "strongs": 4742,
+    "original_word": "מְקֻצְעָה",
+    "transliteration": "mᵉqutsʻâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an angle",
+      "hu": ""
+    }
+  },
+  "sw-mqaq": {
+    "strongs": 4743,
+    "original_word": "מָקַק",
+    "transliteration": "mâqaq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to melt; figuratively, to flow, dwindle, vanish",
+      "hu": ""
+    }
+  },
+  "sw-miqr-4744": {
+    "strongs": 4744,
+    "original_word": "מִקְרָא",
+    "transliteration": "miqrâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something called out, i.e. a public meeting (the act, the persons, or the place); also a rehearsal",
+      "hu": ""
+    }
+  },
+  "sw-miqreh": {
+    "strongs": 4745,
+    "original_word": "מִקְרֶה",
+    "transliteration": "miqreh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something met with, i.e. an accident or fortune",
+      "hu": ""
+    }
+  },
+  "sw-mqreh": {
+    "strongs": 4746,
+    "original_word": "מְקָרֶה",
+    "transliteration": "mᵉqâreh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, something meeting, i.e. a frame (of timbers)",
+      "hu": ""
+    }
+  },
+  "sw-mqrh": {
+    "strongs": 4747,
+    "original_word": "מְקֵרָה",
+    "transliteration": "mᵉqêrâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a cooling off",
+      "hu": ""
+    }
+  },
+  "sw-miqsheh": {
+    "strongs": 4748,
+    "original_word": "מִקְשֶׁה",
+    "transliteration": "miqsheh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something turned (rounded), i.e. a curl (of tresses)",
+      "hu": ""
+    }
+  },
+  "sw-miqshh": {
+    "strongs": 4749,
+    "original_word": "מִקְשָׁה",
+    "transliteration": "miqshâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "rounded work, i.e. moulded by hammering (repousse)",
+      "hu": ""
+    }
+  },
+  "sw-miqshh-4750": {
+    "strongs": 4750,
+    "original_word": "מִקְשָׁה",
+    "transliteration": "miqshâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "literally a cucumbered field, i.e. a cucumber patch",
+      "hu": ""
+    }
+  },
+  "sw-mar-4751": {
+    "strongs": 4751,
+    "original_word": "מַר",
+    "transliteration": "mar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "bitter (literally or figuratively); also (as noun) bitterness, or (adverbially) bitterly",
+      "hu": ""
+    }
+  },
+  "sw-mar-4752": {
+    "strongs": 4752,
+    "original_word": "מַר",
+    "transliteration": "mar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a drop",
+      "hu": ""
+    }
+  },
+  "sw-mr-4753": {
+    "strongs": 4753,
+    "original_word": "מֹר",
+    "transliteration": "môr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "myrrh (as distilling in drops, and also as bitter)",
+      "hu": ""
+    }
+  },
+  "sw-mr-4754": {
+    "strongs": 4754,
+    "original_word": "מָרָא",
+    "transliteration": "mârâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to rebel; hence (through the idea of maltreating) to whip, i.e. lash (self with wings, as the ostrich in running)",
+      "hu": ""
+    }
+  },
+  "sw-mr-4755": {
+    "strongs": 4755,
+    "original_word": "מָרָא",
+    "transliteration": "Mârâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Mara, a symbolic name of Naomi",
+      "hu": ""
+    }
+  },
+  "sw-mr-4756": {
+    "strongs": 4756,
+    "original_word": "מָרֵא",
+    "transliteration": "mârêʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a master",
+      "hu": ""
+    }
+  },
+  "sw-mrdakbaldn": {
+    "strongs": 4757,
+    "original_word": "מְרֹאדַךְ בַּלְאָדָן",
+    "transliteration": "Mᵉrôʼdak Balʼâdân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Merodak-Baladan, a Babylonian king",
+      "hu": ""
+    }
+  },
+  "sw-mareh-4758": {
+    "strongs": 4758,
+    "original_word": "מַרְאֶה",
+    "transliteration": "marʼeh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a view (the act of seeing); also an appearance (the thing seen), whether (real) a shape (especially if handsome, comeliness; often plural the looks), or (mental) a vision",
+      "hu": ""
+    }
+  },
+  "sw-marh-4759": {
+    "strongs": 4759,
+    "original_word": "מַרְאָה",
+    "transliteration": "marʼâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a vision; also (causatively) a mirror",
+      "hu": ""
+    }
+  },
+  "sw-murh": {
+    "strongs": 4760,
+    "original_word": "מֻרְאָה",
+    "transliteration": "murʼâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something conspicuous, i.e. the craw of abird (from its prominence)",
+      "hu": ""
+    }
+  },
+  "sw-marshh": {
+    "strongs": 4761,
+    "original_word": "מַרְאָשָׁה",
+    "transliteration": "marʼâshâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, headship, i.e. (plural for collective) dominion",
+      "hu": ""
+    }
+  },
+  "sw-marshh-4762": {
+    "strongs": 4762,
+    "original_word": "מַרְאֵשָׁה",
+    "transliteration": "Marʼêshâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Mareshah, the name of two Israelites and of a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-mrashh": {
+    "strongs": 4763,
+    "original_word": "מְרַאֲשָׁה",
+    "transliteration": "mᵉraʼăshâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, a headpiece, i.e. (plural for adverbial) at (or as) the head-rest (or pillow)",
+      "hu": ""
+    }
+  },
+  "sw-mrb": {
+    "strongs": 4764,
+    "original_word": "מֵרָב",
+    "transliteration": "Mêrâb",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Merab, a daughter of Saul",
+      "hu": ""
+    }
+  },
+  "sw-marbad": {
+    "strongs": 4765,
+    "original_word": "מַרְבַד",
+    "transliteration": "marbad",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a coverlet",
+      "hu": ""
+    }
+  },
+  "sw-marbeh": {
+    "strongs": 4766,
+    "original_word": "מַרְבֶה",
+    "transliteration": "marbeh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, increasing; as noun, greatness, or (adverbially) greatly",
+      "hu": ""
+    }
+  },
+  "sw-mirbh": {
+    "strongs": 4767,
+    "original_word": "מִרְבָּה",
+    "transliteration": "mirbâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "abundance, i.e. a great quantity",
+      "hu": ""
+    }
+  },
+  "sw-marbyth": {
+    "strongs": 4768,
+    "original_word": "מַרְבִּית",
+    "transliteration": "marbîyth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a multitude; also offspring; specifically interest (on capital)",
+      "hu": ""
+    }
+  },
+  "sw-marbts": {
+    "strongs": 4769,
+    "original_word": "מַרְבֵּץ",
+    "transliteration": "marbêts",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a reclining place, i.e. fold (for flocks)",
+      "hu": ""
+    }
+  },
+  "sw-marbq": {
+    "strongs": 4770,
+    "original_word": "מַרְבֵּק",
+    "transliteration": "marbêq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a stall (for cattle)",
+      "hu": ""
+    }
+  },
+  "sw-margwa": {
+    "strongs": 4771,
+    "original_word": "מַרְגּוֹעַ",
+    "transliteration": "margôwaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a resting place",
+      "hu": ""
+    }
+  },
+  "sw-marglh": {
+    "strongs": 4772,
+    "original_word": "מַרְגְלָה",
+    "transliteration": "margᵉlâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "(plural for collective) a footpiece, i.e. (adverbially) at the foot, or (direct.) the foot itself",
+      "hu": ""
+    }
+  },
+  "sw-margmh": {
+    "strongs": 4773,
+    "original_word": "מַרְגֵּמָה",
+    "transliteration": "margêmâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a stone-heap",
+      "hu": ""
+    }
+  },
+  "sw-margh": {
+    "strongs": 4774,
+    "original_word": "מַרְגֵּעָה",
+    "transliteration": "margêʻâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "rest",
+      "hu": ""
+    }
+  },
+  "sw-mrad": {
+    "strongs": 4775,
+    "original_word": "מָרַד",
+    "transliteration": "mârad",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to rebel",
+      "hu": ""
+    }
+  },
+  "sw-mrad-4776": {
+    "strongs": 4776,
+    "original_word": "מְרַד",
+    "transliteration": "mᵉrad",
+    "language": "Hebrew",
+    "definition": {
+      "en": "rebellion",
+      "hu": ""
+    }
+  },
+  "sw-mered": {
+    "strongs": 4777,
+    "original_word": "מֶרֶד",
+    "transliteration": "mered",
+    "language": "Hebrew",
+    "definition": {
+      "en": "rebellion",
+      "hu": ""
+    }
+  },
+  "sw-mered-4778": {
+    "strongs": 4778,
+    "original_word": "מֶרֶד",
+    "transliteration": "Mered",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Mered, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-mrd": {
+    "strongs": 4779,
+    "original_word": "מָרָד",
+    "transliteration": "mârâd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "rebellious",
+      "hu": ""
+    }
+  },
+  "sw-mardwth": {
+    "strongs": 4780,
+    "original_word": "מַרְדּוּת",
+    "transliteration": "mardûwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "rebelliousness",
+      "hu": ""
+    }
+  },
+  "sw-mrdk": {
+    "strongs": 4781,
+    "original_word": "מְרֹדָךְ",
+    "transliteration": "Mᵉrôdâk",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Merodak, a Babylonian idol",
+      "hu": ""
+    }
+  },
+  "sw-mordkay": {
+    "strongs": 4782,
+    "original_word": "מׇרְדְּכַי",
+    "transliteration": "Mordᵉkay",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Mordecai, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-murdph": {
+    "strongs": 4783,
+    "original_word": "מֻרְדָּף",
+    "transliteration": "murdâph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "persecuted",
+      "hu": ""
+    }
+  },
+  "sw-mrh-4784": {
+    "strongs": 4784,
+    "original_word": "מָרָה",
+    "transliteration": "mârâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to be (causatively, make) bitter (or unpleasant); (figuratively) to rebel (or resist; causatively, to provoke)",
+      "hu": ""
+    }
+  },
+  "sw-mrh-4785": {
+    "strongs": 4785,
+    "original_word": "מָרָה",
+    "transliteration": "Mârâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Marah, a place in the Desert",
+      "hu": ""
+    }
+  },
+  "sw-mrh-4786": {
+    "strongs": 4786,
+    "original_word": "מֹרָה",
+    "transliteration": "môrâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "bitterness, i.e. (figuratively) trouble",
+      "hu": ""
+    }
+  },
+  "sw-morrh": {
+    "strongs": 4787,
+    "original_word": "מׇרָּה",
+    "transliteration": "morrâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "trouble",
+      "hu": ""
+    }
+  },
+  "sw-mrwd": {
+    "strongs": 4788,
+    "original_word": "מָרוּד",
+    "transliteration": "mârûwd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an outcast; (abstractly) destitution",
+      "hu": ""
+    }
+  },
+  "sw-mrwz": {
+    "strongs": 4789,
+    "original_word": "מֵרוֹז",
+    "transliteration": "Mêrôwz",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Meroz, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-mrwach": {
+    "strongs": 4790,
+    "original_word": "מְרוֹחַ",
+    "transliteration": "mᵉrôwach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "bruised, i.e. emasculated",
+      "hu": ""
+    }
+  },
+  "sw-mrwm": {
+    "strongs": 4791,
+    "original_word": "מָרוֹם",
+    "transliteration": "mârôwm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "altitude, i.e. concretely (an elevated place), abstractly (elevation, figuratively (elation), or adverbially (aloft)",
+      "hu": ""
+    }
+  },
+  "sw-mrwm-4792": {
+    "strongs": 4792,
+    "original_word": "מֵרוֹם",
+    "transliteration": "Mêrôwm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Merom, a lake in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-mrwts": {
+    "strongs": 4793,
+    "original_word": "מֵרוֹץ",
+    "transliteration": "mêrôwts",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a run (the trial of speed)",
+      "hu": ""
+    }
+  },
+  "sw-mrwtsh": {
+    "strongs": 4794,
+    "original_word": "מְרוּצָה",
+    "transliteration": "mᵉrûwtsâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a race (the act), whether the manner or the progress",
+      "hu": ""
+    }
+  },
+  "sw-mrwq": {
+    "strongs": 4795,
+    "original_word": "מָרוּק",
+    "transliteration": "mârûwq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, rubbed; but used abstractly, a rubbing (with perfumery)",
+      "hu": ""
+    }
+  },
+  "sw-mrwth": {
+    "strongs": 4796,
+    "original_word": "מָרוֹת",
+    "transliteration": "Mârôwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Maroth, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-mirzach": {
+    "strongs": 4797,
+    "original_word": "מִרְזַח",
+    "transliteration": "mirzach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a cry, i.e. (of job), a revel",
+      "hu": ""
+    }
+  },
+  "sw-marzach": {
+    "strongs": 4798,
+    "original_word": "מַרְזֵחַ",
+    "transliteration": "marzêach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a cry, i.e. (of grief) a lamentation",
+      "hu": ""
+    }
+  },
+  "sw-mrach": {
+    "strongs": 4799,
+    "original_word": "מָרַח",
+    "transliteration": "mârach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, to soften by rubbing or pressure; hence (medicinally) to apply as an emollient",
+      "hu": ""
+    }
+  },
+  "sw-merchb": {
+    "strongs": 4800,
+    "original_word": "מֶרְחָב",
+    "transliteration": "merchâb",
+    "language": "Hebrew",
+    "definition": {
+      "en": "enlargement, either literally (an open space, usually in a good sense), or figuratively (liberty)",
+      "hu": ""
+    }
+  }
+}

@@ -1,0 +1,4002 @@
+{
+  "sw-bash-1201": {
+    "strongs": 1201,
+    "original_word": "בַּעְשָׁא",
+    "transliteration": "Baʻshâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Basha, a king of Israel",
+      "hu": ""
+    }
+  },
+  "sw-basyh": {
+    "strongs": 1202,
+    "original_word": "בַּעֲשֵׂיָה",
+    "transliteration": "Baʻăsêyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Baasejah, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-beshtrh": {
+    "strongs": 1203,
+    "original_word": "בְּעֶשְׁתְּרָה",
+    "transliteration": "Bᵉʻeshtᵉrâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beeshterah, a place East of the Jordan",
+      "hu": ""
+    }
+  },
+  "sw-bath": {
+    "strongs": 1204,
+    "original_word": "בָּעַת",
+    "transliteration": "bâʻath",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to fear",
+      "hu": ""
+    }
+  },
+  "sw-bthh": {
+    "strongs": 1205,
+    "original_word": "בְּעָתָה",
+    "transliteration": "bᵉʻâthâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "fear",
+      "hu": ""
+    }
+  },
+  "sw-bts": {
+    "strongs": 1206,
+    "original_word": "בֹץ",
+    "transliteration": "bôts",
+    "language": "Hebrew",
+    "definition": {
+      "en": "mud (as whitish clay)",
+      "hu": ""
+    }
+  },
+  "sw-bitstsh": {
+    "strongs": 1207,
+    "original_word": "בִּצָּה",
+    "transliteration": "bitstsâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a swamp",
+      "hu": ""
+    }
+  },
+  "sw-btswr": {
+    "strongs": 1208,
+    "original_word": "בָּצוֹר",
+    "transliteration": "bâtsôwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "inaccessible, i.e. lofty",
+      "hu": ""
+    }
+  },
+  "sw-btsay": {
+    "strongs": 1209,
+    "original_word": "בֵּצַי",
+    "transliteration": "Bêtsay",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Betsai, the name of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-btsyr": {
+    "strongs": 1210,
+    "original_word": "בָּצִיר",
+    "transliteration": "bâtsîyr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "clipped, i.e. the grape crop",
+      "hu": ""
+    }
+  },
+  "sw-betsel": {
+    "strongs": 1211,
+    "original_word": "בֶּצֶל",
+    "transliteration": "betsel",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an onion",
+      "hu": ""
+    }
+  },
+  "sw-btsall": {
+    "strongs": 1212,
+    "original_word": "בְּצַלְאֵל",
+    "transliteration": "Bᵉtsalʼêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Betsalel, the name of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-batslwth": {
+    "strongs": 1213,
+    "original_word": "בַּצְלוּת",
+    "transliteration": "Batslûwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Batsluth or Batslith, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-btsa": {
+    "strongs": 1214,
+    "original_word": "בָּצַע",
+    "transliteration": "bâtsaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "figuratively, to finish, or (intransitively) stop",
+      "hu": ""
+    }
+  },
+  "sw-betsa": {
+    "strongs": 1215,
+    "original_word": "בֶּצַע",
+    "transliteration": "betsaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "plunder; by extension, gain (usually unjust)",
+      "hu": ""
+    }
+  },
+  "sw-btsq": {
+    "strongs": 1216,
+    "original_word": "בָּצֵק",
+    "transliteration": "bâtsêq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "perhaps to swell up, i.e. blister",
+      "hu": ""
+    }
+  },
+  "sw-btsq-1217": {
+    "strongs": 1217,
+    "original_word": "בָּצֵק",
+    "transliteration": "bâtsêq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "dough (as swelling by fermentation)",
+      "hu": ""
+    }
+  },
+  "sw-botsqath": {
+    "strongs": 1218,
+    "original_word": "בׇּצְקַת",
+    "transliteration": "Botsqath",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Botscath, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-btsar": {
+    "strongs": 1219,
+    "original_word": "בָּצַר",
+    "transliteration": "bâtsar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to gather grapes; also to be isolated (i.e. inaccessible by height or fortification)",
+      "hu": ""
+    }
+  },
+  "sw-betser": {
+    "strongs": 1220,
+    "original_word": "בֶּצֶר",
+    "transliteration": "betser",
+    "language": "Hebrew",
+    "definition": {
+      "en": "strictly a clipping, i.e. gold (as dug out)",
+      "hu": ""
+    }
+  },
+  "sw-betser-1221": {
+    "strongs": 1221,
+    "original_word": "בֶּצֶר",
+    "transliteration": "Betser",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Betser, a place in Palestine; also an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-btsar-1222": {
+    "strongs": 1222,
+    "original_word": "בְּצַר",
+    "transliteration": "bᵉtsar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "gold",
+      "hu": ""
+    }
+  },
+  "sw-botsrh": {
+    "strongs": 1223,
+    "original_word": "בׇּצְרָה",
+    "transliteration": "botsrâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an enclosure, i.e. sheep fold",
+      "hu": ""
+    }
+  },
+  "sw-botsrh-1224": {
+    "strongs": 1224,
+    "original_word": "בׇּצְרָה",
+    "transliteration": "Botsrâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Botsrah, a place in Edom",
+      "hu": ""
+    }
+  },
+  "sw-bitstsrwn": {
+    "strongs": 1225,
+    "original_word": "בִּצָּרוֹן",
+    "transliteration": "bitstsârôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a fortress",
+      "hu": ""
+    }
+  },
+  "sw-batstsreth": {
+    "strongs": 1226,
+    "original_word": "בַּצֹּרֶת",
+    "transliteration": "batstsôreth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "restraint (of rain), i.e. drought",
+      "hu": ""
+    }
+  },
+  "sw-baqbwq": {
+    "strongs": 1227,
+    "original_word": "בַּקְבּוּק",
+    "transliteration": "Baqbûwq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bakbuk, one of the Nethinim",
+      "hu": ""
+    }
+  },
+  "sw-baqbuq": {
+    "strongs": 1228,
+    "original_word": "בַּקְבֻּק",
+    "transliteration": "baqbuq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a bottle (from the gurgling in emptying)",
+      "hu": ""
+    }
+  },
+  "sw-baqbuqyh": {
+    "strongs": 1229,
+    "original_word": "בַּקְבֻּקְיָה",
+    "transliteration": "Baqbuqyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bakbukjah, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-baqbaqqar": {
+    "strongs": 1230,
+    "original_word": "בַּקְבַּקַּר",
+    "transliteration": "Baqbaqqar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bakbakkar, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-buqqy": {
+    "strongs": 1231,
+    "original_word": "בֻּקִּי",
+    "transliteration": "Buqqîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bukki, the name of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-buqqyh": {
+    "strongs": 1232,
+    "original_word": "בֻּקִּיָּה",
+    "transliteration": "Buqqîyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bukkijah, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-bqya": {
+    "strongs": 1233,
+    "original_word": "בְּקִיעַ",
+    "transliteration": "bᵉqîyaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a fissure",
+      "hu": ""
+    }
+  },
+  "sw-bqa": {
+    "strongs": 1234,
+    "original_word": "בָּקַע",
+    "transliteration": "bâqaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to cleave; generally, to rend, break, rip or open",
+      "hu": ""
+    }
+  },
+  "sw-beqa": {
+    "strongs": 1235,
+    "original_word": "בֶּקַע",
+    "transliteration": "beqaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a section (half) of ashekel, i.e. a beka (a weight and a coin)",
+      "hu": ""
+    }
+  },
+  "sw-biq": {
+    "strongs": 1236,
+    "original_word": "בִּקְעָא",
+    "transliteration": "biqʻâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{properly, a split, i.e. a wide level valley between mountains}",
+      "hu": ""
+    }
+  },
+  "sw-biqh": {
+    "strongs": 1237,
+    "original_word": "בִּקְעָה",
+    "transliteration": "biqʻâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, a split, i.e. a wide level valley between mountains",
+      "hu": ""
+    }
+  },
+  "sw-bqaq": {
+    "strongs": 1238,
+    "original_word": "בָּקַק",
+    "transliteration": "bâqaq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to pour out, i.e. to empty, figuratively, to depopulate; by analogy, to spread out (as a fruitful vine)",
+      "hu": ""
+    }
+  },
+  "sw-bqar": {
+    "strongs": 1239,
+    "original_word": "בָּקַר",
+    "transliteration": "bâqar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, to plough, or (generally) break forth, i.e. (figuratively) to inspect, admire, care for, consider",
+      "hu": ""
+    }
+  },
+  "sw-bqar-1240": {
+    "strongs": 1240,
+    "original_word": "בְּקַר",
+    "transliteration": "bᵉqar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{properly, to plough, or (generally) break forth, i.e. (figuratively) to inspect, admire, care for, consider}",
+      "hu": ""
+    }
+  },
+  "sw-bqr": {
+    "strongs": 1241,
+    "original_word": "בָּקָר",
+    "transliteration": "bâqâr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "beef cattle or an animal of the ox family of either gender (as used for plowing); collectively, a herd",
+      "hu": ""
+    }
+  },
+  "sw-bqer": {
+    "strongs": 1242,
+    "original_word": "בֹּקֶר",
+    "transliteration": "bôqer",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, dawn (as the break of day); generally, morning",
+      "hu": ""
+    }
+  },
+  "sw-baqqrh": {
+    "strongs": 1243,
+    "original_word": "בַּקָּרָה",
+    "transliteration": "baqqârâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a looking after",
+      "hu": ""
+    }
+  },
+  "sw-biqqreth": {
+    "strongs": 1244,
+    "original_word": "בִּקֹּרֶת",
+    "transliteration": "biqqôreth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, examination, i.e. (by implication) punishment",
+      "hu": ""
+    }
+  },
+  "sw-bqash": {
+    "strongs": 1245,
+    "original_word": "בָּקַשׁ",
+    "transliteration": "bâqash",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to search out (by any method, specifically in worship or prayer); by implication, to strive after",
+      "hu": ""
+    }
+  },
+  "sw-baqqshh": {
+    "strongs": 1246,
+    "original_word": "בַּקָּשָׁה",
+    "transliteration": "baqqâshâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a petition",
+      "hu": ""
+    }
+  },
+  "sw-bar-1247": {
+    "strongs": 1247,
+    "original_word": "בַּר",
+    "transliteration": "bar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a son, grandson, etc.",
+      "hu": ""
+    }
+  },
+  "sw-bar-1248": {
+    "strongs": 1248,
+    "original_word": "בַּר",
+    "transliteration": "bar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the heir (apparent to the throne)",
+      "hu": ""
+    }
+  },
+  "sw-bar-1249": {
+    "strongs": 1249,
+    "original_word": "בַּר",
+    "transliteration": "bar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "beloved; also pure, empty",
+      "hu": ""
+    }
+  },
+  "sw-br-1250": {
+    "strongs": 1250,
+    "original_word": "בָּר",
+    "transliteration": "bâr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "grain of any kind (even while standing in the field); by extension the open country",
+      "hu": ""
+    }
+  },
+  "sw-bar-1251": {
+    "strongs": 1251,
+    "original_word": "בַּר",
+    "transliteration": "bar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a field",
+      "hu": ""
+    }
+  },
+  "sw-br-1252": {
+    "strongs": 1252,
+    "original_word": "בֹּר",
+    "transliteration": "bôr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "purify",
+      "hu": ""
+    }
+  },
+  "sw-br-1253": {
+    "strongs": 1253,
+    "original_word": "בֹּר",
+    "transliteration": "bôr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "vegetable lye (from its cleansing); used as a soap forwashing, or a flux formetals",
+      "hu": ""
+    }
+  },
+  "sw-br-1254": {
+    "strongs": 1254,
+    "original_word": "בָּרָא",
+    "transliteration": "bârâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "(absolutely) to create; (qualified) to cut down (a wood), select, feed (as formative processes)",
+      "hu": ""
+    }
+  },
+  "sw-brdakbaldn": {
+    "strongs": 1255,
+    "original_word": "בְּרֹאדַךְ בַּלְאֲדָן",
+    "transliteration": "Bᵉrôʼdak Balʼădân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Berodak-Baladan, a Babylonian king",
+      "hu": ""
+    }
+  },
+  "sw-bryh": {
+    "strongs": 1256,
+    "original_word": "בְּרָאיָה",
+    "transliteration": "Bᵉrâʼyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Berajah, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-barbur": {
+    "strongs": 1257,
+    "original_word": "בַּרְבֻּר",
+    "transliteration": "barbur",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a fowl (as fattened on grain)",
+      "hu": ""
+    }
+  },
+  "sw-brad": {
+    "strongs": 1258,
+    "original_word": "בָּרַד",
+    "transliteration": "bârad",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to hail",
+      "hu": ""
+    }
+  },
+  "sw-brd": {
+    "strongs": 1259,
+    "original_word": "בָּרָד",
+    "transliteration": "bârâd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "hail",
+      "hu": ""
+    }
+  },
+  "sw-bered": {
+    "strongs": 1260,
+    "original_word": "בֶּרֶד",
+    "transliteration": "Bered",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bered, the name of a place south of Palestine, also of an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-brd-1261": {
+    "strongs": 1261,
+    "original_word": "בָּרֹד",
+    "transliteration": "bârôd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "spotted (as if with hail)",
+      "hu": ""
+    }
+  },
+  "sw-brh-1262": {
+    "strongs": 1262,
+    "original_word": "בָּרָה",
+    "transliteration": "bârâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to select; to feed; to render clear",
+      "hu": ""
+    }
+  },
+  "sw-brwk": {
+    "strongs": 1263,
+    "original_word": "בָּרוּךְ",
+    "transliteration": "Bârûwk",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Baruk, the name of three Israelites",
+      "hu": ""
+    }
+  },
+  "sw-brwm": {
+    "strongs": 1264,
+    "original_word": "בְּרוֹם",
+    "transliteration": "bᵉrôwm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "damask (stuff of variegated thread)",
+      "hu": ""
+    }
+  },
+  "sw-brwsh": {
+    "strongs": 1265,
+    "original_word": "בְּרוֹשׁ",
+    "transliteration": "bᵉrôwsh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a cypress (?) tree; hence, a lance or a musical instrument (as made of that wood)",
+      "hu": ""
+    }
+  },
+  "sw-brwth-1266": {
+    "strongs": 1266,
+    "original_word": "בְּרוֹת",
+    "transliteration": "bᵉrôwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the cypress (or some elastic tree)",
+      "hu": ""
+    }
+  },
+  "sw-brwth-1267": {
+    "strongs": 1267,
+    "original_word": "בָּרוּת",
+    "transliteration": "bârûwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "food",
+      "hu": ""
+    }
+  },
+  "sw-brwthh": {
+    "strongs": 1268,
+    "original_word": "בֵּרוֹתָה",
+    "transliteration": "Bêrôwthâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Berothah or Berothai, a place north of Palestine",
+      "hu": ""
+    }
+  },
+  "sw-birzwth": {
+    "strongs": 1269,
+    "original_word": "בִּרְזוֹת",
+    "transliteration": "Birzôwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Birzoth, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-barzel": {
+    "strongs": 1270,
+    "original_word": "בַּרְזֶל",
+    "transliteration": "barzel",
+    "language": "Hebrew",
+    "definition": {
+      "en": "iron (as cutting); by extension, an iron implement",
+      "hu": ""
+    }
+  },
+  "sw-barzillay": {
+    "strongs": 1271,
+    "original_word": "בַּרְזִלַּי",
+    "transliteration": "Barzillay",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Barzillai, the name of three Israelites",
+      "hu": ""
+    }
+  },
+  "sw-brach": {
+    "strongs": 1272,
+    "original_word": "בָּרַח",
+    "transliteration": "bârach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to bolt, i.e. figuratively, to flee suddenly",
+      "hu": ""
+    }
+  },
+  "sw-barchumy": {
+    "strongs": 1273,
+    "original_word": "בַּרְחֻמִי",
+    "transliteration": "Barchumîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Barchumite, or native of Bachurim",
+      "hu": ""
+    }
+  },
+  "sw-bry-1274": {
+    "strongs": 1274,
+    "original_word": "בְּרִי",
+    "transliteration": "bᵉrîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "fat",
+      "hu": ""
+    }
+  },
+  "sw-bry-1275": {
+    "strongs": 1275,
+    "original_word": "בֵּרִי",
+    "transliteration": "Bêrîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beri, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-bry-1276": {
+    "strongs": 1276,
+    "original_word": "בֵּרִי",
+    "transliteration": "Bêrîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "(only in the plural and with the article) the Berites, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bry-1277": {
+    "strongs": 1277,
+    "original_word": "בָּרִיא",
+    "transliteration": "bârîyʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "fatted or plump",
+      "hu": ""
+    }
+  },
+  "sw-bryh-1278": {
+    "strongs": 1278,
+    "original_word": "בְּרִיאָה",
+    "transliteration": "bᵉrîyʼâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a creation, i.e. a novelty",
+      "hu": ""
+    }
+  },
+  "sw-biryh": {
+    "strongs": 1279,
+    "original_word": "בִּרְיָה",
+    "transliteration": "biryâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "food",
+      "hu": ""
+    }
+  },
+  "sw-bryach": {
+    "strongs": 1280,
+    "original_word": "בְּרִיחַ",
+    "transliteration": "bᵉrîyach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a bolt",
+      "hu": ""
+    }
+  },
+  "sw-bryach-1281": {
+    "strongs": 1281,
+    "original_word": "בָּרִיחַ",
+    "transliteration": "bârîyach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a fugitive, i.e. the serpent (as fleeing), and the constellation by that name",
+      "hu": ""
+    }
+  },
+  "sw-bryach-1282": {
+    "strongs": 1282,
+    "original_word": "בָּרִיחַ",
+    "transliteration": "Bârîyach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bariach, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-bryh-1283": {
+    "strongs": 1283,
+    "original_word": "בְּרִיעָה",
+    "transliteration": "Bᵉrîyʻâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Beriah, the name of four Israelites",
+      "hu": ""
+    }
+  },
+  "sw-bryy": {
+    "strongs": 1284,
+    "original_word": "בְּרִיעִי",
+    "transliteration": "Bᵉrîyʻîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Beriite (collectively) or descendants of Beriah",
+      "hu": ""
+    }
+  },
+  "sw-bryth": {
+    "strongs": 1285,
+    "original_word": "בְּרִית",
+    "transliteration": "bᵉrîyth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a compact (because made by passing between pieces of flesh)",
+      "hu": ""
+    }
+  },
+  "sw-bryth-1286": {
+    "strongs": 1286,
+    "original_word": "בְּרִית",
+    "transliteration": "Bᵉrîyth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Berith, a Shechemitish deity",
+      "hu": ""
+    }
+  },
+  "sw-bryth-1287": {
+    "strongs": 1287,
+    "original_word": "בֹּרִית",
+    "transliteration": "bôrîyth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "vegetable alkali",
+      "hu": ""
+    }
+  },
+  "sw-brak": {
+    "strongs": 1288,
+    "original_word": "בָרַךְ",
+    "transliteration": "bârak",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to kneel; by implication to bless God (as an act of adoration), and (vice-versa) man (as a benefit); also (by euphemism) to curse (God or the king, as treason)",
+      "hu": ""
+    }
+  },
+  "sw-brak-1289": {
+    "strongs": 1289,
+    "original_word": "בְּרַךְ",
+    "transliteration": "bᵉrak",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{to kneel; by implication to bless God (as an act of adoration), and (vice-versa) man (as a benefit); also (by euphemism) to curse (God or the king, as treason)}",
+      "hu": ""
+    }
+  },
+  "sw-berek": {
+    "strongs": 1290,
+    "original_word": "בֶּרֶךְ",
+    "transliteration": "berek",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a knee",
+      "hu": ""
+    }
+  },
+  "sw-berek-1291": {
+    "strongs": 1291,
+    "original_word": "בֶּרֶךְ",
+    "transliteration": "berek",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{a knee}",
+      "hu": ""
+    }
+  },
+  "sw-brakl": {
+    "strongs": 1292,
+    "original_word": "בָּרַכְאֵל",
+    "transliteration": "Bârakʼêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Barakel, the father of one of Job's friends",
+      "hu": ""
+    }
+  },
+  "sw-brkh": {
+    "strongs": 1293,
+    "original_word": "בְּרָכָה",
+    "transliteration": "Bᵉrâkâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "benediction; by implication prosperity",
+      "hu": ""
+    }
+  },
+  "sw-brkh-1294": {
+    "strongs": 1294,
+    "original_word": "בְּרָכָה",
+    "transliteration": "Bᵉrâkâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Berakah, the name of an Israelite, and also of a valley in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-brkh-1295": {
+    "strongs": 1295,
+    "original_word": "בְּרֵכָה",
+    "transliteration": "bᵉrêkâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a reservoir (at which camels kneel as a resting-place)",
+      "hu": ""
+    }
+  },
+  "sw-berekyh": {
+    "strongs": 1296,
+    "original_word": "בֶּרֶכְיָה",
+    "transliteration": "Berekyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Berekjah, the name of six Israelites",
+      "hu": ""
+    }
+  },
+  "sw-bram": {
+    "strongs": 1297,
+    "original_word": "בְּרַם",
+    "transliteration": "bᵉram",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, highly, i.e. surely; but used adversatively, however",
+      "hu": ""
+    }
+  },
+  "sw-bera": {
+    "strongs": 1298,
+    "original_word": "בֶּרַע",
+    "transliteration": "Beraʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bera, a Sodomitish king",
+      "hu": ""
+    }
+  },
+  "sw-braq": {
+    "strongs": 1299,
+    "original_word": "בָּרַק",
+    "transliteration": "bâraq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to lighten (lightning)",
+      "hu": ""
+    }
+  },
+  "sw-brq": {
+    "strongs": 1300,
+    "original_word": "בָּרָק",
+    "transliteration": "bârâq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "lightning; by analogy, a gleam; concretely, a flashing sword",
+      "hu": ""
+    }
+  },
+  "sw-brq-1301": {
+    "strongs": 1301,
+    "original_word": "בָּרָק",
+    "transliteration": "Bârâq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Barak, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-barqw": {
+    "strongs": 1302,
+    "original_word": "בַּרְקוֹס",
+    "transliteration": "Barqôwç",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Barkos, one of the Nethimim",
+      "hu": ""
+    }
+  },
+  "sw-barqn": {
+    "strongs": 1303,
+    "original_word": "בַּרְקָן",
+    "transliteration": "barqân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a thorn (perhaps as burning brightly)",
+      "hu": ""
+    }
+  },
+  "sw-breqeth": {
+    "strongs": 1304,
+    "original_word": "בָּרֶקֶת",
+    "transliteration": "bâreqeth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a gem (as flashing), perhaps the emerald",
+      "hu": ""
+    }
+  },
+  "sw-brar": {
+    "strongs": 1305,
+    "original_word": "בָּרַר",
+    "transliteration": "bârar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to clarify (i.e. brighten), examine, select",
+      "hu": ""
+    }
+  },
+  "sw-birsha": {
+    "strongs": 1306,
+    "original_word": "בִּרְשַׁע",
+    "transliteration": "Birshaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Birsha, a king of Gomorrah",
+      "hu": ""
+    }
+  },
+  "sw-brthy-1307": {
+    "strongs": 1307,
+    "original_word": "בֵּרֹתִי",
+    "transliteration": "Bêrôthîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Berothite, or inhabitant of Berothai",
+      "hu": ""
+    }
+  },
+  "sw-bswr": {
+    "strongs": 1308,
+    "original_word": "בְּשׂוֹר",
+    "transliteration": "Bᵉsôwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Besor, a stream of Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bswrh": {
+    "strongs": 1309,
+    "original_word": "בְּשׂוֹרָה",
+    "transliteration": "bᵉsôwrâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "glad tidings; by implication, reward forgood news",
+      "hu": ""
+    }
+  },
+  "sw-bshal": {
+    "strongs": 1310,
+    "original_word": "בָּשַׁל",
+    "transliteration": "bâshal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, to boil up; hence, to be done in cooking; figuratively to ripen",
+      "hu": ""
+    }
+  },
+  "sw-bshl": {
+    "strongs": 1311,
+    "original_word": "בָּשֵׁל",
+    "transliteration": "bâshêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "boiled",
+      "hu": ""
+    }
+  },
+  "sw-bishlm": {
+    "strongs": 1312,
+    "original_word": "בִּשְׁלָם",
+    "transliteration": "Bishlâm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bishlam, a Persian",
+      "hu": ""
+    }
+  },
+  "sw-bsm": {
+    "strongs": 1313,
+    "original_word": "בָּשָׂם",
+    "transliteration": "bâsâm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the balsam plant",
+      "hu": ""
+    }
+  },
+  "sw-besem": {
+    "strongs": 1314,
+    "original_word": "בֶּשֶׂם",
+    "transliteration": "besem",
+    "language": "Hebrew",
+    "definition": {
+      "en": "fragrance; by implication, spicery; also the balsam plant",
+      "hu": ""
+    }
+  },
+  "sw-bosmath": {
+    "strongs": 1315,
+    "original_word": "בׇּשְׂמַת",
+    "transliteration": "Bosmath",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bosmath, the name of a wife of Esau, and of a daughter of Solomon",
+      "hu": ""
+    }
+  },
+  "sw-bshn": {
+    "strongs": 1316,
+    "original_word": "בָּשָׁן",
+    "transliteration": "Bâshân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bashan (often with the article), a region East of the Jordan",
+      "hu": ""
+    }
+  },
+  "sw-boshnh": {
+    "strongs": 1317,
+    "original_word": "בׇּשְׁנָה",
+    "transliteration": "boshnâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "shamefulness",
+      "hu": ""
+    }
+  },
+  "sw-bsha": {
+    "strongs": 1318,
+    "original_word": "בָּשַׁס",
+    "transliteration": "bâshaç",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to trample down",
+      "hu": ""
+    }
+  },
+  "sw-bsar": {
+    "strongs": 1319,
+    "original_word": "בָּשַׂר",
+    "transliteration": "bâsar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, to be fresh, i.e. full (rosy, (figuratively) cheerful); to announce (glad news)",
+      "hu": ""
+    }
+  },
+  "sw-bsr": {
+    "strongs": 1320,
+    "original_word": "בָּשָׂר",
+    "transliteration": "bâsâr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "flesh (from its freshness); by extension, body, person; also (by euphemistically) the pudenda of aman",
+      "hu": ""
+    }
+  },
+  "sw-bshar": {
+    "strongs": 1321,
+    "original_word": "בְּשַׁר",
+    "transliteration": "bᵉshar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{flesh (from its freshness); by extension, body, person; also (by euphemistically) the pudenda of aman}",
+      "hu": ""
+    }
+  },
+  "sw-bsheth": {
+    "strongs": 1322,
+    "original_word": "בֹּשֶׁת",
+    "transliteration": "bôsheth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "shame (the feeling and the condition, as well as its cause); by implication (specifically) an idol",
+      "hu": ""
+    }
+  },
+  "sw-bath-1323": {
+    "strongs": 1323,
+    "original_word": "בַּת",
+    "transliteration": "bath",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a daughter (used in the same wide sense as other terms of relationship, literally and figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-bath-1324": {
+    "strongs": 1324,
+    "original_word": "בַּת",
+    "transliteration": "bath",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a bath or Hebrew measure (as a means of division) of liquids",
+      "hu": ""
+    }
+  },
+  "sw-bath-1325": {
+    "strongs": 1325,
+    "original_word": "בַּת",
+    "transliteration": "bath",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{a bath or Hebrew measure (as a means of division) of liquids}",
+      "hu": ""
+    }
+  },
+  "sw-bthh-1326": {
+    "strongs": 1326,
+    "original_word": "בָּתָה",
+    "transliteration": "bâthâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "desolation",
+      "hu": ""
+    }
+  },
+  "sw-batth": {
+    "strongs": 1327,
+    "original_word": "בַּתָּה",
+    "transliteration": "battâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "desolation",
+      "hu": ""
+    }
+  },
+  "sw-bthwl": {
+    "strongs": 1328,
+    "original_word": "בְּתוּאֵל",
+    "transliteration": "Bᵉthûwʼêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bethuel, the name of a nephew of Abraham, and of a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bthwl-1329": {
+    "strongs": 1329,
+    "original_word": "בְּתוּל",
+    "transliteration": "Bᵉthûwl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bethul (i.e. Bethuel), a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bthwlh": {
+    "strongs": 1330,
+    "original_word": "בְּתוּלָה",
+    "transliteration": "bᵉthûwlâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a virgin (from her privacy); sometimes (by continuation) a bride; also (figuratively) a city or state",
+      "hu": ""
+    }
+  },
+  "sw-bthwlym": {
+    "strongs": 1331,
+    "original_word": "בְּתוּלִים",
+    "transliteration": "bᵉthûwlîym",
+    "language": "Hebrew",
+    "definition": {
+      "en": "(collectively and abstractly) virginity; by implication and concretely, the tokens of it",
+      "hu": ""
+    }
+  },
+  "sw-bithyh": {
+    "strongs": 1332,
+    "original_word": "בִּתְיָה",
+    "transliteration": "Bithyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bithjah, an Egyptian woman",
+      "hu": ""
+    }
+  },
+  "sw-bthaq": {
+    "strongs": 1333,
+    "original_word": "בָּתַק",
+    "transliteration": "bâthaq",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to cut in pieces",
+      "hu": ""
+    }
+  },
+  "sw-bthar": {
+    "strongs": 1334,
+    "original_word": "בָּתַר",
+    "transliteration": "bâthar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to chop up",
+      "hu": ""
+    }
+  },
+  "sw-bether": {
+    "strongs": 1335,
+    "original_word": "בֶּתֶר",
+    "transliteration": "bether",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a section",
+      "hu": ""
+    }
+  },
+  "sw-bether-1336": {
+    "strongs": 1336,
+    "original_word": "בֶּתֶר",
+    "transliteration": "Bether",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bether, a (craggy) place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-bathrabbym": {
+    "strongs": 1337,
+    "original_word": "בַּת רַבִּים",
+    "transliteration": "Bath Rabbîym",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the daughter (i.e. city) of Rabbah",
+      "hu": ""
+    }
+  },
+  "sw-bithrwn": {
+    "strongs": 1338,
+    "original_word": "בִּתְרוֹן",
+    "transliteration": "Bithrôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bithron, a place East of the Jordan",
+      "hu": ""
+    }
+  },
+  "sw-bathsheba": {
+    "strongs": 1339,
+    "original_word": "בַּת־שֶׁבַע",
+    "transliteration": "Bath-Shebaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bath-Sheba, the mother of Solomon",
+      "hu": ""
+    }
+  },
+  "sw-bathshwa": {
+    "strongs": 1340,
+    "original_word": "בַּת־שׁוּעַ",
+    "transliteration": "Bath-Shûwaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Bath-shua,",
+      "hu": ""
+    }
+  },
+  "sw-g-1341": {
+    "strongs": 1341,
+    "original_word": "גֵּא",
+    "transliteration": "gêʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "haughty",
+      "hu": ""
+    }
+  },
+  "sw-gh": {
+    "strongs": 1342,
+    "original_word": "גָּאָה",
+    "transliteration": "gâʼâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to mount up; hence, in general, to rise, (figuratively) be majestic",
+      "hu": ""
+    }
+  },
+  "sw-geh": {
+    "strongs": 1343,
+    "original_word": "גֵּאֶה",
+    "transliteration": "gêʼeh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "lofty; figuratively, arrogant",
+      "hu": ""
+    }
+  },
+  "sw-gh-1344": {
+    "strongs": 1344,
+    "original_word": "גֵּאָה",
+    "transliteration": "gêʼâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "arrogance",
+      "hu": ""
+    }
+  },
+  "sw-gwl": {
+    "strongs": 1345,
+    "original_word": "גְּאוּאֵל",
+    "transliteration": "Gᵉʼûwʼêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Geuel, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-gavh": {
+    "strongs": 1346,
+    "original_word": "גַּאֲוָה",
+    "transliteration": "gaʼăvâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "arrogance or majesty; by implication, (concretely) ornament",
+      "hu": ""
+    }
+  },
+  "sw-gwn": {
+    "strongs": 1347,
+    "original_word": "גָּאוֹן",
+    "transliteration": "gâʼôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{arrogance or majesty; by implication, (concretely) ornament}",
+      "hu": ""
+    }
+  },
+  "sw-gwth": {
+    "strongs": 1348,
+    "original_word": "גֵּאוּת",
+    "transliteration": "gêʼûwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{arrogance or majesty; by implication, (concretely) ornament}",
+      "hu": ""
+    }
+  },
+  "sw-gaywn": {
+    "strongs": 1349,
+    "original_word": "גַּאֲיוֹן",
+    "transliteration": "gaʼăyôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "haughty",
+      "hu": ""
+    }
+  },
+  "sw-gal": {
+    "strongs": 1350,
+    "original_word": "גָּאַל",
+    "transliteration": "gâʼal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to be the next of kin (and as such to buy back a relative's property, marry his widow, etc.)",
+      "hu": ""
+    }
+  },
+  "sw-gal-1351": {
+    "strongs": 1351,
+    "original_word": "גָּאַל",
+    "transliteration": "gâʼal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to soil or (figuratively) desecrate",
+      "hu": ""
+    }
+  },
+  "sw-gel": {
+    "strongs": 1352,
+    "original_word": "גֹּאֶל",
+    "transliteration": "gôʼel",
+    "language": "Hebrew",
+    "definition": {
+      "en": "profanation",
+      "hu": ""
+    }
+  },
+  "sw-gullh": {
+    "strongs": 1353,
+    "original_word": "גְּאֻלָּה",
+    "transliteration": "gᵉʼullâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "redemption (including the right and the object); by implication, relationship",
+      "hu": ""
+    }
+  },
+  "sw-gab": {
+    "strongs": 1354,
+    "original_word": "גַב",
+    "transliteration": "gab",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the back (as rounded); by analogy, the top or rim, a boss, a vault, arch of eye, bulwarks, etc.",
+      "hu": ""
+    }
+  },
+  "sw-gab-1355": {
+    "strongs": 1355,
+    "original_word": "גַּב",
+    "transliteration": "gab",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{the back (as rounded); by analogy, the top or rim, a boss, a vault, arch of eye, bulwarks, etc.}",
+      "hu": ""
+    }
+  },
+  "sw-gb": {
+    "strongs": 1356,
+    "original_word": "גֵּב",
+    "transliteration": "gêb",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a log (as cut out); also well or cistern (as dug)",
+      "hu": ""
+    }
+  },
+  "sw-gb-1357": {
+    "strongs": 1357,
+    "original_word": "גֵּב",
+    "transliteration": "gêb",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a locust (from its cutting)",
+      "hu": ""
+    }
+  },
+  "sw-gb-1358": {
+    "strongs": 1358,
+    "original_word": "גֹּב",
+    "transliteration": "gôb",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a pit (for wild animals) (as cut out)",
+      "hu": ""
+    }
+  },
+  "sw-gb-1359": {
+    "strongs": 1359,
+    "original_word": "גֹּב",
+    "transliteration": "Gôb",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gob, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-gebe": {
+    "strongs": 1360,
+    "original_word": "גֶּבֶא",
+    "transliteration": "gebeʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a reservoir; by analogy, a marsh",
+      "hu": ""
+    }
+  },
+  "sw-gbahh": {
+    "strongs": 1361,
+    "original_word": "גָּבַהּ",
+    "transliteration": "gâbahh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to soar, i.e. be lofty; figuratively, to be haughty",
+      "hu": ""
+    }
+  },
+  "sw-gbhh": {
+    "strongs": 1362,
+    "original_word": "גָּבָהּ",
+    "transliteration": "gâbâhh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "lofty (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-gbahh-1363": {
+    "strongs": 1363,
+    "original_word": "גֹּבַהּ",
+    "transliteration": "gôbahh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "elation, grandeur, arrogance",
+      "hu": ""
+    }
+  },
+  "sw-gbahh-1364": {
+    "strongs": 1364,
+    "original_word": "גָּבֹהַּ",
+    "transliteration": "gâbôahh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "elevated (or elated), powerful, arrogant",
+      "hu": ""
+    }
+  },
+  "sw-gabhwth": {
+    "strongs": 1365,
+    "original_word": "גַּבְהוּת",
+    "transliteration": "gabhûwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "pride",
+      "hu": ""
+    }
+  },
+  "sw-gbwl": {
+    "strongs": 1366,
+    "original_word": "גְּבוּל",
+    "transliteration": "gᵉbûwl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, a cord (as twisted), i.e. (by implication) a boundary; by extension the territory inclosed",
+      "hu": ""
+    }
+  },
+  "sw-gbwlh": {
+    "strongs": 1367,
+    "original_word": "גְּבוּלָה",
+    "transliteration": "gᵉbûwlâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a boundary, region",
+      "hu": ""
+    }
+  },
+  "sw-gibbwr": {
+    "strongs": 1368,
+    "original_word": "גִּבּוֹר",
+    "transliteration": "gibbôwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "powerful; by implication, warrior, tyrant",
+      "hu": ""
+    }
+  },
+  "sw-gbwrh": {
+    "strongs": 1369,
+    "original_word": "גְּבוּרָה",
+    "transliteration": "gᵉbûwrâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "force (literally or figuratively); by implication, valor, victory",
+      "hu": ""
+    }
+  },
+  "sw-gbwrh-1370": {
+    "strongs": 1370,
+    "original_word": "גְּבוּרָה",
+    "transliteration": "gᵉbûwrâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "power",
+      "hu": ""
+    }
+  },
+  "sw-gibbach": {
+    "strongs": 1371,
+    "original_word": "גִּבֵּחַ",
+    "transliteration": "gibbêach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "bald in the forehead",
+      "hu": ""
+    }
+  },
+  "sw-gabbachath": {
+    "strongs": 1372,
+    "original_word": "גַּבַּחַת",
+    "transliteration": "gabbachath",
+    "language": "Hebrew",
+    "definition": {
+      "en": "baldness in the forehead; by analogy, a bare spot on the right side of cloth",
+      "hu": ""
+    }
+  },
+  "sw-gabbay": {
+    "strongs": 1373,
+    "original_word": "גַּבַּי",
+    "transliteration": "Gabbay",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gabbai, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-gbym": {
+    "strongs": 1374,
+    "original_word": "גֵּבִים",
+    "transliteration": "Gêbîym",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gebim, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-gbya": {
+    "strongs": 1375,
+    "original_word": "גְּבִיעַ",
+    "transliteration": "gᵉbîyaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a goblet; by analogy, the calyx of aflower",
+      "hu": ""
+    }
+  },
+  "sw-gbyr": {
+    "strongs": 1376,
+    "original_word": "גְּבִיר",
+    "transliteration": "gᵉbîyr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a master",
+      "hu": ""
+    }
+  },
+  "sw-gbyrh": {
+    "strongs": 1377,
+    "original_word": "גְּבִירָה",
+    "transliteration": "gᵉbîyrâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a mistress",
+      "hu": ""
+    }
+  },
+  "sw-gbysh": {
+    "strongs": 1378,
+    "original_word": "גָּבִישׁ",
+    "transliteration": "gâbîysh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "crystal (from its resemblance to ice)",
+      "hu": ""
+    }
+  },
+  "sw-gbal": {
+    "strongs": 1379,
+    "original_word": "גָּבַל",
+    "transliteration": "gâbal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, to twist as arope;  to bound (as by a line)",
+      "hu": ""
+    }
+  },
+  "sw-gbal-1380": {
+    "strongs": 1380,
+    "original_word": "גְּבַל",
+    "transliteration": "Gᵉbal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gebal, a place in Phoenicia",
+      "hu": ""
+    }
+  },
+  "sw-gbl": {
+    "strongs": 1381,
+    "original_word": "גְּבָל",
+    "transliteration": "Gᵉbâl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gebal, a region in Idumaea",
+      "hu": ""
+    }
+  },
+  "sw-gibly": {
+    "strongs": 1382,
+    "original_word": "גִּבְלִי",
+    "transliteration": "Giblîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Gebalite, or inhabitant of Gebal",
+      "hu": ""
+    }
+  },
+  "sw-gabluth": {
+    "strongs": 1383,
+    "original_word": "גַּבְלֻת",
+    "transliteration": "gabluth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a twisted chain or lace",
+      "hu": ""
+    }
+  },
+  "sw-gibbn": {
+    "strongs": 1384,
+    "original_word": "גִּבֵּן",
+    "transliteration": "gibbên",
+    "language": "Hebrew",
+    "definition": {
+      "en": "hunch-backed",
+      "hu": ""
+    }
+  },
+  "sw-gbinh": {
+    "strongs": 1385,
+    "original_word": "גְּבִנָה",
+    "transliteration": "gᵉbinâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "curdled milk",
+      "hu": ""
+    }
+  },
+  "sw-gabnn": {
+    "strongs": 1386,
+    "original_word": "גַּבְנֹן",
+    "transliteration": "gabnôn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a hump or peak of hills",
+      "hu": ""
+    }
+  },
+  "sw-geba": {
+    "strongs": 1387,
+    "original_word": "גֶּבַע",
+    "transliteration": "Gebaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Geba, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-gib": {
+    "strongs": 1388,
+    "original_word": "גִּבְעָא",
+    "transliteration": "Gibʻâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Giba, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-gibh": {
+    "strongs": 1389,
+    "original_word": "גִּבְעָה",
+    "transliteration": "gibʻâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a hillock",
+      "hu": ""
+    }
+  },
+  "sw-gibh-1390": {
+    "strongs": 1390,
+    "original_word": "גִּבְעָה",
+    "transliteration": "Gibʻâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gibah; the name of three places in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-gibwn": {
+    "strongs": 1391,
+    "original_word": "גִּבְעוֹן",
+    "transliteration": "Gibʻôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gibon, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-gibl": {
+    "strongs": 1392,
+    "original_word": "גִּבְעֹל",
+    "transliteration": "gibʻôl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the calyx of a flower",
+      "hu": ""
+    }
+  },
+  "sw-gibny": {
+    "strongs": 1393,
+    "original_word": "גִּבְעֹנִי",
+    "transliteration": "Gibʻônîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Gibonite, or inhabitant of Gibon",
+      "hu": ""
+    }
+  },
+  "sw-gibath": {
+    "strongs": 1394,
+    "original_word": "גִּבְעַת",
+    "transliteration": "Gibʻath",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gibath",
+      "hu": ""
+    }
+  },
+  "sw-gibthy": {
+    "strongs": 1395,
+    "original_word": "גִּבְעָתִי",
+    "transliteration": "Gibʻâthîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Gibathite, or inhabitant of Gibath",
+      "hu": ""
+    }
+  },
+  "sw-gbar": {
+    "strongs": 1396,
+    "original_word": "גָּבַר",
+    "transliteration": "gâbar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to be strong; by implication, to prevail, act insolently",
+      "hu": ""
+    }
+  },
+  "sw-geber": {
+    "strongs": 1397,
+    "original_word": "גֶּבֶר",
+    "transliteration": "geber",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, a valiant man or warrior; generally, a person simply",
+      "hu": ""
+    }
+  },
+  "sw-geber-1398": {
+    "strongs": 1398,
+    "original_word": "גֶּבֶר",
+    "transliteration": "Geber",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Geber, the name of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-gbar-1399": {
+    "strongs": 1399,
+    "original_word": "גְּבַר",
+    "transliteration": "gᵉbar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a person",
+      "hu": ""
+    }
+  },
+  "sw-gbar-1400": {
+    "strongs": 1400,
+    "original_word": "גְּבַר",
+    "transliteration": "gᵉbar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{a person}",
+      "hu": ""
+    }
+  },
+  "sw-gibbr": {
+    "strongs": 1401,
+    "original_word": "גִּבָּר",
+    "transliteration": "gibbâr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "valiant, or warrior",
+      "hu": ""
+    }
+  },
+  "sw-gibbr-1402": {
+    "strongs": 1402,
+    "original_word": "גִּבָּר",
+    "transliteration": "Gibbâr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gibbar, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-gabryl": {
+    "strongs": 1403,
+    "original_word": "גַּבְרִיאֵל",
+    "transliteration": "Gabrîyʼêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gabriel, an archangel",
+      "hu": ""
+    }
+  },
+  "sw-gbereth": {
+    "strongs": 1404,
+    "original_word": "גְּבֶרֶת",
+    "transliteration": "gᵉbereth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "mistress",
+      "hu": ""
+    }
+  },
+  "sw-gibbthwn": {
+    "strongs": 1405,
+    "original_word": "גִּבְּתוֹן",
+    "transliteration": "Gibbᵉthôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gibbethon, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-gg": {
+    "strongs": 1406,
+    "original_word": "גָּג",
+    "transliteration": "gâg",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a roof; by analogy, the top of an altar",
+      "hu": ""
+    }
+  },
+  "sw-gad": {
+    "strongs": 1407,
+    "original_word": "גַּד",
+    "transliteration": "gad",
+    "language": "Hebrew",
+    "definition": {
+      "en": "coriander seed (from its furrows)",
+      "hu": ""
+    }
+  },
+  "sw-gad-1408": {
+    "strongs": 1408,
+    "original_word": "גַּד",
+    "transliteration": "Gad",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Fortune, a Babylonian deity",
+      "hu": ""
+    }
+  },
+  "sw-gd": {
+    "strongs": 1409,
+    "original_word": "גָּד",
+    "transliteration": "gâd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "fortune",
+      "hu": ""
+    }
+  },
+  "sw-gd-1410": {
+    "strongs": 1410,
+    "original_word": "גָּד",
+    "transliteration": "Gâd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gad, a son of Jacob, including his tribe and its territory; also a prophet",
+      "hu": ""
+    }
+  },
+  "sw-gdbr": {
+    "strongs": 1411,
+    "original_word": "גְּדָבָר",
+    "transliteration": "gᵉdâbâr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a treasurer",
+      "hu": ""
+    }
+  },
+  "sw-gudgdh": {
+    "strongs": 1412,
+    "original_word": "גֻּדְגֹּדָה",
+    "transliteration": "Gudgôdâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gudgodah, a place in the Desert",
+      "hu": ""
+    }
+  },
+  "sw-gdad": {
+    "strongs": 1413,
+    "original_word": "גָּדַד",
+    "transliteration": "gâdad",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to crowd; also to gash (as if by pressing into)",
+      "hu": ""
+    }
+  },
+  "sw-gdad-1414": {
+    "strongs": 1414,
+    "original_word": "גְּדַד",
+    "transliteration": "gᵉdad",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to cut down",
+      "hu": ""
+    }
+  },
+  "sw-gdh": {
+    "strongs": 1415,
+    "original_word": "גָּדָה",
+    "transliteration": "gâdâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a border of a river (as cut into by the stream)",
+      "hu": ""
+    }
+  },
+  "sw-gdwd": {
+    "strongs": 1416,
+    "original_word": "גְּדוּד",
+    "transliteration": "gᵉdûwd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a crowd (especially of soldiers)",
+      "hu": ""
+    }
+  },
+  "sw-gdwd-1417": {
+    "strongs": 1417,
+    "original_word": "גְּדוּד",
+    "transliteration": "gᵉdûwd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a furrow (as cut)",
+      "hu": ""
+    }
+  },
+  "sw-gdwdh": {
+    "strongs": 1418,
+    "original_word": "גְּדוּדָה",
+    "transliteration": "gᵉdûwdâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an incision",
+      "hu": ""
+    }
+  },
+  "sw-gdwl": {
+    "strongs": 1419,
+    "original_word": "גָּדוֹל",
+    "transliteration": "gâdôwl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "great (in any sense); hence, older; also insolent",
+      "hu": ""
+    }
+  },
+  "sw-gdwlh": {
+    "strongs": 1420,
+    "original_word": "גְּדוּלָה",
+    "transliteration": "gᵉdûwlâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "greatness; (concretely) mighty acts",
+      "hu": ""
+    }
+  },
+  "sw-giddwph": {
+    "strongs": 1421,
+    "original_word": "גִּדּוּף",
+    "transliteration": "giddûwph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "vilification",
+      "hu": ""
+    }
+  },
+  "sw-gdwphh": {
+    "strongs": 1422,
+    "original_word": "גְּדוּפָה",
+    "transliteration": "gᵉdûwphâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a revilement",
+      "hu": ""
+    }
+  },
+  "sw-gdy": {
+    "strongs": 1423,
+    "original_word": "גְּדִי",
+    "transliteration": "gᵉdîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a young goat (from browsing)",
+      "hu": ""
+    }
+  },
+  "sw-gdy-1424": {
+    "strongs": 1424,
+    "original_word": "גָּדִי",
+    "transliteration": "Gâdîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gadi, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-gdy-1425": {
+    "strongs": 1425,
+    "original_word": "גָּדִי",
+    "transliteration": "Gâdîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Gadite (collectively) or descendants of Gad",
+      "hu": ""
+    }
+  },
+  "sw-gaddy": {
+    "strongs": 1426,
+    "original_word": "גַּדִּי",
+    "transliteration": "Gaddîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gaddi, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-gaddyl": {
+    "strongs": 1427,
+    "original_word": "גַּדִּיאֵל",
+    "transliteration": "Gaddîyʼêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gaddiel, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-gidyh": {
+    "strongs": 1428,
+    "original_word": "גִּדְיָה",
+    "transliteration": "gidyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a river brink",
+      "hu": ""
+    }
+  },
+  "sw-gdyh": {
+    "strongs": 1429,
+    "original_word": "גְּדִיָּה",
+    "transliteration": "gᵉdîyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a young female goat",
+      "hu": ""
+    }
+  },
+  "sw-gdysh": {
+    "strongs": 1430,
+    "original_word": "גָּדִישׁ",
+    "transliteration": "gâdîysh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a stack of sheaves; by analogy, a tomb",
+      "hu": ""
+    }
+  },
+  "sw-gdal": {
+    "strongs": 1431,
+    "original_word": "גָּדַל",
+    "transliteration": "gâdal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to be (causatively make) large (in various senses, as in body, mind, estate or honor, also in pride)",
+      "hu": ""
+    }
+  },
+  "sw-gdl": {
+    "strongs": 1432,
+    "original_word": "גָּדֵל",
+    "transliteration": "gâdêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "large (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-gdel": {
+    "strongs": 1433,
+    "original_word": "גֹּדֶל",
+    "transliteration": "gôdel",
+    "language": "Hebrew",
+    "definition": {
+      "en": "magnitude (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-gdil": {
+    "strongs": 1434,
+    "original_word": "גְּדִל",
+    "transliteration": "gᵉdil",
+    "language": "Hebrew",
+    "definition": {
+      "en": "thread, i.e. a tassel or festoon",
+      "hu": ""
+    }
+  },
+  "sw-giddl": {
+    "strongs": 1435,
+    "original_word": "גִּדֵּל",
+    "transliteration": "Giddêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Giddel, the name of one of the Nethinim, also of one of 'Solomon's servants'",
+      "hu": ""
+    }
+  },
+  "sw-gdalyh": {
+    "strongs": 1436,
+    "original_word": "גְּדַּלְיָה",
+    "transliteration": "Gᵉdalyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gedaljah, the name of five Israelites",
+      "hu": ""
+    }
+  },
+  "sw-giddalty": {
+    "strongs": 1437,
+    "original_word": "גִּדַּלְתִּי",
+    "transliteration": "Giddaltîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Giddalti, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-gda": {
+    "strongs": 1438,
+    "original_word": "גָּדַע",
+    "transliteration": "gâdaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to fell a tree; generally, to destroy anything",
+      "hu": ""
+    }
+  },
+  "sw-gidwn": {
+    "strongs": 1439,
+    "original_word": "גִּדְעוֹן",
+    "transliteration": "Gidʻôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gidon, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-gidm": {
+    "strongs": 1440,
+    "original_word": "גִּדְעֹם",
+    "transliteration": "Gidʻôm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gidom, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-gidny": {
+    "strongs": 1441,
+    "original_word": "גִּדְעֹנִי",
+    "transliteration": "Gidʻônîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gidoni, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-gdaph": {
+    "strongs": 1442,
+    "original_word": "גָּדַף",
+    "transliteration": "gâdaph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to hack (with words), i.e. revile",
+      "hu": ""
+    }
+  },
+  "sw-gdar": {
+    "strongs": 1443,
+    "original_word": "גָּדַר",
+    "transliteration": "gâdar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to wall in or around",
+      "hu": ""
+    }
+  },
+  "sw-geder": {
+    "strongs": 1444,
+    "original_word": "גֶּדֶר",
+    "transliteration": "geder",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a circumvallation",
+      "hu": ""
+    }
+  },
+  "sw-geder-1445": {
+    "strongs": 1445,
+    "original_word": "גֶּדֶר",
+    "transliteration": "Geder",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Geder, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-gdr": {
+    "strongs": 1446,
+    "original_word": "גְדֹר",
+    "transliteration": "Gᵉdôr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gedor, a place in Palestine; also the name of three Israelites",
+      "hu": ""
+    }
+  },
+  "sw-gdr-1447": {
+    "strongs": 1447,
+    "original_word": "גָּדֵר",
+    "transliteration": "gâdêr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a circumvallation; by implication, an inclosure",
+      "hu": ""
+    }
+  },
+  "sw-gdrh": {
+    "strongs": 1448,
+    "original_word": "גְּדֵרָה",
+    "transliteration": "gᵉdêrâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "enclosure (especially for flocks)",
+      "hu": ""
+    }
+  },
+  "sw-gdrh-1449": {
+    "strongs": 1449,
+    "original_word": "גְּדֵרָה",
+    "transliteration": "Gᵉdêrâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "(with the article) Gederah, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-gdrwth": {
+    "strongs": 1450,
+    "original_word": "גְּדֵרוֹת",
+    "transliteration": "Gᵉdêrôwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gederoth, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-gdry": {
+    "strongs": 1451,
+    "original_word": "גְּדֵרִי",
+    "transliteration": "Gᵉdêrîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Gederite, or inhabitant of Geder",
+      "hu": ""
+    }
+  },
+  "sw-gdrthy": {
+    "strongs": 1452,
+    "original_word": "גְּדֵרָתִי",
+    "transliteration": "Gᵉdêrâthîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Gederathite, or inhabitant of Gederah",
+      "hu": ""
+    }
+  },
+  "sw-gdrthayim": {
+    "strongs": 1453,
+    "original_word": "גְּדֵרֹתַיִם",
+    "transliteration": "Gᵉdêrôthayim",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gederothajim, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-gh-1454": {
+    "strongs": 1454,
+    "original_word": "גֵּה",
+    "transliteration": "gêh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "this",
+      "hu": ""
+    }
+  },
+  "sw-ghh": {
+    "strongs": 1455,
+    "original_word": "גָּהָה",
+    "transliteration": "gâhâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to remove (a bandage from a wound, i.e. heal it)",
+      "hu": ""
+    }
+  },
+  "sw-ghh-1456": {
+    "strongs": 1456,
+    "original_word": "גֵּהָה",
+    "transliteration": "gêhâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a cure",
+      "hu": ""
+    }
+  },
+  "sw-ghar": {
+    "strongs": 1457,
+    "original_word": "גָּהַר",
+    "transliteration": "gâhar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to prostrate oneself",
+      "hu": ""
+    }
+  },
+  "sw-gav": {
+    "strongs": 1458,
+    "original_word": "גַּו",
+    "transliteration": "gav",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the back",
+      "hu": ""
+    }
+  },
+  "sw-gav-1459": {
+    "strongs": 1459,
+    "original_word": "גַּו",
+    "transliteration": "gav",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the middle",
+      "hu": ""
+    }
+  },
+  "sw-gv": {
+    "strongs": 1460,
+    "original_word": "גֵּו",
+    "transliteration": "gêv",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the back; by analogy, the middle",
+      "hu": ""
+    }
+  },
+  "sw-gwb": {
+    "strongs": 1461,
+    "original_word": "גּוּב",
+    "transliteration": "gûwb",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to dig",
+      "hu": ""
+    }
+  },
+  "sw-gwb-1462": {
+    "strongs": 1462,
+    "original_word": "גּוֹב",
+    "transliteration": "gôwb",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the locust (from its grubbing as a larvae)",
+      "hu": ""
+    }
+  },
+  "sw-gwg": {
+    "strongs": 1463,
+    "original_word": "גּוֹג",
+    "transliteration": "Gôwg",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gog, the name of an Israelite, also of some nothern nation",
+      "hu": ""
+    }
+  },
+  "sw-gwd": {
+    "strongs": 1464,
+    "original_word": "גּוּד",
+    "transliteration": "gûwd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to crowd upon, i.e. attack",
+      "hu": ""
+    }
+  },
+  "sw-gvh": {
+    "strongs": 1465,
+    "original_word": "גֵּוָה",
+    "transliteration": "gêvâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the back, i.e. (by extensive) the person",
+      "hu": ""
+    }
+  },
+  "sw-gvh-1466": {
+    "strongs": 1466,
+    "original_word": "גֵּוָה",
+    "transliteration": "gêvâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "exaltation; (figuratively) arrogance",
+      "hu": ""
+    }
+  },
+  "sw-gvh-1467": {
+    "strongs": 1467,
+    "original_word": "גֵּוָה",
+    "transliteration": "gêvâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{exaltation; (figuratively) arrogance}",
+      "hu": ""
+    }
+  },
+  "sw-gwz-1468": {
+    "strongs": 1468,
+    "original_word": "גּוּז",
+    "transliteration": "gûwz",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, to shear off; but used only in the (figuratively) sense of passing rapidly",
+      "hu": ""
+    }
+  },
+  "sw-gwzl": {
+    "strongs": 1469,
+    "original_word": "גּוֹזָל",
+    "transliteration": "gôwzâl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a nestling (as being comparatively nude of feathers)",
+      "hu": ""
+    }
+  },
+  "sw-gwzn": {
+    "strongs": 1470,
+    "original_word": "גּוֹזָן",
+    "transliteration": "Gôwzân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gozan, a province of Assyria",
+      "hu": ""
+    }
+  },
+  "sw-gwy": {
+    "strongs": 1471,
+    "original_word": "גּוֹי",
+    "transliteration": "gôwy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a foreign nation; hence, a Gentile; also (figuratively) a troop of animals, or a flight of locusts",
+      "hu": ""
+    }
+  },
+  "sw-gvyh": {
+    "strongs": 1472,
+    "original_word": "גְּוִיָּה",
+    "transliteration": "gᵉvîyâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a body, whether alive or dead",
+      "hu": ""
+    }
+  },
+  "sw-gwlh": {
+    "strongs": 1473,
+    "original_word": "גּוֹלָה",
+    "transliteration": "gôwlâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "exile; concretely and collectively exiles",
+      "hu": ""
+    }
+  },
+  "sw-gwln": {
+    "strongs": 1474,
+    "original_word": "גּוֹלָן",
+    "transliteration": "Gôwlân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Golan, a place east of the Jordan",
+      "hu": ""
+    }
+  },
+  "sw-gwmmts": {
+    "strongs": 1475,
+    "original_word": "גּוּמָּץ",
+    "transliteration": "gûwmmâts",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a pit",
+      "hu": ""
+    }
+  },
+  "sw-gwny": {
+    "strongs": 1476,
+    "original_word": "גּוּנִי",
+    "transliteration": "Gûwnîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Guni, the name of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-gwny-1477": {
+    "strongs": 1477,
+    "original_word": "גּוּנִי",
+    "transliteration": "Gûwnîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Gunite (collectively with article prefix) or descendants of Guni",
+      "hu": ""
+    }
+  },
+  "sw-gva": {
+    "strongs": 1478,
+    "original_word": "גָּוַע",
+    "transliteration": "gâvaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to breathe out, i.e. (by implication) expire",
+      "hu": ""
+    }
+  },
+  "sw-gwph": {
+    "strongs": 1479,
+    "original_word": "גּוּף",
+    "transliteration": "gûwph",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, to hollow or arch, i.e. (figuratively) close; to shut",
+      "hu": ""
+    }
+  },
+  "sw-gwphh": {
+    "strongs": 1480,
+    "original_word": "גּוּפָה",
+    "transliteration": "gûwphâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a corpse (as closed to sense)",
+      "hu": ""
+    }
+  },
+  "sw-gwr-1481": {
+    "strongs": 1481,
+    "original_word": "גּוּר",
+    "transliteration": "gûwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, to turn aside from the road (for a lodging or any other purpose), i.e. sojourn (as a guest); also to shrink, fear (as in a strange place); also to gather forhostility (as afraid)",
+      "hu": ""
+    }
+  },
+  "sw-gwr-1482": {
+    "strongs": 1482,
+    "original_word": "גּוּר",
+    "transliteration": "gûwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a cub (as still abiding in the lair), especially of the lion",
+      "hu": ""
+    }
+  },
+  "sw-gwr-1483": {
+    "strongs": 1483,
+    "original_word": "גּוּר",
+    "transliteration": "Gûwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gur, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-gwr-1484": {
+    "strongs": 1484,
+    "original_word": "גּוֹר",
+    "transliteration": "gôwr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{a cub (as still abiding in the lair), especially of the lion}",
+      "hu": ""
+    }
+  },
+  "sw-gwrbaal": {
+    "strongs": 1485,
+    "original_word": "גּוּר־בַּעַל",
+    "transliteration": "Gûwr-Baʻal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gur-Baal, a place in Arabia",
+      "hu": ""
+    }
+  },
+  "sw-gwrl": {
+    "strongs": 1486,
+    "original_word": "גּוֹרָל",
+    "transliteration": "gôwrâl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, a pebble, i.e. a lot (small stones being used for that purpose); figuratively, a portion or destiny (as if determined by lot)",
+      "hu": ""
+    }
+  },
+  "sw-gwsh": {
+    "strongs": 1487,
+    "original_word": "גּוּשׁ",
+    "transliteration": "gûwsh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a mass of earth",
+      "hu": ""
+    }
+  },
+  "sw-gz": {
+    "strongs": 1488,
+    "original_word": "גֵּז",
+    "transliteration": "gêz",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a fleece (as shorn); also mown grass",
+      "hu": ""
+    }
+  },
+  "sw-gizbr": {
+    "strongs": 1489,
+    "original_word": "גִּזְבָּר",
+    "transliteration": "gizbâr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "treasurer",
+      "hu": ""
+    }
+  },
+  "sw-gizbr-1490": {
+    "strongs": 1490,
+    "original_word": "גִּזְבָּר",
+    "transliteration": "gizbâr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{treasurer}",
+      "hu": ""
+    }
+  },
+  "sw-gzh": {
+    "strongs": 1491,
+    "original_word": "גָּזָה",
+    "transliteration": "gâzâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to cut off, i.e. portion out",
+      "hu": ""
+    }
+  },
+  "sw-gzzah": {
+    "strongs": 1492,
+    "original_word": "גָּזַּה",
+    "transliteration": "gâzzah",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a fleece",
+      "hu": ""
+    }
+  },
+  "sw-gizwny": {
+    "strongs": 1493,
+    "original_word": "גִּזוֹנִי",
+    "transliteration": "Gizôwnîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Gizonite or inhabitant of Gizoh",
+      "hu": ""
+    }
+  },
+  "sw-gazz": {
+    "strongs": 1494,
+    "original_word": "גַּזָז",
+    "transliteration": "gazâz",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to cut off; specifically to shear aflock or shave the hair; figuratively to destroy an enemy",
+      "hu": ""
+    }
+  },
+  "sw-gzz": {
+    "strongs": 1495,
+    "original_word": "גָּזֵז",
+    "transliteration": "Gâzêz",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gazez, the name of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-gzyth": {
+    "strongs": 1496,
+    "original_word": "גָּזִית",
+    "transliteration": "gâzîyth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something cut, i.e. dressed stone",
+      "hu": ""
+    }
+  },
+  "sw-gzal": {
+    "strongs": 1497,
+    "original_word": "גָּזַל",
+    "transliteration": "gâzal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to pluck off; specifically to flay, strip or rob",
+      "hu": ""
+    }
+  },
+  "sw-gzl": {
+    "strongs": 1498,
+    "original_word": "גָּזֵל",
+    "transliteration": "gâzêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "robbery, or (concretely) plunder",
+      "hu": ""
+    }
+  },
+  "sw-gzel": {
+    "strongs": 1499,
+    "original_word": "גֵּזֶל",
+    "transliteration": "gêzel",
+    "language": "Hebrew",
+    "definition": {
+      "en": "plunder, i.e. violence",
+      "hu": ""
+    }
+  },
+  "sw-gzlh": {
+    "strongs": 1500,
+    "original_word": "גְּזֵלָה",
+    "transliteration": "gᵉzêlâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{robbery, or (concretely) plunder}",
+      "hu": ""
+    }
+  },
+  "sw-gzm": {
+    "strongs": 1501,
+    "original_word": "גָּזָם",
+    "transliteration": "gâzâm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a kind of locust",
+      "hu": ""
+    }
+  },
+  "sw-gazzm": {
+    "strongs": 1502,
+    "original_word": "גַּזָּם",
+    "transliteration": "Gazzâm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gazzam, one of the Nethinim",
+      "hu": ""
+    }
+  },
+  "sw-geza": {
+    "strongs": 1503,
+    "original_word": "גֶּזַע",
+    "transliteration": "gezaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the trunk or stump of atree (as felled or as planted)",
+      "hu": ""
+    }
+  },
+  "sw-gzar": {
+    "strongs": 1504,
+    "original_word": "גָּזַר",
+    "transliteration": "gâzar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to cut down or off; (figuratively) to destroy, divide, exclude, or decide",
+      "hu": ""
+    }
+  },
+  "sw-gzar-1505": {
+    "strongs": 1505,
+    "original_word": "גְּזַר",
+    "transliteration": "gᵉzar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to quarry; determine",
+      "hu": ""
+    }
+  },
+  "sw-gezer": {
+    "strongs": 1506,
+    "original_word": "גֶּזֶר",
+    "transliteration": "gezer",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something cut off; a portion",
+      "hu": ""
+    }
+  },
+  "sw-gezer-1507": {
+    "strongs": 1507,
+    "original_word": "גֶּזֶר",
+    "transliteration": "Gezer",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gezer, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-gizrh": {
+    "strongs": 1508,
+    "original_word": "גִּזְרָה",
+    "transliteration": "gizrâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the figure or person (as if cut out); also an inclosure (as separated)",
+      "hu": ""
+    }
+  },
+  "sw-gzrh": {
+    "strongs": 1509,
+    "original_word": "גְּזֵרָה",
+    "transliteration": "gᵉzêrâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a desert (as separated)",
+      "hu": ""
+    }
+  },
+  "sw-gzrh-1510": {
+    "strongs": 1510,
+    "original_word": "גְּזֵרָה",
+    "transliteration": "gᵉzêrâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a decree",
+      "hu": ""
+    }
+  },
+  "sw-gizry": {
+    "strongs": 1511,
+    "original_word": "גִּזְרִי",
+    "transliteration": "Gizrîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Grizite (collectively) or member of a native tribe in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-gchwn": {
+    "strongs": 1512,
+    "original_word": "גָּחוֹן",
+    "transliteration": "gâchôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the external abdomen, belly (as the source of the faetus )",
+      "hu": ""
+    }
+  },
+  "sw-gechel": {
+    "strongs": 1513,
+    "original_word": "גֶּחֶל",
+    "transliteration": "gechel",
+    "language": "Hebrew",
+    "definition": {
+      "en": "an ember",
+      "hu": ""
+    }
+  },
+  "sw-gacham": {
+    "strongs": 1514,
+    "original_word": "גַּחַם",
+    "transliteration": "Gacham",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gacham, a son of Nahor",
+      "hu": ""
+    }
+  },
+  "sw-gachar": {
+    "strongs": 1515,
+    "original_word": "גַּחַר",
+    "transliteration": "Gachar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gachar, one of the Nethinim",
+      "hu": ""
+    }
+  },
+  "sw-gay": {
+    "strongs": 1516,
+    "original_word": "גַּיְא",
+    "transliteration": "gayʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a gorge (from its lofty sides; hence, narrow, but not a gully or winter-torrent)",
+      "hu": ""
+    }
+  },
+  "sw-gyd": {
+    "strongs": 1517,
+    "original_word": "גִּיד",
+    "transliteration": "gîyd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a thong (as compressing); by analogy, a tendon",
+      "hu": ""
+    }
+  },
+  "sw-gyach": {
+    "strongs": 1518,
+    "original_word": "גִּיחַ",
+    "transliteration": "gîyach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to gush forth (as water), generally to issue",
+      "hu": ""
+    }
+  },
+  "sw-gyach-1519": {
+    "strongs": 1519,
+    "original_word": "גִּיחַ",
+    "transliteration": "gîyach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to rush forth",
+      "hu": ""
+    }
+  },
+  "sw-gyach-1520": {
+    "strongs": 1520,
+    "original_word": "גִּיחַ",
+    "transliteration": "Gîyach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Giach, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-gychwn": {
+    "strongs": 1521,
+    "original_word": "גִּיחוֹן",
+    "transliteration": "Gîychôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gichon, a river of Paradise; also a valley (or pool) near Jerusalem",
+      "hu": ""
+    }
+  },
+  "sw-gychzy": {
+    "strongs": 1522,
+    "original_word": "גֵּיחֲזִי",
+    "transliteration": "Gêychăzîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gechazi, the servant of Elisha",
+      "hu": ""
+    }
+  },
+  "sw-gyl": {
+    "strongs": 1523,
+    "original_word": "גִּיל",
+    "transliteration": "gîyl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, to spin round (under the influence of any violent emotion), i.e. usually rejoice, or (as cringing) fear",
+      "hu": ""
+    }
+  },
+  "sw-gyl-1524": {
+    "strongs": 1524,
+    "original_word": "גִּיל",
+    "transliteration": "gîyl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a revolution (of time, i.e. an age); also joy",
+      "hu": ""
+    }
+  },
+  "sw-gylh": {
+    "strongs": 1525,
+    "original_word": "גִּילָה",
+    "transliteration": "gîylâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "joy",
+      "hu": ""
+    }
+  },
+  "sw-gylny": {
+    "strongs": 1526,
+    "original_word": "גִּילֹנִי",
+    "transliteration": "Gîylônîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Gilonite or inhabitant of Giloh",
+      "hu": ""
+    }
+  },
+  "sw-gynath": {
+    "strongs": 1527,
+    "original_word": "גִּינַת",
+    "transliteration": "Gîynath",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ginath, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-gyr": {
+    "strongs": 1528,
+    "original_word": "גִּיר",
+    "transliteration": "gîyr",
+    "language": "Hebrew",
+    "definition": {
+      "en": "lime",
+      "hu": ""
+    }
+  },
+  "sw-gyshn": {
+    "strongs": 1529,
+    "original_word": "גֵּישָׁן",
+    "transliteration": "Gêyshân",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Geshan, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-gal-1530": {
+    "strongs": 1530,
+    "original_word": "גַּל",
+    "transliteration": "gal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "something rolled, i.e. a heap of stone or dung (plural ruins), by analogy, a spring of water (plural waves)",
+      "hu": ""
+    }
+  },
+  "sw-gl": {
+    "strongs": 1531,
+    "original_word": "גֹּל",
+    "transliteration": "gôl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a cup for oil (as round)",
+      "hu": ""
+    }
+  },
+  "sw-gallb": {
+    "strongs": 1532,
+    "original_word": "גַּלָּב",
+    "transliteration": "gallâb",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a barber",
+      "hu": ""
+    }
+  },
+  "sw-gilba": {
+    "strongs": 1533,
+    "original_word": "גִּלְבֹּעַ",
+    "transliteration": "Gilbôaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gilboa, a mountain of Palestine",
+      "hu": ""
+    }
+  },
+  "sw-galgal": {
+    "strongs": 1534,
+    "original_word": "גַּלְגַּל",
+    "transliteration": "galgal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a wheel; by analogy, a whirlwind; also dust (as whirled)",
+      "hu": ""
+    }
+  },
+  "sw-galgal-1535": {
+    "strongs": 1535,
+    "original_word": "גַּלְגַּל",
+    "transliteration": "galgal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a wheel",
+      "hu": ""
+    }
+  },
+  "sw-gilgl": {
+    "strongs": 1536,
+    "original_word": "גִּלְגָּל",
+    "transliteration": "gilgâl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{a wheel; by analogy, a whirlwind; also dust (as whirled)}",
+      "hu": ""
+    }
+  },
+  "sw-gilgl-1537": {
+    "strongs": 1537,
+    "original_word": "גִּלְגָּל",
+    "transliteration": "Gilgâl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gilgal, the name of three places in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-gulgleth": {
+    "strongs": 1538,
+    "original_word": "גֻּלְגֹּלֶת",
+    "transliteration": "gulgôleth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a skull (as round); by implication, a head (in enumeration of persons)",
+      "hu": ""
+    }
+  },
+  "sw-geled": {
+    "strongs": 1539,
+    "original_word": "גֶּלֶד",
+    "transliteration": "geled",
+    "language": "Hebrew",
+    "definition": {
+      "en": "the (human) skin (as smooth)",
+      "hu": ""
+    }
+  },
+  "sw-glh": {
+    "strongs": 1540,
+    "original_word": "גָּלָה",
+    "transliteration": "gâlâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to denude (especially in a disgraceful sense); by implication, to exile (captives being usually stripped); figuratively, to reveal",
+      "hu": ""
+    }
+  },
+  "sw-glh-1541": {
+    "strongs": 1541,
+    "original_word": "גְּלָה",
+    "transliteration": "gᵉlâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{to denude (especially in a disgraceful sense); by implication, to exile (captives being usually stripped); figuratively, to reveal}",
+      "hu": ""
+    }
+  },
+  "sw-gilh": {
+    "strongs": 1542,
+    "original_word": "גִּלֹה",
+    "transliteration": "Gilôh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Giloh, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-gullh-1543": {
+    "strongs": 1543,
+    "original_word": "גֻּלָּה",
+    "transliteration": "gullâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a fountain, bowl or globe (all as round)",
+      "hu": ""
+    }
+  },
+  "sw-gillwl": {
+    "strongs": 1544,
+    "original_word": "גִּלּוּל",
+    "transliteration": "gillûwl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, a log (as round); by implication, an idol",
+      "hu": ""
+    }
+  },
+  "sw-glwm": {
+    "strongs": 1545,
+    "original_word": "גְּלוֹם",
+    "transliteration": "gᵉlôwm",
+    "language": "Hebrew",
+    "definition": {
+      "en": "clothing (as wrapped)",
+      "hu": ""
+    }
+  },
+  "sw-glwth": {
+    "strongs": 1546,
+    "original_word": "גָּלוּת",
+    "transliteration": "gâlûwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "captivity; concretely, exiles (collectively)",
+      "hu": ""
+    }
+  },
+  "sw-glwth-1547": {
+    "strongs": 1547,
+    "original_word": "גָּלוּת",
+    "transliteration": "gâlûwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{captivity; concretely, exiles (collectively)}",
+      "hu": ""
+    }
+  },
+  "sw-glach": {
+    "strongs": 1548,
+    "original_word": "גָּלַח",
+    "transliteration": "gâlach",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, to be bald, i.e. (causatively) to shave; figuratively to lay waste",
+      "hu": ""
+    }
+  },
+  "sw-gillywn": {
+    "strongs": 1549,
+    "original_word": "גִּלָּיוֹן",
+    "transliteration": "gillâyôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a tablet for writing (as bare); by analogy, a mirror (as a plate)",
+      "hu": ""
+    }
+  },
+  "sw-glyl": {
+    "strongs": 1550,
+    "original_word": "גָּלִיל",
+    "transliteration": "gâlîyl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a valve of a folding door (as turning); also a ring (as round)",
+      "hu": ""
+    }
+  },
+  "sw-glyl-1551": {
+    "strongs": 1551,
+    "original_word": "גָּלִיל",
+    "transliteration": "Gâlîyl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Galil (as a special circuit) in the North of Palestine",
+      "hu": ""
+    }
+  },
+  "sw-glylh": {
+    "strongs": 1552,
+    "original_word": "גְלִילָה",
+    "transliteration": "gᵉlîylâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a circuit or region",
+      "hu": ""
+    }
+  },
+  "sw-glylwth": {
+    "strongs": 1553,
+    "original_word": "גְּלִילוֹת",
+    "transliteration": "Gᵉlîylôwth",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Geliloth, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-gallym": {
+    "strongs": 1554,
+    "original_word": "גַּלִּים",
+    "transliteration": "Gallîym",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gallim, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-golyath": {
+    "strongs": 1555,
+    "original_word": "גׇּלְיַת",
+    "transliteration": "Golyath",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Goljath, a Philistine",
+      "hu": ""
+    }
+  },
+  "sw-glal": {
+    "strongs": 1556,
+    "original_word": "גָּלַל",
+    "transliteration": "gâlal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to roll (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-gll": {
+    "strongs": 1557,
+    "original_word": "גָּלָל",
+    "transliteration": "gâlâl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "dung (as in balls)",
+      "hu": ""
+    }
+  },
+  "sw-gll-1558": {
+    "strongs": 1558,
+    "original_word": "גָּלָל",
+    "transliteration": "gâlâl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a circumstance (as rolled around); only used adverbially, on account of",
+      "hu": ""
+    }
+  },
+  "sw-gll-1559": {
+    "strongs": 1559,
+    "original_word": "גָּלָל",
+    "transliteration": "Gâlâl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Galal, the name of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-gll-1560": {
+    "strongs": 1560,
+    "original_word": "גְּלָל",
+    "transliteration": "gᵉlâl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "weight or size (as if rolled)",
+      "hu": ""
+    }
+  },
+  "sw-glel": {
+    "strongs": 1561,
+    "original_word": "גֵּלֶל",
+    "transliteration": "gêlel",
+    "language": "Hebrew",
+    "definition": {
+      "en": "dung (plural balls of dung)",
+      "hu": ""
+    }
+  },
+  "sw-gillay": {
+    "strongs": 1562,
+    "original_word": "גִּלֲלַי",
+    "transliteration": "Gilălay",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gilalai, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-glam": {
+    "strongs": 1563,
+    "original_word": "גָּלַם",
+    "transliteration": "gâlam",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to fold",
+      "hu": ""
+    }
+  },
+  "sw-glem": {
+    "strongs": 1564,
+    "original_word": "גֹּלֶם",
+    "transliteration": "gôlem",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a wrapped (and unformed mass, i.e. as the embryo)",
+      "hu": ""
+    }
+  },
+  "sw-galmwd": {
+    "strongs": 1565,
+    "original_word": "גַּלְמוּד",
+    "transliteration": "galmûwd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "sterile (as wrapped up too hard); figuratively, desolate",
+      "hu": ""
+    }
+  },
+  "sw-gla": {
+    "strongs": 1566,
+    "original_word": "גָּלַע",
+    "transliteration": "gâlaʻ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to be obstinate",
+      "hu": ""
+    }
+  },
+  "sw-gald": {
+    "strongs": 1567,
+    "original_word": "גַּלְעֵד",
+    "transliteration": "Galʻêd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Galed, a memorial cairn East of the Jordan",
+      "hu": ""
+    }
+  },
+  "sw-gild": {
+    "strongs": 1568,
+    "original_word": "גִּלְעָד",
+    "transliteration": "Gilʻâd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gilad, a region East of the Jordan; also the name of three Israelites",
+      "hu": ""
+    }
+  },
+  "sw-gildy": {
+    "strongs": 1569,
+    "original_word": "גִּלְעָדִי",
+    "transliteration": "Gilʻâdîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a Giladite or descendant of Gilad",
+      "hu": ""
+    }
+  },
+  "sw-glash": {
+    "strongs": 1570,
+    "original_word": "גָּלַשׁ",
+    "transliteration": "gâlash",
+    "language": "Hebrew",
+    "definition": {
+      "en": "probably to caper (as a goat)",
+      "hu": ""
+    }
+  },
+  "sw-gam-1571": {
+    "strongs": 1571,
+    "original_word": "גַּם",
+    "transliteration": "gam",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, assemblage; used only adverbially also, even, yea, though; often repeated as correl. both...and",
+      "hu": ""
+    }
+  },
+  "sw-gm-1572": {
+    "strongs": 1572,
+    "original_word": "גָּמָא",
+    "transliteration": "gâmâʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to absorb",
+      "hu": ""
+    }
+  },
+  "sw-gme": {
+    "strongs": 1573,
+    "original_word": "גֹּמֶא",
+    "transliteration": "gômeʼ",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, an absorbent, i.e. the bulrush (from its porosity); specifically the papyrus",
+      "hu": ""
+    }
+  },
+  "sw-gmed": {
+    "strongs": 1574,
+    "original_word": "גֹּמֶד",
+    "transliteration": "gômed",
+    "language": "Hebrew",
+    "definition": {
+      "en": "properly, a span",
+      "hu": ""
+    }
+  },
+  "sw-gammd": {
+    "strongs": 1575,
+    "original_word": "גַּמָּד",
+    "transliteration": "gammâd",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a warrior (as grasping weapons)",
+      "hu": ""
+    }
+  },
+  "sw-gmwl": {
+    "strongs": 1576,
+    "original_word": "גְּמוּל",
+    "transliteration": "gᵉmûwl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "treatment, i.e. an act (of good or ill); by implication, service or requital",
+      "hu": ""
+    }
+  },
+  "sw-gmwl-1577": {
+    "strongs": 1577,
+    "original_word": "גָּמוּל",
+    "transliteration": "gâmûwl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gamul, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-gmwlh": {
+    "strongs": 1578,
+    "original_word": "גְּמוּלָה",
+    "transliteration": "gᵉmûwlâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "meaning the same",
+      "hu": ""
+    }
+  },
+  "sw-gimzw": {
+    "strongs": 1579,
+    "original_word": "גִּמְזוֹ",
+    "transliteration": "Gimzôw",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gimzo, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-gmal": {
+    "strongs": 1580,
+    "original_word": "גָּמַל",
+    "transliteration": "gâmal",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to treat a person (well or ill), i.e. benefit or requite; by implication (of toil), to ripen, i.e. (specifically) to wean",
+      "hu": ""
+    }
+  },
+  "sw-gml": {
+    "strongs": 1581,
+    "original_word": "גָּמָל",
+    "transliteration": "gâmâl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a camel",
+      "hu": ""
+    }
+  },
+  "sw-gmally": {
+    "strongs": 1582,
+    "original_word": "גְּמַלִּי",
+    "transliteration": "Gᵉmallîy",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gemalli, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-gamlyl": {
+    "strongs": 1583,
+    "original_word": "גַּמְלִיאֵל",
+    "transliteration": "Gamlîyʼêl",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gamliel, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-gmar": {
+    "strongs": 1584,
+    "original_word": "גָּמַר",
+    "transliteration": "gâmar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to end (in the sense of completion or failure)",
+      "hu": ""
+    }
+  },
+  "sw-gmar-1585": {
+    "strongs": 1585,
+    "original_word": "גְּמַר",
+    "transliteration": "gᵉmar",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{to end (in the sense of completion or failure)}",
+      "hu": ""
+    }
+  },
+  "sw-gmer": {
+    "strongs": 1586,
+    "original_word": "גֹּמֶר",
+    "transliteration": "Gômer",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gomer, the name of a son of Japheth and of his descendants; also of a Hebrewess",
+      "hu": ""
+    }
+  },
+  "sw-gmaryh": {
+    "strongs": 1587,
+    "original_word": "גְּמַרְיָה",
+    "transliteration": "Gᵉmaryâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Gemarjah, the name of two Israelites",
+      "hu": ""
+    }
+  },
+  "sw-gan": {
+    "strongs": 1588,
+    "original_word": "גַּן",
+    "transliteration": "gan",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a garden (as fenced)",
+      "hu": ""
+    }
+  },
+  "sw-gnab": {
+    "strongs": 1589,
+    "original_word": "גָּנַב",
+    "transliteration": "gânab",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to thieve (literally or figuratively); by implication, to deceive",
+      "hu": ""
+    }
+  },
+  "sw-gannb": {
+    "strongs": 1590,
+    "original_word": "גַּנָּב",
+    "transliteration": "gannâb",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a stealer",
+      "hu": ""
+    }
+  },
+  "sw-gnbh": {
+    "strongs": 1591,
+    "original_word": "גְּנֵבָה",
+    "transliteration": "gᵉnêbâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "stealing, i.e. (concretely) something stolen",
+      "hu": ""
+    }
+  },
+  "sw-gnubath": {
+    "strongs": 1592,
+    "original_word": "גְּנֻבַת",
+    "transliteration": "Gᵉnubath",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Genubath, an Edomitish prince",
+      "hu": ""
+    }
+  },
+  "sw-gannh": {
+    "strongs": 1593,
+    "original_word": "גַּנָּה",
+    "transliteration": "gannâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a garden",
+      "hu": ""
+    }
+  },
+  "sw-ginnh": {
+    "strongs": 1594,
+    "original_word": "גִּנָּה",
+    "transliteration": "ginnâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "{a garden}",
+      "hu": ""
+    }
+  },
+  "sw-genez": {
+    "strongs": 1595,
+    "original_word": "גֶּנֶז",
+    "transliteration": "genez",
+    "language": "Hebrew",
+    "definition": {
+      "en": "treasure; by implication, a coffer",
+      "hu": ""
+    }
+  },
+  "sw-gnaz": {
+    "strongs": 1596,
+    "original_word": "גְּנַז",
+    "transliteration": "gᵉnaz",
+    "language": "Hebrew",
+    "definition": {
+      "en": "treasure",
+      "hu": ""
+    }
+  },
+  "sw-ginzak": {
+    "strongs": 1597,
+    "original_word": "גִּנְזַךְ",
+    "transliteration": "ginzak",
+    "language": "Hebrew",
+    "definition": {
+      "en": "a treasury",
+      "hu": ""
+    }
+  },
+  "sw-gnan": {
+    "strongs": 1598,
+    "original_word": "גָּנַן",
+    "transliteration": "gânan",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to hedge about, i.e. (generally) protect",
+      "hu": ""
+    }
+  },
+  "sw-ginnthwn": {
+    "strongs": 1599,
+    "original_word": "גִּנְּתוֹן",
+    "transliteration": "Ginnᵉthôwn",
+    "language": "Hebrew",
+    "definition": {
+      "en": "Ginnethon or Ginnetho, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-gh-1600": {
+    "strongs": 1600,
+    "original_word": "גָּעָה",
+    "transliteration": "gâʻâh",
+    "language": "Hebrew",
+    "definition": {
+      "en": "to bellow (as cattle)",
+      "hu": ""
+    }
+  }
+}

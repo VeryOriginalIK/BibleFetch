@@ -1,0 +1,4002 @@
+{
+  "sw-g401": {
+    "strongs": 401,
+    "original_word": "ἀνάχυσις",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " properly, effusion, i.e. (figuratively) license",
+      "hu": ""
+    }
+  },
+  "sw-g402": {
+    "strongs": 402,
+    "original_word": "ἀναχωρέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to retire",
+      "hu": ""
+    }
+  },
+  "sw-g403": {
+    "strongs": 403,
+    "original_word": "ἀνάψυξις",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " properly, a recovery of breath, i.e. (figuratively) revival",
+      "hu": ""
+    }
+  },
+  "sw-g404": {
+    "strongs": 404,
+    "original_word": "ἀναψύχω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " properly, to cool off, i.e. (figuratively) relieve",
+      "hu": ""
+    }
+  },
+  "sw-g405": {
+    "strongs": 405,
+    "original_word": "ἀνδραποδιστής",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " an enslaver (as bringing men to his feet)",
+      "hu": ""
+    }
+  },
+  "sw-g406": {
+    "strongs": 406,
+    "original_word": "Ἀνδρέας",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " manly; Andreas, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-g407": {
+    "strongs": 407,
+    "original_word": "ἀνδρίζομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to act manly",
+      "hu": ""
+    }
+  },
+  "sw-g408": {
+    "strongs": 408,
+    "original_word": "Ἀνδρόνικος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " man of victory; Andronicos, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-g409": {
+    "strongs": 409,
+    "original_word": "ἀνδροφόνος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a murderer",
+      "hu": ""
+    }
+  },
+  "sw-g410": {
+    "strongs": 410,
+    "original_word": "ἀνέγκλητος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " unaccused, i.e. (by implication) irreproachable",
+      "hu": ""
+    }
+  },
+  "sw-g411": {
+    "strongs": 411,
+    "original_word": "ἀνεκδιήγητος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " not expounded in full, i.e. indescribable",
+      "hu": ""
+    }
+  },
+  "sw-g412": {
+    "strongs": 412,
+    "original_word": "ἀνεκλάλητος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " not spoken out, i.e. (by implication) unutterable",
+      "hu": ""
+    }
+  },
+  "sw-g413": {
+    "strongs": 413,
+    "original_word": "ἀνέκλειπτος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " not left out, i.e. (by implication) inexhaustible",
+      "hu": ""
+    }
+  },
+  "sw-g414": {
+    "strongs": 414,
+    "original_word": "ἀνεκτότερος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " more endurable",
+      "hu": ""
+    }
+  },
+  "sw-g415": {
+    "strongs": 415,
+    "original_word": "ἀνελεήμων",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " merciless",
+      "hu": ""
+    }
+  },
+  "sw-g416": {
+    "strongs": 416,
+    "original_word": "ἀνεμίζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to toss with the wind",
+      "hu": ""
+    }
+  },
+  "sw-g417": {
+    "strongs": 417,
+    "original_word": "ἄνεμος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " wind; (plural) by implication, (the four) quarters (of the earth)",
+      "hu": ""
+    }
+  },
+  "sw-g418": {
+    "strongs": 418,
+    "original_word": "ἀνένδεκτος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " unadmitted, i.e. (by implication) not supposable",
+      "hu": ""
+    }
+  },
+  "sw-g419": {
+    "strongs": 419,
+    "original_word": "ἀνεξερεύνητος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " not searched out, i.e. (by implication) inscrutable",
+      "hu": ""
+    }
+  },
+  "sw-g420": {
+    "strongs": 420,
+    "original_word": "ἀνεξίκακος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " enduring of ill, i.e. forbearing",
+      "hu": ""
+    }
+  },
+  "sw-g421": {
+    "strongs": 421,
+    "original_word": "ἀνεξιχνίαστος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " not tracked out, i.e. (by implication) untraceable",
+      "hu": ""
+    }
+  },
+  "sw-g422": {
+    "strongs": 422,
+    "original_word": "ἀνεπαίσχυντος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " not ashamed, i.e. irreprehensible: ",
+      "hu": ""
+    }
+  },
+  "sw-g423": {
+    "strongs": 423,
+    "original_word": "ἀνεπίληπτος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " not arrested, i.e. (by implication) inculpable",
+      "hu": ""
+    }
+  },
+  "sw-g424": {
+    "strongs": 424,
+    "original_word": "ἀνέρχομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to ascend",
+      "hu": ""
+    }
+  },
+  "sw-g425": {
+    "strongs": 425,
+    "original_word": "ἄνεσις",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " relaxation or (figuratively) relief",
+      "hu": ""
+    }
+  },
+  "sw-g426": {
+    "strongs": 426,
+    "original_word": "ἀνετάζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to investigate (judicially)",
+      "hu": ""
+    }
+  },
+  "sw-g427": {
+    "strongs": 427,
+    "original_word": "ἄνευ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " without",
+      "hu": ""
+    }
+  },
+  "sw-g428": {
+    "strongs": 428,
+    "original_word": "ἀνεύθετος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " not well set, i.e. inconvenient",
+      "hu": ""
+    }
+  },
+  "sw-g429": {
+    "strongs": 429,
+    "original_word": "ἀνευρίσκω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to find out",
+      "hu": ""
+    }
+  },
+  "sw-g430": {
+    "strongs": 430,
+    "original_word": "ἀνέχομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to hold oneself up against, i.e. (figuratively) put up with",
+      "hu": ""
+    }
+  },
+  "sw-g431": {
+    "strongs": 431,
+    "original_word": "ἀνεψιός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " properly, akin, i.e. (specially) a cousin",
+      "hu": ""
+    }
+  },
+  "sw-g432": {
+    "strongs": 432,
+    "original_word": "ἄνηθον",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " dill",
+      "hu": ""
+    }
+  },
+  "sw-g433": {
+    "strongs": 433,
+    "original_word": "ἀνήκω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to attain to, i.e. (figuratively) be proper",
+      "hu": ""
+    }
+  },
+  "sw-g434": {
+    "strongs": 434,
+    "original_word": "ἀνήμερος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " savage",
+      "hu": ""
+    }
+  },
+  "sw-g435": {
+    "strongs": 435,
+    "original_word": "ἀνήρ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a man (properly as an individual male)",
+      "hu": ""
+    }
+  },
+  "sw-g436": {
+    "strongs": 436,
+    "original_word": "ἀνθίστημι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to stand against, i.e. oppose",
+      "hu": ""
+    }
+  },
+  "sw-g437": {
+    "strongs": 437,
+    "original_word": "ἀνθομολογέομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to confess in turn, i.e. respond in praise",
+      "hu": ""
+    }
+  },
+  "sw-g438": {
+    "strongs": 438,
+    "original_word": "ἄνθος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a blossom",
+      "hu": ""
+    }
+  },
+  "sw-g439": {
+    "strongs": 439,
+    "original_word": "ἀνθρακιά",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a bed of burning coals",
+      "hu": ""
+    }
+  },
+  "sw-g440": {
+    "strongs": 440,
+    "original_word": "ἄνθραξ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a live coal",
+      "hu": ""
+    }
+  },
+  "sw-g441": {
+    "strongs": 441,
+    "original_word": "ἀνθρωπάρεσκος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " man-courting, i.e. fawning",
+      "hu": ""
+    }
+  },
+  "sw-g442": {
+    "strongs": 442,
+    "original_word": "ἀνθρώπινος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " human",
+      "hu": ""
+    }
+  },
+  "sw-g443": {
+    "strongs": 443,
+    "original_word": "ἀνθρωποκτόνος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a manslayer",
+      "hu": ""
+    }
+  },
+  "sw-g444": {
+    "strongs": 444,
+    "original_word": "ἄνθρωπος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " from G3700 (ὀπτάνομαι)); man-faced, i.e. a human being",
+      "hu": ""
+    }
+  },
+  "sw-g445": {
+    "strongs": 445,
+    "original_word": "ἀνθυπατεύω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to act as proconsul",
+      "hu": ""
+    }
+  },
+  "sw-g446": {
+    "strongs": 446,
+    "original_word": "ἀνθύπατος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " instead of the highest officer, i.e. (specially) a Roman proconsul",
+      "hu": ""
+    }
+  },
+  "sw-g447": {
+    "strongs": 447,
+    "original_word": "ἀνίημι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to let up, i.e. (literally) slacken or (figuratively) desert, desist from",
+      "hu": ""
+    }
+  },
+  "sw-g448": {
+    "strongs": 448,
+    "original_word": "ἀνίλεως",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " inexorable",
+      "hu": ""
+    }
+  },
+  "sw-g449": {
+    "strongs": 449,
+    "original_word": "ἄνιπτος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " without ablution",
+      "hu": ""
+    }
+  },
+  "sw-g450": {
+    "strongs": 450,
+    "original_word": "ἀνίστημι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to stand up (literal or figurative, transitive or intransitive)",
+      "hu": ""
+    }
+  },
+  "sw-g451": {
+    "strongs": 451,
+    "original_word": "Ἄννα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Anna, an Israelitess",
+      "hu": ""
+    }
+  },
+  "sw-g452": {
+    "strongs": 452,
+    "original_word": "Ἄννας",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Annas (i.e. G367 (Ἀνανίας)), an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-g453": {
+    "strongs": 453,
+    "original_word": "ἀνόητος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " unintelligent; by implication, sensual",
+      "hu": ""
+    }
+  },
+  "sw-g454": {
+    "strongs": 454,
+    "original_word": "ἄνοια",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " stupidity; by implication, rage",
+      "hu": ""
+    }
+  },
+  "sw-g455": {
+    "strongs": 455,
+    "original_word": "ἀνοίγω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to open up (literally or figuratively, in various applications)",
+      "hu": ""
+    }
+  },
+  "sw-g456": {
+    "strongs": 456,
+    "original_word": "ἀνοικοδομέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to rebuild",
+      "hu": ""
+    }
+  },
+  "sw-g457": {
+    "strongs": 457,
+    "original_word": "ἄνοιξις",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " opening (throat)",
+      "hu": ""
+    }
+  },
+  "sw-g458": {
+    "strongs": 458,
+    "original_word": "ἀνομία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " illegality, i.e. violation of law or (genitive case) wickedness",
+      "hu": ""
+    }
+  },
+  "sw-g459": {
+    "strongs": 459,
+    "original_word": "ἄνομος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " lawless, i.e. (negatively) not subject to (the Jewish) law; (by implication, a Gentile), or (positively) wicked",
+      "hu": ""
+    }
+  },
+  "sw-g460": {
+    "strongs": 460,
+    "original_word": "ἀνόμως",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " lawlessly, i.e. (specially) not amenable to (the Jewish) law",
+      "hu": ""
+    }
+  },
+  "sw-g461": {
+    "strongs": 461,
+    "original_word": "ἀνορθόω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to straighten up",
+      "hu": ""
+    }
+  },
+  "sw-g462": {
+    "strongs": 462,
+    "original_word": "ἀνόσιος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " wicked",
+      "hu": ""
+    }
+  },
+  "sw-g463": {
+    "strongs": 463,
+    "original_word": "ἀνοχή",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " self-restraint, i.e. tolerance",
+      "hu": ""
+    }
+  },
+  "sw-g464": {
+    "strongs": 464,
+    "original_word": "ἀνταγωνίζομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to struggle against (figuratively) (\"antagonize\")",
+      "hu": ""
+    }
+  },
+  "sw-g465": {
+    "strongs": 465,
+    "original_word": "ἀντάλλαγμα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " an equivalent or ransom",
+      "hu": ""
+    }
+  },
+  "sw-g466": {
+    "strongs": 466,
+    "original_word": "ἀνταναπληρόω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to supplement",
+      "hu": ""
+    }
+  },
+  "sw-g467": {
+    "strongs": 467,
+    "original_word": "ἀνταποδίδωμι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to requite (good or evil)",
+      "hu": ""
+    }
+  },
+  "sw-g468": {
+    "strongs": 468,
+    "original_word": "ἀνταπόδομα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a requital (properly, the thing)",
+      "hu": ""
+    }
+  },
+  "sw-g469": {
+    "strongs": 469,
+    "original_word": "ἀνταπόδοσις",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " requital (properly, the act)",
+      "hu": ""
+    }
+  },
+  "sw-g470": {
+    "strongs": 470,
+    "original_word": "ἀνταποκρίνομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to contradict or dispute",
+      "hu": ""
+    }
+  },
+  "sw-g471": {
+    "strongs": 471,
+    "original_word": "ἀντέπω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to refute or deny",
+      "hu": ""
+    }
+  },
+  "sw-g472": {
+    "strongs": 472,
+    "original_word": "ἀντέχομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to hold oneself opposite to, i.e. (by implication) adhere to; by extension to care for",
+      "hu": ""
+    }
+  },
+  "sw-g473": {
+    "strongs": 473,
+    "original_word": "ἀντί",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " opposite, i.e. instead or because of (rarely in addition to)",
+      "hu": ""
+    }
+  },
+  "sw-g474": {
+    "strongs": 474,
+    "original_word": "ἀντιβάλλω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to bandy",
+      "hu": ""
+    }
+  },
+  "sw-g475": {
+    "strongs": 475,
+    "original_word": "ἀντιδιατίθεμαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to set oneself opposite, i.e. be disputatious",
+      "hu": ""
+    }
+  },
+  "sw-g476": {
+    "strongs": 476,
+    "original_word": "ἀντίδικος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " an opponent (in a lawsuit); specially, Satan (as the arch-enemy)",
+      "hu": ""
+    }
+  },
+  "sw-g477": {
+    "strongs": 477,
+    "original_word": "ἀντίθεσις",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " opposition, i.e. a conflict (of theories)",
+      "hu": ""
+    }
+  },
+  "sw-g478": {
+    "strongs": 478,
+    "original_word": "ἀντικαθίστημι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to set down (troops) against, i.e. withstand",
+      "hu": ""
+    }
+  },
+  "sw-g479": {
+    "strongs": 479,
+    "original_word": "ἀντικαλέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to invite in return",
+      "hu": ""
+    }
+  },
+  "sw-g480": {
+    "strongs": 480,
+    "original_word": "ἀντίκειμαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to lie opposite, i.e. be adverse (figuratively, repugnant) to",
+      "hu": ""
+    }
+  },
+  "sw-g481": {
+    "strongs": 481,
+    "original_word": "ἀντικρύ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " opposite",
+      "hu": ""
+    }
+  },
+  "sw-g482": {
+    "strongs": 482,
+    "original_word": "ἀντιλαμβάνομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to take hold of in turn, i.e. succor; also to participate",
+      "hu": ""
+    }
+  },
+  "sw-g483": {
+    "strongs": 483,
+    "original_word": "ἀντιλέγω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to dispute, refuse",
+      "hu": ""
+    }
+  },
+  "sw-g484": {
+    "strongs": 484,
+    "original_word": "ἀντίληψις",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " relief",
+      "hu": ""
+    }
+  },
+  "sw-g485": {
+    "strongs": 485,
+    "original_word": "ἀντιλογία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " dispute, disobedience",
+      "hu": ""
+    }
+  },
+  "sw-g486": {
+    "strongs": 486,
+    "original_word": "ἀντιλοιδορέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to rail in reply",
+      "hu": ""
+    }
+  },
+  "sw-g487": {
+    "strongs": 487,
+    "original_word": "ἀντίλυτρον",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a redemption-price",
+      "hu": ""
+    }
+  },
+  "sw-g488": {
+    "strongs": 488,
+    "original_word": "ἀντιμετρέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to mete in return",
+      "hu": ""
+    }
+  },
+  "sw-g489": {
+    "strongs": 489,
+    "original_word": "ἀντιμισθία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " requital, correspondence",
+      "hu": ""
+    }
+  },
+  "sw-g490": {
+    "strongs": 490,
+    "original_word": "Ἀντιόχεια",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Antiochia, a place in Syria",
+      "hu": ""
+    }
+  },
+  "sw-g491": {
+    "strongs": 491,
+    "original_word": "Ἀντιοχεύς",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " an Antiochian or inhabitant of Antiochia",
+      "hu": ""
+    }
+  },
+  "sw-g492": {
+    "strongs": 492,
+    "original_word": "ἀντιπαρέρχομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to go along opposite",
+      "hu": ""
+    }
+  },
+  "sw-g493": {
+    "strongs": 493,
+    "original_word": "Ἀντίπας",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Antipas, a Christian",
+      "hu": ""
+    }
+  },
+  "sw-g494": {
+    "strongs": 494,
+    "original_word": "Ἀντιπατρίς",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Antipatris, a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-g495": {
+    "strongs": 495,
+    "original_word": "ἀντιπέραν",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " on the opposite side",
+      "hu": ""
+    }
+  },
+  "sw-g496": {
+    "strongs": 496,
+    "original_word": "ἀντιπίπτω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to oppose",
+      "hu": ""
+    }
+  },
+  "sw-g497": {
+    "strongs": 497,
+    "original_word": "ἀντιστρατεύομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " (figuratively) to attack, i.e. (by implication) destroy",
+      "hu": ""
+    }
+  },
+  "sw-g498": {
+    "strongs": 498,
+    "original_word": "ἀντιτάσσομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to range oneself against, i.e. oppose",
+      "hu": ""
+    }
+  },
+  "sw-g499": {
+    "strongs": 499,
+    "original_word": "ἀντίτυπον",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " corresponding (\"antitype\"), i.e. a representative, counterpart",
+      "hu": ""
+    }
+  },
+  "sw-g500": {
+    "strongs": 500,
+    "original_word": "ἀντίχριστος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " an opponent of the Messiah",
+      "hu": ""
+    }
+  },
+  "sw-g501": {
+    "strongs": 501,
+    "original_word": "ἀντλέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to bale up (properly, bilge water), i.e. dip water (with a bucket, pitcher, etc.)",
+      "hu": ""
+    }
+  },
+  "sw-g502": {
+    "strongs": 502,
+    "original_word": "ἄντλημα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a baling-vessel",
+      "hu": ""
+    }
+  },
+  "sw-g503": {
+    "strongs": 503,
+    "original_word": "ἀντοφθαλμέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to face",
+      "hu": ""
+    }
+  },
+  "sw-g504": {
+    "strongs": 504,
+    "original_word": "ἄνυδρος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " waterless, i.e. dry",
+      "hu": ""
+    }
+  },
+  "sw-g505": {
+    "strongs": 505,
+    "original_word": "ἀνυπόκριτος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " undissembled, i.e. sincere",
+      "hu": ""
+    }
+  },
+  "sw-g506": {
+    "strongs": 506,
+    "original_word": "ἀνυπότακτος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " unsubdued, i.e. insubordinate (in fact or temper)",
+      "hu": ""
+    }
+  },
+  "sw-g507": {
+    "strongs": 507,
+    "original_word": "ἄνω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " upward or on the top",
+      "hu": ""
+    }
+  },
+  "sw-g508": {
+    "strongs": 508,
+    "original_word": "ἀνώγεον",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " above the ground, i.e. (properly) the second floor of a building; used for a dome or a balcony on the upper story",
+      "hu": ""
+    }
+  },
+  "sw-g509": {
+    "strongs": 509,
+    "original_word": "ἄνωθεν",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " from above; by analogy, from the first; by implication, anew",
+      "hu": ""
+    }
+  },
+  "sw-g510": {
+    "strongs": 510,
+    "original_word": "ἀνωτερικός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " superior, i.e. (locally) more remote",
+      "hu": ""
+    }
+  },
+  "sw-g511": {
+    "strongs": 511,
+    "original_word": "ἀνώτερος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " upper, i.e. (neuter as adverb) to a more conspicuous place, in a former part of the book",
+      "hu": ""
+    }
+  },
+  "sw-g512": {
+    "strongs": 512,
+    "original_word": "ἀνωφελής",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " useless or (neuter) inutility",
+      "hu": ""
+    }
+  },
+  "sw-g513": {
+    "strongs": 513,
+    "original_word": "ἀξίνη",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " compare G4486 (ῥήγνυμι)); an axe",
+      "hu": ""
+    }
+  },
+  "sw-g514": {
+    "strongs": 514,
+    "original_word": "ἄξιος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " deserving, comparable or suitable (as if drawing praise)",
+      "hu": ""
+    }
+  },
+  "sw-g515": {
+    "strongs": 515,
+    "original_word": "ἀξιόω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to deem entitled or fit",
+      "hu": ""
+    }
+  },
+  "sw-g516": {
+    "strongs": 516,
+    "original_word": "ἀξίως",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " appropriately",
+      "hu": ""
+    }
+  },
+  "sw-g517": {
+    "strongs": 517,
+    "original_word": "ἀόρατος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " invisible",
+      "hu": ""
+    }
+  },
+  "sw-g518": {
+    "strongs": 518,
+    "original_word": "ἀπαγγέλλω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to announce",
+      "hu": ""
+    }
+  },
+  "sw-g519": {
+    "strongs": 519,
+    "original_word": "ἀπάγχομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " akin to the base of G43 (ἀγκάλη)); to strangle oneself off (i.e. to death)",
+      "hu": ""
+    }
+  },
+  "sw-g520": {
+    "strongs": 520,
+    "original_word": "ἀπάγω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to take off (in various senses)",
+      "hu": ""
+    }
+  },
+  "sw-g521": {
+    "strongs": 521,
+    "original_word": "ἀπαίδευτος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " uninstructed, i.e. (figuratively) stupid",
+      "hu": ""
+    }
+  },
+  "sw-g522": {
+    "strongs": 522,
+    "original_word": "ἀπαίρω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to lift off, i.e. remove",
+      "hu": ""
+    }
+  },
+  "sw-g523": {
+    "strongs": 523,
+    "original_word": "ἀπαιτέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to demand back",
+      "hu": ""
+    }
+  },
+  "sw-g524": {
+    "strongs": 524,
+    "original_word": "ἀπαλγέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to grieve out, i.e. become apathetic",
+      "hu": ""
+    }
+  },
+  "sw-g525": {
+    "strongs": 525,
+    "original_word": "ἀπαλλάσσω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to change away, i.e. release, (reflexively) remove",
+      "hu": ""
+    }
+  },
+  "sw-g526": {
+    "strongs": 526,
+    "original_word": "ἀπαλλοτριόω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to estrange away, i.e. (passively and figuratively) to be non-participant",
+      "hu": ""
+    }
+  },
+  "sw-g527": {
+    "strongs": 527,
+    "original_word": "ἀπαλός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " soft",
+      "hu": ""
+    }
+  },
+  "sw-g528": {
+    "strongs": 528,
+    "original_word": "ἀπαντάω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to meet away, i.e. encounter",
+      "hu": ""
+    }
+  },
+  "sw-g529": {
+    "strongs": 529,
+    "original_word": "ἀπάντησις",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a (friendly) encounter",
+      "hu": ""
+    }
+  },
+  "sw-g530": {
+    "strongs": 530,
+    "original_word": "ἅπαξ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " one (or a single) time (numerically or conclusively)",
+      "hu": ""
+    }
+  },
+  "sw-g531": {
+    "strongs": 531,
+    "original_word": "ἀπαράβατος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " not passing away, i.e. untransferable (perpetual)",
+      "hu": ""
+    }
+  },
+  "sw-g532": {
+    "strongs": 532,
+    "original_word": "ἀπαρασκεύαστος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " unready",
+      "hu": ""
+    }
+  },
+  "sw-g533": {
+    "strongs": 533,
+    "original_word": "ἀπαρνέομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to deny utterly, i.e. disown, abstain",
+      "hu": ""
+    }
+  },
+  "sw-g534": {
+    "strongs": 534,
+    "original_word": "ἀπάρτι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " from now, i.e. henceforth (already)",
+      "hu": ""
+    }
+  },
+  "sw-g535": {
+    "strongs": 535,
+    "original_word": "ἀπαρτισμός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " completion",
+      "hu": ""
+    }
+  },
+  "sw-g536": {
+    "strongs": 536,
+    "original_word": "ἀπαρχή",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a beginning of sacrifice, i.e. the (Jewish) first-fruit (figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-g537": {
+    "strongs": 537,
+    "original_word": "ἅπας",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " absolutely all or (singular) every one",
+      "hu": ""
+    }
+  },
+  "sw-g538": {
+    "strongs": 538,
+    "original_word": "ἀπατάω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to cheat, i.e. delude",
+      "hu": ""
+    }
+  },
+  "sw-g539": {
+    "strongs": 539,
+    "original_word": "ἀπάτη",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " delusion",
+      "hu": ""
+    }
+  },
+  "sw-g540": {
+    "strongs": 540,
+    "original_word": "ἀπάτωρ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " fatherless, i.e. of unrecorded paternity",
+      "hu": ""
+    }
+  },
+  "sw-g541": {
+    "strongs": 541,
+    "original_word": "ἀπαύγασμα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " an off-flash, i.e. effulgence",
+      "hu": ""
+    }
+  },
+  "sw-g542": {
+    "strongs": 542,
+    "original_word": "ἀπείδω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to see fully",
+      "hu": ""
+    }
+  },
+  "sw-g543": {
+    "strongs": 543,
+    "original_word": "ἀπείθεια",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " disbelief (obstinate and rebellious)",
+      "hu": ""
+    }
+  },
+  "sw-g544": {
+    "strongs": 544,
+    "original_word": "ἀπειθέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to disbelieve (wilfully and perversely)",
+      "hu": ""
+    }
+  },
+  "sw-g545": {
+    "strongs": 545,
+    "original_word": "ἀπειθής",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " unpersuadable, i.e. contumacious",
+      "hu": ""
+    }
+  },
+  "sw-g546": {
+    "strongs": 546,
+    "original_word": "ἀπειλέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to menace; by implication, to forbid",
+      "hu": ""
+    }
+  },
+  "sw-g547": {
+    "strongs": 547,
+    "original_word": "ἀπειλή",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a menace",
+      "hu": ""
+    }
+  },
+  "sw-g548": {
+    "strongs": 548,
+    "original_word": "ἄπειμι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to be away",
+      "hu": ""
+    }
+  },
+  "sw-g549": {
+    "strongs": 549,
+    "original_word": "ἄπειμι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to go away",
+      "hu": ""
+    }
+  },
+  "sw-g550": {
+    "strongs": 550,
+    "original_word": "ἀπειπόμην",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to say off for oneself, i.e. disown",
+      "hu": ""
+    }
+  },
+  "sw-g551": {
+    "strongs": 551,
+    "original_word": "ἀπείραστος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " untried, i.e. not temptable",
+      "hu": ""
+    }
+  },
+  "sw-g552": {
+    "strongs": 552,
+    "original_word": "ἄπειρος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " inexperienced, i.e. ignorant",
+      "hu": ""
+    }
+  },
+  "sw-g553": {
+    "strongs": 553,
+    "original_word": "ἀπεκδέχομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to expect fully",
+      "hu": ""
+    }
+  },
+  "sw-g554": {
+    "strongs": 554,
+    "original_word": "ἀπεκδύομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to divest wholly oneself, or (for oneself) despoil",
+      "hu": ""
+    }
+  },
+  "sw-g555": {
+    "strongs": 555,
+    "original_word": "ἀπέκδυσις",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " divestment",
+      "hu": ""
+    }
+  },
+  "sw-g556": {
+    "strongs": 556,
+    "original_word": "ἀπελαύνω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to dismiss",
+      "hu": ""
+    }
+  },
+  "sw-g557": {
+    "strongs": 557,
+    "original_word": "ἀπελεγμός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " refutation, i.e. (by implication) contempt",
+      "hu": ""
+    }
+  },
+  "sw-g558": {
+    "strongs": 558,
+    "original_word": "ἀπελεύθερος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " one freed away, i.e. a freedman",
+      "hu": ""
+    }
+  },
+  "sw-g559": {
+    "strongs": 559,
+    "original_word": "Ἀπελλῆς",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Apelles, a Christian",
+      "hu": ""
+    }
+  },
+  "sw-g560": {
+    "strongs": 560,
+    "original_word": "ἀπελπίζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to hope out, i.e. fully expect",
+      "hu": ""
+    }
+  },
+  "sw-g561": {
+    "strongs": 561,
+    "original_word": "ἀπέναντι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " from in front, i.e. opposite, before or against",
+      "hu": ""
+    }
+  },
+  "sw-g562": {
+    "strongs": 562,
+    "original_word": "ἀπέραντος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " unfinished, i.e. (by implication) interminable",
+      "hu": ""
+    }
+  },
+  "sw-g563": {
+    "strongs": 563,
+    "original_word": "ἀπερισπάστως",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " undistractedly, i.e. free from (domestic) solicitude",
+      "hu": ""
+    }
+  },
+  "sw-g564": {
+    "strongs": 564,
+    "original_word": "ἀπερίτμητος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " uncircumcised (figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-g565": {
+    "strongs": 565,
+    "original_word": "ἀπέρχομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to go off (i.e. depart), aside (i.e. apart) or behind (i.e. follow), literally or figuratively",
+      "hu": ""
+    }
+  },
+  "sw-g566": {
+    "strongs": 566,
+    "original_word": "ἀπέχει",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " it is sufficient",
+      "hu": ""
+    }
+  },
+  "sw-g567": {
+    "strongs": 567,
+    "original_word": "ἀπέχομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to hold oneself off, i.e. refrain",
+      "hu": ""
+    }
+  },
+  "sw-g568": {
+    "strongs": 568,
+    "original_word": "ἀπέχω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " (actively) to have out, i.e. receive in full; (intransitively) to keep (oneself) away, i.e. be distant (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-g569": {
+    "strongs": 569,
+    "original_word": "ἀπιστέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to be unbelieving, i.e. (transitively) disbelieve, or (by implication) disobey",
+      "hu": ""
+    }
+  },
+  "sw-g570": {
+    "strongs": 570,
+    "original_word": "ἀπιστία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " faithlessness, i.e. (negatively) disbelief (lack of Christian faith), or (positively) unfaithfulness (disobedience)",
+      "hu": ""
+    }
+  },
+  "sw-g571": {
+    "strongs": 571,
+    "original_word": "ἄπιστος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " (actively) disbelieving, i.e. without Christian faith (specially, a heathen); (passively) untrustworthy (person), or incredible (thing)",
+      "hu": ""
+    }
+  },
+  "sw-g572": {
+    "strongs": 572,
+    "original_word": "ἁπλότης",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " singleness, i.e. (subjectively) sincerity (without dissimulation or self-seeking), or (objectively) generosity (copious bestowal)",
+      "hu": ""
+    }
+  },
+  "sw-g573": {
+    "strongs": 573,
+    "original_word": "ἁπλοῦς",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " properly, folded together, i.e. single (figuratively, clear)",
+      "hu": ""
+    }
+  },
+  "sw-g574": {
+    "strongs": 574,
+    "original_word": "ἁπλῶς",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " bountifully; ",
+      "hu": ""
+    }
+  },
+  "sw-g575": {
+    "strongs": 575,
+    "original_word": "ἀπό",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " \"off,\" i.e. away (from something near), in various senses (of place, time, or relation; literal or figurative)",
+      "hu": ""
+    }
+  },
+  "sw-g576": {
+    "strongs": 576,
+    "original_word": "ἀποβαίνω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " literally, to disembark; figuratively, to eventuate",
+      "hu": ""
+    }
+  },
+  "sw-g577": {
+    "strongs": 577,
+    "original_word": "ἀποβάλλω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to throw off; figuratively, to lose",
+      "hu": ""
+    }
+  },
+  "sw-g578": {
+    "strongs": 578,
+    "original_word": "ἀποβλέπω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to look away from everything else, i.e. (figuratively) intently regard",
+      "hu": ""
+    }
+  },
+  "sw-g579": {
+    "strongs": 579,
+    "original_word": "ἀπόβλητος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " cast off, i.e. (figuratively) such as to be rejected",
+      "hu": ""
+    }
+  },
+  "sw-g580": {
+    "strongs": 580,
+    "original_word": "ἀποβολή",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " rejection; figuratively, loss",
+      "hu": ""
+    }
+  },
+  "sw-g581": {
+    "strongs": 581,
+    "original_word": "ἀπογενόμενος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " absent, i.e. deceased (figuratively, renounced)",
+      "hu": ""
+    }
+  },
+  "sw-g582": {
+    "strongs": 582,
+    "original_word": "ἀπογραφή",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " an enrollment; by implication, an assessment",
+      "hu": ""
+    }
+  },
+  "sw-g583": {
+    "strongs": 583,
+    "original_word": "ἀπογράφω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to write off (a copy or list), i.e. enrol",
+      "hu": ""
+    }
+  },
+  "sw-g584": {
+    "strongs": 584,
+    "original_word": "ἀποδείκνυμι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to show off, i.e. exhibit; figuratively, to demonstrate, i.e. accredit",
+      "hu": ""
+    }
+  },
+  "sw-g585": {
+    "strongs": 585,
+    "original_word": "ἀπόδειξις",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " manifestation",
+      "hu": ""
+    }
+  },
+  "sw-g586": {
+    "strongs": 586,
+    "original_word": "ἀποδεκατόω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to tithe (as debtor or creditor)",
+      "hu": ""
+    }
+  },
+  "sw-g587": {
+    "strongs": 587,
+    "original_word": "ἀπόδεκτος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " accepted, i.e. agreeable",
+      "hu": ""
+    }
+  },
+  "sw-g588": {
+    "strongs": 588,
+    "original_word": "ἀποδέχομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to take fully, i.e. welcome (persons), approve (things)",
+      "hu": ""
+    }
+  },
+  "sw-g589": {
+    "strongs": 589,
+    "original_word": "ἀποδημέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to go abroad, i.e. visit a foreign land",
+      "hu": ""
+    }
+  },
+  "sw-g590": {
+    "strongs": 590,
+    "original_word": "ἀπόδημος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " absent from one's own people, i.e. a foreign traveller",
+      "hu": ""
+    }
+  },
+  "sw-g591": {
+    "strongs": 591,
+    "original_word": "ἀποδίδωμι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to give away, i.e. up, over, back, etc. (in various applications)",
+      "hu": ""
+    }
+  },
+  "sw-g592": {
+    "strongs": 592,
+    "original_word": "ἀποδιορίζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to disjoin (by a boundary, figuratively, a party)",
+      "hu": ""
+    }
+  },
+  "sw-g593": {
+    "strongs": 593,
+    "original_word": "ἀποδοκιμάζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to disapprove, i.e. (by implication) to repudiate",
+      "hu": ""
+    }
+  },
+  "sw-g594": {
+    "strongs": 594,
+    "original_word": "ἀποδοχή",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " acceptance",
+      "hu": ""
+    }
+  },
+  "sw-g595": {
+    "strongs": 595,
+    "original_word": "ἀπόθεσις",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a laying aside (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-g596": {
+    "strongs": 596,
+    "original_word": "ἀποθήκη",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a repository, i.e. granary",
+      "hu": ""
+    }
+  },
+  "sw-g597": {
+    "strongs": 597,
+    "original_word": "ἀποθησαυρίζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to treasure away",
+      "hu": ""
+    }
+  },
+  "sw-g598": {
+    "strongs": 598,
+    "original_word": "ἀποθλίβω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to crowd (from every side)",
+      "hu": ""
+    }
+  },
+  "sw-g599": {
+    "strongs": 599,
+    "original_word": "ἀποθνήσκω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to die off (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-g600": {
+    "strongs": 600,
+    "original_word": "ἀποκαθίστημι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to reconstitute (in health, home or organization)",
+      "hu": ""
+    }
+  },
+  "sw-g601": {
+    "strongs": 601,
+    "original_word": "ἀποκαλύπτω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to take off the cover, i.e. disclose",
+      "hu": ""
+    }
+  },
+  "sw-g602": {
+    "strongs": 602,
+    "original_word": "ἀποκάλυψις",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " disclosure",
+      "hu": ""
+    }
+  },
+  "sw-g603": {
+    "strongs": 603,
+    "original_word": "ἀποκαραδοκία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " intense anticipation",
+      "hu": ""
+    }
+  },
+  "sw-g604": {
+    "strongs": 604,
+    "original_word": "ἀποκαταλλάσσω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to reconcile fully",
+      "hu": ""
+    }
+  },
+  "sw-g605": {
+    "strongs": 605,
+    "original_word": "ἀποκατάστασις",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " reconstitution",
+      "hu": ""
+    }
+  },
+  "sw-g606": {
+    "strongs": 606,
+    "original_word": "ἀπόκειμαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to be reserved; figuratively, to await",
+      "hu": ""
+    }
+  },
+  "sw-g607": {
+    "strongs": 607,
+    "original_word": "ἀποκεφαλίζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to decapitate",
+      "hu": ""
+    }
+  },
+  "sw-g608": {
+    "strongs": 608,
+    "original_word": "ἀποκλείω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to close fully",
+      "hu": ""
+    }
+  },
+  "sw-g609": {
+    "strongs": 609,
+    "original_word": "ἀποκόπτω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to amputate; reflexively (by irony) to mutilate (the privy parts)",
+      "hu": ""
+    }
+  },
+  "sw-g610": {
+    "strongs": 610,
+    "original_word": "ἀπόκριμα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a judicial decision",
+      "hu": ""
+    }
+  },
+  "sw-g611": {
+    "strongs": 611,
+    "original_word": "ἀποκρίνομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to conclude for oneself, i.e. (by implication) to respond; by Hebraism (compare H06030) to begin to speak (where an address is expected)",
+      "hu": ""
+    }
+  },
+  "sw-g612": {
+    "strongs": 612,
+    "original_word": "ἀπόκρισις",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a response",
+      "hu": ""
+    }
+  },
+  "sw-g613": {
+    "strongs": 613,
+    "original_word": "ἀποκρύπτω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to conceal away (i.e. fully); figuratively, to keep secret",
+      "hu": ""
+    }
+  },
+  "sw-g614": {
+    "strongs": 614,
+    "original_word": "ἀπόκρυφος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " secret; by implication, treasured",
+      "hu": ""
+    }
+  },
+  "sw-g615": {
+    "strongs": 615,
+    "original_word": "ἀποκτείνω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to kill outright; figuratively, to destroy",
+      "hu": ""
+    }
+  },
+  "sw-g616": {
+    "strongs": 616,
+    "original_word": "ἀποκυέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to breed forth, i.e. (by transference) to generate (figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-g617": {
+    "strongs": 617,
+    "original_word": "ἀποκυλίω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to roll away",
+      "hu": ""
+    }
+  },
+  "sw-g618": {
+    "strongs": 618,
+    "original_word": "ἀπολαμβάνω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to receive (specially, in full, or as a host); also to take aside",
+      "hu": ""
+    }
+  },
+  "sw-g619": {
+    "strongs": 619,
+    "original_word": "ἀπόλαυσις",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " full enjoyment",
+      "hu": ""
+    }
+  },
+  "sw-g620": {
+    "strongs": 620,
+    "original_word": "ἀπολείπω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to leave behind (passively, remain); by implication, to forsake",
+      "hu": ""
+    }
+  },
+  "sw-g621": {
+    "strongs": 621,
+    "original_word": "ἀπολείχω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to lick clean",
+      "hu": ""
+    }
+  },
+  "sw-g622": {
+    "strongs": 622,
+    "original_word": "ἀπόλλυμι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to destroy fully (reflexively, to perish, or lose), literally or figuratively",
+      "hu": ""
+    }
+  },
+  "sw-g623": {
+    "strongs": 623,
+    "original_word": "Ἀπολλύων",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a destroyer (i.e. Satan)",
+      "hu": ""
+    }
+  },
+  "sw-g624": {
+    "strongs": 624,
+    "original_word": "Ἀπολλωνία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " from G622 (ἀπόλλυμι)); Apollonia, a place in Macedonia",
+      "hu": ""
+    }
+  },
+  "sw-g625": {
+    "strongs": 625,
+    "original_word": "Ἀπολλῶς",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Apollos, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-g626": {
+    "strongs": 626,
+    "original_word": "ἀπολογέομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to give an account (legal plea) of oneself, i.e. exculpate (self)",
+      "hu": ""
+    }
+  },
+  "sw-g627": {
+    "strongs": 627,
+    "original_word": "ἀπολογία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a plea (\"apology\")",
+      "hu": ""
+    }
+  },
+  "sw-g628": {
+    "strongs": 628,
+    "original_word": "ἀπολούω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to wash fully, i.e. (figuratively) have remitted (reflexively)",
+      "hu": ""
+    }
+  },
+  "sw-g629": {
+    "strongs": 629,
+    "original_word": "ἀπολύτρωσις",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " (the act) ransom in full, i.e. (figuratively) riddance, or (specially) Christian salvation",
+      "hu": ""
+    }
+  },
+  "sw-g630": {
+    "strongs": 630,
+    "original_word": "ἀπολύω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to free fully, i.e. (literally) relieve, release, dismiss (reflexively, depart), or (figuratively) let die, pardon or (specially) divorce",
+      "hu": ""
+    }
+  },
+  "sw-g631": {
+    "strongs": 631,
+    "original_word": "ἀπομάσσομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to scrape away",
+      "hu": ""
+    }
+  },
+  "sw-g632": {
+    "strongs": 632,
+    "original_word": "ἀπονέμω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to apportion, i.e. bestow",
+      "hu": ""
+    }
+  },
+  "sw-g633": {
+    "strongs": 633,
+    "original_word": "ἀπονίπτω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to wash off (reflexively, one's own hands symbolically)",
+      "hu": ""
+    }
+  },
+  "sw-g634": {
+    "strongs": 634,
+    "original_word": "ἀποπίπτω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to fall off",
+      "hu": ""
+    }
+  },
+  "sw-g635": {
+    "strongs": 635,
+    "original_word": "ἀποπλανάω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to lead astray (figuratively); passively, to stray (from truth)",
+      "hu": ""
+    }
+  },
+  "sw-g636": {
+    "strongs": 636,
+    "original_word": "ἀποπλέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to set sail",
+      "hu": ""
+    }
+  },
+  "sw-g637": {
+    "strongs": 637,
+    "original_word": "ἀποπλύνω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to rinse off",
+      "hu": ""
+    }
+  },
+  "sw-g638": {
+    "strongs": 638,
+    "original_word": "ἀποπνίγω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to stifle (by drowning or overgrowth)",
+      "hu": ""
+    }
+  },
+  "sw-g639": {
+    "strongs": 639,
+    "original_word": "ἀπορέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to have no way out, i.e. be at a loss (mentally)",
+      "hu": ""
+    }
+  },
+  "sw-g640": {
+    "strongs": 640,
+    "original_word": "ἀπορία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a (state of) quandary",
+      "hu": ""
+    }
+  },
+  "sw-g641": {
+    "strongs": 641,
+    "original_word": "ἀποῤῥίπτω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to hurl off, i.e. precipitate (oneself)",
+      "hu": ""
+    }
+  },
+  "sw-g642": {
+    "strongs": 642,
+    "original_word": "ἀπορφανίζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to bereave wholly, i.e. (figuratively) separate (from intercourse)",
+      "hu": ""
+    }
+  },
+  "sw-g643": {
+    "strongs": 643,
+    "original_word": "ἀποσκευάζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to pack up (one's) baggage",
+      "hu": ""
+    }
+  },
+  "sw-g644": {
+    "strongs": 644,
+    "original_word": "ἀποσκίασμα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a shading off, i.e. obscuration",
+      "hu": ""
+    }
+  },
+  "sw-g645": {
+    "strongs": 645,
+    "original_word": "ἀποσπάω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to drag forth, i.e. (literally) unsheathe (a sword), or relatively (with a degree of force implied) retire (personally or factiously)",
+      "hu": ""
+    }
+  },
+  "sw-g646": {
+    "strongs": 646,
+    "original_word": "ἀποστασία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " defection from truth (properly, the state) (\"apostasy\")",
+      "hu": ""
+    }
+  },
+  "sw-g647": {
+    "strongs": 647,
+    "original_word": "ἀποστάσιον",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " properly, something separative, i.e. (specially) divorce",
+      "hu": ""
+    }
+  },
+  "sw-g648": {
+    "strongs": 648,
+    "original_word": "ἀποστεγάζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to unroof",
+      "hu": ""
+    }
+  },
+  "sw-g649": {
+    "strongs": 649,
+    "original_word": "ἀποστέλλω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " set apart, i.e. (by implication) to send out (properly, on a mission) literally or figuratively",
+      "hu": ""
+    }
+  },
+  "sw-g650": {
+    "strongs": 650,
+    "original_word": "ἀποστερέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to despoil",
+      "hu": ""
+    }
+  },
+  "sw-g651": {
+    "strongs": 651,
+    "original_word": "ἀποστολή",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " commission, i.e. (specially) apostolate",
+      "hu": ""
+    }
+  },
+  "sw-g652": {
+    "strongs": 652,
+    "original_word": "ἀπόστολος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a delegate; specially, an ambassador of the Gospel; officially a commissioner of Christ (\"apostle\") (with miraculous powers)",
+      "hu": ""
+    }
+  },
+  "sw-g653": {
+    "strongs": 653,
+    "original_word": "ἀποστοματίζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to speak off-hand (properly, dictate), i.e. to catechize (in an invidious manner)",
+      "hu": ""
+    }
+  },
+  "sw-g654": {
+    "strongs": 654,
+    "original_word": "ἀποστρέφω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to turn away or back (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-g655": {
+    "strongs": 655,
+    "original_word": "ἀποστυγέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to detest utterly",
+      "hu": ""
+    }
+  },
+  "sw-g656": {
+    "strongs": 656,
+    "original_word": "ἀποσυνάγωγος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " excommunicated",
+      "hu": ""
+    }
+  },
+  "sw-g657": {
+    "strongs": 657,
+    "original_word": "ἀποτάσσομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " literally, to say adieu (by departing or dismissing); figuratively, to renounce",
+      "hu": ""
+    }
+  },
+  "sw-g658": {
+    "strongs": 658,
+    "original_word": "ἀποτελέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to complete entirely, i.e. consummate",
+      "hu": ""
+    }
+  },
+  "sw-g659": {
+    "strongs": 659,
+    "original_word": "ἀποτίθημι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to put away (literally or figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-g660": {
+    "strongs": 660,
+    "original_word": "ἀποτινάσσω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to brush off",
+      "hu": ""
+    }
+  },
+  "sw-g661": {
+    "strongs": 661,
+    "original_word": "ἀποτίνω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to pay in full",
+      "hu": ""
+    }
+  },
+  "sw-g662": {
+    "strongs": 662,
+    "original_word": "ἀποτολμάω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to venture plainly",
+      "hu": ""
+    }
+  },
+  "sw-g663": {
+    "strongs": 663,
+    "original_word": "ἀποτομία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " (figuratively) decisiveness, i.e. rigor",
+      "hu": ""
+    }
+  },
+  "sw-g664": {
+    "strongs": 664,
+    "original_word": "ἀποτόμως",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " abruptly, i.e. peremptorily",
+      "hu": ""
+    }
+  },
+  "sw-g665": {
+    "strongs": 665,
+    "original_word": "ἀποτρέπω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to deflect, i.e. (reflexively) avoid",
+      "hu": ""
+    }
+  },
+  "sw-g666": {
+    "strongs": 666,
+    "original_word": "ἀπουσία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a being away",
+      "hu": ""
+    }
+  },
+  "sw-g667": {
+    "strongs": 667,
+    "original_word": "ἀποφέρω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to bear off (literally or relatively)",
+      "hu": ""
+    }
+  },
+  "sw-g668": {
+    "strongs": 668,
+    "original_word": "ἀποφεύγω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " (figuratively) to escape",
+      "hu": ""
+    }
+  },
+  "sw-g669": {
+    "strongs": 669,
+    "original_word": "ἀποφθέγγομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to enunciate plainly, i.e. declare",
+      "hu": ""
+    }
+  },
+  "sw-g670": {
+    "strongs": 670,
+    "original_word": "ἀποφορτίζομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to unload",
+      "hu": ""
+    }
+  },
+  "sw-g671": {
+    "strongs": 671,
+    "original_word": "ἀπόχρησις",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " the act of using up, i.e. consumption",
+      "hu": ""
+    }
+  },
+  "sw-g672": {
+    "strongs": 672,
+    "original_word": "ἀποχωρέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to go away",
+      "hu": ""
+    }
+  },
+  "sw-g673": {
+    "strongs": 673,
+    "original_word": "ἀποχωρίζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to rend apart; reflexively, to separate",
+      "hu": ""
+    }
+  },
+  "sw-g674": {
+    "strongs": 674,
+    "original_word": "ἀποψύχω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to breathe out, i.e. faint",
+      "hu": ""
+    }
+  },
+  "sw-g675": {
+    "strongs": 675,
+    "original_word": "Ἄππιος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " (in the genitive, i.e. possessive case) of Appius, the name of a Roman",
+      "hu": ""
+    }
+  },
+  "sw-g676": {
+    "strongs": 676,
+    "original_word": "ἀπρόσιτος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " inaccessible",
+      "hu": ""
+    }
+  },
+  "sw-g677": {
+    "strongs": 677,
+    "original_word": "ἀπρόσκοπος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " actively, inoffensive, i.e. not leading into sin; passively, faultless, i.e. not led into sin",
+      "hu": ""
+    }
+  },
+  "sw-g678": {
+    "strongs": 678,
+    "original_word": "ἀπροσωπολήπτως",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " in a way not accepting the person, i.e. impartially",
+      "hu": ""
+    }
+  },
+  "sw-g679": {
+    "strongs": 679,
+    "original_word": "ἄπταιστος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " not stumbling, i.e. (figuratively) without sin",
+      "hu": ""
+    }
+  },
+  "sw-g680": {
+    "strongs": 680,
+    "original_word": "ἅπτομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " properly, to attach oneself to, i.e. to touch (in many implied relations)",
+      "hu": ""
+    }
+  },
+  "sw-g681": {
+    "strongs": 681,
+    "original_word": "ἅπτω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " properly, to fasten to, i.e. (specially) to set on fire",
+      "hu": ""
+    }
+  },
+  "sw-g682": {
+    "strongs": 682,
+    "original_word": "Ἀπφία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Apphia, a woman of Collosæ",
+      "hu": ""
+    }
+  },
+  "sw-g683": {
+    "strongs": 683,
+    "original_word": "ἀπωθέομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to push off, figuratively, to reject",
+      "hu": ""
+    }
+  },
+  "sw-g684": {
+    "strongs": 684,
+    "original_word": "ἀπώλεια",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " ruin or loss (physical, spiritual or eternal)",
+      "hu": ""
+    }
+  },
+  "sw-g685": {
+    "strongs": 685,
+    "original_word": "ἀρά",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " properly, prayer (as lifted to Heaven), i.e. (by implication) imprecation",
+      "hu": ""
+    }
+  },
+  "sw-g686": {
+    "strongs": 686,
+    "original_word": "ἄρα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a particle denoting an inference more or less decisive (as follows)",
+      "hu": ""
+    }
+  },
+  "sw-g687": {
+    "strongs": 687,
+    "original_word": "ἆρα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": "",
+      "hu": ""
+    }
+  },
+  "sw-g688": {
+    "strongs": 688,
+    "original_word": "Ἀραβία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Arabia, a region of Asia",
+      "hu": ""
+    }
+  },
+  "sw-g689": {
+    "strongs": 689,
+    "original_word": "Ἀράμ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Aram (i.e. Ram), an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-g690": {
+    "strongs": 690,
+    "original_word": "Ἄραψ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " an Arab or native of Arabia",
+      "hu": ""
+    }
+  },
+  "sw-g691": {
+    "strongs": 691,
+    "original_word": "ἀργέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to be idle, i.e. (figuratively) to delay",
+      "hu": ""
+    }
+  },
+  "sw-g692": {
+    "strongs": 692,
+    "original_word": "ἀργός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " inactive, i.e. unemployed; (by implication) lazy, useless",
+      "hu": ""
+    }
+  },
+  "sw-g693": {
+    "strongs": 693,
+    "original_word": "ἀργύρεος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " made of silver",
+      "hu": ""
+    }
+  },
+  "sw-g694": {
+    "strongs": 694,
+    "original_word": "ἀργύριον",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " silvery, i.e. (by implication) cash; specially, a silverling (i.e. drachma or shekel)",
+      "hu": ""
+    }
+  },
+  "sw-g695": {
+    "strongs": 695,
+    "original_word": "ἀργυροκόπος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a beater (i.e. worker) of silver",
+      "hu": ""
+    }
+  },
+  "sw-g696": {
+    "strongs": 696,
+    "original_word": "ἄργυρος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " silver (the metal, in the articles or coin)",
+      "hu": ""
+    }
+  },
+  "sw-g697": {
+    "strongs": 697,
+    "original_word": "Ἄρειος Πάγος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " rock of Ares, a place in Athens",
+      "hu": ""
+    }
+  },
+  "sw-g698": {
+    "strongs": 698,
+    "original_word": "Ἀρεοπαγίτης",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " an Areopagite or member of the court held on Mars' Hill",
+      "hu": ""
+    }
+  },
+  "sw-g699": {
+    "strongs": 699,
+    "original_word": "ἀρεσκεία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " complaisance",
+      "hu": ""
+    }
+  },
+  "sw-g700": {
+    "strongs": 700,
+    "original_word": "ἀρέσκω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to be agreeable (or by implication, to seek to be so)",
+      "hu": ""
+    }
+  },
+  "sw-g701": {
+    "strongs": 701,
+    "original_word": "ἀρεστός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " agreeable; by implication, fit",
+      "hu": ""
+    }
+  },
+  "sw-g702": {
+    "strongs": 702,
+    "original_word": "Ἀρέτας",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Aretas, an Arabian",
+      "hu": ""
+    }
+  },
+  "sw-g703": {
+    "strongs": 703,
+    "original_word": "ἀρέτη",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " properly, manliness (valor), i.e. excellence (intrinsic or attributed)",
+      "hu": ""
+    }
+  },
+  "sw-g704": {
+    "strongs": 704,
+    "original_word": "ἀρήν",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a lamb (as a male)",
+      "hu": ""
+    }
+  },
+  "sw-g705": {
+    "strongs": 705,
+    "original_word": "ἀριθμέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to enumerate or count",
+      "hu": ""
+    }
+  },
+  "sw-g706": {
+    "strongs": 706,
+    "original_word": "ἀριθμός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a number (as reckoned up)",
+      "hu": ""
+    }
+  },
+  "sw-g707": {
+    "strongs": 707,
+    "original_word": "Ἀριμαθαία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Arimathæa (or Ramah), a place in Palestine",
+      "hu": ""
+    }
+  },
+  "sw-g708": {
+    "strongs": 708,
+    "original_word": "Ἀρίσταρχος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " best ruling; Aristarchus, a Macedonian",
+      "hu": ""
+    }
+  },
+  "sw-g709": {
+    "strongs": 709,
+    "original_word": "ἀριστάω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to take the principle meal",
+      "hu": ""
+    }
+  },
+  "sw-g710": {
+    "strongs": 710,
+    "original_word": "ἀριστερός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " the left hand (as second-best)",
+      "hu": ""
+    }
+  },
+  "sw-g711": {
+    "strongs": 711,
+    "original_word": "Ἀριστόβουλος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " best counselling; Aristoboulus, a Christian",
+      "hu": ""
+    }
+  },
+  "sw-g712": {
+    "strongs": 712,
+    "original_word": "ἄριστον",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " the best meal (or breakfast; perhaps from (\"early\")), i.e. luncheon",
+      "hu": ""
+    }
+  },
+  "sw-g713": {
+    "strongs": 713,
+    "original_word": "ἀρκετός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " satisfactory",
+      "hu": ""
+    }
+  },
+  "sw-g714": {
+    "strongs": 714,
+    "original_word": "ἀρκέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " properly, to ward off, i.e. (by implication) to avail (figuratively, be satisfactory)",
+      "hu": ""
+    }
+  },
+  "sw-g715": {
+    "strongs": 715,
+    "original_word": "ἄρκτος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a bear (as obstructing by ferocity)",
+      "hu": ""
+    }
+  },
+  "sw-g716": {
+    "strongs": 716,
+    "original_word": "ἅρμα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a chariot (as raised or fitted together (compare G719 (ἁρμός)))",
+      "hu": ""
+    }
+  },
+  "sw-g717": {
+    "strongs": 717,
+    "original_word": "Ἀρμαγεδδών",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Armageddon (or Har-Meggiddon), a symbolic name",
+      "hu": ""
+    }
+  },
+  "sw-g718": {
+    "strongs": 718,
+    "original_word": "ἁρμόζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to joint, i.e. (figuratively) to woo (reflexively, to betroth)",
+      "hu": ""
+    }
+  },
+  "sw-g719": {
+    "strongs": 719,
+    "original_word": "ἁρμός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " an articulation (of the body)",
+      "hu": ""
+    }
+  },
+  "sw-g720": {
+    "strongs": 720,
+    "original_word": "ἀρνέομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to contradict, i.e. disavow, reject, abnegate",
+      "hu": ""
+    }
+  },
+  "sw-g721": {
+    "strongs": 721,
+    "original_word": "ἀρνίον",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a lambkin",
+      "hu": ""
+    }
+  },
+  "sw-g722": {
+    "strongs": 722,
+    "original_word": "ἀροτριόω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to plow",
+      "hu": ""
+    }
+  },
+  "sw-g723": {
+    "strongs": 723,
+    "original_word": "ἄροτρον",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a plow",
+      "hu": ""
+    }
+  },
+  "sw-g724": {
+    "strongs": 724,
+    "original_word": "ἁρπαγή",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " pillage (properly abstract)",
+      "hu": ""
+    }
+  },
+  "sw-g725": {
+    "strongs": 725,
+    "original_word": "ἁρπαγμός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " plunder (properly concrete)",
+      "hu": ""
+    }
+  },
+  "sw-g726": {
+    "strongs": 726,
+    "original_word": "ἁρπάζω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to seize (in various applications)",
+      "hu": ""
+    }
+  },
+  "sw-g727": {
+    "strongs": 727,
+    "original_word": "ἅρπαξ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " rapacious",
+      "hu": ""
+    }
+  },
+  "sw-g728": {
+    "strongs": 728,
+    "original_word": "ἀῤῥαβών",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a pledge, i.e. part of the purchase-money or property given in advance as security for the rest",
+      "hu": ""
+    }
+  },
+  "sw-g729": {
+    "strongs": 729,
+    "original_word": "ἄῤῥαφος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " unsewed, i.e. of a single piece",
+      "hu": ""
+    }
+  },
+  "sw-g730": {
+    "strongs": 730,
+    "original_word": "ἄῤῥην",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " male (as stronger for lifting)",
+      "hu": ""
+    }
+  },
+  "sw-g731": {
+    "strongs": 731,
+    "original_word": "ἄῤῥητος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " unsaid, i.e. (by implication) inexpressible",
+      "hu": ""
+    }
+  },
+  "sw-g732": {
+    "strongs": 732,
+    "original_word": "ἄῤῥωστος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " infirm",
+      "hu": ""
+    }
+  },
+  "sw-g733": {
+    "strongs": 733,
+    "original_word": "ἀρσενοκοίτης",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a sodomite",
+      "hu": ""
+    }
+  },
+  "sw-g734": {
+    "strongs": 734,
+    "original_word": "Ἀρτεμάς",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " gift of Artemis; Artemas (or Artemidorus), a Christian",
+      "hu": ""
+    }
+  },
+  "sw-g735": {
+    "strongs": 735,
+    "original_word": "Ἄρτεμις",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " prompt; Artemis, the name of a Grecian goddess borrowed by the Asiatics for one of their deities",
+      "hu": ""
+    }
+  },
+  "sw-g736": {
+    "strongs": 736,
+    "original_word": "ἀρτέμων",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " properly, something ready (or else more remotely from G142 (αἴρω) (compare G740 (ἄρτος)); something hung up), i.e. (specially) the topsail (rather foresail or jib) of a vessel",
+      "hu": ""
+    }
+  },
+  "sw-g737": {
+    "strongs": 737,
+    "original_word": "ἄρτι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " just now",
+      "hu": ""
+    }
+  },
+  "sw-g738": {
+    "strongs": 738,
+    "original_word": "ἀρτιγέννητος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " just born, i.e. (figuratively) a young convert",
+      "hu": ""
+    }
+  },
+  "sw-g739": {
+    "strongs": 739,
+    "original_word": "ἄρτιος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " fresh, i.e. (by implication) complete",
+      "hu": ""
+    }
+  },
+  "sw-g740": {
+    "strongs": 740,
+    "original_word": "ἄρτος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " bread (as raised) or a loaf",
+      "hu": ""
+    }
+  },
+  "sw-g741": {
+    "strongs": 741,
+    "original_word": "ἀρτύω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to prepare, i.e. spice (with stimulating condiments)",
+      "hu": ""
+    }
+  },
+  "sw-g742": {
+    "strongs": 742,
+    "original_word": "Ἀρφαξάδ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Arphaxad, a post-diluvian patriarch",
+      "hu": ""
+    }
+  },
+  "sw-g743": {
+    "strongs": 743,
+    "original_word": "ἀρχάγγελος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a chief angel",
+      "hu": ""
+    }
+  },
+  "sw-g744": {
+    "strongs": 744,
+    "original_word": "ἀρχαῖος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " original or primeval",
+      "hu": ""
+    }
+  },
+  "sw-g745": {
+    "strongs": 745,
+    "original_word": "Ἀρχέλαος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " people-ruling; Archelaus, a Jewish king",
+      "hu": ""
+    }
+  },
+  "sw-g746": {
+    "strongs": 746,
+    "original_word": "ἀρχή",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " (properly abstract) a commencement, or (concretely) chief (in various applications of order, time, place, or rank)",
+      "hu": ""
+    }
+  },
+  "sw-g747": {
+    "strongs": 747,
+    "original_word": "ἀρχηγός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a chief leader",
+      "hu": ""
+    }
+  },
+  "sw-g748": {
+    "strongs": 748,
+    "original_word": "ἀρχιερατικός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " high-priestly",
+      "hu": ""
+    }
+  },
+  "sw-g749": {
+    "strongs": 749,
+    "original_word": "ἀρχιερεύς",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " the high-priest (literally, of the Jews, typically, Christ); by extension a chief priest",
+      "hu": ""
+    }
+  },
+  "sw-g750": {
+    "strongs": 750,
+    "original_word": "ἀρχιποίμην",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a head shepherd",
+      "hu": ""
+    }
+  },
+  "sw-g751": {
+    "strongs": 751,
+    "original_word": "Ἄρχιππος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " horse-ruler; Archippus, a Christian",
+      "hu": ""
+    }
+  },
+  "sw-g752": {
+    "strongs": 752,
+    "original_word": "ἀρχισυνάγωγος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " director of the synagogue services",
+      "hu": ""
+    }
+  },
+  "sw-g753": {
+    "strongs": 753,
+    "original_word": "ἀρχιτέκτων",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a chief constructor, i.e. \"architect\"",
+      "hu": ""
+    }
+  },
+  "sw-g754": {
+    "strongs": 754,
+    "original_word": "ἀρχιτελώνης",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a principle tax-gatherer",
+      "hu": ""
+    }
+  },
+  "sw-g755": {
+    "strongs": 755,
+    "original_word": "ἀρχιτρίκλινος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " director of the entertainment",
+      "hu": ""
+    }
+  },
+  "sw-g756": {
+    "strongs": 756,
+    "original_word": "ἄρχομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to commence (in order of time)",
+      "hu": ""
+    }
+  },
+  "sw-g757": {
+    "strongs": 757,
+    "original_word": "ἄρχω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to be first (in political rank or power)",
+      "hu": ""
+    }
+  },
+  "sw-g758": {
+    "strongs": 758,
+    "original_word": "ἄρχων",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a first (in rank or power)",
+      "hu": ""
+    }
+  },
+  "sw-g759": {
+    "strongs": 759,
+    "original_word": "ἄρωμα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " an aromatic",
+      "hu": ""
+    }
+  },
+  "sw-g760": {
+    "strongs": 760,
+    "original_word": "Ἀσά",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Asa, an Israelite",
+      "hu": ""
+    }
+  },
+  "sw-g761": {
+    "strongs": 761,
+    "original_word": "ἀσάλευτος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " unshaken, i.e. (by implication) immovable (figuratively)",
+      "hu": ""
+    }
+  },
+  "sw-g762": {
+    "strongs": 762,
+    "original_word": "ἄσβεστος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " not extinguished, i.e. (by implication) perpetual",
+      "hu": ""
+    }
+  },
+  "sw-g763": {
+    "strongs": 763,
+    "original_word": "ἀσέβεια",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " impiety, i.e. (by implication) wickedness",
+      "hu": ""
+    }
+  },
+  "sw-g764": {
+    "strongs": 764,
+    "original_word": "ἀσεβέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to be (by implied act) impious or wicked",
+      "hu": ""
+    }
+  },
+  "sw-g765": {
+    "strongs": 765,
+    "original_word": "ἀσεβής",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " irreverent, i.e. (by extension) impious or wicked",
+      "hu": ""
+    }
+  },
+  "sw-g766": {
+    "strongs": 766,
+    "original_word": "ἀσέλγεια",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " licentiousness (sometimes including other vices)",
+      "hu": ""
+    }
+  },
+  "sw-g767": {
+    "strongs": 767,
+    "original_word": "ἄσημος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " unmarked, i.e. (figuratively) ignoble",
+      "hu": ""
+    }
+  },
+  "sw-g768": {
+    "strongs": 768,
+    "original_word": "Ἀσήρ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Aser (i.e. Asher), an Israelite tribe",
+      "hu": ""
+    }
+  },
+  "sw-g769": {
+    "strongs": 769,
+    "original_word": "ἀσθένεια",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " feebleness (of mind or body); by implication, malady; morally, frailty",
+      "hu": ""
+    }
+  },
+  "sw-g770": {
+    "strongs": 770,
+    "original_word": "ἀσθενέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to be feeble (in any sense)",
+      "hu": ""
+    }
+  },
+  "sw-g771": {
+    "strongs": 771,
+    "original_word": "ἀσθένημα",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a scruple of conscience",
+      "hu": ""
+    }
+  },
+  "sw-g772": {
+    "strongs": 772,
+    "original_word": "ἀσθενής",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " strengthless (in various applications, literal, figurative and moral)",
+      "hu": ""
+    }
+  },
+  "sw-g773": {
+    "strongs": 773,
+    "original_word": "Ἀσία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Asia, i.e. Asia Minor, or (usually) only its western shore",
+      "hu": ""
+    }
+  },
+  "sw-g774": {
+    "strongs": 774,
+    "original_word": "Ἀσιανός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " an Asian (i.e. Asiatic) or an inhabitant of Asia",
+      "hu": ""
+    }
+  },
+  "sw-g775": {
+    "strongs": 775,
+    "original_word": "Ἀσιάρχης",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " an Asiarch or president of the public festivities in a city of Asia Minor",
+      "hu": ""
+    }
+  },
+  "sw-g776": {
+    "strongs": 776,
+    "original_word": "ἀσιτία",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " fasting (the state)",
+      "hu": ""
+    }
+  },
+  "sw-g777": {
+    "strongs": 777,
+    "original_word": "ἄσιτος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " without (taking) food",
+      "hu": ""
+    }
+  },
+  "sw-g778": {
+    "strongs": 778,
+    "original_word": "ἀσκέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to elaborate, i.e. (figuratively) train (by implication, strive)",
+      "hu": ""
+    }
+  },
+  "sw-g779": {
+    "strongs": 779,
+    "original_word": "ἀσκός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a leathern (or skin) bag used as a bottle",
+      "hu": ""
+    }
+  },
+  "sw-g780": {
+    "strongs": 780,
+    "original_word": "ἀσμένως",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " with pleasure",
+      "hu": ""
+    }
+  },
+  "sw-g781": {
+    "strongs": 781,
+    "original_word": "ἄσοφος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " unwise",
+      "hu": ""
+    }
+  },
+  "sw-g782": {
+    "strongs": 782,
+    "original_word": "ἀσπάζομαι",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to enfold in the arms, i.e. (by implication) to salute, (figuratively) to welcome",
+      "hu": ""
+    }
+  },
+  "sw-g783": {
+    "strongs": 783,
+    "original_word": "ἀσπασμός",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a greeting (in person or by letter)",
+      "hu": ""
+    }
+  },
+  "sw-g784": {
+    "strongs": 784,
+    "original_word": "ἄσπιλος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " unblemished (physically or morally)",
+      "hu": ""
+    }
+  },
+  "sw-g785": {
+    "strongs": 785,
+    "original_word": "ἀσπίς",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a buckler (or round shield); used of a serpent (as coiling itself), probably the \"asp\"",
+      "hu": ""
+    }
+  },
+  "sw-g786": {
+    "strongs": 786,
+    "original_word": "ἄσπονδος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " literally, without libation (which usually accompanied a treaty), i.e. (by implication) truceless",
+      "hu": ""
+    }
+  },
+  "sw-g787": {
+    "strongs": 787,
+    "original_word": "ἀσσάριον",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " an assarius or as, a Roman coin",
+      "hu": ""
+    }
+  },
+  "sw-g788": {
+    "strongs": 788,
+    "original_word": "ἆσσον",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " more nearly, i.e. very near",
+      "hu": ""
+    }
+  },
+  "sw-g789": {
+    "strongs": 789,
+    "original_word": "Ἄσσος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " Assus, a city of Asia MInor",
+      "hu": ""
+    }
+  },
+  "sw-g790": {
+    "strongs": 790,
+    "original_word": "ἀστατέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to be non-stationary, i.e. (figuratively) homeless",
+      "hu": ""
+    }
+  },
+  "sw-g791": {
+    "strongs": 791,
+    "original_word": "ἀστεῖος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " urbane, i.e. (by implication) handsome",
+      "hu": ""
+    }
+  },
+  "sw-g792": {
+    "strongs": 792,
+    "original_word": "ἀστήρ",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " a star (as strown over the sky), literally or figuratively",
+      "hu": ""
+    }
+  },
+  "sw-g793": {
+    "strongs": 793,
+    "original_word": "ἀστήρικτος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " unfixed, i.e. (figuratively) vacillating",
+      "hu": ""
+    }
+  },
+  "sw-g794": {
+    "strongs": 794,
+    "original_word": "ἄστοργος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " hard-hearted towards kindred",
+      "hu": ""
+    }
+  },
+  "sw-g795": {
+    "strongs": 795,
+    "original_word": "ἀστοχέω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to miss the mark, i.e. (figuratively) deviate from truth",
+      "hu": ""
+    }
+  },
+  "sw-g796": {
+    "strongs": 796,
+    "original_word": "ἀστραπή",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " lightning; by analogy, glare",
+      "hu": ""
+    }
+  },
+  "sw-g797": {
+    "strongs": 797,
+    "original_word": "ἀστράπτω",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " to flash as lightning",
+      "hu": ""
+    }
+  },
+  "sw-g798": {
+    "strongs": 798,
+    "original_word": "ἄστρον",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " properly, a constellation; put for a single star (natural or artificial)",
+      "hu": ""
+    }
+  },
+  "sw-g799": {
+    "strongs": 799,
+    "original_word": "Ἀσύγκριτος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " incomparable; Asyncritus, a Christian",
+      "hu": ""
+    }
+  },
+  "sw-g800": {
+    "strongs": 800,
+    "original_word": "ἀσύμφωνος",
+    "transliteration": "",
+    "language": "Greek",
+    "definition": {
+      "en": " inharmonious (figuratively)",
+      "hu": ""
+    }
+  }
+}
