@@ -1,131 +1,83 @@
-import pandas as pd
-import requests
-import time
-import sys
+import json
+import re
 
-# --- CONFIGURATION ---
-INPUT_FILE = 'strongs_master_hebrew_list.csv'  # Using the MASTER file
-OUTPUT_FILE = 'strongs_hebrew_master_hungarian_context.csv'
-MODEL = "gemma3:12b"  # Best 10GB model. Use "gemma2:9b" if Qwen is too slow.
+# Bemeneti és kimeneti fájlok
+INPUT_FILE = 'strongs_hebrew_master_hungarian_27b.csv'
+OUTPUT_FILE = 'strongs_h1.json'
 
-# SYSTEM PROMPT: Now we tell the AI to look at the hebrew Word too.
-SYSTEM_INSTRUCTION = """
-You are a Biblical hebrew scholar and translator.
-Task: Translate the English definition into Hungarian.
-
-CRITICAL CONTEXT INSTRUCTIONS:
-1. Before translating, internally consult **Thayer's hebrew Lexicon** and **Liddell-Scott-Jones** to resolve ambiguity for the provided Strong's Number (e.g., G3056).
-2. Use this internal lexical knowledge to select the most theologically accurate Hungarian word.
-3. Use these to resolve ambiguity (e.g., distinguishing 'Ruach' as Spirit vs. Wind).
-
-You are a Biblical scholar and translator.
-Task: Translate the English definition into Hungarian, considering the nuance of the Original hebrew word provided.
-Make it easily understandable by laymen, but keep nuances.
-
-Rules:
-1. Output ONLY the Hungarian definition. No notes, no "translation:".
-2. Use Theological Hungarian terminology.
-3. If the definition is a list, keep it a list.
-4. Always translate the brackets as well.
-
-Format:
-Input: "father, in a literal and immediate, or figurative and remote application"
-Output: "apa, szó szerinti és közvetlen, vagy átvitt és távolabbi megfogalmazásban"
-
-Input: "to create, cut down, select, feed"
-Output: "teremteni, kivágni, kiválasztani, legeltetni"
-
-Input: "Melchizedek, a king of Salem"
-Output: "Melkisédek, Sálem királya"
-
-Input to translate:
-"""
-
-def translate_row(english_def, hebrew_word, strong_id):
-    if pd.isna(english_def) or str(english_def).strip() == "":
-        return ""
+def clean_text(text):
+    if not text: return ""
+    # 1. Curly braces törlése: {father} -> father
+    text = text.replace('{', '').replace('}', '')
     
-    url = "http://localhost:11434/api/chat"
+    # 2. Idézőjel káosz javítása
+    # "szó"," jelentés" -> "szó, jelentés"
+    text = text.replace('","', ', ')
+    text = text.replace('",', ',')
+    text = text.replace(',"', ', ')
     
-    # We construct a prompt that gives the AI the Full Context
-    user_message = f"hebrew Word: {hebrew_word} ({strong_id}) | English Definition: {english_def}"
+    # 3. Maradék szélső idézőjelek levágása
+    text = text.strip('"').strip()
+    
+    # 4. Dupla szóközök irtása
+    text = re.sub(r'\s+', ' ', text)
+    return text
 
-    payload = {
-        "model": MODEL,
-        "messages": [
-            {
-                "role": "user", 
-                "content": f"{SYSTEM_INSTRUCTION}\n\nTask: {user_message}"
+def smart_split(english_raw):
+    """
+    Megpróbálja szétválasztani az angolt és a magyart, ha egy mezőbe csúsztak.
+    Heurisztika: Ha a vessző után ékezetes magyar betű jön.
+    """
+    # Pl: "a green plant,zöld növény"
+    match = re.search(r'(.*?),\s*([a-zA-Z\s]*[áéíóöőúüűÁÉÍÓÖŐÚÜŰ][^;]*)', english_raw)
+    if match:
+        return match.group(1).strip(), match.group(2).strip()
+    return english_raw, ""
+
+strongs_map = {}
+
+print(f"Feldolgozás: {INPUT_FILE}...")
+
+with open(INPUT_FILE, 'r', encoding='utf-8') as f:
+    for line in f:
+        line = line.strip()
+        # Fejléc és üres sorok kihagyása
+        if not line or line.startswith('StrongID'):
+            continue
+            
+        parts = line.split(';')
+        
+        # Adatok kinyerése (biztonságos indexeléssel)
+        s_id = parts[0].strip()
+        original = parts[1].strip() if len(parts) > 1 else ""
+        translit = parts[2].strip() if len(parts) > 2 else ""
+        english_raw = parts[3].strip() if len(parts) > 3 else ""
+        hungarian_raw = parts[4].strip() if len(parts) > 4 else ""
+
+        # Sorból kilógó adatok javítása (pl. H3)
+        if not hungarian_raw and ',' in english_raw:
+            eng_cand, hun_cand = smart_split(english_raw)
+            if hun_cand:
+                english_raw = eng_cand
+                hungarian_raw = hun_cand
+                print(f"  -> Javítva: {s_id} (Szétválasztva)")
+
+        # Tisztítás
+        entry = {
+            "id": s_id,
+            "lemma": original,
+            "translit": translit,
+            "pronounce": "", # A CSV nem tartalmaz kiejtést, üresen hagyjuk
+            "defs": {
+                "hu": clean_text(hungarian_raw),
+                "en": clean_text(english_raw)
             }
-        ],
-        "stream": False,
-        "options": {
-            "temperature": 0.1,
-            "num_ctx": 2048
         }
-    }
-    
-    try:
-        response = requests.post(url, json=payload)
-        if response.status_code == 200:
-            return response.json()['message']['content'].strip()
-        else:
-            return english_def
-    except Exception as e:
-        print(f"Error: {e}")
-        return english_def
+        
+        strongs_map[s_id] = entry
 
-def main():
-    print(f"Loading {INPUT_FILE}...")
-    try:
-        # The Master file uses semi-colons ';' as separators
-        df = pd.read_csv(INPUT_FILE, sep=';')
-    except Exception as e:
-        print(f"Error reading file: {e}")
-        return
+# Mentés JSON-be
+with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
+    json.dump(strongs_map, f, ensure_ascii=False, indent=2)
 
-    print(f"Translating {len(df)} words using {MODEL} with hebrew CONTEXT...")
-    
-    if 'HungarianDefinition' not in df.columns:
-        df['HungarianDefinition'] = ""
-
-    total = len(df)
-    start_time = time.time()
-
-    try:
-        for i, row in df.iterrows():
-            if str(row['HungarianDefinition']).strip() != "" and str(row['HungarianDefinition']) != "nan":
-                continue
-
-            english = row['EnglishDefinition']
-            hebrew = row['OriginalWord']
-            sid = row['StrongID']
-
-            # Clean up quotes
-            if isinstance(english, str):
-                english = english.strip().replace('"', '')
-
-            # Translate with Context
-            hungarian = translate_row(english, hebrew, sid)
-            
-            df.at[i, 'HungarianDefinition'] = hungarian
-
-            # Progress Bar
-            if i % 5 == 0:
-                elapsed = time.time() - start_time
-                rate = (i + 1) / elapsed if elapsed > 0 else 0
-                print(f"[{i}/{total}] {rate:.1f} w/s | {hebrew}: {hungarian[:30]}...")
-            
-            if i % 20 == 0:
-                df.to_csv(OUTPUT_FILE, sep=';', index=False)
-                
-    except KeyboardInterrupt:
-        print("\nStopping & Saving...")
-        df.to_csv(OUTPUT_FILE, sep=';', index=False)
-        sys.exit()
-
-    df.to_csv(OUTPUT_FILE, sep=';', index=False)
-    print("Done.")
-
-if __name__ == "__main__":
-    main()
+print(f"KÉSZ! {len(strongs_map)} definíció mentve ide: {OUTPUT_FILE}")

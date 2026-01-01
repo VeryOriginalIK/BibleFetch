@@ -1,0 +1,21 @@
+<div class="flex flex-col min-h-screen bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100">
+
+  <!-- Fejléc Komponens -->
+  <app-header></app-header>
+
+  <!-- Fő Tartalom
+       pt-16: Padding a fix fejléc miatt
+       pb-20: Padding a fix alsó menü miatt
+  -->
+  <main class="flex-1 pt-16 pb-20 px-4 overflow-x-hidden animate-fade-in-content">
+    <div class="max-w-screen-xl mx-auto h-full">
+      <!-- Az Angular Router ide tölti be az aktuális oldalt (pl. Home, Search) -->
+      <router-outlet></router-outlet>
+    </div>
+  </main>
+
+  <!-- Alsó Menü Komponens -->
+  <app-bottom-nav></app-bottom-nav>
+  <app-definition-modal></app-definition-modal>
+
+</div>

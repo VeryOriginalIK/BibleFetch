@@ -1,0 +1,3502 @@
+{
+  "H8051": {
+    "id": "H8051",
+    "lemma": "שַׁמּוּעַ",
+    "translit": "Shammûwaʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "Sammua, négy izraelita neve.",
+      "en": "Shammua, the name of four Israelites"
+    }
+  },
+  "H8052": {
+    "id": "H8052",
+    "lemma": "שְׁמוּעָה",
+    "translit": "shᵉmûwʻâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "hallás, meghallott hír, tudósítás, jelentés, hírnév [valaminekről]",
+      "en": "something heard, i.e. an announcement"
+    }
+  },
+  "H8053": {
+    "id": "H8053",
+    "lemma": "שָׁמוּר",
+    "translit": "Shâmûwr",
+    "pronounce": "",
+    "defs": {
+      "hu": "őrzött, megőrzött, az Úr által megóvott izraeli, aki a szent dolgok őrzésére van szánva [vagy kijelölve].",
+      "en": "Shamur, an Israelite"
+    }
+  },
+  "H8054": {
+    "id": "H8054",
+    "lemma": "שַׁמּוֹת",
+    "translit": "Shammôwth",
+    "pronounce": "",
+    "defs": {
+      "hu": "shamóti, egy Izráelita [vagy: Izrael fia, Izrael népének tagja].",
+      "en": "Shammoth, an Israelite"
+    }
+  },
+  "H8055": {
+    "id": "H8055",
+    "lemma": "שָׂמַח",
+    "translit": "sâmach",
+    "pronounce": "",
+    "defs": {
+      "hu": "valószínűleg felvidulni, ragyogni",
+      "en": "probably to brighten up, i.e. (figuratively) be (causatively, make) blithe or gleesome"
+    }
+  },
+  "H8056": {
+    "id": "H8056",
+    "lemma": "שָׂמֵחַ",
+    "translit": "sâmêach",
+    "pronounce": "",
+    "defs": {
+      "hu": "örvendező, vidám, ujjongó [vagy] felviduló.",
+      "en": "blithe or gleeful"
+    }
+  },
+  "H8057": {
+    "id": "H8057",
+    "lemma": "שִׂמְחָה",
+    "translit": "simchâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "öröm, vidámság, ujjongás [vallásos, ünnepélyes értelemben is]",
+      "en": "blithesomeness or glee, (religious or festival)"
+    }
+  },
+  "H8058": {
+    "id": "H8058",
+    "lemma": "שָׁמַט",
+    "translit": "shâmaṭ",
+    "pronounce": "",
+    "defs": {
+      "hu": "lerántani, kezdetben megrázni, képletesen elengedni, abbahagyni, eltekinteni, megbocsátani.",
+      "en": "to fling down, incipiently to jostle, figuratively, to let alone, desist, remit"
+    }
+  },
+  "H8059": {
+    "id": "H8059",
+    "lemma": "שְׁמִטָּה",
+    "translit": "shᵉmiṭṭâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "[Adósság] elengedése vagy a munkálatok felfüggesztése.",
+      "en": "remission (of debt) or suspension of labor)"
+    }
+  },
+  "H8060": {
+    "id": "H8060",
+    "lemma": "שַׁמַּי",
+    "translit": "Shammay",
+    "pronounce": "",
+    "defs": {
+      "hu": "Sammai, három izraelita neve [mint személynév].",
+      "en": "Shammai, the name of three Israelites"
+    }
+  },
+  "H8061": {
+    "id": "H8061",
+    "lemma": "שְׁמִידָע",
+    "translit": "Shᵉmîydâʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "Semidá, egy Izráelita.",
+      "en": "Shemida, an Israelite"
+    }
+  },
+  "H8062": {
+    "id": "H8062",
+    "lemma": "שְׁמִידָעִי",
+    "translit": "Shᵉmîydâʻîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "[Semidai] vagy [Semida] utódai, kollektíven.",
+      "en": "a Shemidaite (collectively) or descendants of Shemida"
+    }
+  },
+  "H8063": {
+    "id": "H8063",
+    "lemma": "שְׂמִיכָה",
+    "translit": "sᵉmîykâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "egy futás [vagy lefutás], mint ami a keleti ülő személyt tartja [vagy támasztja]",
+      "en": "a run (as sustaining the Oriental sitter)"
+    }
+  },
+  "H8064": {
+    "id": "H8064",
+    "lemma": "שָׁמַיִם",
+    "translit": "shâmayim",
+    "pronounce": "",
+    "defs": {
+      "hu": "az égbolt (mint a magasságban lévő, kettős alak talán azokra utal, amelyek a felhők mozgásának látható íve, valamint a magasabb éter, ahol az égitestek forognak)",
+      "en": "the sky (as aloft, the dual perhaps alluding to the visible arch in which the clouds move, as well as to the higher ether where the celestial bodies revolve)"
+    }
+  },
+  "H8065": {
+    "id": "H8065",
+    "lemma": "שָׁמַיִן",
+    "translit": "shâmayin",
+    "pronounce": "",
+    "defs": {
+      "hu": "az ég (fent, a kettősség talán azokra a látható ívekre utal, melyeken a felhők mozognak, valamint a magasabb éterre, ahol az égitestek forognak)",
+      "en": "the sky (as aloft, the dual perhaps alluding to the visible arch in which the clouds move, as well as to the higher ether where the celestial bodies revolve)"
+    }
+  },
+  "H8066": {
+    "id": "H8066",
+    "lemma": "שְׁמִינִי",
+    "translit": "shᵉmîynîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "nyolc [szám], nyolcadik [rendi szám]",
+      "en": "eight"
+    }
+  },
+  "H8067": {
+    "id": "H8067",
+    "lemma": "שְׁמִינִית",
+    "translit": "shᵉmîynîyth",
+    "pronounce": "",
+    "defs": {
+      "hu": "valószínűleg nyolchúros lant vagy líra.",
+      "en": "probably an eight-stringed lyre"
+    }
+  },
+  "H8068": {
+    "id": "H8068",
+    "lemma": "שָׁמִיר",
+    "translit": "shâmîyr",
+    "pronounce": "",
+    "defs": {
+      "hu": "egy tövis, továbbá (élességénél fogva karcolásra való) drágakő, valószínűleg a gyémánt.",
+      "en": "a thorn, also (from its keenness for scratching) a gem, probably the diamond"
+    }
+  },
+  "H8069": {
+    "id": "H8069",
+    "lemma": "שָׁמִיר",
+    "translit": "Shâmîyr",
+    "pronounce": "",
+    "defs": {
+      "hu": "Šámír, két hely neve Palesztinában [egy város Júda hegyvidékén, és egy a Földközi-tenger partján].",
+      "en": "Shamir, the name of two places in Palestine"
+    }
+  },
+  "H8070": {
+    "id": "H8070",
+    "lemma": "שְׁמִירָמוֹת",
+    "translit": "Shᵉmîyrâmôwth",
+    "pronounce": "",
+    "defs": {
+      "hu": "Semiramót, két izraelita neve.",
+      "en": "Shemiramoth, the name of two Israelites"
+    }
+  },
+  "H8071": {
+    "id": "H8071",
+    "lemma": "שִׂמְלָה",
+    "translit": "simlâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "öltözet, különösen köpeny vagy palást.",
+      "en": "a dress, especially a mantle"
+    }
+  },
+  "H8072": {
+    "id": "H8072",
+    "lemma": "שַׂמְלָה",
+    "translit": "Samlâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Edomita [nép], Edom lakója",
+      "en": "Samlah, an Edomite"
+    }
+  },
+  "H8073": {
+    "id": "H8073",
+    "lemma": "שַׁמְלַי",
+    "translit": "Shamlay",
+    "pronounce": "",
+    "defs": {
+      "hu": "Šamláj, a netinimok közül való.",
+      "en": "Shamlai, one of the Nethinim"
+    }
+  },
+  "H8074": {
+    "id": "H8074",
+    "lemma": "שָׁמֵם",
+    "translit": "shâmêm",
+    "pronounce": "",
+    "defs": {
+      "hu": "megdöbbenteni (vagy reflexíven, zsibbadni), azaz elpusztítani vagy (alakosan) elzsibbadni (mindkettő általában passzív értelemben)",
+      "en": "to stun (or intransitively, grow numb), i.e. devastate or (figuratively) stupefy (both usually in a passive sense)"
+    }
+  },
+  "H8075": {
+    "id": "H8075",
+    "lemma": "שְׁמַם",
+    "translit": "shᵉmam",
+    "pronounce": "",
+    "defs": {
+      "hu": "elbizonyosodva lenni, megbénulni, eltorzulni, elpusztulni, vagy (átvitt értelemben) elzsibbadni, megdermedni, legtöbbször passzív értelemben",
+      "en": "to stun (or intransitively, grow numb), i.e. devastate or (figuratively) stupefy (both usually in a passive sense)"
+    }
+  },
+  "H8076": {
+    "id": "H8076",
+    "lemma": "שָׁמֵם",
+    "translit": "shâmêm",
+    "pronounce": "",
+    "defs": {
+      "hu": "pusztaság, rom, elhagyatott hely, romba dőlt, elpusztított [hely, táj, város].",
+      "en": "ruined"
+    }
+  },
+  "H8077": {
+    "id": "H8077",
+    "lemma": "שְׁמָמָה",
+    "translit": "shᵉmâmâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "pusztaság, elhagyatottság, romlás",
+      "en": "devastation, figuratively, astonishment"
+    }
+  },
+  "H8078": {
+    "id": "H8078",
+    "lemma": "שִׁמָּמוֹן",
+    "translit": "shimmâmôwn",
+    "pronounce": "",
+    "defs": {
+      "hu": "elbizonytalanodás, elnémulás, értelmi zavar, megdöbbenés [a gondolatok összezavarodása, értelmi képességének elvesztése által]",
+      "en": "stupefaction"
+    }
+  },
+  "H8079": {
+    "id": "H8079",
+    "lemma": "שְׂמָמִית",
+    "translit": "sᵉmâmîyth",
+    "pronounce": "",
+    "defs": {
+      "hu": "szemérméret (egy gyíkféle, melyet a néphiedelem ártalmasnak tart)",
+      "en": "a lizard (from the superstition of its noxiousness)"
+    }
+  },
+  "H8080": {
+    "id": "H8080",
+    "lemma": "שָׁמַן",
+    "translit": "shâman",
+    "pronounce": "",
+    "defs": {
+      "hu": "fényleni, ragyogni",
+      "en": "to shine, i.e. (by analogy) be (causatively, make) oily or gross"
+    }
+  },
+  "H8081": {
+    "id": "H8081",
+    "lemma": "שֶׁמֶן",
+    "translit": "shemen",
+    "pronounce": "",
+    "defs": {
+      "hu": "olaj, különösen folyékony [mint az olívából, gyakran illatosított], átvitt értelemben: gazdagság, bővesség.",
+      "en": "grease, especially liquid (as from the olive, often perfumed), figuratively, richness"
+    }
+  },
+  "H8082": {
+    "id": "H8082",
+    "lemma": "שָׁמֵן",
+    "translit": "shâmên",
+    "pronounce": "",
+    "defs": {
+      "hu": "zsíros, kövér, lédús",
+      "en": "greasy, i.e. gross, figuratively, rich"
+    }
+  },
+  "H8083": {
+    "id": "H8083",
+    "lemma": "שְׁמֹנֶה",
+    "translit": "shᵉmôneh",
+    "pronounce": "",
+    "defs": {
+      "hu": "nyolc, mint szám, nyolc",
+      "en": "a cardinal number, eight (as if a surplus above the 'perfect' seven), also (as ordinal) eighth"
+    }
+  },
+  "H8084": {
+    "id": "H8084",
+    "lemma": "שְׁמֹנִים",
+    "translit": "shᵉmônîym",
+    "pronounce": "",
+    "defs": {
+      "hu": "nyolcván, vagy a nyolcvadik.",
+      "en": "eighty, also eightieth"
+    }
+  },
+  "H8085": {
+    "id": "H8085",
+    "lemma": "שָׁמַע",
+    "translit": "shâmaʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "hallgatni, figyelni (gyakran az értés, engedelmesség, stb. mellékes mellékhatásával), hallgatni valakit, odafigyelni rá",
+      "en": "to hear intelligently (often with implication of attention, obedience, etc., causatively, to tell, etc.)"
+    }
+  },
+  "H8086": {
+    "id": "H8086",
+    "lemma": "שְׁמַע",
+    "translit": "shᵉmaʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "hallgatni, megérteni, odafigyelni (gyakran engedelmességgel, vagy annak következményével), vagy hallattatni, elmondani",
+      "en": "to hear intelligently (often with implication of attention, obedience, etc., causatively, to tell, etc.)"
+    }
+  },
+  "H8087": {
+    "id": "H8087",
+    "lemma": "שֶׁמַע",
+    "translit": "Shemaʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "Séma, egy hely Palesztinában, és négy izraelita neve.",
+      "en": "Shema, the name of a place in Palestine and of four Israelites"
+    }
+  },
+  "H8088": {
+    "id": "H8088",
+    "lemma": "שֵׁמַע",
+    "translit": "shêmaʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "valami, amit hallottak, azaz hang, pletyka, hírnév, elvont értelemben hallgatóság, hallgatók.",
+      "en": "something heard, i.e. a sound, rumor, announcement, abstractly, audience"
+    }
+  },
+  "H8089": {
+    "id": "H8089",
+    "lemma": "שֹׁמַע",
+    "translit": "shômaʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "jelentés, hír, tudósítás, hallomás [valamiről]",
+      "en": "a report"
+    }
+  },
+  "H8090": {
+    "id": "H8090",
+    "lemma": "שְׁמָע",
+    "translit": "Shᵉmâʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "[Szemé] egy hely Palesztinában.",
+      "en": "Shema, a place in Palestine"
+    }
+  },
+  "H8091": {
+    "id": "H8091",
+    "lemma": "שָׁמָע",
+    "translit": "Shâmâʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "Sámá, egy Izráelita [ember].",
+      "en": "Shama, an Israelite"
+    }
+  },
+  "H8092": {
+    "id": "H8092",
+    "lemma": "שִׁמְעָא",
+    "translit": "Shimʻâʼ",
+    "pronounce": "",
+    "defs": {
+      "hu": "Simá, négy izraelita neve.",
+      "en": "Shima, the name of four Israelites"
+    }
+  },
+  "H8093": {
+    "id": "H8093",
+    "lemma": "שִׁמְעָה",
+    "translit": "Shimʻâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Siméá, egy Izráelita.",
+      "en": "Shimah, an Israelite"
+    }
+  },
+  "H8094": {
+    "id": "H8094",
+    "lemma": "שְׁמָעָה",
+    "translit": "Shᵉmâʻâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Semá, egy Izráelita.",
+      "en": "Shemaah, an Israelite"
+    }
+  },
+  "H8095": {
+    "id": "H8095",
+    "lemma": "שִׁמְעוֹן",
+    "translit": "Shimʻôwn",
+    "pronounce": "",
+    "defs": {
+      "hu": "Simon, Jákób fia, és tőle származó törzs.",
+      "en": "Shimon, one of Jacob's sons, also the tribe descended from him"
+    }
+  },
+  "H8096": {
+    "id": "H8096",
+    "lemma": "שִׁמְעִי",
+    "translit": "Shimʻîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "Simi, húsz izraelita neve.",
+      "en": "Shimi, the name of twenty Israelites"
+    }
+  },
+  "H8097": {
+    "id": "H8097",
+    "lemma": "שִׁמְעִי",
+    "translit": "Shimʻîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "siméi, a siméi nép (kollektíven) vagy Simi leszármazottjai.",
+      "en": "a Shimite (collectively) or descendants of Shimi"
+    }
+  },
+  "H8098": {
+    "id": "H8098",
+    "lemma": "שְׁמַעְיָה",
+    "translit": "Shᵉmaʻyâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Semajá, huszonöt izraelita neve.",
+      "en": "Shemajah, the name of twenty-five Israelites"
+    }
+  },
+  "H8099": {
+    "id": "H8099",
+    "lemma": "שִׁמְעֹנִי",
+    "translit": "Shimʻônîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "simonita [személy vagy népcsoport, aki Simon törzséből származik, vagy Simon leszármazottai kollektíven]",
+      "en": "a Shimonite (collectively) or descendants of Shimon"
+    }
+  },
+  "H8100": {
+    "id": "H8100",
+    "lemma": "שִׁמְעַת",
+    "translit": "Shimʻath",
+    "pronounce": "",
+    "defs": {
+      "hu": "Simáth, egy ammonita nő.",
+      "en": "Shimath, an Ammonitess"
+    }
+  },
+  "H8101": {
+    "id": "H8101",
+    "lemma": "שִׁמְעָתִי",
+    "translit": "Shimʻâthîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "[Simáti] vagy a Simátiak (együttesen) vagy Simá fiaitól származók.",
+      "en": "a Shimathite (collectively) or descendants of Shimah"
+    }
+  },
+  "H8102": {
+    "id": "H8102",
+    "lemma": "שֶׁמֶץ",
+    "translit": "shemets",
+    "pronounce": "",
+    "defs": {
+      "hu": "egy halvány sejtés, gyenge gyanítás, előérzet [vagy: egy kezdeti, még kialakuló gondolat, érzés].",
+      "en": "an inkling"
+    }
+  },
+  "H8103": {
+    "id": "H8103",
+    "lemma": "שִׁמְצָה",
+    "translit": "shimtsâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "csúfolódó, gúnyoló suttogás [ellenséges nézők által]",
+      "en": "scornful whispering (of hostile spectators)"
+    }
+  },
+  "H8104": {
+    "id": "H8104",
+    "lemma": "שָׁמַר",
+    "translit": "shâmar",
+    "pronounce": "",
+    "defs": {
+      "hu": "megóvni, körülvédeni (mintha tövisekkel kerítené valaki), általában őrizni, vigyázni, gondozni, felügyelni.",
+      "en": "properly, to hedge about (as with thorns), i.e. guard, generally, to protect, attend to, etc."
+    }
+  },
+  "H8105": {
+    "id": "H8105",
+    "lemma": "שֶׁמֶר",
+    "translit": "shemer",
+    "pronounce": "",
+    "defs": {
+      "hu": "valami megőrzött, úgymint a bor ülepedéke [lecsapódása, kiválása] (csak többes számban)",
+      "en": "something preserved, i.e. the settlings (plural only) of wine"
+    }
+  },
+  "H8106": {
+    "id": "H8106",
+    "lemma": "שֶׁמֶר",
+    "translit": "Shemer",
+    "pronounce": "",
+    "defs": {
+      "hu": "Shemer, három izraelita neve.",
+      "en": "Shemer, the name of three Israelites"
+    }
+  },
+  "H8107": {
+    "id": "H8107",
+    "lemma": "שִׁמֻּר",
+    "translit": "shimmur",
+    "pronounce": "",
+    "defs": {
+      "hu": "őrzés, megtartás, vigyázás [valaminek a megőrzése, védelme, gondozása",
+      "en": "an observance"
+    }
+  },
+  "H8108": {
+    "id": "H8108",
+    "lemma": "שׇׁמְרָה",
+    "translit": "shomrâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "őrizet, vigyázás, résenlétezés [azaz éberség, gondoskodás, ami a veszély elkerülésére irányul]",
+      "en": "watchfulness"
+    }
+  },
+  "H8109": {
+    "id": "H8109",
+    "lemma": "שְׁמֻרָה",
+    "translit": "shᵉmurâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "őrizet alatt álló dolog, azaz szemhéj [vagy védelemre szolgáló rész]",
+      "en": "something guarded, i.e. an eye-lid"
+    }
+  },
+  "H8110": {
+    "id": "H8110",
+    "lemma": "שִׁמְרוֹן",
+    "translit": "Shimrôwn",
+    "pronounce": "",
+    "defs": {
+      "hu": "Simron, egy Izraelita neve és egy palesztinai hely neve.",
+      "en": "Shimron, the name of an Israelite and of a place in Palestine"
+    }
+  },
+  "H8111": {
+    "id": "H8111",
+    "lemma": "שֹׁמְרוֹן",
+    "translit": "Shômᵉrôwn",
+    "pronounce": "",
+    "defs": {
+      "hu": "Samária, Palesztina egyik helye [egy város és annak környéke].",
+      "en": "Shomeron, a place in Palestine"
+    }
+  },
+  "H8112": {
+    "id": "H8112",
+    "lemma": "שִׁמְרוֹן מְראוֹן",
+    "translit": "Shimrôwn Mᵉrʼôwn",
+    "pronounce": "",
+    "defs": {
+      "hu": "Simron-Meron, Palesztinában található hely.",
+      "en": "Shimron-Meron, a place in Palestine"
+    }
+  },
+  "H8113": {
+    "id": "H8113",
+    "lemma": "שִׁמְרִי",
+    "translit": "Shimrîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "Simri, négy izraelita neve.",
+      "en": "Shimri, the name of four Israelites"
+    }
+  },
+  "H8114": {
+    "id": "H8114",
+    "lemma": "שְׁמַרְיָה",
+    "translit": "Shᵉmaryâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Shemarja, négy izraelita neve.",
+      "en": "Shemarjah, the name of four Israelites"
+    }
+  },
+  "H8115": {
+    "id": "H8115",
+    "lemma": "שׇׁמְרַיִן",
+    "translit": "Shomrayin",
+    "pronounce": "",
+    "defs": {
+      "hu": "Shomrain, egy hely Palesztinában [Palesztina földjén].",
+      "en": "Shomrain, a place in Palestine"
+    }
+  },
+  "H8116": {
+    "id": "H8116",
+    "lemma": "שִׁמְרִית",
+    "translit": "Shimrîyth",
+    "pronounce": "",
+    "defs": {
+      "hu": "Shimrit, egy moábita asszony.",
+      "en": "Shimrith, a Moabitess"
+    }
+  },
+  "H8117": {
+    "id": "H8117",
+    "lemma": "שִׁמְרֹנִי",
+    "translit": "Shimrônîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "simronita [személy vagy népcsoport, aki Simron fia vagy leszármazottja], simroniták [Simron fia vagy leszármazottaiból származó népcsoport vagy személyek].",
+      "en": "a Shimronite (collectively) or descendants of Shimron"
+    }
+  },
+  "H8118": {
+    "id": "H8118",
+    "lemma": "שֹׁמרֹנִי",
+    "translit": "Shômrônîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "samáriai [lakos] vagy a Samáriában lakók.",
+      "en": "a Shomeronite (collectively) or inhabitants of Shomeron"
+    }
+  },
+  "H8119": {
+    "id": "H8119",
+    "lemma": "שִׁמְרָת",
+    "translit": "Shimrâth",
+    "pronounce": "",
+    "defs": {
+      "hu": "Shimráth, egy Izráelita.",
+      "en": "Shimrath, an Israelite"
+    }
+  },
+  "H8120": {
+    "id": "H8120",
+    "lemma": "שְׁמַשׁ",
+    "translit": "shᵉmash",
+    "pronounce": "",
+    "defs": {
+      "hu": "szolgálni, munkálkodni, végezni (valamit), törődni (valakivel), áldozatot mutatni be.",
+      "en": "to serve"
+    }
+  },
+  "H8121": {
+    "id": "H8121",
+    "lemma": "שֶׁמֶשׁ",
+    "translit": "shemesh",
+    "pronounce": "",
+    "defs": {
+      "hu": "a nap, átvitt értelemben a kelet, képletesen egy sugár, vagy (építészeti értelemben) egy fogazott erődítmény.",
+      "en": "the sun, by implication, the east, figuratively, a ray, i.e. (architectural) a notched battlement"
+    }
+  },
+  "H8122": {
+    "id": "H8122",
+    "lemma": "שֶׁמֶשׁ",
+    "translit": "shemesh",
+    "pronounce": "",
+    "defs": {
+      "hu": "a nap, [az égitest], [a fényforrás]",
+      "en": "the sun"
+    }
+  },
+  "H8123": {
+    "id": "H8123",
+    "lemma": "שִׁמְשׁוֹן",
+    "translit": "Shimshôwn",
+    "pronounce": "",
+    "defs": {
+      "hu": "Simson, egy Izraelita.",
+      "en": "Shimshon, an Israelite"
+    }
+  },
+  "H8124": {
+    "id": "H8124",
+    "lemma": "שִׁמְשַׁי",
+    "translit": "Shimshay",
+    "pronounce": "",
+    "defs": {
+      "hu": "Simsaj, egy samaritánus.",
+      "en": "Shimshai, a Samaritan"
+    }
+  },
+  "H8125": {
+    "id": "H8125",
+    "lemma": "שַׁמְשְׁרַי",
+    "translit": "Shamshᵉray",
+    "pronounce": "",
+    "defs": {
+      "hu": "Shamsherai, egy Izraelita.",
+      "en": "Shamsherai, an Israelite"
+    }
+  },
+  "H8126": {
+    "id": "H8126",
+    "lemma": "שֻׁמָתִי",
+    "translit": "Shumâthîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "sumáti [sumáti nép, kollektíven vagy Sumah utódai]",
+      "en": "a Shumathite (collectively) or descendants of Shumah"
+    }
+  },
+  "H8127": {
+    "id": "H8127",
+    "lemma": "שֵׁן",
+    "translit": "shên",
+    "pronounce": "",
+    "defs": {
+      "hu": "fog, elefántcsont, alakosan szikla, meredek sziklaoldal.",
+      "en": "a tooth (as sharp), specifically ivory, figuratively, a cliff"
+    }
+  },
+  "H8128": {
+    "id": "H8128",
+    "lemma": "שֵׁן",
+    "translit": "shên",
+    "pronounce": "",
+    "defs": {
+      "hu": "fog, szájfog, metszőfog, állkapocs fogazata [általában, de lehet elefántcsontra is utalni]",
+      "en": "a tooth"
+    }
+  },
+  "H8129": {
+    "id": "H8129",
+    "lemma": "שֵׁן",
+    "translit": "Shên",
+    "pronounce": "",
+    "defs": {
+      "hu": "[Helyszín] Palesztinában, egy város vagy terület.",
+      "en": "Shen, a place in Palestine"
+    }
+  },
+  "H8130": {
+    "id": "H8130",
+    "lemma": "שָׂנֵא",
+    "translit": "sânêʼ",
+    "pronounce": "",
+    "defs": {
+      "hu": "gyűlöl (személyesen), ellenszenvez, utál, bosszúságot okoz valakinek.",
+      "en": "to hate (personally)"
+    }
+  },
+  "H8131": {
+    "id": "H8131",
+    "lemma": "שְׂנֵא",
+    "translit": "sᵉnêʼ",
+    "pronounce": "",
+    "defs": {
+      "hu": "gyűlöl (személyesen, ellenszenvvel, mélyen nem kedvelni)",
+      "en": "to hate (personally)"
+    }
+  },
+  "H8132": {
+    "id": "H8132",
+    "lemma": "שָׁנָא",
+    "translit": "shânâʼ",
+    "pronounce": "",
+    "defs": {
+      "hu": "változtatni, megváltoztatni, átváltoztatni [valamit]",
+      "en": "to alter"
+    }
+  },
+  "H8133": {
+    "id": "H8133",
+    "lemma": "שְׁנָא",
+    "translit": "shᵉnâʼ",
+    "pronounce": "",
+    "defs": {
+      "hu": "változtatni, megváltoztatni, átváltoztatni, elváltoztatni, megjavítani, megváltozni.",
+      "en": "to alter"
+    }
+  },
+  "H8134": {
+    "id": "H8134",
+    "lemma": "שִׁנְאָב",
+    "translit": "Shinʼâb",
+    "pronounce": "",
+    "defs": {
+      "hu": "Shináb, egy kánaánita.",
+      "en": "Shinab, a Canaanite"
+    }
+  },
+  "H8135": {
+    "id": "H8135",
+    "lemma": "שִׂנְאָה",
+    "translit": "sinʼâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "gyűlölet [mély undor, ellenszenv, ellenségesség",
+      "en": "hate"
+    }
+  },
+  "H8136": {
+    "id": "H8136",
+    "lemma": "שִׁנְאָן",
+    "translit": "shinʼân",
+    "pronounce": "",
+    "defs": {
+      "hu": "változás, azaz ismétlés, fordulás, megfordulás [egy ciklusban, időben vagy helyzetben]",
+      "en": "change, i.e. repetition"
+    }
+  },
+  "H8137": {
+    "id": "H8137",
+    "lemma": "שֶׁנְאַצַּר",
+    "translit": "Shenʼatstsar",
+    "pronounce": "",
+    "defs": {
+      "hu": "[Senácár], egy Izráelita.",
+      "en": "Shenatstsar, an Israelite"
+    }
+  },
+  "H8138": {
+    "id": "H8138",
+    "lemma": "שָׁנָה",
+    "translit": "shânâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "hajtogatni, megkettőzni (szó szerint vagy átvitt értelemben), következésképpen átváltoztatni (átmenetileg vagy visszafordíthatatlanul).",
+      "en": "to fold, i.e. duplicate (literally or figuratively), by implication, to transmute (transitive or intransitive)"
+    }
+  },
+  "H8139": {
+    "id": "H8139",
+    "lemma": "שְׁנָה",
+    "translit": "shᵉnâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "alvás, pihenés, szunnyadás, mély álom, lustaság, hanyagság.",
+      "en": "sleep"
+    }
+  },
+  "H8140": {
+    "id": "H8140",
+    "lemma": "שְׁנָה",
+    "translit": "shᵉnâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "egy év (az idő fordulása, vagy egy teljes forduló)",
+      "en": "a year (as a revolution of time)"
+    }
+  },
+  "H8141": {
+    "id": "H8141",
+    "lemma": "שָׁנֶה",
+    "translit": "shâneh",
+    "pronounce": "",
+    "defs": {
+      "hu": "egy év [időszak], egy forduló, egy évszak",
+      "en": "a year (as a revolution of time)"
+    }
+  },
+  "H8142": {
+    "id": "H8142",
+    "lemma": "שֵׁנָה",
+    "translit": "shênâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "[Alvás], [szunnyadás], [nyugalom]",
+      "en": "sleep"
+    }
+  },
+  "H8143": {
+    "id": "H8143",
+    "lemma": "שֶׁנְהַבִּים",
+    "translit": "shenhabbîym",
+    "pronounce": "",
+    "defs": {
+      "hu": "valószínűleg elefántcsont, azaz elefántfogakból készült tárgyak.",
+      "en": "probably, tooth of elephants, i.e. ivory tusk"
+    }
+  },
+  "H8144": {
+    "id": "H8144",
+    "lemma": "שָׁנִי",
+    "translit": "shânîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "vörös színű, valójában egy fajta vérszívó bogár vagy annak színe, továbbá azzal festett anyag [vörösfesték].",
+      "en": "crimson, properly, the insect or its color, also stuff dyed with it"
+    }
+  },
+  "H8145": {
+    "id": "H8145",
+    "lemma": "שֵׁנִי",
+    "translit": "shênîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "másodszor, vagy kétszeres, illetve ismét, újra.",
+      "en": "properly, double, i.e. second, also adverbially, again"
+    }
+  },
+  "H8146": {
+    "id": "H8146",
+    "lemma": "שָׂנִיא",
+    "translit": "sânîyʼ",
+    "pronounce": "",
+    "defs": {
+      "hu": "gyűlölt, utált, ellenszenvvel fogadott [valaki vagy valami iránt], viszonykodott ellenségként.",
+      "en": "hated"
+    }
+  },
+  "H8147": {
+    "id": "H8147",
+    "lemma": "שְׁנַיִם",
+    "translit": "shᵉnayim",
+    "pronounce": "",
+    "defs": {
+      "hu": "kettő, továbbá (sorrendi értelemben) kétszeres.",
+      "en": "two, also (as ordinal) twofold"
+    }
+  },
+  "H8148": {
+    "id": "H8148",
+    "lemma": "שְׁנִינָה",
+    "translit": "shᵉnîynâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "éles szó, gúny, csúfolódás [vagy éles, csípős megjegyzés]",
+      "en": "something pointed, i.e. a gibe"
+    }
+  },
+  "H8149": {
+    "id": "H8149",
+    "lemma": "שְׁנִיר",
+    "translit": "Shᵉnîyr",
+    "pronounce": "",
+    "defs": {
+      "hu": "A Libanon hegycsúcsa, vagy a Senir-hegy, mely a Libanonban található.",
+      "en": "Shenir or Senir, a summit of Lebanon"
+    }
+  },
+  "H8150": {
+    "id": "H8150",
+    "lemma": "שָׁנַן",
+    "translit": "shânan",
+    "pronounce": "",
+    "defs": {
+      "hu": "élesíteni (átvitt értelemben tanítani, bevésetni), átszúrni, áthatolni, hegyezni, élesíteni [valamit vagy valakit].",
+      "en": "to point (transitive or intransitive), intensively, to pierce, figuratively, to inculcate"
+    }
+  },
+  "H8151": {
+    "id": "H8151",
+    "lemma": "שָׁנַס",
+    "translit": "shânaç",
+    "pronounce": "",
+    "defs": {
+      "hu": "szorítani, összekötni (övvel), megfeszíteni, szűkíteni.",
+      "en": "to compress (with a belt)"
+    }
+  },
+  "H8152": {
+    "id": "H8152",
+    "lemma": "שִׁנְעָר",
+    "translit": "Shinʻâr",
+    "pronounce": "",
+    "defs": {
+      "hu": "Sínár, egy Babyloni síkság.",
+      "en": "Shinar, a plain in Babylonia"
+    }
+  },
+  "H8153": {
+    "id": "H8153",
+    "lemma": "שְׁנָת",
+    "translit": "shᵉnâth",
+    "pronounce": "",
+    "defs": {
+      "hu": "[Alvás], [szunnyadás], [nyugalom]",
+      "en": "sleep"
+    }
+  },
+  "H8154": {
+    "id": "H8154",
+    "lemma": "שָׁסָה",
+    "translit": "shâçâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "lerabolni, kifosztani, elpusztítani, tönkre tenni [egy népet vagy helyet], elhagyatottá tenni.",
+      "en": "to plunder"
+    }
+  },
+  "H8155": {
+    "id": "H8155",
+    "lemma": "שָׁסַס",
+    "translit": "shâçaç",
+    "pronounce": "",
+    "defs": {
+      "hu": "lerabolni, kifosztani, elpusztítani, romba dönteni [valakit vagy valami területet], zsákmányolni.",
+      "en": "to plunder"
+    }
+  },
+  "H8156": {
+    "id": "H8156",
+    "lemma": "שָׁסַע",
+    "translit": "shâçaʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "szétszaggatni, szétválasztani, megosztani",
+      "en": "to split or tear, figuratively, to upbraid"
+    }
+  },
+  "H8157": {
+    "id": "H8157",
+    "lemma": "שֶׁסַע",
+    "translit": "sheçaʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "repedés, hasadék, törés [sziklában, földben vagy más kemény felületen keletkező]",
+      "en": "a fissure"
+    }
+  },
+  "H8158": {
+    "id": "H8158",
+    "lemma": "שָׁסַף",
+    "translit": "shâçaph",
+    "pronounce": "",
+    "defs": {
+      "hu": "darabolni, felaprítani, végezni valakivel, kiirtani [vagy] megsemmisíteni.",
+      "en": "to cut in pieces, i.e. slaughter"
+    }
+  },
+  "H8159": {
+    "id": "H8159",
+    "lemma": "שָׁעָה",
+    "translit": "shâʻâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "tekinteni, körültekinteni [segítség reményében], továbbá szemlélni, megvizsgálni, könyörögni, ámulva, zavartan körülnézni, elállni a lélegzettel.",
+      "en": "to gaze at or about (properly, for help), by implication, to inspect, consider, compassionate, be nonplussed (as looking around in amazement) or bewildered"
+    }
+  },
+  "H8160": {
+    "id": "H8160",
+    "lemma": "שָׁעָה",
+    "translit": "shâʻâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "pillanat, röpke időszak, egy szempillantás",
+      "en": "properly, a look, i.e. a moment"
+    }
+  },
+  "H8161": {
+    "id": "H8161",
+    "lemma": "שַׁעֲטָה",
+    "translit": "shaʻăṭâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "zúgás [lovak patáinak zaja, dobogás]",
+      "en": "a clatter (of hoofs)"
+    }
+  },
+  "H8162": {
+    "id": "H8162",
+    "lemma": "שַׁעַטְנֵז",
+    "translit": "shaʻaṭnêz",
+    "pronounce": "",
+    "defs": {
+      "hu": "keverékvászon, azaz len és gyapjú keverékéből készült, fésült és font anyag.",
+      "en": "linsey-woolsey, i.e. cloth of linen and wool carded and spun together"
+    }
+  },
+  "H8163": {
+    "id": "H8163",
+    "lemma": "שָׂעִיר",
+    "translit": "sâʻîyr",
+    "pronounce": "",
+    "defs": {
+      "hu": "szőrös, bozontos",
+      "en": "shaggy, as noun, a he-goat, by analogy, a faun"
+    }
+  },
+  "H8164": {
+    "id": "H8164",
+    "lemma": "שָׂעִיר",
+    "translit": "sâʻîyr",
+    "pronounce": "",
+    "defs": {
+      "hu": "zivataros zápor [vagy eső], heves eső, áradás.",
+      "en": "a shower (as tempestuous)"
+    }
+  },
+  "H8165": {
+    "id": "H8165",
+    "lemma": "שֵׂעִיר",
+    "translit": "Sêʻîyr",
+    "pronounce": "",
+    "defs": {
+      "hu": "Seír, Edómai hegyvidék és annak őslakosai, továbbá egy palesztinai hegy.",
+      "en": "Seir, a mountain of Idumaea and its aboriginal occupants, also one in Palestine"
+    }
+  },
+  "H8166": {
+    "id": "H8166",
+    "lemma": "שְׂעִירָה",
+    "translit": "sᵉʻîyrâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "szamárkóz, nőstény kecske.",
+      "en": "a she-goat"
+    }
+  },
+  "H8167": {
+    "id": "H8167",
+    "lemma": "שְׂעִירָה",
+    "translit": "Sᵉʻîyrâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Seirá, egy hely Palesztinában.",
+      "en": "Seirah, a place in Palestine"
+    }
+  },
+  "H8168": {
+    "id": "H8168",
+    "lemma": "שֹׁעַל",
+    "translit": "shôʻal",
+    "pronounce": "",
+    "defs": {
+      "hu": "tenyer, átvitt értelemben maréknyi mennyiség.",
+      "en": "the palm, by extension, a handful"
+    }
+  },
+  "H8169": {
+    "id": "H8169",
+    "lemma": "שַׁעַלְבִים",
+    "translit": "Shaʻalbîym",
+    "pronounce": "",
+    "defs": {
+      "hu": "Shaalbim, vagy Shaalabbin, Palesztina egyik helye.",
+      "en": "Shaalbim or Shaalabbin, a place in Palestine"
+    }
+  },
+  "H8170": {
+    "id": "H8170",
+    "lemma": "שַׁעַלְבֹנִי",
+    "translit": "Shaʻalbônîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "salbóni lakója, vagy Salbón városából való ember.",
+      "en": "a Shaalbonite or inhabitant of Shaalbin"
+    }
+  },
+  "H8171": {
+    "id": "H8171",
+    "lemma": "שַׁעֲלִים",
+    "translit": "Shaʻălîym",
+    "pronounce": "",
+    "defs": {
+      "hu": "Shaalim, egy hely Palesztinában [vagy: Kanaán földjén].",
+      "en": "Shaalim, a place in Palestine"
+    }
+  },
+  "H8172": {
+    "id": "H8172",
+    "lemma": "שָׁעַן",
+    "translit": "shâʻan",
+    "pronounce": "",
+    "defs": {
+      "hu": "támaszkodni, bízni valamiben vagy valakiben, támogatást keresni, támaszt nyújtani magának [vagy másnak], megpihenni valakire vagy valamire.",
+      "en": "to support one's self"
+    }
+  },
+  "H8173": {
+    "id": "H8173",
+    "lemma": "שָׁעַע",
+    "translit": "shâʻaʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "(jó értelemben) figyelemmel lenni (kedvességgel), azaz gyengéden bámulni, kedveskedni, eljátszani magával (rossz értelemben) körülnézni (megdöbbenésben), azaz mereven bámulni.",
+      "en": "(in a good acceptation) to look upon (with complacency), i.e. fondle, please or amuse (self), (in a bad one) to look about (in dismay), i.e. stare"
+    }
+  },
+  "H8174": {
+    "id": "H8174",
+    "lemma": "שַׁעַף",
+    "translit": "Shaʻaph",
+    "pronounce": "",
+    "defs": {
+      "hu": "Shaaph, két izraelita neve.",
+      "en": "Shaaph, the name of two Israelites"
+    }
+  },
+  "H8175": {
+    "id": "H8175",
+    "lemma": "שָׂעַר",
+    "translit": "sâʻar",
+    "pronounce": "",
+    "defs": {
+      "hu": "viharzani, (átvitt értelemben) reszketni, félni.",
+      "en": "to storm, by implication, to shiver, i.e. fear"
+    }
+  },
+  "H8176": {
+    "id": "H8176",
+    "lemma": "שָׁעַר",
+    "translit": "shâʻar",
+    "pronounce": "",
+    "defs": {
+      "hu": "kapuőrzőként cselekedni, (átvitt értelemben) becsülni, mérlegelni [vagyis valami értékét felmérni, megítélni].",
+      "en": "to act as gatekeeper, (figuratively) to estimate"
+    }
+  },
+  "H8177": {
+    "id": "H8177",
+    "lemma": "שְׂעַר",
+    "translit": "sᵉʻar",
+    "pronounce": "",
+    "defs": {
+      "hu": "szőr, haj, szál, borz, haja (embernek vagy állatnak), szőrszál, hajfonál.",
+      "en": "hair"
+    }
+  },
+  "H8178": {
+    "id": "H8178",
+    "lemma": "שַׂעַר",
+    "translit": "saʻar",
+    "pronounce": "",
+    "defs": {
+      "hu": "vihar, zivatar, de továbbá rettegés, félelem [is].",
+      "en": "a tempest, also a terror"
+    }
+  },
+  "H8179": {
+    "id": "H8179",
+    "lemma": "שַׁעַר",
+    "translit": "shaʻar",
+    "pronounce": "",
+    "defs": {
+      "hu": "ajtó, kapu, átjáró, vagy városkapu",
+      "en": "an opening, i.e. door or gate"
+    }
+  },
+  "H8180": {
+    "id": "H8180",
+    "lemma": "שַׁעַר",
+    "translit": "shaʻar",
+    "pronounce": "",
+    "defs": {
+      "hu": "mérték [egy szakasz, rész]",
+      "en": "a measure (as a section)"
+    }
+  },
+  "H8181": {
+    "id": "H8181",
+    "lemma": "שֵׂעָר",
+    "translit": "sêʻâr",
+    "pronounce": "",
+    "defs": {
+      "hu": "haj [mint a szélben lobogó vagy felborzolt]",
+      "en": "hair (as if tossed or bristling)"
+    }
+  },
+  "H8182": {
+    "id": "H8182",
+    "lemma": "שֹׁעָר",
+    "translit": "shôʻâr",
+    "pronounce": "",
+    "defs": {
+      "hu": "szörnyű, borzasztó, undorító, illetlen [vagy] kegyetlen.",
+      "en": "harsh or horrid, i.e. offensive"
+    }
+  },
+  "H8183": {
+    "id": "H8183",
+    "lemma": "שְׂעָרָה",
+    "translit": "sᵉʻârâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "erős, pusztító szélvész, viharos szél, mely pusztítást okoz [mint a déli szél, mely a sivatagból jön].",
+      "en": "a hurricane"
+    }
+  },
+  "H8184": {
+    "id": "H8184",
+    "lemma": "שְׂעֹרָה",
+    "translit": "sᵉʻôrâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "árpa (szőrös, borzas fajtája)",
+      "en": "barley (as villose)"
+    }
+  },
+  "H8185": {
+    "id": "H8185",
+    "lemma": "שַׂעֲרָה",
+    "translit": "saʻărâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "szőrösödés, szőrzet, haja",
+      "en": "hairiness"
+    }
+  },
+  "H8186": {
+    "id": "H8186",
+    "lemma": "שַׁעֲרוּרָה",
+    "translit": "shaʻărûwrâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "félelemre gerjesztő dolog, rémítő valami, borzadást okozó jelenség [vagy lény], ami rettegést vált ki.",
+      "en": "something fearful"
+    }
+  },
+  "H8187": {
+    "id": "H8187",
+    "lemma": "שְׁעַרְיָה",
+    "translit": "Shᵉʻaryâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Seárjá, egy Izráelita.",
+      "en": "Shearjah, an Israelite"
+    }
+  },
+  "H8188": {
+    "id": "H8188",
+    "lemma": "שְׂעֹרִים",
+    "translit": "Sᵉʻôrîym",
+    "pronounce": "",
+    "defs": {
+      "hu": "szőri, egy Izraelita [szőri, egy izraeli férfi, valószínűleg a törzsből származó személy]",
+      "en": "Seorim, an Israelite"
+    }
+  },
+  "H8189": {
+    "id": "H8189",
+    "lemma": "שַׁעֲרַיִם",
+    "translit": "Shaʻărayim",
+    "pronounce": "",
+    "defs": {
+      "hu": "Shaarajim, Palesztinában található hely.",
+      "en": "Shaarajim, a place in Palestine"
+    }
+  },
+  "H8190": {
+    "id": "H8190",
+    "lemma": "שַׁעַשְׁגַּז",
+    "translit": "Shaʻashgaz",
+    "pronounce": "",
+    "defs": {
+      "hu": "Saásgaz, Xerxész eunuchja.",
+      "en": "Shaashgaz, a eunuch of Xerxes"
+    }
+  },
+  "H8191": {
+    "id": "H8191",
+    "lemma": "שַׁעְשֻׁעַ",
+    "translit": "shaʻshuaʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "szórakozás, mulatság, öröm, játékosság [valakinek vagy valaminek okozta élvezet, kedvesség, szívderítő dolog].",
+      "en": "enjoyment"
+    }
+  },
+  "H8192": {
+    "id": "H8192",
+    "lemma": "שָׁפָה",
+    "translit": "shâphâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "megkopasztani, lecsiszolni, mezteleníteni [valamit], felfedni [valamit].",
+      "en": "to abrade, i.e. bare"
+    }
+  },
+  "H8193": {
+    "id": "H8193",
+    "lemma": "שָׂפָה",
+    "translit": "sâphâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "az ajak (természetes határként), ebből következően nyelv, hasonlatosság alapján szegély, perem (edény, víz, szövet stb. esetén).",
+      "en": "the lip (as a natural boundary), by implication, language, by analogy, a margin (of a vessel, water, cloth, etc.)"
+    }
+  },
+  "H8194": {
+    "id": "H8194",
+    "lemma": "שָׁפָה",
+    "translit": "shâphâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "sajtszérum (a savóból kivált, szűrt sajt, melynek állaga a friss sajtéval rokon, de keményebb)",
+      "en": "a cheese (as strained from the whey)"
+    }
+  },
+  "H8195": {
+    "id": "H8195",
+    "lemma": "שְׁפוֹ",
+    "translit": "Shᵉphôw",
+    "pronounce": "",
+    "defs": {
+      "hu": "[Idumai, vagyis Edómi] személynév.",
+      "en": "Shepho or Shephi, an Idumaean"
+    }
+  },
+  "H8196": {
+    "id": "H8196",
+    "lemma": "שְׁפוֹט",
+    "translit": "shᵉphôwṭ",
+    "pronounce": "",
+    "defs": {
+      "hu": "ítélet, büntetés [joghatóság általi elítélés, szankció]",
+      "en": "a judicial sentence, i.e. punishment"
+    }
+  },
+  "H8197": {
+    "id": "H8197",
+    "lemma": "שְׁפוּפָם",
+    "translit": "Shᵉphûwphâm",
+    "pronounce": "",
+    "defs": {
+      "hu": "Sephufám vagy Sephufán, egy Izráelita.",
+      "en": "Shephupham or Shephuphan, an Israelite"
+    }
+  },
+  "H8198": {
+    "id": "H8198",
+    "lemma": "שִׁפְחָה",
+    "translit": "shiphchâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "szolgaasszony (a háztartásba tartozó rabszolganő), szolgálóleány.",
+      "en": "a female slave (as a member of the household)"
+    }
+  },
+  "H8199": {
+    "id": "H8199",
+    "lemma": "שָׁפַט",
+    "translit": "shâphaṭ",
+    "pronounce": "",
+    "defs": {
+      "hu": "ítélni, azaz ítéletet mondani (mellette vagy ellene), következményképpen, igazságot tenni vagy büntetni, kiterjesztésként kormányozni, szenvedő alakban pereskedni (szó szerint vagy átvitt értelemben).",
+      "en": "to judge, i.e. pronounce sentence (for or against), by implication, to vindicate or punish, by extenssion, to govern, passively, to litigate (literally or figuratively)"
+    }
+  },
+  "H8200": {
+    "id": "H8200",
+    "lemma": "שְׁפַט",
+    "translit": "shᵉphaṭ",
+    "pronounce": "",
+    "defs": {
+      "hu": "ítélni, törvénykezni, igazságot szolgáltatni [valakinek], megítélni, elítélni, bírálni.",
+      "en": "to judge"
+    }
+  },
+  "H8201": {
+    "id": "H8201",
+    "lemma": "שֶׁפֶט",
+    "translit": "shepheṭ",
+    "pronounce": "",
+    "defs": {
+      "hu": "ítélet, büntetés, vagy elítélés [szó szerint: törvényes ítélet, elrendelés], vagy büntetés végrehajtása.",
+      "en": "a sentence, i.e. infliction"
+    }
+  },
+  "H8202": {
+    "id": "H8202",
+    "lemma": "שָׁפָט",
+    "translit": "Shâphâṭ",
+    "pronounce": "",
+    "defs": {
+      "hu": "ítél, bíró, elítél",
+      "en": "Shaphat, the name of four Israelites"
+    }
+  },
+  "H8203": {
+    "id": "H8203",
+    "lemma": "שְׁפַטְיָה",
+    "translit": "Shᵉphaṭyâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Séfatja, tíz izraelita neve.",
+      "en": "Shephatjah, the name of ten Israelites"
+    }
+  },
+  "H8204": {
+    "id": "H8204",
+    "lemma": "שִׁפְטָן",
+    "translit": "Shiphṭân",
+    "pronounce": "",
+    "defs": {
+      "hu": "[Siftán], egy Izráelita.",
+      "en": "Shiphtan, an Israelite"
+    }
+  },
+  "H8205": {
+    "id": "H8205",
+    "lemma": "שְׁפִי",
+    "translit": "shᵉphîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "pusztaság, konkrétan egy kopár hegy vagy síkság [kopárság, mező, síkság].",
+      "en": "bareness, concretely, a bare hill or plain"
+    }
+  },
+  "H8206": {
+    "id": "H8206",
+    "lemma": "שֻׁפִּים",
+    "translit": "Shuppîym",
+    "pronounce": "",
+    "defs": {
+      "hu": "Shuppim, egy Izraelita [nép], vagy egy Izraelita férfi [személy].",
+      "en": "Shuppim, an Israelite"
+    }
+  },
+  "H8207": {
+    "id": "H8207",
+    "lemma": "שְׁפִיפֹן",
+    "translit": "shᵉphîyphôn",
+    "pronounce": "",
+    "defs": {
+      "hu": "valamilyen mérges kígyóféle [mint a csattogó], valószínűleg a szarvaskígyó vagy a homokcsörgő kígyó.",
+      "en": "a kind of serpent (as snapping), probably the cerastes or horned adder"
+    }
+  },
+  "H8208": {
+    "id": "H8208",
+    "lemma": "שָׁפִיר",
+    "translit": "Shâphîyr",
+    "pronounce": "",
+    "defs": {
+      "hu": "Shaphir, egy hely Palesztinában [vagy Kánaánban].",
+      "en": "Shaphir, a place in Palestine"
+    }
+  },
+  "H8209": {
+    "id": "H8209",
+    "lemma": "שַׁפִּיר",
+    "translit": "shappîyr",
+    "pronounce": "",
+    "defs": {
+      "hu": "szép, gyönyörű, kedves, jó, ékes [szép külsőleg vagy belsőleg, kedves, jó tulajdonságokkal rendelkező].",
+      "en": "beautiful"
+    }
+  },
+  "H8210": {
+    "id": "H8210",
+    "lemma": "שָׁפַךְ",
+    "translit": "shâphak",
+    "pronounce": "",
+    "defs": {
+      "hu": "kiömleni (vér, italáldozat, olvadékfém vagy akár szilárd anyag – tehát halmozni), továbbá (átvitt értelemben) elszórni, kiadni (életet, lelket, panaszokat, pénzt stb.), erőteljesen kifejezve: szétszóródni, kiterülni.",
+      "en": "to spill forth (blood, a libation, liquid metal, or even a solid, i.e. to mound up), also (figuratively) to expend (life, soul, complaint, money, etc.), intensively, to sprawl out"
+    }
+  },
+  "H8211": {
+    "id": "H8211",
+    "lemma": "שֶׁפֶךְ",
+    "translit": "shephek",
+    "pronounce": "",
+    "defs": {
+      "hu": "lefolyó hely, például hamuválla, szemétlerakó hely.",
+      "en": "an emptying place, e.g. an ash-heap"
+    }
+  },
+  "H8212": {
+    "id": "H8212",
+    "lemma": "שׇׁפְכָה",
+    "translit": "shophkâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "cső (folyadék kiöntésére, mint például bor), azaz a férfi nemi szerv.",
+      "en": "a pipe (for pouring forth, e.g. wine), i.e. the penis"
+    }
+  },
+  "H8213": {
+    "id": "H8213",
+    "lemma": "שָׁפֵל",
+    "translit": "shâphêl",
+    "pronounce": "",
+    "defs": {
+      "hu": "lealázni, megalázni (várakozás tekintetében képletesen), lesülyeszteni, elnyomni (átvitt értelemben vagy közvetlenül, önmagában vagy más által végrehajtva).",
+      "en": "to depress or sink (expectation figuratively, to humiliate, intransitive or transitive)"
+    }
+  },
+  "H8214": {
+    "id": "H8214",
+    "lemma": "שְׁפַל",
+    "translit": "shᵉphal",
+    "pronounce": "",
+    "defs": {
+      "hu": "Lealázni, megalázkodni (remény, elvárás tekintetében képletesen), lesülyedni, elnyomni, megalázni (átvitt értelemben vagy közvetlenül, önmagában vagy más által).",
+      "en": "to depress or sink (expectation figuratively, to humiliate, intransitive or transitive)"
+    }
+  },
+  "H8215": {
+    "id": "H8215",
+    "lemma": "שְׁפַל",
+    "translit": "shᵉphal",
+    "pronounce": "",
+    "defs": {
+      "hu": "alacsony, megalázott, lesüllyedt [földrajzi értelemben: síkság, völgy]",
+      "en": "low"
+    }
+  },
+  "H8216": {
+    "id": "H8216",
+    "lemma": "שֶׁפֶל",
+    "translit": "shephel",
+    "pronounce": "",
+    "defs": {
+      "hu": "alacsony rang, megalázott állás, nyomorúság, szegénység [vagy] megalázottság.",
+      "en": "an humble rank"
+    }
+  },
+  "H8217": {
+    "id": "H8217",
+    "lemma": "שָׁפָל",
+    "translit": "shâphâl",
+    "pronounce": "",
+    "defs": {
+      "hu": "nyomott, alázatos, megalázott, lesülyedt, elnyomott, vagy alacsony, jelentéktelen.",
+      "en": "depressed, literally or figuratively"
+    }
+  },
+  "H8218": {
+    "id": "H8218",
+    "lemma": "שִׁפְלָה",
+    "translit": "shiphlâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "mélyedés, völgy, alacsony hely, lejtő",
+      "en": "depression"
+    }
+  },
+  "H8219": {
+    "id": "H8219",
+    "lemma": "שְׁפֵלָה",
+    "translit": "shᵉphêlâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "alföld, vagy (a névelővel) Palesztina tengerparti síksága.",
+      "en": "Lowland, i.e. (with the article) the maritime slope of Palestine"
+    }
+  },
+  "H8220": {
+    "id": "H8220",
+    "lemma": "שִׁפְלוּת",
+    "translit": "shiphlûwth",
+    "pronounce": "",
+    "defs": {
+      "hu": "lanyhulat, hanyagság, meglazulás [személy vagy dolog tekintetében]",
+      "en": "remissness"
+    }
+  },
+  "H8221": {
+    "id": "H8221",
+    "lemma": "שְׁפָם",
+    "translit": "Shᵉphâm",
+    "pronounce": "",
+    "defs": {
+      "hu": "Séfam, egy hely Palesztinában vagy annak közelében.",
+      "en": "Shepham, a place in or near Palestine"
+    }
+  },
+  "H8222": {
+    "id": "H8222",
+    "lemma": "שָׂפָם",
+    "translit": "sâphâm",
+    "pronounce": "",
+    "defs": {
+      "hu": "a szakáll [mint ajakrészt alkotó része]",
+      "en": "the beard (as a lippiece)"
+    }
+  },
+  "H8223": {
+    "id": "H8223",
+    "lemma": "שָׁפָם",
+    "translit": "Shâphâm",
+    "pronounce": "",
+    "defs": {
+      "hu": "Sáfám, egy Izráelita.",
+      "en": "Shapham, an Israelite"
+    }
+  },
+  "H8224": {
+    "id": "H8224",
+    "lemma": "שִׂפְמוֹת",
+    "translit": "Siphmôwth",
+    "pronounce": "",
+    "defs": {
+      "hu": "Szipmót, egy hely Palesztinában.",
+      "en": "Siphmoth, a place in Palestine"
+    }
+  },
+  "H8225": {
+    "id": "H8225",
+    "lemma": "שִׁפְמִי",
+    "translit": "Shiphmîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "sepfamita, vagy Seffam lakója [vagy Seffam földén lakó].",
+      "en": "a Shiphmite or inhabitant of Shepham"
+    }
+  },
+  "H8226": {
+    "id": "H8226",
+    "lemma": "שָׂפַן",
+    "translit": "sâphan",
+    "pronounce": "",
+    "defs": {
+      "hu": "rejteni (mint értékes dolgot), elfedni, takarni, védeni.",
+      "en": "to conceal (as a valuable)"
+    }
+  },
+  "H8227": {
+    "id": "H8227",
+    "lemma": "שָׁפָן",
+    "translit": "shâphân",
+    "pronounce": "",
+    "defs": {
+      "hu": "sziklaüregekben lakó, nyúlszerű rágcsáló, valószínűleg a sziklaipréz (hyrax) faj.",
+      "en": "a species of rockrabbit (from its hiding), i.e. probably the hyrax"
+    }
+  },
+  "H8228": {
+    "id": "H8228",
+    "lemma": "שֶׁפַע",
+    "translit": "shephaʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "bőség, gazdagság, elegendő erőforrás [vagy: javak, termékenység, teljesség], bővesség.",
+      "en": "resources"
+    }
+  },
+  "H8229": {
+    "id": "H8229",
+    "lemma": "שִׁפְעָה",
+    "translit": "shiphʻâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "bőség, gazdagság, teljesség [mennyiségben vagy minőségben]",
+      "en": "copiousness"
+    }
+  },
+  "H8230": {
+    "id": "H8230",
+    "lemma": "שִׁפְעִי",
+    "translit": "Shiphʻîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "Sífí, egy Izráelita.",
+      "en": "Shiphi, an Israelite"
+    }
+  },
+  "H8231": {
+    "id": "H8231",
+    "lemma": "שָׁפַר",
+    "translit": "shâphar",
+    "pronounce": "",
+    "defs": {
+      "hu": "fényleni, ragyogni",
+      "en": "to glisten, i.e. (figuratively) be (causatively, make) fair"
+    }
+  },
+  "H8232": {
+    "id": "H8232",
+    "lemma": "שְׁפַר",
+    "translit": "shᵉphar",
+    "pronounce": "",
+    "defs": {
+      "hu": "szép lenni, gyönyörűnek mutatkozni, fényes, ragyogó lenni [szépítkezni, ékesíteni magát].",
+      "en": "to be beautiful"
+    }
+  },
+  "H8233": {
+    "id": "H8233",
+    "lemma": "שֶׁפֶר",
+    "translit": "shepher",
+    "pronounce": "",
+    "defs": {
+      "hu": "szépség, ragyogás, pompás külső, kedvesség, ékesség [szép, csillogó, kedves dolog vagy személy].",
+      "en": "beauty"
+    }
+  },
+  "H8234": {
+    "id": "H8234",
+    "lemma": "שֶׁפֶר",
+    "translit": "Shepher",
+    "pronounce": "",
+    "defs": {
+      "hu": "sefer, hely a pusztában [vagy sivatagban].",
+      "en": "Shepher, a place in the Desert"
+    }
+  },
+  "H8235": {
+    "id": "H8235",
+    "lemma": "שִׁפְרָה",
+    "translit": "shiphrâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "fényesség, ragyogás, csillogás [szép, ragyogó dologra is utalhat]",
+      "en": "brightness"
+    }
+  },
+  "H8236": {
+    "id": "H8236",
+    "lemma": "שִׁפְרָה",
+    "translit": "Shiphrâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Sifra, egy izraelita asszony.",
+      "en": "Shiphrah, an Israelitess"
+    }
+  },
+  "H8237": {
+    "id": "H8237",
+    "lemma": "שַׁפְרוּר",
+    "translit": "shaphrûwr",
+    "pronounce": "",
+    "defs": {
+      "hu": "fényes, ragyogó, díszes [szövés, kelme vagy lombkorona, mennyezet].",
+      "en": "splendid, i.e. a tapestry or canopy"
+    }
+  },
+  "H8238": {
+    "id": "H8238",
+    "lemma": "שְׁפַרְפַר",
+    "translit": "shᵉpharphar",
+    "pronounce": "",
+    "defs": {
+      "hu": "hajnalpír, a hajnal fényessége (az északi fény jelenségére utalhat is)",
+      "en": "the dawn (as brilliant with aurora)"
+    }
+  },
+  "H8239": {
+    "id": "H8239",
+    "lemma": "שָׁפַת",
+    "translit": "shâphath",
+    "pronounce": "",
+    "defs": {
+      "hu": "megtalálni, (általában) ráfeszülni vagy (szemléletesen) megalapítani, csökkenteni.",
+      "en": "to locate, i.e. (generally) hang on or (figuratively) establish, reduce"
+    }
+  },
+  "H8240": {
+    "id": "H8240",
+    "lemma": "שָׁפָת",
+    "translit": "shâphâth",
+    "pronounce": "",
+    "defs": {
+      "hu": "(Egy) kettős istálló (állatoknak), továbbá (kétágú) kampó (állatok nyúzására).",
+      "en": "a (double) stall (for cattle), also a (two-pronged) hook (for flaying animals on)"
+    }
+  },
+  "H8241": {
+    "id": "H8241",
+    "lemma": "שֶׁצֶף",
+    "translit": "shetseph",
+    "pronounce": "",
+    "defs": {
+      "hu": "kitörés [haragból], fellángolás, indulatkitörés, hevület.",
+      "en": "an outburst (of anger)"
+    }
+  },
+  "H8242": {
+    "id": "H8242",
+    "lemma": "שַׂק",
+    "translit": "saq",
+    "pronounce": "",
+    "defs": {
+      "hu": "vászonzsák, durva szövet [szűrésre, folyadék átengedésére alkalmas], zsák [gyümölcs, gabona stb. tárolására], gyászruha [durva vászonból készült].",
+      "en": "properly, a mesh (as allowing a liquid to run through), i.e. coarse loose cloth or sacking (used in mourning and for bagging), hence, a bag (for grain, etc.)"
+    }
+  },
+  "H8243": {
+    "id": "H8243",
+    "lemma": "שָׁק",
+    "translit": "shâq",
+    "pronounce": "",
+    "defs": {
+      "hu": "láb [testtagként], comb [az emberi test része]",
+      "en": "the leg"
+    }
+  },
+  "H8244": {
+    "id": "H8244",
+    "lemma": "שָׂקַד",
+    "translit": "sâqad",
+    "pronounce": "",
+    "defs": {
+      "hu": "szilárdan rögzíteni, megerősíteni, szorosra kötni [valamit]",
+      "en": "to fasten"
+    }
+  },
+  "H8245": {
+    "id": "H8245",
+    "lemma": "שָׁקַד",
+    "translit": "shâqad",
+    "pronounce": "",
+    "defs": {
+      "hu": "éber lenni, azaz álmatlanul virrasztani, következésképpen őrködni (akár jóra, akár rosszra).",
+      "en": "to be alert, i.e. sleepless, hence to be on the lookout (whether for good or ill)"
+    }
+  },
+  "H8246": {
+    "id": "H8246",
+    "lemma": "שָׁקַד",
+    "translit": "shâqad",
+    "pronounce": "",
+    "defs": {
+      "hu": "(Intenzíven) mandula alakúvá tenni, vagy mandula alakban lenni",
+      "en": "to be (intensively, make) almond-shaped"
+    }
+  },
+  "H8247": {
+    "id": "H8247",
+    "lemma": "שָׁקֵד",
+    "translit": "shâqêd",
+    "pronounce": "",
+    "defs": {
+      "hu": "a mandula [fa vagy termése], mivel ez a legkorábban virágzó fa.",
+      "en": "the almond (tree or nut, as being the earliest in bloom)"
+    }
+  },
+  "H8248": {
+    "id": "H8248",
+    "lemma": "שָׁקָה",
+    "translit": "shâqâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "inni, meginni",
+      "en": "to quaff, i.e. (causatively) to irrigate or furnish apotion to"
+    }
+  },
+  "H8249": {
+    "id": "H8249",
+    "lemma": "שִׁקֻּו",
+    "translit": "shiqquv",
+    "pronounce": "",
+    "defs": {
+      "hu": "[Többes számban] ivóvíz, ital",
+      "en": "(plural collective) a draught"
+    }
+  },
+  "H8250": {
+    "id": "H8250",
+    "lemma": "שִׁקּוּי",
+    "translit": "shiqqûwy",
+    "pronounce": "",
+    "defs": {
+      "hu": "ital, nedvesség, (átvitt értelemben) felüdítés, ösvény.",
+      "en": "a beverage, moisture, i.e. (figuratively) refreshment"
+    }
+  },
+  "H8251": {
+    "id": "H8251",
+    "lemma": "שִׁקּוּץ",
+    "translit": "shiqqûwts",
+    "pronounce": "",
+    "defs": {
+      "hu": "undorító, azaz szennyezett, különösen bálványimádó vagy (konkrétan) bálvány.",
+      "en": "disgusting, i.e. filthy, especially idolatrous or (concretely) an idol"
+    }
+  },
+  "H8252": {
+    "id": "H8252",
+    "lemma": "שָׁקַט",
+    "translit": "shâqaṭ",
+    "pronounce": "",
+    "defs": {
+      "hu": "nyugodni, békességben lenni (általában átvitt értelemben), csendben pihenni, szelíden viselkedni, megnyugodni, békésen várni.",
+      "en": "to repose (usually figurative)"
+    }
+  },
+  "H8253": {
+    "id": "H8253",
+    "lemma": "שֶׁקֶט",
+    "translit": "sheqeṭ",
+    "pronounce": "",
+    "defs": {
+      "hu": "nyugalom, béke, csöndesség, szelídség [nyugodt állapot, csend, béke, szelídség, békesség].",
+      "en": "tranquillity"
+    }
+  },
+  "H8254": {
+    "id": "H8254",
+    "lemma": "שָׁקַל",
+    "translit": "shâqal",
+    "pronounce": "",
+    "defs": {
+      "hu": "mérlegelni, súlyozni (különösen a kereskedelemben), egyensúlyban tartani, lemérni.",
+      "en": "to suspend or poise (especially in trade)"
+    }
+  },
+  "H8255": {
+    "id": "H8255",
+    "lemma": "שֶׁקֶל",
+    "translit": "sheqel",
+    "pronounce": "",
+    "defs": {
+      "hu": "valószínűleg súlymérték, kereskedelmi szabványként használt. [Súly, mértékegység, kereskedelmi érték]",
+      "en": "probably a weight, used as a commercial standard"
+    }
+  },
+  "H8256": {
+    "id": "H8256",
+    "lemma": "שִׁקְמָה",
+    "translit": "shiqmâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "szikomorfa (főleg a fa)",
+      "en": "a sycamore (usually the tree)"
+    }
+  },
+  "H8257": {
+    "id": "H8257",
+    "lemma": "שָׁקַע",
+    "translit": "shâqaʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "elmulni, lecsendesedni, elárasztani (valamit), szűnni, mérsékelni, elnyomni, leigázni (valakit).",
+      "en": "to subside, by implication, to be overflowed, cease, causatively, to abate, subdue"
+    }
+  },
+  "H8258": {
+    "id": "H8258",
+    "lemma": "שְׁקַעְרוּרָה",
+    "translit": "shᵉqaʻrûwrâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "mélyedés, árok, szakadék [völgy, lejtő, mély hely]",
+      "en": "a depression"
+    }
+  },
+  "H8259": {
+    "id": "H8259",
+    "lemma": "שָׁקַף",
+    "translit": "shâqaph",
+    "pronounce": "",
+    "defs": {
+      "hu": "megdőlni (ablakból), kinézni, lesni, vagy (átvitt értelemben) látványosságul állni, megmutatkozni.",
+      "en": "properly, to lean out (of a window), i.e. (by implication) peep or gaze (passively, be a spectacle)"
+    }
+  },
+  "H8260": {
+    "id": "H8260",
+    "lemma": "שֶׁקֶף",
+    "translit": "sheqeph",
+    "pronounce": "",
+    "defs": {
+      "hu": "ablaknyílás, kémlelőnyílás [vagy rést nyitni, átjárót készíteni], hogy beengedje a fényt és a levegőt.",
+      "en": "a loophole (for looking out), to admit light and air"
+    }
+  },
+  "H8261": {
+    "id": "H8261",
+    "lemma": "שָׁקֻף",
+    "translit": "shâquph",
+    "pronounce": "",
+    "defs": {
+      "hu": "szegélyezett nyílás, bevágás, mélyedés",
+      "en": "an embrasure or opening with bevelled jam"
+    }
+  },
+  "H8262": {
+    "id": "H8262",
+    "lemma": "שָׁקַץ",
+    "translit": "shâqats",
+    "pronounce": "",
+    "defs": {
+      "hu": "undorítóvá válni, (erőteljesen) gyűlölni, beszennyezni [vagy fertőzővé tenni].",
+      "en": "to be filthy, i.e. (intensively) to loathe, pollute"
+    }
+  },
+  "H8263": {
+    "id": "H8263",
+    "lemma": "שֶׁקֶץ",
+    "translit": "sheqets",
+    "pronounce": "",
+    "defs": {
+      "hu": "szemét, undorító dolog",
+      "en": "filth, i.e. (figuratively and specifically) an idolatrous object"
+    }
+  },
+  "H8264": {
+    "id": "H8264",
+    "lemma": "שָׁקַק",
+    "translit": "shâqaq",
+    "pronounce": "",
+    "defs": {
+      "hu": "vadul kergetni, mint a ragadozó állat, átvitt értelemben: mohón törekedni, kapkodni [vagy: falánksággal keresni].",
+      "en": "to course (like a beast of prey), by implication, to seek greedily"
+    }
+  },
+  "H8265": {
+    "id": "H8265",
+    "lemma": "שָׂקַר",
+    "translit": "sâqar",
+    "pronounce": "",
+    "defs": {
+      "hu": "flörtölő pillantást vetni, szemezni, csábítóan nézni [vagyis, szemmel udvarolni].",
+      "en": "to ogle, i.e. blink coquettishly"
+    }
+  },
+  "H8266": {
+    "id": "H8266",
+    "lemma": "שָׁקַר",
+    "translit": "shâqar",
+    "pronounce": "",
+    "defs": {
+      "hu": "hazudni, csalni, valótlan dolgot állítani (általában szavakkal), igazságtalanul beszélni.",
+      "en": "to cheat, i.e. be untrue (usually in words)"
+    }
+  },
+  "H8267": {
+    "id": "H8267",
+    "lemma": "שֶׁקֶר",
+    "translit": "sheqer",
+    "pronounce": "",
+    "defs": {
+      "hu": "hamisság, csalás, álnokság [általában határozószóként: hamisan, csalárdan]",
+      "en": "an untruth, by implication, a sham (often adverbial)"
+    }
+  },
+  "H8268": {
+    "id": "H8268",
+    "lemma": "שֹׁקֶת",
+    "translit": "shôqeth",
+    "pronounce": "",
+    "defs": {
+      "hu": "itatóvályú [vagy itatómeder], melyet állatok itatására használnak.",
+      "en": "a trough (for watering)"
+    }
+  },
+  "H8269": {
+    "id": "H8269",
+    "lemma": "שַׂר",
+    "translit": "sar",
+    "pronounce": "",
+    "defs": {
+      "hu": "fő, vezető, elöljáró (bármilyen rangban vagy osztályban)",
+      "en": "a head person (of any rank or class)"
+    }
+  },
+  "H8270": {
+    "id": "H8270",
+    "lemma": "שֹׁר",
+    "translit": "shôr",
+    "pronounce": "",
+    "defs": {
+      "hu": "zsinór, kötelék",
+      "en": "a string (as twisted ), i.e. (specifically) the umbilical cord (also figuratively, as the centre of strength)"
+    }
+  },
+  "H8271": {
+    "id": "H8271",
+    "lemma": "שְׁרֵא",
+    "translit": "shᵉrêʼ",
+    "pronounce": "",
+    "defs": {
+      "hu": "szabadítani, elválasztani, átvitt értelemben kibontani, feloldani, kezdeni, következményként (állatok kirakodásakor) lakni, tartózkodni.",
+      "en": "to free, separate, figuratively, to unravel, commence, by implication (of unloading beasts) to reside"
+    }
+  },
+  "H8272": {
+    "id": "H8272",
+    "lemma": "שַׁרְאֶצֶר",
+    "translit": "Sharʼetser",
+    "pronounce": "",
+    "defs": {
+      "hu": "Saracér, egy asszír és egy izraelita név.",
+      "en": "Sharetser, the name of an Assyrian and an Israelite"
+    }
+  },
+  "H8273": {
+    "id": "H8273",
+    "lemma": "שָׁרָב",
+    "translit": "shârâb",
+    "pronounce": "",
+    "defs": {
+      "hu": "remegő hőség [a levegőben], várakozás. a fatmirázs.",
+      "en": "quivering glow (of the air), expectation. the mirage"
+    }
+  },
+  "H8274": {
+    "id": "H8274",
+    "lemma": "שֵׁרֵבְיָה",
+    "translit": "Shêrêbᵉyâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Serébja, két izraelita neve.",
+      "en": "Sherebjah, the name of two Israelites"
+    }
+  },
+  "H8275": {
+    "id": "H8275",
+    "lemma": "שַׁרְבִיט",
+    "translit": "sharbîyṭ",
+    "pronounce": "",
+    "defs": {
+      "hu": "birodalmi jogar, hatalmi bot, uralkodói bot [vagy: hatalmat jelképező bot, vezérlő bot]",
+      "en": "a rod of empire"
+    }
+  },
+  "H8276": {
+    "id": "H8276",
+    "lemma": "שָׂרַג",
+    "translit": "sârag",
+    "pronounce": "",
+    "defs": {
+      "hu": "összefonni, átfonni, összefűzni [szövés, kötéssel kapcsolatos, mint a szálak vagy a borona nyomai]",
+      "en": "to intwine"
+    }
+  },
+  "H8277": {
+    "id": "H8277",
+    "lemma": "שָׂרַד",
+    "translit": "sârad",
+    "pronounce": "",
+    "defs": {
+      "hu": "megszökni, elmenekülni, vagy átvészelni [valamit]",
+      "en": "properly, to puncture, i.e. (figuratively through the idea of slipping out) to escape or survive"
+    }
+  },
+  "H8278": {
+    "id": "H8278",
+    "lemma": "שְׂרָד",
+    "translit": "sᵉrâd",
+    "pronounce": "",
+    "defs": {
+      "hu": "szúrás, varrás [szúrással, tűvel végzett varrás]",
+      "en": "stitching (as pierced with a needle)"
+    }
+  },
+  "H8279": {
+    "id": "H8279",
+    "lemma": "שֶׂרֶד",
+    "translit": "sered",
+    "pronounce": "",
+    "defs": {
+      "hu": "szúrószerszám (főleg ácsok által használt, méréshez való jelöléshez, karcoláshoz vagy szúráshoz)",
+      "en": "a (carpenter's) scribing-awl (for pricking or scratching measurements)"
+    }
+  },
+  "H8280": {
+    "id": "H8280",
+    "lemma": "שָׂרָה",
+    "translit": "sârâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "győzni, diadalt aratni, uralkodni, hatalmas lenni [vagy hatalomra jutni]",
+      "en": "to prevail"
+    }
+  },
+  "H8281": {
+    "id": "H8281",
+    "lemma": "שָׁרָה",
+    "translit": "shârâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "felszabadítani, szabadon bocsátani, engedni, feloldani [bilincsből, kötélből vagy átvitt értelemben]",
+      "en": "to free"
+    }
+  },
+  "H8282": {
+    "id": "H8282",
+    "lemma": "שָׂרָה",
+    "translit": "sârâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "feleség, úrnő, nemesasszony [főleg a királyi udvarban vagy magas rangú személyiség felesége]",
+      "en": "a mistress, i.e. female noble"
+    }
+  },
+  "H8283": {
+    "id": "H8283",
+    "lemma": "שָׂרָה",
+    "translit": "Sârâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Sára, Ábrahám felesége.",
+      "en": "Sarah, Abraham's wife"
+    }
+  },
+  "H8284": {
+    "id": "H8284",
+    "lemma": "שָׁרָה",
+    "translit": "shârâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "erődítmény (szó szerint vagy átvitt értelemben), védvonal, menedékhely.",
+      "en": "a fortification (literally or figuratively)"
+    }
+  },
+  "H8285": {
+    "id": "H8285",
+    "lemma": "שֵׁרָה",
+    "translit": "shêrâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "csuklókövető [vagy csuklópánt], szorosra fogó vagy összekötő eszköz a csuklón.",
+      "en": "a wrist-band (as compact or clasping)"
+    }
+  },
+  "H8286": {
+    "id": "H8286",
+    "lemma": "שְׂרוּג",
+    "translit": "Sᵉrûwg",
+    "pronounce": "",
+    "defs": {
+      "hu": "Serug, a Noé utáni ősapa.",
+      "en": "Serug, a postdiluvian patriarch"
+    }
+  },
+  "H8287": {
+    "id": "H8287",
+    "lemma": "שָׁרוּחֶן",
+    "translit": "Shârûwchen",
+    "pronounce": "",
+    "defs": {
+      "hu": "Sharuchen, egy hely Palesztinában.",
+      "en": "Sharuchen, a place in Palestine"
+    }
+  },
+  "H8288": {
+    "id": "H8288",
+    "lemma": "שְׂרוֹךְ",
+    "translit": "sᵉrôwk",
+    "pronounce": "",
+    "defs": {
+      "hu": "szíj, kötelék, zsinór (valaminek a megkötéséhez, összefogásához használt)",
+      "en": "a thong (as laced or tied)"
+    }
+  },
+  "H8289": {
+    "id": "H8289",
+    "lemma": "שָׁרוֹן",
+    "translit": "Shârôwn",
+    "pronounce": "",
+    "defs": {
+      "hu": "síkság, Saron, Palesztinában található hely neve [egy termékeny síkság, a Jordán folyó és a tenger között].",
+      "en": "plain, Sharon, the name of a place in Palestine"
+    }
+  },
+  "H8290": {
+    "id": "H8290",
+    "lemma": "שָׁרוֹנִי",
+    "translit": "Shârôwnîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "a sáróni vagy Sárón földén lakó.",
+      "en": "a Sharonite or inhabitant of Sharon"
+    }
+  },
+  "H8291": {
+    "id": "H8291",
+    "lemma": "שָׂרוּק",
+    "translit": "sârûwq",
+    "pronounce": "",
+    "defs": {
+      "hu": "szőlőtőke, szőlővessző, szőlőindák [szőlő növény, melynek szárai a földön vagy támasztékokon kúsznak és gyümölcsöt teremnek]",
+      "en": "a grapevine"
+    }
+  },
+  "H8292": {
+    "id": "H8292",
+    "lemma": "שְׁרוּקָה",
+    "translit": "shᵉrûwqâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "sípálás (megvetéssel), átvitt értelemben: fuvolajáték [vagy: sípnézés, gúnyos füttülés]",
+      "en": "a whistling (in scorn), by analogy, a piping"
+    }
+  },
+  "H8293": {
+    "id": "H8293",
+    "lemma": "שֵׁרוּת",
+    "translit": "shêrûwth",
+    "pronounce": "",
+    "defs": {
+      "hu": "szabadság, felszabadulás, engedelmességből való szabadulás [szolgálatból való szabadulás, mint a szabad életmód], szabadtér, tágasság.",
+      "en": "freedom"
+    }
+  },
+  "H8294": {
+    "id": "H8294",
+    "lemma": "שֶׂרַח",
+    "translit": "Serach",
+    "pronounce": "",
+    "defs": {
+      "hu": "Serah, egy Izraelita nő.",
+      "en": "Serach, an Israelitess"
+    }
+  },
+  "H8295": {
+    "id": "H8295",
+    "lemma": "שָׂרַט",
+    "translit": "sâraṭ",
+    "pronounce": "",
+    "defs": {
+      "hu": "bevágni, felhasítani, mélyen sebteni [vágással]",
+      "en": "to gash"
+    }
+  },
+  "H8296": {
+    "id": "H8296",
+    "lemma": "שֶׂרֶט",
+    "translit": "sereṭ",
+    "pronounce": "",
+    "defs": {
+      "hu": "metszés, bevágás, karcolás [bőrbe vésett jel, seb, vagy vágás által keletkezett nyom].",
+      "en": "an incision"
+    }
+  },
+  "H8297": {
+    "id": "H8297",
+    "lemma": "שָׂרַי",
+    "translit": "Sâray",
+    "pronounce": "",
+    "defs": {
+      "hu": "Sárai, Ábrahám felesége.",
+      "en": "Sarai, the wife of Abraham"
+    }
+  },
+  "H8298": {
+    "id": "H8298",
+    "lemma": "שָׁרַי",
+    "translit": "Shâray",
+    "pronounce": "",
+    "defs": {
+      "hu": "Sárai, egy Izráelita.",
+      "en": "Sharay, an Israelite"
+    }
+  },
+  "H8299": {
+    "id": "H8299",
+    "lemma": "שָׂרִיג",
+    "translit": "sârîyg",
+    "pronounce": "",
+    "defs": {
+      "hu": "szőlőfürt indája, vagy más növény tekervénye, ami kapaszkodik.",
+      "en": "a tendril (as entwining)"
+    }
+  },
+  "H8300": {
+    "id": "H8300",
+    "lemma": "שָׂרִיד",
+    "translit": "sârîyd",
+    "pronounce": "",
+    "defs": {
+      "hu": "megmaradt, fennmaradt, a csatából vagy valami nagy veszedelemből megmenekült személy",
+      "en": "a survivor"
+    }
+  },
+  "H8301": {
+    "id": "H8301",
+    "lemma": "שָׂרִיד",
+    "translit": "Sârîyd",
+    "pronounce": "",
+    "defs": {
+      "hu": "Sarid, egy hely Palesztinában [vagy: egy palesztinai helység].",
+      "en": "Sarid, a place in Palestine"
+    }
+  },
+  "H8302": {
+    "id": "H8302",
+    "lemma": "שִׁרְיוֹן",
+    "translit": "shiryôwn",
+    "pronounce": "",
+    "defs": {
+      "hu": "páncélzat (mintha tekert vagy fonott volna)",
+      "en": "a corslet (as if twisted)"
+    }
+  },
+  "H8303": {
+    "id": "H8303",
+    "lemma": "שִׁרְיוֹן",
+    "translit": "Shiryôwn",
+    "pronounce": "",
+    "defs": {
+      "hu": "[A Libanon hegység csúcsa, vagy kiemelkedő pontja], melynek pontos helye ismeretlen.",
+      "en": "Shirjon or Sirjon, a peak of the Lebanon"
+    }
+  },
+  "H8304": {
+    "id": "H8304",
+    "lemma": "שְׂרָיָה",
+    "translit": "Sᵉrâyâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Serája, kilenc izraelita neve.",
+      "en": "Serajah, the name of nine Israelites"
+    }
+  },
+  "H8305": {
+    "id": "H8305",
+    "lemma": "שְׂרִיקָה",
+    "translit": "sᵉrîyqâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "szálazás (len vagy más növény rostjainak kitépése, különválasztása), vagy [a szálakból készült] vászon, lenvászon.",
+      "en": "hetchelling (or combing flax), i.e. (concretely) tow (by extension, linen cloth)"
+    }
+  },
+  "H8306": {
+    "id": "H8306",
+    "lemma": "שָׁרִיר",
+    "translit": "shârîyr",
+    "pronounce": "",
+    "defs": {
+      "hu": "ín, kötél",
+      "en": "a cord, i.e. (by analogy) sinew"
+    }
+  },
+  "H8307": {
+    "id": "H8307",
+    "lemma": "שְׁרִירוּת",
+    "translit": "shᵉrîyrûwth",
+    "pronounce": "",
+    "defs": {
+      "hu": "makacsság, szívós makacsság, elszántság, merevség [szándékban, elhatározásban]",
+      "en": "obstinacy"
+    }
+  },
+  "H8308": {
+    "id": "H8308",
+    "lemma": "שָׂרַךְ",
+    "translit": "sârak",
+    "pronounce": "",
+    "defs": {
+      "hu": "összefonni, átszőni, egymásba fonni [mint a szálakat vagy a kosarat]",
+      "en": "to interlace"
+    }
+  },
+  "H8309": {
+    "id": "H8309",
+    "lemma": "שְׁרֵמָה",
+    "translit": "shᵉrêmâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "egy közönséges, általános dolog, nem különleges vagy ritka.",
+      "en": "a common"
+    }
+  },
+  "H8310": {
+    "id": "H8310",
+    "lemma": "שַׂרְסְכִים",
+    "translit": "Sarçᵉkîym",
+    "pronounce": "",
+    "defs": {
+      "hu": "Szarészkim, egy babiloni vezérlő.",
+      "en": "Sarsekim, a Babylonian general"
+    }
+  },
+  "H8311": {
+    "id": "H8311",
+    "lemma": "שָׂרַע",
+    "translit": "sâraʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "hosszúvá tenni, kinyújtani",
+      "en": "to prolong, i.e. (reflex) be deformed by excess of members"
+    }
+  },
+  "H8312": {
+    "id": "H8312",
+    "lemma": "שַׂרְעַף",
+    "translit": "sarʻaph",
+    "pronounce": "",
+    "defs": {
+      "hu": "gondolkodás, elmélkedés, töprengés [szívbeli gondolat, elmélkedés, belső töprengés]",
+      "en": "cogitation"
+    }
+  },
+  "H8313": {
+    "id": "H8313",
+    "lemma": "שָׂרַף",
+    "translit": "sâraph",
+    "pronounce": "",
+    "defs": {
+      "hu": "lángra lobbantani (vagy okozva, lángra gyújtani), felperzselni, tűzbe vetni.",
+      "en": "to be (causatively, set) on fire"
+    }
+  },
+  "H8314": {
+    "id": "H8314",
+    "lemma": "שָׂרָף",
+    "translit": "sârâph",
+    "pronounce": "",
+    "defs": {
+      "hu": "égő, lángoló",
+      "en": "burning, i.e. (figuratively) poisonous (serpent), specifically, a saraph or symbolical creature (from their copper color)"
+    }
+  },
+  "H8315": {
+    "id": "H8315",
+    "lemma": "שָׂרָף",
+    "translit": "Sârâph",
+    "pronounce": "",
+    "defs": {
+      "hu": "Izraelita, tűzszellem, vagy tűzön járó lény.",
+      "en": "Saraph, an Israelite"
+    }
+  },
+  "H8316": {
+    "id": "H8316",
+    "lemma": "שְׂרֵפָה",
+    "translit": "sᵉrêphâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "égetés, tűz általi megsemmisítés [mint büntetés vagy tisztítás eszköze], hamuvá változtatás.",
+      "en": "cremation"
+    }
+  },
+  "H8317": {
+    "id": "H8317",
+    "lemma": "שָׁרַץ",
+    "translit": "shârats",
+    "pronounce": "",
+    "defs": {
+      "hu": "szaporodni, nyüzsgő lenni, hemzsegni, sarjadni, szaporítani [rovarok, állatok vagy népesség vonatkozásában]",
+      "en": "to wriggle, i.e. (by implication) swarm or abound"
+    }
+  },
+  "H8318": {
+    "id": "H8318",
+    "lemma": "שֶׁרֶץ",
+    "translit": "sherets",
+    "pronounce": "",
+    "defs": {
+      "hu": "nyüzsgő tömeg, apró állatok aktív, mozgó sereglete [vagy] rovarok, csúszómászók sűrű hada.",
+      "en": "a swarm, i.e. active mass of minute animals"
+    }
+  },
+  "H8319": {
+    "id": "H8319",
+    "lemma": "שָׁרַק",
+    "translit": "shâraq",
+    "pronounce": "",
+    "defs": {
+      "hu": "erős hangon sípolni, vagy fütyülni (felhívásként vagy gúnyosan), sivítani, hangos, éles hangot kiadni [sípban, füttyszóban vagy élénk felháborodásban].",
+      "en": "properly, to be shrill, i.e. to whistle or hiss (as a call or in scorn)"
+    }
+  },
+  "H8320": {
+    "id": "H8320",
+    "lemma": "שָׂרֻק",
+    "translit": "sâruq",
+    "pronounce": "",
+    "defs": {
+      "hu": "vöröslő, tűzvörös [mint ami átszúrja a tekintetet], öböl-színű.",
+      "en": "bright red (as piercing to the sight), i.e. bay"
+    }
+  },
+  "H8321": {
+    "id": "H8321",
+    "lemma": "שֹׂרֵק",
+    "translit": "sôrêq",
+    "pronounce": "",
+    "defs": {
+      "hu": "szőlőtőke (különösen a legnemesebb, vörös szőlőből származó fajta)",
+      "en": "a vine stock (properly, one yielding purple grapes, the richest variety)"
+    }
+  },
+  "H8322": {
+    "id": "H8322",
+    "lemma": "שְׁרֵקָה",
+    "translit": "shᵉrêqâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "csúfolás, gúnyolás, illetlen élcelődés [vagy:] megalázó kigúnyolás.",
+      "en": "a derision"
+    }
+  },
+  "H8323": {
+    "id": "H8323",
+    "lemma": "שָׂרַר",
+    "translit": "sârar",
+    "pronounce": "",
+    "defs": {
+      "hu": "uralkodni (átvitt értelemben, gyakorolni, visszavonva, szerezni) hatalmat, fölényt.",
+      "en": "to have (transitively, exercise, reflexively, get) dominion"
+    }
+  },
+  "H8324": {
+    "id": "H8324",
+    "lemma": "שָׁרַר",
+    "translit": "shârar",
+    "pronounce": "",
+    "defs": {
+      "hu": "ellenségeskedni (csak a részes alakban: ellenfél, ellenség)",
+      "en": "to be hostile (only active participle an opponent)"
+    }
+  },
+  "H8325": {
+    "id": "H8325",
+    "lemma": "שָׁרַר",
+    "translit": "Shârar",
+    "pronounce": "",
+    "defs": {
+      "hu": "Sárár, egy Izráelita.",
+      "en": "Sharar, an Israelite"
+    }
+  },
+  "H8326": {
+    "id": "H8326",
+    "lemma": "שֹׁרֶר",
+    "translit": "shôrer",
+    "pronounce": "",
+    "defs": {
+      "hu": "köldökzsinór, vagy (átvitt értelemben) mellény, testhez simuló ruha.",
+      "en": "the umbilical cord, i.e. (by extension) a bodice"
+    }
+  },
+  "H8327": {
+    "id": "H8327",
+    "lemma": "שָׁרַשׁ",
+    "translit": "shârash",
+    "pronounce": "",
+    "defs": {
+      "hu": "gyökerezni, azaz a földbe verni a gyökeret, vagy (átvitt értelemben) kitépni onnan.",
+      "en": "to root, i.e. strike into the soil, or (by implication) to pluck from it"
+    }
+  },
+  "H8328": {
+    "id": "H8328",
+    "lemma": "שֶׁרֶשׁ",
+    "translit": "sheresh",
+    "pronounce": "",
+    "defs": {
+      "hu": "gyökér [szó szerint vagy átvitt értelemben], eredet, alap, tő.",
+      "en": "a root (literally or figuratively)"
+    }
+  },
+  "H8329": {
+    "id": "H8329",
+    "lemma": "שֶׁרֶשׁ",
+    "translit": "Sheresh",
+    "pronounce": "",
+    "defs": {
+      "hu": "gyökér, egy Izraelita [személy]",
+      "en": "Sheresh, an Israelite"
+    }
+  },
+  "H8330": {
+    "id": "H8330",
+    "lemma": "שֹׁרֶשׁ",
+    "translit": "shôresh",
+    "pronounce": "",
+    "defs": {
+      "hu": "gyökér (szó szerint vagy átvitt értelemben)",
+      "en": "a root (literally or figuratively)"
+    }
+  },
+  "H8331": {
+    "id": "H8331",
+    "lemma": "שַׁרְשָׁה",
+    "translit": "sharshâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "lánc, kötelék, bilincs [mintha gyökerezne, azaz összekapcsolt]",
+      "en": "a chain (as rooted, i.e. linked)"
+    }
+  },
+  "H8332": {
+    "id": "H8332",
+    "lemma": "שְׁרֹשׁוּ",
+    "translit": "shᵉrôshûw",
+    "pronounce": "",
+    "defs": {
+      "hu": "gyökérkivágás, vagy (átvitt értelemben) száműzetés [gyökérrel együtt való kiirtás, elpusztítás, vagy egy nép, csoport teljes elűzése, elvándorlása].",
+      "en": "eradication, i.e. (figuratively) exile"
+    }
+  },
+  "H8333": {
+    "id": "H8333",
+    "lemma": "שַׁרְשְׁרָה",
+    "translit": "sharshᵉrâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "lánc, (építészeti) valószínűleg koszorú, füzér.",
+      "en": "a chain, (architectural) probably a garland"
+    }
+  },
+  "H8334": {
+    "id": "H8334",
+    "lemma": "שָׁרַת",
+    "translit": "shârath",
+    "pronounce": "",
+    "defs": {
+      "hu": "szolgálni, mint alárendelt vagy imádó",
+      "en": "to attend as a menial or worshipper, figuratively, to contribute to"
+    }
+  },
+  "H8335": {
+    "id": "H8335",
+    "lemma": "שָׁרֵת",
+    "translit": "shârêth",
+    "pronounce": "",
+    "defs": {
+      "hu": "szolgálat (a Templomban), istentisztelet, szolgálattevő munka, áldozati szolgálat.",
+      "en": "service (in the Temple)"
+    }
+  },
+  "H8336": {
+    "id": "H8336",
+    "lemma": "שֵׁשׁ",
+    "translit": "shêsh",
+    "pronounce": "",
+    "defs": {
+      "hu": "fehérnemű, különösen vászon, vagy (hasonlóan) márvány.",
+      "en": "bleached stuff, i.e. white linen or (by analogy) marble"
+    }
+  },
+  "H8337": {
+    "id": "H8337",
+    "lemma": "שֵׁשׁ",
+    "translit": "shêsh",
+    "pronounce": "",
+    "defs": {
+      "hu": "hat (mint a szám ötön túli többlete, vagy a kéz ujjai számán túl, általában a hatodik)",
+      "en": "six (as an overplus beyond five or the fingers of the hand), as ord. sixth"
+    }
+  },
+  "H8338": {
+    "id": "H8338",
+    "lemma": "שָׁשָׁא",
+    "translit": "shâshâʼ",
+    "pronounce": "",
+    "defs": {
+      "hu": "megsemmisíteni, elpusztítani, tönkre tenni, [teljesen] elvégezni, [kiirtani].",
+      "en": "to annihilate"
+    }
+  },
+  "H8339": {
+    "id": "H8339",
+    "lemma": "שֵׁשְׁבַּצַּר",
+    "translit": "Shêshᵉbatstsar",
+    "pronounce": "",
+    "defs": {
+      "hu": "Séspaccár, Zerubbábel perzsa neve.",
+      "en": "Sheshbatstsar, Zerubbabel's Persian name"
+    }
+  },
+  "H8340": {
+    "id": "H8340",
+    "lemma": "שֵׁשְׁבַּצַּר",
+    "translit": "Shêshᵉbatstsar",
+    "pronounce": "",
+    "defs": {
+      "hu": "Sesbaccár, Zorobábel perzsa neve",
+      "en": "Sheshbatstsar, Zerubbabel's Persian name"
+    }
+  },
+  "H8341": {
+    "id": "H8341",
+    "lemma": "שָׁשָׁה",
+    "translit": "shâshâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "hatodik részre osztani, vagy hat részre tagolni.",
+      "en": "to sixth or divide into sixths"
+    }
+  },
+  "H8342": {
+    "id": "H8342",
+    "lemma": "שָׂשׂוֹן",
+    "translit": "sâsôwn",
+    "pronounce": "",
+    "defs": {
+      "hu": "öröm, vidámság, különösen fogadtatás, üdvözlés.",
+      "en": "cheerfulness, specifically, welcome"
+    }
+  },
+  "H8343": {
+    "id": "H8343",
+    "lemma": "שָׁשַׁי",
+    "translit": "Shâshay",
+    "pronounce": "",
+    "defs": {
+      "hu": "Sásai, egy Izráelita.",
+      "en": "Shashai, an Israelite"
+    }
+  },
+  "H8344": {
+    "id": "H8344",
+    "lemma": "שֵׁשַׁי",
+    "translit": "Shêshay",
+    "pronounce": "",
+    "defs": {
+      "hu": "Séssai, egy kánaánita.",
+      "en": "Sheshai, a Canaanite"
+    }
+  },
+  "H8345": {
+    "id": "H8345",
+    "lemma": "שִׁשִּׁי",
+    "translit": "shishshîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "hatodik, rendszámú vagy (nőnemben) törtrész.",
+      "en": "sixth, ord. or (feminine) fractional"
+    }
+  },
+  "H8346": {
+    "id": "H8346",
+    "lemma": "שִׁשִּׁים",
+    "translit": "shishshîym",
+    "pronounce": "",
+    "defs": {
+      "hu": "hatvan.",
+      "en": "sixty"
+    }
+  },
+  "H8347": {
+    "id": "H8347",
+    "lemma": "שֵׁשַׁךְ",
+    "translit": "Shêshak",
+    "pronounce": "",
+    "defs": {
+      "hu": "Séssák, Babylon szimbolikus neve.",
+      "en": "Sheshak, a symbolic name of Babylon"
+    }
+  },
+  "H8348": {
+    "id": "H8348",
+    "lemma": "שֵׁשָׁן",
+    "translit": "Shêshân",
+    "pronounce": "",
+    "defs": {
+      "hu": "Séśán, egy Izráelita.",
+      "en": "Sheshan, an Israelite"
+    }
+  },
+  "H8349": {
+    "id": "H8349",
+    "lemma": "שָׁשַׁק",
+    "translit": "Shâshaq",
+    "pronounce": "",
+    "defs": {
+      "hu": "[Sásák], egy Izraelita.",
+      "en": "Shashak, an Israelite"
+    }
+  },
+  "H8350": {
+    "id": "H8350",
+    "lemma": "שָׁשַׁר",
+    "translit": "shâshar",
+    "pronounce": "",
+    "defs": {
+      "hu": "vörösökker (a színe alapján, mintha áthatolna, éles, élénk vörös szín)",
+      "en": "red ochre (from its piercing color)"
+    }
+  },
+  "H8351": {
+    "id": "H8351",
+    "lemma": "שֵׁת",
+    "translit": "shêth",
+    "pronounce": "",
+    "defs": {
+      "hu": "zúgolódás, zajongás, felháborodás [nyugtalanság, lázongás, sokaság zaja].",
+      "en": "tumult"
+    }
+  },
+  "H8352": {
+    "id": "H8352",
+    "lemma": "שֵׁת",
+    "translit": "Shêth",
+    "pronounce": "",
+    "defs": {
+      "hu": "Séth, Ádám harmadik fia.",
+      "en": "Sheth, third son of Adam"
+    }
+  },
+  "H8353": {
+    "id": "H8353",
+    "lemma": "שֵׁת",
+    "translit": "shêth",
+    "pronounce": "",
+    "defs": {
+      "hu": "hat",
+      "en": "six"
+    }
+  },
+  "H8354": {
+    "id": "H8354",
+    "lemma": "שָׁתָה",
+    "translit": "shâthâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "inni (szó szerint vagy átvitt értelemben)",
+      "en": "to imbibe (literally or figuratively)"
+    }
+  },
+  "H8355": {
+    "id": "H8355",
+    "lemma": "שְׁתָה",
+    "translit": "shᵉthâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "inni (szó szerint vagy átvitt értelemben)",
+      "en": "to imbibe (literally or figuratively)"
+    }
+  },
+  "H8356": {
+    "id": "H8356",
+    "lemma": "שָׁתָה",
+    "translit": "shâthâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "alap, azaz (átvitt értelemben) politikai vagy erkölcsi támasz.",
+      "en": "a basis, i.e. (figuratively) political or moral support"
+    }
+  },
+  "H8357": {
+    "id": "H8357",
+    "lemma": "שֵׁתָה",
+    "translit": "shêthâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "a személy ülése, helye, vagy a leült hely",
+      "en": "the seat (of the person)"
+    }
+  },
+  "H8358": {
+    "id": "H8358",
+    "lemma": "שְׁתִי",
+    "translit": "shᵉthîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "[Részegedés], [mély részegen való állapot], [a borbérrel való elragadtatás].",
+      "en": "intoxicaion"
+    }
+  },
+  "H8359": {
+    "id": "H8359",
+    "lemma": "שְׁתִי",
+    "translit": "shᵉthîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "szövésben a vetülék, vagy a szövés alapvető, állandó része, a melyen a csomó készül.",
+      "en": "a fixture, i.e. the warp in weaving"
+    }
+  },
+  "H8360": {
+    "id": "H8360",
+    "lemma": "שְׁתִיָּה",
+    "translit": "shᵉthîyâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "ivás, italozás [szokásos, mértékletes vagy mértéktelen], borivás.",
+      "en": "potation"
+    }
+  },
+  "H8361": {
+    "id": "H8361",
+    "lemma": "שִׁתִּין",
+    "translit": "shittîyn",
+    "pronounce": "",
+    "defs": {
+      "hu": "hatvan.",
+      "en": "sixty"
+    }
+  },
+  "H8362": {
+    "id": "H8362",
+    "lemma": "שָׁתַל",
+    "translit": "shâthal",
+    "pronounce": "",
+    "defs": {
+      "hu": "ültetni, átültetni, elültetni [egy helyről másra], gyökereztetni.",
+      "en": "to transplant"
+    }
+  },
+  "H8363": {
+    "id": "H8363",
+    "lemma": "שְׁתִל",
+    "translit": "shᵉthil",
+    "pronounce": "",
+    "defs": {
+      "hu": "sarj (egy átültetett növény hajtása, sarjadás, rügy)",
+      "en": "a sprig (as if transplanted), i.e. sucker"
+    }
+  },
+  "H8364": {
+    "id": "H8364",
+    "lemma": "שֻׁתַלְחִי",
+    "translit": "Shuthalchîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "a Sutalhí (együttesen) vagy Suthelach leszármazottai.",
+      "en": "a Shuthalchite (collectively) or descendants of Shuthelach"
+    }
+  },
+  "H8365": {
+    "id": "H8365",
+    "lemma": "שָׁתַם",
+    "translit": "shâtham",
+    "pronounce": "",
+    "defs": {
+      "hu": "feltárni (átvitt értelemben), megnyilvánítani, nyilvánosságra hozni [valamit, ami eddig rejtve volt].",
+      "en": "to unveil (figuratively)"
+    }
+  },
+  "H8366": {
+    "id": "H8366",
+    "lemma": "שָׁתַן",
+    "translit": "shâthan",
+    "pronounce": "",
+    "defs": {
+      "hu": "[Valakit] megvettetni, vizeletet kibocsátani",
+      "en": "(causatively) to make water, i.e. urinate"
+    }
+  },
+  "H8367": {
+    "id": "H8367",
+    "lemma": "שָׁתַק",
+    "translit": "shâthaq",
+    "pronounce": "",
+    "defs": {
+      "hu": "elcsendesedni, lenyugodni, szelídülni, elhallgatni, megnyugodni",
+      "en": "to subside"
+    }
+  },
+  "H8368": {
+    "id": "H8368",
+    "lemma": "שָׂתַר",
+    "translit": "sâthar",
+    "pronounce": "",
+    "defs": {
+      "hu": "kitörni (mint egy vulkánkitörés vagy forrás), szétterjedni, elszaporodni, felkelni (lázadásban).",
+      "en": "to break out (as an eruption)"
+    }
+  },
+  "H8369": {
+    "id": "H8369",
+    "lemma": "שֵׁתָר",
+    "translit": "Shêthâr",
+    "pronounce": "",
+    "defs": {
+      "hu": "Séthár, egy perzsa tartományfőnök [vagy helytartó].",
+      "en": "Shethar, a Persian satrap"
+    }
+  },
+  "H8370": {
+    "id": "H8370",
+    "lemma": "שְׁתַר בּוֹזְנַי",
+    "translit": "Shᵉthar Bôwzᵉnay",
+    "pronounce": "",
+    "defs": {
+      "hu": "Setár-Boznai, egy perzsa tisztviselő.",
+      "en": "Shethar-Bozenai, a Persian officer"
+    }
+  },
+  "H8371": {
+    "id": "H8371",
+    "lemma": "שָׁתַת",
+    "translit": "shâthath",
+    "pronounce": "",
+    "defs": {
+      "hu": "lerakni, elrendezni",
+      "en": "to place, i.e. array, reflex. to lie"
+    }
+  },
+  "H8372": {
+    "id": "H8372",
+    "lemma": "תָּא",
+    "translit": "tâʼ",
+    "pronounce": "",
+    "defs": {
+      "hu": "szoba, helyiség (határokkal elkülönített tér)",
+      "en": "a room (as circumscribed)"
+    }
+  },
+  "H8373": {
+    "id": "H8373",
+    "lemma": "תָּאַב",
+    "translit": "tâʼab",
+    "pronounce": "",
+    "defs": {
+      "hu": "vágyakozni, kívánni, sóvárogni [valami után], szerelmes lenni [valakire]",
+      "en": "to desire"
+    }
+  },
+  "H8374": {
+    "id": "H8374",
+    "lemma": "תָּאַב",
+    "translit": "tâʼab",
+    "pronounce": "",
+    "defs": {
+      "hu": "gyűlölködni (erkölcsi értelemben), undorodni, megvetni [valakit vagy valamit], taszítást érezni [valami iránt].",
+      "en": "to loathe (morally)"
+    }
+  },
+  "H8375": {
+    "id": "H8375",
+    "lemma": "תַּאֲבָה",
+    "translit": "taʼăbâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "vágy, sóvárgás, kívánság [pl. testi vágy, lelki sóvárgás, erős kívánság valami után]",
+      "en": "desire"
+    }
+  },
+  "H8376": {
+    "id": "H8376",
+    "lemma": "תָּאָה",
+    "translit": "tâʼâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "kijelölni, megkülönböztetni, (erőteljesen) meghatározni, jelölni.",
+      "en": "to mark off, i.e. (intensively) designate"
+    }
+  },
+  "H8377": {
+    "id": "H8377",
+    "lemma": "תְּאוֹ",
+    "translit": "tᵉʼôw",
+    "pronounce": "",
+    "defs": {
+      "hu": "egyfajta antilop [valószínűleg a fehér arcfoltról elnevezve], teó.",
+      "en": "a species of antelope (probably from the white stripe on the cheek)"
+    }
+  },
+  "H8378": {
+    "id": "H8378",
+    "lemma": "תַּאֲוָה",
+    "translit": "taʼăvâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "vágyakozás, kívánság",
+      "en": "a longing, by implication, a delight (subjectively, satisfaction, objectively, a charm)"
+    }
+  },
+  "H8379": {
+    "id": "H8379",
+    "lemma": "תַּאֲוָה",
+    "translit": "taʼăvâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "határ, végső mérték, teljesség, korlát [vagy] mértékletesség.",
+      "en": "a limit, i.e. full extent"
+    }
+  },
+  "H8380": {
+    "id": "H8380",
+    "lemma": "תָּאוֹם",
+    "translit": "tâʼôwm",
+    "pronounce": "",
+    "defs": {
+      "hu": "ikermély (többes számban), valóságosan vagy átvitt értelemben.",
+      "en": "a twin (in plural only), literally or figuratively"
+    }
+  },
+  "H8381": {
+    "id": "H8381",
+    "lemma": "תַּאֲלָה",
+    "translit": "taʼălâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "átok, átkozódás [vagy: átokmondás], káromlás, istenkáromlás.",
+      "en": "an imprecation"
+    }
+  },
+  "H8382": {
+    "id": "H8382",
+    "lemma": "תָּאַם",
+    "translit": "tâʼam",
+    "pronounce": "",
+    "defs": {
+      "hu": "egymásra illeszkedni, (átvitt értelemben) másolatot képezni, vagy (építészetben) összekapcsolni, illeszteni [egymással].",
+      "en": "to be (causatively, make) twinned, i.e. (figuratively) duplicate or (architectural) jointed"
+    }
+  },
+  "H8383": {
+    "id": "H8383",
+    "lemma": "תְּאֻן",
+    "translit": "tᵉʼun",
+    "pronounce": "",
+    "defs": {
+      "hu": "fáradozás, erőlködés, hiábavaló munka [vagy erőfeszítés], hasztalan törekvés.",
+      "en": "naughtiness, i.e. toil"
+    }
+  },
+  "H8384": {
+    "id": "H8384",
+    "lemma": "תְּאֵן",
+    "translit": "tᵉʼên",
+    "pronounce": "",
+    "defs": {
+      "hu": "a fügefa vagy a füge gyümölcse [a fügefa, vagy annak termése]",
+      "en": "the fig (tree or fruit)"
+    }
+  },
+  "H8385": {
+    "id": "H8385",
+    "lemma": "תַּאֲנָה",
+    "translit": "taʼănâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "lehetőség [alkalom, kedvező pillanat] vagy [szándék, cél, elhatározás]",
+      "en": "an opportunity or (subjectively) purpose"
+    }
+  },
+  "H8386": {
+    "id": "H8386",
+    "lemma": "תַּאֲנִיָּה",
+    "translit": "taʼănîyâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "kesergés, sóhajtozás, panasz, gyász, siratás [vagy: keserű sóhaj, panaszos kiáltás]",
+      "en": "lamentation"
+    }
+  },
+  "H8387": {
+    "id": "H8387",
+    "lemma": "תַּאֲנַת שִׁלֹה",
+    "translit": "Taʼănath Shilôh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Taánát-Siló, Palesztinában található egy hely.",
+      "en": "Taanath-Shiloh, a place in Palestine"
+    }
+  },
+  "H8388": {
+    "id": "H8388",
+    "lemma": "תָּאַר",
+    "translit": "tâʼar",
+    "pronounce": "",
+    "defs": {
+      "hu": "leírni, ábrázolni",
+      "en": "to delineate, reflex. to extend"
+    }
+  },
+  "H8389": {
+    "id": "H8389",
+    "lemma": "תֹּאַר",
+    "translit": "tôʼar",
+    "pronounce": "",
+    "defs": {
+      "hu": "alak, vonás, külső megjelenés, forma, kép.",
+      "en": "outline, i.e. figure or appearance"
+    }
+  },
+  "H8390": {
+    "id": "H8390",
+    "lemma": "תַּאֲרֵעַ",
+    "translit": "Taʼărêaʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "Taarea, egy Izraelita.",
+      "en": "Taarea, an Israelite"
+    }
+  },
+  "H8391": {
+    "id": "H8391",
+    "lemma": "תְּאַשּׁוּר",
+    "translit": "tᵉʼashshûwr",
+    "pronounce": "",
+    "defs": {
+      "hu": "egyenes cédrusféle [fa] (állító képzettségből)",
+      "en": "a species of cedar (from its erectness)"
+    }
+  },
+  "H8392": {
+    "id": "H8392",
+    "lemma": "תֵּבָה",
+    "translit": "têbâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "láda, doboz, rekesz [tárolásra, vagy valaminek a befogadására szolgáló edény]",
+      "en": "a box"
+    }
+  },
+  "H8393": {
+    "id": "H8393",
+    "lemma": "תְּבוּאָה",
+    "translit": "tᵉbûwʼâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "jövedelem, azaz termés (szó szerint vagy átvitt értelemben)",
+      "en": "income, i.e. produce (literally or figuratively)"
+    }
+  },
+  "H8394": {
+    "id": "H8394",
+    "lemma": "תָּבוּן",
+    "translit": "tâbûwn",
+    "pronounce": "",
+    "defs": {
+      "hu": "ész, belátás, érvelés, gondolatmenet, ravaszság, változékonyság, szeszély.",
+      "en": "intelligence, by implication, an argument, by extension, caprice"
+    }
+  },
+  "H8395": {
+    "id": "H8395",
+    "lemma": "תְּבוּסָה",
+    "translit": "tᵉbûwçâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "lerombolás, elpusztítás, letörés [egy lerombolás, eltiprás, pusztulás folyamata]",
+      "en": "a treading down, i.e. ruin"
+    }
+  },
+  "H8396": {
+    "id": "H8396",
+    "lemma": "תָּבוֹר",
+    "translit": "Tâbôwr",
+    "pronounce": "",
+    "defs": {
+      "hu": "Tábor, egy hegy Palesztínában, továbbá az ahhoz közel fekvő város.",
+      "en": "Tabor, a mountain in Palestine, also a city adjacent"
+    }
+  },
+  "H8397": {
+    "id": "H8397",
+    "lemma": "תֶּבֶל",
+    "translit": "tebel",
+    "pronounce": "",
+    "defs": {
+      "hu": "különféleség, keverék, különösen természetellenes fajtalálkozás, paráznaság.",
+      "en": "mixture, i.e. unnatural bestiality"
+    }
+  },
+  "H8398": {
+    "id": "H8398",
+    "lemma": "תֵּבֵל",
+    "translit": "têbêl",
+    "pronounce": "",
+    "defs": {
+      "hu": "a föld [mint nedves és ezért lakható], kiterjesztésként a világ, következményként lakói, különösen egy meghatározott ország, mint például Babilónia, Palesztina.",
+      "en": "the earth (as moist and therefore inhabited), by extension, the globe, by implication, its inhabitants, specifically, a particular land, as Babylonia, Palestine"
+    }
+  },
+  "H8399": {
+    "id": "H8399",
+    "lemma": "תַּבְלִית",
+    "translit": "tablîyth",
+    "pronounce": "",
+    "defs": {
+      "hu": "elfogyasztás, pusztulás, tönkretétel [megsemmisülés, elhasználódás, romlás, elvészés]",
+      "en": "consumption"
+    }
+  },
+  "H8400": {
+    "id": "H8400",
+    "lemma": "תְּבַּלֻּל",
+    "translit": "tᵉballul",
+    "pronounce": "",
+    "defs": {
+      "hu": "szemfély, vagy szemhomály [szem betegsége, mely a látást zavarja, ködösödést okoz]",
+      "en": "a cataract (in the eye)"
+    }
+  }
+}

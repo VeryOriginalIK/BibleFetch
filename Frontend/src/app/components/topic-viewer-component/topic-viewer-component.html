@@ -1,0 +1,47 @@
+<div class="min-h-screen pb-24">
+
+  @if (currentTopic(); as topic) {
+    <div class="relative -mx-4 px-4 py-8 mb-6 overflow-hidden transition-colors duration-500">
+      <div class="absolute inset-0 opacity-10 dark:opacity-20 transition-colors duration-500"
+           [style.backgroundColor]="topic.theme_color">
+      </div>
+
+      <div class="relative z-10 max-w-screen-xl mx-auto">
+        <button (click)="goBack()"
+                class="flex items-center text-sm font-medium text-gray-600 dark:text-gray-300 mb-4 hover:underline group">
+          <svg class="w-4 h-4 mr-1 transition-transform group-hover:-translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+          </svg>
+          Vissza a témákhoz
+        </button>
+
+        <h1 class="text-3xl md:text-4xl font-serif font-bold text-gray-900 dark:text-white mb-2">
+          {{ topic.titles[state.currentLang()] }}
+        </h1>
+
+        <div class="flex items-center gap-2">
+          <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-white/60 dark:bg-black/30 text-gray-800 dark:text-gray-200 backdrop-blur-sm border border-black/5 dark:border-white/10">
+            {{ topic.verse_ids.length }} igevers
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="space-y-6 animate-slide-up max-w-screen-xl mx-auto">
+
+      @for (verseId of topic.verse_ids; track verseId) {
+
+        <app-verse-card [verseId]="verseId"></app-verse-card>
+
+      } @empty {
+        <p class="text-center text-gray-500 py-10">Ebben a témában még nincsenek versek.</p>
+      }
+
+    </div>
+
+  } @else {
+    <div class="flex items-center justify-center min-h-[50vh]">
+      <div class="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"></div>
+    </div>
+  }
+</div>

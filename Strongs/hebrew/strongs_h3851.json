@@ -1,0 +1,3502 @@
+{
+  "H3851": {
+    "id": "H3851",
+    "lemma": "לַהַב",
+    "translit": "lahab",
+    "pronounce": "",
+    "defs": {
+      "hu": "villám, alakosan éles penge vagy fegyver hegye",
+      "en": "a flash, figuratively, a sharply polished blade or point of aweapon"
+    }
+  },
+  "H3852": {
+    "id": "H3852",
+    "lemma": "לֶהָבָה",
+    "translit": "lehâbâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "villám, átvitt értelemben élesre köszörült penge vagy fegyver hegye.",
+      "en": "a flash, figuratively, a sharply polished blade or point of aweapon"
+    }
+  },
+  "H3853": {
+    "id": "H3853",
+    "lemma": "לְהָבִים",
+    "translit": "Lᵉhâbîym",
+    "pronounce": "",
+    "defs": {
+      "hu": "Lehábi, Mizraim fia és utódai.",
+      "en": "Lehabim, a son of Mizraim, and his descendants"
+    }
+  },
+  "H3854": {
+    "id": "H3854",
+    "lemma": "לַהַג",
+    "translit": "lahag",
+    "pronounce": "",
+    "defs": {
+      "hu": "heves gondolkodás, mély elmélkedés, szívből fakadó törekvés",
+      "en": "intense mental application"
+    }
+  },
+  "H3855": {
+    "id": "H3855",
+    "lemma": "לַהַד",
+    "translit": "Lahad",
+    "pronounce": "",
+    "defs": {
+      "hu": "lahadi, egy Izraelita.",
+      "en": "Lahad, an Israelite"
+    }
+  },
+  "H3856": {
+    "id": "H3856",
+    "lemma": "לָהַהּ",
+    "translit": "lâhahh",
+    "pronounce": "",
+    "defs": {
+      "hu": "őrjöngeni, vadulni, elszállni (lelki kimerültségből), hervadozni.",
+      "en": "to be rabid (figuratively, insane), also (from the exhaustion of frenzy) to languish"
+    }
+  },
+  "H3857": {
+    "id": "H3857",
+    "lemma": "לָהַט",
+    "translit": "lâhaṭ",
+    "pronounce": "",
+    "defs": {
+      "hu": "lángol, izzik, lobog",
+      "en": "properly, to lick, i.e. (by implication) to blaze"
+    }
+  },
+  "H3858": {
+    "id": "H3858",
+    "lemma": "לַהַט",
+    "translit": "lahaṭ",
+    "pronounce": "",
+    "defs": {
+      "hu": "láng, tűz",
+      "en": "a blaze, also (from the idea of enwrapping) magic (as covert)"
+    }
+  },
+  "H3859": {
+    "id": "H3859",
+    "lemma": "לָהַם",
+    "translit": "lâham",
+    "pronounce": "",
+    "defs": {
+      "hu": "megperzselni, felperzselni, (átv.) gyötörni, kínozni, fellángolni",
+      "en": "properly, to burn in, i.e. (figuratively) to rankle"
+    }
+  },
+  "H3860": {
+    "id": "H3860",
+    "lemma": "לָהֵן",
+    "translit": "lâhên",
+    "pronounce": "",
+    "defs": {
+      "hu": "annakokáért, azért, mivel, mert",
+      "en": "popularly for if, hence, therefore"
+    }
+  },
+  "H3861": {
+    "id": "H3861",
+    "lemma": "לָהֵן",
+    "translit": "lâhên",
+    "pronounce": "",
+    "defs": {
+      "hu": "ezért, továbbá, kivéve",
+      "en": "therefore, also except"
+    }
+  },
+  "H3862": {
+    "id": "H3862",
+    "lemma": "לַהֲקָה",
+    "translit": "lahăqâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "gyűlés, népgyűlés, hadjárat, sereggyűlés",
+      "en": "an assembly"
+    }
+  },
+  "H3863": {
+    "id": "H3863",
+    "lemma": "לוּא",
+    "translit": "lûwʼ",
+    "pronounce": "",
+    "defs": {
+      "hu": "ha, feltéve hogy, bárcsak!",
+      "en": "a conditional particle, if, by implication (interj. as a wish) would that!"
+    }
+  },
+  "H3864": {
+    "id": "H3864",
+    "lemma": "לוּבִי",
+    "translit": "Lûwbîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "líbiai vagy belső-afrikai lakos (csak többes számban)",
+      "en": "a Libyan or inhabitant of interior Africa (only in plural)"
+    }
+  },
+  "H3865": {
+    "id": "H3865",
+    "lemma": "לוּד",
+    "translit": "Lûwd",
+    "pronounce": "",
+    "defs": {
+      "hu": "Lúd, két nép neve.",
+      "en": "Lud, the name of two nations"
+    }
+  },
+  "H3866": {
+    "id": "H3866",
+    "lemma": "לוּדִי",
+    "translit": "Lûwdîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "lúdi, Lúd lakói (csak többes számban)",
+      "en": "a Ludite or inhabitants of Lud (only in plural)"
+    }
+  },
+  "H3867": {
+    "id": "H3867",
+    "lemma": "לָוָה",
+    "translit": "lâvâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "fonni, összekapcsolni, maradozni, kölcsönvenni vagy kölcsönadni.",
+      "en": "properly, to twine, i.e. (by implication) to unite, to remain, also to borrow (as a form of obligation) or (caus.) to lend"
+    }
+  },
+  "H3868": {
+    "id": "H3868",
+    "lemma": "לוּז",
+    "translit": "lûwz",
+    "pronounce": "",
+    "defs": {
+      "hu": "eltérni, elfordulni, megváltozni, vétkezni, romlani",
+      "en": "to turn aside , i.e. (literally) to depart, (figuratively) be perverse"
+    }
+  },
+  "H3869": {
+    "id": "H3869",
+    "lemma": "לוּז",
+    "translit": "lûwz",
+    "pronounce": "",
+    "defs": {
+      "hu": "valamilyen mogyorófaféle, talán a mandulafa",
+      "en": "some kind of nuttree, perhaps the almond"
+    }
+  },
+  "H3870": {
+    "id": "H3870",
+    "lemma": "לוּז",
+    "translit": "Lûwz",
+    "pronounce": "",
+    "defs": {
+      "hu": "Lúz, két palesztinai hely neve.",
+      "en": "Luz, the name of two places in Palestine"
+    }
+  },
+  "H3871": {
+    "id": "H3871",
+    "lemma": "לוּחַ",
+    "translit": "lûwach",
+    "pronounce": "",
+    "defs": {
+      "hu": "valószínűleg csillogni jelent, tábla (csiszolt), kőből, fából vagy fémből.",
+      "en": "probably meaning to glisten, a tablet (as polished), of stone, wood or metal"
+    }
+  },
+  "H3872": {
+    "id": "H3872",
+    "lemma": "לוּחִית",
+    "translit": "Lûwchîyth",
+    "pronounce": "",
+    "defs": {
+      "hu": "Lúchit, egy hely a Jordánon túl.",
+      "en": "Luchith, a place East of the Jordan"
+    }
+  },
+  "H3873": {
+    "id": "H3873",
+    "lemma": "לוֹחֵשׁ",
+    "translit": "Lôwchêsh",
+    "pronounce": "",
+    "defs": {
+      "hu": "lókhes, egy Izraelita.",
+      "en": "Lochesh, an Israelite"
+    }
+  },
+  "H3874": {
+    "id": "H3874",
+    "lemma": "לוּט",
+    "translit": "lûwṭ",
+    "pronounce": "",
+    "defs": {
+      "hu": "tekerni, összetekerni, feltekerni, betekerni.",
+      "en": "to wrap up"
+    }
+  },
+  "H3875": {
+    "id": "H3875",
+    "lemma": "לוֹט",
+    "translit": "lôwṭ",
+    "pronounce": "",
+    "defs": {
+      "hu": "lepel, fátyol",
+      "en": "a veil"
+    }
+  },
+  "H3876": {
+    "id": "H3876",
+    "lemma": "לוֹט",
+    "translit": "Lôwṭ",
+    "pronounce": "",
+    "defs": {
+      "hu": "Lót, Ábrahám unokaöccse.",
+      "en": "Lot, Abraham's nephew"
+    }
+  },
+  "H3877": {
+    "id": "H3877",
+    "lemma": "לוֹטָן",
+    "translit": "Lôwṭân",
+    "pronounce": "",
+    "defs": {
+      "hu": "Lótán, egy idumeus.",
+      "en": "Lotan, an Idumaean"
+    }
+  },
+  "H3878": {
+    "id": "H3878",
+    "lemma": "לֵוִי",
+    "translit": "Lêvîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "Levi, Jákób fia.",
+      "en": "Levi, a son of Jacob"
+    }
+  },
+  "H3879": {
+    "id": "H3879",
+    "lemma": "לֵוִי",
+    "translit": "Lêvîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "koszorú, valami hozzáragasztott dolog",
+      "en": "something attached, i.e. a wreath"
+    }
+  },
+  "H3880": {
+    "id": "H3880",
+    "lemma": "לִוְיָה",
+    "translit": "livyâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "valami hozzáragasztott, koszorú",
+      "en": "something attached, i.e. a wreath"
+    }
+  },
+  "H3881": {
+    "id": "H3881",
+    "lemma": "לֵוִיִּי",
+    "translit": "Lêvîyîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "levita, vagy Lévi fia, Lévinek utóda.",
+      "en": "a Levite or descendant of Levi"
+    }
+  },
+  "H3882": {
+    "id": "H3882",
+    "lemma": "לִוְיָתָן",
+    "translit": "livyâthân",
+    "pronounce": "",
+    "defs": {
+      "hu": "tekervényes állat, azaz kígyó (különösen a krokodil vagy más nagy tengeri szörny), képletesen a sárkány csillagkép, továbbá Babilónia szimbóluma.",
+      "en": "a wreathed animal, i.e. a serpent (especially the crocodile or some other large sea-monster), figuratively, the constellation of the dragon, also as a symbol of Babylon"
+    }
+  },
+  "H3883": {
+    "id": "H3883",
+    "lemma": "לוּל",
+    "translit": "lûwl",
+    "pronounce": "",
+    "defs": {
+      "hu": "csigacsúcs, spirális lépcső",
+      "en": "a spiral step"
+    }
+  },
+  "H3884": {
+    "id": "H3884",
+    "lemma": "לוּלֵא",
+    "translit": "lûwlêʼ",
+    "pronounce": "",
+    "defs": {
+      "hu": "ha nem volna",
+      "en": "if not"
+    }
+  },
+  "H3885": {
+    "id": "H3885",
+    "lemma": "לוּן",
+    "translit": "lûwn",
+    "pronounce": "",
+    "defs": {
+      "hu": "megszállni, éjszakázni, tartózkodni, makacsul ellenállni, nyaggatni, panaszkodni.",
+      "en": "to stop (usually over night), by implication, to stay permanently, hence (in a bad sense) to be obstinate (especially in words, to complain)"
+    }
+  },
+  "H3886": {
+    "id": "H3886",
+    "lemma": "לוּעַ",
+    "translit": "lûwaʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "nyelni, elnyelni",
+      "en": "to gulp, figuratively, to be rash"
+    }
+  },
+  "H3887": {
+    "id": "H3887",
+    "lemma": "לוּץ",
+    "translit": "lûwts",
+    "pronounce": "",
+    "defs": {
+      "hu": "megvetni, gúnyolni, értelmezni, közvetíteni, közbenjárni.",
+      "en": "properly, to make mouths at, i.e. to scoff, hence (from the effort to pronounce a foreign language) to interpret, or (generally) intercede"
+    }
+  },
+  "H3888": {
+    "id": "H3888",
+    "lemma": "לוּשׁ",
+    "translit": "lûwsh",
+    "pronounce": "",
+    "defs": {
+      "hu": "gyúrni, dagasztani",
+      "en": "to knead"
+    }
+  },
+  "H3889": {
+    "id": "H3889",
+    "lemma": "לוּשׁ",
+    "translit": "Lûwsh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Lús, egy hely Palesztinában.",
+      "en": "Lush, a place in Palestine"
+    }
+  },
+  "H3890": {
+    "id": "H3890",
+    "lemma": "לְוָת",
+    "translit": "lᵉvâth",
+    "pronounce": "",
+    "defs": {
+      "hu": "ragaszkodás, kötődés, (mint előtag) -val, -vel",
+      "en": "properly, adhesion, i.e. (as preposition) with"
+    }
+  },
+  "H3891": {
+    "id": "H3891",
+    "lemma": "לְזוּת",
+    "translit": "lᵉzûwth",
+    "pronounce": "",
+    "defs": {
+      "hu": "elferdülés, romlottság, hitetlenség.",
+      "en": "perverseness"
+    }
+  },
+  "H3892": {
+    "id": "H3892",
+    "lemma": "לַח",
+    "translit": "lach",
+    "pronounce": "",
+    "defs": {
+      "hu": "friss, nedves, nyers, el nem használt, el nem száradt.",
+      "en": "fresh, i.e. unused or undried"
+    }
+  },
+  "H3893": {
+    "id": "H3893",
+    "lemma": "לֵחַ",
+    "translit": "lêach",
+    "pronounce": "",
+    "defs": {
+      "hu": "frissesség, erő, virágzás",
+      "en": "freshness, i.e. vigor"
+    }
+  },
+  "H3894": {
+    "id": "H3894",
+    "lemma": "לָחוּם",
+    "translit": "lâchûwm",
+    "pronounce": "",
+    "defs": {
+      "hu": "étel, táplálék, hús, test.",
+      "en": "properly, eaten, i.e. food, also flesh, i.e. body"
+    }
+  },
+  "H3895": {
+    "id": "H3895",
+    "lemma": "לְחִי",
+    "translit": "lᵉchîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "arc, állkapocs, pofacsont",
+      "en": "the cheek (from its fleshiness), hence, the jaw-bone"
+    }
+  },
+  "H3896": {
+    "id": "H3896",
+    "lemma": "לֶחִי",
+    "translit": "Lechîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "Lehi, egy hely Palesztinában.",
+      "en": "Lechi, a place in Palestine"
+    }
+  },
+  "H3897": {
+    "id": "H3897",
+    "lemma": "לָחַךְ",
+    "translit": "lâchak",
+    "pronounce": "",
+    "defs": {
+      "hu": "nyalni",
+      "en": "to lick"
+    }
+  },
+  "H3898": {
+    "id": "H3898",
+    "lemma": "לָחַם",
+    "translit": "lâcham",
+    "pronounce": "",
+    "defs": {
+      "hu": "enni, táplálni, fogyasztani, (átv.) elpusztítani, harcolni (mint pusztítás)",
+      "en": "to feed on, figuratively, to consume, by implication, to battle (as destruction)"
+    }
+  },
+  "H3899": {
+    "id": "H3899",
+    "lemma": "לֶחֶם",
+    "translit": "lechem",
+    "pronounce": "",
+    "defs": {
+      "hu": "élelem, különösen kenyér vagy gabona (a készítéséhez)",
+      "en": "food (for man or beast), especially bread, or grain (for making it)"
+    }
+  },
+  "H3900": {
+    "id": "H3900",
+    "lemma": "לְחֶם",
+    "translit": "lᵉchem",
+    "pronounce": "",
+    "defs": {
+      "hu": "kézdisajt, gabona (általában kenyér készítéséhez)",
+      "en": "(for man or beast), especially bread, or grain (for making it)"
+    }
+  },
+  "H3901": {
+    "id": "H3901",
+    "lemma": "לָחֶם",
+    "translit": "lâchem",
+    "pronounce": "",
+    "defs": {
+      "hu": "harc, csata",
+      "en": "battle"
+    }
+  },
+  "H3902": {
+    "id": "H3902",
+    "lemma": "לַחְמִי",
+    "translit": "Lachmîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "Lachmi, egy Izraelita, vagy valószínűleg egy rövidített névforma.",
+      "en": "Lachmi, an Israelite, or rather probably a brief form"
+    }
+  },
+  "H3903": {
+    "id": "H3903",
+    "lemma": "לַחְמָס",
+    "translit": "Lachmâç",
+    "pronounce": "",
+    "defs": {
+      "hu": "Lachmás, egy hely Palesztinában.",
+      "en": "Lachmam or Lachmas, a place in Palestine"
+    }
+  },
+  "H3904": {
+    "id": "H3904",
+    "lemma": "לְחֵנָה",
+    "translit": "lᵉchênâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "alkotónő, másodrendű feleség.",
+      "en": "a concubine"
+    }
+  },
+  "H3905": {
+    "id": "H3905",
+    "lemma": "לָחַץ",
+    "translit": "lâchats",
+    "pronounce": "",
+    "defs": {
+      "hu": "nyom, szorongat, megnyom, keserűen bánni valakivel, elnyomni.",
+      "en": "properly, to press, i.e. (figuratively) to distress"
+    }
+  },
+  "H3906": {
+    "id": "H3906",
+    "lemma": "לַחַץ",
+    "translit": "lachats",
+    "pronounce": "",
+    "defs": {
+      "hu": "szorongás, nyomorúság, szűkölködés, nyomasztás.",
+      "en": "distress"
+    }
+  },
+  "H3907": {
+    "id": "H3907",
+    "lemma": "לָחַשׁ",
+    "translit": "lâchash",
+    "pronounce": "",
+    "defs": {
+      "hu": "suttogni, titkon beszélni, varázsigét mondani.",
+      "en": "to whisper, by implication, to mumble aspell (as a magician)"
+    }
+  },
+  "H3908": {
+    "id": "H3908",
+    "lemma": "לַחַשׁ",
+    "translit": "lachash",
+    "pronounce": "",
+    "defs": {
+      "hu": "suttogás, (jó értelemben) magánimádkozás, (rossz értelemben) varázsige, kézzel foghatóan amulett.",
+      "en": "properly, a whisper, i.e. by implication, (in a good sense) a private prayer, (in a bad one) an incantation, concretely, an amulet"
+    }
+  },
+  "H3909": {
+    "id": "H3909",
+    "lemma": "לָט",
+    "translit": "lâṭ",
+    "pronounce": "",
+    "defs": {
+      "hu": "titokban, rejtve, varázslat által, titkos módon.",
+      "en": "properly, covered, i.e. secret, by implication, incantation, also secrecy or (adverb) covertly"
+    }
+  },
+  "H3910": {
+    "id": "H3910",
+    "lemma": "לֹט",
+    "translit": "lôṭ",
+    "pronounce": "",
+    "defs": {
+      "hu": "valószínűleg a ladanum, egy ragacsos, illatos gyanta.",
+      "en": "a gum (from its sticky nature), probably ladanum"
+    }
+  },
+  "H3911": {
+    "id": "H3911",
+    "lemma": "לְטָאָה",
+    "translit": "lᵉṭâʼâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "egyfajta gyík (rejtekhelyen való szokásai alapján)",
+      "en": "a kind of lizard (from its covert habits)"
+    }
+  },
+  "H3912": {
+    "id": "H3912",
+    "lemma": "לְטוּשִׁם",
+    "translit": "Lᵉṭûwshim",
+    "pronounce": "",
+    "defs": {
+      "hu": "letusimiek, egy arab törzs",
+      "en": "Letushim, an Arabian tribe"
+    }
+  },
+  "H3913": {
+    "id": "H3913",
+    "lemma": "לָטַשׁ",
+    "translit": "lâṭash",
+    "pronounce": "",
+    "defs": {
+      "hu": "élesíteni, símítani, csiszolni",
+      "en": "properly, to hammer out (an edge), i.e. to sharpen"
+    }
+  },
+  "H3914": {
+    "id": "H3914",
+    "lemma": "לֹיָה",
+    "translit": "lôyâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "koszorú",
+      "en": "a wreath"
+    }
+  },
+  "H3915": {
+    "id": "H3915",
+    "lemma": "לַיִל",
+    "translit": "layil",
+    "pronounce": "",
+    "defs": {
+      "hu": "éj, vagy képletesen: nyomorúság, baj.",
+      "en": "properly, a twist (away of the light), i.e. night, figuratively, adversity"
+    }
+  },
+  "H3916": {
+    "id": "H3916",
+    "lemma": "לֵילְיָא",
+    "translit": "lêylᵉyâʼ",
+    "pronounce": "",
+    "defs": {
+      "hu": "Laél, egy Izraelita.",
+      "en": "Lael an Israelite"
+    }
+  },
+  "H3917": {
+    "id": "H3917",
+    "lemma": "לִילִית",
+    "translit": "lîylîyth",
+    "pronounce": "",
+    "defs": {
+      "hu": "éjszakai szellem, bagoly (valószínűleg egy démoni lény)",
+      "en": "a night spectre"
+    }
+  },
+  "H3918": {
+    "id": "H3918",
+    "lemma": "לַיִשׁ",
+    "translit": "layish",
+    "pronounce": "",
+    "defs": {
+      "hu": "oroszlán (a pusztító csapásai miatt)",
+      "en": "a lion (from his destructive blows)"
+    }
+  },
+  "H3919": {
+    "id": "H3919",
+    "lemma": "לַיִשׁ",
+    "translit": "Layish",
+    "pronounce": "",
+    "defs": {
+      "hu": "Lais, két palesztinai hely neve.",
+      "en": "Laish, the name of two places in Palestine"
+    }
+  },
+  "H3920": {
+    "id": "H3920",
+    "lemma": "לָכַד",
+    "translit": "lâkad",
+    "pronounce": "",
+    "defs": {
+      "hu": "fogva tartani, elfogyni, ragadni, választani (sorsolással), összetapadni, összefüggni.",
+      "en": "to catch (in a net, trap or pit), generally, to capture or occupy, also to choose (by lot), figuratively, to cohere"
+    }
+  },
+  "H3921": {
+    "id": "H3921",
+    "lemma": "לֶכֶד",
+    "translit": "leked",
+    "pronounce": "",
+    "defs": {
+      "hu": "fogó, hurok, kötélfogó",
+      "en": "something to capture with, i.e. a noose"
+    }
+  },
+  "H3922": {
+    "id": "H3922",
+    "lemma": "לֵכָה",
+    "translit": "lêkâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Leká, egy hely Palesztinában.",
+      "en": "Lekah, a place in Palestine"
+    }
+  },
+  "H3923": {
+    "id": "H3923",
+    "lemma": "לָכִישׁ",
+    "translit": "Lâkîysh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Lakís, egy hely Palesztinában.",
+      "en": "Lakish, a place in Palestine"
+    }
+  },
+  "H3924": {
+    "id": "H3924",
+    "lemma": "לֻלָאָה",
+    "translit": "lulâʼâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "hurok, fonott kötél, hurkolás",
+      "en": "a loop"
+    }
+  },
+  "H3925": {
+    "id": "H3925",
+    "lemma": "לָמַד",
+    "translit": "lâmad",
+    "pronounce": "",
+    "defs": {
+      "hu": "oktatni, tanítani, nevelni, fegyelmezni",
+      "en": "properly, to goad, i.e. (by implication) to teach (the rod being an Oriental incentive)"
+    }
+  },
+  "H3926": {
+    "id": "H3926",
+    "lemma": "לְמוֹ",
+    "translit": "lᵉmôw",
+    "pronounce": "",
+    "defs": {
+      "hu": "a-, vagy -nak/nek.",
+      "en": "to or for"
+    }
+  },
+  "H3927": {
+    "id": "H3927",
+    "lemma": "לְמוּאֵל",
+    "translit": "Lᵉmûwʼêl",
+    "pronounce": "",
+    "defs": {
+      "hu": "Lemuel, vagy Lemoel, Salamon szimbolikus neve.",
+      "en": "Lemuel or Lemoel, a symbolic name of Solomon"
+    }
+  },
+  "H3928": {
+    "id": "H3928",
+    "lemma": "לִמּוּד",
+    "translit": "limmûwd",
+    "pronounce": "",
+    "defs": {
+      "hu": "oktatás, tanítás, taníttatás",
+      "en": "instructed"
+    }
+  },
+  "H3929": {
+    "id": "H3929",
+    "lemma": "לֶמֶךְ",
+    "translit": "Lemek",
+    "pronounce": "",
+    "defs": {
+      "hu": "Lemek, két özengős ősatyák neve.",
+      "en": "Lemek, the name of two antediluvian patriarchs"
+    }
+  },
+  "H3930": {
+    "id": "H3930",
+    "lemma": "לֹעַ",
+    "translit": "lôaʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "a torkok, nyelőcső",
+      "en": "the gullet"
+    }
+  },
+  "H3931": {
+    "id": "H3931",
+    "lemma": "לָעַב",
+    "translit": "lâʻab",
+    "pronounce": "",
+    "defs": {
+      "hu": "csúfolni, gúnyolni, kikacagni",
+      "en": "to deride"
+    }
+  },
+  "H3932": {
+    "id": "H3932",
+    "lemma": "לָעַג",
+    "translit": "lâʻag",
+    "pronounce": "",
+    "defs": {
+      "hu": "gúnyol, csúfol, illetlenül beszél, érthetetlenül szól.",
+      "en": "to deride, by implication (as if imitating a foreigner) to speak unintelligibly"
+    }
+  },
+  "H3933": {
+    "id": "H3933",
+    "lemma": "לַעַג",
+    "translit": "laʻag",
+    "pronounce": "",
+    "defs": {
+      "hu": "csúfolás, gúnyolás, kikacagatás",
+      "en": "derision, scoffing"
+    }
+  },
+  "H3934": {
+    "id": "H3934",
+    "lemma": "לָעֵג",
+    "translit": "lâʻêg",
+    "pronounce": "",
+    "defs": {
+      "hu": "bolond, gúnytevő, idegenföldi.",
+      "en": "a buffoon, also a foreigner"
+    }
+  },
+  "H3935": {
+    "id": "H3935",
+    "lemma": "לַעְדָּה",
+    "translit": "Laʻdâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Ládah, egy Izraelita.",
+      "en": "Ladah, an Israelite"
+    }
+  },
+  "H3936": {
+    "id": "H3936",
+    "lemma": "לַעְדָּן",
+    "translit": "Laʻdân",
+    "pronounce": "",
+    "defs": {
+      "hu": "Ládán, két izraelita neve.",
+      "en": "Ladan, the name of two Israelites"
+    }
+  },
+  "H3937": {
+    "id": "H3937",
+    "lemma": "לָעַז",
+    "translit": "lâʻaz",
+    "pronounce": "",
+    "defs": {
+      "hu": "idegen nyelven szólalni, idegen nyelvet beszélni.",
+      "en": "to speak in a foreign tongue"
+    }
+  },
+  "H3938": {
+    "id": "H3938",
+    "lemma": "לָעַט",
+    "translit": "lâʻaṭ",
+    "pronounce": "",
+    "defs": {
+      "hu": "falánkságig lenyelve, vagy okozva, táplálni.",
+      "en": "to swallow greedily, causatively, to feed"
+    }
+  },
+  "H3939": {
+    "id": "H3939",
+    "lemma": "לַעֲנָה",
+    "translit": "laʻănâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "harsszívű fű, keserű gyógynövény (átok alatt álló, mérgező növényként tartott)",
+      "en": "wormwood (regarded as poisonous, and therefore accursed)"
+    }
+  },
+  "H3940": {
+    "id": "H3940",
+    "lemma": "לַפִּיד",
+    "translit": "lappîyd",
+    "pronounce": "",
+    "defs": {
+      "hu": "láng, fényforrás, zseblámpa, fáklya.",
+      "en": "a flambeau, lamp or flame"
+    }
+  },
+  "H3941": {
+    "id": "H3941",
+    "lemma": "לַפִּידוֹת",
+    "translit": "Lappîydôwth",
+    "pronounce": "",
+    "defs": {
+      "hu": "Lappidót, Debóra férje.",
+      "en": "Lappidoth, the husband of Deborah"
+    }
+  },
+  "H3942": {
+    "id": "H3942",
+    "lemma": "לִפְנַי",
+    "translit": "liphnay",
+    "pronounce": "",
+    "defs": {
+      "hu": "elé, előttem, az én előttem",
+      "en": "anterior"
+    }
+  },
+  "H3943": {
+    "id": "H3943",
+    "lemma": "לָפַת",
+    "translit": "lâphath",
+    "pronounce": "",
+    "defs": {
+      "hu": "megragadni, meghajlítani, elfordulni, félrehívni.",
+      "en": "properly, to bend, i.e. (by implication) to clasp, also (reflexively) to turn around or aside"
+    }
+  },
+  "H3944": {
+    "id": "H3944",
+    "lemma": "לָצוֹן",
+    "translit": "lâtsôwn",
+    "pronounce": "",
+    "defs": {
+      "hu": "csúfolás, gúnyolás, megvetés",
+      "en": "derision"
+    }
+  },
+  "H3945": {
+    "id": "H3945",
+    "lemma": "לָצַץ",
+    "translit": "lâtsats",
+    "pronounce": "",
+    "defs": {
+      "hu": "csúfolni, gúnyolni, kikacagni",
+      "en": "to deride"
+    }
+  },
+  "H3946": {
+    "id": "H3946",
+    "lemma": "לַקּוּם",
+    "translit": "Laqqûwm",
+    "pronounce": "",
+    "defs": {
+      "hu": "Lakkum, egy hely Palesztinában.",
+      "en": "Lakkum, a place in Palestine"
+    }
+  },
+  "H3947": {
+    "id": "H3947",
+    "lemma": "לָקַח",
+    "translit": "lâqach",
+    "pronounce": "",
+    "defs": {
+      "hu": "elvenni, fogva tartani, venni, magához venni, átvenni, felvenni, szerezni, választani, megvenni, elragadni.",
+      "en": "to take (in the widest variety of applications)"
+    }
+  },
+  "H3948": {
+    "id": "H3948",
+    "lemma": "לֶקַח",
+    "translit": "leqach",
+    "pronounce": "",
+    "defs": {
+      "hu": "oktatás, tanítás, tanács, csalás, rábeszélés.",
+      "en": "properly, something received, i.e. (mentally) instruction (whether on the part of the teacher or hearer), also (in an active and sinister sense) inveiglement"
+    }
+  },
+  "H3949": {
+    "id": "H3949",
+    "lemma": "לִקְחִי",
+    "translit": "Liqchîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "Likhi, egy Izraelita.",
+      "en": "Likchi, an Israelite"
+    }
+  },
+  "H3950": {
+    "id": "H3950",
+    "lemma": "לָקַט",
+    "translit": "lâqaṭ",
+    "pronounce": "",
+    "defs": {
+      "hu": "felszedni, begyűjteni, szedegetni (pl. a földről), szüretelni",
+      "en": "properly, to pick up, i.e. (generally) to gather, specifically, to glean"
+    }
+  },
+  "H3951": {
+    "id": "H3951",
+    "lemma": "לֶקֶט",
+    "translit": "leqeṭ",
+    "pronounce": "",
+    "defs": {
+      "hu": "szemlézés, a szüret után a szőlőtőn maradt szőlő szedése, vagy a vetés után a földön maradt gabona begyűjtése.",
+      "en": "the gleaning"
+    }
+  },
+  "H3952": {
+    "id": "H3952",
+    "lemma": "לָקַק",
+    "translit": "lâqaq",
+    "pronounce": "",
+    "defs": {
+      "hu": "nyalni, lapogatni",
+      "en": "to lick or lap"
+    }
+  },
+  "H3953": {
+    "id": "H3953",
+    "lemma": "לָקַשׁ",
+    "translit": "lâqash",
+    "pronounce": "",
+    "defs": {
+      "hu": "a szüret utáni termés begyűjtése, a szőlőben maradt szemek felszedése.",
+      "en": "to gather the after crop"
+    }
+  },
+  "H3954": {
+    "id": "H3954",
+    "lemma": "לֶקֶשׁ",
+    "translit": "leqesh",
+    "pronounce": "",
+    "defs": {
+      "hu": "a vetés maradéka, a másodvetés",
+      "en": "the after crop"
+    }
+  },
+  "H3955": {
+    "id": "H3955",
+    "lemma": "לְשַׁד",
+    "translit": "lᵉshad",
+    "pronounce": "",
+    "defs": {
+      "hu": "erő, vagy édes, zsíros sütemény",
+      "en": "(figuratively) vigor, also a sweet or fat cake"
+    }
+  },
+  "H3956": {
+    "id": "H3956",
+    "lemma": "לָשׁוֹן",
+    "translit": "lâshôwn",
+    "pronounce": "",
+    "defs": {
+      "hu": "a nyelv (embernek vagy állatnak), szó szerint (nyalás, evés vagy beszéd eszközeként), és átvitt értelemben (beszéd, ötvözetrúd, lángnyelv, öböl)",
+      "en": "the tongue (of man or animals), used literally (as the instrument of licking, eating, or speech), and figuratively (speech, an ingot, a fork of flame, a cove of water)"
+    }
+  },
+  "H3957": {
+    "id": "H3957",
+    "lemma": "לִשְׁכָּה",
+    "translit": "lishkâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "szoba, helyiség (raktárnak, étkezésnek vagy szállásnak)",
+      "en": "a room in a building (whether for storage, eating, or lodging)"
+    }
+  },
+  "H3958": {
+    "id": "H3958",
+    "lemma": "לֶשֶׁם",
+    "translit": "leshem",
+    "pronounce": "",
+    "defs": {
+      "hu": "valamilyen drágakő, talán jakint",
+      "en": "a gem, perhaps the jacinth"
+    }
+  },
+  "H3959": {
+    "id": "H3959",
+    "lemma": "לֶשֶׁם",
+    "translit": "Leshem",
+    "pronounce": "",
+    "defs": {
+      "hu": "Lesem, egy hely Palesztinában.",
+      "en": "Leshem, a place in Palestine"
+    }
+  },
+  "H3960": {
+    "id": "H3960",
+    "lemma": "לָשַׁן",
+    "translit": "lâshan",
+    "pronounce": "",
+    "defs": {
+      "hu": "rágalmazni, nyelvet mozgatni (beszéd által rágalmazni)",
+      "en": "to wag the tongue, i.e. to calumniate"
+    }
+  },
+  "H3961": {
+    "id": "H3961",
+    "lemma": "לִשָּׁן",
+    "translit": "lishshân",
+    "pronounce": "",
+    "defs": {
+      "hu": "nemzet, nyelv, beszéd",
+      "en": "speech, i.e. a nation"
+    }
+  },
+  "H3962": {
+    "id": "H3962",
+    "lemma": "לֶשַׁע",
+    "translit": "Leshaʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "Lesa, valószínűleg a Jordánon túl fekvő hely.",
+      "en": "Lesha, a place probably East of the Jordan"
+    }
+  },
+  "H3963": {
+    "id": "H3963",
+    "lemma": "לֶתֶךְ",
+    "translit": "lethek",
+    "pronounce": "",
+    "defs": {
+      "hu": "száraz termények mértékegysége",
+      "en": "a measure for things dry"
+    }
+  },
+  "H3964": {
+    "id": "H3964",
+    "lemma": "מָא",
+    "translit": "mâʼ",
+    "pronounce": "",
+    "defs": {
+      "hu": "Azon, vagy amaz.",
+      "en": "(as indefinitely) that"
+    }
+  },
+  "H3965": {
+    "id": "H3965",
+    "lemma": "מַאֲבוּס",
+    "translit": "maʼăbûwç",
+    "pronounce": "",
+    "defs": {
+      "hu": "raktár, gabonásraktár, éléskamra",
+      "en": "a granary"
+    }
+  },
+  "H3966": {
+    "id": "H3966",
+    "lemma": "מְאֹד",
+    "translit": "mᵉʼôd",
+    "pronounce": "",
+    "defs": {
+      "hu": "nagyon, erősen, rendkívül, teljességgel, sürgősen, hevesen (más szavakkal együtt fokozó vagy felsőfokú értelemben, különösen ismételve)",
+      "en": "properly, vehemence, i.e. (with or without preposition) vehemently, by implication, wholly, speedily, etc. (often with other words as an intensive or superlative, especially when repeated)"
+    }
+  },
+  "H3967": {
+    "id": "H3967",
+    "lemma": "מֵאָה",
+    "translit": "mêʼâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "száz, sokasodó tényezőként vagy törtrészként is",
+      "en": "a hundred, also as a multiplicative and a fraction"
+    }
+  },
+  "H3968": {
+    "id": "H3968",
+    "lemma": "מֵאָה",
+    "translit": "Mêʼâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "torony Jeruzsálemben",
+      "en": "Meah, a tower in Jerusalem"
+    }
+  },
+  "H3969": {
+    "id": "H3969",
+    "lemma": "מְאָה",
+    "translit": "mᵉʼâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "száz, továbbá szorzóként és törtrészként is.",
+      "en": "a hundred, also as a multiplicative and a fraction"
+    }
+  },
+  "H3970": {
+    "id": "H3970",
+    "lemma": "מַאֲוַי",
+    "translit": "maʼăvay",
+    "pronounce": "",
+    "defs": {
+      "hu": "vágyakozás, sóvárgás, kívánság",
+      "en": "a desire"
+    }
+  },
+  "H3971": {
+    "id": "H3971",
+    "lemma": "מאוּם",
+    "translit": "mʼûwm",
+    "pronounce": "",
+    "defs": {
+      "hu": "folt, szennyeződés (testi vagy erkölcsi értelemben)",
+      "en": "to stain, a blemish (physically or morally)"
+    }
+  },
+  "H3972": {
+    "id": "H3972",
+    "lemma": "מְאוּמָה",
+    "translit": "mᵉʼûwmâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "egy sem, semmi, semmit sem",
+      "en": "properly, a speck or point, i.e. (by implication) something, with negative, nothing"
+    }
+  },
+  "H3973": {
+    "id": "H3973",
+    "lemma": "מָאוֹס",
+    "translit": "mâʼôwç",
+    "pronounce": "",
+    "defs": {
+      "hu": "elutasítás, megvetés, undorító dolog",
+      "en": "refuse"
+    }
+  },
+  "H3974": {
+    "id": "H3974",
+    "lemma": "מָאוֹר",
+    "translit": "mâʼôwr",
+    "pronounce": "",
+    "defs": {
+      "hu": "fény, világosság, ragyogás, csillag, gyertyatartó",
+      "en": "properly, a luminous body or luminary, i.e. (abstractly) light (as an element), figuratively, brightness, i.e.cheerfulness, specifically, a chandelier"
+    }
+  },
+  "H3975": {
+    "id": "H3975",
+    "lemma": "מְאוּרָה",
+    "translit": "mᵉʼûwrâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "valamilyen megvilágított hely, azaz nyílás, következményképpen repedés vagy lyuk (egy kígyóé)",
+      "en": "something lighted, i.e. an aperture, by implication, a crevice or hole (of a serpent)"
+    }
+  },
+  "H3976": {
+    "id": "H3976",
+    "lemma": "מֹאזֵן",
+    "translit": "môʼzên",
+    "pronounce": "",
+    "defs": {
+      "hu": "mérlegpár",
+      "en": "(only in the dual) a pair of scales"
+    }
+  },
+  "H3977": {
+    "id": "H3977",
+    "lemma": "מֹאזֵן",
+    "translit": "môʼzên",
+    "pronounce": "",
+    "defs": {
+      "hu": "mérleg (csak kettős számban: mérlegpár)",
+      "en": "(only in the dual) a pair of scales"
+    }
+  },
+  "H3978": {
+    "id": "H3978",
+    "lemma": "מַאֲכָל",
+    "translit": "maʼăkâl",
+    "pronounce": "",
+    "defs": {
+      "hu": "étel, ehető dolog (beleértve a takarmányt, húst és gyümölcsöt)",
+      "en": "an eatable (includ. provender, flesh and fruit)"
+    }
+  },
+  "H3979": {
+    "id": "H3979",
+    "lemma": "מַאֲכֶלֶת",
+    "translit": "maʼăkeleth",
+    "pronounce": "",
+    "defs": {
+      "hu": "evőeszköz, kés",
+      "en": "something to eat with,i.e. a knife"
+    }
+  },
+  "H3980": {
+    "id": "H3980",
+    "lemma": "מַאֲכֹלֶת",
+    "translit": "maʼăkôleth",
+    "pronounce": "",
+    "defs": {
+      "hu": "tüzelőanyag, az, amit tűzben elégetnek",
+      "en": "something eaten (by fire), i.e. fuel"
+    }
+  },
+  "H3981": {
+    "id": "H3981",
+    "lemma": "מַאֲמָץ",
+    "translit": "maʼămâts",
+    "pronounce": "",
+    "defs": {
+      "hu": "erő, erőfeszítés, vagy (többes számban) vagyon, erőforrások.",
+      "en": "strength, i.e. (plural) resources"
+    }
+  },
+  "H3982": {
+    "id": "H3982",
+    "lemma": "מַאֲמַר",
+    "translit": "maʼămar",
+    "pronounce": "",
+    "defs": {
+      "hu": "rendelet, parancs, kimondás, beszélt szó",
+      "en": "something (authoritatively) said, i.e. an edict"
+    }
+  },
+  "H3983": {
+    "id": "H3983",
+    "lemma": "מֵאמַר",
+    "translit": "mêʼmar",
+    "pronounce": "",
+    "defs": {
+      "hu": "rendelet, parancs, kimondott szó",
+      "en": "something (authoritatively) said, i.e. an edict"
+    }
+  },
+  "H3984": {
+    "id": "H3984",
+    "lemma": "מָאן",
+    "translit": "mâʼn",
+    "pronounce": "",
+    "defs": {
+      "hu": "edény, felszerelés, eszköz",
+      "en": "a utensil"
+    }
+  },
+  "H3985": {
+    "id": "H3985",
+    "lemma": "מָאֵן",
+    "translit": "mâʼên",
+    "pronounce": "",
+    "defs": {
+      "hu": "megtagadni, elutasítani, nem akarni",
+      "en": "to refuse"
+    }
+  },
+  "H3986": {
+    "id": "H3986",
+    "lemma": "מָאֵן",
+    "translit": "mâʼên",
+    "pronounce": "",
+    "defs": {
+      "hu": "nem akaró, vonakodó",
+      "en": "unwilling"
+    }
+  },
+  "H3987": {
+    "id": "H3987",
+    "lemma": "מֵאֵן",
+    "translit": "mêʼên",
+    "pronounce": "",
+    "defs": {
+      "hu": "makacs, szívós, engedetlen, megtagadni, elutasítani.",
+      "en": "refractory"
+    }
+  },
+  "H3988": {
+    "id": "H3988",
+    "lemma": "מָאַס",
+    "translit": "mâʼaç",
+    "pronounce": "",
+    "defs": {
+      "hu": "elutasít, megvet, elhagy, eltűnni (önmagától)",
+      "en": "to spurn, also (intransitively) to disappear"
+    }
+  },
+  "H3989": {
+    "id": "H3989",
+    "lemma": "מַאֲפֶה",
+    "translit": "maʼăpheh",
+    "pronounce": "",
+    "defs": {
+      "hu": "sütés, ami megsült, tétel, adag",
+      "en": "something baked, i.e. a batch"
+    }
+  },
+  "H3990": {
+    "id": "H3990",
+    "lemma": "מַאֲפֵל",
+    "translit": "maʼăphêl",
+    "pronounce": "",
+    "defs": {
+      "hu": "valami átlátszatlan, sötétség, homály",
+      "en": "something opaque"
+    }
+  },
+  "H3991": {
+    "id": "H3991",
+    "lemma": "מַאְפֵלְיָה",
+    "translit": "maʼphêlᵉyâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "homályosság",
+      "en": "opaqueness"
+    }
+  },
+  "H3992": {
+    "id": "H3992",
+    "lemma": "מָאַר",
+    "translit": "mâʼar",
+    "pronounce": "",
+    "defs": {
+      "hu": "keserű lenni vagy (közvetítve) keseríteni, azaz fájdalmas lenni.",
+      "en": "to be bitter or (causatively) to embitter, i.e. be painful"
+    }
+  },
+  "H3993": {
+    "id": "H3993",
+    "lemma": "מַאֲרָב",
+    "translit": "maʼărâb",
+    "pronounce": "",
+    "defs": {
+      "hu": "lesbenyúlás, rajtaütés, csapdázás",
+      "en": "an ambuscade"
+    }
+  },
+  "H3994": {
+    "id": "H3994",
+    "lemma": "מְאֵרָה",
+    "translit": "mᵉʼêrâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "átok, átkozódás, káromlás",
+      "en": "an execration"
+    }
+  },
+  "H3995": {
+    "id": "H3995",
+    "lemma": "מִבְדָּלָה",
+    "translit": "mibdâlâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "elkülönítés, elkülönített hely",
+      "en": "a separation, i.e. (concretely) a separate place"
+    }
+  },
+  "H3996": {
+    "id": "H3996",
+    "lemma": "מָבוֹא",
+    "translit": "mâbôwʼ",
+    "pronounce": "",
+    "defs": {
+      "hu": "belépés, bejárat (hely vagy cselekvés), különösen napnyugta vagy nyugat, továbbá (előszóval) felé, irányába.",
+      "en": "an entrance (the place or the act), specifically sunset or the west, also (adverb with preposition) towards"
+    }
+  },
+  "H3997": {
+    "id": "H3997",
+    "lemma": "מְבוֹאָה",
+    "translit": "mᵉbôwʼâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "menedékhely, biztonságos hely, szállás",
+      "en": "a haven"
+    }
+  },
+  "H3998": {
+    "id": "H3998",
+    "lemma": "מְבוּכָה",
+    "translit": "mᵉbûwkâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "zavarodottság, összezavarodottság, káosz",
+      "en": "perplexity"
+    }
+  },
+  "H3999": {
+    "id": "H3999",
+    "lemma": "מַבּוּל",
+    "translit": "mabbûwl",
+    "pronounce": "",
+    "defs": {
+      "hu": "áradat, özönvíz",
+      "en": "a deluge"
+    }
+  },
+  "H4000": {
+    "id": "H4000",
+    "lemma": "מָבוֹן",
+    "translit": "mâbôwn",
+    "pronounce": "",
+    "defs": {
+      "hu": "oktató, tanító, bölcsességre nevelő.",
+      "en": "instructing"
+    }
+  },
+  "H4001": {
+    "id": "H4001",
+    "lemma": "מְבוּסָה",
+    "translit": "mᵉbûwçâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "lerúgás, letaposás",
+      "en": "a trampling"
+    }
+  },
+  "H4002": {
+    "id": "H4002",
+    "lemma": "מַבּוּעַ",
+    "translit": "mabbûwaʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "forrás, kút, vízforrás",
+      "en": "a fountain"
+    }
+  },
+  "H4003": {
+    "id": "H4003",
+    "lemma": "מְבוּקָה",
+    "translit": "mᵉbûwqâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "üresség, hiábavalóság, sivárság",
+      "en": "emptiness"
+    }
+  },
+  "H4004": {
+    "id": "H4004",
+    "lemma": "מִבְחוֹר",
+    "translit": "mibchôwr",
+    "pronounce": "",
+    "defs": {
+      "hu": "válogatott, azaz jól megerősített",
+      "en": "select, i.e. well fortified"
+    }
+  },
+  "H4005": {
+    "id": "H4005",
+    "lemma": "מִבְחָר",
+    "translit": "mibchâr",
+    "pronounce": "",
+    "defs": {
+      "hu": "válogatott, a legjobb, kiváló",
+      "en": "select, i.e. best"
+    }
+  },
+  "H4006": {
+    "id": "H4006",
+    "lemma": "מִבְחָר",
+    "translit": "Mibchâr",
+    "pronounce": "",
+    "defs": {
+      "hu": "Izraelita férfiúnév, választott, kiváló.",
+      "en": "Mibchar, an Israelite"
+    }
+  },
+  "H4007": {
+    "id": "H4007",
+    "lemma": "מַבָּט",
+    "translit": "mabbâṭ",
+    "pronounce": "",
+    "defs": {
+      "hu": "valami, amit várnak, remény, elvárás",
+      "en": "something expected, i.e. (abstractly) expectation"
+    }
+  },
+  "H4008": {
+    "id": "H4008",
+    "lemma": "מִבְטָא",
+    "translit": "mibṭâʼ",
+    "pronounce": "",
+    "defs": {
+      "hu": "hirtelen kimondott fogadás, meggondolatlan eskü",
+      "en": "a rash utterance (hasty vow)"
+    }
+  },
+  "H4009": {
+    "id": "H4009",
+    "lemma": "מִבְטָח",
+    "translit": "mibṭâch",
+    "pronounce": "",
+    "defs": {
+      "hu": "menedék, biztonság, bizalom",
+      "en": "properly, a refuge, i.e. (objective) security, or (subjective) assurance"
+    }
+  },
+  "H4010": {
+    "id": "H4010",
+    "lemma": "מַבְלִיגִית",
+    "translit": "mablîygîyth",
+    "pronounce": "",
+    "defs": {
+      "hu": "pusztulás, elhagyatottság, rombolás",
+      "en": "desistance (or rather desolation)"
+    }
+  },
+  "H4011": {
+    "id": "H4011",
+    "lemma": "מִבְנֶה",
+    "translit": "mibneh",
+    "pronounce": "",
+    "defs": {
+      "hu": "építmény, épület",
+      "en": "a building"
+    }
+  },
+  "H4012": {
+    "id": "H4012",
+    "lemma": "מְבֻנַּי",
+    "translit": "Mᵉbunnay",
+    "pronounce": "",
+    "defs": {
+      "hu": "Mebunnai, egy Izraelita.",
+      "en": "Mebunnai, an Israelite"
+    }
+  },
+  "H4013": {
+    "id": "H4013",
+    "lemma": "מִבְצָר",
+    "translit": "mibtsâr",
+    "pronounce": "",
+    "defs": {
+      "hu": "erődítmény, vár, megerősített város, alakosan: védelmező",
+      "en": "a fortification, castle, or fortified city, figuratively, a defender"
+    }
+  },
+  "H4014": {
+    "id": "H4014",
+    "lemma": "מִבְצָר",
+    "translit": "Mibtsâr",
+    "pronounce": "",
+    "defs": {
+      "hu": "idumeus, Edómi ember",
+      "en": "Mibtsar, an Idumaean"
+    }
+  },
+  "H4015": {
+    "id": "H4015",
+    "lemma": "מִבְרָח",
+    "translit": "mibrâch",
+    "pronounce": "",
+    "defs": {
+      "hu": "menedék, bujdok, száműzött",
+      "en": "a refugee"
+    }
+  },
+  "H4016": {
+    "id": "H4016",
+    "lemma": "מָבֻשׁ",
+    "translit": "mâbush",
+    "pronounce": "",
+    "defs": {
+      "hu": "hereklyék, férfi nemi szervek (többes számban)",
+      "en": "(plural) the (male) pudenda"
+    }
+  },
+  "H4017": {
+    "id": "H4017",
+    "lemma": "מִבְשָׂם",
+    "translit": "Mibsâm",
+    "pronounce": "",
+    "defs": {
+      "hu": "Mibsám, egy Izmaelita és egy Izraelita név.",
+      "en": "Mibsam, the name of an Ishmaelite and of an Israelite"
+    }
+  },
+  "H4018": {
+    "id": "H4018",
+    "lemma": "מְבַשְּׁלָה",
+    "translit": "mᵉbashshᵉlâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "főzőhely, tűzhely",
+      "en": "a cooking hearth"
+    }
+  },
+  "H4019": {
+    "id": "H4019",
+    "lemma": "מַגְבִּישׁ",
+    "translit": "Magbîysh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Magbis, egy Izraelita, vagy egy hely Palesztinában.",
+      "en": "Magbish, an Israelite, or a place in Palestine"
+    }
+  },
+  "H4020": {
+    "id": "H4020",
+    "lemma": "מִגְבָּלָה",
+    "translit": "migbâlâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "határ, véghatár, területvég, határsáv",
+      "en": "a border"
+    }
+  },
+  "H4021": {
+    "id": "H4021",
+    "lemma": "מִגְבָּעָה",
+    "translit": "migbâʻâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "gúzs vagy kupola (félgömb alakú fejfedő)",
+      "en": "a cap (as hemispherical)"
+    }
+  },
+  "H4022": {
+    "id": "H4022",
+    "lemma": "מֶגֶד",
+    "translit": "meged",
+    "pronounce": "",
+    "defs": {
+      "hu": "értékesség, kitűnő termés, becses dolog",
+      "en": "properly, a distinguished thing, hence something valuable, as aproduct or fruit"
+    }
+  },
+  "H4023": {
+    "id": "H4023",
+    "lemma": "מְגִדּוֹן",
+    "translit": "Mᵉgiddôwn",
+    "pronounce": "",
+    "defs": {
+      "hu": "Megiddó, egy hely Palesztinában.",
+      "en": "Megiddon or Megiddo, a place in Palestine"
+    }
+  },
+  "H4024": {
+    "id": "H4024",
+    "lemma": "מִגְדּוֹל",
+    "translit": "Migdôwl",
+    "pronounce": "",
+    "defs": {
+      "hu": "Migdol, egy hely Egyiptomban.",
+      "en": "Migdol, a place in Egypt"
+    }
+  },
+  "H4025": {
+    "id": "H4025",
+    "lemma": "מַגְדִּיאֵל",
+    "translit": "Magdîyʼêl",
+    "pronounce": "",
+    "defs": {
+      "hu": "Magdiél, egy idumeus.",
+      "en": "Magdiel, an Idumaean"
+    }
+  },
+  "H4026": {
+    "id": "H4026",
+    "lemma": "מִגְדָּל",
+    "translit": "migdâl",
+    "pronounce": "",
+    "defs": {
+      "hu": "torony, emelvény, virágágyas",
+      "en": "a tower (from its size or height), by analogy, a rostrum, figuratively, a (pyramidal) bed of flowers"
+    }
+  },
+  "H4027": {
+    "id": "H4027",
+    "lemma": "מִגְדַּל־אֵל",
+    "translit": "Migdal-ʼÊl",
+    "pronounce": "",
+    "defs": {
+      "hu": "Migdál-El, egy hely Palesztinában.",
+      "en": "Migdal-El, a place in Palestine"
+    }
+  },
+  "H4028": {
+    "id": "H4028",
+    "lemma": "מִגְדַּל־גָּד",
+    "translit": "Migdal-Gâd",
+    "pronounce": "",
+    "defs": {
+      "hu": "Migdál-Gád, egy hely Palesztinában.",
+      "en": "Migdal-Gad, a place in Palestine"
+    }
+  },
+  "H4029": {
+    "id": "H4029",
+    "lemma": "מִגְדַּל־עֵדֶר",
+    "translit": "Migdal-ʻÊder",
+    "pronounce": "",
+    "defs": {
+      "hu": "Migdál-Éder, egy hely Palesztinában.",
+      "en": "Migdal-Eder, a place in Palestine"
+    }
+  },
+  "H4030": {
+    "id": "H4030",
+    "lemma": "מִגְדָּנָה",
+    "translit": "migdânâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "értékesség, drágaság, ékszerkő",
+      "en": "preciousness, i.e. a gem"
+    }
+  },
+  "H4031": {
+    "id": "H4031",
+    "lemma": "מָגוֹג",
+    "translit": "Mâgôwg",
+    "pronounce": "",
+    "defs": {
+      "hu": "Magóg, Jáfet fia, és egy északi vad nép földje.",
+      "en": "Magog, a son of Japheth, also a barbarous northern region"
+    }
+  },
+  "H4032": {
+    "id": "H4032",
+    "lemma": "מָגוֹר",
+    "translit": "mâgôwr",
+    "pronounce": "",
+    "defs": {
+      "hu": "félelem, rettegés, borzadás",
+      "en": "a fright (objective or subjective)"
+    }
+  },
+  "H4033": {
+    "id": "H4033",
+    "lemma": "מָגוּר",
+    "translit": "mâgûwr",
+    "pronounce": "",
+    "defs": {
+      "hu": "ideiglenes lakóhely, kiterjesztésként állandó lakhely",
+      "en": "a temporary abode, by extension, a permanent residence"
+    }
+  },
+  "H4034": {
+    "id": "H4034",
+    "lemma": "מְגוֹרַה",
+    "translit": "mᵉgôwrah",
+    "pronounce": "",
+    "defs": {
+      "hu": "félelem, rémület, megfélemlítés.",
+      "en": "affright"
+    }
+  },
+  "H4035": {
+    "id": "H4035",
+    "lemma": "מְגוּרָה",
+    "translit": "mᵉgûwrâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "félelem, rettegés, vagy éléskamra.",
+      "en": "a fright, also a granary"
+    }
+  },
+  "H4036": {
+    "id": "H4036",
+    "lemma": "מָגוֹר מִסָּבִיב",
+    "translit": "Mâgôwr miç-Çâbîyb",
+    "pronounce": "",
+    "defs": {
+      "hu": "Magór-miszábíb, Pásúrnak adott jelképes név.",
+      "en": "Magor-mis-Sabib, a symbolic name of Pashur"
+    }
+  },
+  "H4037": {
+    "id": "H4037",
+    "lemma": "מַגְזֵרָה",
+    "translit": "magzêrâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "vágóeszköz, penge, vágóvas",
+      "en": "a cutting implement, i.e. a blade"
+    }
+  },
+  "H4038": {
+    "id": "H4038",
+    "lemma": "מַגָּל",
+    "translit": "maggâl",
+    "pronounce": "",
+    "defs": {
+      "hu": "sarló",
+      "en": "a sickle"
+    }
+  },
+  "H4039": {
+    "id": "H4039",
+    "lemma": "מְגִלָּה",
+    "translit": "mᵉgillâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "tekercs",
+      "en": "a roll"
+    }
+  },
+  "H4040": {
+    "id": "H4040",
+    "lemma": "מְגִלָּה",
+    "translit": "mᵉgillâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "tekercs",
+      "en": "a roll"
+    }
+  },
+  "H4041": {
+    "id": "H4041",
+    "lemma": "מְגַמָּה",
+    "translit": "mᵉgammâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "megfordulás, irány, szándék, elhatározás.",
+      "en": "properly, accumulation, i.e. impulse or direction"
+    }
+  },
+  "H4042": {
+    "id": "H4042",
+    "lemma": "מָגַן",
+    "translit": "mâgan",
+    "pronounce": "",
+    "defs": {
+      "hu": "védeni, pajzsba borítani, körülvédeni, átadni, megvédeni, biztonságba helyezni.",
+      "en": "properly, to shield, encompass with, figuratively, to rescue, to hand safely over (i.e. surrender)"
+    }
+  },
+  "H4043": {
+    "id": "H4043",
+    "lemma": "מָגֵן",
+    "translit": "mâgên",
+    "pronounce": "",
+    "defs": {
+      "hu": "pajzs, védő, krokodil pikkelyes bőre",
+      "en": "a shield (i.e. the small one or buckler), figuratively, a protector, also the scaly hide of the crocodile"
+    }
+  },
+  "H4044": {
+    "id": "H4044",
+    "lemma": "מְגִנָּה",
+    "translit": "mᵉginnâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "vakítás, megkeményedés",
+      "en": "a covering (in a bad sense), i.e. blindness or obduracy"
+    }
+  },
+  "H4045": {
+    "id": "H4045",
+    "lemma": "מִגְעֶרֶת",
+    "translit": "migʻereth",
+    "pronounce": "",
+    "defs": {
+      "hu": "feddés, átok, káromlás",
+      "en": "reproof (i.e. curse)"
+    }
+  },
+  "H4046": {
+    "id": "H4046",
+    "lemma": "מַגֵּפָה",
+    "translit": "maggêphâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "járvány, csapás, vereség",
+      "en": "a pestilence, by analogy, defeat"
+    }
+  },
+  "H4047": {
+    "id": "H4047",
+    "lemma": "מַגְפִּיעָשׁ",
+    "translit": "Magpîyʻâsh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Magpiás, egy Izraelita.",
+      "en": "Magpiash, an Israelite"
+    }
+  },
+  "H4048": {
+    "id": "H4048",
+    "lemma": "מָגַר",
+    "translit": "mâgar",
+    "pronounce": "",
+    "defs": {
+      "hu": "leadni, kiürülni, kiáramlani, lerohanni, elszállni",
+      "en": "to yield up, intensively, to precipitate"
+    }
+  },
+  "H4049": {
+    "id": "H4049",
+    "lemma": "מְגַר",
+    "translit": "mᵉgar",
+    "pronounce": "",
+    "defs": {
+      "hu": "ledönteni, megdönteni, elpusztítani, lerombolni.",
+      "en": "to overthrow"
+    }
+  },
+  "H4050": {
+    "id": "H4050",
+    "lemma": "מְגֵרָה",
+    "translit": "mᵉgêrâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "fűrész",
+      "en": "a saw"
+    }
+  },
+  "H4051": {
+    "id": "H4051",
+    "lemma": "מִגְרוֹן",
+    "translit": "Migrôwn",
+    "pronounce": "",
+    "defs": {
+      "hu": "Migron, egy hely Palesztinában.",
+      "en": "Migron, a place in Palestine"
+    }
+  },
+  "H4052": {
+    "id": "H4052",
+    "lemma": "מִגְרָעָה",
+    "translit": "migrâʻâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "szegély, kiálló rész, lépcsőzetes elmozdulás",
+      "en": "a ledge or offset"
+    }
+  },
+  "H4053": {
+    "id": "H4053",
+    "lemma": "מִגְרָפָה",
+    "translit": "migrâphâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "földdarab, amelyet a gereblyével vagy ásóval felvettek",
+      "en": "something thrown off (by the spade), i.e. a clod"
+    }
+  },
+  "H4054": {
+    "id": "H4054",
+    "lemma": "מִגְרָשׁ",
+    "translit": "migrâsh",
+    "pronounce": "",
+    "defs": {
+      "hu": "mellékvidék, legelőterület, a város vagy épület körüli szabad tér, tengerparti sáv.",
+      "en": "a suburb (i.e. open country whither flocks are driven from pasture), hence, the area around abuilding, or the margin of the sea"
+    }
+  },
+  "H4055": {
+    "id": "H4055",
+    "lemma": "מַד",
+    "translit": "mad",
+    "pronounce": "",
+    "defs": {
+      "hu": "mérték, magasság, mélység, ruházat, szőnyeg.",
+      "en": "properly, extent, i.e. height, also a measure, by implication, a vesture (as measured), also a carpet"
+    }
+  },
+  "H4056": {
+    "id": "H4056",
+    "lemma": "מַדְבַּח",
+    "translit": "madbach",
+    "pronounce": "",
+    "defs": {
+      "hu": "áldozati oltár",
+      "en": "a sacrificial altar"
+    }
+  },
+  "H4057": {
+    "id": "H4057",
+    "lemma": "מִדְבָּר",
+    "translit": "midbâr",
+    "pronounce": "",
+    "defs": {
+      "hu": "legelő, pusztaság, beszédek, szavak, beszéd szervei.",
+      "en": "a pasture (i.e. open field, whither cattle are driven), by implication, a desert, also speech (including its organs)"
+    }
+  },
+  "H4058": {
+    "id": "H4058",
+    "lemma": "מָדַד",
+    "translit": "mâdad",
+    "pronounce": "",
+    "defs": {
+      "hu": "megnyújtani, kimérni, kiterjeszteni, elnyújtani",
+      "en": "properly, to stretch, by implication, to measure (as if by stretching a line), figuratively, to be extended"
+    }
+  },
+  "H4059": {
+    "id": "H4059",
+    "lemma": "מִדַּד",
+    "translit": "middad",
+    "pronounce": "",
+    "defs": {
+      "hu": "menekülés, futás, szökés",
+      "en": "flight"
+    }
+  },
+  "H4060": {
+    "id": "H4060",
+    "lemma": "מִדָּה",
+    "translit": "middâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "mérték, mértékkel való meghatározás, kiterjedés, magasság, szélesség, adó, mért ruhadarab, arány.",
+      "en": "properly, extension, i.e. height or breadth, also a measure (including its standard), hence a portion (as measured) or a vestment, specifically, tribute (as measured)"
+    }
+  },
+  "H4061": {
+    "id": "H4061",
+    "lemma": "מִדָּה",
+    "translit": "middâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "adó, fizetendő összeg, adóval terhelt jövedelem.",
+      "en": "tribute in money"
+    }
+  },
+  "H4062": {
+    "id": "H4062",
+    "lemma": "מַדְהֵבָה",
+    "translit": "madhêbâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "pontosság, ügyesség, mesterségbeli tökéletesség",
+      "en": "goldmaking, i.e. exactness"
+    }
+  },
+  "H4063": {
+    "id": "H4063",
+    "lemma": "מֶדֶו",
+    "translit": "medev",
+    "pronounce": "",
+    "defs": {
+      "hu": "mérték, mérték szerint, ruha (mért szabású)",
+      "en": "properly, extent, i.e. measure, by implication, a dress (as measured)"
+    }
+  },
+  "H4064": {
+    "id": "H4064",
+    "lemma": "מַדְוֶה",
+    "translit": "madveh",
+    "pronounce": "",
+    "defs": {
+      "hu": "betegség, rosszullét, gyengeség",
+      "en": "sickness"
+    }
+  },
+  "H4065": {
+    "id": "H4065",
+    "lemma": "מַדּוּחַ",
+    "translit": "maddûwach",
+    "pronounce": "",
+    "defs": {
+      "hu": "csábítás, elcsábítás, bujítás.",
+      "en": "seduction"
+    }
+  },
+  "H4066": {
+    "id": "H4066",
+    "lemma": "מָדוֹן",
+    "translit": "mâdôwn",
+    "pronounce": "",
+    "defs": {
+      "hu": "versengés, viszálykodás, perpatvar",
+      "en": "a contest or quarrel"
+    }
+  },
+  "H4067": {
+    "id": "H4067",
+    "lemma": "מָדוֹן",
+    "translit": "mâdôwn",
+    "pronounce": "",
+    "defs": {
+      "hu": "magasság, kiterjedés, szélesség.",
+      "en": "extensiveness, i.e. height"
+    }
+  },
+  "H4068": {
+    "id": "H4068",
+    "lemma": "מָדוֹן",
+    "translit": "Mâdôwn",
+    "pronounce": "",
+    "defs": {
+      "hu": "Madon, egy hely Palesztinában.",
+      "en": "Madon, a place in Palestine"
+    }
+  },
+  "H4069": {
+    "id": "H4069",
+    "lemma": "מַדּוּעַ",
+    "translit": "maddûwaʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "Miért? vagy: Mi az oka?",
+      "en": "what (is) known?, i.e. (by implication) (adverbially) why?"
+    }
+  },
+  "H4070": {
+    "id": "H4070",
+    "lemma": "מְדוֹר",
+    "translit": "mᵉdôwr",
+    "pronounce": "",
+    "defs": {
+      "hu": "lakóhely, tartózkodási hely, lakás",
+      "en": "a dwelling"
+    }
+  },
+  "H4071": {
+    "id": "H4071",
+    "lemma": "מְדוּרָה",
+    "translit": "mᵉdûwrâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "tüzelőhalom",
+      "en": "a pile of fuel"
+    }
+  },
+  "H4072": {
+    "id": "H4072",
+    "lemma": "מִדְחֶה",
+    "translit": "midcheh",
+    "pronounce": "",
+    "defs": {
+      "hu": "ledöntés, megdöntés, elmozdítás, taszítás.",
+      "en": "overthrow"
+    }
+  },
+  "H4073": {
+    "id": "H4073",
+    "lemma": "מְדַחְפָה",
+    "translit": "mᵉdachphâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "rombolás, tönkretétel",
+      "en": "a push, i.e. ruin"
+    }
+  },
+  "H4074": {
+    "id": "H4074",
+    "lemma": "מָדַי",
+    "translit": "Mâday",
+    "pronounce": "",
+    "defs": {
+      "hu": "Madáj, Ázsia középvidékén fekvő ország.",
+      "en": "Madai, a country of central Asia"
+    }
+  },
+  "H4075": {
+    "id": "H4075",
+    "lemma": "מָדַי",
+    "translit": "Mâday",
+    "pronounce": "",
+    "defs": {
+      "hu": "mádai, vagy a mádájok földén született, lakója.",
+      "en": "a Madian or native of Madai"
+    }
+  },
+  "H4076": {
+    "id": "H4076",
+    "lemma": "מָדַי",
+    "translit": "Mâday",
+    "pronounce": "",
+    "defs": {
+      "hu": "Madáj, Ázsia középvidékén fekvő ország.",
+      "en": "Madai, a country of central Asia"
+    }
+  },
+  "H4077": {
+    "id": "H4077",
+    "lemma": "מָדַי",
+    "translit": "Mâday",
+    "pronounce": "",
+    "defs": {
+      "hu": "mádai, vagy a mádániak földén született.",
+      "en": "a Madian or native of Madai"
+    }
+  },
+  "H4078": {
+    "id": "H4078",
+    "lemma": "מַדַּי",
+    "translit": "madday",
+    "pronounce": "",
+    "defs": {
+      "hu": "elégségesen, elég, kielégítően",
+      "en": "what (is) enough, i.e. sufficiently"
+    }
+  },
+  "H4079": {
+    "id": "H4079",
+    "lemma": "מִדְיָן",
+    "translit": "midyân",
+    "pronounce": "",
+    "defs": {
+      "hu": "versengés, viszálykodás, perpatvar",
+      "en": "a contest or quarrel"
+    }
+  },
+  "H4080": {
+    "id": "H4080",
+    "lemma": "מִדְיָן",
+    "translit": "Midyân",
+    "pronounce": "",
+    "defs": {
+      "hu": "Midján, Ábrahám fia, valamint az ő országa és (kollektíven) utódai.",
+      "en": "Midjan, a son of Abraham, also his country and (collectively) his descendants"
+    }
+  },
+  "H4081": {
+    "id": "H4081",
+    "lemma": "מִדִּין",
+    "translit": "Middîyn",
+    "pronounce": "",
+    "defs": {
+      "hu": "Midján, Ábrahám fia, valamint az ő országa és (kollektíven) utódai.",
+      "en": "Midjan, a son of Abraham, also his country and (collectively) his descendants"
+    }
+  },
+  "H4082": {
+    "id": "H4082",
+    "lemma": "מְדִינָה",
+    "translit": "mᵉdîynâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "ítélőtekintély, ítélkezési jogkör, (általában) vidék, táj, terület.",
+      "en": "properly, a judgeship, i.e. jurisdiction, by implication, a district (as ruled by a judge), generally, a region"
+    }
+  },
+  "H4083": {
+    "id": "H4083",
+    "lemma": "מְדִינָה",
+    "translit": "mᵉdîynâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "tartomány, kerület, igazgatóság, bírói székhely.",
+      "en": "properly, a judgeship, i.e. jurisdiction, by implication, a district (as ruled by a judge), generally, a region"
+    }
+  },
+  "H4084": {
+    "id": "H4084",
+    "lemma": "מִדְיָנִי",
+    "translit": "Midyânîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "midjáni, vagy Midján fia, Midján lakója.",
+      "en": "a Midjanite or descendant (native) of Midjan"
+    }
+  },
+  "H4085": {
+    "id": "H4085",
+    "lemma": "מְדֹכָה",
+    "translit": "mᵉdôkâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "mozaikoló edény, malomkövekkel való őrléshez való edény",
+      "en": "a mortar"
+    }
+  },
+  "H4086": {
+    "id": "H4086",
+    "lemma": "מַדְמֵן",
+    "translit": "Madmên",
+    "pronounce": "",
+    "defs": {
+      "hu": "őrültek, egy hely Palesztinában",
+      "en": "Madmen, a place in Palestine"
+    }
+  },
+  "H4087": {
+    "id": "H4087",
+    "lemma": "מַדְמֵנָה",
+    "translit": "madmênâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "szemétdomb, trágyadomb",
+      "en": "a dunghill"
+    }
+  },
+  "H4088": {
+    "id": "H4088",
+    "lemma": "מַדְמֵנָה",
+    "translit": "Madmênâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Madména, egy hely Palesztinában.",
+      "en": "Madmenah, a place in Palestine"
+    }
+  },
+  "H4089": {
+    "id": "H4089",
+    "lemma": "מַדְמַנָּה",
+    "translit": "Madmannâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Madmanna, egy hely Palesztinában.",
+      "en": "Madmannah, a place in Palestine"
+    }
+  },
+  "H4090": {
+    "id": "H4090",
+    "lemma": "מְדָן",
+    "translit": "mᵉdân",
+    "pronounce": "",
+    "defs": {
+      "hu": "viták, perpatvarok, veszekedések.",
+      "en": "a contest or quarrel"
+    }
+  },
+  "H4091": {
+    "id": "H4091",
+    "lemma": "מְדָן",
+    "translit": "Mᵉdân",
+    "pronounce": "",
+    "defs": {
+      "hu": "Medán, Ábrahám fia.",
+      "en": "Medan, a son of Abraham"
+    }
+  },
+  "H4092": {
+    "id": "H4092",
+    "lemma": "מְדָנִי",
+    "translit": "Mᵉdânîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "midjáni vagy Midján fia, származása Midjánból.",
+      "en": "a Midjanite or descendant (native) of Midjan"
+    }
+  },
+  "H4093": {
+    "id": "H4093",
+    "lemma": "מַדָּע",
+    "translit": "maddâʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "tudás, észlelés, megértés, tudatosság",
+      "en": "intelligence or consciousness"
+    }
+  },
+  "H4094": {
+    "id": "H4094",
+    "lemma": "מַדְקָרָה",
+    "translit": "madqârâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "sebesülés, sebhely, sebtől való fájdalom",
+      "en": "a wound"
+    }
+  },
+  "H4095": {
+    "id": "H4095",
+    "lemma": "מַדְרֵגָה",
+    "translit": "madrêgâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "lépcső, vagy meredek hely, járhatatlan szakadék",
+      "en": "properly, a step, by implication, a steep or inaccessible place"
+    }
+  },
+  "H4096": {
+    "id": "H4096",
+    "lemma": "מִדְרָךְ",
+    "translit": "midrâk",
+    "pronounce": "",
+    "defs": {
+      "hu": "taposási hely, járókelő helye, lépcsőfok",
+      "en": "a treading, i.e. a place for stepping on"
+    }
+  },
+  "H4097": {
+    "id": "H4097",
+    "lemma": "מִדְרָשׁ",
+    "translit": "midrâsh",
+    "pronounce": "",
+    "defs": {
+      "hu": "kutatás, vizsgálódás, tanítás, értekezés, magyarázat, összeállítás.",
+      "en": "properly, an investigation, i.e. (by implication) a treatise or elaborate compilation"
+    }
+  },
+  "H4098": {
+    "id": "H4098",
+    "lemma": "מְדֻשָּׁה",
+    "translit": "mᵉdushshâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "leromlott, elnyomott nép, letaposott tömeg",
+      "en": "a threshing, i.e. (concretely and figuratively) down-trodden people"
+    }
+  },
+  "H4099": {
+    "id": "H4099",
+    "lemma": "מְדָתָא",
+    "translit": "Mᵉdâthâʼ",
+    "pronounce": "",
+    "defs": {
+      "hu": "Medáta, Hamán atyja.",
+      "en": "Medatha, the father of Haman"
+    }
+  },
+  "H4100": {
+    "id": "H4100",
+    "lemma": "מָה",
+    "translit": "mâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "milyen, mi, hogy, mikor, miért, ó, bár, bármi, ami.",
+      "en": "properly, interrogative what? (including how? why? when?), but also exclamation, what! (including how!), or indefinitely what (including whatever, and even relatively, that which), often used with prefixes in various adverbial or conjunctive senses"
+    }
+  },
+  "H4101": {
+    "id": "H4101",
+    "lemma": "מָה",
+    "translit": "mâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Mit, avagy miért, hogyan, mikor? Vagy: Ó!",
+      "en": "properly, interrogative what? (including how? why? when?), but also exclamation, what! (including how!), or indefinitely what"
+    }
+  },
+  "H4102": {
+    "id": "H4102",
+    "lemma": "מָהַהּ",
+    "translit": "mâhahh",
+    "pronounce": "",
+    "defs": {
+      "hu": "visszafogódzkodni, habozni, vonakodni",
+      "en": "properly, to question or hesitate, i.e. (by implication) to be reluctant"
+    }
+  },
+  "H4103": {
+    "id": "H4103",
+    "lemma": "מְהוּמָה",
+    "translit": "mᵉhûwmâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "zavar, sokaság, zajos viszálykodás, felfordulás.",
+      "en": "confusion or uproar"
+    }
+  },
+  "H4104": {
+    "id": "H4104",
+    "lemma": "מְהוּמָן",
+    "translit": "Mᵉhûwmân",
+    "pronounce": "",
+    "defs": {
+      "hu": "megszilajított, herélt (Xerxész szolgája)",
+      "en": "Mehuman, a eunuch of Xerxes"
+    }
+  },
+  "H4105": {
+    "id": "H4105",
+    "lemma": "מְהֵיטַבְאֵל",
+    "translit": "Mᵉhêyṭabʼêl",
+    "pronounce": "",
+    "defs": {
+      "hu": "Mehetábel, egy edómi férfi és nő neve.",
+      "en": "Mehetabel, the name of an Edomitish man and woman"
+    }
+  },
+  "H4106": {
+    "id": "H4106",
+    "lemma": "מָהִיר",
+    "translit": "mâhîyr",
+    "pronounce": "",
+    "defs": {
+      "hu": "gyors, éppenséggel ügyes, szorgalmas.",
+      "en": "quick, hence, skilful"
+    }
+  },
+  "H4107": {
+    "id": "H4107",
+    "lemma": "מָהַל",
+    "translit": "mâhal",
+    "pronounce": "",
+    "defs": {
+      "hu": "megrontani, elrontani, hamisítani, keverni, felhígítani.",
+      "en": "properly, to cut down or reduce, i.e. by implication, to adulterate"
+    }
+  },
+  "H4108": {
+    "id": "H4108",
+    "lemma": "מַהְלֵךְ",
+    "translit": "mahlêk",
+    "pronounce": "",
+    "defs": {
+      "hu": "járás, közlekedés, bejárat, út, hozzáférés.",
+      "en": "a walking (plural collectively), i.e. access"
+    }
+  },
+  "H4109": {
+    "id": "H4109",
+    "lemma": "מַהֲלָךְ",
+    "translit": "mahălâk",
+    "pronounce": "",
+    "defs": {
+      "hu": "járás, utazás, távolság",
+      "en": "a walk, i.e. a passage or a distance"
+    }
+  },
+  "H4110": {
+    "id": "H4110",
+    "lemma": "מַהֲלָל",
+    "translit": "mahălâl",
+    "pronounce": "",
+    "defs": {
+      "hu": "dicsőség, hírnév, nagyság",
+      "en": "fame"
+    }
+  },
+  "H4111": {
+    "id": "H4111",
+    "lemma": "מַהֲלַלְאֵל",
+    "translit": "Mahălalʼêl",
+    "pronounce": "",
+    "defs": {
+      "hu": "Mahalálel, egy özönvíz előtti patriarcha neve, és egy Izraelita neve.",
+      "en": "Mahalalel, the name of an antediluvian patriarch and of an Israelite"
+    }
+  },
+  "H4112": {
+    "id": "H4112",
+    "lemma": "מַהֲלֻמָּה",
+    "translit": "mahălummâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "ütés, csapás, verés",
+      "en": "a blow"
+    }
+  },
+  "H4113": {
+    "id": "H4113",
+    "lemma": "מַהֲמֹרָה",
+    "translit": "mahămôrâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "talán mélység, szakadék, örvény",
+      "en": "perhaps an abyss"
+    }
+  },
+  "H4114": {
+    "id": "H4114",
+    "lemma": "מַהְפֵּכָה",
+    "translit": "mahpêkâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "pusztulás, rombolás, elpusztítás",
+      "en": "a destruction"
+    }
+  },
+  "H4115": {
+    "id": "H4115",
+    "lemma": "מַהְפֶּכֶת",
+    "translit": "mahpeketh",
+    "pronounce": "",
+    "defs": {
+      "hu": "bilincs, vagy a kínpad, melyben a foglyot rögzítik.",
+      "en": "a wrench, i.e. the stocks"
+    }
+  },
+  "H4116": {
+    "id": "H4116",
+    "lemma": "מָהַר",
+    "translit": "mâhar",
+    "pronounce": "",
+    "defs": {
+      "hu": "folyni, sietni, gyorsan, azonnal, sürgősen, rohanva",
+      "en": "properly, to be liquid or flow easily, i.e. (by implication), to hurry (in a good or a bad sense), often used (with another verb) adverbially, promptly"
+    }
+  },
+  "H4117": {
+    "id": "H4117",
+    "lemma": "מָהַר",
+    "translit": "mâhar",
+    "pronounce": "",
+    "defs": {
+      "hu": "vételárat fizetni (feleségért), feleséget venni, házasságot kötni.",
+      "en": "to bargain (for a wife), i.e. to wed"
+    }
+  },
+  "H4118": {
+    "id": "H4118",
+    "lemma": "מַהֵר",
+    "translit": "mahêr",
+    "pronounce": "",
+    "defs": {
+      "hu": "sürgősen, rohanva, azonnal, hamarosan",
+      "en": "properly, hurrying, hence (adverbially) in ahurry"
+    }
+  },
+  "H4119": {
+    "id": "H4119",
+    "lemma": "מֹהַר",
+    "translit": "môhar",
+    "pronounce": "",
+    "defs": {
+      "hu": "vőlegényi áru, menyasszonyi áru, jegyajándék.",
+      "en": "a price (for a wife)"
+    }
+  },
+  "H4120": {
+    "id": "H4120",
+    "lemma": "מְהֵרָה",
+    "translit": "mᵉhêrâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "gyorsan, sürgősen, azonnal",
+      "en": "properly, a hurry, hence (adverbially) promptly"
+    }
+  },
+  "H4121": {
+    "id": "H4121",
+    "lemma": "מַהֲרַי",
+    "translit": "Mahăray",
+    "pronounce": "",
+    "defs": {
+      "hu": "Maharai, egy Izraelita.",
+      "en": "Maharai, an Israelite"
+    }
+  },
+  "H4122": {
+    "id": "H4122",
+    "lemma": "מַהֵר שָׁלָל חָשׁ בַּז",
+    "translit": "Mahêr Shâlâl Châsh Baz",
+    "pronounce": "",
+    "defs": {
+      "hu": "Siető zsákmány, gyors fosztogatás – Izajás fiának szimbolikus neve.",
+      "en": "Maher-Shalal-Chash-Baz, the symbolical name of the son of Isaiah"
+    }
+  },
+  "H4123": {
+    "id": "H4123",
+    "lemma": "מַהֲתַלָּה",
+    "translit": "mahăthallâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "tévedés, csalódás, illúzió, megtévesztés",
+      "en": "a delusion"
+    }
+  },
+  "H4124": {
+    "id": "H4124",
+    "lemma": "מוֹאָב",
+    "translit": "Môwʼâb",
+    "pronounce": "",
+    "defs": {
+      "hu": "Moáb, Lót házasságtörő fia, továbbá az ő területe és utódai.",
+      "en": "Moab, an incestuous son of Lot, also his territory and descendants"
+    }
+  },
+  "H4125": {
+    "id": "H4125",
+    "lemma": "מוֹאָבִי",
+    "translit": "Môwʼâbîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "moábi, vagy moábitanemzetű, azaz Moáb fiaiból származó személy.",
+      "en": "a Moabite or Moabitess, i.e. a descendant from Moab"
+    }
+  },
+  "H4126": {
+    "id": "H4126",
+    "lemma": "מוֹבָא",
+    "translit": "môwbâʼ",
+    "pronounce": "",
+    "defs": {
+      "hu": "bejárat, belépés, bevezetés",
+      "en": "an entrance"
+    }
+  },
+  "H4127": {
+    "id": "H4127",
+    "lemma": "מוּג",
+    "translit": "mûwg",
+    "pronounce": "",
+    "defs": {
+      "hu": "olvadni, lágyulni, folyni, elenyészni, megijedni, elgyengülni.",
+      "en": "to melt, i.e. literally (to soften, flow down, disappear), or figuratively (to fear, faint)"
+    }
+  },
+  "H4128": {
+    "id": "H4128",
+    "lemma": "מוּד",
+    "translit": "mûwd",
+    "pronounce": "",
+    "defs": {
+      "hu": "remegni, inogni, megrendülni.",
+      "en": "to shake"
+    }
+  },
+  "H4129": {
+    "id": "H4129",
+    "lemma": "מוֹדַע",
+    "translit": "môwdaʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "ismerős",
+      "en": "an acquaintance"
+    }
+  },
+  "H4130": {
+    "id": "H4130",
+    "lemma": "מוֹדַעַת",
+    "translit": "môwdaʻath",
+    "pronounce": "",
+    "defs": {
+      "hu": "ismerős, barát, rokon, tudomás, ismeretben álló.",
+      "en": "acquaintance"
+    }
+  },
+  "H4131": {
+    "id": "H4131",
+    "lemma": "מוֹט",
+    "translit": "môwṭ",
+    "pronounce": "",
+    "defs": {
+      "hu": "ingadozni, megbotlani, megrázkódni, elesni.",
+      "en": "to waver, by implication, to slip, shake, fall"
+    }
+  },
+  "H4132": {
+    "id": "H4132",
+    "lemma": "מוֹט",
+    "translit": "môwṭ",
+    "pronounce": "",
+    "defs": {
+      "hu": "ingadozás, esés",
+      "en": "a wavering, i.e. fall, by implication, a pole (as shaking), hence, a yoke (as essentially a bent pole)"
+    }
+  },
+  "H4133": {
+    "id": "H4133",
+    "lemma": "מוֹטָה",
+    "translit": "môwṭâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "bot, rúd, íj, járm, igák.",
+      "en": "a pole, by implication, an ox-bow, hence, a yoke (either literal or figurative)"
+    }
+  },
+  "H4134": {
+    "id": "H4134",
+    "lemma": "מוּךְ",
+    "translit": "mûwk",
+    "pronounce": "",
+    "defs": {
+      "hu": "elgyengülni, elszegényedni",
+      "en": "to become thin, i.e. (figuratively) be impoverished"
+    }
+  },
+  "H4135": {
+    "id": "H4135",
+    "lemma": "מוּל",
+    "translit": "mûwl",
+    "pronounce": "",
+    "defs": {
+      "hu": "lerövidíteni, megcsonkítani, körülmetélni, tompítani, elpusztítani (átvitt értelemben)",
+      "en": "to cut short, i.e. curtail (specifically the prepuce, i.e. to circumcise), by implication, to blunt, figuratively, to destroy"
+    }
+  },
+  "H4136": {
+    "id": "H4136",
+    "lemma": "מוּל",
+    "translit": "mûwl",
+    "pronounce": "",
+    "defs": {
+      "hu": "meredeken, hirtelenen, elöl, szemben.",
+      "en": "properly, abrupt, i.e. a precipice, by implication, the front, used only adverbially (with prepositional prefix) opposite"
+    }
+  },
+  "H4137": {
+    "id": "H4137",
+    "lemma": "מוֹלָדָה",
+    "translit": "Môwlâdâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Molád, egy hely Palesztinában.",
+      "en": "Moladah, a place in Palestine"
+    }
+  },
+  "H4138": {
+    "id": "H4138",
+    "lemma": "מוֹלֶדֶת",
+    "translit": "môwledeth",
+    "pronounce": "",
+    "defs": {
+      "hu": "születéshely, származás, nemzet, utód, család.",
+      "en": "nativity (plural birth-place), by implication, lineage, native country, also offspring, family"
+    }
+  },
+  "H4139": {
+    "id": "H4139",
+    "lemma": "מוּלָה",
+    "translit": "mûwlâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "körülmetélés",
+      "en": "circumcision"
+    }
+  },
+  "H4140": {
+    "id": "H4140",
+    "lemma": "מוֹלִיד",
+    "translit": "Môwlîyd",
+    "pronounce": "",
+    "defs": {
+      "hu": "móli, egy Izraelita.",
+      "en": "Molid, an Israelite"
+    }
+  },
+  "H4141": {
+    "id": "H4141",
+    "lemma": "מוּסָב",
+    "translit": "mûwçâb",
+    "pronounce": "",
+    "defs": {
+      "hu": "forduló, körüljárás (építmény körül)",
+      "en": "a turn, i.e. circuit (of a building)"
+    }
+  },
+  "H4142": {
+    "id": "H4142",
+    "lemma": "מוּסַבָּה",
+    "translit": "mûwçabbâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "fordulat, megfordulás, egy gem hátoldala, kétszárnyú ajtó hajtása, névátváltoztatás.",
+      "en": "a reversal, i.e. the backside (of a gem), fold (of a double-leaved door), transmutation (of a name)"
+    }
+  },
+  "H4143": {
+    "id": "H4143",
+    "lemma": "מוּסָד",
+    "translit": "mûwçâd",
+    "pronounce": "",
+    "defs": {
+      "hu": "alap, talapzat, fundamentum",
+      "en": "a foundation"
+    }
+  },
+  "H4144": {
+    "id": "H4144",
+    "lemma": "מוֹסָד",
+    "translit": "môwçâd",
+    "pronounce": "",
+    "defs": {
+      "hu": "alap, talapzat, támasz, menedék",
+      "en": "a foundation"
+    }
+  },
+  "H4145": {
+    "id": "H4145",
+    "lemma": "מוּסָדָה",
+    "translit": "mûwçâdâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "alap, kézreírt ígéret, megbízás, elrendelés.",
+      "en": "a foundation, figuratively, an appointment"
+    }
+  },
+  "H4146": {
+    "id": "H4146",
+    "lemma": "מוֹסָדָה",
+    "translit": "môwçâdâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "alapítvány, alap, megalapozás, támasz, felépítés alapja.",
+      "en": "a foundation"
+    }
+  },
+  "H4147": {
+    "id": "H4147",
+    "lemma": "מוֹסֵר",
+    "translit": "môwçêr",
+    "pronounce": "",
+    "defs": {
+      "hu": "fenyítés, nevelés, büntetés, kötél, gyeplő, korlátozás.",
+      "en": "properly, chastisement, i.e. (by implication) a halter, figuratively, restraint"
+    }
+  },
+  "H4148": {
+    "id": "H4148",
+    "lemma": "מוּסָר",
+    "translit": "mûwçâr",
+    "pronounce": "",
+    "defs": {
+      "hu": "fenyítés, megfeddés, intés, tanítás, visszatartás.",
+      "en": "properly, chastisement, figuratively, reproof, warning or instruction, also restraint"
+    }
+  },
+  "H4149": {
+    "id": "H4149",
+    "lemma": "מוֹסֵרָה",
+    "translit": "Môwçêrâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Moszeráth, a hely a pusztában.",
+      "en": "Moserah or Moseroth, a place in the Desert"
+    }
+  },
+  "H4150": {
+    "id": "H4150",
+    "lemma": "מוֹעֵד",
+    "translit": "môwʻêd",
+    "pronounce": "",
+    "defs": {
+      "hu": "időpont, meghatározott idő vagy évszak, különösen ünnep, gyűlés, a gyülekezet, gyülekezési hely, előre egyezett jelzés.",
+      "en": "properly, an appointment, i.e. a fixed time or season, specifically, a festival, conventionally ayear, by implication, an assembly (as convened for a definite purpose), technically the congregation, by extension, the place of meeting, also a signal (as appointed beforehand)"
+    }
+  },
+  "H4151": {
+    "id": "H4151",
+    "lemma": "מוֹעָד",
+    "translit": "môwʻâd",
+    "pronounce": "",
+    "defs": {
+      "hu": "gyűlés, találkozó, időpont, hadjárat, sereg.",
+      "en": "properly, an assembly figuratively, a troop"
+    }
+  },
+  "H4152": {
+    "id": "H4152",
+    "lemma": "מוּעָדָה",
+    "translit": "mûwʻâdâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "menedékhely, kijelölt hely, gyülekezési hely",
+      "en": "an appointed place, i.e. asylum"
+    }
+  },
+  "H4153": {
+    "id": "H4153",
+    "lemma": "מוֹעַדְיָה",
+    "translit": "Môwʻadyâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Moádja, egy Izraelita.",
+      "en": "Moadjah, an Israelite"
+    }
+  },
+  "H4154": {
+    "id": "H4154",
+    "lemma": "מוּעֶדֶת",
+    "translit": "mûwʻedeth",
+    "pronounce": "",
+    "defs": {
+      "hu": "kimozdított, elcsavart, kibillentett",
+      "en": "properly, made to slip, i.e. dislocated"
+    }
+  },
+  "H4155": {
+    "id": "H4155",
+    "lemma": "מוּעָף",
+    "translit": "mûwʻâph",
+    "pronounce": "",
+    "defs": {
+      "hu": "valami által borított, takart",
+      "en": "properly, covered, i.e. dark, abstractly, obscurity, i.e. distress"
+    }
+  },
+  "H4156": {
+    "id": "H4156",
+    "lemma": "מוֹעֵצָה",
+    "translit": "môwʻêtsâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "tanács, elhatározat, szándék, cél",
+      "en": "a purpose"
+    }
+  },
+  "H4157": {
+    "id": "H4157",
+    "lemma": "מוּעָקָה",
+    "translit": "mûwʻâqâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "nyomás, szorongás, kínlódás",
+      "en": "pressure, i.e. (figuratively) distress"
+    }
+  },
+  "H4158": {
+    "id": "H4158",
+    "lemma": "מוֹפַעַת",
+    "translit": "Môwphaʻath",
+    "pronounce": "",
+    "defs": {
+      "hu": "Mófát, egy hely Palesztinában.",
+      "en": "Mophaath or Mephaath, a place in Palestine"
+    }
+  },
+  "H4159": {
+    "id": "H4159",
+    "lemma": "מוֹפֵת",
+    "translit": "môwphêth",
+    "pronounce": "",
+    "defs": {
+      "hu": "csoda, jelekben vagy előjelként megnyilvánuló jel, csodajel",
+      "en": "a miracle, by implication, a token or omen"
+    }
+  },
+  "H4160": {
+    "id": "H4160",
+    "lemma": "מוּץ",
+    "translit": "mûwts",
+    "pronounce": "",
+    "defs": {
+      "hu": "nyomni, elnyomni, elszomorítani",
+      "en": "to press, i.e. (figuratively) to oppress"
+    }
+  },
+  "H4161": {
+    "id": "H4161",
+    "lemma": "מוֹצָא",
+    "translit": "môwtsâʼ",
+    "pronounce": "",
+    "defs": {
+      "hu": "kijárat, kivezetés, eredet, forrás, hajnal, napkelte, kivitel, mondás, kapu, forrásvíz, bányászat, legelő.",
+      "en": "a going forth, i.e. (the act) an egress, or (the place) an exit, hence, a source or product, specifically, dawn, the rising of the sun (the East), exportation, utterance, a gate, a fountain, a mine, a meadow (as producing grass)"
+    }
+  },
+  "H4162": {
+    "id": "H4162",
+    "lemma": "מוֹצָא",
+    "translit": "môwtsâʼ",
+    "pronounce": "",
+    "defs": {
+      "hu": "Móca, két izraelita neve.",
+      "en": "Motsa, the name of two Israelites"
+    }
+  },
+  "H4163": {
+    "id": "H4163",
+    "lemma": "מוֹצָאָה",
+    "translit": "môwtsâʼâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "származás, családfa, vagy csatorna",
+      "en": "a family descent, also a sewer"
+    }
+  },
+  "H4164": {
+    "id": "H4164",
+    "lemma": "מוּצַק",
+    "translit": "mûwtsaq",
+    "pronounce": "",
+    "defs": {
+      "hu": "szűkesség, képletesen: nyomorúság, szorongás.",
+      "en": "narrowness, figuratively, distress"
+    }
+  },
+  "H4165": {
+    "id": "H4165",
+    "lemma": "מוּצָק",
+    "translit": "mûwtsâq",
+    "pronounce": "",
+    "defs": {
+      "hu": "öntvény, öntés, vagy képletesen: tömeg, gyúrvány",
+      "en": "properly, fusion, i.e. literally, a casting (of metal), figuratively, a mass (of clay)"
+    }
+  },
+  "H4166": {
+    "id": "H4166",
+    "lemma": "מוּצָקָה",
+    "translit": "mûwtsâqâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "öntvény, öntött cső",
+      "en": "properly, something poured out, i.e. a casting (of metal), by implication, a tube (as cast)"
+    }
+  },
+  "H4167": {
+    "id": "H4167",
+    "lemma": "מוּק",
+    "translit": "mûwq",
+    "pronounce": "",
+    "defs": {
+      "hu": "csúfolni, gúnyolni, vétek ellen beszélni, istenkáromlást mondani.",
+      "en": "to jeer, i.e. (intens.) blaspheme"
+    }
+  },
+  "H4168": {
+    "id": "H4168",
+    "lemma": "מוֹקֵד",
+    "translit": "môwqêd",
+    "pronounce": "",
+    "defs": {
+      "hu": "tűzhely, tűz, égés, perzselés, felperzselés",
+      "en": "a fire or fuel, abstractly, a conflagration"
+    }
+  },
+  "H4169": {
+    "id": "H4169",
+    "lemma": "מוֹקְדָה",
+    "translit": "môwqᵉdâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "tüzelőanyag, fűtőanyag, égőfa",
+      "en": "fuel"
+    }
+  },
+  "H4170": {
+    "id": "H4170",
+    "lemma": "מוֹקֵשׁ",
+    "translit": "môwqêsh",
+    "pronounce": "",
+    "defs": {
+      "hu": "csapda, hurok (állatok fogására), átvitt értelemben: megcsalás, rablóhurok, orrszíj.",
+      "en": "a noose (for catching animals) (literally or figuratively), by implication, a hook (for the nose)"
+    }
+  },
+  "H4171": {
+    "id": "H4171",
+    "lemma": "מוּר",
+    "translit": "mûwr",
+    "pronounce": "",
+    "defs": {
+      "hu": "változtatni, átváltoztatni, cserélni, eladni, elidegeníteni.",
+      "en": "to alter, by implication, to barter, to dispose of"
+    }
+  },
+  "H4172": {
+    "id": "H4172",
+    "lemma": "מוֹרָא",
+    "translit": "môwrâʼ",
+    "pronounce": "",
+    "defs": {
+      "hu": "félelem, rettegés, félelmetes dolog vagy cselekedet.",
+      "en": "fear, by implication, a fearful thing or deed"
+    }
+  },
+  "H4173": {
+    "id": "H4173",
+    "lemma": "מוֹרַג",
+    "translit": "môwrag",
+    "pronounce": "",
+    "defs": {
+      "hu": "szán, melyet a gabonát való kitaposásához használnak.",
+      "en": "a threshing sledge"
+    }
+  },
+  "H4174": {
+    "id": "H4174",
+    "lemma": "מוֹרָד",
+    "translit": "môwrâd",
+    "pronounce": "",
+    "defs": {
+      "hu": "díszítés, függeszték, talán füzér",
+      "en": "a descent, as architecture, an ornamental appendage, perhaps a festoon"
+    }
+  },
+  "H4175": {
+    "id": "H4175",
+    "lemma": "מוֹרֶה",
+    "translit": "môwreh",
+    "pronounce": "",
+    "defs": {
+      "hu": "íjász, tanító, oktató, vagy az első eső",
+      "en": "an archer, also teacher or teaching, also the early rain"
+    }
+  },
+  "H4176": {
+    "id": "H4176",
+    "lemma": "מוֹרֶה",
+    "translit": "Môwreh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Moreh, egy kánaánita férfi",
+      "en": "Moreh, a Canaanite, also a hill (perhaps named from him)"
+    }
+  },
+  "H4177": {
+    "id": "H4177",
+    "lemma": "מוֹרָה",
+    "translit": "môwrâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "borotva",
+      "en": "a razor"
+    }
+  },
+  "H4178": {
+    "id": "H4178",
+    "lemma": "מוֹרָט",
+    "translit": "môwrâṭ",
+    "pronounce": "",
+    "defs": {
+      "hu": "makacs, azaz önálló",
+      "en": "obstinate, i.e. independent"
+    }
+  },
+  "H4179": {
+    "id": "H4179",
+    "lemma": "מוֹרִיָּה",
+    "translit": "Môwrîyâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Morijah, egy hegy Palesztinában.",
+      "en": "Morijah, a hill in Palestine"
+    }
+  },
+  "H4180": {
+    "id": "H4180",
+    "lemma": "מוֹרָשׁ",
+    "translit": "môwrâsh",
+    "pronounce": "",
+    "defs": {
+      "hu": "birtok, átvitt értelemben gyönyörűség, kedvesség.",
+      "en": "a possession, figuratively, delight"
+    }
+  },
+  "H4181": {
+    "id": "H4181",
+    "lemma": "מוֹרָשָׁה",
+    "translit": "môwrâshâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "birtok, örökség, tulajdon, örökös rész",
+      "en": "a possession"
+    }
+  },
+  "H4182": {
+    "id": "H4182",
+    "lemma": "מוֹרֶשֶׁת גַּת",
+    "translit": "Môwresheth Gath",
+    "pronounce": "",
+    "defs": {
+      "hu": "Moreset-Gát, egy hely Palesztinában.",
+      "en": "Moresheth-Gath, a place in Palestine"
+    }
+  },
+  "H4183": {
+    "id": "H4183",
+    "lemma": "מוֹרַשְׁתִּי",
+    "translit": "Môwrashtîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "móresethi lakos vagy móresethi ember",
+      "en": "a Morashtite or inhabitant of Moresheth-Gath"
+    }
+  },
+  "H4184": {
+    "id": "H4184",
+    "lemma": "מוּשׁ",
+    "translit": "mûwsh",
+    "pronounce": "",
+    "defs": {
+      "hu": "érinteni, megérinteni, tapintani",
+      "en": "to touch"
+    }
+  },
+  "H4185": {
+    "id": "H4185",
+    "lemma": "מוּשׁ",
+    "translit": "mûwsh",
+    "pronounce": "",
+    "defs": {
+      "hu": "visszavonulni, eltávozni, elfordulni, megszüntetni, elhagyatni.",
+      "en": "to withdraw (both literally and figuratively, whether intransitive or transitive)"
+    }
+  },
+  "H4186": {
+    "id": "H4186",
+    "lemma": "מוֹשָׁב",
+    "translit": "môwshâb",
+    "pronounce": "",
+    "defs": {
+      "hu": "ülés, hely, tartózkodási hely, lakóhely, gyűlés, népesség, időtartam.",
+      "en": "a seat, figuratively, a site, abstractly, a session, by extension an abode (the place or the time), by implication, population"
+    }
+  },
+  "H4187": {
+    "id": "H4187",
+    "lemma": "מוּשִׁי",
+    "translit": "Mûwshîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "Musi, egy levita.",
+      "en": "Mushi, a Levite"
+    }
+  },
+  "H4188": {
+    "id": "H4188",
+    "lemma": "מוּשִׁי",
+    "translit": "Mûwshîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "Musiták (egy népcsoport) vagy Musi leszármazottai.",
+      "en": "a Mushite (collectively) or descendants of Mushi"
+    }
+  },
+  "H4189": {
+    "id": "H4189",
+    "lemma": "מוֹשְׁכָה",
+    "translit": "môwshᵉkâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "valami, ami von, húz, vagy (átvitt értelemben) zsinór",
+      "en": "something drawing, i.e. (figuratively) a cord"
+    }
+  },
+  "H4190": {
+    "id": "H4190",
+    "lemma": "מוֹשָׁעָה",
+    "translit": "môwshâʻâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "szabadítás, megváltás, menedék",
+      "en": "deliverance"
+    }
+  },
+  "H4191": {
+    "id": "H4191",
+    "lemma": "מוּת",
+    "translit": "mûwth",
+    "pronounce": "",
+    "defs": {
+      "hu": "meghalni (szó szerint vagy átvitt értelemben), okozni a halált, megölni.",
+      "en": "to die (literally or figuratively), causatively, to kill"
+    }
+  },
+  "H4192": {
+    "id": "H4192",
+    "lemma": "מוּת",
+    "translit": "Mûwth",
+    "pronounce": "",
+    "defs": {
+      "hu": "valószínűleg egy népszerű dal címe, mely a fiúért való meghalást jelenti.",
+      "en": "'To die for the son', probably the title of a popular song"
+    }
+  },
+  "H4193": {
+    "id": "H4193",
+    "lemma": "מוֹת",
+    "translit": "môwth",
+    "pronounce": "",
+    "defs": {
+      "hu": "halál",
+      "en": "death"
+    }
+  },
+  "H4194": {
+    "id": "H4194",
+    "lemma": "מָוֶת",
+    "translit": "mâveth",
+    "pronounce": "",
+    "defs": {
+      "hu": "halál, természetes vagy erőszakos halál, konkrétan a halottak, azok helye vagy állapota (pokol), képletesen pestis, pusztulás.",
+      "en": "death (natural or violent), concretely, the dead, their place or state (hades), figuratively, pestilence, ruin"
+    }
+  },
+  "H4195": {
+    "id": "H4195",
+    "lemma": "מוֹתָר",
+    "translit": "môwthâr",
+    "pronounce": "",
+    "defs": {
+      "hu": "túlság, fölényesség, hatalmasság.",
+      "en": "literally gain, figuratively, superiority"
+    }
+  },
+  "H4196": {
+    "id": "H4196",
+    "lemma": "מִזְבֵּחַ",
+    "translit": "mizbêach",
+    "pronounce": "",
+    "defs": {
+      "hu": "áldozati oltár",
+      "en": "an altar"
+    }
+  },
+  "H4197": {
+    "id": "H4197",
+    "lemma": "מֶזֶג",
+    "translit": "mezeg",
+    "pronounce": "",
+    "defs": {
+      "hu": "fűszeres bor, kevert bor",
+      "en": "tempered wine"
+    }
+  },
+  "H4198": {
+    "id": "H4198",
+    "lemma": "מָזֶה",
+    "translit": "mâzeh",
+    "pronounce": "",
+    "defs": {
+      "hu": "kimerült, elgyengült, kifáradt",
+      "en": "exhausted"
+    }
+  },
+  "H4199": {
+    "id": "H4199",
+    "lemma": "מִזָּה",
+    "translit": "Mizzâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Mizzá, egy edómi.",
+      "en": "Mizzah, an Edomite"
+    }
+  },
+  "H4200": {
+    "id": "H4200",
+    "lemma": "מֶזֶו",
+    "translit": "mezev",
+    "pronounce": "",
+    "defs": {
+      "hu": "raktár, éléskamra, gabonásraktár",
+      "en": "a granary"
+    }
+  }
+}

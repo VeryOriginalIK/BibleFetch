@@ -3,7 +3,7 @@ import requests
 import time
 import sys
 
-MODEL = "gemma3:12b"
+MODEL = "gemma3:27b"
 
 # --- CONFIGURATION ---
 INPUT_FILE = 'strongs_master_greek_list.csv' 
@@ -60,7 +60,7 @@ def translate_row(english_def, greek_word, strong_id):
         ],
         "stream": False,
         "options": {
-            "temperature": 0.1,
+            "temperature": 0.01,
             "num_ctx": 2048
         }
     }
@@ -128,4 +128,5 @@ def main():
     print("Done.")
 
 if __name__ == "__main__":
+    main()
     main()

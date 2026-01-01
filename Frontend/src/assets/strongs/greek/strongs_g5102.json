@@ -1,0 +1,3502 @@
+{
+  "sw-titlos": {
+    "strongs": 5102,
+    "original_word": "τίτλος",
+    "transliteration": "títlos",
+    "language": "Greek",
+    "definition": {
+      "en": "a titulus or 'title' (placard)",
+      "hu": "cím, felirat, tábla, vagy címsor, megnevezés."
+    }
+  },
+  "sw-titos": {
+    "strongs": 5103,
+    "original_word": "Τίτος",
+    "transliteration": "Títos",
+    "language": "Greek",
+    "definition": {
+      "en": "Titus, a Christian",
+      "hu": "Titusz, egy keresztény"
+    }
+  },
+  "sw-toi": {
+    "strongs": 5104,
+    "original_word": "τοί",
+    "transliteration": "toí",
+    "language": "Greek",
+    "definition": {
+      "en": "an enclitic particle of asseveration by way of contrast, in sooth",
+      "hu": "bizony, igazán, valóban, hangsúlyozó, ellentétbe helyező részecske"
+    }
+  },
+  "sw-toigaroun": {
+    "strongs": 5105,
+    "original_word": "τοιγαροῦν",
+    "transliteration": "toigaroûn",
+    "language": "Greek",
+    "definition": {
+      "en": "truly for then, i.e. consequently",
+      "hu": "tehát, következésképpen, valóban, azután"
+    }
+  },
+  "sw-toinyn": {
+    "strongs": 5106,
+    "original_word": "τοίνυν",
+    "transliteration": "toínyn",
+    "language": "Greek",
+    "definition": {
+      "en": "truly now, i.e. accordingly",
+      "hu": "valóban most, azaz következésképpen, ennélfogva, így tehát."
+    }
+  },
+  "sw-toiosde": {
+    "strongs": 5107,
+    "original_word": "τοιόσδε",
+    "transliteration": "toiósde",
+    "language": "Greek",
+    "definition": {
+      "en": "such-like then, i.e. so great",
+      "hu": "ilyen, azaz ilyen nagy, ilyen mértékű."
+    }
+  },
+  "sw-toioutos": {
+    "strongs": 5108,
+    "original_word": "τοιοῦτος",
+    "transliteration": "toioûtos",
+    "language": "Greek",
+    "definition": {
+      "en": "truly this, i.e. of this sort (to denote character or individuality)",
+      "hu": "valóban ez, vagyis ilyen jellegű (valakinek vagy dolognak a jellemzőit, egyéniségét kifejezve)"
+    }
+  },
+  "sw-toichos": {
+    "strongs": 5109,
+    "original_word": "τοῖχος",
+    "transliteration": "toîchos",
+    "language": "Greek",
+    "definition": {
+      "en": "a wall",
+      "hu": "fal, védőfal, kőfal, határoló fal"
+    }
+  },
+  "sw-tokos": {
+    "strongs": 5110,
+    "original_word": "τόκος",
+    "transliteration": "tókos",
+    "language": "Greek",
+    "definition": {
+      "en": "interest on money loaned (as a produce)",
+      "hu": "kamat, kölcsönzött pénz után járó haszon (termésként értelmezve)"
+    }
+  },
+  "sw-tolmao": {
+    "strongs": 5111,
+    "original_word": "τολμάω",
+    "transliteration": "tolmáō",
+    "language": "Greek",
+    "definition": {
+      "en": "probably itself from the base of G5056 (τέλος) through the idea of extreme conduct), to venture (objectively or in act, while G2292 (θαῤῥέω) is rather subjective or in feeling), by implication, to be courageous",
+      "hu": "merészkedni, kockáztatni, bátorságot tanúsítani (az eredeti görög szó a 'télos' (cél, végső) gyökérből ered, a szélsőséges viselkedés gondolatán keresztül, a 'thaῤῥέω' (bátorítani) szóval szemben, amely inkább szubjektív vagy érzelmi bátorságot jelent)"
+    }
+  },
+  "sw-tolmeroteron": {
+    "strongs": 5112,
+    "original_word": "τολμηρότερον",
+    "transliteration": "tolmēróteron",
+    "language": "Greek",
+    "definition": {
+      "en": "more daringly, i.e. with greater confidence than otherwise",
+      "hu": "merészebben, azaz nagyobb bizalommal, mint máskülönben"
+    }
+  },
+  "sw-tolmetes": {
+    "strongs": 5113,
+    "original_word": "τολμητής",
+    "transliteration": "tolmētḗs",
+    "language": "Greek",
+    "definition": {
+      "en": "a daring (audacious) man",
+      "hu": "bátor (merész) férfi, vakmerő ember, kockázatvállaló személy"
+    }
+  },
+  "sw-tomoteros": {
+    "strongs": 5114,
+    "original_word": "τομώτερος",
+    "transliteration": "tomṓteros",
+    "language": "Greek",
+    "definition": {
+      "en": "more comprehensive or decisive than G2875 (κόπτω), as if by a single stroke, whereas that implies repeated blows, like hacking), more keen",
+      "hu": "alaposabb vagy határozottabb, mint a G2875 (κόπτω), mintha egyetlen vágással történne, míg az ismételt csapásokat, mint a hasítást sugallja, élesebb"
+    }
+  },
+  "sw-toxon": {
+    "strongs": 5115,
+    "original_word": "τόξον",
+    "transliteration": "tóxon",
+    "language": "Greek",
+    "definition": {
+      "en": "a bow (apparently as the simplest fabric)",
+      "hu": "íj, látszólag a legegyszerűbb szerkezetű eszköz"
+    }
+  },
+  "sw-topazion": {
+    "strongs": 5116,
+    "original_word": "τοπάζιον",
+    "transliteration": "topázion",
+    "language": "Greek",
+    "definition": {
+      "en": "of uncertain origin), a gem, probably the chrysolite",
+      "hu": "topázium, eredete bizonytalan, valószínűleg a krízolit nevű drágakő."
+    }
+  },
+  "sw-topos": {
+    "strongs": 5117,
+    "original_word": "τόπος",
+    "transliteration": "tópos",
+    "language": "Greek",
+    "definition": {
+      "en": "a spot (general in space, but limited by occupancy, whereas G5561 (χώρα) is a large but participle locality), i.e. location (as a position, home, tract, etc.), figuratively, condition, opportunity, specially, a scabbard",
+      "hu": "hely, tér (általános értelemben, de a benfoglaltság által korlátozott, míg a G5561 (χώρα) egy nagy, de részes hely), azaz helyzet (pozícióként, otthonként, területként stb.), átvitt értelemben állapot, alkalom, különösen markolat, hüvely."
+    }
+  },
+  "sw-tosoutos": {
+    "strongs": 5118,
+    "original_word": "τοσοῦτος",
+    "transliteration": "tosoûtos",
+    "language": "Greek",
+    "definition": {
+      "en": "apparently from G3588 (ὁ) and G3739 (ὅς)) and G3778 (οὗτος) (including its variations), so vast as this, i.e. such (in quantity, amount, number of space)",
+      "hu": "oly nagy, mint ez, azaz ilyen (mennyiség, mérték, szám vagy térfogat tekintetében)"
+    }
+  },
+  "sw-tote": {
+    "strongs": 5119,
+    "original_word": "τότε",
+    "transliteration": "tóte",
+    "language": "Greek",
+    "definition": {
+      "en": "the when, i.e. at the time that (of the past or future, also in consecution)",
+      "hu": "amikor, az időpont, amikor (a múltban vagy a jövőben, illetve egymás után következik)"
+    }
+  },
+  "sw-tou": {
+    "strongs": 5120,
+    "original_word": "τοῦ",
+    "transliteration": "toû",
+    "language": "Greek",
+    "definition": {
+      "en": "sometimes used for G5127 (τούτου), of this person",
+      "hu": "ez, erre vonatkozó, e személyre nézve"
+    }
+  },
+  "sw-tounantion": {
+    "strongs": 5121,
+    "original_word": "τοὐναντίον",
+    "transliteration": "tounantíon",
+    "language": "Greek",
+    "definition": {
+      "en": "on the contrary",
+      "hu": "éppen ellenkezőleg, viszont, ellenben, de"
+    }
+  },
+  "sw-tounoma": {
+    "strongs": 5122,
+    "original_word": "τοὔνομα",
+    "transliteration": "toúnoma",
+    "language": "Greek",
+    "definition": {
+      "en": "the name (is)",
+      "hu": "a név (az)"
+    }
+  },
+  "sw-toutesti": {
+    "strongs": 5123,
+    "original_word": "τουτέστι",
+    "transliteration": "toutésti",
+    "language": "Greek",
+    "definition": {
+      "en": "that is",
+      "hu": "azaz, vagyis, konkrétan, röviden fogalmazva"
+    }
+  },
+  "sw-touto": {
+    "strongs": 5124,
+    "original_word": "τοῦτο",
+    "transliteration": "toûto",
+    "language": "Greek",
+    "definition": {
+      "en": "that thing",
+      "hu": "ez az dolog, ama valami, ez a tény"
+    }
+  },
+  "sw-toutois": {
+    "strongs": 5125,
+    "original_word": "τούτοις",
+    "transliteration": "toútois",
+    "language": "Greek",
+    "definition": {
+      "en": "to (for, in, with or by) these (persons or things)",
+      "hu": "ezekben (személyekben vagy dolgokban) – ezekhez, ezekért, ezekkel, ezek által, ezekben."
+    }
+  },
+  "sw-touton": {
+    "strongs": 5126,
+    "original_word": "τοῦτον",
+    "transliteration": "toûton",
+    "language": "Greek",
+    "definition": {
+      "en": "this (person, as objective of verb or preposition)",
+      "hu": "ezt (személyre vonatkozóan, mint ige vagy előtag tárgya)"
+    }
+  },
+  "sw-toutou": {
+    "strongs": 5127,
+    "original_word": "τούτου",
+    "transliteration": "toútou",
+    "language": "Greek",
+    "definition": {
+      "en": "of (from or concerning) this (person or thing)",
+      "hu": "ennek (személynek vagy dolognak) vonatkozóan, ebből, ezzel kapcsolatosan, ezen keresztül."
+    }
+  },
+  "sw-toutous": {
+    "strongs": 5128,
+    "original_word": "τούτους",
+    "transliteration": "toútous",
+    "language": "Greek",
+    "definition": {
+      "en": "these (persons, as objective of verb or preposition)",
+      "hu": "ezeket (személyeket, mint ige vagy előtag tárgyát)"
+    }
+  },
+  "sw-toutoi": {
+    "strongs": 5129,
+    "original_word": "τούτῳ",
+    "transliteration": "toútōi",
+    "language": "Greek",
+    "definition": {
+      "en": "to (in, with or by) this (person or thing)",
+      "hu": "ehhez, ebben, vele, általa, ezen keresztül, ezzel kapcsolatban, ezen a dolgon keresztül."
+    }
+  },
+  "sw-touton-5130": {
+    "strongs": 5130,
+    "original_word": "τούτων",
+    "transliteration": "toútōn",
+    "language": "Greek",
+    "definition": {
+      "en": "of (from or concerning) these (persons or things)",
+      "hu": "ezekből (személyekből vagy dolgokból), róluk, ezekkel kapcsolatban"
+    }
+  },
+  "sw-tragos": {
+    "strongs": 5131,
+    "original_word": "τράγος",
+    "transliteration": "trágos",
+    "language": "Greek",
+    "definition": {
+      "en": "a he-goat (as a gnawer)",
+      "hu": "bak, (főleg) szarvasmarha-fajta, rágcsáló természetű állat."
+    }
+  },
+  "sw-trapeza": {
+    "strongs": 5132,
+    "original_word": "τράπεζα",
+    "transliteration": "trápeza",
+    "language": "Greek",
+    "definition": {
+      "en": "a table or stool (as being four-legged), usually for food (figuratively, a meal), also a counter for money (figuratively, a broker's office for loans at interest)",
+      "hu": "asztal vagy szék (négy lábú), általában étkezéshez (átvitt értelemben: étkezés), továbbá pénzváltó asztal vagy pult (átvitt értelemben: kamatváltó iroda)"
+    }
+  },
+  "sw-trapezites": {
+    "strongs": 5133,
+    "original_word": "τραπεζίτης",
+    "transliteration": "trapezítēs",
+    "language": "Greek",
+    "definition": {
+      "en": "a money-broker or banker",
+      "hu": "pénzváltó vagy bankár"
+    }
+  },
+  "sw-trauma": {
+    "strongs": 5134,
+    "original_word": "τραῦμα",
+    "transliteration": "traûma",
+    "language": "Greek",
+    "definition": {
+      "en": "akin to the base of G2352 (θραύω), G5147 (τρίβος), G5149 (τρίζω), etc.), a wound",
+      "hu": "sebesülés, sérülés, seb, (testi vagy lelki) trauma"
+    }
+  },
+  "sw-traumatizo": {
+    "strongs": 5135,
+    "original_word": "τραυματίζω",
+    "transliteration": "traumatízō",
+    "language": "Greek",
+    "definition": {
+      "en": "to inflict a wound",
+      "hu": "sebet ejteni, megsebezni, sérteni"
+    }
+  },
+  "sw-trachelizo": {
+    "strongs": 5136,
+    "original_word": "τραχηλίζω",
+    "transliteration": "trachēlízō",
+    "language": "Greek",
+    "definition": {
+      "en": "to seize by the throat or neck, i.e. to expose the gullet of a victim for killing (generally, to lay bare)",
+      "hu": "megragadni a torkon vagy a nyakon, azaz felfedni az áldozat nyakát leölés céljából (általában, felfedni, nyilvánosság elé hozni)"
+    }
+  },
+  "sw-trachelos": {
+    "strongs": 5137,
+    "original_word": "τράχηλος",
+    "transliteration": "tráchēlos",
+    "language": "Greek",
+    "definition": {
+      "en": "the throat (neck), i.e. (figuratively) life",
+      "hu": "torok, nyak; (átvitt értelemben) élet."
+    }
+  },
+  "sw-trachys": {
+    "strongs": 5138,
+    "original_word": "τραχύς",
+    "transliteration": "trachýs",
+    "language": "Greek",
+    "definition": {
+      "en": "uneven, rocky (reefy)",
+      "hu": "egyenetlen, sziklás, durva, rögös"
+    }
+  },
+  "sw-trachonitis": {
+    "strongs": 5139,
+    "original_word": "Τραχωνῖτις",
+    "transliteration": "Trachōnîtis",
+    "language": "Greek",
+    "definition": {
+      "en": "rough district, Trachonitis, a region of Syria",
+      "hu": "durva vidék, Trachonitis, Szíria egyik tája"
+    }
+  },
+  "sw-treis": {
+    "strongs": 5140,
+    "original_word": "τρεῖς",
+    "transliteration": "treîs",
+    "language": "Greek",
+    "definition": {
+      "en": "'three'",
+      "hu": "három"
+    }
+  },
+  "sw-tremo": {
+    "strongs": 5141,
+    "original_word": "τρέμω",
+    "transliteration": "trémō",
+    "language": "Greek",
+    "definition": {
+      "en": "to 'tremble' or fear",
+      "hu": "remegni, félni, reszketni, rettegni; istentől való félelemmel átitatott tisztelettel viselkedni."
+    }
+  },
+  "sw-trepho": {
+    "strongs": 5142,
+    "original_word": "τρέφω",
+    "transliteration": "tréphō",
+    "language": "Greek",
+    "definition": {
+      "en": "but perhaps strengthened from the base of G5157 (τροπή) through the idea of convolution), properly, to stiffen, i.e. fatten (by implication, to cherish (with food, etc.), pamper, rear)",
+      "hu": "megvastagítani, táplálni, nevelni, gondozni (az eredeti görög szó a táplálás, gondoskodás, és a növekedés elősegítésének gondolatát hordozza magában, akár fizikai, akár lelki értelemben)"
+    }
+  },
+  "sw-trecho": {
+    "strongs": 5143,
+    "original_word": "τρέχω",
+    "transliteration": "tréchō",
+    "language": "Greek",
+    "definition": {
+      "en": "compare G2359 (θρίξ)), which uses (the base of G1408 (δρόμος)) as alternate in certain tenses, to run or walk hastily (literally or figuratively)",
+      "hu": "futni vagy sietve járni (szó szerint vagy átvitt értelemben), összehasonlítható a G2359-cel (θρίξ), amely bizonyos igeidőkben a G1408 (δρόμος) alapját használja."
+    }
+  },
+  "sw-triakonta": {
+    "strongs": 5144,
+    "original_word": "τριάκοντα",
+    "transliteration": "triákonta",
+    "language": "Greek",
+    "definition": {
+      "en": "thirty",
+      "hu": "harminc"
+    }
+  },
+  "sw-triakosioi": {
+    "strongs": 5145,
+    "original_word": "τριακόσιοι",
+    "transliteration": "triakósioi",
+    "language": "Greek",
+    "definition": {
+      "en": "three hundred",
+      "hu": "háromszáz"
+    }
+  },
+  "sw-tribolos": {
+    "strongs": 5146,
+    "original_word": "τρίβολος",
+    "transliteration": "tríbolos",
+    "language": "Greek",
+    "definition": {
+      "en": "properly, a crow-foot (three-pronged obstruction in war), i.e. (by analogy) a thorny plant (caltrop)",
+      "hu": "háromágú fémcsapda (háborúban használt akadály), illetve átvitt értelemben tövises növény (csillagpörc)"
+    }
+  },
+  "sw-tribos": {
+    "strongs": 5147,
+    "original_word": "τρίβος",
+    "transliteration": "tríbos",
+    "language": "Greek",
+    "definition": {
+      "en": "akin to , , and the base of G5131 (τράγος), G5134 (τραῦμα)), a rut or worn track",
+      "hu": "nyomvonal, eltapadt út, járásnyom, kopott ösvény"
+    }
+  },
+  "sw-trietia": {
+    "strongs": 5148,
+    "original_word": "τριετία",
+    "transliteration": "trietía",
+    "language": "Greek",
+    "definition": {
+      "en": "a three years' period (triennium)",
+      "hu": "hároméves időszak (háromév)"
+    }
+  },
+  "sw-trizo": {
+    "strongs": 5149,
+    "original_word": "τρίζω",
+    "transliteration": "trízō",
+    "language": "Greek",
+    "definition": {
+      "en": "to creak (squeak), i.e. (by analogy) to grate the teeth (in frenzy)",
+      "hu": "csikorgatni (mint hang), nyikorogni; (átvitt értelemben) fogakat csikorgatni (dühben vagy szenvedésben)"
+    }
+  },
+  "sw-trimenon": {
+    "strongs": 5150,
+    "original_word": "τρίμηνον",
+    "transliteration": "trímēnon",
+    "language": "Greek",
+    "definition": {
+      "en": "a three months' space",
+      "hu": "három hónapos időszak, vagy három hónapra szóló időtartam"
+    }
+  },
+  "sw-tris": {
+    "strongs": 5151,
+    "original_word": "τρίς",
+    "transliteration": "trís",
+    "language": "Greek",
+    "definition": {
+      "en": "three times",
+      "hu": "háromszor, három alkalommal"
+    }
+  },
+  "sw-tristegon": {
+    "strongs": 5152,
+    "original_word": "τρίστεγον",
+    "transliteration": "trístegon",
+    "language": "Greek",
+    "definition": {
+      "en": "a third roof (story)",
+      "hu": "harmadik tető (emelet)"
+    }
+  },
+  "sw-trischilioi": {
+    "strongs": 5153,
+    "original_word": "τρισχίλιοι",
+    "transliteration": "trischílioi",
+    "language": "Greek",
+    "definition": {
+      "en": "three times a thousand",
+      "hu": "háromezer"
+    }
+  },
+  "sw-tritos": {
+    "strongs": 5154,
+    "original_word": "τρίτος",
+    "transliteration": "trítos",
+    "language": "Greek",
+    "definition": {
+      "en": "third, neuter (as noun) a third part, or (as adverb) a (or the) third time, thirdly",
+      "hu": "harmadik, semlegesneműként (főnévként) egyharmad, vagy (határozószóként) harmadszor, harmadsorban"
+    }
+  },
+  "sw-trichinos": {
+    "strongs": 5155,
+    "original_word": "τρίχινος",
+    "transliteration": "tríchinos",
+    "language": "Greek",
+    "definition": {
+      "en": "hairy, i.e. made of hair (mohair)",
+      "hu": "szőrös, azaz szőrből készült (pl. mohair)"
+    }
+  },
+  "sw-tromos": {
+    "strongs": 5156,
+    "original_word": "τρόμος",
+    "transliteration": "trómos",
+    "language": "Greek",
+    "definition": {
+      "en": "a 'trembling', i.e. quaking with fear",
+      "hu": "remegés, félelemmel való reszketés, vagy megrázkódás."
+    }
+  },
+  "sw-trope": {
+    "strongs": 5157,
+    "original_word": "τροπή",
+    "transliteration": "tropḗ",
+    "language": "Greek",
+    "definition": {
+      "en": "a turn ('trope'), i.e. revolution (figuratively, variation)",
+      "hu": "fordulópont, változás, elfordulás (átvitt értelemben: változtatás, megváltoztatás)"
+    }
+  },
+  "sw-tropos": {
+    "strongs": 5158,
+    "original_word": "τρόπος",
+    "transliteration": "trópos",
+    "language": "Greek",
+    "definition": {
+      "en": "a turn, i.e. (by implication) mode or style (especially with preposition or relative prefix as adverb, like), figuratively, deportment or character",
+      "hu": "fordulat, mód, menetszerűség, viselkedés, jellem, hozzáállás, szokás, stílus, megnyilvánulási forma."
+    }
+  },
+  "sw-tropophoreo": {
+    "strongs": 5159,
+    "original_word": "τροποφορέω",
+    "transliteration": "tropophoréō",
+    "language": "Greek",
+    "definition": {
+      "en": "to endure one's habits",
+      "hu": "szokásokat elviselni, megszokott viselkedést folytatni, tűrni a szokásokat, szokásainkhoz alkalmazkodni."
+    }
+  },
+  "sw-trophe": {
+    "strongs": 5160,
+    "original_word": "τροφή",
+    "transliteration": "trophḗ",
+    "language": "Greek",
+    "definition": {
+      "en": "nourishment (literally or figuratively), by implication, rations (wages)",
+      "hu": "táplálék (szó szerint vagy átvitt értelemben), következményként, élelem (fizetségként)"
+    }
+  },
+  "sw-trophimos": {
+    "strongs": 5161,
+    "original_word": "Τρόφιμος",
+    "transliteration": "Tróphimos",
+    "language": "Greek",
+    "definition": {
+      "en": "nutritive, Trophimus, a Christian",
+      "hu": "tápláló, Trófimosz, egy keresztény"
+    }
+  },
+  "sw-trophos": {
+    "strongs": 5162,
+    "original_word": "τροφός",
+    "transliteration": "trophós",
+    "language": "Greek",
+    "definition": {
+      "en": "a nourisher, i.e. nurse",
+      "hu": "nevelő, tápláló, gondozó (gyermek vagy másokra vonatkozóan)"
+    }
+  },
+  "sw-trochia": {
+    "strongs": 5163,
+    "original_word": "τροχιά",
+    "transliteration": "trochiá",
+    "language": "Greek",
+    "definition": {
+      "en": "a track (as a wheel-rut), i.e. (figuratively) a course of conduct",
+      "hu": "pálya, útvonal (keréknyomként, szó szerint), vagy viselkedésmód, életút (átvitt értelemben)"
+    }
+  },
+  "sw-trochos": {
+    "strongs": 5164,
+    "original_word": "τροχός",
+    "transliteration": "trochós",
+    "language": "Greek",
+    "definition": {
+      "en": "a wheel (as a runner), i.e. (figuratively) a circuit of physical effects",
+      "hu": "kerék, mint forgó eszköz, illetve (átvitt értelemben) egy események, hatások köre, vagy egy ciklus."
+    }
+  },
+  "sw-tryblion": {
+    "strongs": 5165,
+    "original_word": "τρύβλιον",
+    "transliteration": "trýblion",
+    "language": "Greek",
+    "definition": {
+      "en": "a bowl",
+      "hu": "tál, edény, üst"
+    }
+  },
+  "sw-trygao": {
+    "strongs": 5166,
+    "original_word": "τρυγάω",
+    "transliteration": "trygáō",
+    "language": "Greek",
+    "definition": {
+      "en": "to collect the vintage",
+      "hu": "szőlőszemet szüretelni, a szüret begyűjtése"
+    }
+  },
+  "sw-trygon": {
+    "strongs": 5167,
+    "original_word": "τρυγών",
+    "transliteration": "trygṓn",
+    "language": "Greek",
+    "definition": {
+      "en": "akin to G5149 (τρίζω), but denoting a duller sound), a turtle-dove (as cooing)",
+      "hu": "galamb, különösen a gerle, annak búgó hangja alapján"
+    }
+  },
+  "sw-trymalia": {
+    "strongs": 5168,
+    "original_word": "τρυμαλιά",
+    "transliteration": "trymaliá",
+    "language": "Greek",
+    "definition": {
+      "en": "akin to the base of G5134 (τραῦμα), G5147 (τρίβος) and G5176 (τρώγω)), an orifice, i.e. needle's eye",
+      "hu": "szemkagyló, vagyis a tű lyuka"
+    }
+  },
+  "sw-trypema": {
+    "strongs": 5169,
+    "original_word": "τρύπημα",
+    "transliteration": "trýpēma",
+    "language": "Greek",
+    "definition": {
+      "en": "an aperture, i.e. a needle's eye",
+      "hu": "nyílás, különösen tűszem"
+    }
+  },
+  "sw-tryphaina": {
+    "strongs": 5170,
+    "original_word": "Τρύφαινα",
+    "transliteration": "Trýphaina",
+    "language": "Greek",
+    "definition": {
+      "en": "luxurious, Tryphæna, a Christian woman",
+      "hu": "kényelmes, Tryphaina, egy keresztény nő"
+    }
+  },
+  "sw-tryphao": {
+    "strongs": 5171,
+    "original_word": "τρυφάω",
+    "transliteration": "trypháō",
+    "language": "Greek",
+    "definition": {
+      "en": "to indulge in luxury",
+      "hu": "kényeztetni, luxusban élni, kényeztetni valakit, finoman bánni valakivel, gyöngéden nevelni (gyermekkel kapcsolatban)"
+    }
+  },
+  "sw-tryphe": {
+    "strongs": 5172,
+    "original_word": "τρυφή",
+    "transliteration": "tryphḗ",
+    "language": "Greek",
+    "definition": {
+      "en": "effeminacy, i.e. luxury or debauchery",
+      "hu": "puhaság, túlzott kényelem, vagy erkölcstelen életmód."
+    }
+  },
+  "sw-tryphosa": {
+    "strongs": 5173,
+    "original_word": "Τρυφῶσα",
+    "transliteration": "Tryphōsa",
+    "language": "Greek",
+    "definition": {
+      "en": "luxuriating, Tryphosa, a Christian female",
+      "hu": "luxusban élő, Tryphosa, egy keresztény nő"
+    }
+  },
+  "sw-troas": {
+    "strongs": 5174,
+    "original_word": "Τρωάς",
+    "transliteration": "Trōás",
+    "language": "Greek",
+    "definition": {
+      "en": "the Troad (or plain of Troy), i.e. Troas, a place in Asia Minor",
+      "hu": "Tróász, Ázsia tartományában található hely, a trójai síkság (vagy Trója vidéke)"
+    }
+  },
+  "sw-trogyllion": {
+    "strongs": 5175,
+    "original_word": "Τρωγύλλιον",
+    "transliteration": "Trōgýllion",
+    "language": "Greek",
+    "definition": {
+      "en": "Trogyllium, a place in Asia Minor",
+      "hu": "Trógyllium, egy hely Ázsia Kis-Ázsiájában."
+    }
+  },
+  "sw-trogo": {
+    "strongs": 5176,
+    "original_word": "τρώγω",
+    "transliteration": "trṓgō",
+    "language": "Greek",
+    "definition": {
+      "en": "or perhaps rather of a base of G5167 (τρυγών) and G5149 (τρίζω) through the idea of a craunching sound, to gnaw or chew, i.e. (generally) to eat",
+      "hu": "rágni, általában enni (a hangzás utánzásától, mint amikor valami ropog, származik, vagy a gyökere a szőlőszem szüretelésében és a ropogó hangban rejlik)"
+    }
+  },
+  "sw-tynchano": {
+    "strongs": 5177,
+    "original_word": "τυγχάνω",
+    "transliteration": "tynchánō",
+    "language": "Greek",
+    "definition": {
+      "en": "akin to the base of G5088 (τίκτω) through the idea of effecting, properly, to affect, or (specially), to hit or light upon (as a mark to be reached), i.e. (transitively) to attain or secure an object or end, or (intransitively) to happen (as if meeting with), but in the latter application only impersonal (with G1487 (εἰ)), i.e. perchance, or (present participle) as adjective, usual (as if commonly met with, with G3756 (οὐ), extraordinary), neuter (as adverb) perhaps, or (with another verb) as adverb, by accident (as it were)",
+      "hu": "valósiť, elérni, jutni valamihez, véletlenül megtörténni, találni valamit, esetleg, talán, szokásos, rendkívüli, véletlenül (mintha)"
+    }
+  },
+  "sw-tympanizo": {
+    "strongs": 5178,
+    "original_word": "τυμπανίζω",
+    "transliteration": "tympanízō",
+    "language": "Greek",
+    "definition": {
+      "en": "to stretch on an instrument of torture resembling a drum, and thus beat to death",
+      "hu": "kínvallásra stretched, egy dobhoz hasonló szerkezeten, és így halálra verni."
+    }
+  },
+  "sw-typos": {
+    "strongs": 5179,
+    "original_word": "τύπος",
+    "transliteration": "týpos",
+    "language": "Greek",
+    "definition": {
+      "en": "a die (as struck), i.e. (by implication) a stamp or scar, by analogy, a shape, i.e. a statue, (figuratively) style or resemblance, specially, a sampler ('type'), i.e. a model (for imitation) or instance (for warning)",
+      "hu": "bélyegző, mint verő, (implikációval) bélyeg vagy sebhely, hasonlatosság alapján forma, azaz szobor, (átvitt értelemben) stílus vagy hasonlóság, különösen minta ('típus'), azaz példakép (utánzásra) vagy intő példa (figyelmeztetésre)"
+    }
+  },
+  "sw-typto": {
+    "strongs": 5180,
+    "original_word": "τύπτω",
+    "transliteration": "týptō",
+    "language": "Greek",
+    "definition": {
+      "en": "to 'thump', i.e. cudgel or pummel (properly, with a stick or bastinado), but in any case by repeated blows, thus differing from G3817 (παίω) and G3960 (πατάσσω), which denote a (usually single) blow with the hand or any instrument, or G4141 (πλήσσω) with the fist (or a hammer), or G4474 (ῥαπίζω) with the palm, as well as from G5177 (τυγχάνω), an accidental collision), by implication, to punish, figuratively, to offend (the conscience)",
+      "hu": "ütni, ostorozni, megverni (botral, vagy más eszközzel, ismételt ütésekkel, ellentétben a G3817 [páió] és G3960 [patásszó] szavakkal, melyek egyetlen ütést jelentenek kézzel vagy bármilyen eszközzel, vagy a G4141 [plésszó] ököllel (vagy kalapáccsal), vagy a G4474 [rhapízó] tenyérrel való ütést, továbbá a G5177 [tünchánó] véletlen ütközéstől), átvitt értelemben büntetni, lelkiismeretet sértő cselekedetet elkövetni."
+    }
+  },
+  "sw-tyrannos": {
+    "strongs": 5181,
+    "original_word": "Τύραννος",
+    "transliteration": "Týrannos",
+    "language": "Greek",
+    "definition": {
+      "en": "a 'tyrant', Tyrannus, an Ephesian",
+      "hu": "zsarnok, uralkodó, Tirannusz, egy efézusi ember"
+    }
+  },
+  "sw-tyrbazo": {
+    "strongs": 5182,
+    "original_word": "τυρβάζω",
+    "transliteration": "tyrbázō",
+    "language": "Greek",
+    "definition": {
+      "en": "akin to G2351 (θόρυβος)), to make 'turbid', i.e. disturb",
+      "hu": "felkavarni, zavarosítani, nyugtalanítani, zúzni, háborgatni"
+    }
+  },
+  "sw-tyrios": {
+    "strongs": 5183,
+    "original_word": "Τύριος",
+    "transliteration": "Týrios",
+    "language": "Greek",
+    "definition": {
+      "en": "a Tyrian, i.e. inhabitant of Tyrus",
+      "hu": "tíruszi, vagyis Türosz lakója"
+    }
+  },
+  "sw-tyros": {
+    "strongs": 5184,
+    "original_word": "Τύρος",
+    "transliteration": "Týros",
+    "language": "Greek",
+    "definition": {
+      "en": "",
+      "hu": ""
+    }
+  },
+  "sw-typhlos": {
+    "strongs": 5185,
+    "original_word": "τυφλός",
+    "transliteration": "typhlós",
+    "language": "Greek",
+    "definition": {
+      "en": "opaque (as if smoky), i.e. (by analogy) blind (physically or mentally)",
+      "hu": "vak, átlátszatlan (mintha füstös lenne), fizikai vagy szellemi értelmben (látásképtelen)"
+    }
+  },
+  "sw-typhloo": {
+    "strongs": 5186,
+    "original_word": "τυφλόω",
+    "transliteration": "typhlóō",
+    "language": "Greek",
+    "definition": {
+      "en": "to make blind, i.e. (figuratively) to obscure",
+      "hu": "vakítani, elkendőzni (átvitt értelemben)"
+    }
+  },
+  "sw-typhoo": {
+    "strongs": 5187,
+    "original_word": "τυφόω",
+    "transliteration": "typhóō",
+    "language": "Greek",
+    "definition": {
+      "en": "to envelop with smoke, i.e. (figuratively) to inflate with self-conceit",
+      "hu": "füsttel betölteni, beborítani; (átvitt értelemben) felfújni, gőgössé tenni, önmagával való elszállásban elveszni."
+    }
+  },
+  "sw-typho": {
+    "strongs": 5188,
+    "original_word": "τύφω",
+    "transliteration": "týphō",
+    "language": "Greek",
+    "definition": {
+      "en": "to make a smoke, i.e. slowly consume without flame",
+      "hu": "füstölni, lassan elégetni láng nélkül, párologtatni, ködöt képezni."
+    }
+  },
+  "sw-typhonikos": {
+    "strongs": 5189,
+    "original_word": "τυφωνικός",
+    "transliteration": "typhōnikós",
+    "language": "Greek",
+    "definition": {
+      "en": "stormy (as if smoky)",
+      "hu": "viharos (mintha füstös lenne)"
+    }
+  },
+  "sw-tychikos": {
+    "strongs": 5190,
+    "original_word": "Τυχικός",
+    "transliteration": "Tychikós",
+    "language": "Greek",
+    "definition": {
+      "en": "fortuitous, i.e. fortunate, Tychicus, a Christian",
+      "hu": "véletlen, szerencsés, Tükikosz, egy keresztény"
+    }
+  },
+  "sw-hyakinthinos": {
+    "strongs": 5191,
+    "original_word": "ὑακίνθινος",
+    "transliteration": "hyakínthinos",
+    "language": "Greek",
+    "definition": {
+      "en": "'hyacinthine' or 'jacinthine', i.e. deep blue",
+      "hu": "hiacintos színű, vagyis mély kék."
+    }
+  },
+  "sw-hyakinthos": {
+    "strongs": 5192,
+    "original_word": "ὑάκινθος",
+    "transliteration": "hyákinthos",
+    "language": "Greek",
+    "definition": {
+      "en": "the 'hyacinth' or 'jacinth', i.e. some gem of a deep blue color, probably the zirkon",
+      "hu": "jácint, vagyis mélykékes színű drágakő, valószínűleg a cirkon."
+    }
+  },
+  "sw-hyalinos": {
+    "strongs": 5193,
+    "original_word": "ὑάλινος",
+    "transliteration": "hyálinos",
+    "language": "Greek",
+    "definition": {
+      "en": "glassy, i.e. transparent",
+      "hu": "üvegyszerű, azaz átlátszó, kristályszerűen tiszta."
+    }
+  },
+  "sw-hyalos": {
+    "strongs": 5194,
+    "original_word": "ὕαλος",
+    "transliteration": "hýalos",
+    "language": "Greek",
+    "definition": {
+      "en": "glass",
+      "hu": "üveg, átlátszó anyag, tükör, vagy üvegből készült edény"
+    }
+  },
+  "sw-hybrizo": {
+    "strongs": 5195,
+    "original_word": "ὑβρίζω",
+    "transliteration": "hybrízō",
+    "language": "Greek",
+    "definition": {
+      "en": "to exercise violence, i.e. abuse",
+      "hu": "erőszakolkozni, bántalmazni, megalázni, gúnyolni, túlzásba vinni (valamit)"
+    }
+  },
+  "sw-hybris": {
+    "strongs": 5196,
+    "original_word": "ὕβρις",
+    "transliteration": "hýbris",
+    "language": "Greek",
+    "definition": {
+      "en": "insolence (as over-bearing), i.e. insult, injury",
+      "hu": "szorongás, gőgösség, megvetés, sértés, bűnös gőg, istenellenes felfuvalkodás."
+    }
+  },
+  "sw-hybristes": {
+    "strongs": 5197,
+    "original_word": "ὑβριστής",
+    "transliteration": "hybristḗs",
+    "language": "Greek",
+    "definition": {
+      "en": "an insulter, i.e. maltreater",
+      "hu": "megalázó, bántalmazó, gúnyoló, erőszakoskodó, aki túlmegy a határokon és másokat megaláz."
+    }
+  },
+  "sw-hygiaino": {
+    "strongs": 5198,
+    "original_word": "ὑγιαίνω",
+    "transliteration": "hygiaínō",
+    "language": "Greek",
+    "definition": {
+      "en": "to have sound health, i.e. be well (in body), figuratively, to be uncorrupt (true in doctrine)",
+      "hu": "egészségesnek lenni, azaz jó egészségben lenni (testben), átvitt értelemben pedig romlatlanul, igazságosan tanítani (doktrinálisan)"
+    }
+  },
+  "sw-hygies": {
+    "strongs": 5199,
+    "original_word": "ὑγιής",
+    "transliteration": "hygiḗs",
+    "language": "Greek",
+    "definition": {
+      "en": "healthy, i.e. well (in body), figuratively, true (in doctrine)",
+      "hu": "egészséges, testben jóllétben lévő, átvitt értelemben igaz (tanításban)"
+    }
+  },
+  "sw-hygros": {
+    "strongs": 5200,
+    "original_word": "ὑγρός",
+    "transliteration": "hygrós",
+    "language": "Greek",
+    "definition": {
+      "en": "wet (as if with rain), i.e. (by implication) sappy (fresh)",
+      "hu": "nedves (mintha esőtől lenne), azaz (következtetésként) lédús (friss)"
+    }
+  },
+  "sw-hydria": {
+    "strongs": 5201,
+    "original_word": "ὑδρία",
+    "transliteration": "hydría",
+    "language": "Greek",
+    "definition": {
+      "en": "a water-jar, i.e. receptacle for family supply",
+      "hu": "váz, vagy edény, mely a család vízellátására szolgál."
+    }
+  },
+  "sw-hydropoteo": {
+    "strongs": 5202,
+    "original_word": "ὑδροποτέω",
+    "transliteration": "hydropotéō",
+    "language": "Greek",
+    "definition": {
+      "en": "to be a water-drinker, i.e. to abstain from vinous beverages",
+      "hu": "vizet inni, vagyis szeszes italoktól tartózkodni."
+    }
+  },
+  "sw-hydropikos": {
+    "strongs": 5203,
+    "original_word": "ὑδρωπικός",
+    "transliteration": "hydrōpikós",
+    "language": "Greek",
+    "definition": {
+      "en": "to be 'dropsical'",
+      "hu": "vízkórral küzdő, vízkórban szenvedő, ödémás (testfolyadék felhalmozódása miatt duzzadt)"
+    }
+  },
+  "sw-hydor": {
+    "strongs": 5204,
+    "original_word": "ὕδωρ",
+    "transliteration": "hýdōr",
+    "language": "Greek",
+    "definition": {
+      "en": "water (as if rainy) literally or figuratively",
+      "hu": "víz, szó szerint (esőként), vagy átvitt értelemben (folyadék, forrás, életadó erő)"
+    }
+  },
+  "sw-hyetos": {
+    "strongs": 5205,
+    "original_word": "ὑετός",
+    "transliteration": "hyetós",
+    "language": "Greek",
+    "definition": {
+      "en": "rain, especially a shower",
+      "hu": "eső, különösen zápor"
+    }
+  },
+  "sw-huiothesia": {
+    "strongs": 5206,
+    "original_word": "υἱοθεσία",
+    "transliteration": "huiothesía",
+    "language": "Greek",
+    "definition": {
+      "en": "the placing as a son, i.e. adoption (figuratively, Christian sonship in respect to God)",
+      "hu": "örökbefogadás, azaz fiúsítás, (átvitt értelemben: a keresztény örökfiúság Istellettben)"
+    }
+  },
+  "sw-huios": {
+    "strongs": 5207,
+    "original_word": "υἱός",
+    "transliteration": "huiós",
+    "language": "Greek",
+    "definition": {
+      "en": "a 'son' (sometimes of animals), used very widely of immediate, remote or figuratively, kinship",
+      "hu": "fiú, szó szerinti, közvetlen, távoli vagy átvitt értelemben vett rokonság, leszármazás."
+    }
+  },
+  "sw-hyle": {
+    "strongs": 5208,
+    "original_word": "ὕλη",
+    "transliteration": "hýlē",
+    "language": "Greek",
+    "definition": {
+      "en": "a forest, i.e. (by implication) fuel",
+      "hu": "erdő, vagy (átvitt értelemben) tüzelőanyag"
+    }
+  },
+  "sw-hymas": {
+    "strongs": 5209,
+    "original_word": "ὑμᾶς",
+    "transliteration": "hymâs",
+    "language": "Greek",
+    "definition": {
+      "en": "you (as the objective of a verb or preposition)",
+      "hu": "titeket (mint egy ige vagy előtag tárgya)"
+    }
+  },
+  "sw-hymeis": {
+    "strongs": 5210,
+    "original_word": "ὑμεῖς",
+    "transliteration": "hymeîs",
+    "language": "Greek",
+    "definition": {
+      "en": "you (as subjective of verb)",
+      "hu": "ti, mint az ige alanya"
+    }
+  },
+  "sw-hymenaios": {
+    "strongs": 5211,
+    "original_word": "Ὑμεναῖος",
+    "transliteration": "Hymenaîos",
+    "language": "Greek",
+    "definition": {
+      "en": "'hymenæal', Hymenæus, an opponent of Christianity",
+      "hu": "hymenaioszi, egy Krisztus-ellenes személy, esküvői énekhez vagy az esküvői ünnepséghez kapcsolódó."
+    }
+  },
+  "sw-hymeteros": {
+    "strongs": 5212,
+    "original_word": "ὑμέτερος",
+    "transliteration": "hyméteros",
+    "language": "Greek",
+    "definition": {
+      "en": "yours, i.e. pertaining to you",
+      "hu": "tiétek, azaz hozzátok tartozó, a ti birtokotokban lévő vagy tiétekhez kapcsolódó."
+    }
+  },
+  "sw-hymin": {
+    "strongs": 5213,
+    "original_word": "ὑμῖν",
+    "transliteration": "hymîn",
+    "language": "Greek",
+    "definition": {
+      "en": "to (with or by) you",
+      "hu": "nektek, tihez, vagy ti által (vagy rajtatok keresztül)"
+    }
+  },
+  "sw-hymneo": {
+    "strongs": 5214,
+    "original_word": "ὑμνέω",
+    "transliteration": "hymnéō",
+    "language": "Greek",
+    "definition": {
+      "en": "to hymn, i.e. sing a religious ode, by implication, to celebrate (God) in song",
+      "hu": "himnuszolni, vallásos éneket zengeni, istent dicsőíteni énekben, áldani énekszerűen."
+    }
+  },
+  "sw-hymnos": {
+    "strongs": 5215,
+    "original_word": "ὕμνος",
+    "transliteration": "hýmnos",
+    "language": "Greek",
+    "definition": {
+      "en": "probably akin to G103 (ᾄδω), compare H05667), a 'hymn' or religious ode (one of the Psalms)",
+      "hu": "himnusz, valószínűleg G103-hoz (éneklek) kapcsolódóan, hasonlatos a H05667-hez, vallásos ének vagy himnusz (a zsoltárok egyike)"
+    }
+  },
+  "sw-hymon": {
+    "strongs": 5216,
+    "original_word": "ὑμῶν",
+    "transliteration": "hymōn",
+    "language": "Greek",
+    "definition": {
+      "en": "of (from or concerning) you",
+      "hu": "tiétek, tőletek, rólatok, hozzátok tartozó"
+    }
+  },
+  "sw-hypago": {
+    "strongs": 5217,
+    "original_word": "ὑπάγω",
+    "transliteration": "hypágō",
+    "language": "Greek",
+    "definition": {
+      "en": "to lead (oneself) under, i.e. withdraw or retire (as if sinking out of sight), literally or figuratively",
+      "hu": "visszavonulni, eltávozni, elmenni (mintha a szem elől tűnne), szó szerint vagy átvitt értelemben."
+    }
+  },
+  "sw-hypakoe": {
+    "strongs": 5218,
+    "original_word": "ὑπακοή",
+    "transliteration": "hypakoḗ",
+    "language": "Greek",
+    "definition": {
+      "en": "attentive hearkening, i.e. (by implication) compliance or submission",
+      "hu": "figyelmes hallgatás, azaz (következtetésként) engedelmesség vagy alávetés"
+    }
+  },
+  "sw-hypakouo": {
+    "strongs": 5219,
+    "original_word": "ὑπακούω",
+    "transliteration": "hypakoúō",
+    "language": "Greek",
+    "definition": {
+      "en": "to hear under (as a subordinate), i.e. to listen attentively, by implication, to heed or conform to a command or authority",
+      "hu": "alárendelten hallgatni (mintha valaki engedelmesen hallgatna), azaz figyelmesen hallgatni, következményként engedelmeskedni vagy egy parancsnak vagy tekintélynek megfelelően viselkedni."
+    }
+  },
+  "sw-hypandros": {
+    "strongs": 5220,
+    "original_word": "ὕπανδρος",
+    "transliteration": "hýpandros",
+    "language": "Greek",
+    "definition": {
+      "en": "in subjection under a man, i.e. a married woman",
+      "hu": "férj alárendeltségben, azaz férjes asszony"
+    }
+  },
+  "sw-hypantao": {
+    "strongs": 5221,
+    "original_word": "ὑπαντάω",
+    "transliteration": "hypantáō",
+    "language": "Greek",
+    "definition": {
+      "en": "to go opposite (meet) under (quietly), i.e. to encounter, fall in with",
+      "hu": "találkozni, összefutni, szembe kerülni, ellenkező irányba menni (találkozás céljából)"
+    }
+  },
+  "sw-hypantesis": {
+    "strongs": 5222,
+    "original_word": "ὑπάντησις",
+    "transliteration": "hypántēsis",
+    "language": "Greek",
+    "definition": {
+      "en": "an encounter or concurrence (with G1519 (εἰς) for infinitive, in order to fall in with)",
+      "hu": "találkozás, összeütközés, egymásba fonódás (azaz egybeesés, összefogás, találkozás egy céllal vagy szándékkal)"
+    }
+  },
+  "sw-hyparxis": {
+    "strongs": 5223,
+    "original_word": "ὕπαρξις",
+    "transliteration": "hýparxis",
+    "language": "Greek",
+    "definition": {
+      "en": "existency or proprietorship, i.e. (concretely) property, wealth",
+      "hu": "létezés vagy tulajdonjog, azaz (konkrétan) vagyon, birtok."
+    }
+  },
+  "sw-hyparchonta": {
+    "strongs": 5224,
+    "original_word": "ὑπάρχοντα",
+    "transliteration": "hypárchonta",
+    "language": "Greek",
+    "definition": {
+      "en": "things extant or in hand, i.e. property or possessions",
+      "hu": "létező dolgok, jelenvaló javak, birtok, vagyon, tulajdon."
+    }
+  },
+  "sw-hyparcho": {
+    "strongs": 5225,
+    "original_word": "ὑπάρχω",
+    "transliteration": "hypárchō",
+    "language": "Greek",
+    "definition": {
+      "en": "to begin under (quietly), i.e. come into existence (be present or at hand), expletively, to exist (as copula or subordinate to an adjective, participle, adverb or preposition, or as an auxiliary to a principal (verb)",
+      "hu": "létezni, eredni, felmerülni, jelen lenni, (szókapcsolatban) kapcsolódó igealakként funkcionálni, vagy mellérendelt szóként szerepelni."
+    }
+  },
+  "sw-hypeiko": {
+    "strongs": 5226,
+    "original_word": "ὑπείκω",
+    "transliteration": "hypeíkō",
+    "language": "Greek",
+    "definition": {
+      "en": "to surrender",
+      "hu": "alávetni magunkat, engedelmeskedni, behódolni, megadni magunkat (valakinek vagy valaminek)"
+    }
+  },
+  "sw-hypenantios": {
+    "strongs": 5227,
+    "original_word": "ὑπεναντίος",
+    "transliteration": "hypenantíos",
+    "language": "Greek",
+    "definition": {
+      "en": "under (covertly) contrary to, i.e. opposed or (as noun) an opponent",
+      "hu": "ellentétes (titokban, alattomosan), azaz ellenséges vagy (főnévként) ellenfél."
+    }
+  },
+  "sw-hyper": {
+    "strongs": 5228,
+    "original_word": "ὑπέρ",
+    "transliteration": "hypér",
+    "language": "Greek",
+    "definition": {
+      "en": "'over', i.e. (with the genitive case) of place, above, beyond, across, or causal, for the sake of, instead, regarding, with the accusative case superior to, more than",
+      "hu": "fölött, fölé, túl, keresztül, vagy okból, valakinek érdekében, helyettesítésül, tekintettel, valamire nézve, fölényesen, többre"
+    }
+  },
+  "sw-hyperairomai": {
+    "strongs": 5229,
+    "original_word": "ὑπεραίρομαι",
+    "transliteration": "hyperaíromai",
+    "language": "Greek",
+    "definition": {
+      "en": "to raise oneself over, i.e. (figuratively) to become haughty",
+      "hu": "magasztoskodni, fölmagasztosodni, gőgös lenni, fölényeskedni"
+    }
+  },
+  "sw-hyperakmos": {
+    "strongs": 5230,
+    "original_word": "ὑπέρακμος",
+    "transliteration": "hypérakmos",
+    "language": "Greek",
+    "definition": {
+      "en": "beyond the 'acme', i.e. figuratively (of a daughter) past the bloom (prime) of youth",
+      "hu": "a csúcson túl, azaz alakilag (egy lányra vonatkozóan) az ifjúság virágzásának elmúltával, a teljesség utáni időszakban."
+    }
+  },
+  "sw-hyperano": {
+    "strongs": 5231,
+    "original_word": "ὑπεράνω",
+    "transliteration": "hyperánō",
+    "language": "Greek",
+    "definition": {
+      "en": "above upward, i.e. greatly higher (in place or rank)",
+      "hu": "fölött, feljebb, magasabban – helyzetben vagy rangban jelentősen felülmúlva, magasabb szinten állva."
+    }
+  },
+  "sw-hyperauxano": {
+    "strongs": 5232,
+    "original_word": "ὑπεραυξάνω",
+    "transliteration": "hyperauxánō",
+    "language": "Greek",
+    "definition": {
+      "en": "to increase above ordinary degree",
+      "hu": "túlságosan növelni, rendkívül fokozni, mélyen elhaladni a szokásos mértéken"
+    }
+  },
+  "sw-hyperbaino": {
+    "strongs": 5233,
+    "original_word": "ὑπερβαίνω",
+    "transliteration": "hyperbaínō",
+    "language": "Greek",
+    "definition": {
+      "en": "to transcend, i.e. (figuratively) to overreach",
+      "hu": "túllépni, meghaladni, átlépni (pl. egy határt vagy korlátot), túlzóan cselekedni (átvitt értelemben)"
+    }
+  },
+  "sw-hyperballontos": {
+    "strongs": 5234,
+    "original_word": "ὑπερβαλλόντως",
+    "transliteration": "hyperballóntōs",
+    "language": "Greek",
+    "definition": {
+      "en": "excessively",
+      "hu": "túlságosan, mértéktelenül, rendkívül, felülmúlóan"
+    }
+  },
+  "sw-hyperballo": {
+    "strongs": 5235,
+    "original_word": "ὑπερβάλλω",
+    "transliteration": "hyperbállō",
+    "language": "Greek",
+    "definition": {
+      "en": "to throw beyod the usual mark, i.e. (figuratively) to surpass (only active participle supereminent)",
+      "hu": "túllépni, meghaladni, felülmúlni (az átvitt értelemben kiemelkedő, páratlan minőségű)"
+    }
+  },
+  "sw-hyperbole": {
+    "strongs": 5236,
+    "original_word": "ὑπερβολή",
+    "transliteration": "hyperbolḗ",
+    "language": "Greek",
+    "definition": {
+      "en": "a throwing beyond others, i.e. (figuratively) supereminence, adverbially (with G1519 (εἰς) or G2596 (κατά)) pre- eminently",
+      "hu": "túlzás, másokon túli vetés, azaz (alakos értelemben) kiemelkedőség, mellérendűség; hatádszóként (G1519-cel (eis) vagy G2596-tal (kata)) kiemelten, túlságosan, rendkívül."
+    }
+  },
+  "sw-hypereido": {
+    "strongs": 5237,
+    "original_word": "ὑπερείδω",
+    "transliteration": "hypereídō",
+    "language": "Greek",
+    "definition": {
+      "en": "to overlook, i.e. not punish",
+      "hu": "elmulasztani, nem büntetni, tekintet nélkül hagyni, megbocsátani."
+    }
+  },
+  "sw-hyperekeina": {
+    "strongs": 5238,
+    "original_word": "ὑπερέκεινα",
+    "transliteration": "hyperékeina",
+    "language": "Greek",
+    "definition": {
+      "en": "above those parts, i.e. still farther",
+      "hu": "azokon felül, még távolabb, magasabban, annál is messzebb"
+    }
+  },
+  "sw-hyperekteino": {
+    "strongs": 5239,
+    "original_word": "ὑπερεκτείνω",
+    "transliteration": "hyperekteínō",
+    "language": "Greek",
+    "definition": {
+      "en": "to extend inordinately",
+      "hu": "túlzottan kiterjeszteni, túlmérten nyújtani, túlságosan elnyújtani, mértéktelenül bővíteni"
+    }
+  },
+  "sw-hyperekchyno": {
+    "strongs": 5240,
+    "original_word": "ὑπερεκχύνω",
+    "transliteration": "hyperekchýnō",
+    "language": "Greek",
+    "definition": {
+      "en": "to pour out over, i.e. (passively) to overflow",
+      "hu": "kiönteni valami fölé, túláradni (átvitt értelemben is)"
+    }
+  },
+  "sw-hyperentynchano": {
+    "strongs": 5241,
+    "original_word": "ὑπερεντυγχάνω",
+    "transliteration": "hyperentynchánō",
+    "language": "Greek",
+    "definition": {
+      "en": "to intercede in behalf of",
+      "hu": "közbenjárni valakinek érdekében, segíteni könyörgéssel, fáradozni valakinek nevében."
+    }
+  },
+  "sw-hyperecho": {
+    "strongs": 5242,
+    "original_word": "ὑπερέχω",
+    "transliteration": "hyperéchō",
+    "language": "Greek",
+    "definition": {
+      "en": "to hold oneself above, i.e. (figuratively) to excel, participle (as adjective, or neuter as noun) superior, superiority",
+      "hu": "kiemelkedni, felülmúlni, fölé emelkedni, fölényben lenni, fölényesség, túlzottan viselkedni (azaz magasan tartani magát)"
+    }
+  },
+  "sw-hyperephania": {
+    "strongs": 5243,
+    "original_word": "ὑπερηφανία",
+    "transliteration": "hyperēphanía",
+    "language": "Greek",
+    "definition": {
+      "en": "haughtiness",
+      "hu": "magasabbrendűség, gőg, büszkeség, fölényesség, nagyzás – negatív értelemben vett önmagaslatosság, ami Isten előtt vétkes."
+    }
+  },
+  "sw-hyperephanos": {
+    "strongs": 5244,
+    "original_word": "ὑπερήφανος",
+    "transliteration": "hyperḗphanos",
+    "language": "Greek",
+    "definition": {
+      "en": "appearing above others (conspicuous), i.e. (figuratively) haughty",
+      "hu": "magasan álló, mások fölé emelkedő (szembetűnő), alakos szóban gőgös, kevély, büszke."
+    }
+  },
+  "sw-hypernikao": {
+    "strongs": 5245,
+    "original_word": "ὑπερνικάω",
+    "transliteration": "hypernikáō",
+    "language": "Greek",
+    "definition": {
+      "en": "to vanquish beyond, i.e. gain a decisive victory",
+      "hu": "győzni, túlzúzni, diadalmaskodni, legyőzni, minden kétség felett győzedelmeskedni."
+    }
+  },
+  "sw-hyperonkos": {
+    "strongs": 5246,
+    "original_word": "ὑπέρογκος",
+    "transliteration": "hypéronkos",
+    "language": "Greek",
+    "definition": {
+      "en": "bulging over, i.e. (figuratively) insolent",
+      "hu": "kiálló, túlzó, gőgös, felfuvalkodott, nagyképű"
+    }
+  },
+  "sw-hyperoche": {
+    "strongs": 5247,
+    "original_word": "ὑπεροχή",
+    "transliteration": "hyperochḗ",
+    "language": "Greek",
+    "definition": {
+      "en": "prominence, i.e. (figuratively) superiority (in rank or character)",
+      "hu": "kiemelkedés, elsőbbség (rangban vagy jellemben)"
+    }
+  },
+  "sw-hyperperisseuo": {
+    "strongs": 5248,
+    "original_word": "ὑπερπερισσεύω",
+    "transliteration": "hyperperisseúō",
+    "language": "Greek",
+    "definition": {
+      "en": "to super-abound",
+      "hu": "túlnyomóan bőséges lenni, rendkívül túlteljesedni, felülmúlni minden mértéket, bőségesen árasztani (pl. kegyelemmel, áldással)"
+    }
+  },
+  "sw-hyperperissos": {
+    "strongs": 5249,
+    "original_word": "ὑπερπερισσῶς",
+    "transliteration": "hyperperissōs",
+    "language": "Greek",
+    "definition": {
+      "en": "superabundantly, i.e. exceedingly",
+      "hu": "túlmértékben, rendkívül bőségesen, túlságosan, kimérhetetlenül, fölülmúlva minden mértéket"
+    }
+  },
+  "sw-hyperpleonazo": {
+    "strongs": 5250,
+    "original_word": "ὑπερπλεονάζω",
+    "transliteration": "hyperpleonázō",
+    "language": "Greek",
+    "definition": {
+      "en": "to superabound",
+      "hu": "túlságosan bővelkedni, túlzúzni, túlmérni, bőségesen adni, fölényesen kinülni."
+    }
+  },
+  "sw-hyperypsoo": {
+    "strongs": 5251,
+    "original_word": "ὑπερυψόω",
+    "transliteration": "hyperypsóō",
+    "language": "Greek",
+    "definition": {
+      "en": "to elevate above others, i.e. raise to the highest position",
+      "hu": "magasabbra emelni másokon, azaz a legmagasabb pozícióba emelni"
+    }
+  },
+  "sw-hyperphroneo": {
+    "strongs": 5252,
+    "original_word": "ὑπερφρονέω",
+    "transliteration": "hyperphronéō",
+    "language": "Greek",
+    "definition": {
+      "en": "to esteem oneself overmuch, i.e. be vain or arrogant",
+      "hu": "magasan értékelni magát, gőgösnek vagy nagyképűnek lenni"
+    }
+  },
+  "sw-hyperoion": {
+    "strongs": 5253,
+    "original_word": "ὑπερῷον",
+    "transliteration": "hyperōion",
+    "language": "Greek",
+    "definition": {
+      "en": "a higher part of the house, i.e. apartment in the third story",
+      "hu": "felső lakrész, azaz a harmadik emeleten található lakás vagy szoba"
+    }
+  },
+  "sw-hypecho": {
+    "strongs": 5254,
+    "original_word": "ὑπέχω",
+    "transliteration": "hypéchō",
+    "language": "Greek",
+    "definition": {
+      "en": "to hold oneself under, i.e. endure with patience",
+      "hu": "kitartani, türelmesen elviselni, alávetni magunkat, szenvedni, tűrni"
+    }
+  },
+  "sw-hypekoos": {
+    "strongs": 5255,
+    "original_word": "ὑπήκοος",
+    "transliteration": "hypḗkoos",
+    "language": "Greek",
+    "definition": {
+      "en": "attentively listening, i.e. (by implication) submissive",
+      "hu": "figyelmesen hallgató, azaz (következményként) engedelmes, szófogadó"
+    }
+  },
+  "sw-hypereteo": {
+    "strongs": 5256,
+    "original_word": "ὑπηρετέω",
+    "transliteration": "hypēretéō",
+    "language": "Greek",
+    "definition": {
+      "en": "to be a subordinate, i.e. (by implication) subserve",
+      "hu": "alárendeltségben lenni, azaz (implikációban) szolgálni, segíteni, támogatni."
+    }
+  },
+  "sw-hyperetes": {
+    "strongs": 5257,
+    "original_word": "ὑπηρέτης",
+    "transliteration": "hypērétēs",
+    "language": "Greek",
+    "definition": {
+      "en": "an under-oarsman, i.e. (generally) subordinate (assistant, sexton, constable)",
+      "hu": "szolga, alárendelt, segítő, szolgálattevő, felügyelő (általános értelemben)"
+    }
+  },
+  "sw-hypnos": {
+    "strongs": 5258,
+    "original_word": "ὕπνος",
+    "transliteration": "hýpnos",
+    "language": "Greek",
+    "definition": {
+      "en": "sleep, i.e. (figuratively) spiritual torpor",
+      "hu": "álom, azaz (átvitt értelemben) lelki bénultság, tudatlanság."
+    }
+  },
+  "sw-hypo": {
+    "strongs": 5259,
+    "original_word": "ὑπό",
+    "transliteration": "hypó",
+    "language": "Greek",
+    "definition": {
+      "en": "under, i.e. (with the genitive case) of place (beneath), or with verbs (the agency or means, through), (with the accusative case) of place (whither (underneath) or where (below) or time (when (at))",
+      "hu": "alatt, azaz (genetívuszban) hely (alatt), vagy igékkel (eszközön keresztül), (akuzatívuszban) hely (ahová (alatt) vagy hol (lejjebb) vagy idő (mikor (nál))"
+    }
+  },
+  "sw-hypoballo": {
+    "strongs": 5260,
+    "original_word": "ὑποβάλλω",
+    "transliteration": "hypobállō",
+    "language": "Greek",
+    "definition": {
+      "en": "to throw in stealthily, i.e. introduce by collusion",
+      "hu": "titokban bevezetni, összeesküvésben, titkos megállapodással előadni, bejuttatni."
+    }
+  },
+  "sw-hypogrammos": {
+    "strongs": 5261,
+    "original_word": "ὑπογραμμός",
+    "transliteration": "hypogrammós",
+    "language": "Greek",
+    "definition": {
+      "en": "an underwriting, i.e. copy for imitation (figuratively)",
+      "hu": "aláírás, mintául szolgáló írás (átvitt értelemben)"
+    }
+  },
+  "sw-hypodeigma": {
+    "strongs": 5262,
+    "original_word": "ὑπόδειγμα",
+    "transliteration": "hypódeigma",
+    "language": "Greek",
+    "definition": {
+      "en": "an exhibit for imitation or warning (figuratively, specimen, adumbration)",
+      "hu": "példázat, mintakép, figyelmeztetésre szolgáló példa, előkép, árnyékkép (az elkövetkező dolgok előzetes bemutatása)"
+    }
+  },
+  "sw-hypodeiknymi": {
+    "strongs": 5263,
+    "original_word": "ὑποδείκνυμι",
+    "transliteration": "hypodeíknymi",
+    "language": "Greek",
+    "definition": {
+      "en": "to exhibit under the eyes, i.e. (figuratively) to exemplify (instruct, admonish)",
+      "hu": "bemutatni, szemléltetni, példázni (tanítani, inteni)"
+    }
+  },
+  "sw-hypodechomai": {
+    "strongs": 5264,
+    "original_word": "ὑποδέχομαι",
+    "transliteration": "hypodéchomai",
+    "language": "Greek",
+    "definition": {
+      "en": "to admit under one's roof, i.e. entertain hospitably",
+      "hu": "fogadni, vendégül látni, szállást adni, befogadni (valakit a házba, vendégszeretetből)"
+    }
+  },
+  "sw-hypodeo": {
+    "strongs": 5265,
+    "original_word": "ὑποδέω",
+    "transliteration": "hypodéō",
+    "language": "Greek",
+    "definition": {
+      "en": "to bind under one's feet, i.e. put on shoes or sandals",
+      "hu": "lábra kötni, azaz cipőt vagy szandált húzni"
+    }
+  },
+  "sw-hypodema": {
+    "strongs": 5266,
+    "original_word": "ὑπόδημα",
+    "transliteration": "hypódēma",
+    "language": "Greek",
+    "definition": {
+      "en": "something bound under the feet, i.e. a shoe or sandal",
+      "hu": "lábbeli, azaz cipő vagy szandál, a láb alá kötött valami."
+    }
+  },
+  "sw-hypodikos": {
+    "strongs": 5267,
+    "original_word": "ὑπόδικος",
+    "transliteration": "hypódikos",
+    "language": "Greek",
+    "definition": {
+      "en": "under sentence, i.e. (by implication) condemned",
+      "hu": "ítélet alatt álló, azaz (implikációval) elítélt."
+    }
+  },
+  "sw-hypozygion": {
+    "strongs": 5268,
+    "original_word": "ὑποζύγιον",
+    "transliteration": "hypozýgion",
+    "language": "Greek",
+    "definition": {
+      "en": "an animal under the yoke (draught-beast), i.e. (specially), a donkey",
+      "hu": "igás állat (tehén, öszvér vagy szam), különösen: szam, melyet igába fogtak, vagy teherhordó állat."
+    }
+  },
+  "sw-hypozonnymi": {
+    "strongs": 5269,
+    "original_word": "ὑποζώννυμι",
+    "transliteration": "hypozṓnnymi",
+    "language": "Greek",
+    "definition": {
+      "en": "to gird under, i.e. frap (a vessel with cables across the keel, sides and deck)",
+      "hu": "megszorítani, kötelezni (hajót), rögzíteni (kötéllel), megerősíteni (egy hajótestet kötelekkel a keresztrudazat, oldalak és fedélzet mentén)"
+    }
+  },
+  "sw-hypokato": {
+    "strongs": 5270,
+    "original_word": "ὑποκάτω",
+    "transliteration": "hypokátō",
+    "language": "Greek",
+    "definition": {
+      "en": "down under, i.e. beneath",
+      "hu": "alatt, lejjebb, alatta, a felület alatt, alulról"
+    }
+  },
+  "sw-hypokrinomai": {
+    "strongs": 5271,
+    "original_word": "ὑποκρίνομαι",
+    "transliteration": "hypokrínomai",
+    "language": "Greek",
+    "definition": {
+      "en": "to decide (speak or act) under a false part, i.e. (figuratively) dissemble (pretend)",
+      "hu": "színlelni, álcázni, képmutatni, hamis előadást tartani (valaki másnak látszani, mint amilyen valójában)"
+    }
+  },
+  "sw-hypokrisis": {
+    "strongs": 5272,
+    "original_word": "ὑπόκρισις",
+    "transliteration": "hypókrisis",
+    "language": "Greek",
+    "definition": {
+      "en": "acting under a feigned part, i.e. (figuratively) deceit ('hypocrisy')",
+      "hu": "színlelés, álarcos viselkedés, képmutatás (az igaz hit vagy érzés elrejtése, álcázása)"
+    }
+  },
+  "sw-hypokrites": {
+    "strongs": 5273,
+    "original_word": "ὑποκριτής",
+    "transliteration": "hypokritḗs",
+    "language": "Greek",
+    "definition": {
+      "en": "an actor under an assumed character (stage-player), i.e. (figuratively) a dissembler ('hypocrite'",
+      "hu": "színész, álcázott szerepet játszó (színpadon), illetve (átvitt értelemben) képmutató, színlelő."
+    }
+  },
+  "sw-hypolambano": {
+    "strongs": 5274,
+    "original_word": "ὑπολαμβάνω",
+    "transliteration": "hypolambánō",
+    "language": "Greek",
+    "definition": {
+      "en": "to take from below, i.e. carry upward, figuratively, to take up, i.e. continue a discourse or topic, mentally, to assume (presume)",
+      "hu": "felvenni, felmagasztosni, továbbvinni (beszédet vagy témát), feltételezni, gondolni"
+    }
+  },
+  "sw-hypoleipo": {
+    "strongs": 5275,
+    "original_word": "ὑπολείπω",
+    "transliteration": "hypoleípō",
+    "language": "Greek",
+    "definition": {
+      "en": "to leave under (behind), i.e. (passively) to remain (survive)",
+      "hu": "hátrahagyni (valamit), visszahagyni; (passzívban) megmaradni, fennmaradni, életben maradni, túlélni."
+    }
+  },
+  "sw-hypolenion": {
+    "strongs": 5276,
+    "original_word": "ὑπολήνιον",
+    "transliteration": "hypolḗnion",
+    "language": "Greek",
+    "definition": {
+      "en": "vessel or receptacle under the press, i.e. lower wine-vat",
+      "hu": "edény vagy tartály a prés alatt, azaz a borgyűjtő medence"
+    }
+  },
+  "sw-hypolimpano": {
+    "strongs": 5277,
+    "original_word": "ὑπολιμπάνω",
+    "transliteration": "hypolimpánō",
+    "language": "Greek",
+    "definition": {
+      "en": "to leave behind, i.e. bequeath",
+      "hu": "hagyományozni, átadni, örökíteni (valakinek)"
+    }
+  },
+  "sw-hypomeno": {
+    "strongs": 5278,
+    "original_word": "ὑπομένω",
+    "transliteration": "hypoménō",
+    "language": "Greek",
+    "definition": {
+      "en": "to stay under (behind), i.e. remain, figuratively, to undergo, i.e. bear (trials), have fortitude, persevere",
+      "hu": "maradni, kitartani, elviselni (próbákat), türelmesnek lenni, kitartóan állni valamit."
+    }
+  },
+  "sw-hypomimnesko": {
+    "strongs": 5279,
+    "original_word": "ὑπομιμνήσκω",
+    "transliteration": "hypomimnḗskō",
+    "language": "Greek",
+    "definition": {
+      "en": "to remind quietly, i.e. suggest to the (middle voice, one's own) memory",
+      "hu": "finoman emlékeztetni, csendben felidézni, vagy saját emlékezetünkben felkelteni valamit."
+    }
+  },
+  "sw-hypomnesis": {
+    "strongs": 5280,
+    "original_word": "ὑπόμνησις",
+    "transliteration": "hypómnēsis",
+    "language": "Greek",
+    "definition": {
+      "en": "a reminding or (reflexively) recollection",
+      "hu": "emlékeztetés vagy (vissza)emlékezés, felidézés"
+    }
+  },
+  "sw-hypomone": {
+    "strongs": 5281,
+    "original_word": "ὑπομονή",
+    "transliteration": "hypomonḗ",
+    "language": "Greek",
+    "definition": {
+      "en": "cheerful (or hopeful) endurance, constancy",
+      "hu": "kitartás, türelmes elviselés, állhatatosság, reménységgel fűszerezett elviselés, szívós kitartás."
+    }
+  },
+  "sw-hyponoeo": {
+    "strongs": 5282,
+    "original_word": "ὑπονοέω",
+    "transliteration": "hyponoéō",
+    "language": "Greek",
+    "definition": {
+      "en": "to think under (privately), i.e. to surmise or conjecture",
+      "hu": "gondolkodni valamire (privátan), azaz feltételezni vagy következtetni"
+    }
+  },
+  "sw-hyponoia": {
+    "strongs": 5283,
+    "original_word": "ὑπόνοια",
+    "transliteration": "hypónoia",
+    "language": "Greek",
+    "definition": {
+      "en": "suspicion",
+      "hu": "feltételezés, gyanakodás, sejtelem, valaminek a megsejtése, gondolatban való követés."
+    }
+  },
+  "sw-hypopleo": {
+    "strongs": 5284,
+    "original_word": "ὑποπλέω",
+    "transliteration": "hypopléō",
+    "language": "Greek",
+    "definition": {
+      "en": "to sail under the lee of",
+      "hu": "szélárnyékban hajózni, a szél lefelé haladva vitorlázni, védett helyen tengerre járni."
+    }
+  },
+  "sw-hypopneo": {
+    "strongs": 5285,
+    "original_word": "ὑποπνέω",
+    "transliteration": "hypopnéō",
+    "language": "Greek",
+    "definition": {
+      "en": "to breathe gently, i.e. breeze",
+      "hu": "lágyan lehel, enyhe szellőben mozogni, szelíden fújni"
+    }
+  },
+  "sw-hypopodion": {
+    "strongs": 5286,
+    "original_word": "ὑποπόδιον",
+    "transliteration": "hypopódion",
+    "language": "Greek",
+    "definition": {
+      "en": "something under the feet, i.e. a foot-rest (figuratively)",
+      "hu": "láb alatti, vagyis lábtartó (átvitt értelemben)"
+    }
+  },
+  "sw-hypostasis": {
+    "strongs": 5287,
+    "original_word": "ὑπόστασις",
+    "transliteration": "hypóstasis",
+    "language": "Greek",
+    "definition": {
+      "en": "a setting under (support), i.e. (figuratively) concretely, essence, or abstractly, assurance (objectively or subjectively)",
+      "hu": "alap, valami alá helyezett (támassz), (átvitt értelemben) konkrét valóság, lényeg, valóságosság, vagy elvont fogalomként biztosíték, garancia (objektíven vagy szubjektíven)"
+    }
+  },
+  "sw-hypostello": {
+    "strongs": 5288,
+    "original_word": "ὑποστέλλω",
+    "transliteration": "hypostéllō",
+    "language": "Greek",
+    "definition": {
+      "en": "to withhold under (out of sight), i.e. (reflexively) to cower or shrink, (figuratively) to conceal (reserve)",
+      "hu": "visszatartani (valamit), elrejteni (egy dolgot), meghúzódni (félelmetől), visszahúzódni (az életben), tartalékolni (erőt, képességet)"
+    }
+  },
+  "sw-hypostole": {
+    "strongs": 5289,
+    "original_word": "ὑποστολή",
+    "transliteration": "hypostolḗ",
+    "language": "Greek",
+    "definition": {
+      "en": "shrinkage (timidity), i.e. (by implication) apostasy",
+      "hu": "szűkülés (félelemből eredő), azaz (következményként) hitelrontás, elpártolás."
+    }
+  },
+  "sw-hypostrepho": {
+    "strongs": 5290,
+    "original_word": "ὑποστρέφω",
+    "transliteration": "hypostréphō",
+    "language": "Greek",
+    "definition": {
+      "en": "to turn under (behind), i.e. to return (literally or figuratively)",
+      "hu": "fordulni (valaminek alá, mögé), azaz visszatérni (szó szerint vagy átvitt értelemben)"
+    }
+  },
+  "sw-hypostronnymi": {
+    "strongs": 5291,
+    "original_word": "ὑποστρώννυμι",
+    "transliteration": "hypostrṓnnymi",
+    "language": "Greek",
+    "definition": {
+      "en": "to strew underneath (the feet as a carpet)",
+      "hu": "alávetni, leróni (lábak alá, mint szőnyeget), megteríteni (lábak alá)"
+    }
+  },
+  "sw-hypotage": {
+    "strongs": 5292,
+    "original_word": "ὑποταγή",
+    "transliteration": "hypotagḗ",
+    "language": "Greek",
+    "definition": {
+      "en": "subordination",
+      "hu": "alávetés, engedelmesség, behódolás, alárendeltség."
+    }
+  },
+  "sw-hypotasso": {
+    "strongs": 5293,
+    "original_word": "ὑποτάσσω",
+    "transliteration": "hypotássō",
+    "language": "Greek",
+    "definition": {
+      "en": "to subordinate, reflexively, to obey",
+      "hu": "alárendelni, visszahatólag engedelmeskedni"
+    }
+  },
+  "sw-hypotithemi": {
+    "strongs": 5294,
+    "original_word": "ὑποτίθημι",
+    "transliteration": "hypotíthēmi",
+    "language": "Greek",
+    "definition": {
+      "en": "to place underneath, i.e. (figuratively) to hazard, (reflexively) to suggest",
+      "hu": "aláhelyezni, (átvitt értelemben) kockáztatni, (visszafelé mutatóan) javasolni, felvetni"
+    }
+  },
+  "sw-hypotrecho": {
+    "strongs": 5295,
+    "original_word": "ὑποτρέχω",
+    "transliteration": "hypotréchō",
+    "language": "Greek",
+    "definition": {
+      "en": "to run under, i.e. (specially), to sail past",
+      "hu": "vitorlázni, elhaladni vitorlával, (általában) elszaladni, segíteni, támogatni (egy hajó esetében, amikor elhalad egy másik mellett)"
+    }
+  },
+  "sw-hypotyposis": {
+    "strongs": 5296,
+    "original_word": "ὑποτύπωσις",
+    "transliteration": "hypotýpōsis",
+    "language": "Greek",
+    "definition": {
+      "en": "typification under (after), i.e. (concretely) a sketch (figuratively) for imitation",
+      "hu": "mintakép, (konkrétan) vázlat, (átvitt értelemben) követendő példa, előkép."
+    }
+  },
+  "sw-hypophero": {
+    "strongs": 5297,
+    "original_word": "ὑποφέρω",
+    "transliteration": "hypophérō",
+    "language": "Greek",
+    "definition": {
+      "en": "to bear from underneath, i.e. (figuratively) to undergo hardship",
+      "hu": "viselni, tűrni, elszenvedni (nehézségeket, szenvedést)"
+    }
+  },
+  "sw-hypochoreo": {
+    "strongs": 5298,
+    "original_word": "ὑποχωρέω",
+    "transliteration": "hypochōréō",
+    "language": "Greek",
+    "definition": {
+      "en": "to vacate down, i.e. retire quietly",
+      "hu": "visszahúzódni, elvonulni, távozni csendesen, meghátrálni, helyet adni."
+    }
+  },
+  "sw-hypopiazo": {
+    "strongs": 5299,
+    "original_word": "ὑπωπιάζω",
+    "transliteration": "hypōpiázō",
+    "language": "Greek",
+    "definition": {
+      "en": "to hit under the eye (buffet or disable an antagonist as a pugilist), i.e. (figuratively) to tease or annoy (into compliance), subdue (one's passions)",
+      "hu": "szem alá ütni (mint egy ökölvívó), vagy (átvitt értelemben) csúfolni, bosszantani (engedelmességre bírni), illetve megszüntetni, elnyomni valakinek a szenvedélyeit, vágyait."
+    }
+  },
+  "sw-hys": {
+    "strongs": 5300,
+    "original_word": "ὗς",
+    "transliteration": "hŷs",
+    "language": "Greek",
+    "definition": {
+      "en": "a hog ('swine')",
+      "hu": "disznó (sertés), gyakran leküzdött, szennyezett vagy pogány jelkéletű állat."
+    }
+  },
+  "sw-hyssopos": {
+    "strongs": 5301,
+    "original_word": "ὕσσωπος",
+    "transliteration": "hýssōpos",
+    "language": "Greek",
+    "definition": {
+      "en": "'hyssop'",
+      "hu": "izzóp"
+    }
+  },
+  "sw-hystereo": {
+    "strongs": 5302,
+    "original_word": "ὑστερέω",
+    "transliteration": "hysteréō",
+    "language": "Greek",
+    "definition": {
+      "en": "to be later, i.e. (by implication) to be inferior, generally, to fall short (be deficient)",
+      "hu": "késlekedni, elmaradni, hiányos lenni, elmaradni a kívánt színvonalától, nem megfelelni (valaminek), csonka, tökéletlen lenni."
+    }
+  },
+  "sw-hysterema": {
+    "strongs": 5303,
+    "original_word": "ὑστέρημα",
+    "transliteration": "hystérēma",
+    "language": "Greek",
+    "definition": {
+      "en": "a deficit, specially, poverty",
+      "hu": "hiány, különösen szegénység"
+    }
+  },
+  "sw-hysteresis": {
+    "strongs": 5304,
+    "original_word": "ὑστέρησις",
+    "transliteration": "hystérēsis",
+    "language": "Greek",
+    "definition": {
+      "en": "a falling short, i.e. (specially), penury",
+      "hu": "hiány, szükség, szűköség, elégtelenség"
+    }
+  },
+  "sw-hysteron": {
+    "strongs": 5305,
+    "original_word": "ὕστερον",
+    "transliteration": "hýsteron",
+    "language": "Greek",
+    "definition": {
+      "en": "more lately, i.e. eventually",
+      "hu": "később, azaz végül, idővel, későbbiekben"
+    }
+  },
+  "sw-hysteros": {
+    "strongs": 5306,
+    "original_word": "ὕστερος",
+    "transliteration": "hýsteros",
+    "language": "Greek",
+    "definition": {
+      "en": "later",
+      "hu": "későbbi, utólagos, a következőkben való, utókorbeli, másodrendű (időben vagy fontosságban)"
+    }
+  },
+  "sw-hyphantos": {
+    "strongs": 5307,
+    "original_word": "ὑφαντός",
+    "transliteration": "hyphantós",
+    "language": "Greek",
+    "definition": {
+      "en": "woven, i.e. (perhaps) knitted",
+      "hu": "szőtt, esetleg kötött"
+    }
+  },
+  "sw-hypselos": {
+    "strongs": 5308,
+    "original_word": "ὑψηλός",
+    "transliteration": "hypsēlós",
+    "language": "Greek",
+    "definition": {
+      "en": "lofty (in place or character)",
+      "hu": "magas (helyzetben vagy jellemben), fennen álló, emelkedett, magasztos, méltóságos."
+    }
+  },
+  "sw-hypselophroneo": {
+    "strongs": 5309,
+    "original_word": "ὑψηλοφρονέω",
+    "transliteration": "hypsēlophronéō",
+    "language": "Greek",
+    "definition": {
+      "en": "to be lofty in mind, i.e. arrogant",
+      "hu": "magasabbra emelkedni a gondolatban, azaz gőgösnek lenni, nagyképűnek lenni, fölényeskedni."
+    }
+  },
+  "sw-hypsistos": {
+    "strongs": 5310,
+    "original_word": "ὕψιστος",
+    "transliteration": "hýpsistos",
+    "language": "Greek",
+    "definition": {
+      "en": "highest, i.e. (masculine singular) the Supreme (God), or (neuter plural) the heavens",
+      "hu": "legmagasabb, vagyis (férfinemű egyes számban) a Legfelségesebb (Isten), vagy (semleges többes számban) az égiek, az égek."
+    }
+  },
+  "sw-hypsos": {
+    "strongs": 5311,
+    "original_word": "ὕψος",
+    "transliteration": "hýpsos",
+    "language": "Greek",
+    "definition": {
+      "en": "elevation, i.e. (abstractly) altitude, (specially), the sky, or (figuratively) dignity",
+      "hu": "magasság, azaz (elvonatkoztatva) fennmagasság, (különösen) az égbolt, vagy (átvitt értelemben) méltóság, tekintély."
+    }
+  },
+  "sw-hypsoo": {
+    "strongs": 5312,
+    "original_word": "ὑψόω",
+    "transliteration": "hypsóō",
+    "language": "Greek",
+    "definition": {
+      "en": "to elevate (literally or figuratively)",
+      "hu": "magasítani (szó szerint vagy átvitt értelemben), felemelni, emelni, dicsőíteni."
+    }
+  },
+  "sw-hypsoma": {
+    "strongs": 5313,
+    "original_word": "ὕψωμα",
+    "transliteration": "hýpsōma",
+    "language": "Greek",
+    "definition": {
+      "en": "an elevated place or thing, i.e. (abstractly) altitude, or (by implication) a barrier (figuratively)",
+      "hu": "magasság, kiemelkedő hely vagy dolog, magaslat, akadály, gát (átvitt értelemben)"
+    }
+  },
+  "sw-phagos": {
+    "strongs": 5314,
+    "original_word": "φάγος",
+    "transliteration": "phágos",
+    "language": "Greek",
+    "definition": {
+      "en": "a glutton",
+      "hu": "falánk, telhetetlen, aki túlzottan eszik és iszik, mértéktelenül táplálkozó ember."
+    }
+  },
+  "sw-phago": {
+    "strongs": 5315,
+    "original_word": "φάγω",
+    "transliteration": "phágō",
+    "language": "Greek",
+    "definition": {
+      "en": "to eat (literally or figuratively)",
+      "hu": "enni (szó szerint vagy átvitt értelemben)"
+    }
+  },
+  "sw-phaino": {
+    "strongs": 5316,
+    "original_word": "φαίνω",
+    "transliteration": "phaínō",
+    "language": "Greek",
+    "definition": {
+      "en": "to lighten (shine), i.e. show (transitive or intransitive, literal or figurative)",
+      "hu": "világítani (ragyogni), azaz mutatni (átmeneti vagy átmenetlen, szó szerinti vagy átvitt értelemben)"
+    }
+  },
+  "sw-phalek": {
+    "strongs": 5317,
+    "original_word": "Φάλεκ",
+    "transliteration": "Phálek",
+    "language": "Greek",
+    "definition": {
+      "en": "Phalek (i.e. Peleg), a patriarch",
+      "hu": "Fálek (azaz Peleg), egy pátriárka."
+    }
+  },
+  "sw-phaneros": {
+    "strongs": 5318,
+    "original_word": "φανερός",
+    "transliteration": "phanerós",
+    "language": "Greek",
+    "definition": {
+      "en": "shining, i.e. apparent (literally or figuratively), neuter (as adverb) publicly, externally",
+      "hu": "nyilvánvaló, látható, szemmel láthatólag, külsőleg, nyilvánosan, feltáruló, megnyilvánuló."
+    }
+  },
+  "sw-phaneroo": {
+    "strongs": 5319,
+    "original_word": "φανερόω",
+    "transliteration": "phaneróō",
+    "language": "Greek",
+    "definition": {
+      "en": "to render apparent (literally or figuratively)",
+      "hu": "láthatóvá tenni (szó szerint vagy átvitt értelemben), nyilvánvalóvá tenni, megmutatni, felfedni."
+    }
+  },
+  "sw-phaneros-5320": {
+    "strongs": 5320,
+    "original_word": "φανερῶς",
+    "transliteration": "phanerōs",
+    "language": "Greek",
+    "definition": {
+      "en": "plainly, i.e. clearly or publicly",
+      "hu": "nyilvánvalóan, azaz tisztán, érthetően vagy közszemléretesen."
+    }
+  },
+  "sw-phanerosis": {
+    "strongs": 5321,
+    "original_word": "φανέρωσις",
+    "transliteration": "phanérōsis",
+    "language": "Greek",
+    "definition": {
+      "en": "exhibition, i.e. (figuratively) expression, (by extension) a bestowment",
+      "hu": "kifejezés, nyilvánosságra hozás, kinyilatkoztatás, adományozás, megmutatás."
+    }
+  },
+  "sw-phanos": {
+    "strongs": 5322,
+    "original_word": "φανός",
+    "transliteration": "phanós",
+    "language": "Greek",
+    "definition": {
+      "en": "a lightener, i.e. light, lantern",
+      "hu": "fényforrás, világító eszköz, lámpás, világítás"
+    }
+  },
+  "sw-phanouel": {
+    "strongs": 5323,
+    "original_word": "Φανουήλ",
+    "transliteration": "Phanouḗl",
+    "language": "Greek",
+    "definition": {
+      "en": "Phanuel (i.e. Penuel), an Israelite",
+      "hu": "Fánuel (azaz Penuel), egy izraeli."
+    }
+  },
+  "sw-phantazo": {
+    "strongs": 5324,
+    "original_word": "φαντάζω",
+    "transliteration": "phantázō",
+    "language": "Greek",
+    "definition": {
+      "en": "to make apparent, i.e. (passively) to appear (neuter participle as noun, a spectacle)",
+      "hu": "láthatóvá tenni, nyilvánvalóvá tenni, (passzívban) megjelenni, (köznévként használt semleges particípium esetén) látványosság, színjáték."
+    }
+  },
+  "sw-phantasia": {
+    "strongs": 5325,
+    "original_word": "φαντασία",
+    "transliteration": "phantasía",
+    "language": "Greek",
+    "definition": {
+      "en": "(properly abstract) a (vain) show ('fantasy')",
+      "hu": "illúzió, képzelgés, fantázia, valótlan ábrázolás, üres látszat, csalóka kép."
+    }
+  },
+  "sw-phantasma": {
+    "strongs": 5326,
+    "original_word": "φάντασμα",
+    "transliteration": "phántasma",
+    "language": "Greek",
+    "definition": {
+      "en": "(properly concrete) a (mere) show ('phantasm'), i.e. spectre",
+      "hu": "látomás, képzeletbeli alak, szellemképlet, ábránd, illúzió"
+    }
+  },
+  "sw-pharanx": {
+    "strongs": 5327,
+    "original_word": "φάραγξ",
+    "transliteration": "pháranx",
+    "language": "Greek",
+    "definition": {
+      "en": "a gap or chasm, i.e. ravine (winter-torrent)",
+      "hu": "szurdok, mély völgy, szakadék (gyakran téli patakmeder)"
+    }
+  },
+  "sw-pharao": {
+    "strongs": 5328,
+    "original_word": "Φαραώ",
+    "transliteration": "Pharaṓ",
+    "language": "Greek",
+    "definition": {
+      "en": "Pharao (i.e. Pharoh), an Egyptian king",
+      "hu": "fáraó, az egyiptomi király"
+    }
+  },
+  "sw-phares": {
+    "strongs": 5329,
+    "original_word": "Φάρες",
+    "transliteration": "Pháres",
+    "language": "Greek",
+    "definition": {
+      "en": "Phares (i.e. Perets), an Israelite",
+      "hu": "Fáresz (azaz Peresz), egy izraeli [ember]"
+    }
+  },
+  "sw-pharisaios": {
+    "strongs": 5330,
+    "original_word": "Φαρισαῖος",
+    "transliteration": "Pharisaîos",
+    "language": "Greek",
+    "definition": {
+      "en": "a separatist, i.e. exclusively religious, a Pharisean, i.e. Jewish sectary",
+      "hu": "farizeus, elválasztó, vagyis kizárólagosan vallásos személy, a farizeusokhoz tartozó, a zsidó vallási irányzat követője."
+    }
+  },
+  "sw-pharmakeia": {
+    "strongs": 5331,
+    "original_word": "φαρμακεία",
+    "transliteration": "pharmakeía",
+    "language": "Greek",
+    "definition": {
+      "en": "medication ('pharmacy'), i.e. (by extension) magic (literally or figuratively)",
+      "hu": "gyógyszer (gyógyítás, kezelés), azaz (kiterjesztésként) varázslat (szó szerint vagy átvitt értelemben), boszorkányság."
+    }
+  },
+  "sw-pharmakeus": {
+    "strongs": 5332,
+    "original_word": "φαρμακεύς",
+    "transliteration": "pharmakeús",
+    "language": "Greek",
+    "definition": {
+      "en": "a druggist ('pharmacist') or poisoner, i.e. (by extension) a magician",
+      "hu": "gyógyszerész, vagy mérgező, illetve (kiterjesztett értelemben) varázsló, mágus."
+    }
+  },
+  "sw-pharmakos": {
+    "strongs": 5333,
+    "original_word": "φάρμακος",
+    "transliteration": "phármakos",
+    "language": "Greek",
+    "definition": {
+      "en": "",
+      "hu": ""
+    }
+  },
+  "sw-phasis": {
+    "strongs": 5334,
+    "original_word": "φάσις",
+    "transliteration": "phásis",
+    "language": "Greek",
+    "definition": {
+      "en": "a saying, i.e. report",
+      "hu": "kijelentés, beszámoló, állítás"
+    }
+  },
+  "sw-phasko": {
+    "strongs": 5335,
+    "original_word": "φάσκω",
+    "transliteration": "pháskō",
+    "language": "Greek",
+    "definition": {
+      "en": "to assert",
+      "hu": "kijelenteni, állítani, megmondani, követelni (bizonyosságot feltételezve)"
+    }
+  },
+  "sw-phatne": {
+    "strongs": 5336,
+    "original_word": "φάτνη",
+    "transliteration": "phátnē",
+    "language": "Greek",
+    "definition": {
+      "en": "a crib (for fodder)",
+      "hu": "jászol (szénatároló, állatok etetésére szolgáló hely)"
+    }
+  },
+  "sw-phaulos": {
+    "strongs": 5337,
+    "original_word": "φαῦλος",
+    "transliteration": "phaûlos",
+    "language": "Greek",
+    "definition": {
+      "en": "'foul' or 'flawy', i.e. (figuratively) wicked",
+      "hu": "rossz, hibás, vagy erkölcsileg romlott, vétkes."
+    }
+  },
+  "sw-phengos": {
+    "strongs": 5338,
+    "original_word": "φέγγος",
+    "transliteration": "phéngos",
+    "language": "Greek",
+    "definition": {
+      "en": "brilliancy",
+      "hu": "fényesség, ragyogás, csillogás, világosság – a külső ragyogást, fényességet jelenti, de teológiai értelemben Isten dicsőségének, isteni fényének megnyilvánulását is kifejezheti."
+    }
+  },
+  "sw-pheidomai": {
+    "strongs": 5339,
+    "original_word": "φείδομαι",
+    "transliteration": "pheídomai",
+    "language": "Greek",
+    "definition": {
+      "en": "to be chary of, i.e. (subjectively) to abstain or (objectively) to treat leniently",
+      "hu": "óvatosan bánni, mértékletesen eljárni, vagy szelíden, engedékenyen kezelni valakit."
+    }
+  },
+  "sw-pheidomenos": {
+    "strongs": 5340,
+    "original_word": "φειδομένως",
+    "transliteration": "pheidoménōs",
+    "language": "Greek",
+    "definition": {
+      "en": "abstemiously, i.e. stingily",
+      "hu": "mértékletesen, takarékosan, szűkmarkúan, visszafogottan"
+    }
+  },
+  "sw-phelones": {
+    "strongs": 5341,
+    "original_word": "φελόνης",
+    "transliteration": "phelónēs",
+    "language": "Greek",
+    "definition": {
+      "en": "a mantle (surtout)",
+      "hu": "köpeny, hosszú, köntösyszerű felsőruházat (pl. papok által viselt)"
+    }
+  },
+  "sw-phero": {
+    "strongs": 5342,
+    "original_word": "φέρω",
+    "transliteration": "phérō",
+    "language": "Greek",
+    "definition": {
+      "en": "to 'bear' or carry (in a very wide application, literally and figuratively, as follows)",
+      "hu": "hordani, vinni, szállítani, elviselni, tűrni, viselni (teherként vagy felelősségként), végrehajtani, hozni, eredményezni, szülni, mutatni, tanúsítani, átadni, elvégezni, megvalósítani."
+    }
+  },
+  "sw-pheugo": {
+    "strongs": 5343,
+    "original_word": "φεύγω",
+    "transliteration": "pheúgō",
+    "language": "Greek",
+    "definition": {
+      "en": "to run away (literally or figuratively), by implication, to shun, by analogy, to vanish",
+      "hu": "menekülni (szó szerint vagy átvitt értelemben), következményként kerülni, hasonlatosan eltűnni, elpárologni."
+    }
+  },
+  "sw-phelix": {
+    "strongs": 5344,
+    "original_word": "Φῆλιξ",
+    "transliteration": "Phēlix",
+    "language": "Greek",
+    "definition": {
+      "en": "happy, Phelix (i.e. Felix), a Roman",
+      "hu": "boldog, Félix (azaz Félix), egy római"
+    }
+  },
+  "sw-pheme": {
+    "strongs": 5345,
+    "original_word": "φήμη",
+    "transliteration": "phḗmē",
+    "language": "Greek",
+    "definition": {
+      "en": "a saying, i.e. rumor ('fame')",
+      "hu": "mondás, azaz pletyka vagy hírnév"
+    }
+  },
+  "sw-phemi": {
+    "strongs": 5346,
+    "original_word": "φημί",
+    "transliteration": "phēmí",
+    "language": "Greek",
+    "definition": {
+      "en": "to show or make known one's thoughts, i.e. speak or say",
+      "hu": "kimondani, nyilvánítani, közölni, véleményt nyilvánítani, beszélni, mondani"
+    }
+  },
+  "sw-phestos": {
+    "strongs": 5347,
+    "original_word": "Φῆστος",
+    "transliteration": "Phēstos",
+    "language": "Greek",
+    "definition": {
+      "en": "festal, Phestus (i.e. Festus), a Roman",
+      "hu": "ünnepélyes, Fesztusz (azaz Fesztus), egy római"
+    }
+  },
+  "sw-phthano": {
+    "strongs": 5348,
+    "original_word": "φθάνω",
+    "transliteration": "phthánō",
+    "language": "Greek",
+    "definition": {
+      "en": "to be beforehand, i.e. anticipate or precede, by extension, to have arrived at",
+      "hu": "előre lenni, megelőzni, előrevetíteni, megérkezni, már jelen lenni (időben vagy helyben)"
+    }
+  },
+  "sw-phthartos": {
+    "strongs": 5349,
+    "original_word": "φθαρτός",
+    "transliteration": "phthartós",
+    "language": "Greek",
+    "definition": {
+      "en": "decayed, i.e. (by implication) perishable",
+      "hu": "romló, elpusztuló, múlandó, avasodó, törékeny (azaz, ami az idő múlásával elenyészik, pusztul)"
+    }
+  },
+  "sw-phthengomai": {
+    "strongs": 5350,
+    "original_word": "φθέγγομαι",
+    "transliteration": "phthéngomai",
+    "language": "Greek",
+    "definition": {
+      "en": "to utter a clear sound, i.e. (generally) to proclaim",
+      "hu": "kimondani, világosan szólalni; (általában) hirdetni, nyilvánosságra hozni"
+    }
+  },
+  "sw-phtheiro": {
+    "strongs": 5351,
+    "original_word": "φθείρω",
+    "transliteration": "phtheírō",
+    "language": "Greek",
+    "definition": {
+      "en": "properly, to shrivel or wither, i.e. to spoil (by any process) or (generally) to ruin (especially figuratively, by moral influences, to deprave)",
+      "hu": "megromlani, elsorvadni, tönkre tenni (bármilyen módon), elpusztítani (különösen átvitt értelemben, erkölcsileg megromlani, elvetemülni)"
+    }
+  },
+  "sw-phthinoporinos": {
+    "strongs": 5352,
+    "original_word": "φθινοπωρινός",
+    "transliteration": "phthinopōrinós",
+    "language": "Greek",
+    "definition": {
+      "en": "akin to the base of G5351 (φθείρω)) and G3703 (ὀπώρα) (meaning late autumn), autumnal (as stripped of leaves)",
+      "hu": "őszi, a leveleket lerázó, elhullató időszakhoz tartozó, késő őszi időben bekövetkező."
+    }
+  },
+  "sw-phthongos": {
+    "strongs": 5353,
+    "original_word": "φθόγγος",
+    "transliteration": "phthóngos",
+    "language": "Greek",
+    "definition": {
+      "en": "utterance, i.e. a musical note (vocal or instrumental)",
+      "hu": "hang, kimondott szó, zenei hang (vokális vagy hangszeres)"
+    }
+  },
+  "sw-phthoneo": {
+    "strongs": 5354,
+    "original_word": "φθονέω",
+    "transliteration": "phthonéō",
+    "language": "Greek",
+    "definition": {
+      "en": "to be jealous of",
+      "hu": "irigyni, féltékenységtől égni, szívében irigységet táplálni (valaki iránt)"
+    }
+  },
+  "sw-phthonos": {
+    "strongs": 5355,
+    "original_word": "φθόνος",
+    "transliteration": "phthónos",
+    "language": "Greek",
+    "definition": {
+      "en": "ill-will (as detraction), i.e. jealousy (spite)",
+      "hu": "rosszindulat (becsmérlés formájában), azaz irigység (gyűlölet)"
+    }
+  },
+  "sw-phthora": {
+    "strongs": 5356,
+    "original_word": "φθορά",
+    "transliteration": "phthorá",
+    "language": "Greek",
+    "definition": {
+      "en": "decay, i.e. ruin (spontaneous or inflicted, literally or figuratively)",
+      "hu": "romlás, pusztulás (önmagától vagy más által okozott, valóságos értelemben vagy átvitt értelemben)"
+    }
+  },
+  "sw-phiale": {
+    "strongs": 5357,
+    "original_word": "φιάλη",
+    "transliteration": "phiálē",
+    "language": "Greek",
+    "definition": {
+      "en": "a broad shallow cup ('phial')",
+      "hu": "tál, széles, sekély kupa (pohár)"
+    }
+  },
+  "sw-philagathos": {
+    "strongs": 5358,
+    "original_word": "φιλάγαθος",
+    "transliteration": "philágathos",
+    "language": "Greek",
+    "definition": {
+      "en": "fond to good, i.e. a promoter of virtue",
+      "hu": "jóindulatú, a jótevés szeretője, erényes életre ösztönző."
+    }
+  },
+  "sw-philadelpheia": {
+    "strongs": 5359,
+    "original_word": "Φιλαδέλφεια",
+    "transliteration": "Philadélpheia",
+    "language": "Greek",
+    "definition": {
+      "en": "Philadelphia, a place in Asia Minor",
+      "hu": "Philadelpheia, egy hely Ázsia Kis-Ázsiájában."
+    }
+  },
+  "sw-philadelphia": {
+    "strongs": 5360,
+    "original_word": "φιλαδελφία",
+    "transliteration": "philadelphía",
+    "language": "Greek",
+    "definition": {
+      "en": "fraternal affection",
+      "hu": "testvéri szeretet, testvéri ragaszkodás, a testvérek közötti szeretet, baráti szeretet (a testvérek között)"
+    }
+  },
+  "sw-philadelphos": {
+    "strongs": 5361,
+    "original_word": "φιλάδελφος",
+    "transliteration": "philádelphos",
+    "language": "Greek",
+    "definition": {
+      "en": "fond of brethren, i.e. fraternal",
+      "hu": "testvérek iránt szerető, testvéri szeretetet gyakorló, testvériségben élő"
+    }
+  },
+  "sw-philandros": {
+    "strongs": 5362,
+    "original_word": "φίλανδρος",
+    "transliteration": "phílandros",
+    "language": "Greek",
+    "definition": {
+      "en": "fond of man, i.e. affectionate as a wife",
+      "hu": "emberbarát, vagyis szeretetteljes, mint egy feleség."
+    }
+  },
+  "sw-philanthropia": {
+    "strongs": 5363,
+    "original_word": "φιλανθρωπία",
+    "transliteration": "philanthrōpía",
+    "language": "Greek",
+    "definition": {
+      "en": "fondness of mankind, i.e. benevolence ('philanthropy')",
+      "hu": "emberszeretet, vagyis jótékonykodás, az emberek iránti szeretet és segítőkészség."
+    }
+  },
+  "sw-philanthropos": {
+    "strongs": 5364,
+    "original_word": "φιλανθρώπως",
+    "transliteration": "philanthrṓpōs",
+    "language": "Greek",
+    "definition": {
+      "en": "fondly to man ('philanthropically'), i.e. humanely",
+      "hu": "szeretettel az emberek iránt, emberszeretetből, emberségességgel"
+    }
+  },
+  "sw-philargyria": {
+    "strongs": 5365,
+    "original_word": "φιλαργυρία",
+    "transliteration": "philargyría",
+    "language": "Greek",
+    "definition": {
+      "en": "avarice",
+      "hu": "kapzsiság, a pénz iránti mértéktelen vágy, anyagiasság, a gazdagságra való törekvés, ami a lelki értékek helyett áll."
+    }
+  },
+  "sw-philargyros": {
+    "strongs": 5366,
+    "original_word": "φιλάργυρος",
+    "transliteration": "philárgyros",
+    "language": "Greek",
+    "definition": {
+      "en": "fond of silver (money), i.e. avaricious",
+      "hu": "pénzszerető, vagyis mohó, kapzsi."
+    }
+  },
+  "sw-philautos": {
+    "strongs": 5367,
+    "original_word": "φίλαυτος",
+    "transliteration": "phílautos",
+    "language": "Greek",
+    "definition": {
+      "en": "fond of self, i.e. selfish",
+      "hu": "önmagát szerető, önző, saját érdekeit előtérbe helyező."
+    }
+  },
+  "sw-phileo": {
+    "strongs": 5368,
+    "original_word": "φιλέω",
+    "transliteration": "philéō",
+    "language": "Greek",
+    "definition": {
+      "en": "to be a friend to (fond of (an individual or an object)), i.e. have affection for (denoting personal attachment, as a matter of sentiment or feeling, while G25 (ἀγαπάω) is wider, embracing especially the judgment and the deliberate assent of the will as a matter of principle, duty and propriety: the two thus stand related very much as G2309 (θέλω) and G1014 (βούλομαι), or as G2372 (θυμός) and G3563 (νοῦς) respectively, the former being chiefly of the heart and the latter of the head), specially, to kiss (as a mark of tenderness)",
+      "hu": "barátként szeretni (valakit vagy valamit), vagyis ragaszkodni (személyes kötődéssel, érzelmi alapon, míg az ἀγαπάω [G25] tágabb, magában foglalva az ítéletet és az akarat tudatos beleegyezését elvi, kötelességi és helyes elgondolás alapján: a kettő viszonya nagyon hasonló a θέλω [G2309] és βούλομαι [G1014], vagy a θυμός [G2372] és νοῦς [G3563] viszonyához, az előbbi elsősorban a szívből, az utóbbi a fejből eredően), különösen csókolni (gyengédség jeleként)."
+    }
+  },
+  "sw-philedonos": {
+    "strongs": 5369,
+    "original_word": "φιλήδονος",
+    "transliteration": "philḗdonos",
+    "language": "Greek",
+    "definition": {
+      "en": "fond of pleasure, i.e. voluptuous",
+      "hu": "gyönyörűségre hajlamos, azaz élvezetekre szomjazó, érzéki."
+    }
+  },
+  "sw-philema": {
+    "strongs": 5370,
+    "original_word": "φίλημα",
+    "transliteration": "phílēma",
+    "language": "Greek",
+    "definition": {
+      "en": "a kiss",
+      "hu": "csók, ajak érintése szeretet, üdvözlés vagy tisztelet jeléül."
+    }
+  },
+  "sw-philemon": {
+    "strongs": 5371,
+    "original_word": "Φιλήμων",
+    "transliteration": "Philḗmōn",
+    "language": "Greek",
+    "definition": {
+      "en": "friendly, Philemon, a Christian",
+      "hu": "barátságos, Filemón, egy keresztény"
+    }
+  },
+  "sw-philetos": {
+    "strongs": 5372,
+    "original_word": "Φίλητος",
+    "transliteration": "Phílētos",
+    "language": "Greek",
+    "definition": {
+      "en": "amiable, Philetus, an opposer of Christianity",
+      "hu": "barátságos, kedves, Philetus, a kereszténység ellenzője"
+    }
+  },
+  "sw-philia": {
+    "strongs": 5373,
+    "original_word": "φιλία",
+    "transliteration": "philía",
+    "language": "Greek",
+    "definition": {
+      "en": "fondness",
+      "hu": "szeretet, ragaszkodás, barátság, kedvesség – kölcsönös jóindulat és vonzódás alapján."
+    }
+  },
+  "sw-philippesios": {
+    "strongs": 5374,
+    "original_word": "Φιλιππήσιος",
+    "transliteration": "Philippḗsios",
+    "language": "Greek",
+    "definition": {
+      "en": "a Philippesian (Philippian), i.e. native of Philippi",
+      "hu": "Filippi lakója, vagyis Filippi város szülötte, Filippihez tartozó személy."
+    }
+  },
+  "sw-philippoi": {
+    "strongs": 5375,
+    "original_word": "Φίλιπποι",
+    "transliteration": "Phílippoi",
+    "language": "Greek",
+    "definition": {
+      "en": "Philippi, a place in Macedonia",
+      "hu": "Fülöpváros, egy hely Macedóniában."
+    }
+  },
+  "sw-philippos": {
+    "strongs": 5376,
+    "original_word": "Φίλιππος",
+    "transliteration": "Phílippos",
+    "language": "Greek",
+    "definition": {
+      "en": "fond of horses, Philippus, the name of four Israelites",
+      "hu": "lovak szeretője, Philippus, négy izraelita neve."
+    }
+  },
+  "sw-philotheos": {
+    "strongs": 5377,
+    "original_word": "φιλόθεος",
+    "transliteration": "philótheos",
+    "language": "Greek",
+    "definition": {
+      "en": "fond of God, i.e. pious",
+      "hu": "Istenbarát, vagyis istenfélő, ájtatos."
+    }
+  },
+  "sw-philologos": {
+    "strongs": 5378,
+    "original_word": "Φιλόλογος",
+    "transliteration": "Philólogos",
+    "language": "Greek",
+    "definition": {
+      "en": "fond of words, i.e. talkative (argumentative, learned, 'philological'), Philologus, a Christian",
+      "hu": "szókedvelő, azaz fecsegő (vitázó, tanult, ’filológiai’), Philologus, egy keresztény"
+    }
+  },
+  "sw-philoneikia": {
+    "strongs": 5379,
+    "original_word": "φιλονεικία",
+    "transliteration": "philoneikía",
+    "language": "Greek",
+    "definition": {
+      "en": "quarrelsomeness, i.e. a dispute",
+      "hu": "vitázkodás, versengés, szóváltás, ellenségeskedés, viszálykodás, különbségkedés."
+    }
+  },
+  "sw-philoneikos": {
+    "strongs": 5380,
+    "original_word": "φιλόνεικος",
+    "transliteration": "philóneikos",
+    "language": "Greek",
+    "definition": {
+      "en": "probably akin to G3534 (νῖκος)), fond of strife, i.e. disputatious",
+      "hu": "versengő, vitatkozó, perlekedő, konfliktuskereső, ellenségeskedő (szándékú)"
+    }
+  },
+  "sw-philonexia": {
+    "strongs": 5381,
+    "original_word": "φιλονεξία",
+    "transliteration": "philonexía",
+    "language": "Greek",
+    "definition": {
+      "en": "hospitableness",
+      "hu": "vendégszeretet, szeretet a vendégek iránt, fogadókészség, barátságos fogadtatás"
+    }
+  },
+  "sw-philoxenos": {
+    "strongs": 5382,
+    "original_word": "φιλόξενος",
+    "transliteration": "philóxenos",
+    "language": "Greek",
+    "definition": {
+      "en": "fond of guests, i.e. hospitable",
+      "hu": "vendégszerető, azaz fogadókész, vendégeket szeretettel fogadó."
+    }
+  },
+  "sw-philoproteuo": {
+    "strongs": 5383,
+    "original_word": "φιλοπρωτεύω",
+    "transliteration": "philoprōteúō",
+    "language": "Greek",
+    "definition": {
+      "en": "to be fond of being first, i.e. ambitious of distinction",
+      "hu": "elsőséget keresni, kiemelkedni vágyó, ambiciózus lenni, a vezető szerepet előnyben részesíteni"
+    }
+  },
+  "sw-philos": {
+    "strongs": 5384,
+    "original_word": "φίλος",
+    "transliteration": "phílos",
+    "language": "Greek",
+    "definition": {
+      "en": "actively, fond, i.e. friendly (still as a noun, an associate, neighbor, etc.)",
+      "hu": "barát, aktívan szeretetteljes, azaz barátságos (még főnévként, társ, szomszéd, stb.)"
+    }
+  },
+  "sw-philosophia": {
+    "strongs": 5385,
+    "original_word": "φιλοσοφία",
+    "transliteration": "philosophía",
+    "language": "Greek",
+    "definition": {
+      "en": "'philosophy', i.e. (specially), Jewish sophistry",
+      "hu": "bölcsesség, különösen a zsidó érvelésmód, sofizmus"
+    }
+  },
+  "sw-philosophos": {
+    "strongs": 5386,
+    "original_word": "φιλόσοφος",
+    "transliteration": "philósophos",
+    "language": "Greek",
+    "definition": {
+      "en": "fond of wise things, i.e. a 'philosopher'",
+      "hu": "filozófus, a bölcsesség szeretője, vagy aki a bölcsesség után törekszik, gondolkodó."
+    }
+  },
+  "sw-philostorgos": {
+    "strongs": 5387,
+    "original_word": "φιλόστοργος",
+    "transliteration": "philóstorgos",
+    "language": "Greek",
+    "definition": {
+      "en": "fond of natural relatives, i.e. fraternal towards fellow Christian",
+      "hu": "rok szeretetével teljes, vagyis testvéri szeretetet gyakorló más hívők iránt."
+    }
+  },
+  "sw-philoteknos": {
+    "strongs": 5388,
+    "original_word": "φιλότεκνος",
+    "transliteration": "philóteknos",
+    "language": "Greek",
+    "definition": {
+      "en": "fond of one's children, i.e. maternal",
+      "hu": "gyermekszerető, különösen anyai szeretetben megnyilvánuló"
+    }
+  },
+  "sw-philotimeomai": {
+    "strongs": 5389,
+    "original_word": "φιλοτιμέομαι",
+    "transliteration": "philotiméomai",
+    "language": "Greek",
+    "definition": {
+      "en": "to be fond of honor, i.e. emulous (eager or earnest to do something)",
+      "hu": "becsülni a tiszteletet, vagyis versengeni, szorgalmasnak lenni (valami elérése érdekében), törekedni a kitüntetésre."
+    }
+  },
+  "sw-philophronos": {
+    "strongs": 5390,
+    "original_word": "φιλοφρόνως",
+    "transliteration": "philophrónōs",
+    "language": "Greek",
+    "definition": {
+      "en": "with friendliness of mind, i.e. kindly",
+      "hu": "barátságos szívvel, vagyis kedvesen, jóindulatúan"
+    }
+  },
+  "sw-philophron": {
+    "strongs": 5391,
+    "original_word": "φιλόφρων",
+    "transliteration": "philóphrōn",
+    "language": "Greek",
+    "definition": {
+      "en": "friendly of mind, i.e. kind",
+      "hu": "barátságos szívű, vagyis kedves, jóindulatú"
+    }
+  },
+  "sw-phimoo": {
+    "strongs": 5392,
+    "original_word": "φιμόω",
+    "transliteration": "phimóō",
+    "language": "Greek",
+    "definition": {
+      "en": "to muzzle",
+      "hu": "szájat kötni, elhallgattatni, megakadályozni a szólást vagy a táplálkozást (állat esetén)"
+    }
+  },
+  "sw-phlegon": {
+    "strongs": 5393,
+    "original_word": "Φλέγων",
+    "transliteration": "Phlégōn",
+    "language": "Greek",
+    "definition": {
+      "en": "blazing, Phlegon, a Christian",
+      "hu": "lángoló, Phlegon, egy keresztény"
+    }
+  },
+  "sw-phlogizo": {
+    "strongs": 5394,
+    "original_word": "φλογίζω",
+    "transliteration": "phlogízō",
+    "language": "Greek",
+    "definition": {
+      "en": "to cause a blaze, i.e. ignite (figuratively, to inflame with passion)",
+      "hu": "fellángot okozni, meggyújtani (átvitt értelemben: szenvedéllyel lángra gyújtani, felizzasztani)"
+    }
+  },
+  "sw-phlox": {
+    "strongs": 5395,
+    "original_word": "φλόξ",
+    "transliteration": "phlóx",
+    "language": "Greek",
+    "definition": {
+      "en": "a blaze",
+      "hu": "láng, tűz, fellángolás, izzó fény, lobogás"
+    }
+  },
+  "sw-phlyareo": {
+    "strongs": 5396,
+    "original_word": "φλυαρέω",
+    "transliteration": "phlyaréō",
+    "language": "Greek",
+    "definition": {
+      "en": "to be a babbler or trifler, i.e. (by implication) to berate idly or mischievously",
+      "hu": "beszélni üresen vagy jelentéktelen dolgokról, fecsegni, vagy (átvitt értelemben) haszontalanul vagy rosszindulatúan szidalmazni, káromkodni."
+    }
+  },
+  "sw-phlyaros": {
+    "strongs": 5397,
+    "original_word": "φλύαρος",
+    "transliteration": "phlýaros",
+    "language": "Greek",
+    "definition": {
+      "en": "a garrulous person, i.e. prater",
+      "hu": "pöfékelő, fecsegő, szóvirágzó személy, aki feleslegesen beszél."
+    }
+  },
+  "sw-phoberos": {
+    "strongs": 5398,
+    "original_word": "φοβερός",
+    "transliteration": "phoberós",
+    "language": "Greek",
+    "definition": {
+      "en": "frightful, i.e. (objectively) formidable",
+      "hu": "félelemgerjesztő, i.e. (objektíven) félelmetes, rettegető, hatalmas, tekintélyt parancsoló."
+    }
+  },
+  "sw-phobeo": {
+    "strongs": 5399,
+    "original_word": "φοβέω",
+    "transliteration": "phobéō",
+    "language": "Greek",
+    "definition": {
+      "en": "to frighten, i.e. (passively) to be alarmed, by analogy, to be in awe of, i.e. revere",
+      "hu": "megfélemlíteni, irodalmi értelemben megijedni, hasonlatosan áhítattal tekinteni, tisztelni."
+    }
+  },
+  "sw-phobetron": {
+    "strongs": 5400,
+    "original_word": "φόβητρον",
+    "transliteration": "phóbētron",
+    "language": "Greek",
+    "definition": {
+      "en": "a frightening thing, i.e. terrific portent",
+      "hu": "félelemkeltő dolog, azaz borzalmas előjel."
+    }
+  },
+  "sw-phobos": {
+    "strongs": 5401,
+    "original_word": "φόβος",
+    "transliteration": "phóbos",
+    "language": "Greek",
+    "definition": {
+      "en": "alarm or fright",
+      "hu": "félelem, riadalom, megijedés, rettegés, aggodalom – a hirtelen fellépő, erős érzelmi reakcióra utal, mely veszélyt érzékel."
+    }
+  },
+  "sw-phoibe": {
+    "strongs": 5402,
+    "original_word": "Φοίβη",
+    "transliteration": "Phoíbē",
+    "language": "Greek",
+    "definition": {
+      "en": "probably akin to the base of G5457 (φῶς)), Phœbe, a Christian woman",
+      "hu": "valószínűleg G5457 (φῶς) gyökérhez kapcsolódó, Phőbé, egy keresztény nő"
+    }
+  },
+  "sw-phoinike": {
+    "strongs": 5403,
+    "original_word": "Φοινίκη",
+    "transliteration": "Phoiníkē",
+    "language": "Greek",
+    "definition": {
+      "en": "palm-country, Phœnice (or Phœnicia), a region of Palestine",
+      "hu": "pálmaföld, Főnicia (vagy Fönícia), Palesztina egyik régiója"
+    }
+  },
+  "sw-phoinix": {
+    "strongs": 5404,
+    "original_word": "φοῖνιξ",
+    "transliteration": "phoînix",
+    "language": "Greek",
+    "definition": {
+      "en": "a palm-tree",
+      "hu": "pálmafa"
+    }
+  },
+  "sw-phoinix-5405": {
+    "strongs": 5405,
+    "original_word": "Φοῖνιξ",
+    "transliteration": "Phoînix",
+    "language": "Greek",
+    "definition": {
+      "en": "Phœnix, a place in Crete",
+      "hu": "Phoinix, egy hely Krétán"
+    }
+  },
+  "sw-phoneus": {
+    "strongs": 5406,
+    "original_word": "φονεύς",
+    "transliteration": "phoneús",
+    "language": "Greek",
+    "definition": {
+      "en": "a murderer (always of criminal (or at least intentional) homicide, which G443 (ἀνθρωποκτόνος) does not necessarily imply, while G4607 (σικάριος) is a special term for a public bandit)",
+      "hu": "gyilkos (mindig szándékos vagy bűnös emberölés esetén, ami az ανθρωποκτόνος (anthrōpoktonos) szóval nem feltétlenül van így, míg a σικάριος (sikarios) egy speciális kifejezés a közszemléletű rablóról/banditáról)"
+    }
+  },
+  "sw-phoneuo": {
+    "strongs": 5407,
+    "original_word": "φονεύω",
+    "transliteration": "phoneúō",
+    "language": "Greek",
+    "definition": {
+      "en": "to be a murderer (of)",
+      "hu": "gyilkolni, emberölés elkövetése (valakivel szemben)"
+    }
+  },
+  "sw-phonos": {
+    "strongs": 5408,
+    "original_word": "φόνος",
+    "transliteration": "phónos",
+    "language": "Greek",
+    "definition": {
+      "en": "murder",
+      "hu": "gyilkosság, emberölés (szándékos, jogellenes vagy istentelen emberölés)"
+    }
+  },
+  "sw-phoreo": {
+    "strongs": 5409,
+    "original_word": "φορέω",
+    "transliteration": "phoréō",
+    "language": "Greek",
+    "definition": {
+      "en": "to have a burden, i.e. (by analogy) to wear as clothing or a constant accompaniment",
+      "hu": "terhelő teher viselése, vagy (analógiával) ruhaként való öltözködés, illetve állandó kíséretként való jelenlét."
+    }
+  },
+  "sw-phoron": {
+    "strongs": 5410,
+    "original_word": "Φόρον",
+    "transliteration": "Phóron",
+    "language": "Greek",
+    "definition": {
+      "en": "a forum or market-place, only in comparative with G675 (Ἄππιος), a station on the Appian road",
+      "hu": "pálya, piac, különösen az Appiusz úton található állomáshely"
+    }
+  },
+  "sw-phoros": {
+    "strongs": 5411,
+    "original_word": "φόρος",
+    "transliteration": "phóros",
+    "language": "Greek",
+    "definition": {
+      "en": "a load (as borne), i.e. (figuratively) a tax (properly, an individual assessment on persons or property, whereas G5056 (τέλος) is usually a general toll on goods or travel)",
+      "hu": "terh (egyéni adó, személyekre vagy tulajdonra kivetett adó, szemben a G5056-os τέλος-szal, ami általában az árukra vagy az utazásra kivetett általános vám)"
+    }
+  },
+  "sw-phortizo": {
+    "strongs": 5412,
+    "original_word": "φορτίζω",
+    "transliteration": "phortízō",
+    "language": "Greek",
+    "definition": {
+      "en": "to load up (properly, as a vessel or animal), i.e. (figuratively) to overburden with ceremony (or spiritual anxiety)",
+      "hu": "rakodni, megrakodni (hajót, állatot); (átvitt értelemben) megterhelni szertartásokkal vagy lelki nyomasztással."
+    }
+  },
+  "sw-phortion": {
+    "strongs": 5413,
+    "original_word": "φορτίον",
+    "transliteration": "phortíon",
+    "language": "Greek",
+    "definition": {
+      "en": "an invoice (as part of freight), i.e. (figuratively) a task or service",
+      "hu": "számla (szállítási költségekhez kapcsolódóan), vagy (átvitt értelemben) megbízatás, szolgálat, terh."
+    }
+  },
+  "sw-phortos": {
+    "strongs": 5414,
+    "original_word": "φόρτος",
+    "transliteration": "phórtos",
+    "language": "Greek",
+    "definition": {
+      "en": "something carried, i.e. the cargo of a ship",
+      "hu": "rakomány, terhelés, ami hordozásra szolgál, például egy hajó rakománya."
+    }
+  },
+  "sw-phortounatos": {
+    "strongs": 5415,
+    "original_word": "Φορτουνᾶτος",
+    "transliteration": "Phortounâtos",
+    "language": "Greek",
+    "definition": {
+      "en": "'fortunate', Fortunatus, a Christian",
+      "hu": "szerencsés, Fortunátusz, egy keresztény"
+    }
+  },
+  "sw-phragellion": {
+    "strongs": 5416,
+    "original_word": "φραγέλλιον",
+    "transliteration": "phragéllion",
+    "language": "Greek",
+    "definition": {
+      "en": "a whip, i.e. Roman lash as a public punishment",
+      "hu": "ostor, konkrétan a római korbács, amelyet nyilvános büntetésként alkalmaztak."
+    }
+  },
+  "sw-phragelloo": {
+    "strongs": 5417,
+    "original_word": "φραγελλόω",
+    "transliteration": "phragellóō",
+    "language": "Greek",
+    "definition": {
+      "en": "to whip, i.e. lash as a public punishment",
+      "hu": "ostorozni, nyilvános büntetésként megostorozni, korbácsolni."
+    }
+  },
+  "sw-phragmos": {
+    "strongs": 5418,
+    "original_word": "φραγμός",
+    "transliteration": "phragmós",
+    "language": "Greek",
+    "definition": {
+      "en": "a fence, or inclosing barrier (literally or figuratively)",
+      "hu": "kerítés, valaminek a körülzárása (szó szerint vagy átvitt értelemben)"
+    }
+  },
+  "sw-phrazo": {
+    "strongs": 5419,
+    "original_word": "φράζω",
+    "transliteration": "phrázō",
+    "language": "Greek",
+    "definition": {
+      "en": "to indicate (by word or act), i.e. (specially), to expound",
+      "hu": "kijelenteni (szóval vagy tettel), különösen elmagyarázni, kifejteni, értelmezni."
+    }
+  },
+  "sw-phrasso": {
+    "strongs": 5420,
+    "original_word": "φράσσω",
+    "transliteration": "phrássō",
+    "language": "Greek",
+    "definition": {
+      "en": "to fence or inclose, i.e. (specially), to block up (figuratively, to silence)",
+      "hu": "keríteni, bekeríteni, elzárni, (átvitt értelemben) elhallgattatni, megakadályozni a szólást."
+    }
+  },
+  "sw-phrear": {
+    "strongs": 5421,
+    "original_word": "φρέαρ",
+    "transliteration": "phréar",
+    "language": "Greek",
+    "definition": {
+      "en": "a hole in the ground (dug for obtaining or holding water or other purposes), i.e. a cistern or well, figuratively, an abyss (as a prison)",
+      "hu": "lyuk a földben (víz vagy más célú kiásásához), azaz ciszterna vagy kút, átvitt értelemben pedig mély szakadék (mint börtön)"
+    }
+  },
+  "sw-phrenapatao": {
+    "strongs": 5422,
+    "original_word": "φρεναπατάω",
+    "transliteration": "phrenapatáō",
+    "language": "Greek",
+    "definition": {
+      "en": "to be a mind-misleader, i.e. delude",
+      "hu": "elmélyedést okozni, megtéveszteni, illúzióba kergetni, félrevezetni (szándékosan vagy nem szándékosan)"
+    }
+  },
+  "sw-phrenapates": {
+    "strongs": 5423,
+    "original_word": "φρεναπάτης",
+    "transliteration": "phrenapátēs",
+    "language": "Greek",
+    "definition": {
+      "en": "a mind-misleader, i.e. seducer",
+      "hu": "elmevezetõ, azaz csábító, megtévesztõ"
+    }
+  },
+  "sw-phren": {
+    "strongs": 5424,
+    "original_word": "φρήν",
+    "transliteration": "phrḗn",
+    "language": "Greek",
+    "definition": {
+      "en": "the midrif (as a partition of the body), i.e. (figuratively and by implication, of sympathy) the feelings (or sensitive nature, by extension (also in the plural) the mind or cognitive faculties)",
+      "hu": "a test, a testvéri szeretet érzése, (átvitt értelemben és következményként a) érzések (vagy érzékeny természet), kiterjesztésben (többes számban is) az elme vagy a kognitív képességek."
+    }
+  },
+  "sw-phrisso": {
+    "strongs": 5425,
+    "original_word": "φρίσσω",
+    "transliteration": "phríssō",
+    "language": "Greek",
+    "definition": {
+      "en": "to 'bristle' or chill, i.e. shudder (fear)",
+      "hu": "remegni, borzongani (félelemből), reszketni, dermedni"
+    }
+  },
+  "sw-phroneo": {
+    "strongs": 5426,
+    "original_word": "φρονέω",
+    "transliteration": "phronéō",
+    "language": "Greek",
+    "definition": {
+      "en": "to exercise the mind, i.e. entertain or have a sentiment or opinion, by implication, to be (mentally) disposed (more or less earnestly in a certain direction), intensively, to interest oneself in (with concern or obedience)",
+      "hu": "elmével dolgozni, gondolkodni, érzelmeket vagy véleményeket szövögetni; elméletileg egy bizonyos irányba hajlani (nagyobb vagy kisebb mértékben); intenzíven érdeklődni valami iránt (aggodalommal vagy engedelmességgel)"
+    }
+  },
+  "sw-phronema": {
+    "strongs": 5427,
+    "original_word": "φρόνημα",
+    "transliteration": "phrónēma",
+    "language": "Greek",
+    "definition": {
+      "en": "(mental) inclination or purpose",
+      "hu": "(mentális) hajlam vagy szándék, elhatározás, gondolkodásmód."
+    }
+  },
+  "sw-phronesis": {
+    "strongs": 5428,
+    "original_word": "φρόνησις",
+    "transliteration": "phrónēsis",
+    "language": "Greek",
+    "definition": {
+      "en": "mental action or activity, i.e. intellectual or moral insight",
+      "hu": "értelmi tevékenység, vagyis szellemi vagy erkölcsi belátás, megértés, józan ítélőképesség."
+    }
+  },
+  "sw-phronimos": {
+    "strongs": 5429,
+    "original_word": "φρόνιμος",
+    "transliteration": "phrónimos",
+    "language": "Greek",
+    "definition": {
+      "en": "thoughtful, i.e. sagacious or discreet (implying a cautious character, while G4680 (σοφός) denotes practical skill or acumen, and G4908 (συνετός) indicates rather intelligence or mental acquirement), in a bad sense conceited (also in the comparative)",
+      "hu": "gondolkodó, vagyis bölcs és körültekintő (óvatos jellemre utalva, míg a σοφός (szophós) a gyakorlati tudást vagy éleslátást jelenti, és a συνετός (szunetós) inkább az értelemre vagy a szellemi képzettségre utal), rossz értelemben öntelt (akár a fokozóban is)"
+    }
+  },
+  "sw-phronimos-5430": {
+    "strongs": 5430,
+    "original_word": "φρονίμως",
+    "transliteration": "phronímōs",
+    "language": "Greek",
+    "definition": {
+      "en": "prudently",
+      "hu": "okosan, körültekintően, mértékletesen, istenfélelemmel átitatottan."
+    }
+  },
+  "sw-phrontizo": {
+    "strongs": 5431,
+    "original_word": "φροντίζω",
+    "transliteration": "phrontízō",
+    "language": "Greek",
+    "definition": {
+      "en": "to exercise thought, i.e. be anxious",
+      "hu": "gondolkodni, aggódni, törődni, szorongani"
+    }
+  },
+  "sw-phroureo": {
+    "strongs": 5432,
+    "original_word": "φρουρέω",
+    "transliteration": "phrouréō",
+    "language": "Greek",
+    "definition": {
+      "en": "to be a watcher in advance, i.e. to mount guard as a sentinel (post spies at gates), figuratively, to hem in, protect",
+      "hu": "őrséget állni előre, azaz őrséget felállítani, mint egy őr (felderítőket helyezni a kapuknál), átvitt értelemben körülzárni, megvédeni."
+    }
+  },
+  "sw-phryasso": {
+    "strongs": 5433,
+    "original_word": "φρυάσσω",
+    "transliteration": "phryássō",
+    "language": "Greek",
+    "definition": {
+      "en": "to snort (as a spirited horse), i.e. (figuratively) to make a tumult",
+      "hu": "felhorkanni (mint egy élénk ló), vagy (átvitt értelemben) zúgolódást, felháborodást kelteni"
+    }
+  },
+  "sw-phryganon": {
+    "strongs": 5434,
+    "original_word": "φρύγανον",
+    "transliteration": "phrýganon",
+    "language": "Greek",
+    "definition": {
+      "en": "akin to the base of G5395 (φλόξ)), something desiccated, i.e. a dry twig",
+      "hu": "száraz ág, kiszáradt vessző, esetleg száraz fűszál – a görög szó a kiszáradás, elszáradás állapotára utal."
+    }
+  },
+  "sw-phrygia": {
+    "strongs": 5435,
+    "original_word": "Φρυγία",
+    "transliteration": "Phrygía",
+    "language": "Greek",
+    "definition": {
+      "en": "Phrygia, a region of Asia Minor",
+      "hu": "Frígia, Kis-Ázsia egyik régiója."
+    }
+  },
+  "sw-phygellos": {
+    "strongs": 5436,
+    "original_word": "Φύγελλος",
+    "transliteration": "Phýgellos",
+    "language": "Greek",
+    "definition": {
+      "en": "fugitive, Phygellus, an apostate Christian",
+      "hu": "menekülő, Phygellus, egy hitet elhagyó keresztény"
+    }
+  },
+  "sw-phyge": {
+    "strongs": 5437,
+    "original_word": "φυγή",
+    "transliteration": "phygḗ",
+    "language": "Greek",
+    "definition": {
+      "en": "a fleeing, i.e. escape",
+      "hu": "menekülés, vagyis a kijutás, a szabadulás"
+    }
+  },
+  "sw-phylake": {
+    "strongs": 5438,
+    "original_word": "φυλακή",
+    "transliteration": "phylakḗ",
+    "language": "Greek",
+    "definition": {
+      "en": "a guarding or (concretely, guard), the act, the person, figuratively, the place, the condition, or (specially), the time (as a division of day or night), literally or figuratively",
+      "hu": "őrizés, (konkrétan) őr, az őrizés cselekménye, az őr személye, átvitt értelemben a hely, az állapot, vagy (különösen) az idő (mint a nap vagy az éjszaka beosztása), szó szerint vagy átvitt értelemben."
+    }
+  },
+  "sw-phylakizo": {
+    "strongs": 5439,
+    "original_word": "φυλακίζω",
+    "transliteration": "phylakízō",
+    "language": "Greek",
+    "definition": {
+      "en": "to incarcerate",
+      "hu": "börtönbe záratni, bebörtönözni, fogságra ítélni."
+    }
+  },
+  "sw-phylakterion": {
+    "strongs": 5440,
+    "original_word": "φυλακτήριον",
+    "transliteration": "phylaktḗrion",
+    "language": "Greek",
+    "definition": {
+      "en": "a guard-case, i.e. 'phylactery' for wearing slips of Scripture texts",
+      "hu": "őrzőtok, vagyis a zsidó imádatban használt, kis iratokat (írásrészeket) tartalmazó bőrtok, melyet a homlokon vagy karon viseltek."
+    }
+  },
+  "sw-phylax": {
+    "strongs": 5441,
+    "original_word": "φύλαξ",
+    "transliteration": "phýlax",
+    "language": "Greek",
+    "definition": {
+      "en": "a watcher or sentry",
+      "hu": "őrszem, vigyázó, védelmező, gondnok, felügyelő"
+    }
+  },
+  "sw-phylasso": {
+    "strongs": 5442,
+    "original_word": "φυλάσσω",
+    "transliteration": "phylássō",
+    "language": "Greek",
+    "definition": {
+      "en": "to watch, i.e. be on guard (literally of figuratively), by implication, to preserve, obey, avoid",
+      "hu": "őrizni, vigyázni, megőrizni, engedelmeskedni, elkerülni (szó szerint vagy átvitt értelemben)"
+    }
+  },
+  "sw-phyle": {
+    "strongs": 5443,
+    "original_word": "φυλή",
+    "transliteration": "phylḗ",
+    "language": "Greek",
+    "definition": {
+      "en": "an offshoot, i.e. race or clan",
+      "hu": "sarj, vagyis nemzetség vagy törzs"
+    }
+  },
+  "sw-phyllon": {
+    "strongs": 5444,
+    "original_word": "φύλλον",
+    "transliteration": "phýllon",
+    "language": "Greek",
+    "definition": {
+      "en": "a sprout, i.e. leaf",
+      "hu": "rügy, sarj, levél"
+    }
+  },
+  "sw-phyrama": {
+    "strongs": 5445,
+    "original_word": "φύραμα",
+    "transliteration": "phýrama",
+    "language": "Greek",
+    "definition": {
+      "en": "perhaps akin to G5453 (φύω) through the idea of swelling in bulk), mean to knead, a mass of dough",
+      "hu": "tészta, dagasztott tészta, élesztővel megkelt tészta"
+    }
+  },
+  "sw-physikos": {
+    "strongs": 5446,
+    "original_word": "φυσικός",
+    "transliteration": "physikós",
+    "language": "Greek",
+    "definition": {
+      "en": "'physical', i.e. (by implication) instinctive",
+      "hu": "természetes, vagyis ösztönös, veleszületett, a természetből eredő."
+    }
+  },
+  "sw-physikos-5447": {
+    "strongs": 5447,
+    "original_word": "φυσικῶς",
+    "transliteration": "physikōs",
+    "language": "Greek",
+    "definition": {
+      "en": "'physically', i.e. (by implication) instinctively",
+      "hu": "természetesen, vagy ösztönösen, a természetből fakadóan"
+    }
+  },
+  "sw-physioo": {
+    "strongs": 5448,
+    "original_word": "φυσιόω",
+    "transliteration": "physióō",
+    "language": "Greek",
+    "definition": {
+      "en": "to inflate, i.e. (figuratively) make proud (haughty)",
+      "hu": "megpuffasztani, felduzzasztani (pl. büszkeséggel, gőggel); felfuvalkodni (metaforikusan, gőgös lenni)"
+    }
+  },
+  "sw-physis": {
+    "strongs": 5449,
+    "original_word": "φύσις",
+    "transliteration": "phýsis",
+    "language": "Greek",
+    "definition": {
+      "en": "growth (by germination or expansion), i.e. (by implication) natural production (lineal descent), by extension, a genus or sort, figuratively, native disposition, constitution or usage",
+      "hu": "növekedés (csírázás vagy tágulás által), azaz (implikáció által) természetes szaporodás (vonalbeli leszármazás), kiterjesztésként nemzetség vagy fajta, alakosan pedig veleszületett hajlam, természet vagy szokás."
+    }
+  },
+  "sw-physiosis": {
+    "strongs": 5450,
+    "original_word": "φυσίωσις",
+    "transliteration": "physíōsis",
+    "language": "Greek",
+    "definition": {
+      "en": "inflation, i.e. (figuratively) haughtiness",
+      "hu": "megpuffadás, azaz (átvitt értelemben) gőgösség, nagyzás, felpuffadás."
+    }
+  },
+  "sw-phyteia": {
+    "strongs": 5451,
+    "original_word": "φυτεία",
+    "transliteration": "phyteía",
+    "language": "Greek",
+    "definition": {
+      "en": "trans-planting, i.e. (concretely) a shrub or vegetable",
+      "hu": "átültetés, azaz konkrétan cserje vagy zöldség átültetése"
+    }
+  }
+}

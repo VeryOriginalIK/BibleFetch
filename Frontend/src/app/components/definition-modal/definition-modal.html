@@ -1,0 +1,70 @@
+@if (state.selectedStrongId()) {
+  <!-- HÁTTÉR (Backdrop) -->
+  <div class="fixed inset-0 z-[100] bg-black/40 backdrop-blur-sm animate-fade-in" (click)="close()"></div>
+
+  <!-- MODAL ABLAK -->
+  <div class="fixed inset-x-0 bottom-0 z-[101] p-4 flex justify-center items-end sm:items-center sm:inset-0 pointer-events-none">
+
+    <div
+      class="bg-white dark:bg-gray-900 w-full max-w-md rounded-2xl shadow-2xl overflow-hidden pointer-events-auto animate-slide-up transform transition-all border border-gray-100 dark:border-gray-800"
+      (click)="$event.stopPropagation()"
+    >
+
+      <!-- FEJLÉC -->
+      <div class="px-6 py-4 border-b border-gray-100 dark:border-gray-800 flex justify-between items-center bg-gray-50/50 dark:bg-gray-800/50">
+        <span class="text-xs font-bold uppercase tracking-wider text-gray-400">
+          {{ state.selectedStrongId() }}
+        </span>
+        <button (click)="close()" class="p-1 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 text-gray-500">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+        </button>
+      </div>
+
+      <!-- TARTALOM -->
+      <div class="p-6">
+        @if (isLoading()) {
+          <div class="flex flex-col items-center py-8 space-y-3 animate-pulse">
+            <div class="h-8 bg-gray-200 dark:bg-gray-700 rounded w-1/3"></div>
+            <div class="h-4 bg-gray-200 dark:bg-gray-700 rounded w-3/4"></div>
+          </div>
+        } @else if (definition(); as def) {
+
+          <!-- Eredeti szó -->
+          <div class="text-center mb-6">
+            <h2 class="text-4xl font-serif text-gray-900 dark:text-white mb-2">{{ def.lemma }}</h2>
+            <p class="text-sm font-mono text-amber-600 dark:text-amber-500">{{ def.translit }}</p>
+            <p class="text-xs text-gray-400 mt-1">/{{ def.pronounce }}/</p>
+          </div>
+
+          <!-- Jelentés -->
+          <div class="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-xl border border-blue-100 dark:border-blue-800/50">
+            <h3 class="text-xs font-bold text-blue-800 dark:text-blue-300 uppercase mb-2">Jelentés</h3>
+            <p class="text-gray-800 dark:text-gray-200 leading-relaxed">
+              {{ def.defs[state.currentLang()] || def.defs['en'] }}
+            </p>
+          </div>
+
+        } @else {
+          <div class="text-center py-6 text-gray-500">
+            Nem található definíció ehhez a szóhoz.
+          </div>
+        }
+      </div>
+
+    </div>
+  </div>
+}
+
+<style>
+  @keyframes slideUp {
+    from { transform: translateY(100%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  .animate-slide-up { animation: slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1); }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  .animate-fade-in { animation: fadeIn 0.2s ease-out; }
+</style>

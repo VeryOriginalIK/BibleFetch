@@ -1,0 +1,3502 @@
+{
+  "H2801": {
+    "id": "H2801",
+    "lemma": "חָרַת",
+    "translit": "chârath",
+    "pronounce": "",
+    "defs": {
+      "hu": "vésetni, faragni, vésni, megörökíteni (írásban)",
+      "en": "to engrave"
+    }
+  },
+  "H2802": {
+    "id": "H2802",
+    "lemma": "חֶרֶת",
+    "translit": "Chereth",
+    "pronounce": "",
+    "defs": {
+      "hu": "cserjés vidék Palesztinában.",
+      "en": "Chereth, a thicket in Palestine"
+    }
+  },
+  "H2803": {
+    "id": "H2803",
+    "lemma": "חָשַׁב",
+    "translit": "châshab",
+    "pronounce": "",
+    "defs": {
+      "hu": "fontos, gondolni, számítani, tervezni, alkudni, szövetkezni, ármánykodni.",
+      "en": "properly, to plait or interpenetrate, i.e. (literally) to weave or (generally) to fabricate, figuratively, to plot or contrive (usually in a malicious sense), hence (from the mental effort) to think, regard, value, compute"
+    }
+  },
+  "H2804": {
+    "id": "H2804",
+    "lemma": "חֲשַׁב",
+    "translit": "chăshab",
+    "pronounce": "",
+    "defs": {
+      "hu": "gondolni, számítani, venni észre, megfontolni.",
+      "en": "to regard"
+    }
+  },
+  "H2805": {
+    "id": "H2805",
+    "lemma": "חֵשֶׁב",
+    "translit": "chêsheb",
+    "pronounce": "",
+    "defs": {
+      "hu": "öv vagy szíj (mint átfontott darab)",
+      "en": "a belt or strap (as being interlaced)"
+    }
+  },
+  "H2806": {
+    "id": "H2806",
+    "lemma": "חַשְׁבַּדָּנָה",
+    "translit": "Chashbaddânâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Hasbaddána, egy Izraelita.",
+      "en": "Chasbaddanah, an Israelite"
+    }
+  },
+  "H2807": {
+    "id": "H2807",
+    "lemma": "חֲשֻׁבָה",
+    "translit": "Chăshubâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Kasúba, egy Izraelita.",
+      "en": "Cashubah, an Israelite"
+    }
+  },
+  "H2808": {
+    "id": "H2808",
+    "lemma": "חֶשְׁבּוֹן",
+    "translit": "cheshbôwn",
+    "pronounce": "",
+    "defs": {
+      "hu": "észrevételezés, megfontolás, találékonyság, értelmesség.",
+      "en": "properly, contrivance, by implication, intelligence"
+    }
+  },
+  "H2809": {
+    "id": "H2809",
+    "lemma": "חֶשְׁבּוֹן",
+    "translit": "Cheshbôwn",
+    "pronounce": "",
+    "defs": {
+      "hu": "Hesbón, a hely a Jordánon túl.",
+      "en": "Cheshbon, a place East of the Jordan"
+    }
+  },
+  "H2810": {
+    "id": "H2810",
+    "lemma": "חִשָּׁבוֹן",
+    "translit": "chishshâbôwn",
+    "pronounce": "",
+    "defs": {
+      "hu": "terv, számítás, gondolat, vagy hadieszköz.",
+      "en": "a contrivance, i.e. actual (a warlike machine) or mental (a machination)"
+    }
+  },
+  "H2811": {
+    "id": "H2811",
+    "lemma": "חֲשַׁבְיָה",
+    "translit": "Chăshabyâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Hasabjá, kilenc izraelita neve.",
+      "en": "Chashabjah, the name of nine Israelites"
+    }
+  },
+  "H2812": {
+    "id": "H2812",
+    "lemma": "חֲשַׁבְנָה",
+    "translit": "Chăshabnâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Hasná, egy Izraelita.",
+      "en": "Chashnah, an Israelite"
+    }
+  },
+  "H2813": {
+    "id": "H2813",
+    "lemma": "חֲשַׁבְנְיָה",
+    "translit": "Chăshabnᵉyâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Hasabnéa, két izraelita neve.",
+      "en": "Chashabnejah, the name of two Israelites"
+    }
+  },
+  "H2814": {
+    "id": "H2814",
+    "lemma": "חָשָׁה",
+    "translit": "châshâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "némulni, elhallgatni, csendesedni.",
+      "en": "to hush or keep quiet"
+    }
+  },
+  "H2815": {
+    "id": "H2815",
+    "lemma": "חַשּׁוּב",
+    "translit": "Chashshûwb",
+    "pronounce": "",
+    "defs": {
+      "hu": "Hasúb, két vagy három izraelita neve.",
+      "en": "Chashshub, the name of two or three Israelites"
+    }
+  },
+  "H2816": {
+    "id": "H2816",
+    "lemma": "חֲשׁוֹךְ",
+    "translit": "chăshôwk",
+    "pronounce": "",
+    "defs": {
+      "hu": "sötétség, homály",
+      "en": "the dark"
+    }
+  },
+  "H2817": {
+    "id": "H2817",
+    "lemma": "חֲשׂוּפָא",
+    "translit": "Chăsûwphâʼ",
+    "pronounce": "",
+    "defs": {
+      "hu": "Haszúfa, a Nethinimok egyike.",
+      "en": "Chasupha, one of the Nethinim"
+    }
+  },
+  "H2818": {
+    "id": "H2818",
+    "lemma": "חֲשַׁח",
+    "translit": "chăshach",
+    "pronounce": "",
+    "defs": {
+      "hu": "szükséges lenni, vagy (átvitt értelemben) szűkséget érezni.",
+      "en": "to be necessary (from the idea of convenience) or (transitively) to need"
+    }
+  },
+  "H2819": {
+    "id": "H2819",
+    "lemma": "חַשְׁחוּת",
+    "translit": "chashchûwth",
+    "pronounce": "",
+    "defs": {
+      "hu": "szükségesség, kényszerűség, elkerülhetetlenség.",
+      "en": "necessity"
+    }
+  },
+  "H2820": {
+    "id": "H2820",
+    "lemma": "חָשַׂךְ",
+    "translit": "châsak",
+    "pronounce": "",
+    "defs": {
+      "hu": "visszatart, megállít, tartózkodék, megtagad, megkímél, megőriz, figyel, tartózkodik.",
+      "en": "to restrain or (reflex.) refrain, by implication, to refuse, spare, preserve, to observe"
+    }
+  },
+  "H2821": {
+    "id": "H2821",
+    "lemma": "חָשַׁךְ",
+    "translit": "châshak",
+    "pronounce": "",
+    "defs": {
+      "hu": "sötét lenni, sötétedni, sötétíteni",
+      "en": "to be dark (as withholding light), transitively, to darken"
+    }
+  },
+  "H2822": {
+    "id": "H2822",
+    "lemma": "חֹשֶׁךְ",
+    "translit": "chôshek",
+    "pronounce": "",
+    "defs": {
+      "hu": "sötétség, borzalom, pusztulás, halál, tudatlanság, bánat, gonoszság.",
+      "en": "the dark, hence (literally) darkness, figuratively, misery, destruction, death, ignorance, sorrow, wickedness"
+    }
+  },
+  "H2823": {
+    "id": "H2823",
+    "lemma": "חָשֹׁךְ",
+    "translit": "châshôk",
+    "pronounce": "",
+    "defs": {
+      "hu": "sötét, (átvitt értelemben) homályos, érthetetlen.",
+      "en": "dark (figuratively, i.e. obscure)"
+    }
+  },
+  "H2824": {
+    "id": "H2824",
+    "lemma": "חֶשְׁכָה",
+    "translit": "cheshkâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "sötétség",
+      "en": "darkness"
+    }
+  },
+  "H2825": {
+    "id": "H2825",
+    "lemma": "חֲשֵׁכָה",
+    "translit": "chăshêkâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "sötétség, képletesen nyomorúság, bánat.",
+      "en": "darkness, figuratively, misery"
+    }
+  },
+  "H2826": {
+    "id": "H2826",
+    "lemma": "חָשַׁל",
+    "translit": "châshal",
+    "pronounce": "",
+    "defs": {
+      "hu": "meggyengül, elgyengül, megbillen, megrendül.",
+      "en": "to make (intrans. be) unsteady, i.e. weak"
+    }
+  },
+  "H2827": {
+    "id": "H2827",
+    "lemma": "חֲשַׁל",
+    "translit": "chăshal",
+    "pronounce": "",
+    "defs": {
+      "hu": "gyengíteni, zúzni",
+      "en": "to weaken, i.e. crush"
+    }
+  },
+  "H2828": {
+    "id": "H2828",
+    "lemma": "חָשֻׁם",
+    "translit": "Châshum",
+    "pronounce": "",
+    "defs": {
+      "hu": "Hasum, két vagy három izraelita neve.",
+      "en": "Chashum, the name of two or three Israelites"
+    }
+  },
+  "H2829": {
+    "id": "H2829",
+    "lemma": "חֶשְׁמוֹן",
+    "translit": "Cheshmôwn",
+    "pronounce": "",
+    "defs": {
+      "hu": "Hesmon, egy hely Palesztinában.",
+      "en": "Cheshmon, a place in Palestine"
+    }
+  },
+  "H2830": {
+    "id": "H2830",
+    "lemma": "חַשְׁמַל",
+    "translit": "chashmal",
+    "pronounce": "",
+    "defs": {
+      "hu": "valószínűleg réz vagy csiszolt, színpompás fém",
+      "en": "probably bronze or polished spectrum metal"
+    }
+  },
+  "H2831": {
+    "id": "H2831",
+    "lemma": "חַשְׁמַן",
+    "translit": "chashman",
+    "pronounce": "",
+    "defs": {
+      "hu": "gazdag, jõdös, módos",
+      "en": "wealthy"
+    }
+  },
+  "H2832": {
+    "id": "H2832",
+    "lemma": "חַשְׁמֹנָה",
+    "translit": "Chashmônâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Hasmona, a hely a pusztában.",
+      "en": "Chasmonah, a place in the Desert"
+    }
+  },
+  "H2833": {
+    "id": "H2833",
+    "lemma": "חֹשֶׁן",
+    "translit": "chôshen",
+    "pronounce": "",
+    "defs": {
+      "hu": "talán zsebláb (amelyben az Urim és a Tummim volt), vagy gazdag (drágaköveket tartalmazó), csak a főpap mellvértjére használva.",
+      "en": "perhaps a pocket (as holding the Urim and Thummim), or rich (as containing gems), used only of the gorget of the highpriest"
+    }
+  },
+  "H2834": {
+    "id": "H2834",
+    "lemma": "חָשַׂף",
+    "translit": "châsaph",
+    "pronounce": "",
+    "defs": {
+      "hu": "lemezni, meztelenítve tenni, lecsupaszítani, kiüríteni, kiszárítani, elvenni (pl. ruhát)",
+      "en": "to strip off, i.e. generally to make naked (for exertion or in disgrace), to drain away or bail up (a liquid)"
+    }
+  },
+  "H2835": {
+    "id": "H2835",
+    "lemma": "חָשִׂף",
+    "translit": "châsiph",
+    "pronounce": "",
+    "defs": {
+      "hu": "elkülönített csoport, kisebb társaság, elválasztott közösség",
+      "en": "properly, drawn off, i.e. separated, hence, a small company (as divided from the rest)"
+    }
+  },
+  "H2836": {
+    "id": "H2836",
+    "lemma": "חָשַׁק",
+    "translit": "châshaq",
+    "pronounce": "",
+    "defs": {
+      "hu": "ragaszkodni, tapadni, egyesülni",
+      "en": "to cling, i.e. join, (figuratively) to love, delight in, elliptically, to deliver"
+    }
+  },
+  "H2837": {
+    "id": "H2837",
+    "lemma": "חֵשֶׁק",
+    "translit": "chêsheq",
+    "pronounce": "",
+    "defs": {
+      "hu": "kedvesség, vágy, szívből fakadó öröm, kedv.",
+      "en": "delight"
+    }
+  },
+  "H2838": {
+    "id": "H2838",
+    "lemma": "חָשֻׁק",
+    "translit": "châshuq",
+    "pronounce": "",
+    "defs": {
+      "hu": "rögzített, összekötő, mint például a kerítésrudak vagy oszlopokat összekötő rúd.",
+      "en": "attached, i.e. a fence-rail or rod connecting the posts or pillars"
+    }
+  },
+  "H2839": {
+    "id": "H2839",
+    "lemma": "חִשֻּׁק",
+    "translit": "chishshuq",
+    "pronounce": "",
+    "defs": {
+      "hu": "összekötő, azaz a kerék küllője vagy a nábot összekötő rúd.",
+      "en": "conjoined, i.e. a wheel-spoke or rod connecting the hub with the rim"
+    }
+  },
+  "H2840": {
+    "id": "H2840",
+    "lemma": "חִשֻּׁר",
+    "translit": "chishshur",
+    "pronounce": "",
+    "defs": {
+      "hu": "kocsi agytengelye, vagy a kerék közepe, mely a küllőket összetartja.",
+      "en": "combined, i.e. the nave or hub of awheel (as holding the spokes together)"
+    }
+  },
+  "H2841": {
+    "id": "H2841",
+    "lemma": "חַשְׁרָה",
+    "translit": "chashrâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "gyűjtözés, gyülekezés, felhőgyűjtözés.",
+      "en": "properly, a combination or gathering, i.e. of watery clouds"
+    }
+  },
+  "H2842": {
+    "id": "H2842",
+    "lemma": "חָשַׁשׁ",
+    "translit": "châshash",
+    "pronounce": "",
+    "defs": {
+      "hu": "száraz fű",
+      "en": "dry grass"
+    }
+  },
+  "H2843": {
+    "id": "H2843",
+    "lemma": "חֻשָׁתִי",
+    "translit": "Chushâthîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "kusai, vagy Kusá fia, Kusából származó személy.",
+      "en": "a Chushathite or descendant of Chushah"
+    }
+  },
+  "H2844": {
+    "id": "H2844",
+    "lemma": "חַת",
+    "translit": "chath",
+    "pronounce": "",
+    "defs": {
+      "hu": "megtört, összetört",
+      "en": "concretely, crushed, also afraid, abstractly, terror"
+    }
+  },
+  "H2845": {
+    "id": "H2845",
+    "lemma": "חֵת",
+    "translit": "Chêth",
+    "pronounce": "",
+    "defs": {
+      "hu": "hét, egy őslakos kánaánita nép.",
+      "en": "Cheth, an aboriginal Canaanite"
+    }
+  },
+  "H2846": {
+    "id": "H2846",
+    "lemma": "חָתָה",
+    "translit": "châthâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "megragadni, különösen tüzet felvenni, begyújtani",
+      "en": "to lay hold of, especially to pick up fire"
+    }
+  },
+  "H2847": {
+    "id": "H2847",
+    "lemma": "חִתָּה",
+    "translit": "chittâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "félelem, rettegés, félelemérzet.",
+      "en": "fear"
+    }
+  },
+  "H2848": {
+    "id": "H2848",
+    "lemma": "חִתּוּל",
+    "translit": "chittûwl",
+    "pronounce": "",
+    "defs": {
+      "hu": "kötés, pólya, bekötözés",
+      "en": "swathed, i.e. a bandage"
+    }
+  },
+  "H2849": {
+    "id": "H2849",
+    "lemma": "חַתְחַת",
+    "translit": "chathchath",
+    "pronounce": "",
+    "defs": {
+      "hu": "félelem, rettegés, borzadás.",
+      "en": "terror"
+    }
+  },
+  "H2850": {
+    "id": "H2850",
+    "lemma": "חִתִּי",
+    "translit": "Chittîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "hittita, vagy Het fia, Het leszármazottja.",
+      "en": "a Chittite, or descendant of Cheth"
+    }
+  },
+  "H2851": {
+    "id": "H2851",
+    "lemma": "חִתִּית",
+    "translit": "chittîyth",
+    "pronounce": "",
+    "defs": {
+      "hu": "félelem, rettegés, félelemre méltó dolog",
+      "en": "fear"
+    }
+  },
+  "H2852": {
+    "id": "H2852",
+    "lemma": "חָתַךְ",
+    "translit": "châthak",
+    "pronounce": "",
+    "defs": {
+      "hu": "levágni, elrendelni",
+      "en": "properly, to cut off, i.e. (figuratively) to decree"
+    }
+  },
+  "H2853": {
+    "id": "H2853",
+    "lemma": "חָתַל",
+    "translit": "châthal",
+    "pronounce": "",
+    "defs": {
+      "hu": "becsomagolni, bekötni, pólyázni",
+      "en": "to swathe"
+    }
+  },
+  "H2854": {
+    "id": "H2854",
+    "lemma": "חֲתֻלָּה",
+    "translit": "chăthullâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "kötés, lepel (átvitt értelemben)",
+      "en": "a swathing cloth (figuratively)"
+    }
+  },
+  "H2855": {
+    "id": "H2855",
+    "lemma": "חֶתְלֹן",
+    "translit": "Chethlôn",
+    "pronounce": "",
+    "defs": {
+      "hu": "Hétlón, egy hely Palesztinában.",
+      "en": "Chethlon, a place in Palestine"
+    }
+  },
+  "H2856": {
+    "id": "H2856",
+    "lemma": "חָתַם",
+    "translit": "châtham",
+    "pronounce": "",
+    "defs": {
+      "hu": "lezárni, különösen pecséttel lezárni",
+      "en": "to close up, especially to seal"
+    }
+  },
+  "H2857": {
+    "id": "H2857",
+    "lemma": "חֲתַם",
+    "translit": "chătham",
+    "pronounce": "",
+    "defs": {
+      "hu": "pecsételni, lepecsételni, megbélyegezni.",
+      "en": "to seal"
+    }
+  },
+  "H2858": {
+    "id": "H2858",
+    "lemma": "חֹתֶמֶת",
+    "translit": "chôthemeth",
+    "pronounce": "",
+    "defs": {
+      "hu": "bélyeg",
+      "en": "a seal"
+    }
+  },
+  "H2859": {
+    "id": "H2859",
+    "lemma": "חָתַן",
+    "translit": "châthan",
+    "pronounce": "",
+    "defs": {
+      "hu": "lányt férjhez adni, vagy rokonságba lépni házasság útján",
+      "en": "to give (a daughter) away in marriage, hence (generally) to contract affinity by marriage"
+    }
+  },
+  "H2860": {
+    "id": "H2860",
+    "lemma": "חָתָן",
+    "translit": "châthân",
+    "pronounce": "",
+    "defs": {
+      "hu": "rokon, veje (főleg a menyasszony révén), átvitt értelemben körülmetélt gyermek (mint egyfajta vallási eljegyzés)",
+      "en": "a relative by marriage (especially through the bride), figuratively, a circumcised child (as a species of religious espousal)"
+    }
+  },
+  "H2861": {
+    "id": "H2861",
+    "lemma": "חֲתֻנָּה",
+    "translit": "chăthunnâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "esküvő, menyegző",
+      "en": "a wedding"
+    }
+  },
+  "H2862": {
+    "id": "H2862",
+    "lemma": "חָתַף",
+    "translit": "châthaph",
+    "pronounce": "",
+    "defs": {
+      "hu": "ragadni, megragadni, elragadni, elkapni",
+      "en": "to clutch"
+    }
+  },
+  "H2863": {
+    "id": "H2863",
+    "lemma": "חֶתֶף",
+    "translit": "chetheph",
+    "pronounce": "",
+    "defs": {
+      "hu": "rablás, fosztogatás, erőszakos kifosztás",
+      "en": "properly, rapine, figuratively, robbery"
+    }
+  },
+  "H2864": {
+    "id": "H2864",
+    "lemma": "חָתַר",
+    "translit": "châthar",
+    "pronounce": "",
+    "defs": {
+      "hu": "erőszakkal áttörni, betörni, vagy evezve áthajtani.",
+      "en": "to force a passage, as by burglary, figuratively, with oars"
+    }
+  },
+  "H2865": {
+    "id": "H2865",
+    "lemma": "חָתַת",
+    "translit": "châthath",
+    "pronounce": "",
+    "defs": {
+      "hu": "megdönteni, letörni, összeomlasztani (erőszakkal vagy félelemmel, képletesen is)",
+      "en": "properly, to prostrate, hence, to break down, either (literally) by violence, or (figuratively) by confusion and fear"
+    }
+  },
+  "H2866": {
+    "id": "H2866",
+    "lemma": "חֲתַת",
+    "translit": "chăthath",
+    "pronounce": "",
+    "defs": {
+      "hu": "félelem, megriadás, szorongás, rettegés.",
+      "en": "dismay"
+    }
+  },
+  "H2867": {
+    "id": "H2867",
+    "lemma": "חֲתַת",
+    "translit": "Chăthath",
+    "pronounce": "",
+    "defs": {
+      "hu": "Hatal, egy Izraelita.",
+      "en": "Chathath, an Israelite"
+    }
+  },
+  "H2868": {
+    "id": "H2868",
+    "lemma": "טְאֵב",
+    "translit": "ṭᵉʼêb",
+    "pronounce": "",
+    "defs": {
+      "hu": "örvendezni, vigadozni, jókedvű lenni",
+      "en": "to rejoice"
+    }
+  },
+  "H2869": {
+    "id": "H2869",
+    "lemma": "טָב",
+    "translit": "ṭâb",
+    "pronounce": "",
+    "defs": {
+      "hu": "jó, helyes, kedves, szép, alkalmas, ékes.",
+      "en": "good"
+    }
+  },
+  "H2870": {
+    "id": "H2870",
+    "lemma": "טָבְאֵל",
+    "translit": "ṭâbᵉʼêl",
+    "pronounce": "",
+    "defs": {
+      "hu": "Tábeel, egy szíriai és egy perzsa név.",
+      "en": "Tabeel, the name of a Syrian and of a Persian"
+    }
+  },
+  "H2871": {
+    "id": "H2871",
+    "lemma": "טָבוּל",
+    "translit": "ṭâbûwl",
+    "pronounce": "",
+    "defs": {
+      "hu": "fejdísz, turbán (valószínűleg színes anyagból készült)",
+      "en": "properly, dyed, i.e. a turban (probably as of colored stuff)"
+    }
+  },
+  "H2872": {
+    "id": "H2872",
+    "lemma": "טַבּוּר",
+    "translit": "ṭabbûwr",
+    "pronounce": "",
+    "defs": {
+      "hu": "hegycsúcs, felhőhegy, vagy magaslat.",
+      "en": "properly, accumulated, i.e. (by implication) a summit"
+    }
+  },
+  "H2873": {
+    "id": "H2873",
+    "lemma": "טָבַח",
+    "translit": "ṭâbach",
+    "pronounce": "",
+    "defs": {
+      "hu": "vágni, mészárolni (állatokat vagy embereket)",
+      "en": "to slaughter (animals or men)"
+    }
+  },
+  "H2874": {
+    "id": "H2874",
+    "lemma": "טֶבַח",
+    "translit": "ṭebach",
+    "pronounce": "",
+    "defs": {
+      "hu": "vágás, mészárlás, levágott állat, vágóhíd.",
+      "en": "properly, something slaughtered, hence, a beast (or meat, as butchered), abstractly butchery (or concretely, a place of slaughter)"
+    }
+  },
+  "H2875": {
+    "id": "H2875",
+    "lemma": "טֶבַח",
+    "translit": "Ṭebach",
+    "pronounce": "",
+    "defs": {
+      "hu": "Tebah, egy mezopotámiai és egy izraelita név.",
+      "en": "Tebach, the name of a Mesopotamian and of an Israelite"
+    }
+  },
+  "H2876": {
+    "id": "H2876",
+    "lemma": "טַבָּח",
+    "translit": "ṭabbâch",
+    "pronounce": "",
+    "defs": {
+      "hu": "vágó, mészáros, illetve a királyi testőrség tagja, akinek feladata a kivégzések végrehajtása, továbbá szakács, aki maga vágja le az állatot az étel elkészítéséhez.",
+      "en": "properly, a butcher, hence, a lifeguardsman (because he was acting as an executioner), also a cook (usually slaughtering the animal for food)"
+    }
+  },
+  "H2877": {
+    "id": "H2877",
+    "lemma": "טַבָּח",
+    "translit": "ṭabbâch",
+    "pronounce": "",
+    "defs": {
+      "hu": "őrszem, testőr, felügyelő",
+      "en": "a lifeguardsman"
+    }
+  },
+  "H2878": {
+    "id": "H2878",
+    "lemma": "טִבְחָה",
+    "translit": "ṭibchâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "vágás, mészárlás, levágott állat, vágóhíd, mészárlóhely.",
+      "en": "properly, something slaughtered, hence, a beast (or meat, as butchered), abstractly butchery (or concretely, a place of slaughter)"
+    }
+  },
+  "H2879": {
+    "id": "H2879",
+    "lemma": "טַבָּחָה",
+    "translit": "ṭabbâchâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "főzőnő",
+      "en": "a female cook"
+    }
+  },
+  "H2880": {
+    "id": "H2880",
+    "lemma": "טִבְחַת",
+    "translit": "Ṭibchath",
+    "pronounce": "",
+    "defs": {
+      "hu": "Tibchát, egy hely Szíriában.",
+      "en": "Tibchath, a place in Syria"
+    }
+  },
+  "H2881": {
+    "id": "H2881",
+    "lemma": "טָבַל",
+    "translit": "ṭâbal",
+    "pronounce": "",
+    "defs": {
+      "hu": "mártani, bemerítni",
+      "en": "to dip, to immerse"
+    }
+  },
+  "H2882": {
+    "id": "H2882",
+    "lemma": "טְבַלְיָהוּ",
+    "translit": "Ṭᵉbalyâhûw",
+    "pronounce": "",
+    "defs": {
+      "hu": "Tebaljáhu, egy Izraelita.",
+      "en": "Tebaljah, an Israelite"
+    }
+  },
+  "H2883": {
+    "id": "H2883",
+    "lemma": "טָבַע",
+    "translit": "ṭâbaʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "merülni, elsüllyedni, lemerülni",
+      "en": "to sink"
+    }
+  },
+  "H2884": {
+    "id": "H2884",
+    "lemma": "טַבָּעוֹת",
+    "translit": "Ṭabbâʻôwth",
+    "pronounce": "",
+    "defs": {
+      "hu": "tabbeót, a netinimok egyike.",
+      "en": "Tabbaoth, one of the Nethinim"
+    }
+  },
+  "H2885": {
+    "id": "H2885",
+    "lemma": "טַבַּעַת",
+    "translit": "ṭabbaʻath",
+    "pronounce": "",
+    "defs": {
+      "hu": "gyűrű, pecsétgyűrű, bélyegzőgyűrű",
+      "en": "properly, a seal (as sunk into the wax), i.e. signet (for sealing), hence (generally) a ring of any kind"
+    }
+  },
+  "H2886": {
+    "id": "H2886",
+    "lemma": "טַבְרִמּוֹן",
+    "translit": "Ṭabrimmôwn",
+    "pronounce": "",
+    "defs": {
+      "hu": "Tabrimmon, egy szíriai helység.",
+      "en": "Tabrimmon, a Syrian"
+    }
+  },
+  "H2887": {
+    "id": "H2887",
+    "lemma": "טֵבֶת",
+    "translit": "Ṭêbeth",
+    "pronounce": "",
+    "defs": {
+      "hu": "tebét, a zsidó naptár tizedik hónapja.",
+      "en": "Tebeth, the tenth Hebrew month"
+    }
+  },
+  "H2888": {
+    "id": "H2888",
+    "lemma": "טַבַּת",
+    "translit": "Ṭabbath",
+    "pronounce": "",
+    "defs": {
+      "hu": "Tabát, a Jordánon túl fekvő hely.",
+      "en": "Tabbath, a place East of the Jordan"
+    }
+  },
+  "H2889": {
+    "id": "H2889",
+    "lemma": "טָהוֹר",
+    "translit": "ṭâhôwr",
+    "pronounce": "",
+    "defs": {
+      "hu": "tiszta, sérintetlen, szent, feddhetetlen",
+      "en": "pure (in a physical, chemical, ceremonial or moral sense)"
+    }
+  },
+  "H2890": {
+    "id": "H2890",
+    "lemma": "טְהוֹר",
+    "translit": "ṭᵉhôwr",
+    "pronounce": "",
+    "defs": {
+      "hu": "tisztaság, szentség, hibátlan volt, tisztulás.",
+      "en": "purity"
+    }
+  },
+  "H2891": {
+    "id": "H2891",
+    "lemma": "טָהֵר",
+    "translit": "ṭâhêr",
+    "pronounce": "",
+    "defs": {
+      "hu": "tisztának lenni (fizikailag ép, egészséges, tiszta, szennyezetlen, levitai értelemben, erkölcsileg ártatlan vagy szent)",
+      "en": "to be pure (physical sound, clear, unadulterated, Levitically, uncontaminated, morally, innocent or holy)"
+    }
+  },
+  "H2892": {
+    "id": "H2892",
+    "lemma": "טֹהַר",
+    "translit": "ṭôhar",
+    "pronounce": "",
+    "defs": {
+      "hu": "tisztaság, fényesség, megtisztulás",
+      "en": "literally brightness, ceremonially purification"
+    }
+  },
+  "H2893": {
+    "id": "H2893",
+    "lemma": "טׇהֳרָה",
+    "translit": "ṭohŏrâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "tisztaság, szentség, megtisztulás, erkölcsi tisztaság",
+      "en": "ceremonial purification, moral purity"
+    }
+  },
+  "H2894": {
+    "id": "H2894",
+    "lemma": "טוּא",
+    "translit": "ṭûwʼ",
+    "pronounce": "",
+    "defs": {
+      "hu": "elsöpörni, elmosni, eltörölni, kiirtani",
+      "en": "to sweep away"
+    }
+  },
+  "H2895": {
+    "id": "H2895",
+    "lemma": "טוֹב",
+    "translit": "ṭôwb",
+    "pronounce": "",
+    "defs": {
+      "hu": "jó, kedves, ékes, szerencsés, megfelelően cselekedni, jót tenni, kedvezően bánni.",
+      "en": "to be (transitively, do or make) good (or well) in the widest sense"
+    }
+  },
+  "H2896": {
+    "id": "H2896",
+    "lemma": "טוֹב",
+    "translit": "ṭôwb",
+    "pronounce": "",
+    "defs": {
+      "hu": "jó (melléknévként a legszélesebb értelemben), úgy alkalmazható főnévként is, hímnemben és nőnemben, egy- és többes számban (jó, egy jó dolog, jó ember vagy nő, a jók, javak, jó emberek vagy nők), továbbá hatádmódként (jól).",
+      "en": "good (as an adjective) in the widest sense, used likewise as a noun, both in the masculine and the feminine, the singular and the plural (good, a good or good thing, a good man or woman, the good, goods or good things, good men or women), also as an adverb (well)"
+    }
+  },
+  "H2897": {
+    "id": "H2897",
+    "lemma": "טוֹב",
+    "translit": "Ṭôwb",
+    "pronounce": "",
+    "defs": {
+      "hu": "Tob, egy táj keletre a Jordántól.",
+      "en": "Tob, a region apparently East of the Jordan"
+    }
+  },
+  "H2898": {
+    "id": "H2898",
+    "lemma": "טוּב",
+    "translit": "ṭûwb",
+    "pronounce": "",
+    "defs": {
+      "hu": "jó (főnévként), a legszélesebb értelemben véve, különösen jóság (a felsőfokú, konkrét értelemben, a legjobb), szépség, öröm, jóllét.",
+      "en": "good (as a noun), in the widest sense, especially goodness (superlative concretely, the best), beauty, gladness, welfare"
+    }
+  },
+  "H2899": {
+    "id": "H2899",
+    "lemma": "טוֹב אֲדֹנִיָּהוּ",
+    "translit": "Ṭôwb ʼĂdônîyâhûw",
+    "pronounce": "",
+    "defs": {
+      "hu": "Tob-Adonijah, egy izraelita.",
+      "en": "Tob-Adonijah, an Israelite"
+    }
+  },
+  "H2900": {
+    "id": "H2900",
+    "lemma": "טוֹבִיָּה",
+    "translit": "Ṭôwbîyâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Tobijás, három izraelita és egy samaritán neve.",
+      "en": "Tobijah, the name of three Israelites and of one Samaritan"
+    }
+  },
+  "H2901": {
+    "id": "H2901",
+    "lemma": "טָוָה",
+    "translit": "ṭâvâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "fonni, kérgetni, szövetni",
+      "en": "to spin"
+    }
+  },
+  "H2902": {
+    "id": "H2902",
+    "lemma": "טוּחַ",
+    "translit": "ṭûwach",
+    "pronounce": "",
+    "defs": {
+      "hu": "mázolni, meszelni, vakolni",
+      "en": "to smear, especially with lime"
+    }
+  },
+  "H2903": {
+    "id": "H2903",
+    "lemma": "טוֹפָפָה",
+    "translit": "ṭôwphâphâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "homlokpánt, homlokra való kötés",
+      "en": "a fillet for the forehead"
+    }
+  },
+  "H2904": {
+    "id": "H2904",
+    "lemma": "טוּל",
+    "translit": "ṭûwl",
+    "pronounce": "",
+    "defs": {
+      "hu": "ledönteni, megdönteni, elűzni, kiűzni.",
+      "en": "to pitch over or reel, hence (transitively) to cast down or out"
+    }
+  },
+  "H2905": {
+    "id": "H2905",
+    "lemma": "טוּר",
+    "translit": "ṭûwr",
+    "pronounce": "",
+    "defs": {
+      "hu": "sor, fal, torony.",
+      "en": "a row, hence, a wall"
+    }
+  },
+  "H2906": {
+    "id": "H2906",
+    "lemma": "טוּר",
+    "translit": "ṭûwr",
+    "pronounce": "",
+    "defs": {
+      "hu": "szikla vagy halom",
+      "en": "a rock or hill"
+    }
+  },
+  "H2907": {
+    "id": "H2907",
+    "lemma": "טוּשׂ",
+    "translit": "ṭûws",
+    "pronounce": "",
+    "defs": {
+      "hu": "ragadozó madárként rátörni, támadni, elragadni.",
+      "en": "to pounce as a bird of prey"
+    }
+  },
+  "H2908": {
+    "id": "H2908",
+    "lemma": "טְוָת",
+    "translit": "ṭᵉvâth",
+    "pronounce": "",
+    "defs": {
+      "hu": "éhség (mint csavarás, görbülés)",
+      "en": "hunger (as twisting)"
+    }
+  },
+  "H2909": {
+    "id": "H2909",
+    "lemma": "טָחָה",
+    "translit": "ṭâchâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "íjjal feszíteni, megfeszíteni (íjjal)",
+      "en": "to stretch a bow, as an archer"
+    }
+  },
+  "H2910": {
+    "id": "H2910",
+    "lemma": "טֻחָה",
+    "translit": "ṭuchâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "vesék (a fedett szervek, átvitt értelemben a legmélyebb gondolatok)",
+      "en": "(in the plural only) the kidneys (as being covered), hence (figuratively) the inmost thought"
+    }
+  },
+  "H2911": {
+    "id": "H2911",
+    "lemma": "טְחוֹן",
+    "translit": "ṭᵉchôwn",
+    "pronounce": "",
+    "defs": {
+      "hu": "kézimalom, malomkő",
+      "en": "a hand mill, hence, a millstone"
+    }
+  },
+  "H2912": {
+    "id": "H2912",
+    "lemma": "טָחַן",
+    "translit": "ṭâchan",
+    "pronounce": "",
+    "defs": {
+      "hu": "őrölni gabonát, vagy lisztet",
+      "en": "to grind meal, hence, to be aconcubine (that being their employment)"
+    }
+  },
+  "H2913": {
+    "id": "H2913",
+    "lemma": "טַחֲנָה",
+    "translit": "ṭachănâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "kézimalom, illetve (átvitt értelemben) rágás",
+      "en": "a hand mill, hence (figuratively) chewing"
+    }
+  },
+  "H2914": {
+    "id": "H2914",
+    "lemma": "טְחֹר",
+    "translit": "ṭᵉchôr",
+    "pronounce": "",
+    "defs": {
+      "hu": "fekély, kelés, vagy végbélgyulladás, különösen a végbélen vagy nemi szerveken fellépő daganat.",
+      "en": "a boil or ulcer (from the inflammation), especially a tumorin the anus or pudenda (the piles)"
+    }
+  },
+  "H2915": {
+    "id": "H2915",
+    "lemma": "טִיחַ",
+    "translit": "ṭîyach",
+    "pronounce": "",
+    "defs": {
+      "hu": "máz vagy vakolat",
+      "en": "mortar or plaster"
+    }
+  },
+  "H2916": {
+    "id": "H2916",
+    "lemma": "טִיט",
+    "translit": "ṭîyṭ",
+    "pronounce": "",
+    "defs": {
+      "hu": "sár vagy agyag, átvitt értelemben: csapás, nyomorúság.",
+      "en": "mud or clay, figuratively, calamity"
+    }
+  },
+  "H2917": {
+    "id": "H2917",
+    "lemma": "טִין",
+    "translit": "ṭîyn",
+    "pronounce": "",
+    "defs": {
+      "hu": "agyag",
+      "en": "clay"
+    }
+  },
+  "H2918": {
+    "id": "H2918",
+    "lemma": "טִירָה",
+    "translit": "ṭîyrâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "fal, erődítmény vagy falu",
+      "en": "a wall, hence, a fortress or a hamlet"
+    }
+  },
+  "H2919": {
+    "id": "H2919",
+    "lemma": "טַל",
+    "translit": "ṭal",
+    "pronounce": "",
+    "defs": {
+      "hu": "harmat (a növényzetet borító)",
+      "en": "dew (as covering vegetation)"
+    }
+  },
+  "H2920": {
+    "id": "H2920",
+    "lemma": "טַל",
+    "translit": "ṭal",
+    "pronounce": "",
+    "defs": {
+      "hu": "harmat (a növényzetet borító harmat)",
+      "en": "dew (as covering vegetation)"
+    }
+  },
+  "H2921": {
+    "id": "H2921",
+    "lemma": "טָלָא",
+    "translit": "ṭâlâʼ",
+    "pronounce": "",
+    "defs": {
+      "hu": "megszórni, foltozni, tarkítani (szövettel)",
+      "en": "properly, to cover with pieces, i.e. (by implication) to spot or variegate (as tapestry)"
+    }
+  },
+  "H2922": {
+    "id": "H2922",
+    "lemma": "טְלָא",
+    "translit": "ṭᵉlâʼ",
+    "pronounce": "",
+    "defs": {
+      "hu": "bárány",
+      "en": "a lamb"
+    }
+  },
+  "H2923": {
+    "id": "H2923",
+    "lemma": "טְלָאִים",
+    "translit": "Ṭᵉlâʼîym",
+    "pronounce": "",
+    "defs": {
+      "hu": "Telaim, egy hely Palesztinában.",
+      "en": "Telaim, a place in Palestine"
+    }
+  },
+  "H2924": {
+    "id": "H2924",
+    "lemma": "טָלֶה",
+    "translit": "ṭâleh",
+    "pronounce": "",
+    "defs": {
+      "hu": "báránykölyök",
+      "en": "a lamb"
+    }
+  },
+  "H2925": {
+    "id": "H2925",
+    "lemma": "טַלְטֵלָה",
+    "translit": "ṭalṭêlâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "ledöntés vagy elvetés.",
+      "en": "overthrow or rejection"
+    }
+  },
+  "H2926": {
+    "id": "H2926",
+    "lemma": "טָלַל",
+    "translit": "ṭâlal",
+    "pronounce": "",
+    "defs": {
+      "hu": "valamivel beborítani, bevonni, (főleg fával) befedni, lemezbevonni.",
+      "en": "properly, to strew over, i.e. (by implication) to cover in or plate (with beams)"
+    }
+  },
+  "H2927": {
+    "id": "H2927",
+    "lemma": "טְלַל",
+    "translit": "ṭᵉlal",
+    "pronounce": "",
+    "defs": {
+      "hu": "árnyékolni, fedni árnyékkal.",
+      "en": "to cover with shade"
+    }
+  },
+  "H2928": {
+    "id": "H2928",
+    "lemma": "טֶלֶם",
+    "translit": "Ṭelem",
+    "pronounce": "",
+    "defs": {
+      "hu": "Tele, egy hely neve Idumeában, továbbá egy templomőrző neve.",
+      "en": "Telem, the name of a place in Idumaea, also of a temple doorkeeper"
+    }
+  },
+  "H2929": {
+    "id": "H2929",
+    "lemma": "טַלְמוֹן",
+    "translit": "Ṭalmôwn",
+    "pronounce": "",
+    "defs": {
+      "hu": "Talmon, a templom őre.",
+      "en": "Talmon, a temple doorkeeper"
+    }
+  },
+  "H2930": {
+    "id": "H2930",
+    "lemma": "טָמֵא",
+    "translit": "ṭâmêʼ",
+    "pronounce": "",
+    "defs": {
+      "hu": "megfertőzni, beszennyezni, tisztátlanítani, erkölcsileg megromlani.",
+      "en": "to be foul, especially in a ceremial or moral sense (contaminated)"
+    }
+  },
+  "H2931": {
+    "id": "H2931",
+    "lemma": "טָמֵא",
+    "translit": "ṭâmêʼ",
+    "pronounce": "",
+    "defs": {
+      "hu": "megbélyegezett, tisztátlan, szennyezett (szenttégi értelemben)",
+      "en": "foul in a religious sense"
+    }
+  },
+  "H2932": {
+    "id": "H2932",
+    "lemma": "טֻמְאָה",
+    "translit": "ṭumʼâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "szentségtelenítés, tisztátlanság, szennyezettség.",
+      "en": "religious impurity"
+    }
+  },
+  "H2933": {
+    "id": "H2933",
+    "lemma": "טָמָה",
+    "translit": "ṭâmâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "megszentségteleníteni, tisztátlan lenni, rituálisan szennyezett lenni.",
+      "en": "to be impure in a religious sense"
+    }
+  },
+  "H2934": {
+    "id": "H2934",
+    "lemma": "טָמַן",
+    "translit": "ṭâman",
+    "pronounce": "",
+    "defs": {
+      "hu": "eltakarni, elrejteni (fedéssel)",
+      "en": "to hide (by covering over)"
+    }
+  },
+  "H2935": {
+    "id": "H2935",
+    "lemma": "טֶנֶא",
+    "translit": "ṭeneʼ",
+    "pronounce": "",
+    "defs": {
+      "hu": "kosár (fonott nádból vagy vesszőből)",
+      "en": "a basket (of interlaced osiers)"
+    }
+  },
+  "H2936": {
+    "id": "H2936",
+    "lemma": "טָנַף",
+    "translit": "ṭânaph",
+    "pronounce": "",
+    "defs": {
+      "hu": "megfertőzni, beszennyezni, megromlani",
+      "en": "to soil"
+    }
+  },
+  "H2937": {
+    "id": "H2937",
+    "lemma": "טָעָה",
+    "translit": "ṭâʻâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "tévelyegni, vagy valakit tévedésre bírni, eltéveszteni az utat.",
+      "en": "to wander, causatively to lead astray"
+    }
+  },
+  "H2938": {
+    "id": "H2938",
+    "lemma": "טָעַם",
+    "translit": "ṭâʻam",
+    "pronounce": "",
+    "defs": {
+      "hu": "ízlel, átérez, tapasztal, megkóstol.",
+      "en": "to taste, figuratively, to perceive"
+    }
+  },
+  "H2939": {
+    "id": "H2939",
+    "lemma": "טְעַם",
+    "translit": "ṭᵉʻam",
+    "pronounce": "",
+    "defs": {
+      "hu": "ízlel, okozóan táplál.",
+      "en": "to taste, causatively to feed"
+    }
+  },
+  "H2940": {
+    "id": "H2940",
+    "lemma": "טַעַם",
+    "translit": "ṭaʻam",
+    "pronounce": "",
+    "defs": {
+      "hu": "íz, érzékelés, megértés, elrendelés, parancs.",
+      "en": "properly, a taste, i.e. (figuratively) perception, by implication, intelligence, transitively, a mandate"
+    }
+  },
+  "H2941": {
+    "id": "H2941",
+    "lemma": "טַעַם",
+    "translit": "ṭaʻam",
+    "pronounce": "",
+    "defs": {
+      "hu": "íz, ízlelés, ítélet, elítélés.",
+      "en": "properly, a taste, i.e. ajudicial sentence"
+    }
+  },
+  "H2942": {
+    "id": "H2942",
+    "lemma": "טְעֵם",
+    "translit": "ṭᵉʻêm",
+    "pronounce": "",
+    "defs": {
+      "hu": "íz, megfelelő, gondolat, ítélet, számítás, elszámolás.",
+      "en": "properly, flavor, figuratively, judgment (both subjective and objective), hence, account (both subjectively and objectively)"
+    }
+  },
+  "H2943": {
+    "id": "H2943",
+    "lemma": "טָעַן",
+    "translit": "ṭâʻan",
+    "pronounce": "",
+    "defs": {
+      "hu": "terhel, megrak (állatot)",
+      "en": "to load a beast"
+    }
+  },
+  "H2944": {
+    "id": "H2944",
+    "lemma": "טָעַן",
+    "translit": "ṭâʻan",
+    "pronounce": "",
+    "defs": {
+      "hu": "szúrni, tőrrel támadni, átszúrni.",
+      "en": "to stab"
+    }
+  },
+  "H2945": {
+    "id": "H2945",
+    "lemma": "טַף",
+    "translit": "ṭaph",
+    "pronounce": "",
+    "defs": {
+      "hu": "család, népesség, gyermeksereg (gyakran együttesen, egy egységként használva)",
+      "en": "a family (mostly used collectively in the singular)"
+    }
+  },
+  "H2946": {
+    "id": "H2946",
+    "lemma": "טָפַח",
+    "translit": "ṭâphach",
+    "pronounce": "",
+    "defs": {
+      "hu": "lapítani, kifeszíteni (pl. sátrat)",
+      "en": "to flatten out or extend (as a tent), figuratively, to nurse achild (as promotive of growth),"
+    }
+  },
+  "H2947": {
+    "id": "H2947",
+    "lemma": "טֵפַח",
+    "translit": "ṭêphach",
+    "pronounce": "",
+    "defs": {
+      "hu": "kézszélesség, építészetben konzol (mint támasztó tenyér)",
+      "en": "a spread of the hand, i.e. a palm-breadth (not 'span' of the fingers), architecturally, a corbel (as a supporting palm)"
+    }
+  },
+  "H2948": {
+    "id": "H2948",
+    "lemma": "טֹפַח",
+    "translit": "ṭôphach",
+    "pronounce": "",
+    "defs": {
+      "hu": "kézszélesség, építészetben konzol (mint támasztó tenyér)",
+      "en": "a spread of the hand, i.e. a palm-breadth (not 'span' of the fingers), architecturally, a corbel (as a supporting palm)"
+    }
+  },
+  "H2949": {
+    "id": "H2949",
+    "lemma": "טִפֻּח",
+    "translit": "ṭippuch",
+    "pronounce": "",
+    "defs": {
+      "hu": "nevelés, gondozás, táplálás",
+      "en": "nursing"
+    }
+  },
+  "H2950": {
+    "id": "H2950",
+    "lemma": "טָפַל",
+    "translit": "ṭâphal",
+    "pronounce": "",
+    "defs": {
+      "hu": "valótlant rávetni, hamisan tulajdonítani, rárakni (mint foltot)",
+      "en": "properly, to stick on as apatch, figuratively, to impute falsely"
+    }
+  },
+  "H2951": {
+    "id": "H2951",
+    "lemma": "טִפְסַר",
+    "translit": "ṭiphçar",
+    "pronounce": "",
+    "defs": {
+      "hu": "katonai kormányzó",
+      "en": "a military governor"
+    }
+  },
+  "H2952": {
+    "id": "H2952",
+    "lemma": "טָפַף",
+    "translit": "ṭâphaph",
+    "pronounce": "",
+    "defs": {
+      "hu": "flörtölőn, könnyelműen lépdelni, játszani, ugrálni.",
+      "en": "to trip (with short steps) coquettishly"
+    }
+  },
+  "H2953": {
+    "id": "H2953",
+    "lemma": "טְפַר",
+    "translit": "ṭᵉphar",
+    "pronounce": "",
+    "defs": {
+      "hu": "köröm, karmok, paták",
+      "en": "a finger-nail, also a hoof or claw"
+    }
+  },
+  "H2954": {
+    "id": "H2954",
+    "lemma": "טָפַשׁ",
+    "translit": "ṭâphash",
+    "pronounce": "",
+    "defs": {
+      "hu": "buta, értelmetlen, ostoba, vak.",
+      "en": "properly, apparently to be thick, figuratively, to be stupid"
+    }
+  },
+  "H2955": {
+    "id": "H2955",
+    "lemma": "טָפַת",
+    "translit": "Ṭâphath",
+    "pronounce": "",
+    "defs": {
+      "hu": "Táfat, egy Izraelitasszony.",
+      "en": "Taphath, an Israelitess"
+    }
+  },
+  "H2956": {
+    "id": "H2956",
+    "lemma": "טָרַד",
+    "translit": "ṭârad",
+    "pronounce": "",
+    "defs": {
+      "hu": "hajtani, üldözni, zaklatni, nyomosan követni",
+      "en": "to drive on, figuratively, to follow close"
+    }
+  },
+  "H2957": {
+    "id": "H2957",
+    "lemma": "טְרַד",
+    "translit": "ṭᵉrad",
+    "pronounce": "",
+    "defs": {
+      "hu": "űzni, kiűzni, elűzni, száműzni.",
+      "en": "to expel"
+    }
+  },
+  "H2958": {
+    "id": "H2958",
+    "lemma": "טְרוֹם",
+    "translit": "ṭᵉrôwm",
+    "pronounce": "",
+    "defs": {
+      "hu": "még nem",
+      "en": "not yet"
+    }
+  },
+  "H2959": {
+    "id": "H2959",
+    "lemma": "טָרַח",
+    "translit": "ṭârach",
+    "pronounce": "",
+    "defs": {
+      "hu": "fáradozni, megterhelni, munkát róva valakire",
+      "en": "to overburden"
+    }
+  },
+  "H2960": {
+    "id": "H2960",
+    "lemma": "טֹרַח",
+    "translit": "ṭôrach",
+    "pronounce": "",
+    "defs": {
+      "hu": "terhelés, fáradalom, munkavér, nyomorúság",
+      "en": "a burden"
+    }
+  },
+  "H2961": {
+    "id": "H2961",
+    "lemma": "טָרִי",
+    "translit": "ṭârîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "friss, újonnan készített, nedves, csepegő",
+      "en": "properly, dripping, hence, fresh (i.e. recently made such)"
+    }
+  },
+  "H2962": {
+    "id": "H2962",
+    "lemma": "טֶרֶם",
+    "translit": "ṭerem",
+    "pronounce": "",
+    "defs": {
+      "hu": "még nem, vagy mielőtt",
+      "en": "properly, non-occurrence, used adverbially, not yet or before"
+    }
+  },
+  "H2963": {
+    "id": "H2963",
+    "lemma": "טָרַף",
+    "translit": "ṭâraph",
+    "pronounce": "",
+    "defs": {
+      "hu": "letépni, széttépni, vagy (átvitt értelemben) ellátni étellel, táplálni.",
+      "en": "to pluck off or pull to pieces, causatively to supply with food (as in morsels)"
+    }
+  },
+  "H2964": {
+    "id": "H2964",
+    "lemma": "טֶרֶף",
+    "translit": "ṭereph",
+    "pronounce": "",
+    "defs": {
+      "hu": "valami széttépett, darab, például friss levél, zsákmány, táplálék.",
+      "en": "something torn, i.e. a fragment, e.g. a fresh leaf, prey, food"
+    }
+  },
+  "H2965": {
+    "id": "H2965",
+    "lemma": "טָרָף",
+    "translit": "ṭârâph",
+    "pronounce": "",
+    "defs": {
+      "hu": "frissen szakadt, elszakadt, újonnan elszakított",
+      "en": "recently torn off, i.e. fresh"
+    }
+  },
+  "H2966": {
+    "id": "H2966",
+    "lemma": "טְרֵפָה",
+    "translit": "ṭᵉrêphâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "ragadozóállatok által széttépett, elragadtatott állatok, zsákmány.",
+      "en": "prey, i.e. flocks devoured by animals"
+    }
+  },
+  "H2967": {
+    "id": "H2967",
+    "lemma": "טַרְפְּלַי",
+    "translit": "Ṭarpᵉlay",
+    "pronounce": "",
+    "defs": {
+      "hu": "tarpelita (kollektíven) vagy Tarpel lakói, egy hely Asszíriában.",
+      "en": "a Tarpelite (collectively) or inhabitants of Tarpel, a place in Assyria"
+    }
+  },
+  "H2968": {
+    "id": "H2968",
+    "lemma": "יָאַב",
+    "translit": "yâʼab",
+    "pronounce": "",
+    "defs": {
+      "hu": "vágyakozni, kívánni",
+      "en": "to desire"
+    }
+  },
+  "H2969": {
+    "id": "H2969",
+    "lemma": "יָאָה",
+    "translit": "yâʼâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "alkalmas lenni, megfelelően viselkedni, méltó lenni.",
+      "en": "to be suitable"
+    }
+  },
+  "H2970": {
+    "id": "H2970",
+    "lemma": "יַאֲזַנְיָה",
+    "translit": "Yaʼăzanyâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jaazánja, négy izraelita neve.",
+      "en": "Jaazanjah, the name of four Israelites"
+    }
+  },
+  "H2971": {
+    "id": "H2971",
+    "lemma": "יָאִיר",
+    "translit": "Yâʼîyr",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jáír, négy izraelita neve.",
+      "en": "Jair, the name of four Israelites"
+    }
+  },
+  "H2972": {
+    "id": "H2972",
+    "lemma": "יָאִרִי",
+    "translit": "Yâʼirîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "jáiri, Jair fia vagy utóda",
+      "en": "a Jairite or descendant of Jair"
+    }
+  },
+  "H2973": {
+    "id": "H2973",
+    "lemma": "יָאַל",
+    "translit": "yâʼal",
+    "pronounce": "",
+    "defs": {
+      "hu": "gyengeelméjű lenni, ostobaságot csinálni.",
+      "en": "properly, to be slack, i.e. (figuratively) to be foolish"
+    }
+  },
+  "H2974": {
+    "id": "H2974",
+    "lemma": "יָאַל",
+    "translit": "yâʼal",
+    "pronounce": "",
+    "defs": {
+      "hu": "megadni, beleegyezni, vállalni, akarni",
+      "en": "properly, to yield, especially assent, hence (pos.) to undertake as an act of volition"
+    }
+  },
+  "H2975": {
+    "id": "H2975",
+    "lemma": "יְאֹר",
+    "translit": "yᵉʼôr",
+    "pronounce": "",
+    "defs": {
+      "hu": "csatorna, például árok, csatorna, szoros értelemben a Nílus, mint Egyiptom egyetlen folyója, beleértve mellékárait is, továbbá a Tigris, mint Asszíria fő folyója.",
+      "en": "a channel, e.g. a fosse, canal, shaft, specifically the Nile, as the one river of Egypt, including its collateral trenches, also the Tigris, as the main river of Assyria"
+    }
+  },
+  "H2976": {
+    "id": "H2976",
+    "lemma": "יָאַשׁ",
+    "translit": "yâʼash",
+    "pronounce": "",
+    "defs": {
+      "hu": "elkeseredni, feladni, reményt veszíteni",
+      "en": "to desist, i.e. (figuratively) to despond"
+    }
+  },
+  "H2977": {
+    "id": "H2977",
+    "lemma": "יֹאשִׁיָּה",
+    "translit": "Yôʼshîyâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Joásiás, két izraelita neve.",
+      "en": "Joshijah, the name of two Israelites"
+    }
+  },
+  "H2978": {
+    "id": "H2978",
+    "lemma": "יְאִתוֹן",
+    "translit": "yᵉʼithôwn",
+    "pronounce": "",
+    "defs": {
+      "hu": "bejárat, átjáró, kapu, bemenetel.",
+      "en": "an entry"
+    }
+  },
+  "H2979": {
+    "id": "H2979",
+    "lemma": "יְאָתְרַי",
+    "translit": "yᵉʼâthᵉray",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jeáterai, egy Izraelita.",
+      "en": "Jeatherai, an Israelite"
+    }
+  },
+  "H2980": {
+    "id": "H2980",
+    "lemma": "יָבַב",
+    "translit": "yâbab",
+    "pronounce": "",
+    "defs": {
+      "hu": "sikoltani, jajgatni, kiabálni gyászban vagy fájdalomban.",
+      "en": "to bawl"
+    }
+  },
+  "H2981": {
+    "id": "H2981",
+    "lemma": "יְבוּל",
+    "translit": "yᵉbûwl",
+    "pronounce": "",
+    "defs": {
+      "hu": "termés, vetés, vagy (átvitt értelemben) vagyon, jövedelem.",
+      "en": "produce, i.e. a crop or (figuratively) wealth"
+    }
+  },
+  "H2982": {
+    "id": "H2982",
+    "lemma": "יְבוּס",
+    "translit": "Yᵉbûwç",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jebus, Jeruzsálem eredeti neve.",
+      "en": "Jebus, the original name of Jerusalem"
+    }
+  },
+  "H2983": {
+    "id": "H2983",
+    "lemma": "יְבוּסִי",
+    "translit": "Yᵉbûwçîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "jebuszi, Jebus lakója.",
+      "en": "a Jebusite or inhabitant of Jebus"
+    }
+  },
+  "H2984": {
+    "id": "H2984",
+    "lemma": "יִבְחַר",
+    "translit": "Yibchar",
+    "pronounce": "",
+    "defs": {
+      "hu": "Izraelita férfiúnév, Jibchar.",
+      "en": "Jibchar, an Israelite"
+    }
+  },
+  "H2985": {
+    "id": "H2985",
+    "lemma": "יָבִין",
+    "translit": "Yâbîyn",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jábín, a kánaánita királyoknak adott név.",
+      "en": "Jabin, the name of two Canaanitish kings"
+    }
+  },
+  "H2986": {
+    "id": "H2986",
+    "lemma": "יָבַל",
+    "translit": "yâbal",
+    "pronounce": "",
+    "defs": {
+      "hu": "folyni, áramlani, elvezetni, pompával hozni, bevezetni.",
+      "en": "properly, to flow, causatively, to bring (especially with pomp)"
+    }
+  },
+  "H2987": {
+    "id": "H2987",
+    "lemma": "יְבַל",
+    "translit": "yᵉbal",
+    "pronounce": "",
+    "defs": {
+      "hu": "vinni, behozni, szállítani, áthozni.",
+      "en": "to bring"
+    }
+  },
+  "H2988": {
+    "id": "H2988",
+    "lemma": "יָבָל",
+    "translit": "yâbâl",
+    "pronounce": "",
+    "defs": {
+      "hu": "folyóvíz, patak",
+      "en": "a stream"
+    }
+  },
+  "H2989": {
+    "id": "H2989",
+    "lemma": "יָבָל",
+    "translit": "Yâbâl",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jabal, egy özönvíz előtti ember.",
+      "en": "Jabal, an antediluvian"
+    }
+  },
+  "H2990": {
+    "id": "H2990",
+    "lemma": "יַבֵּל",
+    "translit": "yabbêl",
+    "pronounce": "",
+    "defs": {
+      "hu": "bőrbetegség, gennyes sebhelyekkel járó betegség",
+      "en": "having running sores"
+    }
+  },
+  "H2991": {
+    "id": "H2991",
+    "lemma": "יִבְלְעָם",
+    "translit": "Yiblᵉʻâm",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jibleám, egy hely Palesztinában.",
+      "en": "Jibleam, a place in Palestine"
+    }
+  },
+  "H2992": {
+    "id": "H2992",
+    "lemma": "יָבַם",
+    "translit": "yâbam",
+    "pronounce": "",
+    "defs": {
+      "hu": "testvér özvegyét feleségül venni.",
+      "en": "to marry a (deceased) brother's widow"
+    }
+  },
+  "H2993": {
+    "id": "H2993",
+    "lemma": "יָבָם",
+    "translit": "yâbâm",
+    "pronounce": "",
+    "defs": {
+      "hu": "sógor",
+      "en": "a brotherin-law"
+    }
+  },
+  "H2994": {
+    "id": "H2994",
+    "lemma": "יְבֵמֶת",
+    "translit": "Yᵉbêmeth",
+    "pronounce": "",
+    "defs": {
+      "hu": "sógornő",
+      "en": "a sister-in-law"
+    }
+  },
+  "H2995": {
+    "id": "H2995",
+    "lemma": "יַבְנְאֵל",
+    "translit": "Yabnᵉʼêl",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jabneel, Palesztinában található két hely neve.",
+      "en": "Jabneel, the name of two places in Palestine"
+    }
+  },
+  "H2996": {
+    "id": "H2996",
+    "lemma": "יַבְנֶה",
+    "translit": "Yabneh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jabneh, egy hely Palesztinában.",
+      "en": "Jabneh, a place in Palestine"
+    }
+  },
+  "H2997": {
+    "id": "H2997",
+    "lemma": "יִבְנְיָה",
+    "translit": "Yibnᵉyâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jibnéa, egy Izraelita.",
+      "en": "Jibnejah, an Israelite"
+    }
+  },
+  "H2998": {
+    "id": "H2998",
+    "lemma": "יִבְנִיָּה",
+    "translit": "Yibnîyâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jibnijá, egy izraelita.",
+      "en": "Jibnijah, an Israelite"
+    }
+  },
+  "H2999": {
+    "id": "H2999",
+    "lemma": "יַבֹּק",
+    "translit": "Yabbôq",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jabbók, a Jordánon túl keletre folyó folyó.",
+      "en": "Jabbok, a river east of the Jordan"
+    }
+  },
+  "H3000": {
+    "id": "H3000",
+    "lemma": "יְבֶרֶכְיָהוּ",
+    "translit": "Yᵉberekyâhûw",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jeberekjáhu, egy Izraelita.",
+      "en": "Jeberekjah, an Israelite"
+    }
+  },
+  "H3001": {
+    "id": "H3001",
+    "lemma": "יָבֵשׁ",
+    "translit": "yâbêsh",
+    "pronounce": "",
+    "defs": {
+      "hu": "megszégyenül, zavarba jön, csalódik, valamint (száradásról) kiszárad, (növényzetről) elszárad.",
+      "en": "to be ashamed, confused or disappointed, also (as failing) to dry up (as water) or wither (as herbage)"
+    }
+  },
+  "H3002": {
+    "id": "H3002",
+    "lemma": "יָבֵשׁ",
+    "translit": "yâbêsh",
+    "pronounce": "",
+    "defs": {
+      "hu": "száraz",
+      "en": "dry"
+    }
+  },
+  "H3003": {
+    "id": "H3003",
+    "lemma": "יָבֵשׁ",
+    "translit": "Yâbêsh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jábés, egy izraelita neve és egy palesztinai hely neve.",
+      "en": "Jobesh, the name of an Israelite and of a place in Palestine"
+    }
+  },
+  "H3004": {
+    "id": "H3004",
+    "lemma": "יַבָּשָׁה",
+    "translit": "yabbâshâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "száraz föld, szárazföld",
+      "en": "dry ground"
+    }
+  },
+  "H3005": {
+    "id": "H3005",
+    "lemma": "יִבְשָׂם",
+    "translit": "Yibsâm",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jibszám, egy Izraelita.",
+      "en": "Jibsam, an Israelite"
+    }
+  },
+  "H3006": {
+    "id": "H3006",
+    "lemma": "יַבֶּשֶׁת",
+    "translit": "yabbesheth",
+    "pronounce": "",
+    "defs": {
+      "hu": "száraz föld, kiszáradt talaj",
+      "en": "dry ground"
+    }
+  },
+  "H3007": {
+    "id": "H3007",
+    "lemma": "יַבֶּשֶׁת",
+    "translit": "yabbesheth",
+    "pronounce": "",
+    "defs": {
+      "hu": "szárazföld",
+      "en": "dry land"
+    }
+  },
+  "H3008": {
+    "id": "H3008",
+    "lemma": "יִגְאָל",
+    "translit": "Yigʼâl",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jigál, három izraelita neve.",
+      "en": "Jigal, the name of three Israelites"
+    }
+  },
+  "H3009": {
+    "id": "H3009",
+    "lemma": "יָגַב",
+    "translit": "yâgab",
+    "pronounce": "",
+    "defs": {
+      "hu": "ásni vagy szántani",
+      "en": "to dig or plow"
+    }
+  },
+  "H3010": {
+    "id": "H3010",
+    "lemma": "יָגֵב",
+    "translit": "yâgêb",
+    "pronounce": "",
+    "defs": {
+      "hu": "szántóföld, felszántott terület",
+      "en": "a plowed field"
+    }
+  },
+  "H3011": {
+    "id": "H3011",
+    "lemma": "יׇגְבְּהָה",
+    "translit": "Yogbᵉhâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jogbehá, a Jordánon túl fekvő hely.",
+      "en": "Jogbehah, a place East of the Jordan"
+    }
+  },
+  "H3012": {
+    "id": "H3012",
+    "lemma": "יִגְדַּלְיָהוּ",
+    "translit": "Yigdalyâhûw",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jigdaljáhu, egy izraelita.",
+      "en": "Jigdaljah, an Israelite"
+    }
+  },
+  "H3013": {
+    "id": "H3013",
+    "lemma": "יָגָה",
+    "translit": "yâgâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "gyászol, szomorkodik, bánkódik.",
+      "en": "to grieve"
+    }
+  },
+  "H3014": {
+    "id": "H3014",
+    "lemma": "יָגָה",
+    "translit": "yâgâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "eltávolítani, elűzni, visszataszítani.",
+      "en": "to push away"
+    }
+  },
+  "H3015": {
+    "id": "H3015",
+    "lemma": "יָגוֹן",
+    "translit": "yâgôwn",
+    "pronounce": "",
+    "defs": {
+      "hu": "gyötrelem, nyomorúság, bánat, keserűség.",
+      "en": "affliction"
+    }
+  },
+  "H3016": {
+    "id": "H3016",
+    "lemma": "יָגוֹר",
+    "translit": "yâgôwr",
+    "pronounce": "",
+    "defs": {
+      "hu": "félelemre hajló, rettegő, félelemmel teli.",
+      "en": "fearful"
+    }
+  },
+  "H3017": {
+    "id": "H3017",
+    "lemma": "יָגוּר",
+    "translit": "Yâgûwr",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jágur, egy hely Palesztinában.",
+      "en": "Jagur, a place in Palestine"
+    }
+  },
+  "H3018": {
+    "id": "H3018",
+    "lemma": "יְגִיעַ",
+    "translit": "yᵉgîyaʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "fáradozás, munka, termés, vagyon (munkából származó)",
+      "en": "toil, hence, a work, produce, property (as the result of labor)"
+    }
+  },
+  "H3019": {
+    "id": "H3019",
+    "lemma": "יָגִיעַ",
+    "translit": "yâgîyaʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "fáradt, megfáradt, kimerült",
+      "en": "tired"
+    }
+  },
+  "H3020": {
+    "id": "H3020",
+    "lemma": "יׇגְלִי",
+    "translit": "Yoglîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jogli, egy Izraelita.",
+      "en": "Jogli, an Israelite"
+    }
+  },
+  "H3021": {
+    "id": "H3021",
+    "lemma": "יָגַע",
+    "translit": "yâgaʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "fáradni, megfáradni, szorgalmaskodni, gyötrődni, leterhelni magát",
+      "en": "properly, to gasp, hence, to be exhausted, to tire, to toil"
+    }
+  },
+  "H3022": {
+    "id": "H3022",
+    "lemma": "יָגָע",
+    "translit": "yâgâʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "fáradozásból származó jövedelem, megteremés, munkabér",
+      "en": "earnings (as the product of toil)"
+    }
+  },
+  "H3023": {
+    "id": "H3023",
+    "lemma": "יָגֵעַ",
+    "translit": "yâgêaʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "fáradt, (átvitt értelemben) kimerítő, megterhelő.",
+      "en": "tired, hence (transitive) tiresome"
+    }
+  },
+  "H3024": {
+    "id": "H3024",
+    "lemma": "יְגִעָה",
+    "translit": "yᵉgiʻâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "fáradtság, megfáradás, erőtlenség",
+      "en": "fatigue"
+    }
+  },
+  "H3025": {
+    "id": "H3025",
+    "lemma": "יָגֹר",
+    "translit": "yâgôr",
+    "pronounce": "",
+    "defs": {
+      "hu": "fél, rettegni, irtózni",
+      "en": "to fear"
+    }
+  },
+  "H3026": {
+    "id": "H3026",
+    "lemma": "יְגַר שַׂהֲדוּתָא",
+    "translit": "Yᵉgar Sahădûwthâʼ",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jegár-Sahadúta, egy kőhalom a Jordánon túl keletre.",
+      "en": "Jegar-Sahadutha, a cairn East of the Jordan"
+    }
+  },
+  "H3027": {
+    "id": "H3027",
+    "lemma": "יָד",
+    "translit": "yâd",
+    "pronounce": "",
+    "defs": {
+      "hu": "kéz (a nyitott kéz (erőt, eszközt, irányt stb. jelképezve),",
+      "en": "a hand (the open one (indicating power, means, direction, etc.),"
+    }
+  },
+  "H3028": {
+    "id": "H3028",
+    "lemma": "יַד",
+    "translit": "yad",
+    "pronounce": "",
+    "defs": {
+      "hu": "kéz (az emberi test végtagja, erő, eszköz, irányítás, segítség jelölésére is)",
+      "en": "a hand (the open one (indicating power, means, direction, etc.)"
+    }
+  },
+  "H3029": {
+    "id": "H3029",
+    "lemma": "יְדָא",
+    "translit": "yᵉdâʼ",
+    "pronounce": "",
+    "defs": {
+      "hu": "dicsérni, magasztalni, áldani",
+      "en": "to praise"
+    }
+  },
+  "H3030": {
+    "id": "H3030",
+    "lemma": "יִדְאֲלָה",
+    "translit": "Yidʼălâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jidala, egy hely Palesztinában.",
+      "en": "Jidalah, a place in Palestine"
+    }
+  },
+  "H3031": {
+    "id": "H3031",
+    "lemma": "יִדְבָּשׁ",
+    "translit": "Yidbâsh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jidbás, egy Izraelita.",
+      "en": "Jidbash, an Israelite"
+    }
+  },
+  "H3032": {
+    "id": "H3032",
+    "lemma": "יָדַד",
+    "translit": "yâdad",
+    "pronounce": "",
+    "defs": {
+      "hu": "megragadni, kezesíteni, dobni (pl. sorsot vetni)",
+      "en": "properly, to handle, i.e. to throw, e.g. lots"
+    }
+  },
+  "H3033": {
+    "id": "H3033",
+    "lemma": "יְדִדוּת",
+    "translit": "yᵉdidûwth",
+    "pronounce": "",
+    "defs": {
+      "hu": "szeretet, kedvesség, kedvelt dolog",
+      "en": "properly, affection, concretely, a darling object"
+    }
+  },
+  "H3034": {
+    "id": "H3034",
+    "lemma": "יָדָה",
+    "translit": "yâdâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "kézzel dobni (követ, nyilat), áldani, imádni (kézfejtéssel), jajgatni (kezek gyúrásával)",
+      "en": "physically, to throw (a stone, an arrow) at or away, especially to revere or worship (with extended hands), intensively, to bemoan (by wringing the hands)"
+    }
+  },
+  "H3035": {
+    "id": "H3035",
+    "lemma": "יִדּוֹ",
+    "translit": "Yiddôw",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jiddó, egy Izraelita.",
+      "en": "Jiddo, an Israelite"
+    }
+  },
+  "H3036": {
+    "id": "H3036",
+    "lemma": "יָדוֹן",
+    "translit": "Yâdôwn",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jádón, egy Izraelita.",
+      "en": "Jadon, an Israelite"
+    }
+  },
+  "H3037": {
+    "id": "H3037",
+    "lemma": "יַדּוּעַ",
+    "translit": "Yaddûwaʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jaddua, két izraelita neve.",
+      "en": "Jaddua, the name of two Israelites"
+    }
+  },
+  "H3038": {
+    "id": "H3038",
+    "lemma": "יְדוּתוּן",
+    "translit": "Yᵉdûwthûwn",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jedutun, egy Izraelita.",
+      "en": "Jeduthun, an Israelite"
+    }
+  },
+  "H3039": {
+    "id": "H3039",
+    "lemma": "יְדִיד",
+    "translit": "yᵉdîyd",
+    "pronounce": "",
+    "defs": {
+      "hu": "szeretett, kedves, barát, kedvenc",
+      "en": "loved"
+    }
+  },
+  "H3040": {
+    "id": "H3040",
+    "lemma": "יְדִידָה",
+    "translit": "Yᵉdîydâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jedidá, egy Izraelitasszony.",
+      "en": "Jedidah, an Israelitess"
+    }
+  },
+  "H3041": {
+    "id": "H3041",
+    "lemma": "יְדִידְיָה",
+    "translit": "Yᵉdîydᵉyâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jedidejá, Salamon neve.",
+      "en": "Jedidejah, a name of Solomon"
+    }
+  },
+  "H3042": {
+    "id": "H3042",
+    "lemma": "יְדָיָה",
+    "translit": "Yᵉdâyâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jedajá, két izraelita neve.",
+      "en": "Jedajah, the name of two Israelites"
+    }
+  },
+  "H3043": {
+    "id": "H3043",
+    "lemma": "יְדִיעֲאֵל",
+    "translit": "Yᵉdîyʻăʼêl",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jediael, három izraelita neve.",
+      "en": "Jediael, the name of three Israelites"
+    }
+  },
+  "H3044": {
+    "id": "H3044",
+    "lemma": "יִדְלָף",
+    "translit": "Yidlâph",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jidláf, egy mezopotámiai.",
+      "en": "Jidlaph, a Mesopotamian"
+    }
+  },
+  "H3045": {
+    "id": "H3045",
+    "lemma": "יָדַע",
+    "translit": "yâdaʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "ismerni, megismerni, tudni, ráismerni, gondoskodni, tanítani, meghatározni, büntetni, észrevenni, megfigyelni, tapasztalni, érteni, megérteni.",
+      "en": "to know (properly, to ascertain by seeing), used in a great variety of senses, figuratively, literally, euphemistically and inferentially (including observation, care, recognition, and causatively, instruction, designation, punishment, etc.)"
+    }
+  },
+  "H3046": {
+    "id": "H3046",
+    "lemma": "יְדַע",
+    "translit": "yᵉdaʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "ismerni (megismerni, tapasztalni, érteni, tudni, gondoskodni, felismerni, tanítani, elnevezni, büntetni, stb.)",
+      "en": "to know (properly, to ascertain by seeing), used in a great variety of senses, figuratively, literally, euphemistically and inferentially (including observation, care, recognition, and causatively, instruction, designation, punishment, etc.)"
+    }
+  },
+  "H3047": {
+    "id": "H3047",
+    "lemma": "יָדָע",
+    "translit": "Yâdâʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jada, egy Izraelita.",
+      "en": "Jada, an Israelite"
+    }
+  },
+  "H3048": {
+    "id": "H3048",
+    "lemma": "יְדַעְיָה",
+    "translit": "Yᵉdaʻyâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jedajá, két izraelita neve.",
+      "en": "Jedajah, the name of two Israelites"
+    }
+  },
+  "H3049": {
+    "id": "H3049",
+    "lemma": "יִדְּעֹנִי",
+    "translit": "yiddᵉʻônîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "jósló, mágus, vagy (átvitt értelemben) kísértet",
+      "en": "properly, a knowing one, specifically, a conjurer, (by impl) a ghost"
+    }
+  },
+  "H3050": {
+    "id": "H3050",
+    "lemma": "יָהּ",
+    "translit": "Yâhh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jah, a szent név.",
+      "en": "Jah, the sacred name"
+    }
+  },
+  "H3051": {
+    "id": "H3051",
+    "lemma": "יָהַב",
+    "translit": "yâhab",
+    "pronounce": "",
+    "defs": {
+      "hu": "adni, adni valamit, nyújtani, juttatni, adományozni, megadni, elvégezni, megtenni, jönni (parancsoló módban, visszahatóan)",
+      "en": "to give (whether literal or figurative), generally, to put, imperatively (reflexive) come"
+    }
+  },
+  "H3052": {
+    "id": "H3052",
+    "lemma": "יְהַב",
+    "translit": "yᵉhab",
+    "pronounce": "",
+    "defs": {
+      "hu": "adni, adni valamit (szó szerint vagy átvitt értelemben), általánosan tenni, parancsoló módban (visszafordítva) jönni.",
+      "en": "to give (whether literal or figurative), generally, to put, imperatively (reflexive) come"
+    }
+  },
+  "H3053": {
+    "id": "H3053",
+    "lemma": "יְהָב",
+    "translit": "yᵉhâb",
+    "pronounce": "",
+    "defs": {
+      "hu": "adomány, sors, juss, birtok, adás, ajándék.",
+      "en": "properly, what is given (by Providence), i.e. a lot"
+    }
+  },
+  "H3054": {
+    "id": "H3054",
+    "lemma": "יָהַד",
+    "translit": "yâhad",
+    "pronounce": "",
+    "defs": {
+      "hu": "zsidóvá lenni, zsidó szokásokat követni.",
+      "en": "to Judaize, i.e. become Jewish"
+    }
+  },
+  "H3055": {
+    "id": "H3055",
+    "lemma": "יְהֻד",
+    "translit": "Yᵉhud",
+    "pronounce": "",
+    "defs": {
+      "hu": "Júd, egy hely Palesztinában.",
+      "en": "Jehud, a place in Palestine"
+    }
+  },
+  "H3056": {
+    "id": "H3056",
+    "lemma": "יֶהְדַי",
+    "translit": "Yehday",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jehdaj, egy Izraelita.",
+      "en": "Jehdai, an Israelite"
+    }
+  },
+  "H3057": {
+    "id": "H3057",
+    "lemma": "יְהֻדִיָּה",
+    "translit": "Yᵉhudîyâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jehudija, egy zsidó nő.",
+      "en": "Jehudijah, a Jewess"
+    }
+  },
+  "H3058": {
+    "id": "H3058",
+    "lemma": "יֵהוּא",
+    "translit": "Yêhûwʼ",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jéhu, öt izraelita neve.",
+      "en": "Jehu, the name of five Israelites"
+    }
+  },
+  "H3059": {
+    "id": "H3059",
+    "lemma": "יְהוֹאָחָז",
+    "translit": "Yᵉhôwʼâchâz",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jóácház, három izraelita neve.",
+      "en": "Jehoachaz, the name of three Israelites"
+    }
+  },
+  "H3060": {
+    "id": "H3060",
+    "lemma": "יְהוֹאָשׁ",
+    "translit": "Yᵉhôwʼâsh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jóás, Izrael két királyának neve.",
+      "en": "Jehoash, the name of two Israelite kings"
+    }
+  },
+  "H3061": {
+    "id": "H3061",
+    "lemma": "יְהוּד",
+    "translit": "Yᵉhûwd",
+    "pronounce": "",
+    "defs": {
+      "hu": "Júda, illetve Júda földje.",
+      "en": "properly, Judah, hence, Judaea"
+    }
+  },
+  "H3062": {
+    "id": "H3062",
+    "lemma": "יְהוּדָאִי",
+    "translit": "Yᵉhûwdâʼîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "júdai, zsidó",
+      "en": "a Jehudaite (or Judaite), i.e. Jew"
+    }
+  },
+  "H3063": {
+    "id": "H3063",
+    "lemma": "יְהוּדָה",
+    "translit": "Yᵉhûwdâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Júdá, öt izraelita neve, továbbá az elsőtől származó törzs neve és annak területe.",
+      "en": "Jehudah (or Judah), the name of five Israelites, also of the tribe descended from the first, and of its territory"
+    }
+  },
+  "H3064": {
+    "id": "H3064",
+    "lemma": "יְהוּדִי",
+    "translit": "Yᵉhûwdîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "júdai, Júda fia, Júda törzséből való, zsidó.",
+      "en": "a Jehudite (i.e. Judaite or Jew), or descendant of Jehudah (i.e. Judah)"
+    }
+  },
+  "H3065": {
+    "id": "H3065",
+    "lemma": "יְהוּדִי",
+    "translit": "Yᵉhûwdîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "zsidó, izraelita",
+      "en": "Jehudi, an Israelite"
+    }
+  },
+  "H3066": {
+    "id": "H3066",
+    "lemma": "יְהוּדִית",
+    "translit": "Yᵉhûwdîyth",
+    "pronounce": "",
+    "defs": {
+      "hu": "zsidó nyelv (mint határozószó)",
+      "en": "the Jewish (used adverbially) language"
+    }
+  },
+  "H3067": {
+    "id": "H3067",
+    "lemma": "יְהוּדִית",
+    "translit": "Yᵉhûwdîyth",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jehuditi, egy kánaánita asszony.",
+      "en": "Jehudith, a Canaanitess"
+    }
+  },
+  "H3068": {
+    "id": "H3068",
+    "lemma": "יְהֹוָה",
+    "translit": "Yᵉhôvâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jehova, az Isten nemzeti neve Izraelben.",
+      "en": "Jehovah, Jewish national name of God"
+    }
+  },
+  "H3069": {
+    "id": "H3069",
+    "lemma": "יְהֹוִה",
+    "translit": "Yᵉhôvih",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jehova.",
+      "en": "YHWH"
+    }
+  },
+  "H3070": {
+    "id": "H3070",
+    "lemma": "יְהֹוָה יִרְאֶה",
+    "translit": "Yᵉhôvâh yirʼeh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jehova látni fog, a Móré hegy szimbolikus neve.",
+      "en": "Jehovah-Jireh, a symbolical name for Mount Moriah"
+    }
+  },
+  "H3071": {
+    "id": "H3071",
+    "lemma": "יְהֹוָה נִסִּי",
+    "translit": "Yᵉhôvâh niççîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jehova-nisszi, egy jelképes név egy oltárnak a pusztában.",
+      "en": "Jehovah-Nissi, a symbolical name of an altar in the Desert"
+    }
+  },
+  "H3072": {
+    "id": "H3072",
+    "lemma": "יְהֹוָה צִדְקֵנוּ",
+    "translit": "Yᵉhôvâh tsidqênûw",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jehova igazságosságunk, a Messiás és Jeruzsálem szimbolikus jelzője.",
+      "en": "Jehovah-Tsidkenu, a symbolical epithet of the Messiah and of Jerusalem"
+    }
+  },
+  "H3073": {
+    "id": "H3073",
+    "lemma": "יְהֹוָה שָׁלוֹם",
+    "translit": "Yᵉhôvâh shâlôwm",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jehova-Shalom, egy palesztinai oltár szimbolikus neve.",
+      "en": "Jehovah-Shalom, a symbolical name of an altar in Palestine"
+    }
+  },
+  "H3074": {
+    "id": "H3074",
+    "lemma": "יְהֹוָה שָׁמָּה",
+    "translit": "Yᵉhôvâh shâmmâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jehova-samma, Jeruzsálem szimbolikus neve.",
+      "en": "Jehovah-Shammah, a symbolic title of Jerusalem"
+    }
+  },
+  "H3075": {
+    "id": "H3075",
+    "lemma": "יְהוֹזָבָד",
+    "translit": "Yᵉhôwzâbâd",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jehózábád, három izraelita neve.",
+      "en": "Jehozabad, the name of three Israelites"
+    }
+  },
+  "H3076": {
+    "id": "H3076",
+    "lemma": "יְהוֹחָנָן",
+    "translit": "Yᵉhôwchânân",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jóhánán, nyolc izraelita neve.",
+      "en": "Jehochanan, the name of eight Israelites"
+    }
+  },
+  "H3077": {
+    "id": "H3077",
+    "lemma": "יְהוֹיָדָע",
+    "translit": "Yᵉhôwyâdâʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jehójáda, három izraelita neve.",
+      "en": "Jehojada, the name of three Israelites"
+    }
+  },
+  "H3078": {
+    "id": "H3078",
+    "lemma": "יְהוֹיָכִין",
+    "translit": "Yᵉhôwyâkîyn",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jojáchin, Júda királya.",
+      "en": "Jehojakin, a Jewish king"
+    }
+  },
+  "H3079": {
+    "id": "H3079",
+    "lemma": "יְהוֹיָקִים",
+    "translit": "Yᵉhôwyâqîym",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jojákim, Júda királya.",
+      "en": "Jehojakim, a Jewish king"
+    }
+  },
+  "H3080": {
+    "id": "H3080",
+    "lemma": "יְהוֹיָרִיב",
+    "translit": "Yᵉhôwyârîyb",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jehójárib, két izraelita neve.",
+      "en": "Jehojarib, the name of two Israelites"
+    }
+  },
+  "H3081": {
+    "id": "H3081",
+    "lemma": "יְהוּכַל",
+    "translit": "Yᵉhûwkal",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jehukál, egy izraelita.",
+      "en": "Jehukal, an Israelite"
+    }
+  },
+  "H3082": {
+    "id": "H3082",
+    "lemma": "יְהוֹנָדָב",
+    "translit": "Yᵉhôwnâdâb",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jehonádáb, egy izraelita és egy arab neve.",
+      "en": "Jehonadab, the name of an Israelite and of an Arab"
+    }
+  },
+  "H3083": {
+    "id": "H3083",
+    "lemma": "יְהוֹנָתָן",
+    "translit": "Yᵉhôwnâthân",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jehonátán, négy izraelita neve.",
+      "en": "Jehonathan, the name of four Israelites"
+    }
+  },
+  "H3084": {
+    "id": "H3084",
+    "lemma": "יְהוֹסֵף",
+    "translit": "Yᵉhôwçêph",
+    "pronounce": "",
+    "defs": {
+      "hu": "József, Jákób fia.",
+      "en": "Jehoseph (i.e. Joseph), a son of Jacob"
+    }
+  },
+  "H3085": {
+    "id": "H3085",
+    "lemma": "יְהוֹעַדָּה",
+    "translit": "Yᵉhôwʻaddâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jehoaddá, egy Izraelita.",
+      "en": "Jehoaddah, an Israelite"
+    }
+  },
+  "H3086": {
+    "id": "H3086",
+    "lemma": "יְהוֹעַדִּין",
+    "translit": "Yᵉhôwʻaddîyn",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jehóáddin, egy izraelita nő.",
+      "en": "Jehoaddin or Jehoaddan, an Israelitess"
+    }
+  },
+  "H3087": {
+    "id": "H3087",
+    "lemma": "יְהוֹצָדָק",
+    "translit": "Yᵉhôwtsâdâq",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jehocadák, egy Izraelita.",
+      "en": "Jehotsadak, an Israelite"
+    }
+  },
+  "H3088": {
+    "id": "H3088",
+    "lemma": "יְהוֹרָם",
+    "translit": "Yᵉhôwrâm",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jehorám, egy szíriai és három izraelita név.",
+      "en": "Jehoram, the name of a Syrian and of three Israelites"
+    }
+  },
+  "H3089": {
+    "id": "H3089",
+    "lemma": "יְהוֹשֶׁבַע",
+    "translit": "Yᵉhôwshebaʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jehoséba, egy izraelita nő.",
+      "en": "Jehosheba, an Israelitess"
+    }
+  },
+  "H3090": {
+    "id": "H3090",
+    "lemma": "יְהוֹשַׁבְעַת",
+    "translit": "Yᵉhôwshabʻath",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jehosabát, egy izraelita nő.",
+      "en": "Jehoshabath, an Israelitess"
+    }
+  },
+  "H3091": {
+    "id": "H3091",
+    "lemma": "יְהוֹשׁוּעַ",
+    "translit": "Yᵉhôwshûwaʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jézus, a zsidó vezér.",
+      "en": "Jehoshua (i.e. Joshua), the Jewish leader"
+    }
+  },
+  "H3092": {
+    "id": "H3092",
+    "lemma": "יְהוֹשָׁפָט",
+    "translit": "Yᵉhôwshâphâṭ",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jehósáfát, hat izraelita neve, továbbá egy völgy Jeruzsálem közelében.",
+      "en": "Jehoshaphat, the name of six Israelites, also of a valley near Jerusalem"
+    }
+  },
+  "H3093": {
+    "id": "H3093",
+    "lemma": "יָהִיר",
+    "translit": "yâhîyr",
+    "pronounce": "",
+    "defs": {
+      "hu": "büszke, gőgös, nagyképű, felfuvalkodott.",
+      "en": "elated, hence, arrogant"
+    }
+  },
+  "H3094": {
+    "id": "H3094",
+    "lemma": "יְהַלֶּלְאֵל",
+    "translit": "Yᵉhallelʼêl",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jehallélel, két izraelita neve.",
+      "en": "Jehallelel, the name of two Israelites"
+    }
+  },
+  "H3095": {
+    "id": "H3095",
+    "lemma": "יַהֲלֹם",
+    "translit": "yahălôm",
+    "pronounce": "",
+    "defs": {
+      "hu": "jaspis, vagy ónix, drágakő",
+      "en": "a precious stone, probably onyx"
+    }
+  },
+  "H3096": {
+    "id": "H3096",
+    "lemma": "יַהַץ",
+    "translit": "Yahats",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jahac vagy Jahtsa, egy hely a Jordánon túl keletre.",
+      "en": "Jahats or Jahtsah, a place East of the Jordan"
+    }
+  },
+  "H3097": {
+    "id": "H3097",
+    "lemma": "יוֹאָב",
+    "translit": "Yôwʼâb",
+    "pronounce": "",
+    "defs": {
+      "hu": "Joáb, három izraelita neve.",
+      "en": "Joab, the name of three Israelites"
+    }
+  },
+  "H3098": {
+    "id": "H3098",
+    "lemma": "יוֹאָח",
+    "translit": "Yôwʼâch",
+    "pronounce": "",
+    "defs": {
+      "hu": "Joách, négy izraelita neve.",
+      "en": "Joach, the name of four Israelites"
+    }
+  },
+  "H3099": {
+    "id": "H3099",
+    "lemma": "יוֹאָחָז",
+    "translit": "Yôwʼâchâz",
+    "pronounce": "",
+    "defs": {
+      "hu": "Joácház, két izraelita neve.",
+      "en": "Joachaz, the name of two Israelites"
+    }
+  },
+  "H3100": {
+    "id": "H3100",
+    "lemma": "יוֹאֵל",
+    "translit": "Yôwʼêl",
+    "pronounce": "",
+    "defs": {
+      "hu": "Joel, tizenkét izraelita neve.",
+      "en": "Joel, the name of twelve Israelites"
+    }
+  },
+  "H3101": {
+    "id": "H3101",
+    "lemma": "יוֹאָשׁ",
+    "translit": "Yôwʼâsh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Joás, hat izraelita neve.",
+      "en": "Joash, the name of six Israelites"
+    }
+  },
+  "H3102": {
+    "id": "H3102",
+    "lemma": "יוֹב",
+    "translit": "Yôwb",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jób, egy izraelita.",
+      "en": "Job, an Israelite"
+    }
+  },
+  "H3103": {
+    "id": "H3103",
+    "lemma": "יוֹבָב",
+    "translit": "Yôwbâb",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jóváb, két izraelita és három idegen neve.",
+      "en": "Jobab, the name of two Israelites and of three foreigners"
+    }
+  },
+  "H3104": {
+    "id": "H3104",
+    "lemma": "יוֹבֵל",
+    "translit": "yôwbêl",
+    "pronounce": "",
+    "defs": {
+      "hu": "kürt hangja, különösen az ezüstkürtök jele, ezáltal maga a kürt és az általa bevezetett ünnep.",
+      "en": "the blast of a horn (from its continuous sound), specifically, the signal of the silver trumpets, hence, the instrument itself and the festival thus introduced"
+    }
+  },
+  "H3105": {
+    "id": "H3105",
+    "lemma": "יוּבַל",
+    "translit": "yûwbal",
+    "pronounce": "",
+    "defs": {
+      "hu": "folyóvíz, patak",
+      "en": "a stream"
+    }
+  },
+  "H3106": {
+    "id": "H3106",
+    "lemma": "יוּבַל",
+    "translit": "Yûwbal",
+    "pronounce": "",
+    "defs": {
+      "hu": "Júbal, egy a dávid előtti korból származó személy.",
+      "en": "Jubal, an antediluvian"
+    }
+  },
+  "H3107": {
+    "id": "H3107",
+    "lemma": "יוֹזָבָד",
+    "translit": "Yôwzâbâd",
+    "pronounce": "",
+    "defs": {
+      "hu": "Józábád, tíz izraelita neve.",
+      "en": "Jozabad, the name of ten Israelites"
+    }
+  },
+  "H3108": {
+    "id": "H3108",
+    "lemma": "יוֹזָכָר",
+    "translit": "Yôwzâkâr",
+    "pronounce": "",
+    "defs": {
+      "hu": "Józákár, egy Izraelita.",
+      "en": "Jozacar, an Israelite"
+    }
+  },
+  "H3109": {
+    "id": "H3109",
+    "lemma": "יוֹחָא",
+    "translit": "Yôwchâʼ",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jocha, két izraelita neve.",
+      "en": "Jocha, the name of two Israelites"
+    }
+  },
+  "H3110": {
+    "id": "H3110",
+    "lemma": "יוֹחָנָן",
+    "translit": "Yôwchânân",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jochanán, kilenc izraelita neve.",
+      "en": "Jochanan, the name of nine Israelites"
+    }
+  },
+  "H3111": {
+    "id": "H3111",
+    "lemma": "יוֹיָדָע",
+    "translit": "Yôwyâdâʻ",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jojád, két izraelita neve.",
+      "en": "Jojada, the name of two Israelites"
+    }
+  },
+  "H3112": {
+    "id": "H3112",
+    "lemma": "יוֹיָכִין",
+    "translit": "Yôwyâkîyn",
+    "pronounce": "",
+    "defs": {
+      "hu": "Joákim, Izrael egyik királya.",
+      "en": "Jojakin, an Israelite king"
+    }
+  },
+  "H3113": {
+    "id": "H3113",
+    "lemma": "יוֹיָקִים",
+    "translit": "Yôwyâqîym",
+    "pronounce": "",
+    "defs": {
+      "hu": "Joákim, egy izraelita.",
+      "en": "Jojakim, an Israelite"
+    }
+  },
+  "H3114": {
+    "id": "H3114",
+    "lemma": "יוֹיָרִיב",
+    "translit": "Yôwyârîyb",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jojárib, négy izraelita neve.",
+      "en": "Jojarib, the name of four Israelites"
+    }
+  },
+  "H3115": {
+    "id": "H3115",
+    "lemma": "יוֹכֶבֶד",
+    "translit": "Yôwkebed",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jókebed, Mózes anyja.",
+      "en": "Jokebed, the mother of Moses"
+    }
+  },
+  "H3116": {
+    "id": "H3116",
+    "lemma": "יוּכַל",
+    "translit": "Yûwkal",
+    "pronounce": "",
+    "defs": {
+      "hu": "Júkál, egy Izráelita.",
+      "en": "Jukal, an Israelite"
+    }
+  },
+  "H3117": {
+    "id": "H3117",
+    "lemma": "יוֹם",
+    "translit": "yôwm",
+    "pronounce": "",
+    "defs": {
+      "hu": "nap, akár a meleg órák időszaka (szó szerint, a napfelkeltétől a napnyugtáig, vagy egy napnyugtától a következőig), vagy átvitt értelemben (egy meghatározott időtartam, egy hozzá tartozó szóval definiálva), (gyakran hatádszóként használt)",
+      "en": "a day (as the warm hours), whether literal (from sunrise to sunset, or from one sunset to the next), or figurative (a space of time defined by an associated term), (often used adverb)"
+    }
+  },
+  "H3118": {
+    "id": "H3118",
+    "lemma": "יוֹם",
+    "translit": "yôwm",
+    "pronounce": "",
+    "defs": {
+      "hu": "nap",
+      "en": "a day"
+    }
+  },
+  "H3119": {
+    "id": "H3119",
+    "lemma": "יוֹמָם",
+    "translit": "yôwmâm",
+    "pronounce": "",
+    "defs": {
+      "hu": "naponta, minden nap, a nap folyamán.",
+      "en": "daily"
+    }
+  },
+  "H3120": {
+    "id": "H3120",
+    "lemma": "יָוָן",
+    "translit": "Yâvân",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jáván, Joktan fia, és tőle származott nép (iónok, azaz görögök), valamint területük, továbbá egy hely Arábiában.",
+      "en": "Javan, the name of a son of Joktan, and of the race (Ionians, i.e. Greeks) descended from him, with their territory, also of a place in Arabia"
+    }
+  },
+  "H3121": {
+    "id": "H3121",
+    "lemma": "יָוֵן",
+    "translit": "yâvên",
+    "pronounce": "",
+    "defs": {
+      "hu": "lerakódás, üledék, habos iszap.",
+      "en": "properly, dregs (as effervescing), hence, mud"
+    }
+  },
+  "H3122": {
+    "id": "H3122",
+    "lemma": "יוֹנָדָב",
+    "translit": "Yôwnâdâb",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jonádáb, egy izraelita neve és egy Rechabita neve.",
+      "en": "Jonadab, the name of an Israelite and of a Rechabite"
+    }
+  },
+  "H3123": {
+    "id": "H3123",
+    "lemma": "יוֹנָה",
+    "translit": "yôwnâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "galamb (valószínűleg a párzásuk melegétől)",
+      "en": "a dove (apparently from the warmth of their mating)"
+    }
+  },
+  "H3124": {
+    "id": "H3124",
+    "lemma": "יוֹנָה",
+    "translit": "Yôwnâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jónás, egy Izraelita.",
+      "en": "Jonah, an Israelite"
+    }
+  },
+  "H3125": {
+    "id": "H3125",
+    "lemma": "יְוָנִי",
+    "translit": "Yᵉvânîy",
+    "pronounce": "",
+    "defs": {
+      "hu": "jávánita, vagy Jáván fia, leszármazottja.",
+      "en": "a Jevanite, or descendant of Javan"
+    }
+  },
+  "H3126": {
+    "id": "H3126",
+    "lemma": "יוֹנֵק",
+    "translit": "yôwnêq",
+    "pronounce": "",
+    "defs": {
+      "hu": "sarj, hajtás, rügyező ág",
+      "en": "a sucker, hence, a twig (of a tree felled and sprouting)"
+    }
+  },
+  "H3127": {
+    "id": "H3127",
+    "lemma": "יוֹנֶקֶת",
+    "translit": "yôwneqeth",
+    "pronounce": "",
+    "defs": {
+      "hu": "sarjadó, hajtás, rügyező növény",
+      "en": "a sprout"
+    }
+  },
+  "H3128": {
+    "id": "H3128",
+    "lemma": "יוֹנַת אֵלֶם רְחֹקִים",
+    "translit": "yôwnath ʼêlem rᵉchôqîym",
+    "pronounce": "",
+    "defs": {
+      "hu": "galamb a távolok néma csendjéből (vagy: néma idegenek között), egy énekcím (az ének dallamának neveként használt)",
+      "en": "dove of (the) silence (i.e. dumb Israel) of (i.e. among) distances (i.e. strangers), the title of a ditty (used for a name of its melody)"
+    }
+  },
+  "H3129": {
+    "id": "H3129",
+    "lemma": "יוֹנָתָן",
+    "translit": "Yôwnâthân",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jonatán, tíz izraelita neve.",
+      "en": "Jonathan, the name of ten Israelites"
+    }
+  },
+  "H3130": {
+    "id": "H3130",
+    "lemma": "יוֹסֵף",
+    "translit": "Yôwçêph",
+    "pronounce": "",
+    "defs": {
+      "hu": "József, hét izraelita neve.",
+      "en": "Joseph, the name of seven Israelites"
+    }
+  },
+  "H3131": {
+    "id": "H3131",
+    "lemma": "יוֹסִפְיָה",
+    "translit": "Yôwçiphyâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Józifja, egy Izraelita.",
+      "en": "Josiphjah, an Israelite"
+    }
+  },
+  "H3132": {
+    "id": "H3132",
+    "lemma": "יוֹעֵאלָה",
+    "translit": "Yôwʻêʼlâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Joél, egy Izraelita.",
+      "en": "Joelah, an Israelite"
+    }
+  },
+  "H3133": {
+    "id": "H3133",
+    "lemma": "יוֹעֵד",
+    "translit": "Yôwʻêd",
+    "pronounce": "",
+    "defs": {
+      "hu": "Joed, egy Izraelita.",
+      "en": "Joed, an Israelite"
+    }
+  },
+  "H3134": {
+    "id": "H3134",
+    "lemma": "יוֹעֶזֶר",
+    "translit": "Yôwʻezer",
+    "pronounce": "",
+    "defs": {
+      "hu": "Joezer, egy Izraelita.",
+      "en": "Joezer, an Israelite"
+    }
+  },
+  "H3135": {
+    "id": "H3135",
+    "lemma": "יוֹעָשׁ",
+    "translit": "Yôwʻâsh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Joás, két izraelita neve.",
+      "en": "Joash, the name of two Israelites"
+    }
+  },
+  "H3136": {
+    "id": "H3136",
+    "lemma": "יוֹצָדָק",
+    "translit": "Yôwtsâdâq",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jócádák, egy Izraelita.",
+      "en": "Jotsadak, an Israelite"
+    }
+  },
+  "H3137": {
+    "id": "H3137",
+    "lemma": "יוֹקִים",
+    "translit": "Yôwqîym",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jókím, egy Izraelita.",
+      "en": "Jokim, an Israelite"
+    }
+  },
+  "H3138": {
+    "id": "H3138",
+    "lemma": "יוֹרֶה",
+    "translit": "yôwreh",
+    "pronounce": "",
+    "defs": {
+      "hu": "locsolás, eső, harmat, az őszi eső (mint áldás vagy ítélet)",
+      "en": "sprinkling, hence, a sprinkling (or autumnal showers)"
+    }
+  },
+  "H3139": {
+    "id": "H3139",
+    "lemma": "יוֹרָה",
+    "translit": "Yôwrâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jóra, egy Izraelita.",
+      "en": "Jorah, an Israelite"
+    }
+  },
+  "H3140": {
+    "id": "H3140",
+    "lemma": "יוֹרַי",
+    "translit": "Yôwray",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jórái, egy Izraelita.",
+      "en": "Jorai, an Israelite"
+    }
+  },
+  "H3141": {
+    "id": "H3141",
+    "lemma": "יוֹרָם",
+    "translit": "Yôwrâm",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jóram, Izrael királyának és Szíria királyának neve.",
+      "en": "Joram, the name of three Israelites and one Syrian"
+    }
+  },
+  "H3142": {
+    "id": "H3142",
+    "lemma": "יוּשַׁב חֶסֶד",
+    "translit": "Yûwshab Cheçed",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jusáb-Heszed, egy Izraelita.",
+      "en": "Jushab-Chesed, an Israelite"
+    }
+  },
+  "H3143": {
+    "id": "H3143",
+    "lemma": "יוֹשִׁבְיָה",
+    "translit": "Yôwshibyâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jósibja, egy Izraelita.",
+      "en": "Josibjah, an Israelite"
+    }
+  },
+  "H3144": {
+    "id": "H3144",
+    "lemma": "יוֹשָׁה",
+    "translit": "Yôwshâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jósá, egy Izraelita.",
+      "en": "Joshah, an Israelite"
+    }
+  },
+  "H3145": {
+    "id": "H3145",
+    "lemma": "יוֹשַׁוְיָה",
+    "translit": "Yôwshavyâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jósavja, egy Izraelita.",
+      "en": "Joshavjah, an Israelite"
+    }
+  },
+  "H3146": {
+    "id": "H3146",
+    "lemma": "יוֹשָׁפָט",
+    "translit": "Yôwshâphâṭ",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jósáfát, egy izraelita.",
+      "en": "Joshaphat, an Israelite"
+    }
+  },
+  "H3147": {
+    "id": "H3147",
+    "lemma": "יוֹתָם",
+    "translit": "Yôwthâm",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jótám, három izraelita neve.",
+      "en": "Jotham, the name of three Israelites"
+    }
+  },
+  "H3148": {
+    "id": "H3148",
+    "lemma": "יוֹתֵר",
+    "translit": "yôwthêr",
+    "pronounce": "",
+    "defs": {
+      "hu": "többlet, felesleg, tovább, azonfelül, mint melléknév, főnév, határozószó vagy kötőszó.",
+      "en": "properly, redundant, hence, over and above, as adjective, noun, adverb or conjunction"
+    }
+  },
+  "H3149": {
+    "id": "H3149",
+    "lemma": "יְזַוְאֵל",
+    "translit": "Yᵉzavʼêl",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jezabel, egy Izraelita.",
+      "en": "Jezavel, an Israelite"
+    }
+  },
+  "H3150": {
+    "id": "H3150",
+    "lemma": "יִזִּיָּה",
+    "translit": "Yizzîyâh",
+    "pronounce": "",
+    "defs": {
+      "hu": "Jizíjja, egy Izraelita.",
+      "en": "Jizzijah, an Israelite"
+    }
+  }
+}
