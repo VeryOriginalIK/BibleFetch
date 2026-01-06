@@ -1,56 +1,100 @@
-<div class="space-y-8 animate-fade-in-content">
+<div class="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
 
-  <!-- Üdvözlő szekció -->
-  <section class="text-center py-6">
-    <h2 class="text-3xl font-serif font-bold text-gray-800 dark:text-gray-100 mb-2">
-      {{ state.currentLang() === 'hu' ? 'Fedezd fel az Igét' : 'Discover the Word' }}
-    </h2>
-    <p class="text-gray-500 dark:text-gray-400 max-w-md mx-auto">
-      {{ state.currentLang() === 'hu'
-        ? 'Válassz egy témát a lenti gyűjteményből, és mélyülj el az eredeti jelentésekben.'
-        : 'Choose a topic below and dive deep into the original meanings.' }}
+  <div class="max-w-7xl mx-auto mb-12 text-center">
+    <span class="text-blue-600 font-semibold tracking-wide uppercase text-sm">
+      {{ state.lang() === 'hu' ? 'Fedezd fel az igét' : 'Discover the Word' }}
+    </span>
+    <h1 class="mt-2 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
+      {{ state.lang() === 'hu' ? 'Bibliai Témák' : 'Bible Topics' }}
+    </h1>
+    <p class="max-w-xl mt-5 mx-auto text-xl text-gray-500">
+      {{ state.lang() === 'hu'
+         ? 'Válaszok a mindennapi élet kérdéseire a Szentírás alapján.'
+         : 'Answers to everyday life questions based on the Scripture.' }}
     </p>
-  </section>
 
-  <!-- Téma Rács -->
-  <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 pb-8">
+    <button (click)="state.toggleLanguage()"
+            class="mt-6 px-4 py-2 rounded-full border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 transition-colors shadow-sm">
+      🌐 {{ state.lang() === 'hu' ? 'English' : 'Magyar' }}
+    </button>
+  </div>
 
-    <!-- ASYNC PIPE: Automatikusan kezeli a fel/leiratkozást -->
+  <div class="max-w-7xl mx-auto">
+
     @if (topics$ | async; as topics) {
 
-      @for (topic of topics; track topic.id) {
-        <!-- Kártya -->
-        <!-- A [routerLink] később a TopicViewer-re visz majd -->
-        <a [routerLink]="['/topic', topic.id]"
-           class="group relative bg-white dark:bg-gray-800 rounded-3xl p-5 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 dark:border-gray-700 flex flex-col items-center justify-center text-center aspect-[4/5] cursor-pointer active:scale-95">
+      <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
 
-          <!-- Ikon Háttérrel -->
-          <div class="w-14 h-14 rounded-2xl mb-4 flex items-center justify-center text-white shadow-lg transition-transform group-hover:scale-110 group-hover:-rotate-3"
-               [style.backgroundColor]="topic.theme_color">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" [attr.d]="getIconPath(topic.icon)" />
+        @for (topic of topics; track topic.id) {
+
+          <a [routerLink]="['/topic', topic.id]"
+             class="group relative bg-white flex flex-col rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden hover:-translate-y-1">
+
+            <div class="p-6 flex-1">
+              <div class="flex items-center justify-between mb-4">
+
+                <div class="h-12 w-12 rounded-xl flex items-center justify-center text-white shadow-md transition-transform group-hover:scale-110 duration-300"
+                     [style.backgroundColor]="topic.theme_color || '#3B82F6'">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor">
+                    <path [attr.d]="getIconPath(topic.icon)"></path>
+                  </svg>
+                </div>
+
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800">
+                  {{ topic.verseCount || 0 }}
+                  {{ state.lang() === 'hu' ? 'vers' : 'verses' }}
+                </span>
+              </div>
+
+              <h3 class="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                {{ getLocaleText(topic.titles) }}
+              </h3>
+
+              <p class="text-gray-500 text-sm leading-relaxed line-clamp-3">
+                {{ getLocaleText(topic.description) }}
+              </p>
+            </div>
+
+            <div class="bg-gray-50 px-6 py-4 border-t border-gray-100 flex items-center justify-between group-hover:bg-blue-50 transition-colors">
+              <span class="text-sm font-medium text-gray-900 group-hover:text-blue-700">
+                {{ state.lang() === 'hu' ? 'Olvasás' : 'Read Now' }}
+              </span>
+              <svg class="h-5 w-5 text-gray-400 group-hover:text-blue-600 transform group-hover:translate-x-1 transition-transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+              </svg>
+            </div>
+          </a>
+
+        }
+      </div>
+
+      @if (topics.length === 0) {
+        <div class="text-center py-20">
+          <div class="inline-flex items-center justify-center h-16 w-16 rounded-full bg-gray-100 mb-4">
+            <svg class="h-8 w-8 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
           </div>
-
-          <!-- Cím -->
-          <h3 class="font-bold text-lg text-gray-800 dark:text-gray-100 mb-1 leading-tight">
-            {{ topic.titles[state.currentLang()] }}
+          <h3 class="text-lg font-medium text-gray-900">
+            {{ state.lang() === 'hu' ? 'Nincsenek témák' : 'No topics found' }}
           </h3>
-
-          <!-- Versszám -->
-          <span class="text-xs text-gray-400 font-medium bg-gray-50 dark:bg-gray-700/50 px-2.5 py-1 rounded-full mt-2">
-            {{ topic.verse_ids.length }} {{ state.currentLang() === 'hu' ? 'vers' : 'verses' }}
-          </span>
-
-        </a>
+          <p class="mt-1 text-gray-500">
+            {{ state.lang() === 'hu' ? 'Nézz vissza később!' : 'Check back later!' }}
+          </p>
+        </div>
       }
 
     } @else {
-      <!-- LOADING SKELETON (Amíg a JSON tölt) -->
-      @for (i of [1,2,3,4,5,6]; track i) {
-        <div class="bg-gray-200 dark:bg-gray-800 rounded-3xl animate-pulse aspect-[4/5]"></div>
-      }
+      <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 animate-pulse">
+        @for (item of [1,2,3,4,5,6]; track item) {
+          <div class="bg-white rounded-2xl p-6 h-64 border border-gray-100">
+            <div class="h-12 w-12 bg-gray-200 rounded-xl mb-4"></div>
+            <div class="h-6 bg-gray-200 rounded w-3/4 mb-3"></div>
+            <div class="h-4 bg-gray-200 rounded w-full mb-2"></div>
+            <div class="h-4 bg-gray-200 rounded w-2/3"></div>
+          </div>
+        }
+      </div>
     }
-
   </div>
 </div>

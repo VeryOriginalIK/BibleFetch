@@ -1,0 +1,33 @@
+[
+  {
+    "id": "creation",
+    "titles": {
+      "hu": "Teremtés & A Kezdet",
+      "en": "Creation & Beginning"
+    },
+    "icon": "leaf",
+    "category": "",
+    "description": {
+      "hu": "Isten teremtő munkája és a világ kezdete",
+      "en": "God's creative work and the beginning of the world"
+    },
+    "theme_color": "#10B981",
+    "verseCount": 3
+  },
+  {
+    "id": "hope",
+    "icon": "heart",
+    "category": "",
+    "titles": {
+      "hu": "Reménység",
+      "en": "Hope"
+    },
+    "verseCount": 2,
+    "description": {
+      "hu": "Isten ígéretei a jövőre nézve",
+      "en": "God's promises for the future"
+    }
+
+  }
+]
+

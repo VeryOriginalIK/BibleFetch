@@ -1,0 +1,19 @@
+{
+  "karoli": {
+    "name": "Károli Gáspár (Károli)",
+    "lang": "hu",
+    "structure": "standard",
+    "path": "karoli"
+  },
+  "ekjv": {
+    "name": "King James Version (KJV)",
+    "lang": "en",
+    "structure": "standard",
+    "path": "ekjv"
+  },
+  "ujforditas": {
+    "name": "Magyar Újfordítás (RÚF)",
+    "lang": "hu",
+    "structure": "standard"
+  }
+}

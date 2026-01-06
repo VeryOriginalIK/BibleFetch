@@ -1,0 +1,13 @@
+[  {
+    "id": "gen",
+    "name": { "hu": "Mózes I. könyve", "en": "Genesis" },
+    "short": { "hu": "1 Móz", "en": "Gen" },
+    "color": "#3B82F6"
+  },
+  {
+    "id": "joel",
+    "name": { "hu": "Joel próféta könyve", "en": "Joel" },
+    "short": { "hu": "Joel", "en": "Joel" },
+    "color": "#EF4444"
+  }
+]
