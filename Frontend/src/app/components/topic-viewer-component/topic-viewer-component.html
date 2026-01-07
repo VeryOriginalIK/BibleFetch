@@ -7,14 +7,14 @@
 
     <h1 class="text-2xl font-bold mb-2">
       <span class="material-icons align-middle mr-2">{{ currentTopic()?.icon }}</span>
-      {{ currentTopic()?.title }}
+      {{ currentTopic()?.titles }}
     </h1>
 
     <p class="italic text-gray-600 mb-6">{{ currentTopic()?.description }}</p>
 
     <div class="grid gap-4">
       @for (verseId of currentTopic()?.verses; track verseId) {
-        <app-verse-card [verseId]="verseId"></app-verse-card>
+        <app-verse-renderer></app-verse-renderer>
       }
     </div>
 

@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { BibleDataService } from './data-service';
+import { StrongsDataService } from './strongs-data-service';
 
-describe('BibleDataService', () => {
-  let service: BibleDataService;
+describe('StrongsDataService', () => {
+  let service: StrongsDataService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(BibleDataService);
+    service = TestBed.inject(StrongsDataService);
   });
 
   it('should be created', () => {

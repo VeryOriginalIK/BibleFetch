@@ -1,205 +1,77 @@
-/**
- * Strong's Concordance Generator (KJV Source) - v5.1.0 (Fix)
- * Javítva: A Regex most már megtalálja a {H1234a} vagy { H1234 } formátumokat is.
- */
-
-'use strict';
-
-const fs = require('fs/promises');
+const fs = require('fs');
 const path = require('path');
 
-// ============================================================================
-// KONFIGURÁCIÓ
-// ============================================================================
+// Konfiguráció
+const CHUNK_SIZE = 400;
+const TARGET_BASE_DIR = path.join(__dirname.trimEnd("generate"), '../src/assets/strongs');
 
-const ASSETS_DIR = path.join(__dirname, '../src/assets');
-const INPUT_FILE = path.join(ASSETS_DIR, 'bible/kjv_strongs.json');
-const OUTPUT_DIR = path.join(ASSETS_DIR, 'index/strongs');
-
-const MAX_CONCURRENT_WRITES = 128;
-
-// Könyv ID térkép
-const BOOK_ID_MAP = [
-  null,
-  'gen',
-  'exo',
-  'lev',
-  'num',
-  'deu',
-  'jos',
-  'jdg',
-  'rut',
-  '1sa',
-  '2sa',
-  '1ki',
-  '2ki',
-  '1ch',
-  '2ch',
-  'ezr',
-  'neh',
-  'est',
-  'job',
-  'psa',
-  'pro',
-  'ecc',
-  'sng',
-  'isa',
-  'jer',
-  'lam',
-  'eze',
-  'dan',
-  'hos',
-  'joe',
-  'amo',
-  'oba',
-  'jon',
-  'mic',
-  'nah',
-  'hab',
-  'zep',
-  'hag',
-  'zec',
-  'mal',
-  'mat',
-  'mar',
-  'luk',
-  'joh',
-  'act',
-  'rom',
-  '1co',
-  '2co',
-  'gal',
-  'eph',
-  'phi',
-  'col',
-  '1th',
-  '2th',
-  '1ti',
-  '2ti',
-  'tit',
-  'phm',
-  'heb',
-  'jam',
-  '1pe',
-  '2pe',
-  '1jo',
-  '2jo',
-  '3jo',
-  'jud',
-  'rev',
+const filesToProcess = [
+  { filename: 'hebrew.json', outputFolder: 'hebrew' },
+  { filename: 'greek.json', outputFolder: 'greek' },
 ];
 
-// ============================================================================
-// SEGÉDFÜGGVÉNYEK
-// ============================================================================
-
-function createWriteQueue(concurrency) {
-  let active = 0;
-  const queue = [];
-
-  const process = () => {
-
-    while (active < concurrency && queue.length > 0) {
-      active++;
-      const { fn, resolve, reject } = queue.shift();
-
-      fn()
-        .then(resolve)
-        .catch(reject)
-        .finally(() => {
-          active--;
-          process();
-        });
-    }
-  };
-
-  return (fn) =>
-    new Promise((resolve, reject) => {
-      queue.push({ fn, resolve, reject });
-      process();
-    });
-}
-const enqueueWrite = createWriteQueue(MAX_CONCURRENT_WRITES);
-
-async function ensureDir(dir) {
-  await fs.mkdir(dir, { recursive: true });
-}
-async function writeJSON(filePath, data) {
-  return fs.writeFile(filePath, JSON.stringify(data));
+function ensureDirectoryExistence(dirPath) {
+  if (!fs.existsSync(dirPath)) {
+    fs.mkdirSync(dirPath, { recursive: true });
+    console.log(`Mappa létrehozva: ${dirPath}`);
+  }
 }
 
-// ============================================================================
-// FŐ PROCESSZ
-// ============================================================================
+// Fő feldolgozó logika
+filesToProcess.forEach((fileInfo) => {
+  const inputPath = path.join(
+    __dirname.trimEnd('generate'),
+    '../src/assets/strongs',
+    fileInfo.filename
+  );
+  const outputDir = path.join(TARGET_BASE_DIR, fileInfo.outputFolder);
 
-async function main() {
-  const startTime = Date.now();
-  console.log('═══════════════════════════════════════════════════════════');
-  console.log("🚀 Strong's Concordance Generator v5.1 (Fix)");
-  console.log('═══════════════════════════════════════════════════════════');
+  // Ellenőrizzük, hogy létezik-e a forrásfájl
+  if (!fs.existsSync(inputPath)) {
+    console.error(`HIBA: A forrásfájl nem található: ${inputPath}`);
+    return;
+  }
 
-  await ensureDir(OUTPUT_DIR);
-
-  console.log('📖 KJV Strongs fájl beolvasása...');
-  let content;
   try {
-    const raw = await fs.readFile(INPUT_FILE, 'utf-8');
-    content = JSON.parse(raw);
-  } catch (err) {
-    console.error(`❌ Hiba: ${err.message}`);
-    process.exit(1);
-  }
+    // Fájl beolvasása és parse-olása
+    const rawData = fs.readFileSync(inputPath, 'utf8');
+    const jsonData = JSON.parse(rawData);
 
-  const strongMap = new Map();
-  let verseCount = 0;
-  let totalMatches = 0;
+    // Az objektum átalakítása tömbbé ([kulcs, érték] párok), hogy darabolható legyen
+    // Feltételezzük, hogy a JSON kulcsai sorrendben vannak (pl. H1, H2 vagy Strong's szám szerint)
+    const entries = Object.entries(jsonData);
+    const totalEntries = entries.length;
 
-  console.log(`🔍 ${content.verses.length} vers feldolgozása...`);
+    console.log(`\nFeldolgozás: ${fileInfo.filename} (${totalEntries} bejegyzés)`);
 
-  // --- REGEX ---
-  const looseStrongRegex = /\{[^}]*?([HG]\d+)[^}]*?\}/g;
+    // Célmappa létrehozása
+    ensureDirectoryExistence(outputDir);
 
-  for (const v of content.verses) {
-    verseCount++;
+    // Darabolás és mentés
+    let fileCount = 0;
+    for (let i = 0; i < totalEntries; i += CHUNK_SIZE) {
+      // A szelet kivágása
+      const chunkEntries = entries.slice(i, i + CHUNK_SIZE);
 
-    const bookId = BOOK_ID_MAP[v.book];
-    if (!bookId) continue;
+      // Visszaalakítás objektummá
+      const chunkObject = Object.fromEntries(chunkEntries);
 
-    const verseId = `${bookId}-${v.chapter}-${v.verse}`;
+      const startNum = i + 1;
+      const endNum = i + chunkEntries.length; // Ez kezeli az utolsó, csonka fájlt is
+      const outputFilename = `${startNum}-${endNum}.json`;
 
-    // A matchAll() használata biztonságosabb ciklusokban
-    const matches = [...v.text.matchAll(looseStrongRegex)];
+      // A kérés szerinti fix 400-as léptékű elnevezés (pl: 1-400, 401-800...):
+      // Megjegyzés: az utolsó fájl is pl. 8401-8800 lesz, még ha csak 8674-ig tart is.
+      const fileNameFixed = `${i + 1}-${i + CHUNK_SIZE}.json`;
 
-    for (const match of matches) {
-      const strongId = match[1]; // Csak a kódot vesszük ki (pl. H430)
+      const outputPath = path.join(outputDir, fileNameFixed);
 
-      if (!strongMap.has(strongId)) {
-        strongMap.set(strongId, new Set());
-      }
-      strongMap.get(strongId).add(verseId);
-      totalMatches++;
+      fs.writeFileSync(outputPath, JSON.stringify(chunkObject, null, 2), 'utf8');
+      fileCount++;
     }
+
+    console.log(`✅ Kész! ${fileCount} fájl létrehozva itt: ${outputDir}`);
+  } catch (err) {
+    console.error(`Hiba történt a ${fileInfo.filename} feldolgozása közben:`, err);
   }
-
-  console.log(`   ✓ Feldolgozva: ${verseCount} vers`);
-  console.log(`   ✓ Összes találat: ${totalMatches}`);
-  console.log(`   ✓ Egyedi Strong kulcsok: ${strongMap.size}`);
-
-  console.log('\n💾 Fájlok írása...');
-
-  const entries = Array.from(strongMap.entries());
-
-  const writePromises = entries.map(([strongId, verseSet]) => {
-    // Itt rendezzük sorba a verseket, hogy szépen jelenjenek meg (opcionális, de hasznos)
-    // Mivel a beolvasás sorrendben történt, a Set valószínűleg már jó, de a biztonság kedvéért:
-    const verseArray = Array.from(verseSet);
-    return enqueueWrite(() => writeJSON(path.join(OUTPUT_DIR, `${strongId}.json`), verseArray));
-  });
-
-  await Promise.all(writePromises);
-
-  const duration = ((Date.now() - startTime) / 1000).toFixed(2);
-  console.log(`✅ KÉSZ! (${duration}s) - ${entries.length} fájl generálva.`);
-}
-
-main().catch(console.error);
+});

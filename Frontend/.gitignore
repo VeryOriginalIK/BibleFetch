@@ -45,3 +45,7 @@ Thumbs.db
 ## Bible Jsons
 src/assets/bibles
 src/assets/index
+
+## Strong's Jsons
+src/assets/strongs/greek
+src/assets/strongs/hebrew

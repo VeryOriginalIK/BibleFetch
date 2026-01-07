@@ -1,18 +1,15 @@
 import { Component, inject, OnInit, signal } from '@angular/core';
 import { CommonModule, Location } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
-
-// IMPORTOK
 import { BibleDataService } from '../../services/data-service/data-service';
 import { StateService } from '../../services/state-service/state-service';
-import { VerseCardComponent } from '../verse-card-component/verse-card-component';
-// FONTOS: A részletes modellt importáljuk!
+import { VerseRendererComponent } from '../verse-renderer-component/verse-renderer-component';
 import { TopicDetail } from '../../models/topic-detail-model';
 
 @Component({
   selector: 'app-topic-viewer',
   standalone: true,
-  imports: [CommonModule, VerseCardComponent],
+  imports: [CommonModule, VerseRendererComponent],
   templateUrl: './topic-viewer-component.html',
 })
 export class TopicViewerComponent implements OnInit {

@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { BibleDataService } from './data-service';
+import { VerseManagerService } from './verse-manager-service';
 
-describe('BibleDataService', () => {
-  let service: BibleDataService;
+describe('VerseManagerService', () => {
+  let service: VerseManagerService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(BibleDataService);
+    service = TestBed.inject(VerseManagerService);
   });
 
   it('should be created', () => {

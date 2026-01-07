@@ -11,6 +11,12 @@
     "structure": "standard",
     "path": "ekjv"
   },
+  "kjv-strongs": {
+    "name": "King James Version with Strong's Numbers (KJV-Strongs)",
+    "lang": "en",
+    "structure": "strongs",
+    "path": "kjv-strongs"
+  },
   "ujforditas": {
     "name": "Magyar Újfordítás (RÚF)",
     "lang": "hu",

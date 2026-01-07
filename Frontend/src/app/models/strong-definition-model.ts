@@ -1,7 +1,10 @@
 export interface StrongDefinition {
-  id: string; // H7225
-  lemma: string; // Eredeti szó
-  translit: string; // Kiejtés
+  id: string;
+  lemma: string;
+  translit: string;
   pronounce: string;
-  defs: { [lang: string]: string }; // { hu: "Kezdet..." }
+  defs: {
+    hu?: string;
+    en?: string;
+  };
 }

@@ -1,15 +1,25 @@
 import { Routes } from '@angular/router';
-import { HomeComponent } from './components/home-component/home-component';
-import { TopicViewerComponent } from './components/topic-viewer-component/topic-viewer-component';
+import { ReaderComponent } from './components/reader-component/reader-component';
 
 export const routes: Routes = [
-  // Főoldal
-  { path: '', component: HomeComponent },
+  {
+    path: '',
+    redirectTo: 'read/kjv_strongs/gen/1',
+    pathMatch: 'full',
+  },
 
-  // A hiányzó láncszem: Dinamikus útvonal paraméterrel (:id)
-  // Ez kezeli a /topic/creation, /topic/hope stb. linkeket
-  { path: 'topic/:id', component: TopicViewerComponent },
+  // A Reader útvonala: /read/fordítás/könyv/fejezet
+  {
+    path: 'read/:trans/:book/:chapter',
+    component: ReaderComponent,
+  },
 
-  // Opcionális: Ismeretlen URL esetén visszavisz a főoldalra
-  { path: '**', redirectTo: '' },
+  // (Később ide jön a Témakészítő és a Gyűjtemények útvonala)
+  // { path: 'create-topic', component: TopicGeneratorComponent },
+
+  // 404 Fallback: Bármi más esetén irányítson vissza az elejére
+  {
+    path: '**',
+    redirectTo: 'read/kjv_strongs/gen/1',
+  },
 ];
