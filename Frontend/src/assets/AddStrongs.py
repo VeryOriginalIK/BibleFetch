@@ -13,15 +13,15 @@ from typing import Tuple, Optional, List, Dict
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 BASE_BIBLES_DIR = os.path.join(SCRIPT_DIR, "bibles")
 KJV_ROOT = os.path.join(BASE_BIBLES_DIR, "kjv_strongs")
-KAROLI_ROOT = os.path.join(BASE_BIBLES_DIR, "hu_karoli")
+KAROLI_ROOT = os.path.join(BASE_BIBLES_DIR, "karoli")
 STRONGS_DIR = os.path.join(SCRIPT_DIR, "strongs")
 
 # Kimeneti fájlok
 OUTPUT_FILE = os.path.join(SCRIPT_DIR, "hu_karoli_strongs.json")
 FAILED_FILE = os.path.join(SCRIPT_DIR, "failed_verses.json")
 
-# Modell
-OLLAMA_MODEL = "llama3.2:3b" # Vagy "qwen3-coder:480b-cloud" ha elérhető
+# Modell - Qwen 2.5 7B Instruct (GTX 1080 Ti-re optimalizálva)
+OLLAMA_MODEL = "qwen2.5:7b-instruct" 
 OLLAMA_URL = "http://localhost:11434/api/generate"
 
 # Hányszor próbálja újra, ha elrontja a szöveget?
@@ -30,7 +30,6 @@ MAX_RETRIES = 5
 # Request timeout (másodpercben)
 REQUEST_TIMEOUT = 180
 
-
 class BibleTagger:
     def __init__(self):
         self.hebrew_defs = {}
@@ -38,8 +37,8 @@ class BibleTagger:
         self.load_dictionaries()
         self.memory = deque(maxlen=3)
         
-        # Hibalog fájl előkészítése (törli az előzőt és nyit egy JSON tömböt)
         self.first_failure = True
+        # Ha a fájl nem létezik vagy üres, kezdjük tömbbel, egyébként feltételezzük a folytatást (most resetelünk)
         with open(FAILED_FILE, 'w', encoding='utf-8') as f:
             f.write('[\n')
 
@@ -66,10 +65,7 @@ class BibleTagger:
             sys.exit(1)
 
     def get_def_compact(self, strong_id: str) -> str:
-        """
-        ULTRA-KOMPAKT definíció.
-        Csak az első 1-3 szó kell a párosításhoz, a többi csak zaj a modellnek.
-        """
+        """ULTRA-KOMPAKT definíció."""
         entry = None
         if strong_id.startswith('H'):
             entry = self.hebrew_defs.get(strong_id)
@@ -77,18 +73,15 @@ class BibleTagger:
             entry = self.greek_defs.get(strong_id)
         
         if entry and 'defs' in entry:
-            # Magyar definíció
+            # Magyar
             hu_def = entry['defs'].get('hu', '').replace('\n', ' ').strip()
-            # Eltávolítjuk a felesleges írásjeleket a tisztább promptért
-            hu_def = re.sub(r'[;,].*', '', hu_def) # Levágjuk az első vessző/pontosvessző utáni részt
+            hu_def = re.sub(r'[;,].*', '', hu_def) # Első elválasztóig
             
             if hu_def:
                 words = hu_def.split()
-                # 12 helyett elég az első 3 szó!
-                # Pl. "ajándék, adomány, felajánlás" -> "ajándék"
                 return " ".join(words[:4]) 
             
-            # Fallback angol (szintén röviden)
+            # Angol fallback
             en_def = entry['defs'].get('en', '').replace('\n', ' ').strip()
             if en_def:
                 words = en_def.split()
@@ -107,56 +100,60 @@ class BibleTagger:
         return result
 
     def generate_base_prompt(self, kjv_text: str, karoli_text: str) -> str:
-        """Prompt generálása a frissített SZABÁLYOKKAL."""
+        """Prompt generálása Qwen 2.5 stílusban."""
         strong_data = self.extract_strongs_data(kjv_text)
         
         mapping_parts = []
         for word, sid, compact_def in strong_data:
-            mapping_parts.append(f"{word}→{sid}({compact_def})")
+            mapping_parts.append(f"{word} -> {sid} ({compact_def})")
         
-        mapping_text = " | ".join(mapping_parts) if mapping_parts else "nincs Strong"
+        mapping_text = "\n".join(mapping_parts) if mapping_parts else "Nincs Strong hivatkozás."
 
         examples_text = ""
         if len(self.memory) > 0:
-            examples_text = "\nPÉLDÁK:\n"
+            examples_text = "\n### PÉLDÁK (Így csináld):\n"
             for m_eng, m_hun in list(self.memory)[-3:]:
-                examples_text += f"EN: {m_eng}\nHU: {m_hun}\n\n"
+                examples_text += f"BEMENET (Angol): {m_eng}\nKIMENET (Magyar): {m_hun}\n---\n"
 
-        # --- ITT A FRISSÍTETT PROMPT ---
-        prompt = f"""FELADAT: Tag-illesztés (NEM fordítás!)
+        # Qwen szereti a '###' szeparátorokat és a világos utasításokat
+        prompt = f"""### UTASÍTÁS
+A feladatod Strong-számok (pl. {{H1234}}) beillesztése egy meglévő magyar bibliai versbe, az angol eredeti alapján.
 
-SZABÁLY:
-- A magyar szöveg minden betűje és szóköze VÁLTOZATLAN marad
-- Csak {{Strong}} tageket illeszd be a szavak után
-- A kódokat a MAGYAR mondat szórendje szerint helyezd el, a jelentés alapján párosítva
-- NEM minden magyar szóhoz kell Strong (névelők, kötőszók gyakran nincs)
-- Csak a tag-ezett magyar szöveget add vissza
+### SZABÁLYOK
+1. A magyar szöveg minden szavát, írásjelét és sorrendjét TARTSD MEG pontosan úgy, ahogy van. Szigorúan TILOS átírni vagy fordítani!
+2. A Strong kódokat közvetlenül a vonatkozó magyar szó után illeszd be kapcsos zárójelben. Pl: Az Úr{{H3068}}
+3. Használd a lenti szótárat a párosításhoz. Nem minden szóhoz tartozik kód.
 
-STRONG KÓDOK (pozíciós sorrendben):
+### SZÓTÁR (Angol szó -> Kód (Jelentés))
 {mapping_text}
 {examples_text}
-Angol eredeti (Strong-okkal): {kjv_text}
-Magyar (címkézd): {karoli_text}
+### FELADAT
+Angol forrás: {kjv_text}
+Magyar szöveg: {karoli_text}
 
-Tag-ezett magyar:"""
+### VÁLASZ (A teljes magyar vers Strong kódokkal):"""
         
         return prompt
 
     def call_ollama(self, prompt: str) -> Optional[str]:
-        """Ollama API hívás."""
+        """Ollama API hívás (GTX 1080 Ti optimalizált)."""
         try:
             payload = {
                 "model": OLLAMA_MODEL,
                 "prompt": prompt,
                 "stream": False,
                 "options": {
-                    "temperature": 0.05,
-                    "top_p": 0.85,
-                    "top_k": 20,
-                    "num_ctx": 16384,
+                    # HARDVER OPTIMALIZÁLÁS
+                    "num_gpu_layers": -1,  # Mindent a VRAM-ba (kritikus!)
+                    "num_thread": 4,       # i5-7600k 4 magját használja a prompt feldolgozáshoz
+                    "num_ctx": 4096,       # Elég a versekhez, marad hely a VRAM-ban
+                    
+                    # GENERÁLÁSI PARAMÉTEREK
                     "num_predict": 1024,
+                    "temperature": 0.1,    # Alacsony hőmérséklet a pontosságért
+                    "top_p": 0.9,
                     "repeat_penalty": 1.1,
-                    "stop": ["\n\n", "EN:", "PÉLDÁK:", "SZABÁLY:", "FELADAT:"]
+                    "stop": ["\n\n", "###", "Angol forrás:", "Magyar szöveg:"]
                 }
             }
             
@@ -168,7 +165,8 @@ Tag-ezett magyar:"""
             
             if resp.status_code == 200:
                 response_text = resp.json().get('response', '').strip()
-                response_text = re.sub(r'^(Válasz:|VÁLASZ:|Output:|Magyar:)\s*', '', response_text, flags=re.IGNORECASE)
+                # Qwen néha "Here is the text:" bevezetővel kezd, ezt vágjuk le
+                response_text = re.sub(r'^(Itt van.*?|Válasz:|Kimenet:)\s*', '', response_text, flags=re.IGNORECASE)
                 return response_text.strip() if response_text else None
             else:
                 print(f"\n  ⚠ HTTP hiba: {resp.status_code}")
@@ -179,15 +177,19 @@ Tag-ezett magyar:"""
             return None
 
     def check_integrity(self, original_text: str, tagged_text: str) -> Tuple[bool, str]:
-        """Integritás ellenőrzés."""
+        """Szigorú integritás ellenőrzés."""
         if not tagged_text:
-            return False, "Üres válasz érkezett a modelltől."
+            return False, "Üres válasz."
 
-        clean_tagged = re.sub(r'\{[HG]\d+\}', '', tagged_text)
+        # Eltávolítjuk a Strong tageket a válaszból (rugalmasan kezelve a szóközöket a {} körül)
+        clean_tagged = re.sub(r'\s*\{\s*([HG]\d+)\s*\}\s*', '', tagged_text)
+        # Dupla szóközök normalizálása
+        clean_tagged = re.sub(r'\s+', ' ', clean_tagged).strip()
         
         def normalize(s: str) -> str:
             s = unicodedata.normalize('NFKC', s)
             s = re.sub(r'\s+', ' ', s)
+            # Kisbetűsítés és írásjelek egyszerűsítése az összehasonlításhoz
             return s.strip().lower()
 
         norm_original = normalize(original_text)
@@ -196,15 +198,18 @@ Tag-ezett magyar:"""
         if norm_original == norm_tagged:
             return True, ""
         
+        # Ha a normalizált nem egyezik, nézzük meg, csak írásjel hiba-e (opcionális finomítás)
+        # De most maradjunk szigorúak.
+        
         return False, (
-            f"SZÖVEG MÓDOSULT!\n"
-            f"Eredeti: {original_text}\n"
-            f"Kaptam:  {clean_tagged}\n"
-            f"Csak {{Strong}} tageket illeszthetsz, mást NE változtass!"
+            f"SZÖVEG ELTÉRÉS!\n"
+            f"Eredeti: {norm_original[:50]}...\n"
+            f"Kaptam:  {norm_tagged[:50]}...\n"
+            f"A szöveg nem egyezik az eredetivel a tagek nélkül."
         )
 
     def log_failure(self, book: str, chapter: str, verse: int, original: str, generated: str, error_msg: str):
-        """Hiba mentése a failed_verses.json fájlba."""
+        """Hiba logolása."""
         entry = {
             "location": f"{book} {chapter}:{verse}",
             "original_karoli": original,
@@ -220,15 +225,10 @@ Tag-ezett magyar:"""
                     self.first_failure = False
                 json.dump(entry, f, ensure_ascii=False, indent=2)
         except Exception as e:
-            print(f"\n[LOGGER HIBA] Nem sikerült írni a logfájlba: {e}")
+            print(f"\n[LOGGER HIBA] {e}")
 
     def process_verse_with_retry(self, kjv_text: str, karoli_text: str, verse_id: str) -> str:
-        """
-        V9 JAVÍTÁS: Mindig tiszta lappal (base_prompt) indulunk újra.
-        """
         base_prompt = self.generate_base_prompt(kjv_text, karoli_text)
-        
-        # Kezdetben az aktuális prompt megegyezik az alappal
         current_prompt = base_prompt
         last_output = None
         
@@ -248,20 +248,20 @@ Tag-ezett magyar:"""
             else:
                 print(f" ✗{attempt}", end="")
                 sys.stdout.flush()
-                
-                current_prompt = base_prompt + f"\n\n!!! ELŐZŐ PRÓBÁLKOZÁS HIBÁS !!!\n{error_msg}\n\nJavítsd ki a fenti hibát! VÁLASZ:"
+                # Qwen-nek udvariasan de határozottan szólunk
+                current_prompt = base_prompt + f"\n\n### HIBA JELENTÉS\nAz előző válaszodban megváltoztattad az eredeti magyar szöveget: {error_msg}\n\n### ÚJ PRÓBÁLKOZÁS\nKérlek, add vissza a magyar szöveget SZÓ SZERINT, csak a {{Strong}} kódokat illeszd be!"
         
-        print(" [MANUAL_CHECK]", end="")
+        print(" [MANUAL]", end="")
         if last_output: return f"!!!MANUAL_CHECK!!! {last_output}"
         else: return f"!!!MANUAL_CHECK!!! {karoli_text}"
 
     def process_chapter(self, kjv_path: str, karoli_path: str, book_name: str, chapter_name: str) -> List[Dict]:
-        """Fejezet feldolgozása és logolás."""
+        """Fejezet feldolgozása."""
         try:
             with open(kjv_path, 'r', encoding='utf-8') as f: kjv_data = json.load(f)
             with open(karoli_path, 'r', encoding='utf-8') as f: karoli_data = json.load(f)
         except Exception as e:
-            print(f"\n  ⚠ Hiba a fájlok olvasásakor: {e}")
+            print(f"\n  ⚠ Fájl hiba: {e}")
             return []
 
         kjv_map = {str(item['v']): item['text'] for item in kjv_data if 'v' in item and 'text' in item}
@@ -287,8 +287,6 @@ Tag-ezett magyar:"""
                 if "!!!MANUAL_CHECK!!!" not in final_text:
                     self.memory.append((kjv_text, final_text))
                 else:
-                    # HIBA ESETÉN: Logolás a külön fájlba
-                    # Kivesszük a prefixet a loghoz, hogy tisztán lássuk mit művelt
                     failed_content = final_text.replace("!!!MANUAL_CHECK!!! ", "")
                     self.log_failure(
                         book=book_name, 
@@ -296,9 +294,9 @@ Tag-ezett magyar:"""
                         verse=int(v_num),
                         original=karoli_text, 
                         generated=failed_content,
-                        error_msg="Integritási hiba: a szöveg nem egyezik az eredetivel 5 próbálkozás után sem."
+                        error_msg="Integritási hiba (Max retry elérve)"
                     )
-                    self.memory.clear()
+                    self.memory.clear() # Töröljük a memóriát hiba után, ne zavarja a következőt
             
             entry = {
                 "book": book_name,
@@ -314,12 +312,11 @@ Tag-ezett magyar:"""
     def process_bible(self):
         """Fő folyamat."""
         print(f"\nBiblia feldolgozása indul...")
-        print(f"  Modell: {OLLAMA_MODEL}")
+        print(f"  Modell: {OLLAMA_MODEL} (Qwen 2.5 7B)")
         print(f"  Kimenet: {OUTPUT_FILE}")
-        print(f"  Hibalog: {FAILED_FILE}\n")
         
         if not os.path.exists(KJV_ROOT) or not os.path.exists(KAROLI_ROOT):
-            print("HIBA: Hiányzó input mappák.")
+            print("HIBA: Hiányzó input mappák (bibles/kjv_strongs vagy bibles/karoli).")
             return
 
         with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
@@ -327,14 +324,16 @@ Tag-ezett magyar:"""
 
         is_first_entry = True
         book_dirs = sorted(os.listdir(KJV_ROOT))
-        total_books = len([d for d in book_dirs if os.path.isdir(os.path.join(KJV_ROOT, d))])
+        
+        # Mappák ellenőrzése
+        valid_books = [d for d in book_dirs if os.path.isdir(os.path.join(KJV_ROOT, d))]
+        total_books = len(valid_books)
         processed_books = 0
         
-        for book_dir in book_dirs:
+        for book_dir in valid_books:
             kjv_book_path = os.path.join(KJV_ROOT, book_dir)
             karoli_book_path = os.path.join(KAROLI_ROOT, book_dir)
 
-            if not os.path.isdir(kjv_book_path): continue
             if not os.path.exists(karoli_book_path): continue
 
             processed_books += 1
@@ -361,6 +360,7 @@ Tag-ezett magyar:"""
                             else: is_first_entry = False
                             json.dump(item, f, ensure_ascii=False, indent=2)
                 
+                # Memória tisztítás fejezetenként
                 del chapter_results
                 gc.collect()
             
@@ -369,13 +369,10 @@ Tag-ezett magyar:"""
         with open(OUTPUT_FILE, 'a', encoding='utf-8') as f:
             f.write('\n]')
             
-        # Hibalog lezárása
         with open(FAILED_FILE, 'a', encoding='utf-8') as f:
             f.write('\n]')
         
         print(f"\n✅ Kész! Kimenet: {OUTPUT_FILE}")
-        print(f"⚠ Hibák mentve: {FAILED_FILE} (Ha üres, minden tökéletes volt!)")
-
 
 if __name__ == "__main__":
     try:
@@ -383,7 +380,6 @@ if __name__ == "__main__":
         tagger.process_bible()
     except KeyboardInterrupt:
         print("\n\n⚠ Megszakítva.")
-        # Lezárjuk a fájlokat vészhelyzetben is
         try:
             with open(OUTPUT_FILE, 'a') as f: f.write('\n]')
             with open(FAILED_FILE, 'a') as f: f.write('\n]')

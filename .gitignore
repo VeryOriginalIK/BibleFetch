@@ -386,3 +386,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 Frontend/src/assets/AddStrongs.py
+Frontend/src/assets/failed_verses.json
+Frontend/src/assets/karoli_strongs.json
