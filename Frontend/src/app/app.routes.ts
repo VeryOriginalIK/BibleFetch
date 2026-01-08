@@ -1,25 +1,34 @@
 import { Routes } from '@angular/router';
 import { ReaderComponent } from './components/reader-component/reader-component';
+import { HomeComponent } from './components/home-component/home-component';
+import { TopicViewerComponent } from './components/topic-viewer-component/topic-viewer-component';
 
 export const routes: Routes = [
+  // 1. Főoldal (Home) - Itt listázzuk a témákat
   {
     path: '',
-    redirectTo: 'read/kjv_strongs/gen/1',
-    pathMatch: 'full',
+    component: HomeComponent,
+    title: 'Biblia - Kezdőlap',
   },
 
-  // A Reader útvonala: /read/fordítás/könyv/fejezet
+  // 2. Konkrét téma megtekintése (pl. /topics/creation)
+  {
+    path: 'topics/:id',
+    component: TopicViewerComponent,
+    title: 'Téma olvasása',
+  },
+
+  // 3. A Reader útvonala: /read/fordítás/könyv/fejezet
   {
     path: 'read/:trans/:book/:chapter',
     component: ReaderComponent,
+    title: 'Bibliaolvasó',
   },
 
-  // (Később ide jön a Témakészítő és a Gyűjtemények útvonala)
-  // { path: 'create-topic', component: TopicGeneratorComponent },
-
-  // 404 Fallback: Bármi más esetén irányítson vissza az elejére
+  // 404 Fallback: Bármi más esetén irányítson vissza a főoldalra
   {
     path: '**',
-    redirectTo: 'read/kjv_strongs/gen/1',
+    redirectTo: '',
+    pathMatch: 'full',
   },
 ];

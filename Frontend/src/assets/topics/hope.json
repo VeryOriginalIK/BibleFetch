@@ -1,5 +1,14 @@
 {
-  "id": "hope",
-  "verse_ids": ["jer-29-11", "rom-8-28"],
-  "theme_color": "#F59E0B"
+  "titles": {
+    "hu": "Reménység",
+    "en": "Hope"
+  },
+  "description": {
+    "hu": "Isten ígéretei a jövőre nézve, melyek erőt adnak.",
+    "en": "God's promises for the future giving us strength."
+  },
+  "icon": "❤",
+  "category": "emotional",
+  "theme_color": "#F59E0B",
+  "verse_ids": ["jer-29-11", "rom-8-28", "lam-3-24"]
 }
