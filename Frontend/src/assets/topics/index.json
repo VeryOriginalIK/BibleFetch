@@ -30,6 +30,21 @@
     "verseCount": 3
   },
   {
+    "id": "names_of_god",
+    "titles": {
+      "hu": "Isten nevei",
+      "en": "Names of God"
+    },
+    "description": {
+      "hu": "Isten nevei, amiken bemutatja magát",
+      "en": "The names and attributes of God"
+    },
+    "icon": "star",
+    "category": "God",
+    "theme_color": "#F59E0B",
+    "verseCount": 102
+  },
+  {
     "id": "strenghtening",
     "titles": {
       "hu": "Erőt kapni",

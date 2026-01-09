@@ -1,77 +1,123 @@
 const fs = require('fs');
 const path = require('path');
 
-// Konfiguráció
+// --- KONFIGURÁCIÓ ---
 const CHUNK_SIZE = 400;
-const TARGET_BASE_DIR = path.join(__dirname.trimEnd("generate"), '../src/assets/strongs');
 
+// Útvonalak beállítása (a generate mappából visszalépve)
+const STRONGS_DIR = path.join(__dirname, '../src/assets/strongs');
+
+// --- TRANSZFORMÁCIÓS FÜGGVÉNYEK ---
+
+// A héber fájl már jó szerkezetben van, csak továbbadjuk,
+// de biztosítjuk a numerikus sorrendet a kulcsok alapján (H1, H2...)
+const prepareHebrew = (jsonData) => {
+  return Object.entries(jsonData).sort((a, b) => {
+    // A "H1", "H2" stringekből kivágjuk a számot a sorbarendezéshez
+    const numA = parseInt(a[0].replace('H', ''), 10);
+    const numB = parseInt(b[0].replace('H', ''), 10);
+    return numA - numB;
+  });
+};
+
+// A görög fájlt át kell alakítani a héber sémára
+const prepareGreek = (jsonData) => {
+  const transformedEntries = Object.values(jsonData).map((item) => {
+    // Új ID generálása: G + strongs szám (pl. G101)
+    const newId = `G${item.strongs}`;
+
+    // Az új objektum a héber struktúra szerint
+    const newObj = {
+      id: newId,
+      lemma: item.original_word, // original_word -> lemma
+      translit: item.transliteration, // transliteration -> translit
+      pronounce: '', // üres, mert a héberben van, itt nincs
+      defs: item.definition, // definition -> defs
+    };
+
+    return [newId, newObj]; // Visszatérünk [kulcs, érték] párral
+  });
+
+  // Sorbarendezés a Strong szám alapján (hogy az 1-400 fájlban tényleg az elsők legyenek)
+  return transformedEntries.sort((a, b) => {
+    const numA = parseInt(a[0].replace('G', ''), 10);
+    const numB = parseInt(b[0].replace('G', ''), 10);
+    return numA - numB;
+  });
+};
+
+// A feldolgozandó feladatok listája
 const filesToProcess = [
-  { filename: 'hebrew.json', outputFolder: 'hebrew' },
-  { filename: 'greek.json', outputFolder: 'greek' },
+  {
+    filename: 'hebrew.json',
+    outputFolderName: 'hebrew',
+    processor: prepareHebrew,
+  },
+  {
+    filename: 'greek.json',
+    outputFolderName: 'greek',
+    processor: prepareGreek,
+  },
 ];
 
+// Mappa létrehozása
 function ensureDirectoryExistence(dirPath) {
   if (!fs.existsSync(dirPath)) {
     fs.mkdirSync(dirPath, { recursive: true });
-    console.log(`Mappa létrehozva: ${dirPath}`);
   }
 }
 
-// Fő feldolgozó logika
-filesToProcess.forEach((fileInfo) => {
-  const inputPath = path.join(
-    __dirname.trimEnd('generate'),
-    '../src/assets/strongs',
-    fileInfo.filename
-  );
-  const outputDir = path.join(TARGET_BASE_DIR, fileInfo.outputFolder);
+// --- FŐ FELDOLGOZÓ LOGIKA ---
+function processFiles() {
+  console.log(`Feldolgozás indítása...`);
+  console.log(`Bázis könyvtár: ${STRONGS_DIR}\n`);
 
-  // Ellenőrizzük, hogy létezik-e a forrásfájl
-  if (!fs.existsSync(inputPath)) {
-    console.error(`HIBA: A forrásfájl nem található: ${inputPath}`);
-    return;
-  }
+  filesToProcess.forEach((task) => {
+    const inputPath = path.join(STRONGS_DIR, task.filename);
+    const outputDir = path.join(STRONGS_DIR, task.outputFolderName);
 
-  try {
-    // Fájl beolvasása és parse-olása
-    const rawData = fs.readFileSync(inputPath, 'utf8');
-    const jsonData = JSON.parse(rawData);
-
-    // Az objektum átalakítása tömbbé ([kulcs, érték] párok), hogy darabolható legyen
-    // Feltételezzük, hogy a JSON kulcsai sorrendben vannak (pl. H1, H2 vagy Strong's szám szerint)
-    const entries = Object.entries(jsonData);
-    const totalEntries = entries.length;
-
-    console.log(`\nFeldolgozás: ${fileInfo.filename} (${totalEntries} bejegyzés)`);
-
-    // Célmappa létrehozása
-    ensureDirectoryExistence(outputDir);
-
-    // Darabolás és mentés
-    let fileCount = 0;
-    for (let i = 0; i < totalEntries; i += CHUNK_SIZE) {
-      // A szelet kivágása
-      const chunkEntries = entries.slice(i, i + CHUNK_SIZE);
-
-      // Visszaalakítás objektummá
-      const chunkObject = Object.fromEntries(chunkEntries);
-
-      const startNum = i + 1;
-      const endNum = i + chunkEntries.length; // Ez kezeli az utolsó, csonka fájlt is
-      const outputFilename = `${startNum}-${endNum}.json`;
-
-      // A kérés szerinti fix 400-as léptékű elnevezés (pl: 1-400, 401-800...):
-      // Megjegyzés: az utolsó fájl is pl. 8401-8800 lesz, még ha csak 8674-ig tart is.
-      const fileNameFixed = `${i + 1}-${i + CHUNK_SIZE}.json`;
-
-      const outputPath = path.join(outputDir, fileNameFixed);
-
-      fs.writeFileSync(outputPath, JSON.stringify(chunkObject, null, 2), 'utf8');
-      fileCount++;
+    if (!fs.existsSync(inputPath)) {
+      console.error(`❌ HIBA: A fájl nem található: ${inputPath}`);
+      return;
     }
 
-    console.log(`✅ Kész! ${fileCount} fájl létrehozva itt: ${outputDir}`);
-  } catch (err) {
-    console.error(`Hiba történt a ${fileInfo.filename} feldolgozása közben:`, err);
-  }
-});
+    try {
+      console.log(`📖 ${task.filename} feldolgozása...`);
+
+      const rawData = fs.readFileSync(inputPath, 'utf8');
+      const jsonData = JSON.parse(rawData);
+
+      // Adatok előkészítése (átalakítás + sorbarendezés)
+      const sortedEntries = task.processor(jsonData);
+      const totalEntries = sortedEntries.length;
+
+      console.log(`   -> ${totalEntries} bejegyzés előkészítve.`);
+
+      ensureDirectoryExistence(outputDir);
+
+      let fileCount = 0;
+      // Darabolás
+      for (let i = 0; i < totalEntries; i += CHUNK_SIZE) {
+        const chunkEntries = sortedEntries.slice(i, i + CHUNK_SIZE);
+
+        // Visszaalakítás objektummá a JSON mentéshez
+        const chunkObject = Object.fromEntries(chunkEntries);
+
+        // Fájlnév: 1-400.json, 401-800.json ...
+        const startNum = i + 1;
+        const endNum = i + CHUNK_SIZE;
+        const outputFilename = `${startNum}-${endNum}.json`;
+        const outputPath = path.join(outputDir, outputFilename);
+
+        fs.writeFileSync(outputPath, JSON.stringify(chunkObject, null, 2), 'utf8');
+        fileCount++;
+      }
+
+      console.log(`✅ ${task.outputFolderName}: ${fileCount} fájl elmentve.\n`);
+    } catch (error) {
+      console.error(`❌ Hiba a ${task.filename} feldolgozásakor:`, error);
+    }
+  });
+}
+
+processFiles();
