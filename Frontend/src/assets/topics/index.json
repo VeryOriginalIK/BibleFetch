@@ -1,5 +1,20 @@
 [
   {
+    "id": "creation",
+    "titles": {
+      "hu": "Névtelen",
+      "en": "Untitled"
+    },
+    "description": {
+      "hu": "",
+      "en": ""
+    },
+    "icon": "star",
+    "category": "general",
+    "theme_color": "#3b82f6",
+    "verseCount": 3
+  },
+  {
     "id": "hope",
     "titles": {
       "hu": "Reménység",

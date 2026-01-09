@@ -2,9 +2,10 @@
   "name": "frontend",
   "version": "0.0.1",
   "scripts": {
+    "generate": "node ./generate/generate-bibles && node ./generate/generate-strongs && node ./generate/generate-topics",
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "npm run generate && ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:frontend": "node dist/frontend/server/server.mjs"
