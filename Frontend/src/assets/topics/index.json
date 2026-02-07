@@ -1,5 +1,20 @@
 [
   {
+    "id": "creation",
+    "titles": {
+      "hu": "Névtelen",
+      "en": "Untitled"
+    },
+    "description": {
+      "hu": "",
+      "en": ""
+    },
+    "icon": "star",
+    "category": "general",
+    "theme_color": "#3b82f6",
+    "verseCount": 3
+  },
+  {
     "id": "hope",
     "titles": {
       "hu": "Reménység",
@@ -13,6 +28,21 @@
     "category": "emotional",
     "theme_color": "#F59E0B",
     "verseCount": 3
+  },
+  {
+    "id": "names_of_god",
+    "titles": {
+      "hu": "Isten nevei",
+      "en": "Names of God"
+    },
+    "description": {
+      "hu": "Isten nevei, amiken bemutatja magát",
+      "en": "The names and attributes of God"
+    },
+    "icon": "star",
+    "category": "God",
+    "theme_color": "#F59E0B",
+    "verseCount": 102
   },
   {
     "id": "strenghtening",

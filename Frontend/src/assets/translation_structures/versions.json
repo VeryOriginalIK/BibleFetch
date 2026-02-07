@@ -1,25 +1,92 @@
 {
+  "afri": {
+    "name": "Afrikaans 1933/1953",
+    "lang": "Afrikaans",
+    "structure": "standard",
+    "path": "afri"
+  },
+  "bkr": {
+    "name": "Bible Kralická (BKR)",
+    "lang": "Čeština",
+    "structure": "standard",
+    "path": "bkr"
+  },
+  "schlachter": {
+    "name": "Schlachter Bible",
+    "lang": "Deutsch",
+    "structure": "standard",
+    "path": "schlachter"
+  },
+  "asvs": {
+    "name": "American Standard Version (ASV)",
+    "lang": "English",
+    "structure": "standard",
+    "path": "asvs"
+  },
+  "kjv_strongs": {
+    "name": "King James Version with Strong's Numbers",
+    "lang": "English",
+    "structure": "strongs",
+    "path": "kjv_strongs"
+  },
+  "rv_1909": {
+    "name": "Reina-Valera 1909",
+    "lang": "Español",
+    "structure": "standard",
+    "path": "rv_1909"
+  },
   "karoli": {
     "name": "Károli Gáspár (Károli)",
-    "lang": "hu",
+    "lang": "Magyar",
     "structure": "standard",
     "path": "karoli"
   },
-  "ekjv": {
-    "name": "King James Version (KJV)",
-    "lang": "en",
+  "blivre": {
+    "name": "Bíblia Livre",
+    "lang": "Português",
     "structure": "standard",
-    "path": "ekjv"
+    "path": "blivre"
   },
-  "kjv-strongs": {
-    "name": "King James Version with Strong's Numbers (KJV-Strongs)",
-    "lang": "en",
-    "structure": "strongs",
-    "path": "kjv-strongs"
+  "fidela": {
+    "name": "Biblia Fidela",
+    "lang": "Română",
+    "structure": "standard",
+    "path": "fidela"
   },
-  "ujforditas": {
-    "name": "Magyar Újfordítás (RÚF)",
-    "lang": "hu",
-    "structure": "standard"
+  "so_jimale": {
+    "name": "Somali Translation (Jimale)",
+    "lang": "Soomaali",
+    "structure": "standard",
+    "path": "so_jimale"
+  },
+  "maori": {
+    "name": "Te Paipera Tapu (Maori)",
+    "lang": "Te Reo Māori",
+    "structure": "standard",
+    "path": "maori"
+  },
+  "svd": {
+    "name": "Smith & Van Dyke (Arabic)",
+    "lang": "العربية",
+    "structure": "standard",
+    "path": "svd"
+  },
+  "synodal": {
+    "name": "Russian Synodal Version",
+    "lang": "Русский",
+    "structure": "standard",
+    "path": "synodal"
+  },
+  "ckjv_sds": {
+    "name": "Chinese King James Version (Simplified)",
+    "lang": "简体中文",
+    "structure": "standard",
+    "path": "ckjv_sds"
+  },
+  "korean": {
+    "name": "Korean Revised Version",
+    "lang": "한국어",
+    "structure": "standard",
+    "path": "korean"
   }
 }
