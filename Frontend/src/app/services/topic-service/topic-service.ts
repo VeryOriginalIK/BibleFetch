@@ -1,8 +1,6 @@
 import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, combineLatest, map, shareReplay } from 'rxjs';
-
-// Importáljuk a feltöltött modelleket (ellenőrizd az útvonalakat!)
 import { TopicSummary } from '../../models/topic-summary-model';
 import { TopicDetail } from '../../models/topic-detail-model';
 

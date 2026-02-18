@@ -28,7 +28,7 @@ import { TopicIndexItem } from '../../models/topic-index-item-model';
 
           <div class="card-content">
             <h3>{{ topic.titles.hu }}</h3>
-            <p class="description">{{ topic.description.hu }}</p>
+            <p class="description">{{ topic.description }}</p>
             <span class="badge">{{ topic.verseCount }} vers</span>
           </div>
         </a>

@@ -1,0 +1,128 @@
+/* === Verse content base === */
+.verse-content {
+  line-height: 1.8;
+  font-family: inherit;
+  color: inherit;
+}
+
+.simple-word {
+  color: inherit;
+}
+
+.punctuation {
+  margin-right: 0;
+  color: inherit;
+}
+
+/* === Strong's word styling === */
+.word-with-strong {
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted rgba(59, 130, 246, 0.4);
+  transition: all 0.2s ease;
+  color: inherit;
+}
+
+.word-with-strong:hover {
+  color: #2563eb;
+  border-bottom-color: #2563eb;
+  background-color: rgba(37, 99, 235, 0.06);
+  border-radius: 2px;
+}
+
+:host-context(.dark) .word-with-strong:hover {
+  color: #60a5fa;
+  border-bottom-color: #60a5fa;
+  background-color: rgba(96, 165, 250, 0.1);
+}
+
+/* === Tooltip bubble === */
+.tooltip-bubble {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  bottom: 140%;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  background-color: #1e293b;
+  color: #f1f5f9;
+  min-width: 220px;
+  max-width: 320px;
+  padding: 14px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(255,255,255,0.05);
+  z-index: 100;
+  text-align: left;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  font-size: 0.85rem;
+  pointer-events: none;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.tooltip-bubble::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -6px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: #1e293b transparent transparent transparent;
+}
+
+.word-with-strong:hover .tooltip-bubble {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* === Tooltip content === */
+.strong-entry {
+  border-bottom: 1px solid rgba(148, 163, 184, 0.2);
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+}
+
+.strong-entry:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.strong-header {
+  font-weight: 600;
+  color: #60a5fa;
+  display: block;
+  font-size: 0.8rem;
+  margin-bottom: 3px;
+  letter-spacing: 0.02em;
+}
+
+.lemma-text {
+  color: #e2e8f0;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1.05em;
+}
+
+.pronunciation {
+  color: #94a3b8;
+  font-size: 0.8rem;
+  margin-bottom: 4px;
+}
+
+.definition-text {
+  line-height: 1.4;
+  color: #cbd5e1;
+}
+
+.loading-text {
+  color: #64748b;
+  font-style: italic;
+}
+
+.error-text {
+  color: #64748b;
+  font-style: italic;
+  font-size: 0.8rem;
+}
