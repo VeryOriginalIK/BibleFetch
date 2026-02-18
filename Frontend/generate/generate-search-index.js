@@ -51,7 +51,7 @@ function stripStrongsTags(text) {
 
 /**
  * Tokenize text into lowercase words, stripping punctuation.
- * Returns unique words from the text.
+ * Returns words (including duplicates) from the text — preserves multiple instances so generator records all occurrences.
  */
 function tokenize(text) {
   const cleaned = stripStrongsTags(text);
@@ -64,7 +64,7 @@ function tokenize(text) {
     .map(w => w.replace(/^['-]+|['-]+$/g, ''))  // Trim leading/trailing punctuation
     .filter(w => w.length >= MIN_WORD_LENGTH);
 
-  return [...new Set(words)];
+  return words;
 }
 
 /**

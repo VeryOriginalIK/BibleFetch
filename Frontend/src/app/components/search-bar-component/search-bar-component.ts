@@ -39,6 +39,18 @@ export class SearchBarComponent implements OnInit {
   selectedWord = signal<string | null>(null);
   isLoadingPreviews = signal(false);
 
+  // Full-verse UI / debug state
+  allVerses = signal<VersePreview[]>([]);
+  showAllVerses = signal(false);
+  isLoadingAllVerses = signal(false);
+
+  // Pagination for verse previews
+  private readonly PREVIEW_PAGE_SIZE = 20;
+  private previewLimit = signal(this.PREVIEW_PAGE_SIZE);
+  /** Unique verse id list for the currently selected word (preserves order) */
+  private currentUniqueVerseIds: string[] = [];
+  private currentUniqueVerseCount = 0;
+
   // Version picker
   versionPickerOpen = signal(false);
   groupedVersions = signal<LanguageGroup[]>([]);
@@ -122,30 +134,223 @@ export class SearchBarComponent implements OnInit {
 
   async selectWord(result: SearchResult) {
     this.selectedWord.set(result.word);
-    this.isLoadingPreviews.set(true);
 
     const version = this.state.currentBibleVersion();
-    // Load first 20 verse previews
-    const sliced = result.verseIds.slice(0, 20);
-    const previews: VersePreview[] = [];
 
-    for (const verseId of sliced) {
-      const parts = verseId.split('-');
-      if (parts.length < 3) continue;
-      const label = `${parts[0].toUpperCase()} ${parts[1]}:${parts[2]}`;
+    // 1) Request the first page of unique verse IDs (server-assisted if available)
+    const firstPage = await this.searchService.getUniqueVerseIdsPage(result.word, version, 0, this.PREVIEW_PAGE_SIZE);
 
-      try {
-        const text = await this.dataService.getVerseText(verseId, version);
-        if (text) {
-          previews.push({ verseId, label, text });
+    if (firstPage) {
+      console.debug('[Search] firstPage (paged API) for', result.word, firstPage);
+      this.currentUniqueVerseIds = firstPage.uniqueVerseIds;
+      this.currentUniqueVerseCount = firstPage.totalUniqueVerses;
+
+      // Defensive fallback: if API reports occurrences but zero unique verses, compute unique count locally
+      if (firstPage.totalOccurrences > 0 && firstPage.totalUniqueVerses === 0) {
+        try {
+          const all = await this.searchService.getAllVerseIds(result.word, version);
+          console.debug('[Search] fallback all occurrences for', result.word, all?.length ?? null);
+          if (all && all.length > 0) {
+            const uniqueAll = Array.from(new Set(all));
+            this.currentUniqueVerseCount = uniqueAll.length;
+            // ensure we have at least the first page of unique IDs
+            this.currentUniqueVerseIds = uniqueAll.slice(0, this.PREVIEW_PAGE_SIZE);
+          }
+        } catch (err) {
+          console.warn('Failed to compute unique verse fallback:', err);
         }
-      } catch {
-        // skip
       }
+    } else {
+      // Fallback: use truncated result.verseIds deduped
+      console.debug('[Search] using truncated preview ids for', result.word, result.verseIds.length);
+      this.currentUniqueVerseIds = Array.from(new Set(result.verseIds));
+      this.currentUniqueVerseCount = this.currentUniqueVerseIds.length;
     }
+
+    this.previewLimit.set(this.PREVIEW_PAGE_SIZE);
+
+    // Start background debug log of all occurrences (IDs + text)
+    this.logAllVersesForSelectedWord().catch((err) => console.warn('[Search] logAllVerses failed', err));
+
+    await this.loadPreviews();
+  }
+
+  private async loadPreviews() {
+    this.isLoadingPreviews.set(true);
+    const version = this.state.currentBibleVersion();
+
+    const limit = this.previewLimit();
+    console.debug('[SearchBar] loadPreviews started, limit:', limit, 'version:', version);
+
+    // Ensure we have enough unique verse IDs locally to satisfy the requested limit.
+    // If not, request additional pages from SearchService (server-assisted when possible).
+    while (this.currentUniqueVerseIds.length < limit && this.selectedWord()) {
+      const offset = this.currentUniqueVerseIds.length;
+      const page = await this.searchService.getUniqueVerseIdsPage(this.selectedWord()!, version, offset, this.PREVIEW_PAGE_SIZE);
+      if (!page || page.uniqueVerseIds.length === 0) break;
+      this.currentUniqueVerseIds = this.currentUniqueVerseIds.concat(page.uniqueVerseIds);
+      this.currentUniqueVerseCount = page.totalUniqueVerses;
+      // stop if fewer items returned than page size
+      if (page.uniqueVerseIds.length < this.PREVIEW_PAGE_SIZE) break;
+    }
+
+    const idsToLoad = this.currentUniqueVerseIds.slice(0, limit);
+    console.debug('[SearchBar] Loading verses, IDs to load:', idsToLoad.length);
+
+    // Load verse texts in parallel but preserve order
+    const textPromises = idsToLoad.map(async (verseId) => {
+      try {
+        const textRaw = await this.dataService.getVerseText(verseId, version);
+        const text = textRaw || '';
+        const parts = verseId.split('-');
+        const label = parts.length >= 3 ? `${parts[0].toUpperCase()} ${parts[1]}:${parts[2]}` : verseId;
+
+        if (!text) {
+          console.warn('[SearchBar] missing verse text — will show placeholder:', verseId, 'version', version);
+        }
+
+        return { verseId, label, text: text || '[text unavailable]' } as VersePreview;
+      } catch (err) {
+        console.warn('[SearchBar] error loading verse text, showing placeholder:', verseId, 'version', version, err);
+        const parts = verseId.split('-');
+        const label = parts.length >= 3 ? `${parts[0].toUpperCase()} ${parts[1]}:${parts[2]}` : verseId;
+        return { verseId, label, text: '[text unavailable]' } as VersePreview;
+      }
+    });
+
+    const resolved = await Promise.all(textPromises);
+    const previews = resolved.filter((p): p is VersePreview => !!p);
+    console.debug('[SearchBar] Loaded previews:', previews.length, 'items');
 
     this.previews.set(previews);
     this.isLoadingPreviews.set(false);
+  }
+
+  async loadMorePreviews(event?: Event) {
+    // determine where the newly-loaded previews will start (0-based index)
+    const oldLimit = this.previewLimit();
+    const newLimit = Math.min(oldLimit + this.PREVIEW_PAGE_SIZE, this.currentUniqueVerseCount);
+    this.previewLimit.set(newLimit);
+
+    // load previews, then smoothly scroll the first newly-loaded preview into view
+    await this.loadPreviews();
+
+    const firstNewIndex = oldLimit;
+    if (firstNewIndex < this.currentUniqueVerseIds.length) {
+      const firstNewId = this.currentUniqueVerseIds[firstNewIndex];
+      // DOM update may not be synchronous; use rAF to ensure element exists
+      requestAnimationFrame(() => {
+        const el = document.getElementById(`preview-${firstNewId}`);
+        if (el) {
+          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    }
+
+    // prevent default form/button behavior if event provided
+    if (event && typeof event.preventDefault === 'function') event.preventDefault();
+  }
+
+  /**
+   * Toggle the full-verse view. If verses are not loaded yet, trigger the loader.
+   */
+  async toggleAllVerses(): Promise<void> {
+    // If already showing, hide immediately
+    if (this.showAllVerses()) {
+      this.showAllVerses.set(false);
+      return;
+    }
+
+    // If we already have loaded verses, just show them
+    if (this.allVerses().length > 0) {
+      this.showAllVerses.set(true);
+      return;
+    }
+
+    // Otherwise load them (runs in background and populates `allVerses` progressively)
+    await this.logAllVersesForSelectedWord();
+    // logAllVersesForSelectedWord sets `showAllVerses` when complete
+  }
+
+  // Debug helper: fetch, render and console.log all unique verses (ids + text) for selected word.
+  private async logAllVersesForSelectedWord(): Promise<void> {
+    const word = this.selectedWord();
+    if (!word) return;
+    const version = this.state.currentBibleVersion();
+
+    try {
+      this.isLoadingAllVerses.set(true);
+      this.allVerses.set([]);
+
+      console.group(`[Search][AllVerses] ${word} — ${version}`);
+      const all = await this.searchService.getAllVerseIds(word, version);
+      if (!all || all.length === 0) {
+        console.log('[Search][AllVerses] no occurrences found');
+        console.groupEnd();
+        this.showAllVerses.set(false);
+        this.isLoadingAllVerses.set(false);
+        return;
+      }
+
+      const unique = Array.from(new Set(all));
+      console.log(`[Search][AllVerses] occurrences=${all.length} unique=${unique.length}`);
+
+      const BATCH = 50;
+      for (let i = 0; i < unique.length; i += BATCH) {
+        const batch = unique.slice(i, i + BATCH);
+
+        // fetch texts in parallel for this batch
+        const texts = await Promise.all(
+          batch.map((id) => this.dataService.getVerseText(id, version).catch(() => '[text unavailable]'))
+        );
+
+        // create preview objects and append to signal so UI updates progressively
+        const previews = batch.map((verseId, idx) => {
+          const parts = verseId.split('-');
+          const label = parts.length >= 3 ? `${parts[0].toUpperCase()} ${parts[1]}:${parts[2]}` : verseId;
+          return { verseId, label, text: texts[idx] || '[text unavailable]' } as VersePreview;
+        });
+
+        this.allVerses.set(this.allVerses().concat(previews));
+
+        // also keep console logging for debugging
+        for (let j = 0; j < batch.length; j++) {
+          console.log(`${batch[j]} — ${texts[j]}`);
+        }
+
+        // yield to UI thread
+        await new Promise((r) => setTimeout(r, 0));
+      }
+
+      console.groupEnd();
+      this.showAllVerses.set(true);
+    } catch (err) {
+      console.warn('[Search][AllVerses] failed to log all verses', err);
+    } finally {
+      this.isLoadingAllVerses.set(false);
+    }
+  }
+
+  clearSelection() {
+    this.selectedWord.set(null);
+    this.previews.set([]);
+    this.previewLimit.set(this.PREVIEW_PAGE_SIZE);
+    this.currentUniqueVerseIds = [];
+    this.currentUniqueVerseCount = 0;
+    this.isLoadingPreviews.set(false);
+
+    // clear full-verse UI state
+    this.allVerses.set([]);
+    this.showAllVerses.set(false);
+    this.isLoadingAllVerses.set(false);
+  }
+
+  getUniqueVerseCount(): number {
+    return this.currentUniqueVerseCount;
+  }
+
+  getRemainingPreviewCount(): number {
+    return Math.max(0, this.currentUniqueVerseCount - this.previews().length);
   }
 
   navigateToVerse(verseId: string) {
@@ -158,7 +363,7 @@ export class SearchBarComponent implements OnInit {
   getTotalHits(): number {
     const sel = this.selectedWord();
     const r = this.results().find((x) => x.word === sel);
-    return r ? r.verseIds.length : 0;
+    return r ? (r.totalCount ?? r.verseIds.length) : 0;
   }
 
   async selectVersion(versionId: string) {

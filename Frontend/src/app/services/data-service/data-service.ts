@@ -105,14 +105,6 @@ export class BibleDataService {
     chapter: string,
     versionId: string
   ): Promise<VerseChunk | null> {
-    // === 1. JAVÍTÁS: SZERVER VÉDELEM ===
-    // Ha szerver oldalon vagyunk (SSR), azonnal kilépünk.
-    // Ezzel megszűnik a "fetch failed" és "ECONNREFUSED" hiba.
-    if (!isPlatformBrowser(this.platformId)) {
-      return null;
-    }
-    console.log(`[Browser] Kérés indítása: ${versionId}/${bookId}/${chapter}`);
-
     const cacheKey = `${versionId}_${bookId}_${chapter}`;
     if (this.chunkCache.has(cacheKey)) return this.chunkCache.get(cacheKey)!;
 
@@ -121,15 +113,54 @@ export class BibleDataService {
     const config = this.versionsCache ? this.versionsCache[versionId] : null;
     const folderName = config?.path || versionId;
 
-    // Útvonal: assets/bibles/{verzio}/{konyv}/{fejezet}.json
+    // Server-side: read JSON directly from disk so SSG/SSR can pre-render content.
+    if (!isPlatformBrowser(this.platformId)) {
+      try {
+        const fs = await import('node:fs/promises');
+        const path = await import('node:path');
+
+        // Try production build location first, then source assets (dev)
+        const candidates = [
+          path.join(process.cwd(), 'dist', 'frontend', 'browser', 'assets', 'bibles', folderName, bookId, `${chapter}.json`),
+          path.join(process.cwd(), 'src', 'assets', 'bibles', folderName, bookId, `${chapter}.json`),
+        ];
+
+        for (const p of candidates) {
+          try {
+            const raw = await fs.readFile(p, 'utf-8');
+            const chunk = JSON.parse(raw);
+            this.chunkCache.set(cacheKey, chunk);
+            console.debug('[Server] Loaded chunk from disk:', p);
+            return chunk;
+          } catch {
+            // continue to next candidate
+          }
+        }
+
+        // Not found on disk — return null to keep behavior safe for server.
+        console.warn(`[Server] chunk file not found for ${folderName}/${bookId}/${chapter}`);
+        return null;
+      } catch (err) {
+        console.error('[Server] failed to read chunk from disk', err);
+        return null;
+      }
+    }
+
+    // Browser: load via HTTP from the assets folder
     const url = `${this.baseUrl}/bibles/${folderName}/${bookId}/${chapter}.json`;
+    console.debug(`[DataService] Loading verse chunk from: ${url}`);
 
     try {
       const chunk = await firstValueFrom(this.http.get<VerseChunk>(url));
+      if (!chunk || !Array.isArray(chunk)) {
+        console.warn('[DataService] Invalid chunk response (not an array):', url, chunk);
+        return null;
+      }
       this.chunkCache.set(cacheKey, chunk);
+      console.debug(`[DataService] Successfully cached ${chunk.length} verses for ${versionId}/${bookId}/${chapter}`);
       return chunk;
     } catch (e) {
-      // Csendesítjük a hibát, hogy ne szemetelje tele a konzolt, ha még nincs kész a fájl
+      console.error('[DataService] Failed to load chapter', url, e);
       return null;
     }
   }
@@ -182,15 +213,25 @@ export class BibleDataService {
    */
   async getVerseText(verseId: string, version: string): Promise<string> {
     const ref = this.parseVerseRef(verseId);
-    if (!ref) return '';
+    if (!ref) {
+      console.warn('[DataService] Failed to parse verseId:', verseId);
+      return '';
+    }
 
     try {
       const chunk = await this.ensureChunkLoaded(ref.bookId, ref.chapter, version);
-      if (!chunk) return '';
+      if (!chunk) {
+        console.warn('[DataService] No chunk loaded for:', ref.bookId, ref.chapter, version);
+        return '';
+      }
 
       if (ref.verseStart === ref.verseEnd) {
         const verseItem = chunk.find((item) => item.v === ref.verseStart);
-        return verseItem ? verseItem.text : '';
+        const text = verseItem ? verseItem.text : '';
+        if (!text) {
+          console.warn('[DataService] Verse not found in chunk:', verseId, 'chunk size:', chunk.length);
+        }
+        return text;
       }
 
       // Range: collect all verses in the span

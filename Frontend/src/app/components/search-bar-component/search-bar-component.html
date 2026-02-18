@@ -120,7 +120,7 @@
                 class="px-3 py-1.5 rounded-full text-sm font-medium bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:border-blue-400 hover:text-blue-600 transition-colors shadow-sm"
               >
                 {{ r.word }}
-                <span class="ml-1 text-xs text-gray-400">({{ r.verseIds.length }})</span>
+                <span class="ml-1 text-xs text-gray-400">({{ r.totalCount || r.verseIds.length }})</span>
               </button>
             }
           </div>
@@ -131,13 +131,14 @@
       @if (selectedWord()) {
         <div class="mb-4 flex items-center justify-between">
           <div>
-            <button (click)="selectedWord.set(null); previews.set([])"
+            <button (click)="clearSelection()"
                     class="text-sm text-blue-600 hover:text-blue-800 mr-3">
               ← {{ state.lang() === 'hu' ? 'Vissza' : 'Back' }}
             </button>
             <span class="text-sm text-gray-500">
               «<strong class="text-gray-800 dark:text-gray-200">{{ selectedWord() }}</strong>»
-              — {{ getTotalHits() }} {{ state.lang() === 'hu' ? 'találat' : 'results' }}
+              — {{ getTotalHits() }} {{ state.lang() === 'hu' ? 'előfordulás' : 'occurrences' }}
+              ({{ getUniqueVerseCount() }} {{ state.lang() === 'hu' ? 'különböző vers' : 'unique verses' }})
             </span>
           </div>
         </div>
@@ -151,8 +152,7 @@
         @if (!isLoadingPreviews()) {
           <div class="space-y-3">
             @for (p of previews(); track p.verseId) {
-              <button
-                (click)="navigateToVerse(p.verseId)"
+              <button                id="preview-{{p.verseId}}"                (click)="navigateToVerse(p.verseId)"
                 class="w-full text-left bg-white dark:bg-gray-800/80 rounded-xl p-4 border border-gray-100 dark:border-gray-700/50 hover:border-blue-300 dark:hover:border-blue-700 hover:shadow-md transition-all group"
               >
                 <div class="text-xs font-bold text-blue-600 mb-1.5 group-hover:text-blue-700">
@@ -165,11 +165,63 @@
             }
           </div>
 
-          @if (getTotalHits() > 20) {
+          @if (getRemainingPreviewCount() > 0) {
+            <div class="mt-6 flex flex-col items-center gap-2">
+              <button type="button" (click)="loadMorePreviews($event)"
+                      class="px-4 py-2 rounded-full bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 transition-colors">
+                {{ state.lang() === 'hu' ? 'Több betöltése' : 'Load more' }}
+                <span class="ml-2 text-xs text-gray-100">({{ getRemainingPreviewCount() }})</span>
+              </button>
+              <p class="text-sm text-gray-400 mb-3">
+                @if (state.lang() === 'hu') {
+                  Megjelenítve: <strong>{{ previews().length }}</strong> / <strong>{{ getUniqueVerseCount() }}</strong> különböző vers. Szűkítsd a keresést a pontosabb eredményekhez.
+                } @else {
+                  Showing <strong>{{ previews().length }}</strong> of <strong>{{ getUniqueVerseCount() }}</strong> unique verses. Narrow your search for more specific results.
+                }
+              </p>
+
+              <!-- Show / hide full list of unique verses -->
+              <div class="w-full flex justify-center mb-4">
+                <button (click)="toggleAllVerses()"
+                        class="px-3 py-1.5 rounded-full text-sm font-medium bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:border-blue-400 hover:text-blue-600 transition-colors shadow-sm">
+                  @if (!showAllVerses()) {
+                    {{ state.lang() === 'hu' ? 'Mutasd az összes verset' : 'Show all verses' }}
+                    <span class="ml-2 text-xs text-gray-400">({{ getUniqueVerseCount() }})</span>
+                  } @else {
+                    {{ state.lang() === 'hu' ? 'Elrejtés' : 'Hide all verses' }}
+                  }
+
+                  @if (isLoadingAllVerses()) {
+                    <span class="ml-2 text-xs text-gray-400">• {{ state.lang() === 'hu' ? 'Betöltés' : 'Loading' }}…</span>
+                  }
+                </button>
+              </div>
+
+              @if (showAllVerses()) {
+                @if (isLoadingAllVerses()) {
+                  <div class="flex justify-center py-4 text-sm text-gray-500">{{ state.lang() === 'hu' ? 'Összes vers betöltése…' : 'Loading all verses…' }}</div>
+                }
+
+                <div class="space-y-3 max-h-[60vh] overflow-auto">
+                  @for (v of allVerses(); track v.verseId) {
+                    <button id="all-{{v.verseId}}" (click)="navigateToVerse(v.verseId)"
+                      class="w-full text-left bg-white dark:bg-gray-800/80 rounded-xl p-4 border border-gray-100 dark:border-gray-700/50 hover:border-blue-300 dark:hover:border-blue-700 hover:shadow-md transition-all group">
+                      <div class="text-xs font-bold text-blue-600 mb-1.5 group-hover:text-blue-700">{{ v.label }}</div>
+                      <div class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
+                        <app-verse-renderer [rawText]="v.text"></app-verse-renderer>
+                      </div>
+                    </button>
+                  }
+                </div>
+              }
+            </div>
+          }
+
+          @if (getUniqueVerseCount() > 0 && previews().length >= getUniqueVerseCount()) {
             <p class="text-center text-sm text-gray-400 mt-6">
               {{ state.lang() === 'hu'
-                ? 'Az első 20 találat megjelenítve. Szűkítsd a keresést a pontosabb eredményekhez.'
-                : 'Showing first 20 results. Narrow your search for more specific results.' }}
+                ? 'Minden különböző vers megjelenítve (néhány vers többször is tartalmazza a keresett kifejezést).'
+                : 'All unique verses shown (some verses contain multiple instances of the search term).' }}
             </p>
           }
         }
