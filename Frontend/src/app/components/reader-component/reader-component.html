@@ -1,1 +1,72 @@
-<p>reader-component works!</p>
+<div class="reader-layout">
+  <article class="paper-card">
+    <header class="chapter-header">
+      <div class="version-tag">{{ currentTrans | uppercase }}</div>
+      <h1 class="book-title">
+        <span class="book-name">{{ currentBook | titlecase }}</span>
+        <span class="chapter-num">{{ currentChapter }}</span>
+      </h1>
+    </header>
+
+    @if (isLoading) {
+      <div class="status-container">
+        <div class="spinner"></div>
+        <p>Szöveg betöltése...</p>
+      </div>
+    }
+
+    @if (errorMessage) {
+      <div class="status-container error-state">
+        <div class="error-icon">⚠️</div>
+        <p>{{ errorMessage }}</p>
+        <button (click)="loadChapter()" class="btn-retry">Újrapróbálás</button>
+      </div>
+    }
+
+    @if (!isLoading && !errorMessage && verses.length === 0) {
+      <div class="status-container empty-state">
+        <p>Ez a fejezet még nem elérhető.</p>
+      </div>
+    }
+
+    @if (!isLoading && verses.length > 0) {
+      <section class="scripture-body">
+        @for (verse of verses; track verse.v) {
+          <div
+            [id]="'v-' + verse.v"
+            class="verse-wrapper"
+            [class.focused-verse]="focusVerse === verse.v"
+            [class.hidden-verse]="isHidden(verse.v)"
+            (click)="onVerseClick(verse)"
+          >
+            <span class="v-num">{{ verse.v }}</span>
+
+            <div class="v-text">
+              <app-verse-renderer [rawText]="verse.text"></app-verse-renderer>
+            </div>
+
+            @if (isHidden(verse.v)) {
+              <button class="btn-reveal" (click)="toggleHide(verse.v, $event)">
+                👁️ Megjelenítés
+              </button>
+            }
+          </div>
+        }
+      </section>
+    }
+
+    <footer class="chapter-footer">
+      <button
+        (click)="navChapter(-1)"
+        [disabled]="currentChapter === '1' && currentBook === 'gen'"
+        class="nav-btn prev"
+      >
+        <span>← Előző</span>
+      </button>
+
+      <button (click)="navChapter(1)" class="nav-btn next">
+        <span>Következő →</span>
+      </button>
+    </footer>
+  </article>
+</div>

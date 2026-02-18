@@ -1,31 +1,41 @@
 import { Routes } from '@angular/router';
-import { ReaderComponent } from './components/reader-component/reader-component';
-import { HomeComponent } from './components/home-component/home-component';
-import { TopicViewerComponent } from './components/topic-viewer-component/topic-viewer-component';
 
 export const routes: Routes = [
-  // 1. Főoldal (Home) - Itt listázzuk a témákat
   {
     path: '',
-    component: HomeComponent,
+    loadComponent: () =>
+      import('./components/home-component/home-component').then(m => m.HomeComponent),
     title: 'Biblia - Kezdőlap',
   },
-
-  // 2. Konkrét téma megtekintése (pl. /topics/creation)
   {
     path: 'topics/:id',
-    component: TopicViewerComponent,
+    loadComponent: () =>
+      import('./components/topic-viewer-component/topic-viewer-component').then(m => m.TopicViewerComponent),
     title: 'Téma olvasása',
   },
-
-  // 3. A Reader útvonala: /read/fordítás/könyv/fejezet
   {
-    path: 'read/:trans/:book/:chapter',
-    component: ReaderComponent,
+    path: 'bible/:book/:chapter',
+    loadComponent: () =>
+      import('./components/bible-reader-component/bible-reader-component').then(m => m.BibleReaderComponent),
     title: 'Bibliaolvasó',
   },
-
-  // 404 Fallback: Bármi más esetén irányítson vissza a főoldalra
+  {
+    path: 'bible',
+    redirectTo: 'bible/gen/1',
+    pathMatch: 'full',
+  },
+  {
+    path: 'search',
+    loadComponent: () =>
+      import('./components/search-bar-component/search-bar-component').then(m => m.SearchBarComponent),
+    title: 'Keresés',
+  },
+  {
+    path: 'read/:trans/:book/:chapter',
+    loadComponent: () =>
+      import('./components/reader-component/reader-component').then(m => m.ReaderComponent),
+    title: 'Bibliaolvasó',
+  },
   {
     path: '**',
     redirectTo: '',

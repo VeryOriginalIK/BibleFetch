@@ -1,24 +1,29 @@
-<div class="p-4">
-  <button (click)="goBack()" class="mb-4 text-blue-500">← Vissza</button>
+@if (vm$ | async; as vm) {
+  <div class="topic-viewer">
+    <header class="topic-hero" [style.background-color]="vm.topic.theme_color">
+      <div class="hero-content">
+        <a routerLink="/" class="back-btn">← Vissza</a>
+        <h1>{{ vm.topic.titles.hu }}</h1>
+        @if (vm.topic.description) {
+          <p>{{ vm.topic.description.hu }}</p>
+        }
+      </div>
+    </header>
 
-  @if (isLoading()) {
-    <p>Betöltés...</p>
-  } @else if (currentTopic()) {
-
-    <h1 class="text-2xl font-bold mb-2">
-      <span class="material-icons align-middle mr-2">{{ currentTopic()?.icon }}</span>
-      {{ currentTopic()?.titles }}
-    </h1>
-
-    <p class="italic text-gray-600 mb-6">{{ currentTopic()?.description }}</p>
-
-    <div class="grid gap-4">
-      @for (verseId of currentTopic()?.verses; track verseId) {
-        <app-verse-renderer></app-verse-renderer>
+    <div class="verses-container">
+      @for (verse of vm.verses; track verse.label) {
+        <div class="verse-card">
+          <div class="verse-ref" [style.color]="vm.topic.theme_color">
+            {{ verse.label }}
+          </div>
+          <app-verse-renderer [rawText]="verse.text"></app-verse-renderer>
+        </div>
       }
     </div>
-
-  } @else {
-    <p>A téma nem található.</p>
-  }
-</div>
+  </div>
+} @else {
+  <div class="loading-state">
+    <div class="spinner"></div>
+    <p>Téma betöltése...</p>
+  </div>
+}

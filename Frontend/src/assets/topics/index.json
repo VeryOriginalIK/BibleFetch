@@ -15,6 +15,21 @@
     "verseCount": 3
   },
   {
+    "id": "glory_of_god",
+    "titles": {
+      "hu": "Isten disősége",
+      "en": "Glory of God"
+    },
+    "description": {
+      "hu": "Isten dicsősége, prófétai képek, Jézus",
+      "en": "The glory of God, prophetic pictures, Jesus"
+    },
+    "icon": "star",
+    "category": "God",
+    "theme_color": "#F59E0B",
+    "verseCount": 55
+  },
+  {
     "id": "hope",
     "titles": {
       "hu": "Reménység",

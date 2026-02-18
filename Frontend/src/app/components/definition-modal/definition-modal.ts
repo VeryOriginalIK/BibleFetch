@@ -1,7 +1,7 @@
 import { Component, inject, effect, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { StateService } from '../../services/state-service/state-service';
-import { BibleDataService } from '../../services/data-service/data-service';
+import { StrongsDataService } from '../../services/strongs-data-service/strongs-data-service';
 import { StrongDefinition } from '../../models/strong-definition-model';
 
 @Component({
@@ -10,10 +10,9 @@ import { StrongDefinition } from '../../models/strong-definition-model';
   imports: [CommonModule],
   templateUrl: './definition-modal.html',
 })
-
 export class DefinitionModal {
-  public state = inject(StateService);
-  private bibleData = inject(BibleDataService);
+  state = inject(StateService);
+  private strongsData = inject(StrongsDataService);
 
   definition = signal<StrongDefinition | null>(null);
   isLoading = signal(false);
@@ -21,7 +20,6 @@ export class DefinitionModal {
   constructor() {
     effect(() => {
       const id = this.state.selectedStrongId();
-
       if (id) {
         this.loadDefinition(id);
       } else {
@@ -33,7 +31,7 @@ export class DefinitionModal {
   async loadDefinition(id: string) {
     this.isLoading.set(true);
     try {
-      const def = await this.bibleData.getDefinition(id);
+      const def = await this.strongsData.getDefinition(id);
       this.definition.set(def);
     } catch (e) {
       console.error(e);

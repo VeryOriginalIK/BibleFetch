@@ -21,13 +21,54 @@
 
   <div class="max-w-7xl mx-auto">
 
+    <!-- Action Cards: Bible Reader + Search -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
+      <a routerLink="/bible"
+         class="group block bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden hover:-translate-y-0.5">
+        <div class="flex items-center justify-between px-6 py-5">
+          <div class="text-white">
+            <h2 class="text-xl font-bold">
+              {{ state.lang() === 'hu' ? '📖 Biblia olvasása' : '📖 Read the Bible' }}
+            </h2>
+            <p class="mt-1 text-blue-100 text-sm">
+              {{ state.lang() === 'hu'
+                 ? 'Könyvről könyvre, fejezetről fejezetre.'
+                 : 'Book by book, chapter by chapter.' }}
+            </p>
+          </div>
+          <svg class="h-7 w-7 text-white/70 group-hover:text-white transform group-hover:translate-x-1 transition-all shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+          </svg>
+        </div>
+      </a>
+
+      <a routerLink="/search"
+         class="group block bg-gradient-to-r from-emerald-600 to-teal-600 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden hover:-translate-y-0.5">
+        <div class="flex items-center justify-between px-6 py-5">
+          <div class="text-white">
+            <h2 class="text-xl font-bold">
+              {{ state.lang() === 'hu' ? '🔍 Keresés' : '🔍 Search' }}
+            </h2>
+            <p class="mt-1 text-emerald-100 text-sm">
+              {{ state.lang() === 'hu'
+                 ? 'Keress szavakat a teljes Bibliában.'
+                 : 'Search for words in the entire Bible.' }}
+            </p>
+          </div>
+          <svg class="h-7 w-7 text-white/70 group-hover:text-white transform group-hover:translate-x-1 transition-all shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+          </svg>
+        </div>
+      </a>
+    </div>
+
     @if (topics$ | async; as topics) {
 
       <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
 
         @for (topic of topics; track topic.id) {
 
-          <a [routerLink]="['/topic', topic.id]"
+          <a [routerLink]="['/topics', topic.id]"
              class="group relative bg-white flex flex-col rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden hover:-translate-y-1">
 
             <div class="p-6 flex-1">

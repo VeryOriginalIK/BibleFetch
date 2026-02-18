@@ -9,7 +9,6 @@ import { StructureMap } from '../../models/structure-map-model';
 import { VersionConfig } from '../../models/version-config-model';
 import { VerseChunk } from '../../models/bible-verse-model';
 import { TopicSummary } from '../../models/topic-summary-model';
-import { StrongDefinition } from '../../models/strong-definition-model';
 import { TopicDetail } from '../../models/topic-detail-model';
 
 @Injectable({ providedIn: 'root' })
@@ -23,7 +22,6 @@ export class BibleDataService {
   private topicListCache: TopicSummary[] | null = null;
   private topicDetailsCache = new Map<string, TopicDetail>();
   private chunkCache = new Map<string, VerseChunk>();
-  private definitionCache = new Map<string, StrongDefinition>();
 
   constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
 
@@ -161,16 +159,75 @@ export class BibleDataService {
     }
   }
 
-  // Egy konkrét vers szövege
-  async getVerseText(verseId: string, version: string): Promise<string> {
+  /**
+   * Parse a verse reference string into its components.
+   * Handles both single ("gen-1-1") and span ("exo-3-14-15") formats.
+   */
+  parseVerseRef(verseId: string): { bookId: string; chapter: string; verseStart: number; verseEnd: number } | null {
     const parts = verseId.split('-');
-    if (parts.length < 3) return '';
+    if (parts.length < 3 || parts.length > 4) return null;
+
+    const bookId = parts[0];
+    const chapter = parts[1];
+    const verseStart = parseInt(parts[2], 10);
+    const verseEnd = parts.length === 4 ? parseInt(parts[3], 10) : verseStart;
+
+    if (isNaN(verseStart) || isNaN(verseEnd)) return null;
+    return { bookId, chapter, verseStart, verseEnd };
+  }
+
+  /**
+   * Get text for a single verse or a verse range.
+   * Supports both "gen-1-1" (single) and "exo-3-14-15" (range) formats.
+   */
+  async getVerseText(verseId: string, version: string): Promise<string> {
+    const ref = this.parseVerseRef(verseId);
+    if (!ref) return '';
+
     try {
-      const chunk = await this.ensureChunkLoaded(parts[0], parts[1], version);
-      const verseItem = chunk?.find((item) => item.v === parseInt(parts[2], 10));
-      return verseItem ? verseItem.text : '';
+      const chunk = await this.ensureChunkLoaded(ref.bookId, ref.chapter, version);
+      if (!chunk) return '';
+
+      if (ref.verseStart === ref.verseEnd) {
+        const verseItem = chunk.find((item) => item.v === ref.verseStart);
+        return verseItem ? verseItem.text : '';
+      }
+
+      // Range: collect all verses in the span
+      const verses = chunk
+        .filter((item) => item.v >= ref.verseStart && item.v <= ref.verseEnd)
+        .sort((a, b) => a.v - b.v);
+      return verses.map((v) => v.text).join(' ');
     } catch {
       return '';
+    }
+  }
+
+  /**
+   * Get structured verse data for a reference (single or range).
+   * Returns individual verse objects with their numbers.
+   */
+  async getVerseRange(
+    verseId: string,
+    version: string
+  ): Promise<{ id: string; v: number; text: string }[]> {
+    const ref = this.parseVerseRef(verseId);
+    if (!ref) return [];
+
+    try {
+      const chunk = await this.ensureChunkLoaded(ref.bookId, ref.chapter, version);
+      if (!chunk) return [];
+
+      return chunk
+        .filter((item) => item.v >= ref.verseStart && item.v <= ref.verseEnd)
+        .sort((a, b) => a.v - b.v)
+        .map((item) => ({
+          id: `${ref.bookId}-${ref.chapter}-${item.v}`,
+          v: item.v,
+          text: item.text,
+        }));
+    } catch {
+      return [];
     }
   }
 
@@ -201,28 +258,6 @@ export class BibleDataService {
       return detail;
     } catch (err) {
       console.error(`Téma részletek nem találhatók: ${topicId}`, err);
-      return null;
-    }
-  }
-
-  // ==========================================================
-  // 4. STRONGS DEFINÍCIÓK - Eredeti funkcionalitás
-  // ==========================================================
-
-  async getDefinition(strongId: string): Promise<StrongDefinition | null> {
-    if (this.definitionCache.has(strongId)) return this.definitionCache.get(strongId)!;
-
-    // A fájl-fa alapján a definíciók itt vannak: assets/index/strongs/G1.json
-    // A logika feltételezi, hogy minden definíció külön fájlban van, VAGY a fájlnevek a strong ID-k.
-    const url = `${this.baseUrl}/index/strongs/${strongId}.json`;
-
-    try {
-      // Megpróbáljuk betölteni a specifikus JSON-t
-      const def = await firstValueFrom(this.http.get<StrongDefinition>(url));
-      this.definitionCache.set(strongId, def);
-      return def;
-    } catch (err) {
-      console.warn(`Strong definíció nem található: ${strongId} (${url})`);
       return null;
     }
   }

@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.0.1",
   "scripts": {
-    "generate": "node ./generate/generate-bibles && node ./generate/generate-strongs && node ./generate/generate-topics",
+    "generate": "node ./generate/generate-bibles && node ./generate/generate-strongs && node ./generate/generate-topics && node ./generate/generate-search-index",
     "ng": "ng",
     "start": "ng serve",
     "build": "npm run generate && ng build",
