@@ -95,6 +95,8 @@ export class BibleReaderComponent implements OnDestroy {
         this.bookId.set(b);
         this.chapter.set(c);
         this.loadContent();
+        // Prefetch adjacent chapters for faster navigation
+        this.prefetchAdjacentChapters(b, c);
       }
     });
 
@@ -251,5 +253,21 @@ export class BibleReaderComponent implements OnDestroy {
     this.state.setVersion(versionId);
     this.versionPickerOpen.set(false);
     // Content reload will be triggered by the effect watching currentBibleVersion
+  }
+
+  // Prefetch adjacent chapters for faster navigation
+  private prefetchAdjacentChapters(bookId: string, currentChapter: number) {
+    const version = this.state.currentBibleVersion();
+    const maxChap = this.maxChapters();
+
+    // Prefetch next chapter
+    if (currentChapter < maxChap) {
+      this.data.getChapterContent(bookId, String(currentChapter + 1), version).catch(() => {});
+    }
+
+    // Prefetch previous chapter
+    if (currentChapter > 1) {
+      this.data.getChapterContent(bookId, String(currentChapter - 1), version).catch(() => {});
+    }
   }
 }

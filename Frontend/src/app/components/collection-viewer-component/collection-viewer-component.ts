@@ -97,7 +97,10 @@ export class CollectionViewerComponent implements OnInit {
   async loadVerses() {
     this.isLoading.set(true);
     const col = this.collection();
-    if (!col) return;
+    if (!col) {
+      this.isLoading.set(false);
+      return;
+    }
 
     const version = this.state.currentBibleVersion();
 
@@ -115,29 +118,75 @@ export class CollectionViewerComponent implements OnInit {
       }
     }
 
-    const loadedVerses: Array<{ id: string; text: string; book: string; chapter: string; verse: string; likeCount?: number }> = [];
+    // Initialize UI immediately with placeholders so available texts can populate gradually
+    const initial = sortedVerseIds.map((vid) => {
+      const parts = vid.split('-');
+      const book = parts[0] || '';
+      const chapter = parts[1] || '';
+      const verse = parts[2] || '';
+      return { id: `${book}-${chapter}-${verse}`, text: '', book, chapter, verse, likeCount: likeCounts.get(`${book}-${chapter}-${verse}`) || 0 };
+    });
 
-    for (const verseId of sortedVerseIds) {
-      const parts = verseId.split('-');
+    this.verses.set(initial);
+
+    // Group by chapter to load chunk files efficiently and update UI as each chunk arrives
+    const chapters = new Set<string>(); // Set of "book-chapter" keys to load
+    for (const id of sortedVerseIds) {
+      const parts = id.split('-');
       if (parts.length >= 3) {
-        const [book, chapter, verse] = parts;
-        const vid = `${book}-${chapter}-${verse}`;
-        const text = await this.bibleService.getVerseText(vid, version);
-        if (text) {
-          loadedVerses.push({
-            id: vid,
-            text,
-            book,
-            chapter,
-            verse,
-            likeCount: likeCounts.get(vid) || 0
-          });
-        }
+        chapters.add(`${parts[0]}-${parts[1]}`);
       }
     }
 
-    this.verses.set(loadedVerses);
+    // For each chapter group, fetch chapter content (uses cached chunk if available)
+    const chapterPromises: Promise<void>[] = [];
+    for (const chapterKey of chapters) {
+      const [bookId, chapterNum] = chapterKey.split('-');
+      const p = this.bibleService.getChapterContent(bookId, chapterNum, version).then((items) => {
+        if (!items || items.length === 0) return;
+        // Map texts by id for quick lookup
+        const map = new Map(items.map(i => [i.id, i.text]));
+        // Update verses signal incrementally (only mutate changed items)
+        this.verses.update((current) => {
+          return current.map(v =>
+            map.has(v.id)
+              ? { ...v, text: map.get(v.id)!, likeCount: likeCounts.get(v.id) || v.likeCount }
+              : v  // Keep existing object reference if no change
+          );
+        });
+      }).catch((err) => {
+        console.debug('Chapter load failed for', chapterKey, err);
+      });
+      chapterPromises.push(p);
+    }
+
+    // After attempting to load all chapters, turn off main loading indicator
+    await Promise.allSettled(chapterPromises);
     this.isLoading.set(false);
+
+    // For any still-empty texts, fetch individually (deferred with requestIdleCallback)
+    const remaining = this.verses().filter(v => !v.text).map(v => v.id);
+    if (remaining.length > 0) {
+      // Limit concurrency to avoid hammering network; simple batch of 10
+      const batchSize = 10;
+      for (let i = 0; i < remaining.length; i += batchSize) {
+        const batch = remaining.slice(i, i + batchSize);
+        await Promise.all(batch.map(async (vid) => {
+          try {
+            const text = await this.bibleService.getVerseText(vid, version);
+            if (text) {
+              this.verses.update(curr => curr.map(v =>
+                v.id === vid
+                  ? { ...v, text, likeCount: likeCounts.get(vid) || v.likeCount }
+                  : v  // Keep existing reference
+              ));
+            }
+          } catch (err) {
+            // ignore per-verse errors
+          }
+        }));
+      }
+    }
   }
 
   removeVerse(verseId: string) {

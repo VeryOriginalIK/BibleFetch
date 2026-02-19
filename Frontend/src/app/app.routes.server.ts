@@ -22,6 +22,10 @@ export const serverRoutes: ServerRoute[] = [
     renderMode: RenderMode.Server,
   },
   {
+    path: 'public-collections',
+    renderMode: RenderMode.Server,
+  },
+  {
     path: '**',
     renderMode: RenderMode.Prerender,
   },

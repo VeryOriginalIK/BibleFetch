@@ -27,9 +27,6 @@ html = html.replace('__SUPABASE_ANON_KEY__', supabaseKey);
 
 fs.writeFileSync(indexPath, html, 'utf8');
 
-console.log('✅ Environment variables injected into index.html');
-if (supabaseUrl) console.log('   SUPABASE_URL:', supabaseUrl.substring(0, 30) + '...');
-if (supabaseKey) console.log('   SUPABASE_ANON_KEY:', supabaseKey.substring(0, 30) + '...');
 if (!supabaseUrl || !supabaseKey) {
   console.warn('⚠️  Missing Supabase credentials - users will need to configure manually');
 }

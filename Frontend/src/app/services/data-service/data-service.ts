@@ -45,27 +45,42 @@ export class BibleDataService {
       return;
     }
 
-    // JAVÍTÁS: A fájl-fád alapján 'translation_structures' (egyes szám)
+    // Load bundled metadata (books + structures + versions in one request)
     const META_URL = `${this.baseUrl}/translation_structures`;
 
     try {
-      const data = await firstValueFrom(
-        forkJoin({
-          books: this.http.get<Book[]>(`${META_URL}/books.json`),
-          structures: this.http.get<{ [key: string]: StructureMap }>(`${META_URL}/structures.json`),
-          versions: this.http.get<{ [key: string]: VersionConfig }>(`${META_URL}/versions.json`),
-        })
+      const metadata = await firstValueFrom(
+        this.http.get<{
+          books: Book[];
+          structures: { [key: string]: StructureMap };
+          versions: { [key: string]: VersionConfig };
+        }>(`${META_URL}/metadata.json`)
       );
 
-      this.booksBaseCache = data.books;
-      this.structuresCache = data.structures;
-      this.versionsCache = data.versions;
+      this.booksBaseCache = metadata.books;
+      this.structuresCache = metadata.structures;
+      this.versionsCache = metadata.versions;
     } catch (error) {
-      console.error(`[BibleDataService] Metaadat betöltési hiba (${META_URL}):`, error);
-      // Fallback, hogy ne omoljon össze az app
-      this.booksBaseCache = [];
-      this.structuresCache = {};
-      this.versionsCache = {};
+      console.error(`[BibleDataService] Metadata loading error (${META_URL}):`, error);
+      // Fallback to individual files if bundled metadata fails
+      try {
+        const data = await firstValueFrom(
+          forkJoin({
+            books: this.http.get<Book[]>(`${META_URL}/books.json`),
+            structures: this.http.get<{ [key: string]: StructureMap }>(`${META_URL}/structures.json`),
+            versions: this.http.get<{ [key: string]: VersionConfig }>(`${META_URL}/versions.json`),
+          })
+        );
+
+        this.booksBaseCache = data.books;
+        this.structuresCache = data.structures;
+        this.versionsCache = data.versions;
+      } catch (fallbackError) {
+        console.error(`[BibleDataService] Fallback metadata load failed:`, fallbackError);
+        this.booksBaseCache = [];
+        this.structuresCache = {};
+        this.versionsCache = {};
+      }
     }
   }
 
