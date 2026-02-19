@@ -28,8 +28,8 @@ export class AuthComponent {
   success = signal<string | null>(null);
 
   // Supabase config (for first-time setup)
-  supabaseUrl = signal('');
-  supabaseKey = signal('');
+  supabaseUrl = signal(process.env['SUPABASE_URL'] || '');
+  supabaseKey = signal(process.env['SUPABASE_ANON_KEY'] || '');
   showConfig = signal(false);
 
   constructor() {
