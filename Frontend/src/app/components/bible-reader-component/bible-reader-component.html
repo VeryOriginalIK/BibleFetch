@@ -156,10 +156,11 @@
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
         </svg>
       </a>
+      <!-- Navigation arrows (hidden on mobile, using FABs instead) -->
       <button
         (click)="nav(-1)"
         [disabled]="isFirst()"
-        class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 disabled:opacity-30 disabled:cursor-not-allowed transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
+        class="hidden sm:flex p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 disabled:opacity-30 disabled:cursor-not-allowed transition-colors min-w-[44px] min-h-[44px] items-center justify-center"
         [title]="state.lang() === 'hu' ? 'Előző fejezet' : 'Previous chapter'"
       >
         ⬅️
@@ -167,13 +168,42 @@
       <button
         (click)="nav(1)"
         [disabled]="isLast()"
-        class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 disabled:opacity-30 disabled:cursor-not-allowed transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
+        class="hidden sm:flex p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 disabled:opacity-30 disabled:cursor-not-allowed transition-colors min-w-[44px] min-h-[44px] items-center justify-center"
         [title]="state.lang() === 'hu' ? 'Következő fejezet' : 'Next chapter'"
       >
         ➡️
       </button>
     </div>
   </div>
+
+  <!-- Floating Navigation Buttons (Mobile Only) -->
+  @if (!isLoading() && verses().length > 0) {
+    <div class="fixed bottom-24 left-4 right-4 z-40 flex justify-between pointer-events-none sm:hidden" style="bottom: calc(6rem + env(safe-area-inset-bottom));">
+      @if (!isFirst()) {
+        <button
+          (click)="nav(-1)"
+          class="pointer-events-auto w-12 h-12 rounded-full bg-blue-600 hover:bg-blue-700 text-white shadow-lg flex items-center justify-center transition-all hover:scale-110 active:scale-95"
+          [title]="state.lang() === 'hu' ? 'Előző fejezet' : 'Previous chapter'"
+        >
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+          </svg>
+        </button>
+      }
+      <div class="flex-1"></div>
+      @if (!isLast()) {
+        <button
+          (click)="nav(1)"
+          class="pointer-events-auto w-12 h-12 rounded-full bg-blue-600 hover:bg-blue-700 text-white shadow-lg flex items-center justify-center transition-all hover:scale-110 active:scale-95"
+          [title]="state.lang() === 'hu' ? 'Következő fejezet' : 'Next chapter'"
+        >
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+          </svg>
+        </button>
+      }
+    </div>
+  }
 
   <!-- Chapter Content -->
   <div class="max-w-screen-md mx-auto px-4 sm:px-5 py-6 sm:py-8 space-y-4 sm:space-y-6" style="padding-left: max(1rem, env(safe-area-inset-left)); padding-right: max(1rem, env(safe-area-inset-right)); margin-bottom: env(safe-area-inset-bottom);">
