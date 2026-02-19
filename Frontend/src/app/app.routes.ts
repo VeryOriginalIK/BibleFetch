@@ -31,6 +31,16 @@ export const routes: Routes = [
     title: 'Keresés',
   },
   {
+    path: 'profile',
+    loadComponent: () => import('./components/profile-component/profile-component').then(m => m.ProfileComponent),
+    title: 'Profil',
+  },
+  {
+    path: 'auth',
+    loadComponent: () => import('./components/auth-component/auth-component').then(m => m.AuthComponent),
+    title: 'Bejelentkezés',
+  },
+  {
     path: 'read/:trans/:book/:chapter',
     loadComponent: () =>
       import('./components/reader-component/reader-component').then(m => m.ReaderComponent),

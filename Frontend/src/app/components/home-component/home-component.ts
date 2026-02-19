@@ -6,6 +6,8 @@ import { TopicService } from '../../services/topic-service/topic-service';
 import { TopicSummary } from '../../models/topic-summary-model';
 import { StateService } from '../../services/state-service/state-service';
 import { LocalizedString } from '../../models/localized-string-model';
+import { CollectionService } from '../../services/collection-service/collection-service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -17,6 +19,8 @@ import { LocalizedString } from '../../models/localized-string-model';
 export class HomeComponent {
   state = inject(StateService);
   private topicsService = inject(TopicService);
+  public collectionService = inject(CollectionService);
+  private router = inject(Router);
 
   topics$: Observable<TopicSummary[]> = this.topicsService.getTopicsIndex();
 
@@ -48,6 +52,37 @@ export class HomeComponent {
       health: '⚕️',
       work: '💼',
     };
-    return emojis[icon] || '✨';
+    return emojis[icon] || '⭐';
+  }
+
+  // Collection methods
+  get userCollections() {
+    return this.collectionService.collections().filter(c => !c.topicId);
+  }
+
+  navigateToCollection(collectionId: string) {
+    const collection = this.collectionService.getCollection(collectionId);
+    if (collection?.topicId) {
+      this.router.navigate(['/topics', collection.topicId]);
+    } else {
+      // Navigate to first verse in collection
+      if (collection && collection.verse_ids.length > 0) {
+        const verseId = collection.verse_ids[0];
+        const parts = verseId.split('-');
+        if (parts.length >= 2) {
+          this.router.navigate(['/bible', parts[0], parts[1]]);
+        }
+      }
+    }
+  }
+
+  formatVerseId(verseId: string): string {
+    const parts = verseId.split('-');
+    if (parts.length === 3) {
+      return `${parts[0].toUpperCase()} ${parts[1]}:${parts[2]}`;
+    } else if (parts.length === 4) {
+      return `${parts[0].toUpperCase()} ${parts[1]}:${parts[2]}-${parts[3]}`;
+    }
+    return verseId;
   }
 }

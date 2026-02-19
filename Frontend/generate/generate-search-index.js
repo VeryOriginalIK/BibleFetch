@@ -11,9 +11,6 @@ const ASSETS_DIR = path.join(__dirname, '../src/assets');
 const BIBLES_DIR = path.join(ASSETS_DIR, 'bibles');
 const OUTPUT_DIR = path.join(ASSETS_DIR, 'index/search');
 
-// Which translations to index (add more as needed)
-const TRANSLATIONS_TO_INDEX = ['kjv_strongs', 'karoli'];
-
 // Minimum word length to include in the index
 const MIN_WORD_LENGTH = 3;
 
@@ -199,18 +196,14 @@ async function main() {
     process.exit(1);
   }
 
-  // Filter to configured translations that actually exist
-  const toIndex = TRANSLATIONS_TO_INDEX.filter(t => availableTranslations.includes(t));
-
-  if (toIndex.length === 0) {
-    console.log('⚠️  No configured translations found. Available:', availableTranslations.join(', '));
-    console.log('   Update TRANSLATIONS_TO_INDEX in generate-search-index.js');
+  if (availableTranslations.length === 0) {
+    console.log('⚠️  No translations found in bibles directory.');
     return;
   }
 
-  console.log(`Translations to index: ${toIndex.join(', ')}`);
+  console.log(`Translations to index: ${availableTranslations.join(', ')}`);
 
-  for (const trans of toIndex) {
+  for (const trans of availableTranslations) {
     await indexTranslation(trans);
   }
 

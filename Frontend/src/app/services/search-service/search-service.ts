@@ -92,7 +92,9 @@ export class SearchService {
     bucket: string
   ): Promise<Record<string, string[]> | null> {
     const cacheKey = `${translation}_${bucket}`;
-    if (this.bucketCache.has(cacheKey)) return this.bucketCache.get(cacheKey)!;
+    if (this.bucketCache.has(cacheKey)) {
+      return this.bucketCache.get(cacheKey)!;
+    }
 
     const url = `${this.baseUrl}/index/search/${translation}/${bucket}.json`;
     try {
@@ -101,7 +103,7 @@ export class SearchService {
       );
       this.bucketCache.set(cacheKey, data);
       return data;
-    } catch {
+    } catch (err) {
       return null;
     }
   }
@@ -142,12 +144,13 @@ export class SearchService {
         const totalOccurrences = Number(resp.totalOccurrences || 0);
         const totalUniqueVerses = Number(resp.totalUniqueVerses || resp.uniqueVerseIds.length || 0);
 
-        const serverIsConsistent = (totalOccurrences === 0 && totalUniqueVerses === 0 && resp.uniqueVerseIds.length === 0)
-          || (totalOccurrences > 0 && totalUniqueVerses > 0 && resp.uniqueVerseIds.length >= 0)
-          || (resp.uniqueVerseIds.length > 0);
+        // IMPORTANT: Only accept non-empty server responses
+        // Empty responses (0 results) should fall back to client bucket
+        const serverHasResults = resp.uniqueVerseIds && resp.uniqueVerseIds.length > 0;
+        const serverIsConsistent = serverHasResults && totalOccurrences > 0 && totalUniqueVerses > 0;
 
         if (!serverIsConsistent) {
-          console.warn('[SearchService] ignoring inconsistent paged API response — falling back to client bucket', resp);
+          console.warn('[SearchService] ignoring server response (empty or inconsistent) — falling back to client bucket', resp);
         } else {
           return {
             uniqueVerseIds: resp.uniqueVerseIds,
@@ -158,16 +161,21 @@ export class SearchService {
       }
     } catch (err) {
       // fall through to client-side fallback
-      console.debug('[SearchService] paged API unavailable or failed:', err);
     }
 
     // Client-side fallback: load bucket and perform dedupe + slice
-    if (!isPlatformBrowser(this.platformId)) return null;
+    if (!isPlatformBrowser(this.platformId)) {
+      return null;
+    }
     const bucket = this.getBucket(normalized);
     const words = await this.loadBucket(translation, bucket);
-    if (!words) return { uniqueVerseIds: [], totalOccurrences: 0, totalUniqueVerses: 0 };
+
+    if (!words) {
+      return { uniqueVerseIds: [], totalOccurrences: 0, totalUniqueVerses: 0 };
+    }
 
     const occurrences = words[normalized] ?? [];
+
     const totalOccurrences = occurrences.length;
     const uniqueMap = new Map<string, boolean>();
     for (const v of occurrences) {
@@ -176,6 +184,7 @@ export class SearchService {
     const uniqueAll = Array.from(uniqueMap.keys());
     const totalUniqueVerses = uniqueAll.length;
     const slice = uniqueAll.slice(offset, offset + limit);
+
     return { uniqueVerseIds: slice, totalOccurrences, totalUniqueVerses };
   }
 

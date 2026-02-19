@@ -140,13 +140,18 @@ export class SearchBarComponent implements OnInit {
     // 1) Request the first page of unique verse IDs (server-assisted if available)
     const firstPage = await this.searchService.getUniqueVerseIdsPage(result.word, version, 0, this.PREVIEW_PAGE_SIZE);
 
+    console.debug('[Search] selectWord result:', result);
+    console.debug('[Search] firstPage from API:', firstPage);
+
     if (firstPage) {
-      console.debug('[Search] firstPage (paged API) for', result.word, firstPage);
       this.currentUniqueVerseIds = firstPage.uniqueVerseIds;
       this.currentUniqueVerseCount = firstPage.totalUniqueVerses;
 
+      console.debug('[Search] after firstPage - uniqueVerseIds:', this.currentUniqueVerseIds.length, 'uniqueCount:', this.currentUniqueVerseCount);
+
       // Defensive fallback: if API reports occurrences but zero unique verses, compute unique count locally
       if (firstPage.totalOccurrences > 0 && firstPage.totalUniqueVerses === 0) {
+        console.debug('[Search] triggering fallback - totalOccurrences:', firstPage.totalOccurrences, 'but totalUniqueVerses:', firstPage.totalUniqueVerses);
         try {
           const all = await this.searchService.getAllVerseIds(result.word, version);
           console.debug('[Search] fallback all occurrences for', result.word, all?.length ?? null);
@@ -155,6 +160,7 @@ export class SearchBarComponent implements OnInit {
             this.currentUniqueVerseCount = uniqueAll.length;
             // ensure we have at least the first page of unique IDs
             this.currentUniqueVerseIds = uniqueAll.slice(0, this.PREVIEW_PAGE_SIZE);
+            console.debug('[Search] after fallback - uniqueVerseIds:', this.currentUniqueVerseIds.length, 'uniqueCount:', this.currentUniqueVerseCount);
           }
         } catch (err) {
           console.warn('Failed to compute unique verse fallback:', err);
@@ -162,9 +168,10 @@ export class SearchBarComponent implements OnInit {
       }
     } else {
       // Fallback: use truncated result.verseIds deduped
-      console.debug('[Search] using truncated preview ids for', result.word, result.verseIds.length);
+      console.debug('[Search] no firstPage, using truncated preview ids for', result.word, result.verseIds.length);
       this.currentUniqueVerseIds = Array.from(new Set(result.verseIds));
       this.currentUniqueVerseCount = this.currentUniqueVerseIds.length;
+      console.debug('[Search] after truncated fallback - uniqueVerseIds:', this.currentUniqueVerseIds.length, 'uniqueCount:', this.currentUniqueVerseCount);
     }
 
     this.previewLimit.set(this.PREVIEW_PAGE_SIZE);

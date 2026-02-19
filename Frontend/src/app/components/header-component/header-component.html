@@ -1,9 +1,9 @@
 <header class="fixed top-0 left-0 right-0 h-16 z-50 transition-all duration-300 border-b border-gray-100 dark:border-gray-800 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md supports-[backdrop-filter]:bg-white/60">
-  <div class="max-w-screen-xl mx-auto px-4 h-full flex items-center justify-between">
+  <div class="max-w-screen-xl mx-auto px-4 h-full flex items-center justify-between gap-2">
 
-    <!-- LOGO (Eltűnik, ha aktív a keresés) -->
+    <!-- LOGO -->
     @if (!isSearchActive()) {
-      <a routerLink="/" class="flex items-center gap-2 animate-fade-in group">
+      <a routerLink="/" class="flex items-center gap-2 animate-fade-in group shrink-0">
         <div class="w-8 h-8 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-500 flex items-center justify-center text-white font-bold text-lg shadow-lg shadow-blue-500/20 group-hover:scale-105 transition-transform">
           T
         </div>
@@ -13,41 +13,67 @@
       </a>
     }
 
-    <!-- KERESŐ MEZŐ (Beúszó animációval) -->
+    <!-- SEARCH FIELD -->
     @if (isSearchActive()) {
       <div class="flex-1 flex items-center gap-2 animate-slide-in">
         <div class="relative flex-1">
           <input
             #searchInput
             type="text"
-            placeholder="Mit keresel ma?"
+            [placeholder]="state.lang() === 'hu' ? 'Mit keresel ma?' : 'What are you looking for today?'"
             class="w-full bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-white rounded-2xl pl-10 pr-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500/50 transition-all"
             (blur)="onBlur(searchInput.value)"
             (keydown.enter)="onSearch(searchInput.value)"
           >
-          <!-- Kereső ikon a mezőben -->
           <svg class="w-4 h-4 text-gray-400 absolute left-3.5 top-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
           </svg>
         </div>
-
         <button (click)="toggleSearch(false)" class="p-2 text-gray-500 hover:text-gray-900 dark:hover:text-white rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
-          Mégse
+          {{ state.lang() === 'hu' ? 'Mégse' : 'Cancel' }}
         </button>
       </div>
     }
 
-    <!-- KERESŐ IKON (Trigger gomb) -->
+    <!-- RIGHT ACTIONS -->
     @if (!isSearchActive()) {
-      <button
-        (click)="toggleSearch(true)"
-        class="p-2.5 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-xl transition-all hover:text-blue-600 active:scale-95"
-        aria-label="Keresés megnyitása"
-      >
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
-        </svg>
-      </button>
+      <div class="flex items-center gap-1">
+        <!-- Search icon -->
+        <button
+          (click)="toggleSearch(true)"
+          class="p-2.5 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-xl transition-all hover:text-blue-600 active:scale-95"
+          [attr.aria-label]="state.lang() === 'hu' ? 'Keresés' : 'Search'"
+        >
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+          </svg>
+        </button>
+
+        <!-- Auth: logged in → avatar + sign out; logged out → Sign in -->
+        @if (auth.isLoggedIn) {
+          <div class="flex items-center gap-2 ml-1">
+            <span class="hidden sm:block text-xs font-medium text-gray-600 dark:text-gray-300 max-w-[120px] truncate">
+              {{ auth.user()?.email }}
+            </span>
+            <button
+              (click)="signOut()"
+              class="p-2 rounded-xl text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-red-500 transition-all text-xs font-medium"
+              [title]="state.lang() === 'hu' ? 'Kijelentkezés' : 'Sign Out'"
+            >
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"/>
+              </svg>
+            </button>
+          </div>
+        } @else {
+          <a
+            routerLink="/auth"
+            class="ml-1 px-3 py-1.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium transition-all active:scale-95"
+          >
+            {{ state.lang() === 'hu' ? 'Bejelentkezés' : 'Sign In' }}
+          </a>
+        }
+      </div>
     }
 
   </div>

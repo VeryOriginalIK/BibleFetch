@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
+import { StateService } from '../../services/state-service/state-service';
 
 @Component({
   selector: 'app-bottom-nav',
@@ -9,4 +10,6 @@ import { RouterModule } from '@angular/router';
   templateUrl: './bottom-nav-component.html',
   // Nincs styleUrls vagy styles, mert a stílusokat közvetlenül a HTML-ben oldottuk meg Tailwinddel
 })
-export class BottomNavComponent {}
+export class BottomNavComponent {
+  public state = inject(StateService);
+}
