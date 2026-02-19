@@ -27,32 +27,12 @@ export class AuthComponent {
   error = signal<string | null>(null);
   success = signal<string | null>(null);
 
-  // Supabase config (for first-time setup)
-  supabaseUrl = signal(process.env['SUPABASE_URL'] || '');
-  supabaseKey = signal(process.env['SUPABASE_ANON_KEY'] || '');
-  showConfig = signal(false);
-
   constructor() {
-    if (isPlatformBrowser(this.platformId)) {
-      this.supabaseUrl.set(localStorage.getItem('supabase_url') || '');
-      this.supabaseKey.set(localStorage.getItem('supabase_anon_key') || '');
-      this.showConfig.set(!this.auth.isConfigured);
+    // Supabase config now comes exclusively from environment variables
+    // No manual configuration needed
+    if (isPlatformBrowser(this.platformId) && !this.auth.isConfigured) {
+      this.error.set('Supabase környezeti változók hiányoznak. Ellenőrizd a SUPABASE_URL és SUPABASE_ANON_KEY beállításokat.');
     }
-  }
-
-
-  saveConfig() {
-    const url = this.supabaseUrl().trim();
-    const key = this.supabaseKey().trim();
-    if (!url || !key) {
-      this.error.set('Add meg a Supabase URL-t és az anon kulcsot.');
-      return;
-    }
-    this.auth.configure(url, key);
-    this.showConfig.set(false);
-    this.error.set(null);
-    this.success.set('Supabase konfigurálva!');
-    setTimeout(() => this.success.set(null), 2000);
   }
 
   async submit() {

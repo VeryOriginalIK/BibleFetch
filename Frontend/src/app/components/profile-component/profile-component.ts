@@ -16,6 +16,10 @@ export class ProfileComponent {
   public auth = inject(AuthService);
   status = signal<string | null>(null);
 
+  get collections() {
+    return this.collectionService.collections;
+  }
+
   exportCollections() {
     this.collectionService.exportCollections();
     this.status.set('Gyűjtemények exportálva JSON-ba');
@@ -56,6 +60,32 @@ export class ProfileComponent {
     if (res.ok && res.merged) this.status.set('Gyűjtemények letöltve és összefűzve');
     else if (res.ok) this.status.set('Nincs távoli gyűjtemény');
     else this.status.set('Hiba: ' + String((res.error as any)?.message || res.error));
+    setTimeout(() => this.status.set(null), 3000);
+  }
+
+  async togglePublicStatus(collectionId: string, currentStatus: boolean) {
+    if (!this.auth.isLoggedIn) {
+      this.status.set('Jelentkezz be a megosztáshoz!');
+      setTimeout(() => this.status.set(null), 3000);
+      return;
+    }
+
+    this.status.set(currentStatus ? 'Privát állapotba állítás...' : 'Nyilvánossá tétel...');
+
+    try {
+      const res = currentStatus
+        ? await this.collectionService.makeCollectionPrivate(collectionId)
+        : await this.collectionService.makeCollectionPublic(collectionId);
+
+      if (res.ok) {
+        this.status.set(currentStatus ? 'Gyűjtemény privát' : 'Gyűjtemény nyilvános!');
+      } else {
+        this.status.set('Hiba: ' + String((res.error as any)?.message || res.error));
+      }
+    } catch (err) {
+      this.status.set('Hiba történt: ' + String(err));
+    }
+
     setTimeout(() => this.status.set(null), 3000);
   }
 }

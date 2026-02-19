@@ -10,7 +10,7 @@ export const routes: Routes = [
   {
     path: 'topics/:id',
     loadComponent: () =>
-      import('./components/topic-viewer-component/topic-viewer-component').then(m => m.TopicViewerComponent),
+      import('./components/topic-redirect-component/topic-redirect-component').then(m => m.TopicRedirectComponent),
     title: 'Téma olvasása',
   },
   {
@@ -39,6 +39,16 @@ export const routes: Routes = [
     path: 'auth',
     loadComponent: () => import('./components/auth-component/auth-component').then(m => m.AuthComponent),
     title: 'Bejelentkezés',
+  },
+  {
+    path: 'public-collections',
+    loadComponent: () => import('./components/public-collections-component/public-collections-component').then(m => m.PublicCollectionsComponent),
+    title: 'Nyilvános Gyűjtemények',
+  },
+  {
+    path: 'collection/:id',
+    loadComponent: () => import('./components/collection-viewer-component/collection-viewer-component').then(m => m.CollectionViewerComponent),
+    title: 'Gyűjtemény',
   },
   {
     path: 'read/:trans/:book/:chapter',

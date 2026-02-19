@@ -1,20 +1,20 @@
-<div class="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+<div class="min-h-screen bg-gray-50 dark:bg-gray-900 py-8 sm:py-12 px-4 sm:px-6 lg:px-8 pb-24">
 
-  <div class="max-w-7xl mx-auto mb-12 text-center">
-    <span class="text-blue-600 font-semibold tracking-wide uppercase text-sm">
+  <div class="max-w-7xl mx-auto mb-8 sm:mb-12 text-center">
+    <span class="text-blue-600 dark:text-blue-400 font-semibold tracking-wide uppercase text-xs sm:text-sm">
       {{ state.lang() === 'hu' ? 'Fedezd fel az igét' : 'Discover the Word' }}
     </span>
-    <h1 class="mt-2 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
+    <h1 class="mt-2 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 dark:text-white leading-tight">
       {{ state.lang() === 'hu' ? 'Témák & Gyűjtemények' : 'Topics & Collections' }}
     </h1>
-    <p class="max-w-xl mt-5 mx-auto text-xl text-gray-500">
+    <p class="max-w-xl mt-4 sm:mt-5 mx-auto text-base sm:text-xl text-gray-500 dark:text-gray-400 px-4">
       {{ state.lang() === 'hu'
          ? 'Válaszok a mindennapi élet kérdéseire a Szentírás alapján.'
          : 'Answers to everyday life questions based on the Scripture.' }}
     </p>
 
     <button (click)="state.toggleLanguage()"
-            class="mt-6 px-4 py-2 rounded-full border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 transition-colors shadow-sm">
+            class="mt-4 sm:mt-6 px-4 py-2 rounded-full border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-sm font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors shadow-sm">
       🌐 {{ state.lang() === 'hu' ? 'English' : 'Magyar' }}
     </button>
   </div>
@@ -22,40 +22,40 @@
   <div class="max-w-7xl mx-auto">
 
     <!-- Action Cards: Bible Reader + Search -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mb-8 sm:mb-10">
       <a routerLink="/bible"
-         class="group block bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden hover:-translate-y-0.5">
-        <div class="flex items-center justify-between px-6 py-5">
-          <div class="text-white">
-            <h2 class="text-xl font-bold">
+         class="group block bg-gradient-to-r from-blue-600 to-indigo-600 rounded-xl sm:rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden active:scale-95 hover:-translate-y-0.5">
+        <div class="flex items-center justify-between px-5 sm:px-6 py-4 sm:py-5">
+          <div class="text-white min-w-0 flex-1">
+            <h2 class="text-lg sm:text-xl font-bold truncate">
               {{ state.lang() === 'hu' ? '📖 Biblia olvasása' : '📖 Read the Bible' }}
             </h2>
-            <p class="mt-1 text-blue-100 text-sm">
+            <p class="mt-1 text-blue-100 text-xs sm:text-sm">
               {{ state.lang() === 'hu'
                  ? 'Könyvről könyvre, fejezetről fejezetre.'
                  : 'Book by book, chapter by chapter.' }}
             </p>
           </div>
-          <svg class="h-7 w-7 text-white/70 group-hover:text-white transform group-hover:translate-x-1 transition-all shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+          <svg class="h-6 w-6 sm:h-7 sm:w-7 text-white/70 group-hover:text-white transform group-hover:translate-x-1 transition-all shrink-0 ml-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
             <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
           </svg>
         </div>
       </a>
 
       <a routerLink="/search"
-         class="group block bg-gradient-to-r from-emerald-600 to-teal-600 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden hover:-translate-y-0.5">
-        <div class="flex items-center justify-between px-6 py-5">
-          <div class="text-white">
-            <h2 class="text-xl font-bold">
+         class="group block bg-gradient-to-r from-emerald-600 to-teal-600 rounded-xl sm:rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden active:scale-95 hover:-translate-y-0.5">
+        <div class="flex items-center justify-between px-5 sm:px-6 py-4 sm:py-5">
+          <div class="text-white min-w-0 flex-1">
+            <h2 class="text-lg sm:text-xl font-bold truncate">
               {{ state.lang() === 'hu' ? '🔍 Keresés' : '🔍 Search' }}
             </h2>
-            <p class="mt-1 text-emerald-100 text-sm">
+            <p class="mt-1 text-emerald-100 text-xs sm:text-sm">
               {{ state.lang() === 'hu'
                  ? 'Keress szavakat a teljes Bibliában.'
                  : 'Search for words in the entire Bible.' }}
             </p>
           </div>
-          <svg class="h-7 w-7 text-white/70 group-hover:text-white transform group-hover:translate-x-1 transition-all shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+          <svg class="h-6 w-6 sm:h-7 sm:w-7 text-white/70 group-hover:text-white transform group-hover:translate-x-1 transition-all shrink-0 ml-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
             <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
           </svg>
         </div>
@@ -64,46 +64,38 @@
 
     <!-- User Collections Section -->
     @if (userCollections.length > 0) {
-      <div class="mb-10">
-        <div class="flex items-center justify-between mb-4">
-          <h2 class="text-2xl font-bold text-gray-900">
+      <div class="mb-8 sm:mb-10">
+        <div class="flex items-center justify-between mb-3 sm:mb-4 px-1">
+          <h2 class="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white">
             {{ state.lang() === 'hu' ? '📚 Saját Gyűjtemények' : '📚 My Collections' }}
           </h2>
         </div>
 
-        <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="grid grid-cols-1 gap-3 sm:gap-4 sm:grid-cols-2 lg:grid-cols-3">
           @for (collection of userCollections; track collection.id) {
             <button
               (click)="navigateToCollection(collection.id)"
-              class="group text-left bg-white rounded-2xl p-4 border border-gray-200 hover:border-blue-500 hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5"
+              class="group text-left bg-white dark:bg-gray-800 rounded-xl sm:rounded-2xl p-4 border border-gray-200 dark:border-gray-700 hover:border-blue-500 dark:hover:border-blue-600 hover:shadow-lg transition-all duration-300 active:scale-95 hover:-translate-y-0.5"
             >
-              <div class="flex items-start justify-between mb-2">
-                <div class="flex items-center gap-2">
-                  <div class="p-2 rounded-xl bg-blue-50">
-                    <svg class="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
+              <div class="flex items-start justify-between mb-2 gap-2">
+                <div class="flex items-center gap-2 min-w-0 flex-1">
+                  <div class="p-2 rounded-xl bg-blue-50 dark:bg-blue-900/30 shrink-0">
+                    <svg class="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/>
                     </svg>
                   </div>
-                  <h3 class="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">
+                  <h3 class="font-semibold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors text-sm sm:text-base truncate">
                     {{ collection.name }}
                   </h3>
                 </div>
-                <span class="text-xs bg-gray-100 px-2 py-1 rounded-full text-gray-600">
+                <span class="text-xs bg-gray-100 dark:bg-gray-700 px-2 py-1 rounded-full text-gray-600 dark:text-gray-400 shrink-0">
                   {{ collection.verse_ids.length }}
                 </span>
               </div>
 
               @if (collection.verse_ids.length > 0) {
-                <div class="space-y-1">
-                  @for (verseId of collection.verse_ids.slice(0, 3); track verseId) {
-                    <p class="text-xs text-gray-500">• {{ formatVerseId(verseId) }}</p>
-                  }
-                  @if (collection.verse_ids.length > 3) {
-                    <p class="text-xs text-gray-400">+ {{ collection.verse_ids.length - 3 }} {{ state.lang() === 'hu' ? 'további' : 'more' }}</p>
-                  }
-                </div>
               } @else {
-                <p class="text-xs text-gray-400">{{ state.lang() === 'hu' ? 'Üres gyűjtemény' : 'Empty collection' }}</p>
+                <p class="text-xs text-gray-400 dark:text-gray-500">{{ state.lang() === 'hu' ? 'Üres gyűjtemény - Kattints a megnyitáshoz' : 'Empty collection - Click to open' }}</p>
               }
             </button>
           }
@@ -113,52 +105,37 @@
 
     @if (topics$ | async; as topics) {
 
-      <div class="flex items-center justify-between mb-4">
-        <h2 class="text-2xl font-bold text-gray-900">
+      <div class="flex items-center justify-between mb-3 sm:mb-4 px-1">
+        <h2 class="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white">
           {{ state.lang() === 'hu' ? '🏷️ Bibliai Témák' : '🏷️ Bible Topics' }}
         </h2>
       </div>
 
-      <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      <div class="grid grid-cols-1 gap-3 sm:gap-4 sm:grid-cols-2 lg:grid-cols-3">
 
         @for (topic of topics; track topic.id) {
 
           <a [routerLink]="['/topics', topic.id]"
-             class="group relative bg-white flex flex-col rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden hover:-translate-y-1">
-
-            <div class="p-6 flex-1">
-              <div class="flex items-center justify-between mb-4">
-
-                <div class="h-12 w-12 rounded-xl flex items-center justify-center text-white shadow-md transition-transform group-hover:scale-110 duration-300"
+             class="group text-left bg-white dark:bg-gray-800 rounded-xl sm:rounded-2xl p-4 border border-gray-200 dark:border-gray-700 hover:border-blue-500 dark:hover:border-blue-600 hover:shadow-lg transition-all duration-300 active:scale-95 hover:-translate-y-0.5"
+             [style.border-left]="'4px solid ' + (topic.theme_color || '#3B82F6')">
+            <div class="flex items-start justify-between mb-2 gap-2">
+              <div class="flex items-center gap-2 min-w-0 flex-1">
+                <div class="p-2 rounded-xl shrink-0 text-white"
                      [style.backgroundColor]="topic.theme_color || '#3B82F6'">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor">
-                    <path [attr.d]="getIconPath(topic.icon)"></path>
-                  </svg>
+                  <span class="text-xl">{{ getIconEmoji(topic.icon) }}</span>
                 </div>
-
-                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800">
-                  {{ topic.verseCount || 0 }}
-                  {{ state.lang() === 'hu' ? 'vers' : 'verses' }}
-                </span>
+                <h3 class="font-semibold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors text-sm sm:text-base truncate">
+                  {{ getLocaleText(topic.titles) }}
+                </h3>
               </div>
-
-              <h3 class="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
-                {{ getLocaleText(topic.titles) }}
-              </h3>
-
-              <p class="text-gray-500 text-sm leading-relaxed line-clamp-3">
-                {{ getLocaleText(topic.description) }}
-              </p>
-            </div>
-
-            <div class="bg-gray-50 px-6 py-4 border-t border-gray-100 flex items-center justify-between group-hover:bg-blue-50 transition-colors">
-              <span class="text-sm font-medium text-gray-900 group-hover:text-blue-700">
-                {{ state.lang() === 'hu' ? 'Olvasás' : 'Read Now' }}
+              <span class="text-xs bg-gray-100 dark:bg-gray-700 px-2 py-1 rounded-full text-gray-600 dark:text-gray-400 shrink-0">
+                {{ topic.verseCount || 0 }}
               </span>
-              <svg class="h-5 w-5 text-gray-400 group-hover:text-blue-600 transform group-hover:translate-x-1 transition-transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
-              </svg>
             </div>
+
+            <p class="text-xs text-gray-500 dark:text-gray-400 line-clamp-2">
+              {{ getLocaleText(topic.description) }}
+            </p>
           </a>
 
         }

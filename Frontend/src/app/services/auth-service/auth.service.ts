@@ -6,11 +6,36 @@ const SB_URL_KEY = 'supabase_url';
 const SB_KEY_KEY = 'supabase_anon_key';
 
 function buildClient(): SupabaseClient | null {
-  // 1. Vercel env vars (build-time injection via Angular env proxy)
-  const envUrl = (window as any).__SB_URL__;
-  const envKey = (window as any).__SB_KEY__;
-  const url = envUrl || localStorage.getItem(SB_URL_KEY) || '';
-  const key = envKey || localStorage.getItem(SB_KEY_KEY) || '';
+  // Safely read runtime-provided values. During SSR or when inject-env.js
+  // hasn't run these will be missing or the literal placeholders
+  // '__SUPABASE_URL__' / '__SUPABASE_ANON_KEY__'. Treat those as empty.
+  let envUrl = '';
+  let envKey = '';
+  try {
+    if (typeof window !== 'undefined') {
+      envUrl = (window as any).__SB_URL__ || '';
+      envKey = (window as any).__SB_KEY__ || '';
+    }
+  } catch (e) {
+    envUrl = '';
+    envKey = '';
+  }
+
+  // Ignore placeholder tokens that may be present before injection
+  const isPlaceholder = (v: string) => !v || v.startsWith('__');
+
+  let url = isPlaceholder(envUrl) ? '' : envUrl;
+  let key = isPlaceholder(envKey) ? '' : envKey;
+
+  try {
+    if (typeof localStorage !== 'undefined') {
+      if (!url) url = localStorage.getItem(SB_URL_KEY) || '';
+      if (!key) key = localStorage.getItem(SB_KEY_KEY) || '';
+    }
+  } catch (e) {
+    // ignore access errors in some runtimes
+  }
+
   if (!url || !key) return null;
   return createClient(url, key, {
     auth: { persistSession: true, autoRefreshToken: true },

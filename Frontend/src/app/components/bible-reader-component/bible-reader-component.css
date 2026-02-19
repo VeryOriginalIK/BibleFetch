@@ -1,0 +1,16 @@
+/* Ensure verse text wraps and never causes horizontal overflow */
+.verse-text-wrap {
+  white-space: normal;          /* allow normal wrapping */
+  overflow-wrap: anywhere;      /* break long words when necessary */
+  word-wrap: break-word;        /* legacy support */
+  word-break: break-word;       /* ensure words are allowed to break */
+  hyphens: auto;                /* enable hyphenation where supported */
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Prevent inline elements inside verse renderer from causing overflow */
+.verse-text-wrap img,
+.verse-text-wrap svg {
+  max-width: 100%;
+  height: auto;
+}

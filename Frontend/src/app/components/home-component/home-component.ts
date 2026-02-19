@@ -61,19 +61,7 @@ export class HomeComponent {
   }
 
   navigateToCollection(collectionId: string) {
-    const collection = this.collectionService.getCollection(collectionId);
-    if (collection?.topicId) {
-      this.router.navigate(['/topics', collection.topicId]);
-    } else {
-      // Navigate to first verse in collection
-      if (collection && collection.verse_ids.length > 0) {
-        const verseId = collection.verse_ids[0];
-        const parts = verseId.split('-');
-        if (parts.length >= 2) {
-          this.router.navigate(['/bible', parts[0], parts[1]]);
-        }
-      }
-    }
+    this.router.navigate(['/collection', collectionId]);
   }
 
   formatVerseId(verseId: string): string {

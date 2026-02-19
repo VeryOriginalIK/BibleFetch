@@ -5,7 +5,7 @@
     "generate": "node ./generate/generate-bibles && node ./generate/generate-strongs && node ./generate/generate-topics && node ./generate/generate-search-index",
     "ng": "ng",
     "start": "ng serve",
-    "build": "npm run generate && ng build",
+    "build": "npm run generate && ng build && node inject-env.js",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:frontend": "node dist/frontend/server/server.mjs"
