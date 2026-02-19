@@ -19,11 +19,11 @@ export const serverRoutes: ServerRoute[] = [
   },
   {
     path: 'collection/:id',
-    renderMode: RenderMode.Server,
+    renderMode: RenderMode.Client,
   },
   {
     path: 'public-collections',
-    renderMode: RenderMode.Server,
+    renderMode: RenderMode.Prerender,
   },
   {
     path: '**',
