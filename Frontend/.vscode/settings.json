@@ -1,0 +1,16 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^python _write_css\\.py$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^python -c \"\nimport json\n\nwith open\\(r'c:\\\\Users\\\\voros\\.bence\\\\Desktop\\\\BibleFetch\\\\Frontend\\\\src\\\\assets\\\\translation_structures\\\\structures\\.json', 'r', encoding='utf-8'\\) as f:\n    data = json\\.load\\(f\\)\n\nfixed = \\{\\}\nfor struct_key, mapping in data\\.items\\(\\):\n    fixed\\[struct_key\\] = \\{\\}\n    for book_key, val in mapping\\.items\\(\\):\n        if book_key == 'note':\n            fixed\\[struct_key\\]\\[book_key\\] = val\n        else:\n            fixed\\[struct_key\\]\\[book_key\\.lower\\(\\)\\] = val\n\nwith open\\(r'c:\\\\Users\\\\voros\\.bence\\\\Desktop\\\\BibleFetch\\\\Frontend\\\\src\\\\assets\\\\translation_structures\\\\structures\\.json', 'w', encoding='utf-8'\\) as f:\n    json\\.dump\\(fixed, f, ensure_ascii=False, indent=2\\)\n\nprint\\('Fixed structures\\.json - all book keys lowercased'\\)\nfor k in list\\(fixed\\.keys\\(\\)\\):\n    count = len\\(\\[x for x in fixed\\[k\\] if x != 'note'\\]\\)\n    print\\('  ' \\+ k \\+ ': ' \\+ str\\(count\\) \\+ ' books'\\)\n\"\n$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^powershell -NoLogo -NoProfile -Command \"Get-Content -Path 'src/assets/index/search/kjv_strongs/t\\.json' -TotalCount 1 \\| Out-String -Width 2000\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

@@ -2,10 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Frontend</title>
+  <title>Biblia</title>
   <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes">
+  <meta name="description" content="Biblia olvasó és tanulmányozó alkalmazás témákkal, gyűjteményekkel és keresési funkciókkal">
+  <meta name="theme-color" content="#2563eb">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- Resource hints for faster loading -->
+  <link rel="preload" href="/assets/translation_structures/books.json" as="fetch" crossorigin>
+  <link rel="preload" href="/assets/translation_structures/structures.json" as="fetch" crossorigin>
+  <link rel="preload" href="/assets/translation_structures/versions.json" as="fetch" crossorigin>
+  <script>
+    // Inject Supabase credentials from environment variables (Vercel build-time)
+    window.__SB_URL__ = '__SUPABASE_URL__';
+    window.__SB_KEY__ = '__SUPABASE_ANON_KEY__';
+  </script>
 </head>
 <body>
   <app-root></app-root>

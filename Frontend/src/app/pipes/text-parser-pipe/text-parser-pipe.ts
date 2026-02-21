@@ -11,21 +11,50 @@ export class TextParserPipe implements PipeTransform {
   transform(rawText: string): SafeHtml {
     if (!rawText) return '';
 
-    // REGEX: Megkeresi a szó<TAG> mintákat.
-    // Csoport 1: A szó (vagy szövegrész)
-    // Csoport 2: H vagy G (Héber/Görög)
-    // Csoport 3: A szám
-    // A regex "global" flaggel fut, hogy minden találatot megtaláljon.
+    const spanClass =
+      'interactive-word cursor-pointer text-blue-600 hover:underline hover:text-blue-800 transition-colors';
 
-    // Példa input: "Kezdetben<H7225> teremté<H1254>"
-    const parsedText = rawText.replace(/([^<]+)<([HG])(\d+)>/g, (match, word, type, number) => {
-      const strongId = `${type}${number}`;
-      // Interaktív span generálása
-      // A click eventet nem itt kezeljük, hanem a szülő komponensben (Event Delegation)!
-      return `<span class="interactive-word cursor-pointer text-blue-600 hover:underline hover:text-blue-800 transition-colors" data-strong="${strongId}">${word}</span>`;
-    });
+    // Detect which format the text uses
+    const hasCurlyStrongs = /\{[HG]\d+\}/.test(rawText);
+    const hasAngleStrongs = /<[HG]\d+>/.test(rawText);
 
-    // Biztonsági okokból ellenőrizzük, de engedélyezzük a HTML-t
+    let parsedText = rawText;
+
+    if (hasCurlyStrongs) {
+      // === Curly-brace format (e.g. KJV Strong's) ===
+      // Example: "In the beginning{H7225} God{H430} created{H1254}{(H8804)}{H853}"
+
+      // 1. Strip morphological / grammar tags like {(H8804)}
+      parsedText = parsedText.replace(/\{\([^)]*\)\}/g, '');
+
+      // 2. Match word + one or more Strong's codes: word{H1234}{H5678}
+      parsedText = parsedText.replace(
+        /([^{}\s]+)((?:\{[HG]\d+\})+)/g,
+        (_match, word: string, codesBlock: string) => {
+          const codes: string[] = [];
+          const codeRx = /\{([HG]\d+)\}/g;
+          let m;
+          while ((m = codeRx.exec(codesBlock)) !== null) {
+            codes.push(m[1]);
+          }
+          return `<span class="${spanClass}" data-strong="${codes.join(',')}">${word}</span>`;
+        }
+      );
+
+      // 3. Remove any remaining standalone Strong's codes (no preceding word)
+      parsedText = parsedText.replace(/\{[HG]\d+\}/g, '');
+    } else if (hasAngleStrongs) {
+      // === Angle-bracket format ===
+      // Example: "Kezdetben<H7225> teremté<H1254>"
+      parsedText = rawText.replace(
+        /([^<]+)<([HG])(\d+)>/g,
+        (_match, word: string, type: string, number: string) => {
+          return `<span class="${spanClass}" data-strong="${type}${number}">${word}</span>`;
+        }
+      );
+    }
+    // Plain text without Strong's codes passes through unchanged
+
     return this.sanitizer.sanitize(SecurityContext.HTML, parsedText) || '';
   }
 }

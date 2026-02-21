@@ -1,0 +1,79 @@
+<div class="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-950 px-4 pb-24">
+  <div class="w-full max-w-sm">
+
+    <!-- Logo -->
+    <div class="text-center mb-8">
+      <div class="w-14 h-14 rounded-2xl bg-gradient-to-tr from-blue-600 to-indigo-500 flex items-center justify-center text-white font-bold text-2xl shadow-xl shadow-blue-500/20 mx-auto mb-4">T</div>
+      <h1 class="text-2xl font-bold text-gray-900 dark:text-white">
+        {{ mode() === 'login' ? 'Bejelentkezés' : 'Regisztráció' }}
+      </h1>
+      <p class="text-sm text-gray-500 mt-1">
+        {{ mode() === 'login' ? 'Lépj be, hogy a gyűjteményeid szinkronizálódjanak.' : 'Hozz létre fiókot a felhő-szinkronhoz.' }}
+      </p>
+    </div>
+
+    <!-- Auth form -->
+    <form (ngSubmit)="submit()" class="space-y-4 bg-white dark:bg-gray-900 p-6 rounded-2xl shadow-lg border border-gray-100 dark:border-gray-800">
+
+      @if (error()) {
+        <div class="p-3 rounded-lg bg-red-50 dark:bg-red-900/20 text-red-700 dark:text-red-300 text-sm">{{ error() }}</div>
+      }
+      @if (success()) {
+        <div class="p-3 rounded-lg bg-green-50 dark:bg-green-900/20 text-green-700 dark:text-green-300 text-sm">{{ success() }}</div>
+      }
+
+      <div>
+        <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">E-mail</label>
+        <input
+          type="email"
+          [value]="email()"
+          (input)="email.set($any($event.target).value)"
+          placeholder="te@example.com"
+          autocomplete="email"
+          class="w-full px-4 py-2.5 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
+        />
+      </div>
+
+      <div>
+        <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Jelszó</label>
+        <input
+          type="password"
+          [value]="password()"
+          (input)="password.set($any($event.target).value)"
+          placeholder="••••••••"
+          autocomplete="current-password"
+          class="w-full px-4 py-2.5 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
+        />
+      </div>
+
+      <button
+        type="submit"
+        [disabled]="isLoading()"
+        class="w-full py-3 rounded-xl bg-blue-600 hover:bg-blue-700 disabled:opacity-60 text-white font-semibold transition-all active:scale-[0.98]"
+      >
+        @if (isLoading()) { Feldolgozás... }
+        @else { {{ mode() === 'login' ? 'Bejelentkezés' : 'Regisztráció' }} }
+      </button>
+    </form>
+
+    <!-- Toggle mode -->
+    <p class="text-center text-sm text-gray-500 mt-4">
+      @if (mode() === 'login') {
+        Még nincs fiókod?
+        <button (click)="mode.set('register')" class="text-blue-600 font-medium hover:underline">Regisztrálj</button>
+      } @else {
+        Már van fiókod?
+        <button (click)="mode.set('login')" class="text-blue-600 font-medium hover:underline">Lépj be</button>
+      }
+    </p>
+
+    <p class="text-center text-xs text-gray-400 mt-6">
+      A bejelentkezés nem kötelező — a gyűjtemények offline is működnek.
+    </p>
+
+    <div class="text-center mt-2">
+      <a routerLink="/" class="text-xs text-gray-400 hover:text-blue-600 transition">← Vissza a főoldalra</a>
+    </div>
+
+  </div>
+</div>

@@ -9,7 +9,6 @@ import { StructureMap } from '../../models/structure-map-model';
 import { VersionConfig } from '../../models/version-config-model';
 import { VerseChunk } from '../../models/bible-verse-model';
 import { TopicSummary } from '../../models/topic-summary-model';
-import { StrongDefinition } from '../../models/strong-definition-model';
 import { TopicDetail } from '../../models/topic-detail-model';
 
 @Injectable({ providedIn: 'root' })
@@ -23,7 +22,6 @@ export class BibleDataService {
   private topicListCache: TopicSummary[] | null = null;
   private topicDetailsCache = new Map<string, TopicDetail>();
   private chunkCache = new Map<string, VerseChunk>();
-  private definitionCache = new Map<string, StrongDefinition>();
 
   constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
 
@@ -47,27 +45,42 @@ export class BibleDataService {
       return;
     }
 
-    // JAVÍTÁS: A fájl-fád alapján 'translation_structures' (egyes szám)
+    // Load bundled metadata (books + structures + versions in one request)
     const META_URL = `${this.baseUrl}/translation_structures`;
 
     try {
-      const data = await firstValueFrom(
-        forkJoin({
-          books: this.http.get<Book[]>(`${META_URL}/books.json`),
-          structures: this.http.get<{ [key: string]: StructureMap }>(`${META_URL}/structures.json`),
-          versions: this.http.get<{ [key: string]: VersionConfig }>(`${META_URL}/versions.json`),
-        })
+      const metadata = await firstValueFrom(
+        this.http.get<{
+          books: Book[];
+          structures: { [key: string]: StructureMap };
+          versions: { [key: string]: VersionConfig };
+        }>(`${META_URL}/metadata.json`)
       );
 
-      this.booksBaseCache = data.books;
-      this.structuresCache = data.structures;
-      this.versionsCache = data.versions;
+      this.booksBaseCache = metadata.books;
+      this.structuresCache = metadata.structures;
+      this.versionsCache = metadata.versions;
     } catch (error) {
-      console.error(`[BibleDataService] Metaadat betöltési hiba (${META_URL}):`, error);
-      // Fallback, hogy ne omoljon össze az app
-      this.booksBaseCache = [];
-      this.structuresCache = {};
-      this.versionsCache = {};
+      console.error(`[BibleDataService] Metadata loading error (${META_URL}):`, error);
+      // Fallback to individual files if bundled metadata fails
+      try {
+        const data = await firstValueFrom(
+          forkJoin({
+            books: this.http.get<Book[]>(`${META_URL}/books.json`),
+            structures: this.http.get<{ [key: string]: StructureMap }>(`${META_URL}/structures.json`),
+            versions: this.http.get<{ [key: string]: VersionConfig }>(`${META_URL}/versions.json`),
+          })
+        );
+
+        this.booksBaseCache = data.books;
+        this.structuresCache = data.structures;
+        this.versionsCache = data.versions;
+      } catch (fallbackError) {
+        console.error(`[BibleDataService] Fallback metadata load failed:`, fallbackError);
+        this.booksBaseCache = [];
+        this.structuresCache = {};
+        this.versionsCache = {};
+      }
     }
   }
 
@@ -107,14 +120,6 @@ export class BibleDataService {
     chapter: string,
     versionId: string
   ): Promise<VerseChunk | null> {
-    // === 1. JAVÍTÁS: SZERVER VÉDELEM ===
-    // Ha szerver oldalon vagyunk (SSR), azonnal kilépünk.
-    // Ezzel megszűnik a "fetch failed" és "ECONNREFUSED" hiba.
-    if (!isPlatformBrowser(this.platformId)) {
-      return null;
-    }
-    console.log(`[Browser] Kérés indítása: ${versionId}/${bookId}/${chapter}`);
-
     const cacheKey = `${versionId}_${bookId}_${chapter}`;
     if (this.chunkCache.has(cacheKey)) return this.chunkCache.get(cacheKey)!;
 
@@ -123,15 +128,54 @@ export class BibleDataService {
     const config = this.versionsCache ? this.versionsCache[versionId] : null;
     const folderName = config?.path || versionId;
 
-    // Útvonal: assets/bibles/{verzio}/{konyv}/{fejezet}.json
+    // Server-side: read JSON directly from disk so SSG/SSR can pre-render content.
+    if (!isPlatformBrowser(this.platformId)) {
+      try {
+        const fs = await import('node:fs/promises');
+        const path = await import('node:path');
+
+        // Try production build location first, then source assets (dev)
+        const candidates = [
+          path.join(process.cwd(), 'dist', 'frontend', 'browser', 'assets', 'bibles', folderName, bookId, `${chapter}.json`),
+          path.join(process.cwd(), 'src', 'assets', 'bibles', folderName, bookId, `${chapter}.json`),
+        ];
+
+        for (const p of candidates) {
+          try {
+            const raw = await fs.readFile(p, 'utf-8');
+            const chunk = JSON.parse(raw);
+            this.chunkCache.set(cacheKey, chunk);
+            console.debug('[Server] Loaded chunk from disk:', p);
+            return chunk;
+          } catch {
+            // continue to next candidate
+          }
+        }
+
+        // Not found on disk — return null to keep behavior safe for server.
+        console.warn(`[Server] chunk file not found for ${folderName}/${bookId}/${chapter}`);
+        return null;
+      } catch (err) {
+        console.error('[Server] failed to read chunk from disk', err);
+        return null;
+      }
+    }
+
+    // Browser: load via HTTP from the assets folder
     const url = `${this.baseUrl}/bibles/${folderName}/${bookId}/${chapter}.json`;
+    console.debug(`[DataService] Loading verse chunk from: ${url}`);
 
     try {
       const chunk = await firstValueFrom(this.http.get<VerseChunk>(url));
+      if (!chunk || !Array.isArray(chunk)) {
+        console.warn('[DataService] Invalid chunk response (not an array):', url, chunk);
+        return null;
+      }
       this.chunkCache.set(cacheKey, chunk);
+      console.debug(`[DataService] Successfully cached ${chunk.length} verses for ${versionId}/${bookId}/${chapter}`);
       return chunk;
     } catch (e) {
-      // Csendesítjük a hibát, hogy ne szemetelje tele a konzolt, ha még nincs kész a fájl
+      console.error('[DataService] Failed to load chapter', url, e);
       return null;
     }
   }
@@ -161,16 +205,85 @@ export class BibleDataService {
     }
   }
 
-  // Egy konkrét vers szövege
-  async getVerseText(verseId: string, version: string): Promise<string> {
+  /**
+   * Parse a verse reference string into its components.
+   * Handles both single ("gen-1-1") and span ("exo-3-14-15") formats.
+   */
+  parseVerseRef(verseId: string): { bookId: string; chapter: string; verseStart: number; verseEnd: number } | null {
     const parts = verseId.split('-');
-    if (parts.length < 3) return '';
+    if (parts.length < 3 || parts.length > 4) return null;
+
+    const bookId = parts[0];
+    const chapter = parts[1];
+    const verseStart = parseInt(parts[2], 10);
+    const verseEnd = parts.length === 4 ? parseInt(parts[3], 10) : verseStart;
+
+    if (isNaN(verseStart) || isNaN(verseEnd)) return null;
+    return { bookId, chapter, verseStart, verseEnd };
+  }
+
+  /**
+   * Get text for a single verse or a verse range.
+   * Supports both "gen-1-1" (single) and "exo-3-14-15" (range) formats.
+   */
+  async getVerseText(verseId: string, version: string): Promise<string> {
+    const ref = this.parseVerseRef(verseId);
+    if (!ref) {
+      console.warn('[DataService] Failed to parse verseId:', verseId);
+      return '';
+    }
+
     try {
-      const chunk = await this.ensureChunkLoaded(parts[0], parts[1], version);
-      const verseItem = chunk?.find((item) => item.v === parseInt(parts[2], 10));
-      return verseItem ? verseItem.text : '';
+      const chunk = await this.ensureChunkLoaded(ref.bookId, ref.chapter, version);
+      if (!chunk) {
+        console.warn('[DataService] No chunk loaded for:', ref.bookId, ref.chapter, version);
+        return '';
+      }
+
+      if (ref.verseStart === ref.verseEnd) {
+        const verseItem = chunk.find((item) => item.v === ref.verseStart);
+        const text = verseItem ? verseItem.text : '';
+        if (!text) {
+          console.warn('[DataService] Verse not found in chunk:', verseId, 'chunk size:', chunk.length);
+        }
+        return text;
+      }
+
+      // Range: collect all verses in the span
+      const verses = chunk
+        .filter((item) => item.v >= ref.verseStart && item.v <= ref.verseEnd)
+        .sort((a, b) => a.v - b.v);
+      return verses.map((v) => v.text).join(' ');
     } catch {
       return '';
+    }
+  }
+
+  /**
+   * Get structured verse data for a reference (single or range).
+   * Returns individual verse objects with their numbers.
+   */
+  async getVerseRange(
+    verseId: string,
+    version: string
+  ): Promise<{ id: string; v: number; text: string }[]> {
+    const ref = this.parseVerseRef(verseId);
+    if (!ref) return [];
+
+    try {
+      const chunk = await this.ensureChunkLoaded(ref.bookId, ref.chapter, version);
+      if (!chunk) return [];
+
+      return chunk
+        .filter((item) => item.v >= ref.verseStart && item.v <= ref.verseEnd)
+        .sort((a, b) => a.v - b.v)
+        .map((item) => ({
+          id: `${ref.bookId}-${ref.chapter}-${item.v}`,
+          v: item.v,
+          text: item.text,
+        }));
+    } catch {
+      return [];
     }
   }
 
@@ -201,28 +314,6 @@ export class BibleDataService {
       return detail;
     } catch (err) {
       console.error(`Téma részletek nem találhatók: ${topicId}`, err);
-      return null;
-    }
-  }
-
-  // ==========================================================
-  // 4. STRONGS DEFINÍCIÓK - Eredeti funkcionalitás
-  // ==========================================================
-
-  async getDefinition(strongId: string): Promise<StrongDefinition | null> {
-    if (this.definitionCache.has(strongId)) return this.definitionCache.get(strongId)!;
-
-    // A fájl-fa alapján a definíciók itt vannak: assets/index/strongs/G1.json
-    // A logika feltételezi, hogy minden definíció külön fájlban van, VAGY a fájlnevek a strong ID-k.
-    const url = `${this.baseUrl}/index/strongs/${strongId}.json`;
-
-    try {
-      // Megpróbáljuk betölteni a specifikus JSON-t
-      const def = await firstValueFrom(this.http.get<StrongDefinition>(url));
-      this.definitionCache.set(strongId, def);
-      return def;
-    } catch (err) {
-      console.warn(`Strong definíció nem található: ${strongId} (${url})`);
       return null;
     }
   }

@@ -1,0 +1,146 @@
+<div class="min-h-screen bg-gray-50 dark:bg-gray-950 px-4 py-6">
+  <div class="max-w-3xl mx-auto">
+
+    <!-- Header -->
+    <div class="mb-6">
+      <h1 class="text-3xl font-bold text-gray-900 dark:text-white mb-2">📚 Gyűjtemények</h1>
+      <p class="text-sm text-gray-500 dark:text-gray-400">A mentett verseid könyvjelzője</p>
+    </div>
+
+    <!-- Info banner -->
+    @if (hasTopicCollections) {
+      <div class="mb-4 p-3 rounded-xl bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800">
+        <p class="text-xs text-blue-800 dark:text-blue-300">
+          💡 A <strong>téma jelölésű</strong> gyűjtemények automatikusan szinkronizálódnak a témák oldalról. Tudsz hozzájuk verseket adni vagy törölni.
+        </p>
+      </div>
+    }
+
+    <!-- Collections list -->
+    @if (collectionService.collections().length === 0) {
+      <div class="text-center py-12 bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800">
+        <svg class="w-16 h-16 mx-auto text-gray-300 dark:text-gray-700 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/>
+        </svg>
+        <h3 class="text-lg font-medium text-gray-900 dark:text-white mb-2">Még nincs gyűjteményed</h3>
+        <p class="text-sm text-gray-500 mb-4">Kezdj el verseket menteni a bibliaolvasóban vagy a témákban!</p>
+        <div class="flex gap-2 justify-center">
+          <a routerLink="/bible" class="px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium transition">
+            Bibliaolvasó
+          </a>
+          <a routerLink="/" class="px-4 py-2 rounded-xl bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700 text-gray-900 dark:text-white text-sm font-medium transition">
+            Témák
+          </a>
+        </div>
+      </div>
+    } @else {
+      <div class="space-y-3">
+        @for (collection of collectionService.collections(); track collection.id) {
+          <div class="bg-white dark:bg-gray-900 rounded-2xl border overflow-hidden transition-all hover:shadow-lg"
+               [style.border-color]="collection.themeColor || 'rgb(229 231 235)'">
+
+            <!-- Collection header (clickable) -->
+            <button
+              (click)="toggleCollection(collection.id)"
+              class="w-full flex items-center justify-between p-4 text-left hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
+            >
+              <div class="flex items-center gap-3 flex-1 min-w-0">
+                <div class="p-2 rounded-xl"
+                     [style.background-color]="collection.themeColor ? collection.themeColor + '20' : 'rgb(239 246 255)'">
+                  @if (collection.topicId) {
+                    <svg class="w-5 h-5" [style.color]="collection.themeColor || 'rgb(37 99 235)'" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/>
+                    </svg>
+                  } @else {
+                    <svg class="w-5 h-5 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/>
+                    </svg>
+                  }
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex items-center gap-2">
+                    <h3 class="font-semibold text-gray-900 dark:text-white truncate">{{ collection.name }}</h3>
+                    @if (collection.topicId) {
+                      <span class="px-2 py-0.5 text-[10px] font-medium rounded-full"
+                            [style.background-color]="collection.themeColor ? collection.themeColor + '30' : 'rgb(219 234 254)'"
+                            [style.color]="collection.themeColor || 'rgb(37 99 235)'">
+                        Téma
+                      </span>
+                    }
+                  </div>
+                  <p class="text-xs text-gray-500 dark:text-gray-400">{{ collection.verse_ids.length }} vers</p>
+                </div>
+              </div>
+
+              <div class="flex items-center gap-2">
+                @if (!collection.topicId) {
+                  <button
+                    (click)="deleteCollection(collection.id, $event)"
+                    class="p-2 rounded-lg text-gray-400 hover:text-red-500 hover:bg-red-50 dark:hover:bg-red-900/20 transition-colors"
+                    title="Törlés"
+                  >
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/>
+                    </svg>
+                  </button>
+                } @else {
+                  <button
+                    (click)="navigateToTopic(collection.topicId, $event)"
+                    class="px-3 py-1.5 rounded-lg text-xs font-medium transition-colors"
+                    [style.background-color]="collection.themeColor ? collection.themeColor + '20' : 'rgb(239 246 255)'"
+                    [style.color]="collection.themeColor || 'rgb(37 99 235)'"
+                    title="Téma megtekintése"
+                  >
+                    Téma →
+                  </button>
+                }
+
+                <svg
+                  class="w-5 h-5 text-gray-400 transition-transform"
+                  [class.rotate-180]="expandedCollectionId === collection.id"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </div>
+            </button>
+
+            <!-- Verses list (expanded) -->
+            @if (expandedCollectionId === collection.id) {
+              <div class="border-t border-gray-100 dark:border-gray-800 bg-gray-50 dark:bg-gray-950">
+                @if (collection.verse_ids.length === 0) {
+                  <p class="text-sm text-gray-400 text-center py-4">Ez a gyűjtemény még üres</p>
+                } @else {
+                  <div class="divide-y divide-gray-100 dark:divide-gray-800">
+                    @for (verseId of collection.verse_ids; track verseId) {
+                      <div class="flex items-center justify-between p-3 hover:bg-white dark:hover:bg-gray-900 transition-colors">
+                        <button
+                          (click)="navigateToVerse(verseId)"
+                          class="flex-1 text-left text-sm font-medium text-blue-600 dark:text-blue-400 hover:underline"
+                        >
+                          {{ formatVerseId(verseId) }}
+                        </button>
+                        <button
+                          (click)="collectionService.removeVerse(collection.id, verseId)"
+                          class="p-1.5 rounded-lg text-gray-400 hover:text-red-500 hover:bg-red-50 dark:hover:bg-red-900/20 transition-colors"
+                          title="Eltávolítás"
+                        >
+                          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                          </svg>
+                        </button>
+                      </div>
+                    }
+                  </div>
+                }
+              </div>
+            }
+          </div>
+        }
+      </div>
+    }
+
+  </div>
+</div>

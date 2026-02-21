@@ -1,0 +1,4 @@
+/* Collections component styles */
+.rotate-180 {
+  transform: rotate(180deg);
+}

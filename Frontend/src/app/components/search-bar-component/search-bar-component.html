@@ -1,1 +1,257 @@
-<p>search-bar-component works!</p>
+<div class="min-h-screen bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100 transition-colors">
+  <!-- Version Picker Drawer -->
+  @if (versionPickerOpen()) {
+    <div class="fixed inset-0 z-50 flex">
+      <div class="absolute inset-0 bg-black/40 backdrop-blur-sm" (click)="versionPickerOpen.set(false)"></div>
+      <div class="relative z-10 w-full max-w-md bg-white dark:bg-gray-900 shadow-2xl overflow-y-auto animate-slide-in">
+        <div class="sticky top-0 z-10 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800 px-4 py-3 flex items-center justify-between">
+          <h2 class="text-lg font-bold">
+            {{ state.lang() === 'hu' ? 'Fordítás választása' : 'Choose Translation' }}
+          </h2>
+          <button (click)="versionPickerOpen.set(false)"
+                  class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">✕</button>
+        </div>
+        <div class="p-3 space-y-4">
+          @for (group of groupedVersions(); track group.lang) {
+            <div>
+              <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 px-2">{{ group.lang }}</h3>
+              <div class="space-y-1">
+                @for (v of group.versions; track v.id) {
+                  <button (click)="selectVersion(v.id)"
+                          class="w-full text-left px-3 py-2.5 rounded-lg text-sm transition-colors"
+                          [class]="v.id === state.currentBibleVersion()
+                            ? 'bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300 ring-1 ring-blue-300 dark:ring-blue-700 font-semibold'
+                            : 'hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-300'">
+                    {{ v.name }}
+                  </button>
+                }
+              </div>
+            </div>
+          }
+        </div>
+      </div>
+    </div>
+  }
+
+  <!-- Top Bar -->
+  <div class="sticky top-0 z-30 bg-white/95 dark:bg-gray-900/95 backdrop-blur border-b border-gray-200 dark:border-gray-800 px-4 py-3 shadow-sm">
+    <div class="max-w-screen-md mx-auto flex items-center gap-3">
+      <a routerLink="/"
+         class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors shrink-0"
+         [title]="state.lang() === 'hu' ? 'Vissza a főoldalra' : 'Back to home'">
+        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
+        </svg>
+      </a>
+
+      <div class="relative flex-1">
+        <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+        </svg>
+        <input
+          type="text"
+          [value]="query()"
+          (input)="onInput($any($event.target).value)"
+          [placeholder]="state.lang() === 'hu' ? 'Keresés a Bibliában...' : 'Search the Bible...'"
+          class="w-full pl-10 pr-4 py-2.5 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+          autofocus
+          [disabled]="!hasSearchIndex()"
+        />
+        @if (isSearching()) {
+          <div class="absolute right-3 top-1/2 -translate-y-1/2">
+            <div class="w-4 h-4 border-2 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
+          </div>
+        }
+      </div>
+    </div>
+
+    <!-- Version selector pill -->
+    <div class="max-w-screen-md mx-auto mt-2">
+      <button (click)="versionPickerOpen.set(true)"
+              class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-gray-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:border-blue-400 hover:text-blue-600 transition-colors">
+        <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"/>
+        </svg>
+        {{ currentVersionName() }}
+        <svg class="w-3 h-3 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="max-w-screen-md mx-auto px-4 py-6">
+    <!-- No search index warning -->
+    @if (!hasSearchIndex() && !checkingIndex()) {
+      <div class="text-center py-16">
+        <div class="text-5xl mb-4">⚠️</div>
+        <h2 class="text-lg font-semibold mb-2">
+          {{ state.lang() === 'hu' ? 'Keresési index nem elérhető' : 'Search index not available' }}
+        </h2>
+        <p class="text-gray-500 text-sm mb-4">
+          {{ state.lang() === 'hu'
+             ? 'Ehhez a fordításhoz még nincs keresési index. Válassz másik fordítást:'
+             : 'No search index for this translation. Choose another:' }}
+        </p>
+        <button (click)="versionPickerOpen.set(true)"
+                class="px-4 py-2 rounded-full bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 transition-colors">
+          {{ state.lang() === 'hu' ? 'Fordítás választása' : 'Choose Translation' }}
+        </button>
+      </div>
+    }
+
+    @if (checkingIndex()) {
+      <div class="flex justify-center py-16">
+        <div class="w-6 h-6 border-2 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
+      </div>
+    }
+
+    @if (hasSearchIndex() && !checkingIndex()) {
+      <!-- Word matches -->
+      @if (results().length > 0 && !selectedWord()) {
+        <div class="mb-4">
+          <p class="text-sm text-gray-500 mb-3">
+            {{ state.lang() === 'hu' ? 'Találatok:' : 'Matches:' }}
+          </p>
+          <div class="flex flex-wrap gap-2">
+            @for (r of results(); track r.word) {
+              <button
+                (click)="selectWord(r)"
+                class="px-3 py-1.5 rounded-full text-sm font-medium bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:border-blue-400 hover:text-blue-600 transition-colors shadow-sm"
+              >
+                {{ r.word }}
+                <span class="ml-1 text-xs text-gray-400">({{ r.totalCount || r.verseIds.length }})</span>
+              </button>
+            }
+          </div>
+        </div>
+      }
+
+      <!-- Verse previews for selected word -->
+      @if (selectedWord()) {
+        <div class="mb-4 flex items-center justify-between">
+          <div>
+            <button (click)="clearSelection()"
+                    class="text-sm text-blue-600 hover:text-blue-800 mr-3">
+              ← {{ state.lang() === 'hu' ? 'Vissza' : 'Back' }}
+            </button>
+            <span class="text-sm text-gray-500">
+              «<strong class="text-gray-800 dark:text-gray-200">{{ selectedWord() }}</strong>»
+              — {{ getTotalHits() }} {{ state.lang() === 'hu' ? 'előfordulás' : 'occurrences' }}
+              ({{ getUniqueVerseCount() }} {{ state.lang() === 'hu' ? 'különböző vers' : 'unique verses' }})
+            </span>
+          </div>
+        </div>
+
+        @if (isLoadingPreviews()) {
+          <div class="flex justify-center py-12">
+            <div class="w-6 h-6 border-2 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
+          </div>
+        }
+
+        @if (!isLoadingPreviews()) {
+          <div class="space-y-3">
+            @for (p of previews(); track p.verseId) {
+              <button                id="preview-{{p.verseId}}"                (click)="navigateToVerse(p.verseId)"
+                class="w-full text-left bg-white dark:bg-gray-800/80 rounded-xl p-4 border border-gray-100 dark:border-gray-700/50 hover:border-blue-300 dark:hover:border-blue-700 hover:shadow-md transition-all group"
+              >
+                <div class="text-xs font-bold text-blue-600 mb-1.5 group-hover:text-blue-700">
+                  {{ p.label }}
+                </div>
+                <div class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed line-clamp-3">
+                  <app-verse-renderer [rawText]="p.text"></app-verse-renderer>
+                </div>
+              </button>
+            }
+          </div>
+
+          @if (getRemainingPreviewCount() > 0) {
+            <div class="mt-6 flex flex-col items-center gap-2">
+              <button type="button" (click)="loadMorePreviews($event)"
+                      class="px-4 py-2 rounded-full bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 transition-colors">
+                {{ state.lang() === 'hu' ? 'Több betöltése' : 'Load more' }}
+                <span class="ml-2 text-xs text-gray-100">({{ getRemainingPreviewCount() }})</span>
+              </button>
+              <p class="text-sm text-gray-400 mb-3">
+                @if (state.lang() === 'hu') {
+                  Megjelenítve: <strong>{{ previews().length }}</strong> / <strong>{{ getUniqueVerseCount() }}</strong> különböző vers. Szűkítsd a keresést a pontosabb eredményekhez.
+                } @else {
+                  Showing <strong>{{ previews().length }}</strong> of <strong>{{ getUniqueVerseCount() }}</strong> unique verses. Narrow your search for more specific results.
+                }
+              </p>
+
+              <!-- Show / hide full list of unique verses -->
+              <div class="w-full flex justify-center mb-4">
+                <button (click)="toggleAllVerses()"
+                        class="px-3 py-1.5 rounded-full text-sm font-medium bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:border-blue-400 hover:text-blue-600 transition-colors shadow-sm">
+                  @if (!showAllVerses()) {
+                    {{ state.lang() === 'hu' ? 'Mutasd az összes verset' : 'Show all verses' }}
+                    <span class="ml-2 text-xs text-gray-400">({{ getUniqueVerseCount() }})</span>
+                  } @else {
+                    {{ state.lang() === 'hu' ? 'Elrejtés' : 'Hide all verses' }}
+                  }
+
+                  @if (isLoadingAllVerses()) {
+                    <span class="ml-2 text-xs text-gray-400">• {{ state.lang() === 'hu' ? 'Betöltés' : 'Loading' }}…</span>
+                  }
+                </button>
+              </div>
+
+              @if (showAllVerses()) {
+                @if (isLoadingAllVerses()) {
+                  <div class="flex justify-center py-4 text-sm text-gray-500">{{ state.lang() === 'hu' ? 'Összes vers betöltése…' : 'Loading all verses…' }}</div>
+                }
+
+                <div class="space-y-3 max-h-[60vh] overflow-auto">
+                  @for (v of allVerses(); track v.verseId) {
+                    <button id="all-{{v.verseId}}" (click)="navigateToVerse(v.verseId)"
+                      class="w-full text-left bg-white dark:bg-gray-800/80 rounded-xl p-4 border border-gray-100 dark:border-gray-700/50 hover:border-blue-300 dark:hover:border-blue-700 hover:shadow-md transition-all group">
+                      <div class="text-xs font-bold text-blue-600 mb-1.5 group-hover:text-blue-700">{{ v.label }}</div>
+                      <div class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
+                        <app-verse-renderer [rawText]="v.text"></app-verse-renderer>
+                      </div>
+                    </button>
+                  }
+                </div>
+              }
+            </div>
+          }
+
+          @if (getUniqueVerseCount() > 0 && previews().length >= getUniqueVerseCount()) {
+            <p class="text-center text-sm text-gray-400 mt-6">
+              {{ state.lang() === 'hu'
+                ? 'Minden különböző vers megjelenítve (néhány vers többször is tartalmazza a keresett kifejezést).'
+                : 'All unique verses shown (some verses contain multiple instances of the search term).' }}
+            </p>
+          }
+        }
+      }
+
+      <!-- Empty state -->
+      @if (query().length >= 2 && results().length === 0 && !isSearching()) {
+        <div class="text-center py-16">
+          <div class="text-4xl mb-3">🔍</div>
+          <p class="text-gray-500">
+            {{ state.lang() === 'hu' ? 'Nincs találat erre: ' : 'No results for: ' }}
+            <strong>{{ query() }}</strong>
+          </p>
+        </div>
+      }
+
+      <!-- Initial state -->
+      @if (query().length < 2 && results().length === 0) {
+        <div class="text-center py-16">
+          <div class="text-5xl mb-4">📖</div>
+          <h2 class="text-lg font-semibold mb-2">
+            {{ state.lang() === 'hu' ? 'Keresés a Bibliában' : 'Search the Bible' }}
+          </h2>
+          <p class="text-gray-500 text-sm">
+            {{ state.lang() === 'hu'
+               ? 'Írj be legalább 2 karaktert a kereséshez.'
+               : 'Type at least 2 characters to search.' }}
+          </p>
+        </div>
+      }
+    }
+  </div>
+</div>

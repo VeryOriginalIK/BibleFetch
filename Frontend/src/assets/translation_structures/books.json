@@ -1,13 +1,794 @@
-[  {
+[
+  {
     "id": "gen",
-    "name": { "hu": "Mózes I. könyve", "en": "Genesis" },
-    "short": { "hu": "1 Móz", "en": "Gen" },
+    "name": {
+      "hu": "Mózes I. könyve",
+      "en": "Genesis"
+    },
+    "short": {
+      "hu": "1 Móz",
+      "en": "Gen"
+    },
     "color": "#3B82F6"
   },
   {
-    "id": "joel",
-    "name": { "hu": "Joel próféta könyve", "en": "Joel" },
-    "short": { "hu": "Joel", "en": "Joel" },
+    "id": "exo",
+    "name": {
+      "hu": "Mózes II. könyve",
+      "en": "Exodus"
+    },
+    "short": {
+      "hu": "2 Móz",
+      "en": "Exo"
+    },
+    "color": "#3B82F6"
+  },
+  {
+    "id": "lev",
+    "name": {
+      "hu": "Mózes III. könyve",
+      "en": "Leviticus"
+    },
+    "short": {
+      "hu": "3 Móz",
+      "en": "Lev"
+    },
+    "color": "#3B82F6"
+  },
+  {
+    "id": "num",
+    "name": {
+      "hu": "Mózes IV. könyve",
+      "en": "Numbers"
+    },
+    "short": {
+      "hu": "4 Móz",
+      "en": "Num"
+    },
+    "color": "#3B82F6"
+  },
+  {
+    "id": "deu",
+    "name": {
+      "hu": "Mózes V. könyve",
+      "en": "Deuteronomy"
+    },
+    "short": {
+      "hu": "5 Móz",
+      "en": "Deu"
+    },
+    "color": "#3B82F6"
+  },
+  {
+    "id": "jos",
+    "name": {
+      "hu": "Józsué könyve",
+      "en": "Joshua"
+    },
+    "short": {
+      "hu": "Józs",
+      "en": "Jos"
+    },
+    "color": "#10B981"
+  },
+  {
+    "id": "jdg",
+    "name": {
+      "hu": "Bírák könyve",
+      "en": "Judges"
+    },
+    "short": {
+      "hu": "Bír",
+      "en": "Jdg"
+    },
+    "color": "#10B981"
+  },
+  {
+    "id": "rut",
+    "name": {
+      "hu": "Ruth könyve",
+      "en": "Ruth"
+    },
+    "short": {
+      "hu": "Ruth",
+      "en": "Rut"
+    },
+    "color": "#10B981"
+  },
+  {
+    "id": "1sa",
+    "name": {
+      "hu": "Sámuel I. könyve",
+      "en": "1 Samuel"
+    },
+    "short": {
+      "hu": "1 Sám",
+      "en": "1Sa"
+    },
+    "color": "#10B981"
+  },
+  {
+    "id": "2sa",
+    "name": {
+      "hu": "Sámuel II. könyve",
+      "en": "2 Samuel"
+    },
+    "short": {
+      "hu": "2 Sám",
+      "en": "2Sa"
+    },
+    "color": "#10B981"
+  },
+  {
+    "id": "1ki",
+    "name": {
+      "hu": "Királyok I. könyve",
+      "en": "1 Kings"
+    },
+    "short": {
+      "hu": "1 Kir",
+      "en": "1Ki"
+    },
+    "color": "#10B981"
+  },
+  {
+    "id": "2ki",
+    "name": {
+      "hu": "Királyok II. könyve",
+      "en": "2 Kings"
+    },
+    "short": {
+      "hu": "2 Kir",
+      "en": "2Ki"
+    },
+    "color": "#10B981"
+  },
+  {
+    "id": "1ch",
+    "name": {
+      "hu": "Krónikák I. könyve",
+      "en": "1 Chronicles"
+    },
+    "short": {
+      "hu": "1 Krón",
+      "en": "1Ch"
+    },
+    "color": "#10B981"
+  },
+  {
+    "id": "2ch",
+    "name": {
+      "hu": "Krónikák II. könyve",
+      "en": "2 Chronicles"
+    },
+    "short": {
+      "hu": "2 Krón",
+      "en": "2Ch"
+    },
+    "color": "#10B981"
+  },
+  {
+    "id": "ezr",
+    "name": {
+      "hu": "Ezsdrás könyve",
+      "en": "Ezra"
+    },
+    "short": {
+      "hu": "Ezsd",
+      "en": "Ezr"
+    },
+    "color": "#10B981"
+  },
+  {
+    "id": "neh",
+    "name": {
+      "hu": "Nehémiás könyve",
+      "en": "Nehemiah"
+    },
+    "short": {
+      "hu": "Neh",
+      "en": "Neh"
+    },
+    "color": "#10B981"
+  },
+  {
+    "id": "est",
+    "name": {
+      "hu": "Eszter könyve",
+      "en": "Esther"
+    },
+    "short": {
+      "hu": "Eszt",
+      "en": "Est"
+    },
+    "color": "#10B981"
+  },
+  {
+    "id": "job",
+    "name": {
+      "hu": "Jób könyve",
+      "en": "Job"
+    },
+    "short": {
+      "hu": "Jób",
+      "en": "Job"
+    },
+    "color": "#8B5CF6"
+  },
+  {
+    "id": "psa",
+    "name": {
+      "hu": "Zsoltárok könyve",
+      "en": "Psalms"
+    },
+    "short": {
+      "hu": "Zsolt",
+      "en": "Psa"
+    },
+    "color": "#8B5CF6"
+  },
+  {
+    "id": "pro",
+    "name": {
+      "hu": "Példabeszédek könyve",
+      "en": "Proverbs"
+    },
+    "short": {
+      "hu": "Péld",
+      "en": "Pro"
+    },
+    "color": "#8B5CF6"
+  },
+  {
+    "id": "ecc",
+    "name": {
+      "hu": "Prédikátor könyve",
+      "en": "Ecclesiastes"
+    },
+    "short": {
+      "hu": "Préd",
+      "en": "Ecc"
+    },
+    "color": "#8B5CF6"
+  },
+  {
+    "id": "sng",
+    "name": {
+      "hu": "Énekek Éneke",
+      "en": "Song of Solomon"
+    },
+    "short": {
+      "hu": "Én",
+      "en": "Sng"
+    },
+    "color": "#8B5CF6"
+  },
+  {
+    "id": "isa",
+    "name": {
+      "hu": "Ézsaiás könyve",
+      "en": "Isaiah"
+    },
+    "short": {
+      "hu": "Ézs",
+      "en": "Isa"
+    },
     "color": "#EF4444"
+  },
+  {
+    "id": "jer",
+    "name": {
+      "hu": "Jeremiás könyve",
+      "en": "Jeremiah"
+    },
+    "short": {
+      "hu": "Jer",
+      "en": "Jer"
+    },
+    "color": "#EF4444"
+  },
+  {
+    "id": "lam",
+    "name": {
+      "hu": "Jeremiás siralmai",
+      "en": "Lamentations"
+    },
+    "short": {
+      "hu": "Sir",
+      "en": "Lam"
+    },
+    "color": "#EF4444"
+  },
+  {
+    "id": "eze",
+    "name": {
+      "hu": "Ezékiel könyve",
+      "en": "Ezekiel"
+    },
+    "short": {
+      "hu": "Ez",
+      "en": "Eze"
+    },
+    "color": "#EF4444"
+  },
+  {
+    "id": "dan",
+    "name": {
+      "hu": "Dániel könyve",
+      "en": "Daniel"
+    },
+    "short": {
+      "hu": "Dán",
+      "en": "Dan"
+    },
+    "color": "#EF4444"
+  },
+  {
+    "id": "hos",
+    "name": {
+      "hu": "Hóseás könyve",
+      "en": "Hosea"
+    },
+    "short": {
+      "hu": "Hós",
+      "en": "Hos"
+    },
+    "color": "#F59E0B"
+  },
+  {
+    "id": "joe",
+    "name": {
+      "hu": "Joel könyve",
+      "en": "Joel"
+    },
+    "short": {
+      "hu": "Joel",
+      "en": "Joe"
+    },
+    "color": "#F59E0B"
+  },
+  {
+    "id": "amo",
+    "name": {
+      "hu": "Ámós könyve",
+      "en": "Amos"
+    },
+    "short": {
+      "hu": "Ám",
+      "en": "Amo"
+    },
+    "color": "#F59E0B"
+  },
+  {
+    "id": "oba",
+    "name": {
+      "hu": "Abdiás könyve",
+      "en": "Obadiah"
+    },
+    "short": {
+      "hu": "Abd",
+      "en": "Oba"
+    },
+    "color": "#F59E0B"
+  },
+  {
+    "id": "jon",
+    "name": {
+      "hu": "Jónás könyve",
+      "en": "Jonah"
+    },
+    "short": {
+      "hu": "Jón",
+      "en": "Jon"
+    },
+    "color": "#F59E0B"
+  },
+  {
+    "id": "mic",
+    "name": {
+      "hu": "Mikeás könyve",
+      "en": "Micah"
+    },
+    "short": {
+      "hu": "Mik",
+      "en": "Mic"
+    },
+    "color": "#F59E0B"
+  },
+  {
+    "id": "nah",
+    "name": {
+      "hu": "Náhum könyve",
+      "en": "Nahum"
+    },
+    "short": {
+      "hu": "Náh",
+      "en": "Nah"
+    },
+    "color": "#F59E0B"
+  },
+  {
+    "id": "hab",
+    "name": {
+      "hu": "Habakuk könyve",
+      "en": "Habakkuk"
+    },
+    "short": {
+      "hu": "Hab",
+      "en": "Hab"
+    },
+    "color": "#F59E0B"
+  },
+  {
+    "id": "zep",
+    "name": {
+      "hu": "Sofóniás könyve",
+      "en": "Zephaniah"
+    },
+    "short": {
+      "hu": "Sof",
+      "en": "Zep"
+    },
+    "color": "#F59E0B"
+  },
+  {
+    "id": "hag",
+    "name": {
+      "hu": "Haggeus könyve",
+      "en": "Haggai"
+    },
+    "short": {
+      "hu": "Hag",
+      "en": "Hag"
+    },
+    "color": "#F59E0B"
+  },
+  {
+    "id": "zec",
+    "name": {
+      "hu": "Zakariás könyve",
+      "en": "Zechariah"
+    },
+    "short": {
+      "hu": "Zak",
+      "en": "Zec"
+    },
+    "color": "#F59E0B"
+  },
+  {
+    "id": "mal",
+    "name": {
+      "hu": "Malakiás könyve",
+      "en": "Malachi"
+    },
+    "short": {
+      "hu": "Mal",
+      "en": "Mal"
+    },
+    "color": "#F59E0B"
+  },
+  {
+    "id": "mat",
+    "name": {
+      "hu": "Máté evangéliuma",
+      "en": "Matthew"
+    },
+    "short": {
+      "hu": "Mt",
+      "en": "Mat"
+    },
+    "color": "#06B6D4"
+  },
+  {
+    "id": "mar",
+    "name": {
+      "hu": "Márk evangéliuma",
+      "en": "Mark"
+    },
+    "short": {
+      "hu": "Mk",
+      "en": "Mar"
+    },
+    "color": "#06B6D4"
+  },
+  {
+    "id": "luk",
+    "name": {
+      "hu": "Lukács evangéliuma",
+      "en": "Luke"
+    },
+    "short": {
+      "hu": "Lk",
+      "en": "Luk"
+    },
+    "color": "#06B6D4"
+  },
+  {
+    "id": "joh",
+    "name": {
+      "hu": "János evangéliuma",
+      "en": "John"
+    },
+    "short": {
+      "hu": "Jn",
+      "en": "Joh"
+    },
+    "color": "#06B6D4"
+  },
+  {
+    "id": "act",
+    "name": {
+      "hu": "Apostolok cselekedetei",
+      "en": "Acts"
+    },
+    "short": {
+      "hu": "ApCsel",
+      "en": "Act"
+    },
+    "color": "#06B6D4"
+  },
+  {
+    "id": "rom",
+    "name": {
+      "hu": "Rómaiakhoz írt levél",
+      "en": "Romans"
+    },
+    "short": {
+      "hu": "Róm",
+      "en": "Rom"
+    },
+    "color": "#EC4899"
+  },
+  {
+    "id": "1co",
+    "name": {
+      "hu": "Korinthusiakhoz írt I. levél",
+      "en": "1 Corinthians"
+    },
+    "short": {
+      "hu": "1 Kor",
+      "en": "1Co"
+    },
+    "color": "#EC4899"
+  },
+  {
+    "id": "2co",
+    "name": {
+      "hu": "Korinthusiakhoz írt II. levél",
+      "en": "2 Corinthians"
+    },
+    "short": {
+      "hu": "2 Kor",
+      "en": "2Co"
+    },
+    "color": "#EC4899"
+  },
+  {
+    "id": "gal",
+    "name": {
+      "hu": "Galatákhoz írt levél",
+      "en": "Galatians"
+    },
+    "short": {
+      "hu": "Gal",
+      "en": "Gal"
+    },
+    "color": "#EC4899"
+  },
+  {
+    "id": "eph",
+    "name": {
+      "hu": "Efézusiakhoz írt levél",
+      "en": "Ephesians"
+    },
+    "short": {
+      "hu": "Ef",
+      "en": "Eph"
+    },
+    "color": "#EC4899"
+  },
+  {
+    "id": "phi",
+    "name": {
+      "hu": "Filippiekhez írt levél",
+      "en": "Philippians"
+    },
+    "short": {
+      "hu": "Fil",
+      "en": "Phi"
+    },
+    "color": "#EC4899"
+  },
+  {
+    "id": "col",
+    "name": {
+      "hu": "Kolossékhoz írt levél",
+      "en": "Colossians"
+    },
+    "short": {
+      "hu": "Kol",
+      "en": "Col"
+    },
+    "color": "#EC4899"
+  },
+  {
+    "id": "1th",
+    "name": {
+      "hu": "Thesszalonikaiakhoz írt I. levél",
+      "en": "1 Thessalonians"
+    },
+    "short": {
+      "hu": "1 Thessz",
+      "en": "1Th"
+    },
+    "color": "#EC4899"
+  },
+  {
+    "id": "2th",
+    "name": {
+      "hu": "Thesszalonikaiakhoz írt II. levél",
+      "en": "2 Thessalonians"
+    },
+    "short": {
+      "hu": "2 Thessz",
+      "en": "2Th"
+    },
+    "color": "#EC4899"
+  },
+  {
+    "id": "1ti",
+    "name": {
+      "hu": "Timótheushoz írt I. levél",
+      "en": "1 Timothy"
+    },
+    "short": {
+      "hu": "1 Tim",
+      "en": "1Ti"
+    },
+    "color": "#EC4899"
+  },
+  {
+    "id": "2ti",
+    "name": {
+      "hu": "Timótheushoz írt II. levél",
+      "en": "2 Timothy"
+    },
+    "short": {
+      "hu": "2 Tim",
+      "en": "2Ti"
+    },
+    "color": "#EC4899"
+  },
+  {
+    "id": "tit",
+    "name": {
+      "hu": "Tituszhoz írt levél",
+      "en": "Titus"
+    },
+    "short": {
+      "hu": "Tit",
+      "en": "Tit"
+    },
+    "color": "#EC4899"
+  },
+  {
+    "id": "phm",
+    "name": {
+      "hu": "Filemonhoz írt levél",
+      "en": "Philemon"
+    },
+    "short": {
+      "hu": "Filem",
+      "en": "Phm"
+    },
+    "color": "#EC4899"
+  },
+  {
+    "id": "heb",
+    "name": {
+      "hu": "Zsidókhoz írt levél",
+      "en": "Hebrews"
+    },
+    "short": {
+      "hu": "Zsid",
+      "en": "Heb"
+    },
+    "color": "#EC4899"
+  },
+  {
+    "id": "jam",
+    "name": {
+      "hu": "Jakab levele",
+      "en": "James"
+    },
+    "short": {
+      "hu": "Jak",
+      "en": "Jam"
+    },
+    "color": "#EC4899"
+  },
+  {
+    "id": "1pe",
+    "name": {
+      "hu": "Péter I. levele",
+      "en": "1 Peter"
+    },
+    "short": {
+      "hu": "1 Pt",
+      "en": "1Pe"
+    },
+    "color": "#EC4899"
+  },
+  {
+    "id": "2pe",
+    "name": {
+      "hu": "Péter II. levele",
+      "en": "2 Peter"
+    },
+    "short": {
+      "hu": "2 Pt",
+      "en": "2Pe"
+    },
+    "color": "#EC4899"
+  },
+  {
+    "id": "1jo",
+    "name": {
+      "hu": "János I. levele",
+      "en": "1 John"
+    },
+    "short": {
+      "hu": "1 Jn",
+      "en": "1Jo"
+    },
+    "color": "#EC4899"
+  },
+  {
+    "id": "2jo",
+    "name": {
+      "hu": "János II. levele",
+      "en": "2 John"
+    },
+    "short": {
+      "hu": "2 Jn",
+      "en": "2Jo"
+    },
+    "color": "#EC4899"
+  },
+  {
+    "id": "3jo",
+    "name": {
+      "hu": "János III. levele",
+      "en": "3 John"
+    },
+    "short": {
+      "hu": "3 Jn",
+      "en": "3Jo"
+    },
+    "color": "#EC4899"
+  },
+  {
+    "id": "jud",
+    "name": {
+      "hu": "Júdás levele",
+      "en": "Jude"
+    },
+    "short": {
+      "hu": "Júd",
+      "en": "Jud"
+    },
+    "color": "#EC4899"
+  },
+  {
+    "id": "rev",
+    "name": {
+      "hu": "Jelenések könyve",
+      "en": "Revelation"
+    },
+    "short": {
+      "hu": "Jel",
+      "en": "Rev"
+    },
+    "color": "#7C3AED"
   }
 ]

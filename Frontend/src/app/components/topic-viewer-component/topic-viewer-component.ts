@@ -1,134 +1,71 @@
-import { Component, OnInit, inject } from '@angular/core';
+import { Component, OnInit, inject, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ActivatedRoute, RouterModule } from '@angular/router';
+import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 import { Observable, forkJoin, of } from 'rxjs';
 import { switchMap, map, catchError } from 'rxjs/operators';
 import { TopicService } from '../../services/topic-service/topic-service';
-import { BibleDataService } from '../../services/data-service/data-service'
+import { BibleDataService } from '../../services/data-service/data-service';
 import { VerseRendererComponent } from '../verse-renderer-component/verse-renderer-component';
+import { CollectionService } from '../../services/collection-service/collection-service';
 import { TopicDetail } from '../../models/topic-detail-model';
 
-// Ez egy belső nézet-modell a komponensnek (nem kell külön fájlba)
 interface RenderedVerse {
   label: string;
   text: string;
+  verseId: string;   // e.g. "joh-3-16"
+  bookId: string;    // e.g. "joh"
+  chapter: number;   // e.g. 3
 }
 
 @Component({
   selector: 'app-topic-viewer',
   standalone: true,
   imports: [CommonModule, RouterModule, VerseRendererComponent],
-  template: `
-    <div class="topic-viewer" *ngIf="vm$ | async as vm; else loading">
-      <header class="topic-hero" [style.background-color]="vm.topic.theme_color">
-        <div class="hero-content">
-          <a routerLink="/topics" class="back-btn">← Vissza</a>
-          <h1>{{ vm.topic.titles.hu }}</h1>
-          <p *ngIf="vm.topic.description">{{ vm.topic.description.hu }}</p>
-        </div>
-      </header>
-
-      <div class="verses-container">
-        <div *ngFor="let verse of vm.verses" class="verse-card">
-          <div class="verse-ref" [style.color]="vm.topic.theme_color">
-            {{ verse.label }}
-          </div>
-
-          <app-verse-renderer [rawText]="verse.text"></app-verse-renderer>
-        </div>
-      </div>
-    </div>
-
-    <ng-template #loading>
-      <div class="loading-state">
-        <div class="spinner"></div>
-        <p>Téma betöltése...</p>
-      </div>
-    </ng-template>
-  `,
-  styles: [
-    `
-      .topic-viewer {
-        min-height: 100vh;
-        background: #f9f9f9;
-        font-family: 'Segoe UI', sans-serif;
-      }
-      .topic-hero {
-        color: white;
-        padding: 60px 20px;
-        text-align: center;
-      }
-      .hero-content {
-        max-width: 800px;
-        margin: 0 auto;
-        position: relative;
-      }
-      .back-btn {
-        position: absolute;
-        left: 0;
-        top: -40px;
-        color: rgba(255, 255, 255, 0.8);
-        text-decoration: none;
-        font-weight: bold;
-      }
-      .back-btn:hover {
-        text-decoration: underline;
-      }
-
-      .verses-container {
-        max-width: 800px;
-        margin: -30px auto 0;
-        padding: 0 20px 40px;
-      }
-
-      .verse-card {
-        background: white;
-        padding: 25px;
-        margin-bottom: 20px;
-        border-radius: 8px;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-        transition: transform 0.2s;
-      }
-
-      .verse-ref {
-        font-weight: 700;
-        font-size: 0.9rem;
-        margin-bottom: 10px;
-        text-transform: uppercase;
-        letter-spacing: 0.5px;
-      }
-
-      .loading-state {
-        text-align: center;
-        padding: 50px;
-        color: #777;
-      }
-      .spinner {
-        margin: 0 auto 15px;
-        border: 4px solid #eee;
-        border-top: 4px solid #666;
-        border-radius: 50%;
-        width: 30px;
-        height: 30px;
-        animation: spin 1s linear infinite;
-      }
-      @keyframes spin {
-        0% {
-          transform: rotate(0deg);
-        }
-        100% {
-          transform: rotate(360deg);
-        }
-      }
-    `,
-  ],
+  templateUrl: './topic-viewer-component.html',
+  styleUrl: './topic-viewer-component.css',
 })
 export class TopicViewerComponent implements OnInit {
   private route = inject(ActivatedRoute);
+  private router = inject(Router);
   private topicsService = inject(TopicService);
   private bibleService = inject(BibleDataService);
+  public collectionService = inject(CollectionService);
 
   vm$!: Observable<{ topic: TopicDetail; verses: RenderedVerse[] }>;
+
+  // Collection picker state
+  collectionPickerVerseId = signal<string | null>(null);
+  newCollectionName = signal<string>('');
+
+  navigateToVerse(bookId: string, chapter: number) {
+    this.router.navigate(['/bible', bookId, chapter]);
+  }
+
+  openCollectionPicker(verseId: string, event: Event) {
+    event.stopPropagation();
+    this.collectionPickerVerseId.set(
+      this.collectionPickerVerseId() === verseId ? null : verseId
+    );
+    this.newCollectionName.set('');
+  }
+
+  closeCollectionPicker(event?: Event) {
+    event?.stopPropagation();
+    this.collectionPickerVerseId.set(null);
+  }
+
+  toggleVerseInCollection(collectionId: string, verseId: string, event: Event) {
+    event.stopPropagation();
+    this.collectionService.toggleVerse(collectionId, verseId);
+  }
+
+  createAndAddToCollection(verseId: string) {
+    const name = this.newCollectionName().trim();
+    if (!name) return;
+    const col = this.collectionService.createCollection(name);
+    this.collectionService.addVerse(col.id, verseId);
+    this.newCollectionName.set('');
+  }
 
   ngOnInit() {
     this.vm$ = this.route.paramMap.pipe(
@@ -137,36 +74,55 @@ export class TopicViewerComponent implements OnInit {
 
         return this.topicsService.getTopicDetail(id).pipe(
           switchMap((topic) => {
-            // Itt használjuk a TopicDetail 'verses' mezőjét (ami string[])
-            const requests = topic.verses.map((idString) => {
-              // Kódolás: "jer-29-11" -> book: jer, chap: 29, verse: 11
-              const parts = idString.split('-');
+            // Sync topic as a collection
+            this.collectionService.syncTopicCollection(
+              topic.id,
+              topic.titles.hu,
+              topic.verses,
+              topic.theme_color
+            );
 
-              if (parts.length !== 3) {
-                return of({ label: idString, text: 'Hibás hivatkozás formátum.' });
+            const requests = topic.verses.map((idString) => {
+              const ref = this.bibleService.parseVerseRef(idString);
+
+              if (!ref) {
+                return of<RenderedVerse>({ label: idString, text: 'Hibás hivatkozás formátum.', verseId: idString, bookId: '', chapter: 0 });
               }
 
-              const book = parts[0];
-              const chapter = parts[1];
-              const verseNum = parseInt(parts[2], 10);
+              const { bookId, chapter, verseStart, verseEnd } = ref;
+              const isRange = verseStart !== verseEnd;
+              const chapterNum = typeof chapter === 'number' ? chapter : parseInt(String(chapter), 10);
 
-              // Adatok lekérése a BibleService-től
-              return this.bibleService.getChapter('kjv_strongs', book, chapter).pipe(
+              return this.bibleService.getChapter('kjv_strongs', bookId, chapterNum).pipe(
                 map((chapterVerses) => {
-                  const found = chapterVerses.find((v) => v.v === verseNum);
-                  return {
-                    // Csinosítjuk a címkét
-                    label: `${book.toUpperCase()} ${chapter}:${verseNum}`,
-                    text: found ? found.text : 'A vers nem található.',
-                  };
+                  if (isRange) {
+                    const found = chapterVerses
+                      .filter((v: any) => v.v >= verseStart && v.v <= verseEnd)
+                      .sort((a: any, b: any) => a.v - b.v);
+                    return <RenderedVerse>{
+                      label: `${bookId.toUpperCase()} ${chapterNum}:${verseStart}-${verseEnd}`,
+                      text: found.length > 0 ? found.map((v: any) => v.text).join(' ') : 'A versek nem találhatók.',
+                      verseId: idString,
+                      bookId,
+                      chapter: chapterNum,
+                    };
+                  } else {
+                    const found = chapterVerses.find((v: any) => v.v === verseStart);
+                    return <RenderedVerse>{
+                      label: `${bookId.toUpperCase()} ${chapterNum}:${verseStart}`,
+                      text: found ? found.text : 'A vers nem található.',
+                      verseId: idString,
+                      bookId,
+                      chapter: chapterNum,
+                    };
+                  }
                 }),
-                catchError(() => of({ label: idString, text: 'Hiba a betöltésnél.' }))
+                catchError(() => of<RenderedVerse>({ label: idString, text: 'Hiba a betöltésnél.', verseId: idString, bookId: '', chapter: 0 }))
               );
             });
 
-            // Ha nincs vers a listában, üres tömbbel térünk vissza azonnal
             if (requests.length === 0) {
-              return of({ topic, verses: [] });
+              return of({ topic, verses: [] as RenderedVerse[] });
             }
 
             return forkJoin(requests).pipe(map((verses) => ({ topic, verses })));
@@ -176,3 +132,4 @@ export class TopicViewerComponent implements OnInit {
     );
   }
 }
+
