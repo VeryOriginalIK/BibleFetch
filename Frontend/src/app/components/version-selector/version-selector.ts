@@ -18,29 +18,54 @@ interface LanguageGroup {
   standalone: true,
   imports: [CommonModule],
   template: `
-    <!-- Pill button -->
+    <!-- Mobile: native dropdown (stable and less intrusive) -->
+    <div class="sm:hidden">
+      <label class="relative block">
+        <span class="sr-only">{{ state.lang() === 'hu' ? 'Fordítás' : 'Translation' }}</span>
+        <select
+          [value]="state.currentBibleVersion()"
+          (change)="onNativeSelectChange($event)"
+          class="appearance-none w-[8.5rem] min-h-[34px] px-2.5 pr-7 rounded-md text-xs font-medium
+                 bg-gray-100/90 dark:bg-gray-800/90 border border-gray-200 dark:border-gray-700
+                 text-gray-700 dark:text-gray-200 focus:outline-none focus:ring-1 focus:ring-gray-400"
+          [title]="currentVersionName()"
+        >
+          @for (group of groupedVersions(); track group.lang) {
+            <optgroup [label]="group.lang">
+              @for (v of group.versions; track v.id) {
+                <option [value]="v.id">{{ v.name }}</option>
+              }
+            </optgroup>
+          }
+        </select>
+        <svg class="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+        </svg>
+      </label>
+    </div>
+
+    <!-- Desktop/Tablet trigger -->
     <button
       (click)="open($event)"
-      class="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-[11px] font-semibold
-             bg-gray-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700
-             hover:border-blue-400 hover:text-blue-600 transition-colors truncate
-             max-w-[80px] sm:max-w-[100px] min-h-[32px] sm:min-h-[36px]"
+      class="hidden sm:inline-flex items-center gap-1 px-2.5 py-1.5 rounded-md text-xs font-medium
+             bg-gray-100/90 dark:bg-gray-800/90 border border-gray-200 dark:border-gray-700
+             hover:bg-gray-200/80 dark:hover:bg-gray-700/80 transition-colors truncate
+             max-w-[120px] min-h-[34px]"
       [title]="currentVersionName()">
-      <svg class="w-3.5 h-3.5 shrink-0 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <svg class="w-3.5 h-3.5 shrink-0 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
               d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"/>
       </svg>
       <span class="truncate">{{ currentVersionName() }}</span>
     </button>
 
-    <!-- Drawer -->
+    <!-- Desktop/Tablet panel -->
     @if (drawerOpen()) {
-      <div class="fixed inset-0 z-[60] flex sm:items-center sm:justify-center">
-        <div class="absolute inset-0 bg-black/40 backdrop-blur-sm" (click)="drawerOpen.set(false)"></div>
-        <div class="relative z-10 w-full sm:max-w-md bg-white dark:bg-gray-900 shadow-2xl overflow-y-auto
-                    h-full sm:h-auto sm:max-h-[90vh] sm:rounded-2xl animate-slide-in-right sm:animate-fade-in"
-             style="padding-bottom: env(safe-area-inset-bottom);">
-          <div class="sticky top-0 z-10 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800 px-4 py-3 flex items-center justify-between">
+      <div class="fixed inset-0 z-[60] hidden sm:block">
+        <div class="absolute inset-0 bg-black/20" (click)="drawerOpen.set(false)"></div>
+        <div class="absolute right-3 top-16 z-10 w-[20rem] max-h-[70vh] overflow-y-auto rounded-xl
+                    bg-white dark:bg-gray-900 shadow-xl border border-gray-200 dark:border-gray-700">
+          <div class="sticky top-0 z-10 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800 px-3 py-2.5 flex items-center justify-between">
             <h2 class="text-lg font-bold">
               {{ state.lang() === 'hu' ? 'Fordítás választása' : 'Choose Translation' }}
             </h2>
@@ -105,6 +130,12 @@ export class VersionSelectorComponent implements OnInit {
   open(event: Event) {
     event.stopPropagation();
     this.drawerOpen.set(true);
+  }
+
+  onNativeSelectChange(event: Event) {
+    const target = event.target as HTMLSelectElement | null;
+    if (!target?.value) return;
+    this.selectVersion(target.value);
   }
 
   selectVersion(versionId: string) {

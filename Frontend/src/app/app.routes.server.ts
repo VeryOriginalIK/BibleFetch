@@ -14,10 +14,6 @@ export const serverRoutes: ServerRoute[] = [
     renderMode: RenderMode.Client,
   },
   {
-    path: 'read/:trans/:book/:chapter',
-    renderMode: RenderMode.Client,
-  },
-  {
     path: 'collection/:id',
     renderMode: RenderMode.Client,
   },

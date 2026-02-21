@@ -288,13 +288,72 @@ export class CollectionService {
     this.flashToast(verseId);
   }
 
+  addVerses(collectionId: string, verseIds: string[]) {
+    const uniqueVerseIds = Array.from(new Set(verseIds));
+    this.collections.update((list) =>
+      list.map((c) => {
+        if (c.id !== collectionId) return c;
+
+        const existing = new Set(c.verse_ids);
+        const toAdd = uniqueVerseIds.filter((v) => !existing.has(v));
+        if (toAdd.length === 0) return c;
+
+        return {
+          ...c,
+          verse_ids: [...c.verse_ids, ...toAdd],
+          last_modified: Date.now(),
+        };
+      })
+    );
+    this.save();
+
+    for (const verseId of uniqueVerseIds) {
+      this.flashToast(verseId);
+    }
+  }
+
   removeVerse(collectionId: string, verseId: string) {
     this.collections.update((list) =>
       list.map((c) => {
         if (c.id !== collectionId) return c;
-        return { ...c, verse_ids: c.verse_ids.filter((v) => v !== verseId), last_modified: Date.now() };
+        const comments = { ...(c.verse_comments || {}) };
+        delete comments[verseId];
+
+        return {
+          ...c,
+          verse_ids: c.verse_ids.filter((v) => v !== verseId),
+          verse_comments: comments,
+          last_modified: Date.now()
+        };
       })
     );
+    this.save();
+  }
+
+  removeVerses(collectionId: string, verseIds: string[]) {
+    const toRemove = new Set(verseIds);
+
+    this.collections.update((list) =>
+      list.map((c) => {
+        if (c.id !== collectionId) return c;
+
+        const nextVerseIds = c.verse_ids.filter((v) => !toRemove.has(v));
+        if (nextVerseIds.length === c.verse_ids.length) return c;
+
+        const comments = { ...(c.verse_comments || {}) };
+        for (const verseId of toRemove) {
+          delete comments[verseId];
+        }
+
+        return {
+          ...c,
+          verse_ids: nextVerseIds,
+          verse_comments: comments,
+          last_modified: Date.now(),
+        };
+      })
+    );
+
     this.save();
   }
 
@@ -304,6 +363,48 @@ export class CollectionService {
     } else {
       this.addVerse(collectionId, verseId);
     }
+  }
+
+  toggleVerses(collectionId: string, verseIds: string[]) {
+    const collection = this.getCollection(collectionId);
+    if (!collection || verseIds.length === 0) return;
+
+    const allAlreadyInCollection = verseIds.every((verseId) => collection.verse_ids.includes(verseId));
+    if (allAlreadyInCollection) {
+      this.removeVerses(collectionId, verseIds);
+    } else {
+      this.addVerses(collectionId, verseIds);
+    }
+  }
+
+  setVerseComment(collectionId: string, verseId: string, comment: string) {
+    const normalized = comment.trim();
+
+    this.collections.update((list) =>
+      list.map((c) => {
+        if (c.id !== collectionId) return c;
+        if (!c.verse_ids.includes(verseId)) return c;
+
+        const comments = { ...(c.verse_comments || {}) };
+        if (normalized) {
+          comments[verseId] = normalized;
+        } else {
+          delete comments[verseId];
+        }
+
+        return {
+          ...c,
+          verse_comments: comments,
+          last_modified: Date.now(),
+        };
+      })
+    );
+
+    this.save();
+  }
+
+  getVerseComment(collectionId: string, verseId: string): string {
+    return this.getCollection(collectionId)?.verse_comments?.[verseId] ?? '';
   }
 
   // --- VERSE LIKES ---
@@ -392,6 +493,10 @@ export class CollectionService {
     });
   }
 
+  async getVerseLikeCounts(collectionId: string): Promise<Map<string, number>> {
+    return this.supabase.getVerseLikeCounts(collectionId);
+  }
+
   // --- PERSISTENCE ---
 
   private save() {
@@ -458,10 +563,15 @@ export class CollectionService {
       } else if (curByName && curByName.id !== col.id) {
         // Different IDs but same name: merge verses
         const mergedVerses = Array.from(new Set([...curByName.verse_ids, ...col.verse_ids]));
+        const mergedComments = {
+          ...(curByName.verse_comments || {}),
+          ...(col.verse_comments || {}),
+        };
         const newerCol = (col.last_modified ?? 0) > (curByName.last_modified ?? 0) ? col : curByName;
         const merged: UserCollection = {
           ...newerCol,
           verse_ids: mergedVerses,
+          verse_comments: mergedComments,
           last_modified: Date.now(),
         };
         existing.set(curByName.id, merged);
@@ -509,10 +619,15 @@ export class CollectionService {
       if (existing) {
         // Merge verses into existing collection
         const mergedVerses = Array.from(new Set([...existing.verse_ids, ...col.verse_ids]));
+        const mergedComments = {
+          ...(existing.verse_comments || {}),
+          ...(col.verse_comments || {}),
+        };
         const newerCol = (col.last_modified ?? 0) > (existing.last_modified ?? 0) ? col : existing;
         const mergedCollection: UserCollection = {
           ...newerCol,
           verse_ids: mergedVerses,
+          verse_comments: mergedComments,
           last_modified: Date.now(),
         };
         nameMap.set(normalizedName, mergedCollection);

@@ -1,4 +1,4 @@
-import { Injectable, signal, inject, PLATFORM_ID } from '@angular/core';
+import { Injectable, signal, computed, inject, PLATFORM_ID } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
 import { createClient, SupabaseClient, User, Session } from '@supabase/supabase-js';
 
@@ -86,9 +86,8 @@ export class AuthService {
     return this._client !== null;
   }
 
-  get isLoggedIn(): boolean {
-    return this.user() !== null;
-  }
+  /** Reactive computed — safe to bind in zoneless templates. */
+  readonly isLoggedIn = computed(() => this.user() !== null);
 
   async signUp(email: string, password: string) {
     if (!this._client) throw new Error('Supabase not configured');
@@ -118,5 +117,6 @@ export class AuthService {
     localStorage.setItem(SB_URL_KEY, url);
     localStorage.setItem(SB_KEY_KEY, key);
     this._client = buildClient();
+    this.init();  // restore session after client rebuild
   }
 }

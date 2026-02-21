@@ -2,6 +2,7 @@ import { Component, OnInit, inject, signal, computed } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
+import { firstValueFrom } from 'rxjs';
 import { CollectionService } from '../../services/collection-service/collection-service';
 import { BibleDataService } from '../../services/data-service/data-service';
 import { StateService } from '../../services/state-service/state-service';
@@ -26,7 +27,6 @@ export class CollectionViewerComponent implements OnInit {
   verses = signal<Array<{ id: string; text: string; book: string; chapter: string; verse: string; likeCount?: number }>>([]);
   isLoading = signal(true);
   showAddVerseModal = signal(false);
-  newVerseInput = signal('');
   errorMessage = signal<string | null>(null);
   verseLikeCounts = signal<Map<string, number>>(new Map());
 
@@ -65,10 +65,11 @@ export class CollectionViewerComponent implements OnInit {
 
   async loadBookList() {
     try {
-      const books = await this.bibleService.getBooks('hu');
+      const lang = this.state.lang();
+      const books = await this.bibleService.getBooks(lang);
       this.allBooks.set(books.map(b => ({
         id: b.id,
-        name: b.name['hu'] || b.name['en'] || b.id,
+        name: b.name[lang] || b.name['hu'] || b.name['en'] || b.id,
         chapterCount: b.chapterCount || 1
       })));
     } catch (err) {
@@ -78,18 +79,13 @@ export class CollectionViewerComponent implements OnInit {
 
   async updateMaxVersesForChapter() {
     try {
-      this.bibleService.getChapter('kjv_strongs', this.pickerBook(), this.pickerChapter()).subscribe({
-        next: (verses) => {
-          this.maxVerseInChapter.set(verses.length || 31);
-          // Reset verse selections if they exceed the max
-          if (this.pickerStartVerse() > verses.length) this.pickerStartVerse.set(1);
-          if (this.pickerEndVerse() > verses.length) this.pickerEndVerse.set(1);
-        },
-        error: () => {
-          this.maxVerseInChapter.set(31);
-        }
-      });
-    } catch (err) {
+      const verses = await firstValueFrom(
+        this.bibleService.getChapter('kjv_strongs', this.pickerBook(), this.pickerChapter())
+      );
+      this.maxVerseInChapter.set(verses.length || 31);
+      if (this.pickerStartVerse() > verses.length) this.pickerStartVerse.set(1);
+      if (this.pickerEndVerse() > verses.length) this.pickerEndVerse.set(1);
+    } catch {
       this.maxVerseInChapter.set(31);
     }
   }
@@ -111,82 +107,57 @@ export class CollectionViewerComponent implements OnInit {
     let likeCounts = new Map<string, number>();
     if (col.is_public) {
       try {
-        likeCounts = await this.collectionService['supabase'].getVerseLikeCounts(col.id);
+        likeCounts = await this.collectionService.getVerseLikeCounts(col.id);
         this.verseLikeCounts.set(likeCounts);
       } catch (err) {
         console.error('Failed to load like counts', err);
       }
     }
 
-    // Initialize UI immediately with placeholders so available texts can populate gradually
-    const initial = sortedVerseIds.map((vid) => {
-      const parts = vid.split('-');
-      const book = parts[0] || '';
-      const chapter = parts[1] || '';
-      const verse = parts[2] || '';
-      return { id: `${book}-${chapter}-${verse}`, text: '', book, chapter, verse, likeCount: likeCounts.get(`${book}-${chapter}-${verse}`) || 0 };
+    const initial = sortedVerseIds.map((verseId) => {
+      const ref = this.bibleService.parseVerseRef(verseId);
+      const book = ref?.bookId || '';
+      const chapter = ref?.chapter || '';
+      const verse = ref
+        ? ref.verseStart === ref.verseEnd
+          ? String(ref.verseStart)
+          : `${ref.verseStart}-${ref.verseEnd}`
+        : '';
+
+      return {
+        id: verseId,
+        text: '',
+        book,
+        chapter,
+        verse,
+        likeCount: likeCounts.get(verseId) || 0,
+      };
     });
 
     this.verses.set(initial);
 
-    // Group by chapter to load chunk files efficiently and update UI as each chunk arrives
-    const chapters = new Set<string>(); // Set of "book-chapter" keys to load
-    for (const id of sortedVerseIds) {
-      const parts = id.split('-');
-      if (parts.length >= 3) {
-        chapters.add(`${parts[0]}-${parts[1]}`);
-      }
-    }
-
-    // For each chapter group, fetch chapter content (uses cached chunk if available)
-    const chapterPromises: Promise<void>[] = [];
-    for (const chapterKey of chapters) {
-      const [bookId, chapterNum] = chapterKey.split('-');
-      const p = this.bibleService.getChapterContent(bookId, chapterNum, version).then((items) => {
-        if (!items || items.length === 0) return;
-        // Map texts by id for quick lookup
-        const map = new Map(items.map(i => [i.id, i.text]));
-        // Update verses signal incrementally (only mutate changed items)
-        this.verses.update((current) => {
-          return current.map(v =>
-            map.has(v.id)
-              ? { ...v, text: map.get(v.id)!, likeCount: likeCounts.get(v.id) || v.likeCount }
-              : v  // Keep existing object reference if no change
-          );
-        });
-      }).catch((err) => {
-        console.debug('Chapter load failed for', chapterKey, err);
-      });
-      chapterPromises.push(p);
-    }
-
-    // After attempting to load all chapters, turn off main loading indicator
-    await Promise.allSettled(chapterPromises);
-    this.isLoading.set(false);
-
-    // For any still-empty texts, fetch individually (deferred with requestIdleCallback)
-    const remaining = this.verses().filter(v => !v.text).map(v => v.id);
-    if (remaining.length > 0) {
-      // Limit concurrency to avoid hammering network; simple batch of 10
-      const batchSize = 10;
-      for (let i = 0; i < remaining.length; i += batchSize) {
-        const batch = remaining.slice(i, i + batchSize);
-        await Promise.all(batch.map(async (vid) => {
+    const batchSize = 10;
+    for (let i = 0; i < sortedVerseIds.length; i += batchSize) {
+      const batch = sortedVerseIds.slice(i, i + batchSize);
+      await Promise.all(
+        batch.map(async (verseId) => {
           try {
-            const text = await this.bibleService.getVerseText(vid, version);
-            if (text) {
-              this.verses.update(curr => curr.map(v =>
-                v.id === vid
-                  ? { ...v, text, likeCount: likeCounts.get(vid) || v.likeCount }
-                  : v  // Keep existing reference
-              ));
-            }
-          } catch (err) {
-            // ignore per-verse errors
+            const text = await this.bibleService.getVerseText(verseId, version);
+            this.verses.update((current) =>
+              current.map((item) =>
+                item.id === verseId
+                  ? { ...item, text: text || item.text, likeCount: likeCounts.get(verseId) || item.likeCount }
+                  : item
+              )
+            );
+          } catch {
+            // ignore per-reference errors
           }
-        }));
-      }
+        })
+      );
     }
+
+    this.isLoading.set(false);
   }
 
   removeVerse(verseId: string) {
@@ -194,40 +165,6 @@ export class CollectionViewerComponent implements OnInit {
     if (!col) return;
     this.collectionService.removeVerse(col.id, verseId);
     this.verses.update(v => v.filter(verse => verse.id !== verseId));
-  }
-
-  async addVerse() {
-    const input = this.newVerseInput().trim();
-    const col = this.collection();
-    if (!input || !col) return;
-
-    // Parse input like "gen 1:1" or "Genesis 1:1"
-    const match = input.match(/^([a-z0-9]+)\s+(\d+):(\d+)$/i);
-    if (!match) {
-      this.errorMessage.set('Helytelen formátum. Példa: gen 1:1');
-      setTimeout(() => this.errorMessage.set(null), 3000);
-      return;
-    }
-
-    const [, book, chapter, verse] = match;
-    const verseId = `${book.toLowerCase()}-${chapter}-${verse}`;
-
-    // Check if verse exists
-    const version = this.state.currentBibleVersion();
-    const vid = `${book.toLowerCase()}-${chapter}-${verse}`;
-    const text = await this.bibleService.getVerseText(vid, version);
-
-    if (!text) {
-      this.errorMessage.set('Vers nem található');
-      setTimeout(() => this.errorMessage.set(null), 3000);
-      return;
-    }
-
-    // Add to collection
-    this.collectionService.addVerse(col.id, verseId);
-    this.verses.update(v => [...v, { id: verseId, text, book, chapter, verse }]);
-    this.newVerseInput.set('');
-    this.showAddVerseModal.set(false);
   }
 
   // --- VERSE PICKER ---
@@ -261,20 +198,31 @@ export class CollectionViewerComponent implements OnInit {
     const actualStart = Math.min(start, end);
     const actualEnd = Math.max(start, end);
 
-    const version = this.state.currentBibleVersion();
+    const verseRef = actualStart === actualEnd
+      ? `${book}-${chapter}-${actualStart}`
+      : `${book}-${chapter}-${actualStart}-${actualEnd}`;
 
-    // Add each verse in the range
-    for (let v = actualStart; v <= actualEnd; v++) {
-      const verseId = `${book}-${chapter}-${v}`;
-      const text = await this.bibleService.getVerseText(verseId, version);
-      if (text) {
-        this.collectionService.addVerse(col.id, verseId);
-        this.verses.update(vList => [...vList, { id: verseId, text, book, chapter: String(chapter), verse: String(v) }]);
-      }
-    }
+    this.collectionService.addVerse(col.id, verseRef);
 
     this.showVersePicker.set(false);
     await this.loadVerses(); // Reload to ensure correct sorting
+  }
+
+  getVerseComment(verseId: string): string {
+    const col = this.collection();
+    if (!col) return '';
+    return this.collectionService.getVerseComment(col.id, verseId);
+  }
+
+  setVerseComment(verseId: string, value: string) {
+    const col = this.collection();
+    if (!col) return;
+    this.collectionService.setVerseComment(col.id, verseId, value);
+
+    const updated = this.collectionService.getCollection(col.id);
+    if (updated) {
+      this.collection.set(updated);
+    }
   }
 
   navigateToVerse(book: string, chapter: string) {

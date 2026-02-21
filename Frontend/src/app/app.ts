@@ -1,4 +1,4 @@
-import { Component, inject, signal } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { DefinitionModal } from './components/definition-modal/definition-modal';
 import { HeaderComponent } from './components/header-component/header-component';
@@ -12,7 +12,6 @@ import { AuthService } from './services/auth-service/auth.service';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('frontend');
   private auth = inject(AuthService);
 
   constructor() {

@@ -15,7 +15,7 @@
           </h1>
 
           <!-- Add Verse Button (mobile: icon only) -->
-          <button (click)="showAddVerseModal.set(true)"
+            <button (click)="openVersePicker(); showAddVerseModal.set(true)"
                   class="flex items-center gap-2 px-3 py-2 sm:px-4 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition shadow-sm">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
@@ -60,7 +60,7 @@
           </div>
           <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">Üres gyűjtemény</h3>
           <p class="text-gray-600 dark:text-gray-400 mb-6">Kezdd el felépíteni a gyűjteményedet igék hozzáadásával</p>
-          <button (click)="showAddVerseModal.set(true)"
+            <button (click)="openVersePicker(); showAddVerseModal.set(true)"
                   class="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition shadow-sm">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
@@ -108,6 +108,20 @@
               <p class="text-gray-700 dark:text-gray-300 leading-relaxed text-sm sm:text-base">
                 {{ verse.text }}
               </p>
+
+              <!-- Verse Comment -->
+              <div class="mt-3 border-t border-gray-100 dark:border-gray-700 pt-3">
+                <label class="block text-xs font-medium text-gray-500 dark:text-gray-400 mb-1">
+                  {{ state.lang() === 'hu' ? 'Megjegyzés' : 'Comment' }}
+                </label>
+                <textarea
+                  rows="2"
+                  [ngModel]="getVerseComment(verse.id)"
+                  (ngModelChange)="setVerseComment(verse.id, $event)"
+                  [placeholder]="state.lang() === 'hu' ? 'Megjegyzés ehhez a hivatkozáshoz...' : 'Comment for this reference...'"
+                  class="w-full px-3 py-2 rounded-lg border border-gray-200 dark:border-gray-600 bg-gray-50 dark:bg-gray-700 text-sm text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition"
+                ></textarea>
+              </div>
             </div>
           }
         </div>
@@ -145,59 +159,14 @@
           </div>
         }
 
-        <!-- Tab Selection -->
-        <div class="mb-4 flex gap-2 border-b border-gray-200 dark:border-gray-700">
-          <button (click)="showVersePicker.set(false)"
-                  class="px-4 py-2 font-medium text-sm transition-colors"
-                  [class]="!showVersePicker() ? 'text-blue-600 border-b-2 border-blue-600' : 'text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300'">
-            🔤 Kézi bevitel
-          </button>
-          <button (click)="openVersePicker()"
-                  class="px-4 py-2 font-medium text-sm transition-colors"
-                  [class]="showVersePicker() ? 'text-blue-600 border-b-2 border-blue-600' : 'text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300'">
-            📖 Kiválasztás
-          </button>
-        </div>
-
-        @if (!showVersePicker()) {
-          <!-- Manual Input -->
-          <div class="mb-4">
-          <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-            Ige hivatkozás (pl: gen 1:1)
-          </label>
-          <input
-            type="text"
-            [ngModel]="newVerseInput()"
-            (ngModelChange)="newVerseInput.set($event)"
-            (keyup.enter)="addVerse()"
-            placeholder="gen 1:1"
-            class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition"
-            autofocus
-          />
-          <p class="mt-2 text-xs text-gray-500 dark:text-gray-400">
-            Példák: gen 1:1, mat 5:3, jn 3:16
-          </p>
-        </div>
-
-        <div class="flex gap-3">
-          <button (click)="showAddVerseModal.set(false)"
-                  class="flex-1 px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700 font-medium transition">
-            Mégse
-          </button>
-          <button (click)="addVerse()"
-                  class="flex-1 px-4 py-3 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-medium transition shadow-sm">
-            Hozzáad
-          </button>
-        </div>
-        } @else {
-          <!-- Verse Picker -->
+        <!-- Verse Picker -->
           <div class="mb-4 space-y-4">
             <!-- Book Selection -->
             <div>
               <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                 Könyv
               </label>
-              <select [(ngModel)]="pickerBook" (ngModelChange)="onPickerBookChange($event)"
+              <select [ngModel]="pickerBook()" (ngModelChange)="onPickerBookChange($event)"
                       class="w-full px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none">
                 @for (book of allBooks(); track book.id) {
                   <option [value]="book.id">{{ book.name }}</option>
@@ -211,7 +180,7 @@
                 Fejezet
               </label>
               <input type="number" min="1" [max]="pickerBookMaxChapters()"
-                     [(ngModel)]="pickerChapter" (ngModelChange)="onPickerChapterChange($event)"
+                     [ngModel]="pickerChapter()" (ngModelChange)="onPickerChapterChange($event)"
                      class="w-full px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none">
             </div>
 
@@ -222,7 +191,7 @@
                   Kezdő vers
                 </label>
                 <input type="number" min="1" [max]="maxVerseInChapter()"
-                       [(ngModel)]="pickerStartVerse"
+                       [ngModel]="pickerStartVerse()" (ngModelChange)="pickerStartVerse.set(+$event)"
                        class="w-full px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none">
               </div>
               <div>
@@ -230,7 +199,7 @@
                   Záró vers
                 </label>
                 <input type="number" min="1" [max]="maxVerseInChapter()"
-                       [(ngModel)]="pickerEndVerse"
+                       [ngModel]="pickerEndVerse()" (ngModelChange)="pickerEndVerse.set(+$event)"
                        class="w-full px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none">
               </div>
             </div>
@@ -250,7 +219,6 @@
               Hozzáad
             </button>
           </div>
-        }
       </div>
     </div>
   }

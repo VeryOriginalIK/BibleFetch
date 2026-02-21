@@ -9,6 +9,7 @@ import { StrongDefinition } from '../../models/strong-definition-model';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './definition-modal.html',
+  styleUrl: './definition-modal.css',
 })
 export class DefinitionModal {
   state = inject(StateService);

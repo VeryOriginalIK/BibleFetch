@@ -61,12 +61,6 @@ export const routes: Routes = [
     title: 'Gyűjtemény',
   },
   {
-    path: 'read/:trans/:book/:chapter',
-    loadComponent: () =>
-      import('./components/reader-component/reader-component').then(m => m.ReaderComponent),
-    title: 'Bibliaolvasó',
-  },
-  {
     path: '**',
     redirectTo: '',
     pathMatch: 'full',

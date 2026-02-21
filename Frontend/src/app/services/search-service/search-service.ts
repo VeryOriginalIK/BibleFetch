@@ -27,6 +27,14 @@ export class SearchService {
   /** Cache of which translations have a search index */
   private indexAvailabilityCache = new Map<string, boolean>();
 
+  /** Cache of loaded original-language buckets */
+  private originalBucketCache = new Map<string, Record<string, string[]>>();
+
+  /** Cache for original-language index availability */
+  private originalIndexAvailable: boolean | null = null;
+
+  private readonly ORIGINAL_INDEX_TRANSLATION = 'asvs';
+
   private get baseUrl(): string {
     return isPlatformBrowser(this.platformId) ? '/assets' : 'http://127.0.0.1:4200/assets';
   }
@@ -45,8 +53,9 @@ export class SearchService {
       this.indexAvailabilityCache.set(translation, true);
       return true;
     } catch {
-      this.indexAvailabilityCache.set(translation, false);
-      return false;
+      const originalAvailable = await this.hasOriginalIndex();
+      this.indexAvailabilityCache.set(translation, originalAvailable);
+      return originalAvailable;
     }
   }
 
@@ -61,18 +70,32 @@ export class SearchService {
     const normalizedQuery = query.toLowerCase().trim();
     const bucket = this.getBucket(normalizedQuery);
 
-    // Load the bucket file
+    // Load the translation bucket file
     const words = await this.loadBucket(translation, bucket);
-    if (!words) return [];
 
     // Find exact and prefix matches
     const results: SearchResult[] = [];
 
-    for (const [word, verseIds] of Object.entries(words)) {
-      if (word === normalizedQuery || word.startsWith(normalizedQuery)) {
-        results.push({ word, verseIds: verseIds.slice(0, maxResults), totalCount: verseIds.length });
+    if (words) {
+      for (const [word, verseIds] of Object.entries(words)) {
+        if (word === normalizedQuery || word.startsWith(normalizedQuery)) {
+          results.push({ word, verseIds: verseIds.slice(0, maxResults), totalCount: verseIds.length });
+        }
+        if (results.length >= 50) break; // Cap word matches
       }
-      if (results.length >= 50) break; // Cap word matches
+    }
+
+    // Fallback to original-language index if no translation hits
+    if (results.length === 0) {
+      const originalWords = await this.loadOriginalBucket(bucket);
+      if (originalWords) {
+        for (const [word, verseIds] of Object.entries(originalWords)) {
+          if (word === normalizedQuery || word.startsWith(normalizedQuery)) {
+            results.push({ word, verseIds: verseIds.slice(0, maxResults), totalCount: verseIds.length });
+          }
+          if (results.length >= 50) break;
+        }
+      }
     }
 
     // Sort: exact match first, then by number of occurrences (use totalCount when available)
@@ -96,7 +119,7 @@ export class SearchService {
       return this.bucketCache.get(cacheKey)!;
     }
 
-    const url = `${this.baseUrl}/index/search/${translation}/${bucket}.json`;
+    const url = `${this.baseUrl}/index/search/${translation}/${encodeURIComponent(bucket)}.json`;
     try {
       const data = await firstValueFrom(
         this.http.get<Record<string, string[]>>(url)
@@ -104,6 +127,37 @@ export class SearchService {
       this.bucketCache.set(cacheKey, data);
       return data;
     } catch (err) {
+      return null;
+    }
+  }
+
+  private async hasOriginalIndex(): Promise<boolean> {
+    if (!isPlatformBrowser(this.platformId)) return false;
+    if (this.originalIndexAvailable !== null) return this.originalIndexAvailable;
+
+    const url = `${this.baseUrl}/index/original-language/${this.ORIGINAL_INDEX_TRANSLATION}/index.json`;
+    try {
+      await firstValueFrom(this.http.get(url));
+      this.originalIndexAvailable = true;
+      return true;
+    } catch {
+      this.originalIndexAvailable = false;
+      return false;
+    }
+  }
+
+  private async loadOriginalBucket(bucket: string): Promise<Record<string, string[]> | null> {
+    const cacheKey = `${this.ORIGINAL_INDEX_TRANSLATION}_${bucket}`;
+    if (this.originalBucketCache.has(cacheKey)) {
+      return this.originalBucketCache.get(cacheKey)!;
+    }
+
+    const url = `${this.baseUrl}/index/original-language/${this.ORIGINAL_INDEX_TRANSLATION}/${encodeURIComponent(bucket)}.json`;
+    try {
+      const data = await firstValueFrom(this.http.get<Record<string, string[]>>(url));
+      this.originalBucketCache.set(cacheKey, data);
+      return data;
+    } catch {
       return null;
     }
   }
@@ -119,7 +173,16 @@ export class SearchService {
     const words = await this.loadBucket(translation, bucket);
     if (!words) return null;
     const normalized = word.toLowerCase();
-    return words[normalized] ?? null;
+    if (words?.[normalized]) {
+      return words[normalized];
+    }
+
+    const originalWords = await this.loadOriginalBucket(bucket);
+    if (originalWords?.[normalized]) {
+      return originalWords[normalized];
+    }
+
+    return null;
   }
 
   /**

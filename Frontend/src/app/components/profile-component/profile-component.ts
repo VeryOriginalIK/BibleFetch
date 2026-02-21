@@ -1,6 +1,5 @@
 import { Component, inject, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { CollectionService } from '../../services/collection-service/collection-service';
 import { AuthService } from '../../services/auth-service/auth.service';
@@ -8,7 +7,7 @@ import { AuthService } from '../../services/auth-service/auth.service';
 @Component({
   standalone: true,
   selector: 'app-profile',
-  imports: [CommonModule, FormsModule, RouterModule],
+  imports: [CommonModule, RouterModule],
   templateUrl: './profile-component.html',
 })
 export class ProfileComponent {
@@ -37,7 +36,7 @@ export class ProfileComponent {
   }
 
   async syncToSupabase() {
-    if (!this.auth.isLoggedIn) {
+    if (!this.auth.isLoggedIn()) {
       this.status.set('Jelentkezz be a szinkronizáláshoz!');
       setTimeout(() => this.status.set(null), 3000);
       return;
@@ -50,7 +49,7 @@ export class ProfileComponent {
   }
 
   async loadFromSupabase() {
-    if (!this.auth.isLoggedIn) {
+    if (!this.auth.isLoggedIn()) {
       this.status.set('Jelentkezz be a letöltéshez!');
       setTimeout(() => this.status.set(null), 3000);
       return;
@@ -64,7 +63,7 @@ export class ProfileComponent {
   }
 
   async togglePublicStatus(collectionId: string, currentStatus: boolean) {
-    if (!this.auth.isLoggedIn) {
+    if (!this.auth.isLoggedIn()) {
       this.status.set('Jelentkezz be a megosztáshoz!');
       setTimeout(() => this.status.set(null), 3000);
       return;

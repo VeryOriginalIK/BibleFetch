@@ -11,7 +11,7 @@
   <!-- Auth status card -->
   <section class="mb-6 p-4 rounded-xl bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700">
     <h3 class="font-semibold text-lg mb-2">👤 Fiók</h3>
-    @if (auth.isLoggedIn) {
+    @if (auth.isLoggedIn()) {
       <p class="text-sm text-gray-600 dark:text-gray-400 mb-3">
         Bejelentkezve: <strong>{{ auth.user()?.email }}</strong>
       </p>
@@ -45,16 +45,16 @@
 
   <!-- Supabase sync section -->
   <section class="mb-6 p-4 rounded-xl bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700">
-    <h3 class="font-semibold text-lg mb-3">☁️ Felhő szinkron (Supabase)</h3>
-    @if (!auth.isLoggedIn) {
-      <p class="text-sm text-amber-600 dark:text-amber-400 mb-3">A szinkron bejelentkezést igényel.</p>
+    <h3 class="font-semibold text-lg mb-3">☁️ Feltöltés a felhőbe</h3>
+    @if (!auth.isLoggedIn()) {
+      <p class="text-sm text-amber-600 dark:text-amber-400 mb-3">A szinkronizálás bejelentkezést igényel.</p>
     }
     <div class="flex gap-2 flex-wrap">
       <button (click)="syncToSupabase()" class="px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium transition">
-        Szinkronizálás → Supabase
+        Szinkronizálás → Szerver
       </button>
       <button (click)="loadFromSupabase()" class="px-4 py-2 rounded-lg bg-purple-600 hover:bg-purple-700 text-white text-sm font-medium transition">
-        Betöltés ← Supabase
+        Betöltés ← Szerver
       </button>
     </div>
   </section>
@@ -68,7 +68,7 @@
       </a>
     </div>
 
-    @if (!auth.isLoggedIn) {
+    @if (!auth.isLoggedIn()) {
       <p class="text-sm text-amber-600 dark:text-amber-400 mb-3">A megosztás bejelentkezést igényel.</p>
     } @else {
       <p class="text-sm text-gray-600 dark:text-gray-400 mb-4">
@@ -112,8 +112,6 @@
     <ul class="text-sm text-gray-700 dark:text-gray-300 space-y-1 list-disc list-inside">
       <li>A <strong>frontend statikus</strong> — gyűjtemények alapértelmezetten <code>localStorage</code>-ban tárolódnak.</li>
       <li>Az <strong>export/import</strong> offline is működik — .json fájlba menti.</li>
-      <li>A <strong>Supabase sync</strong> lehetővé teszi az eszközök közötti szinkronizálást.</li>
-      <li>Üzemi (production) telepítéshez a Supabase kulcsokat <strong>Vercel environment variables</strong>-ba helyezd.</li>
     </ul>
   </section>
 </div>

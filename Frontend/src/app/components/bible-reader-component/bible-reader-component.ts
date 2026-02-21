@@ -36,10 +36,11 @@ export class BibleReaderComponent implements OnDestroy {
   isLast = signal<boolean>(true);
 
   // Verse selection state
-  selectedVerseId = signal<string | null>(null);
+  selectedVerseIds = signal<string[]>([]);
+  rangeAnchorVerseId = signal<string | null>(null);
 
   // Collection picker state
-  collectionPickerVerseId = signal<string | null>(null);
+  collectionPickerOpen = signal<boolean>(false);
   newCollectionName = signal<string>('');
 
   // Book/Chapter selector state
@@ -64,9 +65,17 @@ export class BibleReaderComponent implements OnDestroy {
     return book.name[this.state.lang()] || book.name['hu'] || book.id;
   });
 
+  selectedVerseCount = computed(() => this.selectedVerseIds().length);
+
   private routeSub: Subscription;
+  private previousLang: string = '';
+  private previousVersion: string = '';
 
   constructor() {
+    // Initialize previous values to prevent duplicate initial load
+    this.previousLang = this.state.lang();
+    this.previousVersion = this.state.currentBibleVersion();
+
     // 1. Listen to URL params
     this.routeSub = this.route.paramMap.subscribe((params) => {
       const b = params.get('book');
@@ -82,12 +91,14 @@ export class BibleReaderComponent implements OnDestroy {
       }
     });
 
-    // 2. Reload when language or version changes
+    // 2. Reload when language or version changes (skip if unchanged)
     effect(() => {
-      this.state.lang();
-      this.state.currentBibleVersion();
+      const currentLang = this.state.lang();
+      const currentVersion = this.state.currentBibleVersion();
 
-      if (this.bookId()) {
+      if (this.bookId() && (currentLang !== this.previousLang || currentVersion !== this.previousVersion)) {
+        this.previousLang = currentLang;
+        this.previousVersion = currentVersion;
         this.loadContent();
       }
     });
@@ -100,6 +111,9 @@ export class BibleReaderComponent implements OnDestroy {
 
   async loadContent() {
     this.isLoading.set(true);
+    this.selectedVerseIds.set([]);
+    this.rangeAnchorVerseId.set(null);
+    this.collectionPickerOpen.set(false);
     const currentVer = this.state.currentBibleVersion();
     const currentLang = this.state.lang();
     const bId = this.bookId();
@@ -179,37 +193,137 @@ export class BibleReaderComponent implements OnDestroy {
     const target = event.target as HTMLElement;
     if (target.closest('button') || target.closest('.word-with-strong') || target.closest('.collection-picker')) return;
 
-    // Close collection picker if open on another verse
-    this.collectionPickerVerseId.set(null);
-    this.selectedVerseId.update((cur) => (cur === verseId ? null : verseId));
+    this.collectionPickerOpen.set(false);
+
+    const ids = this.verses().map((v) => v.id);
+    const anchor = this.rangeAnchorVerseId();
+
+    if (!anchor) {
+      this.rangeAnchorVerseId.set(verseId);
+      this.selectedVerseIds.set([verseId]);
+      return;
+    }
+
+    if (anchor === verseId) {
+      this.rangeAnchorVerseId.set(null);
+      this.selectedVerseIds.set([]);
+      return;
+    }
+
+    const anchorIndex = ids.indexOf(anchor);
+    const currentIndex = ids.indexOf(verseId);
+
+    if (anchorIndex === -1 || currentIndex === -1) {
+      this.rangeAnchorVerseId.set(verseId);
+      this.selectedVerseIds.set([verseId]);
+      return;
+    }
+
+    const start = Math.min(anchorIndex, currentIndex);
+    const end = Math.max(anchorIndex, currentIndex);
+    this.selectedVerseIds.set(ids.slice(start, end + 1));
   }
 
-  // Open collection picker for a verse
+  // Open collection picker for selected verses
   openCollectionPicker(verseId: string, event: MouseEvent) {
     event.stopPropagation();
-    this.collectionPickerVerseId.update((cur) => (cur === verseId ? null : verseId));
+
+    if (!this.selectedVerseIds().includes(verseId)) {
+      this.rangeAnchorVerseId.set(verseId);
+      this.selectedVerseIds.set([verseId]);
+    }
+
+    this.collectionPickerOpen.update((open) => !open);
     this.newCollectionName.set('');
   }
 
-  // Toggle verse in/out of a specific collection
-  toggleVerseInCollection(collectionId: string, verseId: string, event: MouseEvent) {
+  // Toggle selected verses in/out of a specific collection
+  toggleVersesInCollection(collectionId: string, event: MouseEvent) {
     event.stopPropagation();
-    this.collectionService.toggleVerse(collectionId, verseId);
+    const selected = this.selectedVerseIds();
+    if (selected.length === 0) return;
+
+    const spanRef = this.toSelectionReference(selected);
+    if (!spanRef) return;
+
+    const allSinglesInCollection = selected.every((verseId) =>
+      this.collectionService.isVerseInCollection(collectionId, verseId)
+    );
+
+    if (this.collectionService.isVerseInCollection(collectionId, spanRef)) {
+      this.collectionService.removeVerse(collectionId, spanRef);
+      return;
+    }
+
+    if (allSinglesInCollection) {
+      this.collectionService.removeVerses(collectionId, selected);
+      return;
+    }
+
+    this.collectionService.addVerse(collectionId, spanRef);
   }
 
-  // Create a new collection and add the verse to it
-  createAndAddToCollection(verseId: string) {
+  areAllSelectedInCollection(collectionId: string): boolean {
+    const selected = this.selectedVerseIds();
+    if (selected.length === 0) return false;
+
+    const spanRef = this.toSelectionReference(selected);
+    if (spanRef && this.collectionService.isVerseInCollection(collectionId, spanRef)) {
+      return true;
+    }
+
+    return selected.every((verseId) => this.collectionService.isVerseInCollection(collectionId, verseId));
+  }
+
+  // Create a new collection and add selected verses to it
+  createAndAddToCollection() {
     const name = this.newCollectionName().trim();
     if (!name) return;
+    const selected = this.selectedVerseIds();
+    if (selected.length === 0) return;
+
+    const spanRef = this.toSelectionReference(selected);
+    if (!spanRef) return;
 
     const col = this.collectionService.createCollection(name);
-    this.collectionService.addVerse(col.id, verseId);
+    this.collectionService.addVerse(col.id, spanRef);
     this.newCollectionName.set('');
+    this.collectionPickerOpen.set(false);
   }
 
   // Close collection picker
   closeCollectionPicker() {
-    this.collectionPickerVerseId.set(null);
+    this.collectionPickerOpen.set(false);
+  }
+
+  clearSelectedVerses(event?: Event) {
+    event?.stopPropagation();
+    this.selectedVerseIds.set([]);
+    this.rangeAnchorVerseId.set(null);
+    this.collectionPickerOpen.set(false);
+  }
+
+  private toSelectionReference(selectedVerseIds: string[]): string | null {
+    if (selectedVerseIds.length === 0) return null;
+    if (selectedVerseIds.length === 1) return selectedVerseIds[0];
+
+    const refs = selectedVerseIds
+      .map((id) => this.data.parseVerseRef(id))
+      .filter((ref): ref is { bookId: string; chapter: string; verseStart: number; verseEnd: number } => !!ref);
+
+    if (refs.length !== selectedVerseIds.length) return null;
+
+    const bookId = refs[0].bookId;
+    const chapter = refs[0].chapter;
+    if (refs.some((r) => r.bookId !== bookId || r.chapter !== chapter)) {
+      return null;
+    }
+
+    const starts = refs.map((r) => r.verseStart);
+    const start = Math.min(...starts);
+    const end = Math.max(...starts);
+
+    return `${bookId}-${chapter}-${start}-${end}`;
   }
 
   // Prefetch adjacent chapters for faster navigation

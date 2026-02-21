@@ -15,7 +15,6 @@ export class StateService {
   readonly theme = signal<AppTheme>('light');
   readonly currentBibleVersion = signal<string>('karoli');
   readonly selectedStrongId = signal<string | null>(null);
-  readonly definitionModalOpen = signal<boolean>(false);
 
   // Last reading position (persisted)
   readonly lastBook = signal<string>('gen');
@@ -57,11 +56,9 @@ export class StateService {
 
   openDefinition(strongId: string) {
     this.selectedStrongId.set(strongId);
-    this.definitionModalOpen.set(true);
   }
 
   closeDefinition() {
-    this.definitionModalOpen.set(false);
     this.selectedStrongId.set(null);
   }
 

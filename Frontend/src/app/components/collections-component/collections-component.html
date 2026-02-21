@@ -97,7 +97,7 @@
 
                 <svg
                   class="w-5 h-5 text-gray-400 transition-transform"
-                  [class.rotate-180]="expandedCollectionId === collection.id"
+                  [class.rotate-180]="expandedCollectionId() === collection.id"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -108,7 +108,7 @@
             </button>
 
             <!-- Verses list (expanded) -->
-            @if (expandedCollectionId === collection.id) {
+            @if (expandedCollectionId() === collection.id) {
               <div class="border-t border-gray-100 dark:border-gray-800 bg-gray-50 dark:bg-gray-950">
                 @if (collection.verse_ids.length === 0) {
                   <p class="text-sm text-gray-400 text-center py-4">Ez a gyűjtemény még üres</p>

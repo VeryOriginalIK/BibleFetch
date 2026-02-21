@@ -1,9 +1,11 @@
-import { Component, signal, ViewChild, ElementRef, inject } from '@angular/core';
+import { Component, signal, ViewChild, ElementRef, inject, DestroyRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Router, RouterModule } from '@angular/router';
+import { NavigationEnd, Router, RouterModule } from '@angular/router';
 import { AuthService } from '../../services/auth-service/auth.service';
 import { StateService } from '../../services/state-service/state-service';
 import { VersionSelectorComponent } from '../version-selector/version-selector';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
+import { filter } from 'rxjs/operators';
 
 @Component({
   selector: 'app-header',
@@ -29,8 +31,20 @@ export class HeaderComponent {
   public auth = inject(AuthService);
   public state = inject(StateService);
   private router = inject(Router);
+  private destroyRef = inject(DestroyRef);
 
-  @ViewChild('searchInput') searchInput!: ElementRef;
+  @ViewChild('searchInput') searchInput?: ElementRef;
+
+  constructor() {
+    this.router.events
+      .pipe(
+        filter((event) => event instanceof NavigationEnd),
+        takeUntilDestroyed(this.destroyRef)
+      )
+      .subscribe(() => {
+        this.isSearchActive.set(false);
+      });
+  }
 
   toggleSearch(state: boolean) {
     this.isSearchActive.set(state);
@@ -44,8 +58,10 @@ export class HeaderComponent {
   }
 
   onSearch(value: string) {
-    if (value.trim()) {
-      this.router.navigate(['/search'], { queryParams: { q: value } });
+    const query = value.trim();
+    if (query) {
+      this.isSearchActive.set(false);
+      this.router.navigate(['/search'], { queryParams: { q: query } });
     }
   }
 

@@ -109,9 +109,6 @@ async function auditRoute(
 async function run() {
   mkdirSync(OUT, { recursive: true });
 
-  console.log(`\n🔍 BibleFetch Audit — ${BASE}\n`);
-  console.log('─'.repeat(60));
-
   let browser: Browser;
   try {
     browser = await chromium.launch({ headless: true });

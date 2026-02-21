@@ -2,6 +2,7 @@ import { Component, OnInit, inject } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { TopicService } from '../../services/topic-service/topic-service';
 import { CollectionService } from '../../services/collection-service/collection-service';
+import { StateService } from '../../services/state-service/state-service';
 import { take } from 'rxjs';
 
 /**
@@ -23,6 +24,7 @@ export class TopicRedirectComponent implements OnInit {
   private router = inject(Router);
   private topicsService = inject(TopicService);
   private collectionService = inject(CollectionService);
+  private state = inject(StateService);
 
   ngOnInit() {
     const topicId = this.route.snapshot.paramMap.get('id');
@@ -37,7 +39,7 @@ export class TopicRedirectComponent implements OnInit {
         // Sync topic as a collection
         this.collectionService.syncTopicCollection(
           topic.id,
-          topic.titles.hu, // Use Hungarian title as default
+          topic.titles[this.state.lang()] || topic.titles['hu'] || topic.id,
           topic.verses,
           topic.theme_color
         );

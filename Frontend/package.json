@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.0.1",
   "scripts": {
-    "generate": "node ./generate/generate-bibles && node ./generate/generate-strongs && node ./generate/generate-topics && node ./generate/generate-search-index",
+    "generate": "node ./generate/generate-bibles && node ./generate/generate-strongs && node ./generate/generate-topics && node ./generate/generate-search-index && node ./generate/generate-original-language-index",
     "ng": "ng",
     "start": "ng serve",
     "build": "npm run generate && ng build && node inject-env.js",

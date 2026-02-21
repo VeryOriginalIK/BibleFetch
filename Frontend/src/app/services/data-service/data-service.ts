@@ -22,6 +22,7 @@ export class BibleDataService {
   private topicListCache: TopicSummary[] | null = null;
   private topicDetailsCache = new Map<string, TopicDetail>();
   private chunkCache = new Map<string, VerseChunk>();
+  private chunkLoadingPromises = new Map<string, Promise<VerseChunk | null>>();
 
   constructor(@Inject(PLATFORM_ID) private platformId: Object) {
     // Rehydrate chapter cache from sessionStorage on browser
@@ -134,7 +135,12 @@ export class BibleDataService {
     versionId: string
   ): Promise<VerseChunk | null> {
     const cacheKey = `${versionId}_${bookId}_${chapter}`;
+
+    // Return cached chunk if available
     if (this.chunkCache.has(cacheKey)) return this.chunkCache.get(cacheKey)!;
+
+    // Return in-flight promise if already loading
+    if (this.chunkLoadingPromises.has(cacheKey)) return this.chunkLoadingPromises.get(cacheKey)!;
 
     await this.loadMetadata();
 
@@ -178,20 +184,29 @@ export class BibleDataService {
     const url = `${this.baseUrl}/bibles/${folderName}/${bookId}/${chapter}.json`;
     console.debug(`[DataService] Loading verse chunk from: ${url}`);
 
-    try {
-      const chunk = await firstValueFrom(this.http.get<VerseChunk>(url));
-      if (!chunk || !Array.isArray(chunk)) {
-        console.warn('[DataService] Invalid chunk response (not an array):', url, chunk);
+    // Create and cache the loading promise to deduplicate concurrent requests
+    const loadPromise = (async () => {
+      try {
+        const chunk = await firstValueFrom(this.http.get<VerseChunk>(url));
+        if (!chunk || !Array.isArray(chunk)) {
+          console.warn('[DataService] Invalid chunk response (not an array):', url, chunk);
+          return null;
+        }
+        this.chunkCache.set(cacheKey, chunk);
+        this.persistChunkCache();
+        console.debug(`[DataService] Successfully cached ${chunk.length} verses for ${versionId}/${bookId}/${chapter}`);
+        return chunk;
+      } catch (e) {
+        console.error('[DataService] Failed to load chapter', url, e);
         return null;
+      } finally {
+        // Remove from in-flight map once completed
+        this.chunkLoadingPromises.delete(cacheKey);
       }
-      this.chunkCache.set(cacheKey, chunk);
-      this.persistChunkCache();
-      console.debug(`[DataService] Successfully cached ${chunk.length} verses for ${versionId}/${bookId}/${chapter}`);
-      return chunk;
-    } catch (e) {
-      console.error('[DataService] Failed to load chapter', url, e);
-      return null;
-    }
+    })();
+
+    this.chunkLoadingPromises.set(cacheKey, loadPromise);
+    return loadPromise;
   }
 
   /** Persist recent chunk cache entries to sessionStorage (keep last 20 for efficiency) */

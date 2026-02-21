@@ -52,10 +52,10 @@
           type="text"
           [value]="query()"
           (input)="onInput($any($event.target).value)"
+          (keydown.enter)="doSearch()"
           [placeholder]="state.lang() === 'hu' ? 'Keresés a Bibliában...' : 'Search the Bible...'"
           class="w-full pl-10 pr-4 py-2.5 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
           autofocus
-          [disabled]="!hasSearchIndex()"
         />
         @if (isSearching()) {
           <div class="absolute right-3 top-1/2 -translate-y-1/2">
@@ -260,40 +260,7 @@
                 }
               </p>
 
-              <!-- Show / hide full list of unique verses -->
-              <div class="w-full flex justify-center mb-4">
-                <button (click)="toggleAllVerses()"
-                        class="px-3 py-1.5 rounded-full text-sm font-medium bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:border-blue-400 hover:text-blue-600 transition-colors shadow-sm">
-                  @if (!showAllVerses()) {
-                    {{ state.lang() === 'hu' ? 'Mutasd az összes verset' : 'Show all verses' }}
-                    <span class="ml-2 text-xs text-gray-400">({{ getUniqueVerseCount() }})</span>
-                  } @else {
-                    {{ state.lang() === 'hu' ? 'Elrejtés' : 'Hide all verses' }}
-                  }
 
-                  @if (isLoadingAllVerses()) {
-                    <span class="ml-2 text-xs text-gray-400">• {{ state.lang() === 'hu' ? 'Betöltés' : 'Loading' }}…</span>
-                  }
-                </button>
-              </div>
-
-              @if (showAllVerses()) {
-                @if (isLoadingAllVerses()) {
-                  <div class="flex justify-center py-4 text-sm text-gray-500">{{ state.lang() === 'hu' ? 'Összes vers betöltése…' : 'Loading all verses…' }}</div>
-                }
-
-                <div class="space-y-3 max-h-[60vh] overflow-auto">
-                  @for (v of allVerses(); track v.verseId) {
-                    <button id="all-{{v.verseId}}" (click)="navigateToVerse(v.verseId)"
-                      class="w-full text-left bg-white dark:bg-gray-800/80 rounded-xl p-4 border border-gray-100 dark:border-gray-700/50 hover:border-blue-300 dark:hover:border-blue-700 hover:shadow-md transition-all group">
-                      <div class="text-xs font-bold text-blue-600 mb-1.5 group-hover:text-blue-700">{{ v.label }}</div>
-                      <div class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
-                        <app-verse-renderer [rawText]="v.text"></app-verse-renderer>
-                      </div>
-                    </button>
-                  }
-                </div>
-              }
             </div>
           }
 
@@ -308,7 +275,7 @@
       }
 
       <!-- Empty state -->
-      @if (query().length >= 2 && results().length === 0 && !isSearching()) {
+      @if (query().length >= 2 && results().length === 0 && strongsResults().length === 0 && !selectedStrong() && !isSearching()) {
         <div class="text-center py-16">
           <div class="text-4xl mb-3">🔍</div>
           <p class="text-gray-500">

@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router, RouterModule } from '@angular/router';
 import { CollectionService } from '../../services/collection-service/collection-service';
@@ -15,14 +15,14 @@ export class CollectionsComponent {
   public collectionService = inject(CollectionService);
   private router = inject(Router);
 
-  expandedCollectionId: string | null = null;
+  expandedCollectionId = signal<string | null>(null);
 
   get hasTopicCollections(): boolean {
     return this.collectionService.collections().some(c => c.topicId);
   }
 
   toggleCollection(id: string) {
-    this.expandedCollectionId = this.expandedCollectionId === id ? null : id;
+    this.expandedCollectionId.set(this.expandedCollectionId() === id ? null : id);
   }
 
   navigateToVerse(verseId: string) {
