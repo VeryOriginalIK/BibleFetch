@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { CollectionService } from '../../services/collection-service/collection-service';
-import { AuthService } from '../../services/auth-service/auth.service';
 import { UserCollection } from '../../models/user-collection-model';
 
 @Component({
@@ -14,7 +13,6 @@ import { UserCollection } from '../../models/user-collection-model';
 })
 export class PublicCollectionsComponent implements OnInit {
   private collectionService = inject(CollectionService);
-  public auth = inject(AuthService);
 
   publicCollections = signal<UserCollection[]>([]);
   isLoading = signal(false);
@@ -74,13 +72,6 @@ export class PublicCollectionsComponent implements OnInit {
   }
 
   async addToLibrary(collection: UserCollection) {
-    // Require auth to copy collections to personal library
-    if (!this.auth.isLoggedIn()) {
-      this.status.set('Jelentkezz be a gyűjtemény hozzáadásához!');
-      setTimeout(() => this.status.set(null), 3000);
-      return;
-    }
-
     this.status.set('Hozzáadás...');
 
     try {

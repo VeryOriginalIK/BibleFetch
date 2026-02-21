@@ -9,6 +9,32 @@ export type AppLang = 'hu' | 'en';
 })
 export class StateService {
   private platformId = inject(PLATFORM_ID);
++
++  /** simple translation lookup table used across the app */
++  private readonly translations: Record<string, { hu: string; en: string }> = {
++    backToHome: { hu: 'Vissza a főoldalra', en: 'Back to home' },
++    searchPlaceholder: { hu: 'Keresés a Bibliában...', en: 'Search the Bible...' },
++    chooseTranslation: { hu: 'Fordítás választása', en: 'Choose Translation' },
++    loadMore: { hu: 'Több betöltése', en: 'Load more' },
++    matches: { hu: 'Találatok:', en: 'Matches:' },
++    occurrences: { hu: 'előfordulás', en: 'occurrences' },
++    uniqueVerses: { hu: 'különböző vers', en: 'unique verses' },
++    searchIndexUnavailable: { hu: 'Keresési index nem elérhető', en: 'Search index not available' },
++    showAll: { hu: 'Mutasd az összes verset', en: 'Show all verses' },
++    hideAll: { hu: 'Elrejtés', en: 'Hide all verses' },
++    back: { hu: 'Vissza', en: 'Back' },
++    comment: { hu: 'Megjegyzés', en: 'Comment' },
++    hideText: { hu: 'Kevesebb', en: 'Show less' },
++    showText: { hu: 'Tovább', en: 'Show more' },
++    emptyCollection: { hu: 'Üres gyűjtemény - Kattints a megnyitáshoz', en: 'Empty collection - Click to open' },
++    privateNotePlaceholder: { hu: 'Megjegyzés ehhez a hivatkozáshoz...', en: 'Comment for this reference...' },
++  };
++
++  translate(key: string): string {
++    const entry = this.translations[key];
++    if (!entry) return key;
++    return entry[this.lang()] || entry.en;
++  }
 
   // --- SIGNALS ---
   readonly lang = signal<AppLang>('hu');

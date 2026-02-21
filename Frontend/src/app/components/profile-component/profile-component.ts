@@ -41,9 +41,9 @@ export class ProfileComponent {
       setTimeout(() => this.status.set(null), 3000);
       return;
     }
-    this.status.set('Szinkronizálás Supabase-be...');
+    this.status.set('Szinkronizálás a felhőbe...');
     const res = await this.collectionService.syncToSupabase();
-    if (res.ok) this.status.set('Szinkronizálva Supabase-be');
+    if (res.ok) this.status.set('Szinkronizálva a felhő-be');
     else this.status.set('Hiba: ' + String((res.error as any)?.message || res.error));
     setTimeout(() => this.status.set(null), 3000);
   }
@@ -54,7 +54,7 @@ export class ProfileComponent {
       setTimeout(() => this.status.set(null), 3000);
       return;
     }
-    this.status.set('Letöltés Supabase-ből...');
+    this.status.set('Letöltés a felhőből...');
     const res = await this.collectionService.loadFromSupabase();
     if (res.ok && res.merged) this.status.set('Gyűjtemények letöltve és összefűzve');
     else if (res.ok) this.status.set('Nincs távoli gyűjtemény');

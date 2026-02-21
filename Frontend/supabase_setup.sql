@@ -109,6 +109,13 @@ FOR SELECT
 TO authenticated
 USING (true);
 
+-- Policy: Anonymous users can also read public collections
+CREATE POLICY "Anonymous can view public collections"
+ON public_collections
+FOR SELECT
+TO anon
+USING (true);
+
 -- Policy: Users can insert their own collections
 CREATE POLICY "Users can share their own collections"
 ON public_collections
@@ -172,6 +179,13 @@ FOR SELECT
 TO authenticated
 USING (true);
 
+-- Policy: Anonymous users can read verse likes too
+CREATE POLICY "Anonymous can view verse likes"
+ON collection_verse_likes
+FOR SELECT
+TO anon
+USING (true);
+
 -- Policy: Users can insert their own likes
 CREATE POLICY "Users can like verses"
 ON collection_verse_likes
@@ -190,3 +204,42 @@ USING (auth.uid() = user_id);
 GRANT SELECT, INSERT, DELETE ON collection_verse_likes TO authenticated;
 
 COMMENT ON TABLE collection_verse_likes IS 'Tracks which users liked which verses in public collections';
+
+
+-- DEFAULT TOPICS TABLE
+-- ================================================
+
+CREATE TABLE IF NOT EXISTS default_topics (
+  id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
+  topic_id TEXT NOT NULL UNIQUE,
+  titles JSONB NOT NULL,
+  description JSONB NOT NULL,
+  icon TEXT NOT NULL DEFAULT 'star',
+  category TEXT NOT NULL DEFAULT 'general',
+  theme_color TEXT,
+  verse_ids TEXT[] NOT NULL DEFAULT '{}',
+  verse_count INT NOT NULL DEFAULT 0,
+  source_hash TEXT,
+  updated_at TIMESTAMP WITH TIME ZONE DEFAULT now(),
+  created_at TIMESTAMP WITH TIME ZONE DEFAULT now()
+);
+
+CREATE INDEX IF NOT EXISTS idx_default_topics_topic_id ON default_topics(topic_id);
+CREATE INDEX IF NOT EXISTS idx_default_topics_category ON default_topics(category);
+
+ALTER TABLE default_topics ENABLE ROW LEVEL SECURITY;
+
+CREATE POLICY "Anyone can read default topics"
+ON default_topics
+FOR SELECT
+TO anon, authenticated
+USING (true);
+
+CREATE TRIGGER update_default_topics_updated_at
+BEFORE UPDATE ON default_topics
+FOR EACH ROW
+EXECUTE FUNCTION update_updated_at_column();
+
+GRANT SELECT ON default_topics TO anon, authenticated;
+
+COMMENT ON TABLE default_topics IS 'Default built-in topics synced from JSON files at build time';

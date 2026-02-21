@@ -4,6 +4,7 @@ import { UserCollection } from '../../models/user-collection-model';
 
 const TABLE = 'user_collections';
 const PUBLIC_TABLE = 'public_collections';
+const DEFAULT_TOPICS_TABLE = 'default_topics';
 
 /**
  * Supabase sync helper — delegates credential/client management to AuthService.
@@ -170,6 +171,40 @@ export class SupabaseSyncService {
     }
 
     return !!data;
+  }
+
+  // --- DEFAULT TOPICS ---
+
+  async loadDefaultTopicsIndex(): Promise<any[]> {
+    const supabase = this.supabase;
+    if (!supabase) throw new Error('Supabase not configured');
+
+    const { data, error } = await supabase
+      .from(DEFAULT_TOPICS_TABLE)
+      .select('topic_id,titles,description,icon,category,theme_color,verse_count')
+      .order('topic_id', { ascending: true });
+
+    if (error) throw error;
+    return data || [];
+  }
+
+  async loadDefaultTopicDetail(topicId: string): Promise<any | null> {
+    const supabase = this.supabase;
+    if (!supabase) throw new Error('Supabase not configured');
+
+    const { data, error } = await supabase
+      .from(DEFAULT_TOPICS_TABLE)
+      .select('topic_id,titles,description,icon,category,theme_color,verse_count,verse_ids')
+      .eq('topic_id', topicId)
+      .single();
+
+    if (error) {
+      const code = (error as any).code ?? (error as any).status;
+      if (code === 'PGRST116' || code === 404) return null;
+      throw error;
+    }
+
+    return data;
   }
 
   // --- VERSE LIKES ---

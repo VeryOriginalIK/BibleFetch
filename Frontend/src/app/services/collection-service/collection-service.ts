@@ -144,14 +144,27 @@ export class CollectionService {
 
   /** Add a public collection from another user to your library */
   async addPublicCollectionToLibrary(publicCollection: UserCollection) {
-    // Create a copy with a new ID but keep reference to original
+    const currentUser = this.auth.user();
+    const existingNames = new Set(this.collections().map((c) => c.name.trim().toLowerCase()));
+    let baseName = publicCollection.name.trim();
+    if (!baseName) baseName = 'Untitled Collection';
+    let nextName = baseName;
+    let suffix = 2;
+    while (existingNames.has(nextName.toLowerCase())) {
+      nextName = `${baseName} (${suffix++})`;
+    }
+
+    // Create a personal fork with a new ID; do not keep original ownership fields.
     const newCollection: UserCollection = {
       ...publicCollection,
       id: crypto.randomUUID?.() ?? Date.now().toString(36),
+      name: nextName,
       last_modified: Date.now(),
       is_public: false, // Not public by default when copied
-      owner_id: publicCollection.owner_id, // Keep original owner for reference
-      owner_email: publicCollection.owner_email,
+      owner_id: currentUser?.id,
+      owner_email: currentUser?.email,
+      topicId: undefined,
+      liked_verses: [],
     };
 
     this.collections.update((list) => [...list, newCollection]);

@@ -75,7 +75,7 @@
             <div class="bg-white dark:bg-gray-800 rounded-xl p-4 sm:p-6 border border-gray-200 dark:border-gray-700 hover:border-blue-300 dark:hover:border-blue-600 transition group">
               <!-- Verse Reference -->
               <div class="flex items-start justify-between gap-3 mb-3">
-                <button (click)="navigateToVerse(verse.book, verse.chapter)"
+                <button (click)="navigateToVerse(verse.book, verse.chapter, verse.id)"
                         class="flex-1 text-left font-semibold text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition">
                   {{ formatVerseRef(verse.book, verse.chapter, verse.verse) }}
                 </button>
@@ -96,7 +96,7 @@
                   }
                   <!-- Delete Button -->
                   <button (click)="removeVerse(verse.id)"
-                          class="p-2 -mt-1 -mr-1 rounded-lg hover:bg-red-50 dark:hover:bg-red-900/20 text-gray-400 hover:text-red-600 dark:hover:text-red-400 transition opacity-0 group-hover:opacity-100">
+                          class="p-2 -mt-1 -mr-1 rounded-lg hover:bg-red-50 dark:hover:bg-red-900/20 text-gray-500 dark:text-gray-300 hover:text-red-600 dark:hover:text-red-400 transition">
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/>
                     </svg>
@@ -104,10 +104,36 @@
                 </div>
               </div>
 
-              <!-- Verse Text -->
-              <p class="text-gray-700 dark:text-gray-300 leading-relaxed text-sm sm:text-base">
-                {{ verse.text }}
-              </p>
+              <!-- Verse Text (2 lines by default) -->
+              <div class="mb-2">
+                <p
+                  class="text-gray-700 dark:text-gray-300 leading-relaxed text-sm sm:text-base"
+                  [class.line-clamp-2]="!isVerseExpanded(verse.id)"
+                >
+                  {{ verse.text }}
+                </p>
+              </div>
+
+              @if (overflowingVerses().has(verse.id)) {
++              <div class="mb-2">
++                <button
++                  (click)="toggleVerseExpanded(verse.id, $event)"
++                  class="inline-flex items-center gap-1 text-xs sm:text-sm font-medium text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition"
++                >
++                  @if (isVerseExpanded(verse.id)) {
++                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
++                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"/>
++                    </svg>
++                    {{ state.lang() === 'hu' ? 'Kevesebb' : 'Show less' }}
++                  } @else {
++                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
++                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
++                    </svg>
++                    {{ state.lang() === 'hu' ? 'Tovább' : 'Show more' }}
++                  }
++                </button>
++              </div>
++              }
 
               <!-- Verse Comment -->
               <div class="mt-3 border-t border-gray-100 dark:border-gray-700 pt-3">

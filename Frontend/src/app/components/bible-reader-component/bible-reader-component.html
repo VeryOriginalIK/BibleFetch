@@ -160,6 +160,7 @@
     @if (!isLoading()) {
       @for (verse of verses(); track verse.id) {
         <div
+          id="verse-{{ verse.id }}"
           class="relative group pl-2 md:pl-0 rounded-lg transition-colors cursor-pointer"
           [class.bg-blue-50]="selectedVerseIds().includes(verse.id)"
           [class.dark:bg-blue-950/30]="selectedVerseIds().includes(verse.id)"

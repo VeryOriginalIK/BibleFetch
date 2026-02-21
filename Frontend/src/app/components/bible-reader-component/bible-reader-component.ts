@@ -68,8 +68,10 @@ export class BibleReaderComponent implements OnDestroy {
   selectedVerseCount = computed(() => this.selectedVerseIds().length);
 
   private routeSub: Subscription;
+  private querySub: Subscription;
   private previousLang: string = '';
   private previousVersion: string = '';
+  private targetVerseNumber: number | null = null;
 
   constructor() {
     // Initialize previous values to prevent duplicate initial load
@@ -91,6 +93,17 @@ export class BibleReaderComponent implements OnDestroy {
       }
     });
 
+    this.querySub = this.route.queryParamMap.subscribe((params) => {
+      const raw = params.get('verse');
+      if (!raw) {
+        this.targetVerseNumber = null;
+        return;
+      }
+
+      const parsed = parseInt(raw, 10);
+      this.targetVerseNumber = Number.isFinite(parsed) && parsed > 0 ? parsed : null;
+    });
+
     // 2. Reload when language or version changes (skip if unchanged)
     effect(() => {
       const currentLang = this.state.lang();
@@ -107,6 +120,7 @@ export class BibleReaderComponent implements OnDestroy {
 
   ngOnDestroy() {
     if (this.routeSub) this.routeSub.unsubscribe();
+    if (this.querySub) this.querySub.unsubscribe();
   }
 
   async loadContent() {
@@ -137,14 +151,27 @@ export class BibleReaderComponent implements OnDestroy {
 
       const content = await this.data.getChapterContent(bId, chap.toString(), currentVer);
       this.verses.set(content);
+
+      if (typeof window !== 'undefined') {
+        if (this.targetVerseNumber) {
+          const targetId = `${bId}-${chap}-${this.targetVerseNumber}`;
+          requestAnimationFrame(() => {
+            const el = document.getElementById(`verse-${targetId}`);
+            if (el) {
+              el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            } else {
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+          });
+        } else {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+      }
     } catch (error) {
       console.error('Hiba az olvasó betöltésekor:', error);
       this.verses.set([]);
     } finally {
       this.isLoading.set(false);
-      if (typeof window !== 'undefined') {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      }
     }
   }
 

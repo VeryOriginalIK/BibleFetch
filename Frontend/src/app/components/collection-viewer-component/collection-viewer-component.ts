@@ -1,4 +1,4 @@
-import { Component, OnInit, inject, signal, computed } from '@angular/core';
+import { Component, OnInit, OnDestroy, inject, signal, computed, HostListener } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
@@ -15,7 +15,7 @@ import { AuthService } from '../../services/auth-service/auth.service';
   imports: [CommonModule, RouterModule, FormsModule],
   templateUrl: './collection-viewer-component.html',
 })
-export class CollectionViewerComponent implements OnInit {
+export class CollectionViewerComponent implements OnInit, OnDestroy {
   private route = inject(ActivatedRoute);
   public router = inject(Router);
   private collectionService = inject(CollectionService);
@@ -29,6 +29,8 @@ export class CollectionViewerComponent implements OnInit {
   showAddVerseModal = signal(false);
   errorMessage = signal<string | null>(null);
   verseLikeCounts = signal<Map<string, number>>(new Map());
+  expandedVerseIds = signal<Set<string>>(new Set());
+  private overflowingVerses = signal<Set<string>>(new Set());
 
   // Verse picker state
   showVersePicker = signal(false);
@@ -51,6 +53,7 @@ export class CollectionViewerComponent implements OnInit {
       this.router.navigate(['/']);
       return;
     }
+    this.currentCollectionId = id;
 
     const col = this.collectionService.getCollection(id);
     if (!col) {
@@ -61,6 +64,17 @@ export class CollectionViewerComponent implements OnInit {
     this.collection.set(col);
     await this.loadVerses();
     await this.loadBookList();
+    this.restoreScrollPosition();
+    setTimeout(() => this.restoreScrollPosition(), 50);
+  }
+
+  ngOnDestroy() {
+    this.persistScrollPosition();
+  }
+
+  @HostListener('window:scroll')
+  onWindowScroll() {
+    this.persistScrollPosition();
   }
 
   async loadBookList() {
@@ -225,11 +239,68 @@ export class CollectionViewerComponent implements OnInit {
     }
   }
 
-  navigateToVerse(book: string, chapter: string) {
-    this.router.navigate(['/bible', book, chapter]);
+  navigateToVerse(book: string, chapter: string, verseId: string) {
+    const parsed = this.bibleService.parseVerseRef(verseId);
+    const targetVerse = parsed?.verseStart;
+
+    this.persistScrollPosition();
+
+    if (targetVerse) {
+      this.router.navigate(['/bible', book, chapter], { queryParams: { verse: targetVerse } });
+    } else {
+      this.router.navigate(['/bible', book, chapter]);
+    }
   }
 
-  deleteCollection() {
+  toggleVerseExpanded(verseId: string, event?: Event) {
+    event?.stopPropagation();
+    this.expandedVerseIds.update((current) => {
+      const next = new Set(current);
+      if (next.has(verseId)) {
+        next.delete(verseId);
+      } else {
+        next.add(verseId);
+      }
+      return next;
+    });
+  }
+
+  isVerseExpanded(verseId: string): boolean {
+    return this.expandedVerseIds().has(verseId);
+  }
+
+  private getScrollKey(): string {
+    return `collection_scroll_${this.currentCollectionId}`;
+  }
+
+  private persistScrollPosition() {
+    if (typeof window === 'undefined' || !this.currentCollectionId) return;
+    sessionStorage.setItem(this.getScrollKey(), String(window.scrollY || 0));
+  }
+
+  private restoreScrollPosition() {
+    if (typeof window === 'undefined' || !this.currentCollectionId) return;
+    const raw = sessionStorage.getItem(this.getScrollKey());
+    if (!raw) return;
+    const y = Number(raw);
+    if (!Number.isFinite(y)) return;
+    requestAnimationFrame(() => window.scrollTo({ top: y, behavior: 'auto' }));
+  }
++
++  private markOverflowingVerses() {
++    if (typeof window === 'undefined') return;
++    const set = new Set<string>();
++    for (const verse of this.verses()) {
++      const el = document.getElementById(`text-${verse.id}`);
++      if (el) {
++        const lineHeight = parseFloat(getComputedStyle(el).lineHeight || '0');
++        if (lineHeight > 0 && el.scrollHeight > lineHeight * 2 + 1) {
++          set.add(verse.id);
++        }
++      }
++    }
++    this.overflowingVerses.set(set);
++  }
     const col = this.collection();
     if (!col) return;
 
