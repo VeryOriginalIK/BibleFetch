@@ -8,11 +8,12 @@ import { BibleDataService } from '../../services/data-service/data-service';
 import { StateService } from '../../services/state-service/state-service';
 import { UserCollection } from '../../models/user-collection-model';
 import { AuthService } from '../../services/auth-service/auth.service';
+import { VerseRendererComponent } from '../verse-renderer-component/verse-renderer-component';
 
 @Component({
   standalone: true,
   selector: 'app-collection-viewer',
-  imports: [CommonModule, RouterModule, FormsModule],
+  imports: [CommonModule, RouterModule, FormsModule, VerseRendererComponent],
   templateUrl: './collection-viewer-component.html',
 })
 export class CollectionViewerComponent implements OnInit, OnDestroy {
@@ -30,7 +31,7 @@ export class CollectionViewerComponent implements OnInit, OnDestroy {
   errorMessage = signal<string | null>(null);
   verseLikeCounts = signal<Map<string, number>>(new Map());
   expandedVerseIds = signal<Set<string>>(new Set());
-  private overflowingVerses = signal<Set<string>>(new Set());
+  private currentCollectionId = '';
 
   // Verse picker state
   showVersePicker = signal(false);
@@ -286,21 +287,8 @@ export class CollectionViewerComponent implements OnInit, OnDestroy {
     if (!Number.isFinite(y)) return;
     requestAnimationFrame(() => window.scrollTo({ top: y, behavior: 'auto' }));
   }
-+
-+  private markOverflowingVerses() {
-+    if (typeof window === 'undefined') return;
-+    const set = new Set<string>();
-+    for (const verse of this.verses()) {
-+      const el = document.getElementById(`text-${verse.id}`);
-+      if (el) {
-+        const lineHeight = parseFloat(getComputedStyle(el).lineHeight || '0');
-+        if (lineHeight > 0 && el.scrollHeight > lineHeight * 2 + 1) {
-+          set.add(verse.id);
-+        }
-+      }
-+    }
-+    this.overflowingVerses.set(set);
-+  }
+
+  deleteCollection() {
     const col = this.collection();
     if (!col) return;
 

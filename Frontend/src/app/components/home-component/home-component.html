@@ -2,10 +2,10 @@
 
   <div class="max-w-7xl mx-auto mb-8 sm:mb-12 text-center">
     <span class="text-blue-600 dark:text-blue-400 font-semibold tracking-wide uppercase text-xs sm:text-sm">
-      {{ state.translate('discoverTheWord') }}
+      {{ state.lang() === 'hu' ? 'Fedezd fel az igét' : 'Discover the Word' }}
     </span>
     <h1 class="mt-2 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 dark:text-white leading-tight">
-      {{ state.translate('topicsCollections') }}
+      {{ state.lang() === 'hu' ? 'Témák & Gyűjtemények' : 'Topics & Collections' }}
     </h1>
     <p class="max-w-xl mt-4 sm:mt-5 mx-auto text-base sm:text-xl text-gray-500 dark:text-gray-400 px-4">
       {{ state.lang() === 'hu'

@@ -106,34 +106,31 @@
 
               <!-- Verse Text (2 lines by default) -->
               <div class="mb-2">
-                <p
+                <app-verse-renderer
                   class="text-gray-700 dark:text-gray-300 leading-relaxed text-sm sm:text-base"
+                  [rawText]="verse.text"
                   [class.line-clamp-2]="!isVerseExpanded(verse.id)"
-                >
-                  {{ verse.text }}
-                </p>
+                ></app-verse-renderer>
               </div>
 
-              @if (overflowingVerses().has(verse.id)) {
-+              <div class="mb-2">
-+                <button
-+                  (click)="toggleVerseExpanded(verse.id, $event)"
-+                  class="inline-flex items-center gap-1 text-xs sm:text-sm font-medium text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition"
-+                >
-+                  @if (isVerseExpanded(verse.id)) {
-+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"/>
-+                    </svg>
-+                    {{ state.lang() === 'hu' ? 'Kevesebb' : 'Show less' }}
-+                  } @else {
-+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-+                    </svg>
-+                    {{ state.lang() === 'hu' ? 'Tovább' : 'Show more' }}
-+                  }
-+                </button>
-+              </div>
-+              }
+              <div class="mb-2">
+                <button
+                  (click)="toggleVerseExpanded(verse.id, $event)"
+                  class="inline-flex items-center gap-1 text-xs sm:text-sm font-medium text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition"
+                >
+                  @if (isVerseExpanded(verse.id)) {
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"/>
+                    </svg>
+                    {{ state.lang() === 'hu' ? 'Kevesebb' : 'Show less' }}
+                  } @else {
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                    {{ state.lang() === 'hu' ? 'Tovább' : 'Show more' }}
+                  }
+                </button>
+              </div>
 
               <!-- Verse Comment -->
               <div class="mt-3 border-t border-gray-100 dark:border-gray-700 pt-3">
