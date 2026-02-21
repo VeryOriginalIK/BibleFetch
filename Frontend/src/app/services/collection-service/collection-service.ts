@@ -1,5 +1,7 @@
 import { Injectable, inject, signal, PLATFORM_ID, effect } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
+import { HttpClient } from '@angular/common/http';
+import { firstValueFrom } from 'rxjs';
 import { UserCollection } from '../../models/user-collection-model';
 import { SupabaseSyncService } from '../supabase-sync/supabase-sync.service';
 import { AuthService } from '../auth-service/auth.service';
@@ -10,6 +12,7 @@ const STORAGE_KEY = 'bible_collections';
 export class CollectionService {
   private platformId = inject(PLATFORM_ID);
   private auth = inject(AuthService);
+  private http = inject(HttpClient);
 
   /** All collections */
   readonly collections = signal<UserCollection[]>([]);
@@ -36,6 +39,11 @@ export class CollectionService {
 
     // Merge any duplicate-named collections on startup
     this.mergeDuplicateNames();
+
+    // Auto-sync default topics (creates topic collections for all built-in topics)
+    if (isPlatformBrowser(this.platformId)) {
+      this.syncDefaultTopics();
+    }
   }
 
   private async autoSyncOnLogin() {
@@ -80,6 +88,11 @@ export class CollectionService {
   async makeCollectionPublic(collectionId: string) {
     const collection = this.getCollection(collectionId);
     if (!collection) return { ok: false, error: 'Collection not found' };
+
+    // Prevent topic-based collections from being made public
+    if (collection.topicId) {
+      return { ok: false, error: 'Topic collections cannot be made public' };
+    }
 
     try {
       await this.supabase.shareCollection(collection);
@@ -516,6 +529,49 @@ export class CollectionService {
       console.log(`[CollectionService] Merged ${this.collections().length - finalCollections.length} duplicate collections`);
       this.collections.set(finalCollections);
       this.save();
+    }
+  }
+
+  // --- DEFAULT TOPICS ---
+
+  /**
+   * Load and sync all default topics as collections on startup.
+   * Each topic becomes a collection linked to the user's account.
+   * Verse additions/deletions stay synchronized.
+   */
+  private async syncDefaultTopics() {
+    try {
+      const index = await firstValueFrom(
+        this.http.get<{ id: string; titles: { hu: string; en: string }; theme_color?: string }[]>(
+          '/assets/topics/index.json'
+        )
+      );
+
+      for (const topic of index) {
+        // Check if we already have this topic collection
+        const existing = this.collections().find((c) => c.topicId === topic.id);
+        if (existing) continue; // Already synced
+
+        // Load topic detail to get verse IDs
+        try {
+          const detail = await firstValueFrom(
+            this.http.get<{ verse_ids: string[]; theme_color?: string }>(
+              `/assets/topics/${topic.id}.json`
+            )
+          );
+
+          this.syncTopicCollection(
+            topic.id,
+            topic.titles.hu || topic.titles.en || topic.id,
+            detail.verse_ids,
+            detail.theme_color || topic.theme_color
+          );
+        } catch {
+          // Topic detail file missing, skip
+        }
+      }
+    } catch (err) {
+      console.warn('[CollectionService] Failed to sync default topics:', err);
     }
   }
 

@@ -17,6 +17,10 @@ export class StateService {
   readonly selectedStrongId = signal<string | null>(null);
   readonly definitionModalOpen = signal<boolean>(false);
 
+  // Last reading position (persisted)
+  readonly lastBook = signal<string>('gen');
+  readonly lastChapter = signal<number>(1);
+
   constructor() {
     effect(() => {
       if (isPlatformBrowser(this.platformId)) {
@@ -61,6 +65,13 @@ export class StateService {
     this.selectedStrongId.set(null);
   }
 
+  setReadingPosition(book: string, chapter: number) {
+    this.lastBook.set(book);
+    this.lastChapter.set(chapter);
+    this.persist('last_book', book);
+    this.persist('last_chapter', chapter.toString());
+  }
+
   // --- PERSISTENCE ---
 
   private persist(key: string, value: string) {
@@ -84,6 +95,12 @@ export class StateService {
         this.currentBibleVersion.set(migrated);
         if (migrated !== savedVersion) this.persist('bible_version', migrated);
       }
+
+      // Restore last reading position
+      const savedBook = localStorage.getItem('last_book');
+      if (savedBook) this.lastBook.set(savedBook);
+      const savedChapter = localStorage.getItem('last_chapter');
+      if (savedChapter) this.lastChapter.set(parseInt(savedChapter, 10) || 1);
     }
   }
 }

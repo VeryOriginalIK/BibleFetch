@@ -23,7 +23,20 @@ export class BibleDataService {
   private topicDetailsCache = new Map<string, TopicDetail>();
   private chunkCache = new Map<string, VerseChunk>();
 
-  constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
+  constructor(@Inject(PLATFORM_ID) private platformId: Object) {
+    // Rehydrate chapter cache from sessionStorage on browser
+    if (isPlatformBrowser(this.platformId)) {
+      try {
+        const saved = sessionStorage.getItem('_bible_chunk_cache');
+        if (saved) {
+          const entries: [string, VerseChunk][] = JSON.parse(saved);
+          for (const [key, val] of entries) {
+            this.chunkCache.set(key, val);
+          }
+        }
+      } catch { /* ignore corrupt data */ }
+    }
+  }
 
   // === URL KEZELÉS (A JAVÍTÁS LÉNYEGE) ===
   private get baseUrl(): string {
@@ -172,12 +185,24 @@ export class BibleDataService {
         return null;
       }
       this.chunkCache.set(cacheKey, chunk);
+      this.persistChunkCache();
       console.debug(`[DataService] Successfully cached ${chunk.length} verses for ${versionId}/${bookId}/${chapter}`);
       return chunk;
     } catch (e) {
       console.error('[DataService] Failed to load chapter', url, e);
       return null;
     }
+  }
+
+  /** Persist recent chunk cache entries to sessionStorage (keep last 20 for efficiency) */
+  private persistChunkCache() {
+    if (!isPlatformBrowser(this.platformId)) return;
+    try {
+      const entries = Array.from(this.chunkCache.entries());
+      // Keep only the most recent 20 chapters to avoid exceeding sessionStorage limits
+      const toStore = entries.slice(-20);
+      sessionStorage.setItem('_bible_chunk_cache', JSON.stringify(toStore));
+    } catch { /* quota exceeded or unavailable */ }
   }
 
   // ReaderComponent számára (Observable wrapper)

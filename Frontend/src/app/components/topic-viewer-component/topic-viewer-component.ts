@@ -7,6 +7,7 @@ import { TopicService } from '../../services/topic-service/topic-service';
 import { BibleDataService } from '../../services/data-service/data-service';
 import { VerseRendererComponent } from '../verse-renderer-component/verse-renderer-component';
 import { CollectionService } from '../../services/collection-service/collection-service';
+import { StateService } from '../../services/state-service/state-service';
 import { TopicDetail } from '../../models/topic-detail-model';
 
 interface RenderedVerse {
@@ -30,6 +31,7 @@ export class TopicViewerComponent implements OnInit {
   private topicsService = inject(TopicService);
   private bibleService = inject(BibleDataService);
   public collectionService = inject(CollectionService);
+  public state = inject(StateService);
 
   vm$!: Observable<{ topic: TopicDetail; verses: RenderedVerse[] }>;
 
@@ -82,6 +84,9 @@ export class TopicViewerComponent implements OnInit {
               topic.theme_color
             );
 
+            // Use current translation from state; this properly handles Strong's-enriched texts
+            const currentVersion = this.state.currentBibleVersion();
+
             const requests = topic.verses.map((idString) => {
               const ref = this.bibleService.parseVerseRef(idString);
 
@@ -93,7 +98,7 @@ export class TopicViewerComponent implements OnInit {
               const isRange = verseStart !== verseEnd;
               const chapterNum = typeof chapter === 'number' ? chapter : parseInt(String(chapter), 10);
 
-              return this.bibleService.getChapter('kjv_strongs', bookId, chapterNum).pipe(
+              return this.bibleService.getChapter(currentVersion, bookId, chapterNum).pipe(
                 map((chapterVerses) => {
                   if (isRange) {
                     const found = chapterVerses

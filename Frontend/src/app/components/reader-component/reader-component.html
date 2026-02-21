@@ -1,72 +1,128 @@
-<div class="reader-layout">
-  <article class="paper-card">
-    <header class="chapter-header">
-      <div class="version-tag">{{ currentTrans | uppercase }}</div>
-      <h1 class="book-title">
-        <span class="book-name">{{ currentBook | titlecase }}</span>
-        <span class="chapter-num">{{ currentChapter }}</span>
+<div class="min-h-screen bg-gray-50 dark:bg-gray-950 pb-24 transition-colors">
+
+  <!-- Sticky sub-bar — sits below the global header -->
+  <div class="sticky top-16 z-30 bg-white/95 dark:bg-gray-900/95 backdrop-blur border-b border-gray-200 dark:border-gray-800 px-3 sm:px-4 py-2.5 flex justify-between items-center shadow-sm">
+    <div class="min-w-0 flex-1">
+      <h1 class="text-lg sm:text-xl font-serif font-bold capitalize truncate">
+        <span>{{ currentBook | titlecase }}</span>
+        <span class="text-blue-600 ml-1">{{ currentChapter }}</span>
       </h1>
-    </header>
+      <span class="text-[10px] font-medium uppercase tracking-wider text-gray-400 bg-gray-100 dark:bg-gray-800 px-2 py-0.5 rounded-full">
+        {{ currentTrans | uppercase }}
+      </span>
+    </div>
+    <div class="flex items-center gap-1">
+      <button (click)="navChapter(-1)"
+              [disabled]="currentChapter === '1'"
+              class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 disabled:opacity-30 disabled:cursor-not-allowed transition-colors">
+        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+        </svg>
+      </button>
+      <button (click)="navChapter(1)"
+              class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Content area -->
+  <div class="max-w-screen-md mx-auto px-4 sm:px-6 py-6 sm:py-8"
+       style="padding-left: max(1rem, env(safe-area-inset-left)); padding-right: max(1rem, env(safe-area-inset-right));">
 
     @if (isLoading) {
-      <div class="status-container">
-        <div class="spinner"></div>
-        <p>Szöveg betöltése...</p>
+      <div class="flex justify-center items-center py-20 space-x-2 animate-pulse">
+        <div class="w-3 h-3 bg-blue-600 rounded-full"></div>
+        <div class="w-3 h-3 bg-blue-600 rounded-full"></div>
+        <div class="w-3 h-3 bg-blue-600 rounded-full"></div>
       </div>
     }
 
     @if (errorMessage) {
-      <div class="status-container error-state">
-        <div class="error-icon">⚠️</div>
-        <p>{{ errorMessage }}</p>
-        <button (click)="loadChapter()" class="btn-retry">Újrapróbálás</button>
+      <div class="text-center py-16 px-4">
+        <div class="text-4xl mb-4">⚠️</div>
+        <p class="text-red-600 dark:text-red-400 font-medium mb-3">{{ errorMessage }}</p>
+        <button (click)="loadChapter()"
+                class="px-4 py-2 rounded-full bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 transition-colors">
+          Újrapróbálás
+        </button>
       </div>
     }
 
     @if (!isLoading && !errorMessage && verses.length === 0) {
-      <div class="status-container empty-state">
-        <p>Ez a fejezet még nem elérhető.</p>
+      <div class="text-center py-16">
+        <div class="text-4xl mb-3">📖</div>
+        <p class="text-gray-500">Ez a fejezet még nem elérhető.</p>
       </div>
     }
 
     @if (!isLoading && verses.length > 0) {
-      <section class="scripture-body">
+      <div class="space-y-3 sm:space-y-4">
         @for (verse of verses; track verse.v) {
           <div
             [id]="'v-' + verse.v"
-            class="verse-wrapper"
-            [class.focused-verse]="focusVerse === verse.v"
-            [class.hidden-verse]="isHidden(verse.v)"
+            class="relative group pl-2 rounded-lg transition-all cursor-pointer"
+            [class.bg-amber-50]="focusVerse === verse.v"
+            [class.dark:bg-amber-950/30]="focusVerse === verse.v"
+            [class.opacity-40]="isHidden(verse.v)"
             (click)="onVerseClick(verse)"
           >
-            <span class="v-num">{{ verse.v }}</span>
+            <span class="absolute -left-1 sm:-left-4 top-1 text-xs text-gray-400 font-bold select-none opacity-60 group-hover:opacity-100 group-hover:text-blue-500 transition-all">
+              {{ verse.v }}
+            </span>
 
-            <div class="v-text">
+            <div class="text-base sm:text-lg leading-relaxed font-serif pr-6 break-words"
+                 [class.blur-sm]="isHidden(verse.v)"
+                 [class.pointer-events-none]="isHidden(verse.v)">
               <app-verse-renderer [rawText]="verse.text"></app-verse-renderer>
             </div>
 
             @if (isHidden(verse.v)) {
-              <button class="btn-reveal" (click)="toggleHide(verse.v, $event)">
+              <button (click)="toggleHide(verse.v, $event)"
+                      class="mt-1.5 mx-auto block px-3 py-1 text-xs rounded-full bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-800/40 transition-colors">
                 👁️ Megjelenítés
               </button>
             }
           </div>
         }
-      </section>
+      </div>
     }
+  </div>
 
-    <footer class="chapter-footer">
-      <button
-        (click)="navChapter(-1)"
-        [disabled]="currentChapter === '1' && currentBook === 'gen'"
-        class="nav-btn prev"
-      >
-        <span>← Előző</span>
+  <!-- Floating navigation buttons (mobile) -->
+  @if (!isLoading && verses.length > 0) {
+    <div class="fixed bottom-24 left-4 right-4 z-40 flex justify-between pointer-events-none sm:hidden"
+         style="bottom: calc(6rem + env(safe-area-inset-bottom));">
+      <button (click)="navChapter(-1)"
+              [disabled]="currentChapter === '1'"
+              class="pointer-events-auto w-12 h-12 rounded-full bg-blue-600 hover:bg-blue-700 text-white shadow-lg flex items-center justify-center transition-all active:scale-95 disabled:opacity-30">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+        </svg>
       </button>
+      <button (click)="navChapter(1)"
+              class="pointer-events-auto w-12 h-12 rounded-full bg-blue-600 hover:bg-blue-700 text-white shadow-lg flex items-center justify-center transition-all active:scale-95">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+        </svg>
+      </button>
+    </div>
+  }
 
-      <button (click)="navChapter(1)" class="nav-btn next">
-        <span>Következő →</span>
+  <!-- Bottom prev/next buttons -->
+  @if (!isLoading && verses.length > 0) {
+    <div class="max-w-screen-md mx-auto px-4 flex justify-center gap-4 mt-8 mb-8">
+      <button (click)="navChapter(-1)"
+              [disabled]="currentChapter === '1'"
+              class="px-6 py-2.5 rounded-full border border-gray-300 dark:border-gray-700 text-sm hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors disabled:opacity-30 disabled:cursor-not-allowed">
+        ← Előző
       </button>
-    </footer>
-  </article>
+      <button (click)="navChapter(1)"
+              class="px-6 py-2.5 rounded-full bg-blue-600 text-white text-sm hover:bg-blue-700 shadow-md transition-colors">
+        Következő →
+      </button>
+    </div>
+  }
 </div>

@@ -7,6 +7,7 @@ import { StateService } from '../../services/state-service/state-service';
 import { VerseRendererComponent } from '../verse-renderer-component/verse-renderer-component';
 import { BibleDataService } from '../../services/data-service/data-service';
 import { Version } from '../../models/version-model';
+import { StrongsSearchService, StrongsSearchResult } from '../../services/strongs-search-service/strongs-search.service';
 
 interface VersePreview {
   verseId: string;
@@ -29,6 +30,7 @@ interface LanguageGroup {
 export class SearchBarComponent implements OnInit {
   private searchService = inject(SearchService);
   private dataService = inject(BibleDataService);
+  private strongsSearch = inject(StrongsSearchService);
   private router = inject(Router);
   state = inject(StateService);
 
@@ -38,6 +40,11 @@ export class SearchBarComponent implements OnInit {
   isSearching = signal(false);
   selectedWord = signal<string | null>(null);
   isLoadingPreviews = signal(false);
+
+  // Strong's concordance search results
+  strongsResults = signal<StrongsSearchResult[]>([]);
+  selectedStrong = signal<StrongsSearchResult | null>(null);
+  isLoadingStrongsVerses = signal(false);
 
   // Full-verse UI / debug state
   allVerses = signal<VersePreview[]>([]);
@@ -117,10 +124,18 @@ export class SearchBarComponent implements OnInit {
     if (q.length < 2) return;
 
     this.isSearching.set(true);
+    this.selectedStrong.set(null);
     try {
       const version = this.state.currentBibleVersion();
-      const res = await this.searchService.search(q, version);
+
+      // Run text search and Strong's transliteration search in parallel
+      const [res, strongsRes] = await Promise.all([
+        this.searchService.search(q, version),
+        this.strongsSearch.search(q, 15),
+      ]);
+
       this.results.set(res);
+      this.strongsResults.set(strongsRes);
 
       // Auto-select exact match if found
       const exact = res.find((r) => r.word === q.toLowerCase());
@@ -340,6 +355,7 @@ export class SearchBarComponent implements OnInit {
 
   clearSelection() {
     this.selectedWord.set(null);
+    this.selectedStrong.set(null);
     this.previews.set([]);
     this.previewLimit.set(this.PREVIEW_PAGE_SIZE);
     this.currentUniqueVerseIds = [];
@@ -350,6 +366,52 @@ export class SearchBarComponent implements OnInit {
     this.allVerses.set([]);
     this.showAllVerses.set(false);
     this.isLoadingAllVerses.set(false);
+  }
+
+  /**
+   * Select a Strong's concordance entry and load all verses containing that code.
+   */
+  async selectStrongsEntry(entry: StrongsSearchResult) {
+    this.selectedStrong.set(entry);
+    this.selectedWord.set(null);
+    this.isLoadingStrongsVerses.set(true);
+    this.previews.set([]);
+
+    try {
+      const verseIds = await this.strongsSearch.findVersesWithStrong(entry.code);
+      this.currentUniqueVerseIds = verseIds;
+      this.currentUniqueVerseCount = verseIds.length;
+      this.previewLimit.set(this.PREVIEW_PAGE_SIZE);
+      await this.loadStrongsPreviews();
+    } finally {
+      this.isLoadingStrongsVerses.set(false);
+    }
+  }
+
+  private async loadStrongsPreviews() {
+    this.isLoadingPreviews.set(true);
+    // Always use kjv_strongs for Strong's code lookups
+    const version = 'kjv_strongs';
+    const limit = this.previewLimit();
+    const idsToLoad = this.currentUniqueVerseIds.slice(0, limit);
+
+    const textPromises = idsToLoad.map(async (verseId) => {
+      try {
+        const textRaw = await this.dataService.getVerseText(verseId, version);
+        const text = textRaw || '';
+        const parts = verseId.split('-');
+        const label = parts.length >= 3 ? `${parts[0].toUpperCase()} ${parts[1]}:${parts[2]}` : verseId;
+        return { verseId, label, text: text || '[text unavailable]' } as VersePreview;
+      } catch {
+        const parts = verseId.split('-');
+        const label = parts.length >= 3 ? `${parts[0].toUpperCase()} ${parts[1]}:${parts[2]}` : verseId;
+        return { verseId, label, text: '[text unavailable]' } as VersePreview;
+      }
+    });
+
+    const resolved = await Promise.all(textPromises);
+    this.previews.set(resolved.filter((p): p is VersePreview => !!p));
+    this.isLoadingPreviews.set(false);
   }
 
   getUniqueVerseCount(): number {
@@ -381,6 +443,8 @@ export class SearchBarComponent implements OnInit {
     this.results.set([]);
     this.previews.set([]);
     this.selectedWord.set(null);
+    this.selectedStrong.set(null);
+    this.strongsResults.set([]);
 
     // Check if new version has a search index
     await this.checkIndex();
@@ -389,6 +453,13 @@ export class SearchBarComponent implements OnInit {
     if (this.query().length >= 2 && this.hasSearchIndex()) {
       await this.doSearch();
     }
+  }
+
+  async loadMoreStrongsPreviews(event?: Event) {
+    const newLimit = Math.min(this.previewLimit() + this.PREVIEW_PAGE_SIZE, this.currentUniqueVerseCount);
+    this.previewLimit.set(newLimit);
+    await this.loadStrongsPreviews();
+    if (event && typeof (event as any).preventDefault === 'function') (event as any).preventDefault();
   }
 }
 

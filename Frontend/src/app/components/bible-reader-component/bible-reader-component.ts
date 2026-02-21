@@ -5,15 +5,9 @@ import { FormsModule } from '@angular/forms';
 import { Subscription } from 'rxjs';
 import { BibleDataService } from '../../services/data-service/data-service';
 import { Book } from '../../models/book-model';
-import { Version } from '../../models/version-model';
 import { StateService } from '../../services/state-service/state-service';
 import { CollectionService } from '../../services/collection-service/collection-service';
 import { VerseRendererComponent } from '../verse-renderer-component/verse-renderer-component';
-
-interface LanguageGroup {
-  lang: string;
-  versions: Version[];
-}
 
 @Component({
   selector: 'app-bible-reader',
@@ -54,20 +48,7 @@ export class BibleReaderComponent implements OnDestroy {
   allBooks = signal<Book[]>([]);
   selectedBookForPicker = signal<Book | null>(null);
 
-  // Version picker state
-  versionPickerOpen = signal<boolean>(false);
-  groupedVersions = signal<LanguageGroup[]>([]);
 
-  // Computed: current version display name
-  currentVersionName = computed(() => {
-    const id = this.state.currentBibleVersion();
-    const groups = this.groupedVersions();
-    for (const g of groups) {
-      const v = g.versions.find((ver) => ver.id === id);
-      if (v) return v.name;
-    }
-    return id;
-  });
 
   // Computed: chapter numbers for selected book in picker
   chapterNumbers = computed(() => {
@@ -94,6 +75,7 @@ export class BibleReaderComponent implements OnDestroy {
       if (b && (b !== this.bookId() || c !== this.chapter())) {
         this.bookId.set(b);
         this.chapter.set(c);
+        this.state.setReadingPosition(b, c);
         this.loadContent();
         // Prefetch adjacent chapters for faster navigation
         this.prefetchAdjacentChapters(b, c);
@@ -110,28 +92,10 @@ export class BibleReaderComponent implements OnDestroy {
       }
     });
 
-    // 3. Load versions for the picker
-    this.loadVersions();
   }
 
   ngOnDestroy() {
     if (this.routeSub) this.routeSub.unsubscribe();
-  }
-
-  async loadVersions() {
-    const versions = await this.data.getAvailableVersions();
-    const map = new Map<string, Version[]>();
-    for (const v of versions) {
-      const lang = v.lang || 'Other';
-      if (!map.has(lang)) map.set(lang, []);
-      map.get(lang)!.push(v);
-    }
-    const groups: LanguageGroup[] = [];
-    for (const [lang, vers] of map) {
-      groups.push({ lang, versions: vers.sort((a, b) => a.name.localeCompare(b.name)) });
-    }
-    groups.sort((a, b) => a.lang.localeCompare(b.lang));
-    this.groupedVersions.set(groups);
   }
 
   async loadContent() {
@@ -246,13 +210,6 @@ export class BibleReaderComponent implements OnDestroy {
   // Close collection picker
   closeCollectionPicker() {
     this.collectionPickerVerseId.set(null);
-  }
-
-  // Select a translation version
-  selectVersion(versionId: string) {
-    this.state.setVersion(versionId);
-    this.versionPickerOpen.set(false);
-    // Content reload will be triggered by the effect watching currentBibleVersion
   }
 
   // Prefetch adjacent chapters for faster navigation

@@ -3,11 +3,12 @@ import { CommonModule } from '@angular/common';
 import { Router, RouterModule } from '@angular/router';
 import { AuthService } from '../../services/auth-service/auth.service';
 import { StateService } from '../../services/state-service/state-service';
+import { VersionSelectorComponent } from '../version-selector/version-selector';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [CommonModule, RouterModule],
+  imports: [CommonModule, RouterModule, VersionSelectorComponent],
   templateUrl: './header-component.html',
   styles: [`
     @keyframes slideIn {

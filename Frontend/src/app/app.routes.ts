@@ -1,4 +1,7 @@
 import { Routes } from '@angular/router';
+import { inject } from '@angular/core';
+import { Router } from '@angular/router';
+import { StateService } from './services/state-service/state-service';
 
 export const routes: Routes = [
   {
@@ -21,8 +24,15 @@ export const routes: Routes = [
   },
   {
     path: 'bible',
-    redirectTo: 'bible/gen/1',
     pathMatch: 'full',
+    canActivate: [() => {
+      const state = inject(StateService);
+      const router = inject(Router);
+      // Redirect to last reading position or default gen/1
+      return router.createUrlTree(['/bible', state.lastBook(), state.lastChapter()]);
+    }],
+    loadComponent: () =>
+      import('./components/bible-reader-component/bible-reader-component').then(m => m.BibleReaderComponent),
   },
   {
     path: 'search',

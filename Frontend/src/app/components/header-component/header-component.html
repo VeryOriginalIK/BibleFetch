@@ -38,6 +38,9 @@
     <!-- RIGHT ACTIONS -->
     @if (!isSearchActive()) {
       <div class="flex items-center gap-1">
+        <!-- Version selector -->
+        <app-version-selector></app-version-selector>
+
         <!-- Search icon -->
         <button
           (click)="toggleSearch(true)"
