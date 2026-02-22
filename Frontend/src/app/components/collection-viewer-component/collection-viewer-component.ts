@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy, inject, signal, computed, HostListener } from '@angular/core';
+import { Component, OnInit, OnDestroy, inject, signal, computed, HostListener, AfterViewInit, ChangeDetectorRef, ElementRef, QueryList, ViewChildren } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
@@ -16,7 +16,7 @@ import { VerseRendererComponent } from '../verse-renderer-component/verse-render
   imports: [CommonModule, RouterModule, FormsModule, VerseRendererComponent],
   templateUrl: './collection-viewer-component.html',
 })
-export class CollectionViewerComponent implements OnInit, OnDestroy {
+export class CollectionViewerComponent implements OnInit, OnDestroy, AfterViewInit {
   private route = inject(ActivatedRoute);
   public router = inject(Router);
   private collectionService = inject(CollectionService);
@@ -47,6 +47,14 @@ export class CollectionViewerComponent implements OnInit, OnDestroy {
     const b = this.allBooks().find(x => x.id === this.pickerBook());
     return b?.chapterCount ?? 150;
   });
+
+  @ViewChildren('verseText', { read: ElementRef }) verseTextEls!: QueryList<ElementRef>;
+
+  private overflowMap: Record<string, boolean> = {};
+
+  constructor(
+    private cdr: ChangeDetectorRef
+  ) {}
 
   async ngOnInit() {
     const id = this.route.snapshot.paramMap.get('id');
@@ -264,10 +272,16 @@ export class CollectionViewerComponent implements OnInit, OnDestroy {
       }
       return next;
     });
+
+    setTimeout(() => this.checkOverflowForAll(), 0);
   }
 
   isVerseExpanded(verseId: string): boolean {
     return this.expandedVerseIds().has(verseId);
+  }
+
+  isOverflowing(verseId: string): boolean {
+    return !!this.overflowMap[verseId];
   }
 
   private getScrollKey(): string {
@@ -343,5 +357,37 @@ export class CollectionViewerComponent implements OnInit, OnDestroy {
 
   getVerseLikeCount(verseId: string): number {
     return this.verseLikeCounts().get(verseId) || 0;
+  }
+
+  ngAfterViewInit(): void {
+    setTimeout(() => this.checkOverflowForAll(), 0);
+    this.verseTextEls.changes.subscribe(() => {
+      setTimeout(() => this.checkOverflowForAll(), 0);
+    });
+  }
+
+  private checkOverflowForAll() {
+    this.verseTextEls.forEach((elRef) => {
+      const el = elRef.nativeElement as HTMLElement;
+      const id = el.getAttribute('data-verse-id') || '';
+      if (!id) return;
+
+      const expanded = this.isVerseExpanded(id);
+
+      // Measure full height
+      el.classList.remove('line-clamp-2');
+      const fullHeight = el.scrollHeight;
+
+      // Measure clamped height
+      el.classList.add('line-clamp-2');
+      const clampedHeight = el.getBoundingClientRect().height;
+
+      // Restore correct state
+      if (expanded) el.classList.remove('line-clamp-2');
+
+      this.overflowMap[id] = fullHeight > clampedHeight + 1;
+    });
+
+    this.cdr.detectChanges();
   }
 }

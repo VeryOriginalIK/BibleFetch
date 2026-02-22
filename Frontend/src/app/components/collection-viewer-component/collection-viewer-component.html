@@ -106,12 +106,27 @@
 
               <!-- Verse Text (2 lines by default) -->
               <div class="mb-2">
-                <app-verse-renderer
-                  class="text-gray-700 dark:text-gray-300 leading-relaxed text-sm sm:text-base"
-                  [rawText]="verse.text"
+                <div
+                  #verseText
+                  [attr.data-verse-id]="verse.id"
+                  class="text-gray-700 dark:text-gray-300 leading-relaxed text-sm sm:text-base whitespace-normal break-words overflow-hidden"
                   [class.line-clamp-2]="!isVerseExpanded(verse.id)"
-                ></app-verse-renderer>
+                >
+                  <app-verse-renderer
+                    class="block"
+                    [rawText]="verse.text"
+                  ></app-verse-renderer>
+                </div>
               </div>
+
+              <button
+                *ngIf="isOverflowing(verse.id)"
+                type="button"
+                class="mt-1 inline-flex items-center text-xs text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
+                (click)="toggleVerseExpanded(verse.id, $event)"
+              >
+                <span [class.rotate-180]="isVerseExpanded(verse.id)" class="transition-transform">⌄</span>
+              </button>
 
               <div class="mb-2">
                 <button
