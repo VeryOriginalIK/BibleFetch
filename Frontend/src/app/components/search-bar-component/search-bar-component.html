@@ -165,13 +165,70 @@
         @if (!isLoadingStrongsVerses() && !isLoadingPreviews()) {
           <div class="space-y-3">
             @for (p of previews(); track p.verseId) {
-              <button id="preview-{{p.verseId}}" (click)="navigateToVerse(p.verseId)"
-                class="w-full text-left bg-white dark:bg-gray-800/80 rounded-xl p-4 border border-gray-100 dark:border-gray-700/50 hover:border-blue-300 dark:hover:border-blue-700 hover:shadow-md transition-all group">
-                <div class="text-xs font-bold text-blue-600 mb-1.5 group-hover:text-blue-700">{{ p.label }}</div>
-                <div class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed line-clamp-3">
-                  <app-verse-renderer [rawText]="p.text"></app-verse-renderer>
-                </div>
-              </button>
+              <div class="relative w-full">
+                <button id="preview-{{p.verseId}}" (click)="navigateToVerse(p.verseId)"
+                  class="w-full text-left bg-white dark:bg-gray-800/80 rounded-xl p-4 border border-gray-100 dark:border-gray-700/50 hover:border-blue-300 dark:hover:border-blue-700 hover:shadow-md transition-all group">
+                  <div class="text-xs font-bold text-blue-600 mb-1.5 group-hover:text-blue-700">{{ p.label }}</div>
+                  <div class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed line-clamp-3">
+                    <app-verse-renderer [rawText]="p.text"></app-verse-renderer>
+                  </div>
+                </button>
+                <!-- Add to Collection Button -->
+                <button (click)="openCollectionPicker(p.verseId, $event)"
+                        class="absolute top-2 right-2 p-1.5 rounded-lg bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-800 transition"
+                        title="Add to collection">
+                  +
+                </button>
+                <!-- Collection Picker Dropdown -->
+                @if (collectionPickerVerseId() === p.verseId) {
+                  <div class="absolute right-0 top-10 z-40 w-64 bg-white dark:bg-gray-800 rounded-xl shadow-2xl border border-gray-200 dark:border-gray-700 overflow-hidden"
+                       (click)="$event.stopPropagation()">
+                    <div class="px-3 py-2 border-b border-gray-100 dark:border-gray-700">
+                      <p class="text-xs font-semibold text-gray-500 uppercase tracking-wider">Gyűjtemények</p>
+                    </div>
+                    <div class="max-h-48 overflow-y-auto">
+                      @for (col of $any(collectionService.collections()); track col.id) {
+                        <button
+                          (click)="toggleVerseInCollection(col.id, p.verseId, $event)"
+                          class="w-full flex items-center gap-2 px-3 py-2 text-sm hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors text-left">
+                          <span class="w-5 h-5 flex items-center justify-center rounded border shrink-0 transition-colors"
+                                [class]="collectionService.isVerseInCollection(col.id, p.verseId)
+                                  ? 'bg-blue-600 border-blue-600 text-white'
+                                  : 'border-gray-300 dark:border-gray-600'">
+                            @if (collectionService.isVerseInCollection(col.id, p.verseId)) {
+                              ✓
+                            }
+                          </span>
+                          <span class="truncate">{{ col.name }}</span>
+                          <span class="ml-auto text-xs text-gray-400">{{ col.verse_ids.length }}</span>
+                        </button>
+                      } @empty {
+                        <p class="text-xs text-gray-400 text-center py-3 px-3">Még nincs gyűjtemény.<br>Hozz létre egyet lent.</p>
+                      }
+                    </div>
+                    <!-- Create new collection -->
+                    <div class="border-t border-gray-100 dark:border-gray-700 px-3 py-2">
+                      <div class="flex items-center gap-2">
+                        <input
+                          type="text"
+                          [value]="newCollectionName()"
+                          (input)="newCollectionName.set($any($event.target).value)"
+                          (keydown.enter)="createAndAddToCollection(p.verseId)"
+                          placeholder="Új gyűjtemény..."
+                          class="flex-1 text-sm px-2 py-1.5 rounded-lg border border-gray-200 dark:border-gray-600 bg-gray-50 dark:bg-gray-700 focus:outline-none focus:ring-1 focus:ring-blue-500"
+                          (click)="$event.stopPropagation()"
+                        />
+                        <button
+                          (click)="createAndAddToCollection(p.verseId)"
+                          [disabled]="!newCollectionName().trim()"
+                          class="p-1.5 rounded-lg bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-40 disabled:cursor-not-allowed transition-colors shrink-0">
+                          +
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                }
+              </div>
             }
           </div>
 
@@ -232,16 +289,72 @@
         @if (!isLoadingPreviews()) {
           <div class="space-y-3">
             @for (p of previews(); track p.verseId) {
-              <button                id="preview-{{p.verseId}}"                (click)="navigateToVerse(p.verseId)"
-                class="w-full text-left bg-white dark:bg-gray-800/80 rounded-xl p-4 border border-gray-100 dark:border-gray-700/50 hover:border-blue-300 dark:hover:border-blue-700 hover:shadow-md transition-all group"
-              >
-                <div class="text-xs font-bold text-blue-600 mb-1.5 group-hover:text-blue-700">
-                  {{ p.label }}
-                </div>
-                <div class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed line-clamp-3">
-                  <app-verse-renderer [rawText]="p.text"></app-verse-renderer>
-                </div>
-              </button>
+              <div class="relative w-full">
+                <button id="preview-{{p.verseId}}" (click)="navigateToVerse(p.verseId)"
+                  class="w-full text-left bg-white dark:bg-gray-800/80 rounded-xl p-4 border border-gray-100 dark:border-gray-700/50 hover:border-blue-300 dark:hover:border-blue-700 hover:shadow-md transition-all group">
+                  <div class="text-xs font-bold text-blue-600 mb-1.5 group-hover:text-blue-700">
+                    {{ p.label }}
+                  </div>
+                  <div class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed line-clamp-3">
+                    <app-verse-renderer [rawText]="p.text"></app-verse-renderer>
+                  </div>
+                </button>
+                <!-- Add to Collection Button -->
+                <button (click)="openCollectionPicker(p.verseId, $event)"
+                        class="absolute top-2 right-2 p-1.5 rounded-lg bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-800 transition"
+                        title="Add to collection">
+                  +
+                </button>
+                <!-- Collection Picker Dropdown -->
+                @if (collectionPickerVerseId() === p.verseId) {
+                  <div class="absolute right-0 top-10 z-40 w-64 bg-white dark:bg-gray-800 rounded-xl shadow-2xl border border-gray-200 dark:border-gray-700 overflow-hidden"
+                       (click)="$event.stopPropagation()">
+                    <div class="px-3 py-2 border-b border-gray-100 dark:border-gray-700">
+                      <p class="text-xs font-semibold text-gray-500 uppercase tracking-wider">Gyűjtemények</p>
+                    </div>
+                    <div class="max-h-48 overflow-y-auto">
+                      @for (col of $any(collectionService.collections()); track col.id) {
+                        <button
+                          (click)="toggleVerseInCollection(col.id, p.verseId, $event)"
+                          class="w-full flex items-center gap-2 px-3 py-2 text-sm hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors text-left">
+                          <span class="w-5 h-5 flex items-center justify-center rounded border shrink-0 transition-colors"
+                                [class]="collectionService.isVerseInCollection(col.id, p.verseId)
+                                  ? 'bg-blue-600 border-blue-600 text-white'
+                                  : 'border-gray-300 dark:border-gray-600'">
+                            @if (collectionService.isVerseInCollection(col.id, p.verseId)) {
+                              ✓
+                            }
+                          </span>
+                          <span class="truncate">{{ col.name }}</span>
+                          <span class="ml-auto text-xs text-gray-400">{{ col.verse_ids.length }}</span>
+                        </button>
+                      } @empty {
+                        <p class="text-xs text-gray-400 text-center py-3 px-3">Még nincs gyűjtemény.<br>Hozz létre egyet lent.</p>
+                      }
+                    </div>
+                    <!-- Create new collection -->
+                    <div class="border-t border-gray-100 dark:border-gray-700 px-3 py-2">
+                      <div class="flex items-center gap-2">
+                        <input
+                          type="text"
+                          [value]="newCollectionName()"
+                          (input)="newCollectionName.set($any($event.target).value)"
+                          (keydown.enter)="createAndAddToCollection(p.verseId)"
+                          placeholder="Új gyűjtemény..."
+                          class="flex-1 text-sm px-2 py-1.5 rounded-lg border border-gray-200 dark:border-gray-600 bg-gray-50 dark:bg-gray-700 focus:outline-none focus:ring-1 focus:ring-blue-500"
+                          (click)="$event.stopPropagation()"
+                        />
+                        <button
+                          (click)="createAndAddToCollection(p.verseId)"
+                          [disabled]="!newCollectionName().trim()"
+                          class="p-1.5 rounded-lg bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-40 disabled:cursor-not-allowed transition-colors shrink-0">
+                          +
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                }
+              </div>
             }
           </div>
 
