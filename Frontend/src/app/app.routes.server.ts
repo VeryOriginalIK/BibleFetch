@@ -18,6 +18,10 @@ export const serverRoutes: ServerRoute[] = [
     renderMode: RenderMode.Client,
   },
   {
+    path: 'strongs/:id',
+    renderMode: RenderMode.Client, // dynamic lexicon entries should be client-rendered
+  },
+  {
     path: 'public-collections',
     renderMode: RenderMode.Prerender,
   },
