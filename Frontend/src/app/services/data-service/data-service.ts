@@ -59,6 +59,50 @@ export class BibleDataService {
       return;
     }
 
+    // Server side: read JSON directly from disk (avoids HTTP loopback connection errors)
+    if (!isPlatformBrowser(this.platformId)) {
+      try {
+        const fs = await import('node:fs/promises');
+        const path = await import('node:path');
+
+        const baseCandidates = [
+          path.join(process.cwd(), 'dist', 'frontend', 'browser', 'assets', 'translation_structures'),
+          path.join(process.cwd(), 'src', 'assets', 'translation_structures'),
+        ];
+
+        for (const base of baseCandidates) {
+          // Try bundled metadata.json first
+          try {
+            const raw = await fs.readFile(path.join(base, 'metadata.json'), 'utf-8');
+            const metadata = JSON.parse(raw);
+            this.booksBaseCache = metadata.books;
+            this.structuresCache = metadata.structures;
+            this.versionsCache = metadata.versions;
+            return;
+          } catch { /* try individual files */ }
+
+          // Try individual files
+          try {
+            const [books, structures, versions] = await Promise.all([
+              fs.readFile(path.join(base, 'books.json'), 'utf-8').then(JSON.parse),
+              fs.readFile(path.join(base, 'structures.json'), 'utf-8').then(JSON.parse),
+              fs.readFile(path.join(base, 'versions.json'), 'utf-8').then(JSON.parse),
+            ]);
+            this.booksBaseCache = books;
+            this.structuresCache = structures;
+            this.versionsCache = versions;
+            return;
+          } catch { /* try next candidate */ }
+        }
+      } catch { /* silently fail on server */ }
+
+      // Fallback: empty caches so the app still boots on server
+      this.booksBaseCache = [];
+      this.structuresCache = {};
+      this.versionsCache = {};
+      return;
+    }
+
     // Load bundled metadata (books + structures + versions in one request)
     const META_URL = `${this.baseUrl}/translation_structures`;
 

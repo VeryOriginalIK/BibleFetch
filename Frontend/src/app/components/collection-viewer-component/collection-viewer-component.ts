@@ -1,5 +1,5 @@
-import { Component, OnInit, OnDestroy, inject, signal, computed, HostListener, AfterViewInit, ChangeDetectorRef, ElementRef, QueryList, ViewChildren } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { Component, OnInit, OnDestroy, inject, signal, computed, HostListener, PLATFORM_ID, effect } from '@angular/core';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 import { firstValueFrom } from 'rxjs';
@@ -16,13 +16,14 @@ import { VerseRendererComponent } from '../verse-renderer-component/verse-render
   imports: [CommonModule, RouterModule, FormsModule, VerseRendererComponent],
   templateUrl: './collection-viewer-component.html',
 })
-export class CollectionViewerComponent implements OnInit, OnDestroy, AfterViewInit {
+export class CollectionViewerComponent implements OnInit, OnDestroy {
   private route = inject(ActivatedRoute);
   public router = inject(Router);
   private collectionService = inject(CollectionService);
   private bibleService = inject(BibleDataService);
   public state = inject(StateService);
   public auth = inject(AuthService);
+  private platformId = inject(PLATFORM_ID);
 
   collection = signal<UserCollection | null>(null);
   verses = signal<Array<{ id: string; text: string; book: string; chapter: string; verse: string; likeCount?: number }>>([]);
@@ -31,7 +32,17 @@ export class CollectionViewerComponent implements OnInit, OnDestroy, AfterViewIn
   errorMessage = signal<string | null>(null);
   verseLikeCounts = signal<Map<string, number>>(new Map());
   expandedVerseIds = signal<Set<string>>(new Set());
+  verseOverflows = signal<Set<string>>(new Set());
   private currentCollectionId = '';
+
+  constructor() {
+    effect(() => {
+      const _version = this.state.currentBibleVersion();
+      if (this.currentCollectionId) {
+        this.loadVerses();
+      }
+    });
+  }
 
   // Verse picker state
   showVersePicker = signal(false);
@@ -47,14 +58,6 @@ export class CollectionViewerComponent implements OnInit, OnDestroy, AfterViewIn
     const b = this.allBooks().find(x => x.id === this.pickerBook());
     return b?.chapterCount ?? 150;
   });
-
-  @ViewChildren('verseText', { read: ElementRef }) verseTextEls!: QueryList<ElementRef>;
-
-  private overflowMap: Record<string, boolean> = {};
-
-  constructor(
-    private cdr: ChangeDetectorRef
-  ) {}
 
   async ngOnInit() {
     const id = this.route.snapshot.paramMap.get('id');
@@ -181,6 +184,19 @@ export class CollectionViewerComponent implements OnInit, OnDestroy, AfterViewIn
     }
 
     this.isLoading.set(false);
+    setTimeout(() => this.checkVerseOverflows(), 150);
+  }
+
+  private checkVerseOverflows() {
+    if (!isPlatformBrowser(this.platformId)) return;
+    const overflows = new Set<string>();
+    for (const v of this.verses()) {
+      const el = document.getElementById(`vr-${v.id}`) as HTMLElement | null;
+      if (el && el.scrollHeight > el.clientHeight + 2) {
+        overflows.add(v.id);
+      }
+    }
+    this.verseOverflows.set(overflows);
   }
 
   removeVerse(verseId: string) {
@@ -272,16 +288,10 @@ export class CollectionViewerComponent implements OnInit, OnDestroy, AfterViewIn
       }
       return next;
     });
-
-    setTimeout(() => this.checkOverflowForAll(), 0);
   }
 
   isVerseExpanded(verseId: string): boolean {
     return this.expandedVerseIds().has(verseId);
-  }
-
-  isOverflowing(verseId: string): boolean {
-    return !!this.overflowMap[verseId];
   }
 
   private getScrollKey(): string {
@@ -357,37 +367,5 @@ export class CollectionViewerComponent implements OnInit, OnDestroy, AfterViewIn
 
   getVerseLikeCount(verseId: string): number {
     return this.verseLikeCounts().get(verseId) || 0;
-  }
-
-  ngAfterViewInit(): void {
-    setTimeout(() => this.checkOverflowForAll(), 0);
-    this.verseTextEls.changes.subscribe(() => {
-      setTimeout(() => this.checkOverflowForAll(), 0);
-    });
-  }
-
-  private checkOverflowForAll() {
-    this.verseTextEls.forEach((elRef) => {
-      const el = elRef.nativeElement as HTMLElement;
-      const id = el.getAttribute('data-verse-id') || '';
-      if (!id) return;
-
-      const expanded = this.isVerseExpanded(id);
-
-      // Measure full height
-      el.classList.remove('line-clamp-2');
-      const fullHeight = el.scrollHeight;
-
-      // Measure clamped height
-      el.classList.add('line-clamp-2');
-      const clampedHeight = el.getBoundingClientRect().height;
-
-      // Restore correct state
-      if (expanded) el.classList.remove('line-clamp-2');
-
-      this.overflowMap[id] = fullHeight > clampedHeight + 1;
-    });
-
-    this.cdr.detectChanges();
   }
 }

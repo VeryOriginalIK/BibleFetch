@@ -61,6 +61,16 @@ export const routes: Routes = [
     title: 'Gyűjtemény',
   },
   {
+    path: 'strongs/:id',
+    loadComponent: () => import('./components/strongs-word-viewer-component/strongs-word-viewer-component').then(m => m.StrongsWordViewerComponent),
+    title: "Strong's Lexicon",
+  },
+  {
+    path: 'strongs',
+    redirectTo: 'strongs/H1',
+    pathMatch: 'full',
+  },
+  {
     path: '**',
     redirectTo: '',
     pathMatch: 'full',
