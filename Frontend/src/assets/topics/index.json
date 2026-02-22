@@ -57,7 +57,7 @@
     "icon": "star",
     "category": "God",
     "theme_color": "#F59E0B",
-    "verseCount": 102
+    "verseCount": 95
   },
   {
     "id": "strenghtening",
@@ -72,6 +72,6 @@
     "icon": "💪",
     "category": "strenght",
     "theme_color": "#F59E0B",
-    "verseCount": 96
+    "verseCount": 99
   }
 ]
