@@ -27,16 +27,16 @@
         <!-- Collection Info -->
         <div class="mt-4 flex flex-wrap items-center gap-3 text-sm">
           <span class="px-3 py-1 rounded-full bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200">
-            📖 {{ col.verse_ids.length }} vers
+            {{ verses().length }} vers
           </span>
           @if (col.is_public) {
             <span class="px-3 py-1 rounded-full bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200">
-              🌐 Nyilvános
+              Nyilvános
             </span>
           }
           @if (col.owner_email && col.owner_email !== auth.user()?.email) {
             <span class="px-3 py-1 rounded-full bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 truncate max-w-[200px]">
-              👤 {{ col.owner_email }}
+              {{ col.owner_email }}
             </span>
           }
         </div>
@@ -119,32 +119,26 @@
                 </div>
               </div>
 
-              <button
-                *ngIf="isOverflowing(verse.id)"
-                type="button"
-                class="mt-1 inline-flex items-center text-xs text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
-                (click)="toggleVerseExpanded(verse.id, $event)"
-              >
-              </button>
-
-              <div class="mb-2">
-                <button
-                  (click)="toggleVerseExpanded(verse.id, $event)"
-                  class="inline-flex items-center gap-1 text-xs sm:text-sm font-medium text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition"
-                >
-                  @if (isVerseExpanded(verse.id)) {
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"/>
-                    </svg>
-                    {{ state.lang() === 'hu' ? 'Kevesebb' : 'Show less' }}
-                  } @else {
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                    </svg>
-                    {{ state.lang() === 'hu' ? 'Tovább' : 'Show more' }}
-                  }
-                </button>
-              </div>
+              @if (isOverflowing(verse.id)) {
+                <div class="mb-2">
+                  <button
+                    (click)="toggleVerseExpanded(verse.id, $event)"
+                    class="inline-flex items-center gap-1 text-xs sm:text-sm font-medium text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition"
+                  >
+                    @if (isVerseExpanded(verse.id)) {
+                      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"/>
+                      </svg>
+                      {{ state.lang() === 'hu' ? 'Kevesebb' : 'Show less' }}
+                    } @else {
+                      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                      </svg>
+                      {{ state.lang() === 'hu' ? 'Tovább' : 'Show more' }}
+                    }
+                  </button>
+                </div>
+              }
 
               <!-- Verse Comment -->
               <div class="mt-3 border-t border-gray-100 dark:border-gray-700 pt-3">
@@ -167,7 +161,7 @@
         <div class="mt-8 pt-6 border-t border-gray-200 dark:border-gray-700">
           <button (click)="deleteCollection()"
                   class="w-full sm:w-auto px-6 py-3 rounded-lg border-2 border-red-300 dark:border-red-700 text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-900/20 font-medium transition">
-            🗑️ Gyűjtemény törlése
+            Gyűjtemény törlése
           </button>
         </div>
       }

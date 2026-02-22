@@ -17,6 +17,9 @@ import { VerseRendererComponent } from '../verse-renderer-component/verse-render
   templateUrl: './collection-viewer-component.html',
 })
 export class CollectionViewerComponent implements OnInit, OnDestroy, AfterViewInit {
+    // Sorting state
+    sortMode = signal<'biblical' | 'likes'>('biblical');
+    bookOrder: string[] = [];
   private route = inject(ActivatedRoute);
   public router = inject(Router);
   private collectionService = inject(CollectionService);
@@ -73,6 +76,11 @@ export class CollectionViewerComponent implements OnInit, OnDestroy, AfterViewIn
   }
 
   async ngOnInit() {
+        // Load book order for sorting
+        try {
+          const books = await this.bibleService.getBooks(this.state.lang());
+          this.bookOrder = (books as Array<{ id: string }>).map(b => b.id);
+        } catch {}
     const id = this.route.snapshot.paramMap.get('id');
     if (!id) {
       this.router.navigate(['/']);
@@ -139,8 +147,27 @@ export class CollectionViewerComponent implements OnInit, OnDestroy, AfterViewIn
 
     const version = this.state.currentBibleVersion();
 
-    // Get sorted verse IDs (liked first, then by like count for public collections)
-    const sortedVerseIds = await this.collectionService.getSortedVerseIds(col.id);
+    let sortedVerseIds = await this.collectionService.getSortedVerseIds(col.id);
+    // Apply sorting mode
+    if (this.sortMode() === 'biblical') {
+      sortedVerseIds = sortedVerseIds.sort((a, b) => {
+        const refA = this.bibleService.parseVerseRef(a);
+        const refB = this.bibleService.parseVerseRef(b);
+        const idxA = this.bookOrder.indexOf(refA?.bookId || '');
+        const idxB = this.bookOrder.indexOf(refB?.bookId || '');
+        if (idxA !== idxB) return idxA - idxB;
+        const chapA = typeof refA?.chapter === 'number' ? refA.chapter : parseInt(String(refA?.chapter || 0), 10);
+        const chapB = typeof refB?.chapter === 'number' ? refB.chapter : parseInt(String(refB?.chapter || 0), 10);
+        if (chapA !== chapB) return chapA - chapB;
+        return (refA?.verseStart || 0) - (refB?.verseStart || 0);
+      });
+    } else if (this.sortMode() === 'likes') {
+      sortedVerseIds = sortedVerseIds.sort((a, b) => {
+        const likeA = this.verseLikeCounts().get(a) || 0;
+        const likeB = this.verseLikeCounts().get(b) || 0;
+        return likeB - likeA;
+      });
+    }
 
     // Load like counts if public collection
     let likeCounts = new Map<string, number>();

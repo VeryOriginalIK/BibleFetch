@@ -151,6 +151,17 @@ export class SearchBarComponent implements OnInit {
       if (exact) {
         this.selectWord(exact);
       }
+        // If this is a multi-word search, render previews for all unique verses found
+        const wordsInPhrase = q.toLowerCase().trim().split(/\s+/).filter(w => w.length > 0);
+        if (wordsInPhrase.length > 1 && res.length > 0) {
+          this.selectedWord.set(res[0].word);
+          // Deduplicate and sort verse IDs for all matches
+          const uniqueVerseIds = Array.from(new Set(res[0].verseIds));
+          this.currentUniqueVerseIds = uniqueVerseIds;
+          this.currentUniqueVerseCount = uniqueVerseIds.length;
+          this.previewLimit.set(this.PREVIEW_PAGE_SIZE);
+          await this.loadPreviews();
+        }
     } finally {
       this.isSearching.set(false);
     }

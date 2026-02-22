@@ -68,46 +68,73 @@ export class SearchService {
     if (!query || query.length < 2) return [];
 
     const normalizedQuery = query.toLowerCase().trim();
-    const bucket = this.getBucket(normalizedQuery);
+    const wordsInPhrase = normalizedQuery.split(/\s+/).filter(w => w.length > 0);
 
-    // Load the translation bucket file
-    const words = await this.loadBucket(translation, bucket);
-
-    // Find exact and prefix matches
-    const results: SearchResult[] = [];
-
-    if (words) {
-      for (const [word, verseIds] of Object.entries(words)) {
-        if (word === normalizedQuery || word.startsWith(normalizedQuery)) {
-          results.push({ word, verseIds: verseIds.slice(0, maxResults), totalCount: verseIds.length });
-        }
-        if (results.length >= 50) break; // Cap word matches
-      }
-    }
-
-    // Fallback to original-language index if no translation hits
-    if (results.length === 0) {
-      const originalWords = await this.loadOriginalBucket(bucket);
-      if (originalWords) {
-        for (const [word, verseIds] of Object.entries(originalWords)) {
+    // Single word search (original logic)
+    if (wordsInPhrase.length === 1) {
+      const bucket = this.getBucket(normalizedQuery);
+      const words = await this.loadBucket(translation, bucket);
+      const results: SearchResult[] = [];
+      if (words) {
+        for (const [word, verseIds] of Object.entries(words)) {
           if (word === normalizedQuery || word.startsWith(normalizedQuery)) {
             results.push({ word, verseIds: verseIds.slice(0, maxResults), totalCount: verseIds.length });
           }
           if (results.length >= 50) break;
         }
       }
+      if (results.length === 0) {
+        const originalWords = await this.loadOriginalBucket(bucket);
+        if (originalWords) {
+          for (const [word, verseIds] of Object.entries(originalWords)) {
+            if (word === normalizedQuery || word.startsWith(normalizedQuery)) {
+              results.push({ word, verseIds: verseIds.slice(0, maxResults), totalCount: verseIds.length });
+            }
+            if (results.length >= 50) break;
+          }
+        }
+      }
+      results.sort((a, b) => {
+        if (a.word === normalizedQuery) return -1;
+        if (b.word === normalizedQuery) return 1;
+        const aCount = a.totalCount ?? a.verseIds.length;
+        const bCount = b.totalCount ?? b.verseIds.length;
+        return bCount - aCount;
+      });
+      return results;
     }
 
-    // Sort: exact match first, then by number of occurrences (use totalCount when available)
-    results.sort((a, b) => {
-      if (a.word === normalizedQuery) return -1;
-      if (b.word === normalizedQuery) return 1;
-      const aCount = a.totalCount ?? a.verseIds.length;
-      const bCount = b.totalCount ?? b.verseIds.length;
-      return bCount - aCount;
-    });
+    // Multi-word phrase search (EXACT logic, show only verses containing the exact phrase)
+    // Load bucket for the first word
+    const firstWord = wordsInPhrase[0];
+    const bucket = this.getBucket(firstWord);
+    const words = await this.loadBucket(translation, bucket);
+    let candidateVerseIds: string[] = [];
+    if (words && words[firstWord]) {
+      candidateVerseIds = words[firstWord];
+    } else {
+      // Fallback to original-language index
+      const originalWords = await this.loadOriginalBucket(bucket);
+      if (originalWords && originalWords[firstWord]) {
+        candidateVerseIds = originalWords[firstWord];
+      }
+    }
 
-    return results;
+    // Now filter candidate verses for exact phrase match
+    const dataService = (this as any).dataService;
+    const matchedVerseIds: string[] = [];
+    for (const verseId of candidateVerseIds) {
+      const textRaw = await dataService.getVerseText(verseId, translation);
+      if (textRaw && textRaw.toLowerCase().includes(normalizedQuery)) {
+        matchedVerseIds.push(verseId);
+        if (matchedVerseIds.length >= maxResults) break;
+      }
+    }
+    return [{
+      word: normalizedQuery,
+      verseIds: matchedVerseIds,
+      totalCount: matchedVerseIds.length
+    }];
   }
 
   private async loadBucket(

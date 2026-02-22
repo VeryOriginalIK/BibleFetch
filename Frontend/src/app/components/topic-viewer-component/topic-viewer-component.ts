@@ -40,7 +40,11 @@ export class TopicViewerComponent implements OnInit {
   newCollectionName = signal<string>('');
 
   navigateToVerse(bookId: string, chapter: number) {
-    this.router.navigate(['/bible', bookId, chapter]);
+    // Find the verse reference from the RenderedVerse
+    // Use query param to indicate the exact verse
+    this.router.navigate(['/bible', bookId, chapter], {
+      queryParams: { verse: chapter }
+    });
   }
 
   openCollectionPicker(verseId: string, event: Event) {

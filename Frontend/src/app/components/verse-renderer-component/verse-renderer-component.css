@@ -8,10 +8,15 @@
   line-height: 1.8;
   font-family: inherit;
   color: inherit;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .simple-word {
   color: inherit;
+  word-break: normal;
+  overflow-wrap: normal;
+  white-space: pre-wrap;
 }
 
 .punctuation {
