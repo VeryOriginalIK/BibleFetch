@@ -1,0 +1,1 @@
+python generate_hebrew_test.py  --xml StrongHebrewG.xml --kjv kjv_strongs.json --hun HungarianBible.xml  --out hebrew_test.json  --map hungarian_strongs_mapping.json  --limit 10
