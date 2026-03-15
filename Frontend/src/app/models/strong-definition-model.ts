@@ -3,8 +3,5 @@ export interface StrongDefinition {
   lemma: string;
   translit: string;
   pronounce: string;
-  defs: {
-    hu?: string;
-    en?: string;
-  };
+  defs: Record<string, string>;
 }

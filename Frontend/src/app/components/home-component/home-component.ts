@@ -46,7 +46,7 @@ export class HomeComponent {
 
   // Collection methods
   get userCollections() {
-    return this.collectionService.collections().filter(c => !c.topicId);
+    return this.collectionService.collections();
   }
 
   navigateToCollection(collectionId: string) {

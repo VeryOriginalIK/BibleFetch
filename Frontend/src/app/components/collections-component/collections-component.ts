@@ -37,13 +37,6 @@ export class CollectionsComponent {
 
   deleteCollection(id: string, event: Event) {
     event.stopPropagation();
-    const collection = this.collectionService.getCollection(id);
-
-    if (collection?.topicId) {
-      alert('A téma-gyűjteményeket nem lehet törölni. Csak verseket távolíthatsz el belőlük.');
-      return;
-    }
-
     if (confirm('Biztosan törlöd ezt a gyűjteményt?')) {
       this.collectionService.deleteCollection(id);
     }

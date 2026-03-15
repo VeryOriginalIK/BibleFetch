@@ -25,10 +25,10 @@ export class BibleDataService {
   private chunkLoadingPromises = new Map<string, Promise<VerseChunk | null>>();
 
   constructor(@Inject(PLATFORM_ID) private platformId: Object) {
-    // Rehydrate chapter cache from sessionStorage on browser
+    // Rehydrate chapter cache from localStorage on browser (survives refresh + tab close)
     if (isPlatformBrowser(this.platformId)) {
       try {
-        const saved = sessionStorage.getItem('_bible_chunk_cache');
+        const saved = localStorage.getItem('_bible_chunk_cache');
         if (saved) {
           const entries: [string, VerseChunk][] = JSON.parse(saved);
           for (const [key, val] of entries) {
@@ -253,14 +253,14 @@ export class BibleDataService {
     return loadPromise;
   }
 
-  /** Persist recent chunk cache entries to sessionStorage (keep last 20 for efficiency) */
+  /** Persist recent chunk cache entries to localStorage (survives refresh + tab close) */
   private persistChunkCache() {
     if (!isPlatformBrowser(this.platformId)) return;
     try {
       const entries = Array.from(this.chunkCache.entries());
-      // Keep only the most recent 20 chapters to avoid exceeding sessionStorage limits
+      // Keep only the most recent 20 chapters to avoid exceeding localStorage limits
       const toStore = entries.slice(-20);
-      sessionStorage.setItem('_bible_chunk_cache', JSON.stringify(toStore));
+      localStorage.setItem('_bible_chunk_cache', JSON.stringify(toStore));
     } catch { /* quota exceeded or unavailable */ }
   }
 

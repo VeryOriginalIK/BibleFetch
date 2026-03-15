@@ -113,14 +113,14 @@
         <!-- Definition(s) -->
         <div class="px-6 py-5 space-y-4">
 
-          <!-- Hungarian definition -->
-          @if (def.defs['hu']) {
+          <!-- Primary: current language definition -->
+          @if (def.defs[state.lang()] && state.lang() !== 'en') {
             <div class="rounded-xl p-4 bg-blue-50 dark:bg-blue-900/20 border border-blue-100 dark:border-blue-800/40">
               <p class="text-xs font-bold uppercase tracking-wider text-blue-700 dark:text-blue-400 mb-2">
-                🇭🇺 Magyar
+                {{ state.lang().toUpperCase() }}
               </p>
               <p class="text-gray-800 dark:text-gray-200 leading-relaxed text-sm">
-                {{ def.defs['hu'] }}
+                {{ def.defs[state.lang()] }}
               </p>
             </div>
           }
@@ -137,7 +137,7 @@
             </div>
           }
 
-          @if (!def.defs['hu'] && !def.defs['en']) {
+          @if (!def.defs[state.lang()] && !def.defs['en']) {
             <p class="text-center text-gray-400 py-4 text-sm">
               {{ state.lang() === 'hu' ? 'Nincs elérhető definíció.' : 'No definition available.' }}
             </p>

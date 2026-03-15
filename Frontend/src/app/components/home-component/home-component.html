@@ -79,10 +79,17 @@
             >
               <div class="flex items-start justify-between mb-2 gap-2">
                 <div class="flex items-center gap-2 min-w-0 flex-1">
-                  <div class="p-2 rounded-xl bg-blue-50 dark:bg-blue-900/30 shrink-0">
-                    <svg class="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/>
-                    </svg>
+                  <div class="p-2 rounded-xl shrink-0"
+                       [style.background-color]="collection.themeColor ? collection.themeColor + '20' : 'rgb(239 246 255)'">
+                    @if (collection.topicId) {
+                      <svg class="w-4 h-4 sm:w-5 sm:h-5" [style.color]="collection.themeColor || 'rgb(37 99 235)'" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/>
+                      </svg>
+                    } @else {
+                      <svg class="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/>
+                      </svg>
+                    }
                   </div>
                   <h3 class="font-semibold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors text-sm sm:text-base truncate">
                     {{ collection.name }}

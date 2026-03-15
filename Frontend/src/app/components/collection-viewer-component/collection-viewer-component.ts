@@ -78,7 +78,7 @@ export class CollectionViewerComponent implements OnInit, OnDestroy, AfterViewIn
   async ngOnInit() {
         // Load book order for sorting
         try {
-          const books = await this.bibleService.getBooks(this.state.lang());
+          const books = await this.bibleService.getBooks(this.state.currentBibleVersion());
           this.bookOrder = (books as Array<{ id: string }>).map(b => b.id);
         } catch {}
     const id = this.route.snapshot.paramMap.get('id');
@@ -113,7 +113,7 @@ export class CollectionViewerComponent implements OnInit, OnDestroy, AfterViewIn
   async loadBookList() {
     try {
       const lang = this.state.lang();
-      const books = await this.bibleService.getBooks(lang);
+      const books = await this.bibleService.getBooks(this.state.currentBibleVersion());
       this.allBooks.set(books.map(b => ({
         id: b.id,
         name: b.name[lang] || b.name['hu'] || b.name['en'] || b.id,
