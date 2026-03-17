@@ -223,7 +223,7 @@ export class StrongsSearchService {
             code: strongDef.id || code,
             lemma: strongDef.lemma || '',
             translit: strongDef.translit || '',
-            shortDef: (strongDef.defs?.en || strongDef.defs?.hu || '').substring(0, 80),
+            shortDef: ((strongDef.defs?.['en'] || strongDef.defs?.['hu'] || '') as string).substring(0, 80),
             language: lang === 'hebrew' ? 'Hebrew' : 'Greek',
           });
           continue;
@@ -238,7 +238,7 @@ export class StrongsSearchService {
           code: greekCode,
           lemma: greekDef.original_word || '',
           translit: greekDef.transliteration || '',
-          shortDef: (greekDef.definition?.en || greekDef.definition?.hu || '').substring(0, 80),
+          shortDef: ((greekDef.definition?.['en'] || greekDef.definition?.['hu'] || '') as string).substring(0, 80),
           language: lang === 'hebrew' ? 'Hebrew' : 'Greek',
         });
       }
@@ -273,7 +273,7 @@ export class StrongsSearchService {
                 code: def.id || code,
                 lemma: def.lemma || '',
                 translit: def.translit || '',
-                shortDef: (def.defs?.en || def.defs?.hu || '').substring(0, 80),
+                shortDef: ((def.defs?.['en'] || def.defs?.['hu'] || '') as string).substring(0, 80),
                 language: lang === 'hebrew' ? 'Hebrew' : 'Greek',
               });
             }
